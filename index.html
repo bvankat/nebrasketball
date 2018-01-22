@@ -70,6 +70,7 @@
  	
   	<script>
 	  	
+	  	var gauge_number = {}; 
 	  	
 	$.getJSON( "data.js", function( json ) {
 			console.log(json);
@@ -90,7 +91,9 @@
 			$('#teamrankings_wl').text(teamrankings_wl);
 			
 			$('#time').text(json.time.time);				
-				
+			
+			
+			gauge_number = json.teamrankings.make_tournament	
 				
 			 google.charts.load('current', {'packages':['gauge']});
 			 google.charts.setOnLoadCallback(drawChart);
@@ -99,9 +102,7 @@
 
 
 	   function drawChart() {
-	
-	   var gauge_number = 20;
-			
+				
         var data = google.visualization.arrayToDataTable([
           ['Label', 'Value'],
           ['', gauge_number],
