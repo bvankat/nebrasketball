@@ -95,18 +95,19 @@
      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
    <script type="text/javascript">
 	   
-	   $.getJSON( "data.js", function( json ) {
 
-	   		var gauge_number = json.teamrankings.make_tournament
-	   		
-	   });
 	   	
 
 	   
       google.charts.load('current', {'packages':['gauge']});
       google.charts.setOnLoadCallback(drawChart);
 
-      function drawChart( gauge_number ) {
+
+	   $.getJSON( "data.js", function( json ) {
+		   
+		   var gauge_number = json.teamrankings.make_tournament;
+
+	   function drawChart( gauge_number ) {
 
         var data = google.visualization.arrayToDataTable([
           ['Label', 'Value'],
@@ -129,7 +130,7 @@
           chart.draw(data, options);
         }, 300);
      
-      }
+      }});
     </script>
   
   
