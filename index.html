@@ -103,12 +103,16 @@
       google.charts.setOnLoadCallback(drawChart);
 
 
-	   $.getJSON( "data.js", function( json ) {
+
+	   function drawChart() {
+
+
+		   $.getJSON( "data.js", function( json ) {
+			   
+			   var gauge_number = json.teamrankings.make_tournament;
+	
+			});
 		   
-		   var gauge_number = json.teamrankings.make_tournament;
-
-	   function drawChart( gauge_number ) {
-
         var data = google.visualization.arrayToDataTable([
           ['Label', 'Value'],
           ['', gauge_number],
@@ -130,7 +134,7 @@
           chart.draw(data, options);
         }, 300);
      
-      }});
+      };
     </script>
   
   
