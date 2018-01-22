@@ -111,8 +111,7 @@
 			   
 			   var gauge_number = json.teamrankings.make_tournament;
 	
-			});
-		   
+			
         var data = google.visualization.arrayToDataTable([
           ['Label', 'Value'],
           ['', gauge_number],
@@ -133,6 +132,9 @@
           data.setValue(0, 1, gauge_number + Math.round(7 * Math.random()));
           chart.draw(data, options);
         }, 300);
+     
+		});
+		   
      
       };
     </script>
