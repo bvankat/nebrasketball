@@ -72,11 +72,8 @@
 	  	
 	  	var gauge_number; 
 	  	
-		$.ajax({
-        url: "data.js",
-        async: false,
-        dataType: 'json',
-        success: function(json) {
+		$.getJSON( "data.js", function( json ) {
+			console.log(json);
 
 			$('#kenpom-rating').text(json.kenpom.rating);
 			$('#ncaa-rating').text(json.ncaa.rpi_rank);
@@ -98,8 +95,7 @@
 			
 			gauge_number = json.teamrankings.make_tournament	
 
-			}
-    	});		
+			});		
 
 				
 			 google.charts.load('current', {'packages':['gauge']});
@@ -107,12 +103,13 @@
 
 			 
 
-
 	   function drawChart() {
-				
+				      console.log("chart.gauge_number: " + gauge_number);	
+				      gauge_number = parseInt(gauge_number);
+
         var data = google.visualization.arrayToDataTable([
           ['Label', 'Value'],
-          ['', 11],
+          ['', gauge_number],
         ]);
 
         var options = {
@@ -127,14 +124,13 @@
         chart.draw(data, options);
 
         setInterval(function() {
-          data.setValue(0, 1, 11 + Math.round(7 * Math.random()));
+          data.setValue(0, 1, gauge_number + Math.round(7 * Math.random()));
           chart.draw(data, options);
         }, 300);
 
      
       };
       
-      console.log("chart.gauge_number: " + gauge_number);	
 				
     </script>
   
