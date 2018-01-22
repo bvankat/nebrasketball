@@ -15,7 +15,7 @@
 	<style>
 	    body { font-family: sans-serif; }
 	    h1 { font-weight: bold; margin-bottom: 40px; text-align: center;}
-	    div.jumbotron { margin-top: 30px; }
+	    div.jumbotron { color: #fff; background-color: #e21d38; border-radius: 0; }
 	    
 	</style>
 
@@ -24,9 +24,9 @@
   </head>
   <body>
 	  
-  	<div class="container">
-	  	
 	  	<div class="jumbotron">
+	  	<div class="container">
+	  	
 	  
 	  <h1>Nebraska basketball NCAA tournament odds</h1>
 	  
@@ -34,38 +34,55 @@
 		  	  
 		  		<div id="chart_div" style="width: 350px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
-		  		<p class="col-sm-12 text-center small text-muted">Updated: <span id="time"></span></p>
+		  		<p class="col-sm-12 text-center small">Updated: <span id="time"></span></p>
 
     
 		  </div>
 
   	</div>
-		  
+	  	</div>
+		
+		<div class="container">  
 		  
 		  <div class="row">
 			  
 		  <div class="col-sm-12">
 			  
 	    
-	    	<table class="table small">
+	    	<table class="table">
 		    	<thead>
 			    	<tr>
-				    	<th></th>
-				    	<th>Rating</th>
-				    	<th>Tourney %</th>
-				    	<th>Tourney seed</th>
-				    	<th>Proj. W-L</th>
+				    	<th>Service</th>
+				    	<th>Current rating</th>
 			    	</tr>
 		    	</thead>
 		    	
 		    	<tbody>
-			    	<tr><td>Kenpom</td><td id="kenpom-rating"></td><td></td><td></td><td></td></tr>
-			    	<tr><td>NCAA RPI</td><td id="ncaa-rating"></td><td></td><td></td><td></td></tr>
-			    	<tr><td>ESPN BPI</td><td id="espn-rating"></td><td></td><td id="espn-proj-tourney-seed"</td><td><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td></tr>
-			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating"></td><td id="teamrankings-make-tourney"></td><td id="teamrankings-seed"></td><td id="teamrankings_wl"></td></tr>
+			    	<tr><td>Kenpom</td><td id="kenpom-rating"></td></tr>
+			    	<tr><td>NCAA RPI</td><td id="ncaa-rating"></td></tr>
+			    	<tr><td>ESPN BPI</td><td id="espn-rating"></td></tr>
+			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating"></td></tr>
 		    	</tbody>
 	    	</table>
 	    	
+	    	<br /><br />
+	    	
+	    	<table class="table small">
+		    	<thead>
+			    	<tr>
+				    	<th></th>
+				    	<th>Projected seed</th>
+						<th>Projected W-L</th>
+			    	</tr>
+		    	</thead>
+		    	<tbody>
+			    	<tr><td>ESPN</td><td>#<span id="espn-proj-tourney-seed"></span></td><td><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td></tr>
+				    <tr><td>TeamRankings.com</td><td id="teamrankings-seed"></td><td id="teamrankings_wl"></td></tr>
+				</tbody>
+			</table>
+			
+			
+			
 	    	
 	    </div>
   	</div>
@@ -113,8 +130,8 @@
 				 if (data > 43 && data <= 47) { score = 55; }
 				 if (data > 47 && data <= 51) { score = 45; }
 				 if (data > 51 && data <= 55) { score = 30; }
-				 if (data > 55 && data <= 60) { score = 15; }
-				 if (data > 60 && data <= 70) { score = 10; }
+				 if (data > 55 && data <= 60) { score = 20; }
+				 if (data > 60 && data <= 70) { score = 15; }
 				 if (data > 70 && data <= 80) { score = 5; }
 				 if (data > 80) { score = 0; }
 				 
