@@ -137,7 +137,7 @@
 				 if (data > 30 && data <= 40) { score = 85; }
 				 if (data > 40 && data <= 43) { score = 75; }
 				 if (data > 43 && data <= 47) { score = 65; }
-				 if (data > 47 && data <= 51) { score = 35; }
+				 if (data > 47 && data <= 51) { score = 40; }
 				 if (data > 51 && data <= 55) { score = 25; }
 				 if (data > 55 && data <= 60) { score = 15; }
 				 if (data > 60 && data <= 70) { score = 10; }
@@ -152,7 +152,7 @@
 			 espn_score = FindScore(parseInt(json.espn.sor));
 			 teamrankings_score = parseInt(json.teamrankings.make_tournament);
 			 
-			 total_score = (kenpom_score + ncaa_score + espn_score + teamrankings_score)/4
+			 total_score = ((kenpom_score*.22) + (ncaa_score*.35) + (espn_score*.32) + (teamrankings_score*.21))/4
 			 
 			 
 			 
