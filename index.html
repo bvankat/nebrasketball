@@ -102,12 +102,12 @@
 
 
 
-	   function drawChart(gauge_number) {
+	   function drawChart(json) {
 	
 			
         var data = google.visualization.arrayToDataTable([
           ['Label', 'Value'],
-          ['', gauge_number],
+          ['', json.teamrankings.make_tournament],
         ]);
 
         var options = {
@@ -122,7 +122,7 @@
         chart.draw(data, options);
 
         setInterval(function() {
-          data.setValue(0, 1, gauge_number + Math.round(7 * Math.random()));
+          data.setValue(0, 1, json.teamrankings.make_tournament + Math.round(7 * Math.random()));
           chart.draw(data, options);
         }, 300);
 
