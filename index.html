@@ -105,11 +105,6 @@
 
 
 	   function drawChart() {
-
-
-		   $.getJSON( "data.js", function( json ) {
-			   
-			   var gauge_number = json.teamrankings.make_tournament;
 	
 			
         var data = google.visualization.arrayToDataTable([
@@ -132,9 +127,7 @@
           data.setValue(0, 1, gauge_number + Math.round(7 * Math.random()));
           chart.draw(data, options);
         }, 300);
-     
-		});
-		   
+
      
       };
     </script>
