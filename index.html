@@ -93,12 +93,10 @@
 			$('#time').text(json.time.time);
 			
 			gauge_number = json.teamrankings.make_tournament
-			
-			console.log("getJSON.gauge_number: " + gauge_number);
-		
+								
 		});	   
 
-	   	
+	   	};
 
 	   
       google.charts.load('current', {'packages':['gauge']});
@@ -106,7 +104,7 @@
 
 
 
-	   function drawChart() {
+	   function drawChart(gauge_number) {
 	
 			
         var data = google.visualization.arrayToDataTable([
