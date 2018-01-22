@@ -1,0 +1,124 @@
+<html>
+  <head>
+   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+   <script type="text/javascript">
+      google.charts.load('current', {'packages':['gauge']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Label', 'Value'],
+          ['', 11],
+        ]);
+
+        var options = {
+          width: 350, height: 350,
+          redFrom: 90, redTo: 100,
+          yellowFrom:75, yellowTo: 90,
+          minorTicks: 5
+        };
+
+        var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+
+        setInterval(function() {
+          data.setValue(0, 1, 11 + Math.round(7 * Math.random()));
+          chart.draw(data, options);
+        }, 300);
+     
+      }
+    </script>
+    
+   	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+	<script type="text/javascript" src="data.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	<style>
+	    body { color: #fff; background-color: #f20017; font-family: sans-serif; }
+	    h1 { font-weight: bold; margin-bottom: 40px; }
+	    
+	</style>
+
+    
+    
+  </head>
+  <body>
+	  
+  	<div class="container">
+	  
+	  <h1>Nebraska basketball NCAA tournament odds</h1>
+	  
+	  <div class="row">
+		  	  
+		  		<div id="chart_div" style="width: 350px; height: 350px; margin-bottom: 40px;"></div>
+    
+		  </div>
+		  
+		  
+		  <div class="row">
+			  
+		  <div class="col-sm-12">
+			  
+	    
+	    	<table class="table small">
+		    	<thead>
+			    	<tr>
+				    	<th></th>
+				    	<th>Rating</th>
+				    	<th>Tourney %</th>
+				    	<th>Proj. tourney seed</th>
+				    	<th>Proj. W-L</th>
+				    	<th>Proj conf. W-L</th>
+			    	</tr>
+		    	</thead>
+		    	
+		    	<tbody>
+			    	<tr><td>Kenpom</td><td id="kenpom-rating"></td><td></td><td></td><td></td><td></td></tr>
+			    	<tr><td>NCAA RPI</td><td id="ncaa-rating"></td><td></td><td></td><td></td><td></td></tr>
+			    	<tr><td>ESPN BPI</td><td id="espn-rating"></td><td></td><td id="espn-proj-tourney-seed"</td><td id="espn-wl"></td><td id="espn-cwl"></td></tr>
+			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating"></td><td id="teamrankings-make-tourney"></td><td id="teamrankings-seed"></td><td id="teamrankings_wl"></td><td></td></tr>
+		    	</tbody>
+	    	</table>
+	    	
+	    	<p class="small">Updated: <span id="time"></span></p>
+	    	
+	    </div>
+  	</div>
+  	
+  	</div>
+  	
+  	<script>
+	  	
+	$.getJSON( "data.js", function( json ) {
+			var data = json;
+			console.log(json);
+
+			$('#kenpom-rating').text(json.kenpom.rating);
+			$('#ncaa-rating').text(json.ncaa.rpi_rank);
+			$('#espn-rating').text(json.espn.bpi);
+			$('#teamrankings-rating').text(json.teamrankings.rank);
+			
+			$('#espn-proj-tourney-seed').text(json.espn.proj_tourney_seed);
+			$('#espn-wl').text(json.espn.proj_win_loss_overall);
+			$('#espn-cwl').text(json.espn.proj_win_loss_conf);
+			
+			$('#teamrankings-make-tourney').text(json.teamrankings.make_tournament);
+			$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
+			
+			var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
+			$('#teamrankings_wl').text(teamrankings_wl);
+			
+			$('#time').text(json.time.time);
+			
+		});
+    
+    </script>
+  	
+  </body>
+</html>
