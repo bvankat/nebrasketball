@@ -106,7 +106,7 @@
       google.charts.load('current', {'packages':['gauge']});
       google.charts.setOnLoadCallback(drawChart);
 
-      function drawChart() {
+      function drawChart( gauge_number ) {
 
         var data = google.visualization.arrayToDataTable([
           ['Label', 'Value'],
