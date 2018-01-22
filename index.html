@@ -76,7 +76,8 @@
  	
   	<script>
 	  	
-	  	var gauge_number; 
+	  	var total_score;
+	  	
 	  	
 		$.getJSON( "data.js", function( json ) {
 			console.log(json);
@@ -100,6 +101,37 @@
 			
 			
 			gauge_number = json.teamrankings.make_tournament	
+			
+			function FindScore(data) {
+				 var score;
+				 if (data < 30){ score = 95; }
+				 if (data > 30 && data <= 40) { score = 85; }
+				 if (data > 40 && data <= 43) { score = 65; }
+				 if (data > 43 && data <= 47) { score = 55; }
+				 if (data > 47 && data <= 51) { score = 45; }
+				 if (data > 51 && data <= 55) { score = 30; }
+				 if (data > 55 && data <= 60) { score = 15; }
+				 if (data > 60 && data <= 70) { score = 10; }
+				 if (data > 70 && data <= 80) { score = 5; }
+				 if (data > 80) { score = 0; }
+				 
+				 return score;
+			 };
+			 
+			 kenpom_score = FindScore(json.kenpom.rating);
+			 ncaa_score = FindScore(json.ncaa.rpi_rank);
+			 espn_score = FindScore(json.espn.bpi);
+			 teamrankings_score = parseInt(json.teamrankings.make_tournament);
+			 
+			 total_score = (kenpom_score + ncaa_score + espn_score + teamrankings_score)/4
+			 
+			 
+			 
+			 console.log("Kenpom score: " + kenpom_score);
+			 console.log("NCAA score: " + ncaa_score);
+			 console.log("ESPN score: " + espn_score);
+			 console.log("TeamRankings score: " + teamrankings_score);
+			 console.log("Total score: " + total_score);
 
 			});		
 
@@ -108,14 +140,15 @@
 			 google.charts.setOnLoadCallback(drawChart);
 
 			 
-
+			 
+		
+			 
 	   function drawChart() {
-				      console.log("chart.gauge_number: " + gauge_number);	
-				      gauge_number = parseInt(gauge_number);
+				      total_score = parseInt(total_score);
 
         var data = google.visualization.arrayToDataTable([
           ['Label', 'Value'],
-          ['', gauge_number],
+          ['', total_score],
         ]);
 
         var options = {
@@ -130,7 +163,7 @@
         chart.draw(data, options);
 
         setInterval(function() {
-          data.setValue(0, 1, gauge_number + Math.round(7 * Math.random()));
+          data.setValue(0, 1, total_score-1 + Math.round(6 * Math.random()));
           chart.draw(data, options);
         }, 300);
 
