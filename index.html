@@ -70,10 +70,13 @@
  	
   	<script>
 	  	
-	  	var gauge_number = {}; 
+	  	var gauge_number; 
 	  	
-	$.getJSON( "data.js", function( json ) {
-			console.log(json);
+		$.ajax({
+        url: "data.js",
+        async: false,
+        dataType: 'json',
+        success: function(json) {
 
 			$('#kenpom-rating').text(json.kenpom.rating);
 			$('#ncaa-rating').text(json.ncaa.rpi_rank);
@@ -94,6 +97,10 @@
 			
 			
 			gauge_number = json.teamrankings.make_tournament	
+
+			}
+    	});		
+
 				
 			 google.charts.load('current', {'packages':['gauge']});
 			 google.charts.setOnLoadCallback(drawChart);
