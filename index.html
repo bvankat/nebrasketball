@@ -1,6 +1,9 @@
 <html>
   <head>
     
+  <title>Nebrasketball NCAA tournament odds tracker</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
    	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -10,8 +13,8 @@
 
 
 	<style>
-	    body { color: #fff; background-color: #f20017; font-family: sans-serif; }
-	    h1 { font-weight: bold; margin-bottom: 40px; }
+	    body { font-family: sans-serif; }
+	    h1 { font-weight: bold; margin-bottom: 40px; text-align: center;}
 	    
 	</style>
 
@@ -21,14 +24,18 @@
   <body>
 	  
   	<div class="container">
+	  	
+	  	<div class="jumbotron">
 	  
 	  <h1>Nebraska basketball NCAA tournament odds</h1>
 	  
 	  <div class="row">
 		  	  
-		  		<div id="chart_div" style="width: 350px; height: 350px; margin-bottom: 40px;"></div>
+		  		<div id="chart_div" style="width: 350px; height: 350px; margin: 0 auto 40px auto;"></div>
     
 		  </div>
+
+  	</div>
 		  
 		  
 		  <div class="row">
@@ -44,15 +51,14 @@
 				    	<th>Tourney %</th>
 				    	<th>Proj. tourney seed</th>
 				    	<th>Proj. W-L</th>
-				    	<th>Proj conf. W-L</th>
 			    	</tr>
 		    	</thead>
 		    	
 		    	<tbody>
-			    	<tr><td>Kenpom</td><td id="kenpom-rating"></td><td></td><td></td><td></td><td></td></tr>
-			    	<tr><td>NCAA RPI</td><td id="ncaa-rating"></td><td></td><td></td><td></td><td></td></tr>
-			    	<tr><td>ESPN BPI</td><td id="espn-rating"></td><td></td><td id="espn-proj-tourney-seed"</td><td id="espn-wl"></td><td id="espn-cwl"></td></tr>
-			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating"></td><td id="teamrankings-make-tourney"></td><td id="teamrankings-seed"></td><td id="teamrankings_wl"></td><td></td></tr>
+			    	<tr><td>Kenpom</td><td id="kenpom-rating"></td><td></td><td></td><td></td></tr>
+			    	<tr><td>NCAA RPI</td><td id="ncaa-rating"></td><td></td><td></td><td></td></tr>
+			    	<tr><td>ESPN BPI</td><td id="espn-rating"></td><td></td><td id="espn-proj-tourney-seed"</td><td><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td></tr>
+			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating"></td><td id="teamrankings-make-tourney"></td><td id="teamrankings-seed"></td><td id="teamrankings_wl"></td></tr>
 		    	</tbody>
 	    	</table>
 	    	
