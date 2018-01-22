@@ -15,6 +15,7 @@
 	<style>
 	    body { font-family: sans-serif; }
 	    h1 { font-weight: bold; margin-bottom: 40px; text-align: center;}
+	    div.jumbotron { margin-top: 30px; }
 	    
 	</style>
 
@@ -31,7 +32,10 @@
 	  
 	  <div class="row">
 		  	  
-		  		<div id="chart_div" style="width: 350px; height: 350px; margin: 0 auto 40px auto;"></div>
+		  		<div id="chart_div" style="width: 350px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
+		  		
+		  		<p class="col-sm-12 text-center small text-muted">Updated: <span id="time"></span></p>
+
     
 		  </div>
 
@@ -49,7 +53,7 @@
 				    	<th></th>
 				    	<th>Rating</th>
 				    	<th>Tourney %</th>
-				    	<th>Proj. tourney seed</th>
+				    	<th>Tourney seed</th>
 				    	<th>Proj. W-L</th>
 			    	</tr>
 		    	</thead>
@@ -62,7 +66,6 @@
 		    	</tbody>
 	    	</table>
 	    	
-	    	<p class="small">Updated: <span id="time"></span></p>
 	    	
 	    </div>
   	</div>
