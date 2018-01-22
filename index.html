@@ -65,6 +65,8 @@
   	
   	<script>
 	  	
+	  	var gauge_number;
+	  	
 	$.getJSON( "data.js", function( json ) {
 			console.log(json);
 
@@ -85,8 +87,8 @@
 			
 			$('#time').text(json.time.time);
 			
-			var gauge_number = json.teamrankings.make_tournament
-			
+			gauge_number = json.teamrankings.make_tournament
+		
 		});
     
     </script>
