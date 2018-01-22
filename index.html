@@ -56,14 +56,15 @@
 			    	<tr>
 				    	<th>Service</th>
 				    	<th>Current rating</th>
+				    	<th>Strength of schedule</th>
 			    	</tr>
 		    	</thead>
 		    	
 		    	<tbody>
-			    	<tr><td>Kenpom</td><td id="kenpom-rating"></td></tr>
-			    	<tr><td>NCAA RPI</td><td id="ncaa-rating"></td></tr>
-			    	<tr><td>ESPN BPI</td><td id="espn-rating"></td></tr>
-			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating"></td></tr>
+			    	<tr><td>Kenpom</td><td id="kenpom-rating"></td><td id="kenpom-sos"></td></tr>
+			    	<tr><td>NCAA RPI</td><td id="ncaa-rating"></td><td id="ncaa-sos"></td></tr>
+			    	<tr><td>ESPN BPI</td><td id="espn-rating"></td><td id="espn-sos"></td></tr>
+			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating"></td><td id="teamrankings-sos"></td></tr>
 		    	</tbody>
 	    	</table>
 	    	
@@ -75,11 +76,12 @@
 				    	<th></th>
 				    	<th>Projected seed</th>
 						<th>Projected W-L</th>
+						<th>Strength of record rank</th>
 			    	</tr>
 		    	</thead>
 		    	<tbody>
-			    	<tr><td>ESPN</td><td>#<span id="espn-proj-tourney-seed"></span></td><td><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td></tr>
-				    <tr><td>TeamRankings.com</td><td id="teamrankings-seed"></td><td id="teamrankings_wl"></td></tr>
+			    	<tr><td>ESPN</td><td>#<span id="espn-proj-tourney-seed"></span></td><td><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td><td id="espn-sor"></td></tr>
+				    <tr><td>TeamRankings.com</td><td id="teamrankings-seed"></td><td id="teamrankings_wl"></td><td></td></tr>
 				</tbody>
 			</table>
 			
@@ -109,9 +111,13 @@
 			$('#espn-rating').text(json.espn.bpi);
 			$('#teamrankings-rating').text(json.teamrankings.rank);
 			
+			$('#kenpom-sos').text(json.kenpom.sos);
+			
 			$('#espn-proj-tourney-seed').text(json.espn.proj_tourney_seed);
 			$('#espn-wl').text(json.espn.proj_win_loss_overall);
 			$('#espn-cwl').text(json.espn.proj_win_loss_conf);
+			$('#espn-sor').text(json.espn.sor);
+			console.log("SOR: " + json.espn.sor);
 			
 			$('#teamrankings-make-tourney').text(json.teamrankings.make_tournament);
 			$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
@@ -127,22 +133,22 @@
 			function FindScore(data) {
 				 var score;
 				 if (data < 30){ score = 95; }
-				 if (data > 30 && data <= 40) { score = 85; }
-				 if (data > 40 && data <= 43) { score = 65; }
-				 if (data > 43 && data <= 47) { score = 55; }
-				 if (data > 47 && data <= 51) { score = 45; }
-				 if (data > 51 && data <= 55) { score = 30; }
+				 if (data > 30 && data <= 40) { score = 90; }
+				 if (data > 40 && data <= 43) { score = 80; }
+				 if (data > 43 && data <= 47) { score = 60; }
+				 if (data > 47 && data <= 51) { score = 55; }
+				 if (data > 51 && data <= 55) { score = 50; }
 				 if (data > 55 && data <= 60) { score = 20; }
 				 if (data > 60 && data <= 70) { score = 15; }
 				 if (data > 70 && data <= 80) { score = 5; }
-				 if (data > 80) { score = 0; }
+				 if (data > 80) { score = 1; }
 				 
 				 return score;
 			 };
 			 
 			 kenpom_score = FindScore(json.kenpom.rating);
 			 ncaa_score = FindScore(json.ncaa.rpi_rank);
-			 espn_score = FindScore(json.espn.bpi);
+			 espn_score = FindScore(parseInt(json.espn.sor));
 			 teamrankings_score = parseInt(json.teamrankings.make_tournament);
 			 
 			 total_score = (kenpom_score + ncaa_score + espn_score + teamrankings_score)/4
