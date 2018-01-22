@@ -3,7 +3,7 @@ Tracking tournament odds for the Nebraska basketball team
 
 - Scrapes a few data sources for RPI and record projections. (Requests, Selenium, BeautifulSoup)
 - Pulls them into an HTML table. (.getJSON())
-- Calculates percentage change of making the tournament based on each ranking. (Guesswork)
-- Averages the rankings. (Math)
+- Calculates chance of making the tournament based on each rating. (Guesswork)
+- Averages the scores. (Math)
 - Powers a needle gauge, a la #nytneedle from Election Night 2016. (Google Charts)
-- Updates self automatically. (crontab)
+- Updates self automatically every 30 minutes. (crontab)
