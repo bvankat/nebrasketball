@@ -89,10 +89,7 @@
 			var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
 			$('#teamrankings_wl').text(teamrankings_wl);
 			
-			$('#time').text(json.time.time);
-			
-			gauge_number = json.teamrankings.make_tournament
-				
+			$('#time').text(json.time.time);				
 				
 				
 			 google.charts.load('current', {'packages':['gauge']});
@@ -103,10 +100,11 @@
 
 	   function drawChart() {
 	
+	   var gauge_number = 20;
 			
         var data = google.visualization.arrayToDataTable([
           ['Label', 'Value'],
-          ['', 11],
+          ['', gauge_number],
         ]);
 
         var options = {
@@ -121,7 +119,7 @@
         chart.draw(data, options);
 
         setInterval(function() {
-          data.setValue(0, 1, 11 + Math.round(7 * Math.random()));
+          data.setValue(0, 1, gauge_number + Math.round(7 * Math.random()));
           chart.draw(data, options);
         }, 300);
 
