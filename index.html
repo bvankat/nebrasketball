@@ -76,7 +76,7 @@
 		    	<tbody>
 			    	<tr><td>Kenpom</td><td id="kenpom-rating"></td><td id="kenpom-sos"></td></tr>
 			    	<tr><td>NCAA RPI</td><td id="ncaa-rating"></td><td id="warrennolan-sos"></td></tr>
-			    	<tr><td>ESPN BPI</td><td id="espn-rating"></td><td id="espn-sos"></td></tr>
+			    	<tr><td>ESPN BPI</td><td id="espn-rating"></td><td id="espn-sor"></td></tr>
 			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating"></td><td id="teamrankings-sos"></td></tr>
 			    	<tr><td>Sagarin</td><td id="trank-sagarin"></td><td></td></tr>
 			    	<tr><td>T-Rank</td><td id="trank-trank"></td><td></td></tr>
@@ -198,12 +198,13 @@
 				 if (data < 30){ score = 99; }
 				 if (data > 30 && data <= 40) { score = 92; }
 				 if (data > 40 && data <= 43) { score = 85; }
-				 if (data > 43 && data <= 47) { score = 80; }
-				 if (data > 47 && data <= 51) { score = 45; }
+				 if (data > 43 && data <= 45) { score = 80; }
+				 if (data > 45 && data <= 47) { score = 55; }
+				 if (data > 47 && data <= 51) { score = 35; }
 				 if (data > 51 && data <= 55) { score = 25; }
 				 if (data > 55 && data <= 60) { score = 15; }
-				 if (data > 60 && data <= 70) { score = 10; }
-				 if (data > 70 && data <= 80) { score = 5; }
+				 if (data > 60 && data <= 70) { score = 5; }
+				 if (data > 70 && data <= 80) { score = 2; }
 				 if (data > 80) { score = 1; }
 				 
 				 return score;
