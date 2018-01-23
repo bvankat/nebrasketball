@@ -96,7 +96,30 @@
 				</tbody>
 			</table>
 			
+			<br /><br />
 			
+			<table class="table small">
+				<thead>
+					<tr>
+						<th>RPI rank</th>
+						<th>SOS</th>
+						<th>Group 1 W-L</th>
+						<th>Group 2 W-L</th>
+						<th>Group 3 W-L</th>
+						<th>Group 4 W-L</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td id="warrennolan-rpi"></td>
+						<td id="warrennolan-sos"></td>
+						<td id="warrennolan-group1"></td>
+						<td id="warrennolan-group2"></td>
+						<td id="warrennolan-group3"></td>
+						<td id="warrennolan-group4"></td>
+					</tr>
+				</tbody>
+			</table>						
 			
 	    	
 	    </div>
@@ -137,6 +160,14 @@
 			
 			$('#teamrankings-make-tourney').text(json.teamrankings.make_tournament);
 			$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
+
+			$('#warrennolan-rpi').text(json.warrennolan.rpi);
+			$('#warrennolan-sos').text(json.warrennolan.sos);
+			$('#warrennolan-group1').text(json.warrennolan.group1);
+			$('#warrennolan-group2').text(json.warrennolan.group2);
+			$('#warrennolan-group3').text(json.warrennolan.group3);
+			$('#warrennolan-group4').text(json.warrennolan.group4);
+
 			
 			var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
 			$('#teamrankings_wl').text(teamrankings_wl);
