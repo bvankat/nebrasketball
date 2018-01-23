@@ -74,9 +74,10 @@
 		    	
 		    	<tbody>
 			    	<tr><td>NCAA RPI</td><td id="ncaa-rating"></td></tr>
-			    	<tr><td>ESPN BPI</td><td id="espn-rating"></td></tr>
+			    	<tr><td>ESPN SOR</td><td id="espn-sor"></td></tr>
 			    	<tr><td>Kenpom</td><td id="kenpom-rating"></td></tr>
 			    	<tr><td>KPI</td><td id="trank-kpi"></td></tr>
+			    	<tr><td>ESPN BPI</td><td id="espn-rating"></td></tr>
 			    	<tr><td>T-Rank</td><td id="trank-trank"></td></tr>
 			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating"></td></tr>
 			    	<tr><td>Sagarin</td><td id="trank-sagarin"></td></tr>
@@ -213,25 +214,27 @@
 			 
 			 kenpom_score = FindScore(json.kenpom.rating);
 			 ncaa_score = FindScore(json.ncaa.rpi_rank);
-			 espn_score = FindScore(parseInt(json.espn.sor)); // SOR is stronger predictor than BPI
+			 espn_sor = FindScore(parseInt(json.espn.sor)); // SOR is stronger predictor than BPI
+			 espn_bpi = FindScore(parseInt(json.espn.bpi)); 
 			 teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
 			 sagarin_score = FindScore(json.trank.sagarin);
 			 trank_score = FindScore(json.trank.trank);
 			 kpi_score = FindScore(json.trank.kpi);
 			 lrmc_score = FindScore(json.lrmc.rank);
 			 
-			 total_score = ((kenpom_score*.15) + (ncaa_score*.21) + (espn_score*.19) + (teamrankings_score*.08) + (sagarin_score*.08) + (trank_score*.09) + (kpi_score*.15) + (lrmc_score * .05));
+			 total_score = ((kenpom_score*.14) + (ncaa_score*.19) + (espn_sor*.19) + (espn_bpi*.11) + (teamrankings_score*.07) + (sagarin_score*.05) + (trank_score*.07) + (kpi_score*.14) + (lrmc_score * .04));
 			 
 			 
 			 
-			 console.log("NCAA score: " + ncaa_score + "    (22%)");
-			 console.log("ESPN score: " + espn_score + "    (20%)");
-			 console.log("Kenpom score: " + kenpom_score + "    (15%)");
-			 console.log("KPI score: " + kpi_score + "    (15%)");
-			 console.log("T-Rank score: " + trank_score + "    (9%)");
-			 console.log("TeamRankings score: " + teamrankings_score + "    (8%)");
-			 console.log("Sagarin score: " + sagarin_score + "    (8%)");
-			 console.log("LRMC score: " + lrmc_score + "    (5%)");
+			 console.log("NCAA score: " + ncaa_score + "    (19%)");
+			 console.log("ESPN SOR score: " + espn_sor + "    (19%)");
+			 console.log("Kenpom score: " + kenpom_score + "    (14%)");
+			 console.log("KPI score: " + kpi_score + "    (14%)");
+			 console.log("ESPN BPI score: " + espn_bpi + "    (11%)");
+			 console.log("T-Rank score: " + trank_score + "    (7%)");
+			 console.log("TeamRankings score: " + teamrankings_score + "    (7%)");
+			 console.log("Sagarin score: " + sagarin_score + "    (5%)");
+			 console.log("LRMC score: " + lrmc_score + "    (4%)");
 			 console.log("Total score: " + total_score);
 
 			});		
