@@ -19,6 +19,7 @@
 	    h2 { font-weight: bold; margin-bottom: 40px; text-align: center;}
 	    div.jumbotron { color: #fff; background-color: #e21d38; border-radius: 0; }
 	    .gray {color: #ddd; }
+	    th { text-align: left; }
 	    
 	</style>
 
@@ -77,12 +78,15 @@
 			    	<tr><td>NCAA RPI</td><td id="ncaa-rating"></td><td id="warrennolan-sos"></td></tr>
 			    	<tr><td>ESPN BPI</td><td id="espn-rating"></td><td id="espn-sos"></td></tr>
 			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating"></td><td id="teamrankings-sos"></td></tr>
+			    	<tr><td>Sagarin</td><td id="trank-sagarin"></td><td></td></tr>
+			    	<tr><td>T-Rank</td><td id="trank-trank"></td><td></td></tr>
+			    	<tr><td>KPI</td><td id="trank-kpi"></td><td></td></tr>
 		    	</tbody>
 	    	</table>
 	    	
 	    	<br /><br />
 	    	
-	    	<h4>Projections</h4>
+	    	<h4>Projections <span class="small text-muted">(Current: <span id="trank-current-wl"></span>, <span id="trank-current-cwl"></span> Big Ten)</h4>
 	    	<table class="table small">
 		    	<thead>
 			    	<tr>
@@ -95,6 +99,7 @@
 			    	<tr><td>ESPN</td><td>#<span id="espn-proj-tourney-seed"></span></td><td><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td></tr>
 				    <tr><td>TeamRankings.com</td><td id="teamrankings-seed"></td><td id="teamrankings_wl"></td><td></td></tr>
 				    <tr><td>Warren Nolan</td><td></td><td><span id="warrennolan-wl"></span> <span id="warrennolan-cwl")></span></td></tr>
+				    <tr><td>T-Rank</td><td></td><td id="trank-proj"></td></tr>
 				</tbody>
 			</table>
 			
@@ -129,7 +134,7 @@
   	</div>
   	
   		<br /><br /><br />
-  		<p class="small text-muted text-center">Last update: <span id="time"></span> / Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a> / Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="http://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-rpi">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/rankings">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2018/rpi-live">Warren Nolan</a> / Calculations help: <a href="https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/">1</a>, <a href="http://thesportsdaily.com/ncaa/analyzing-the-rpi-for-at-large-teams-2/">2</a></p>
+  		<p class="small text-muted text-center">Last update: <span id="time"></span> / Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a> / Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="http://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-rpi">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/rankings">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2018/rpi-live">Warren Nolan</a>, <a href="http://www.barttorvik.com/">T-Rank</a> / Calculations help: <a href="https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/">1</a>, <a href="http://thesportsdaily.com/ncaa/analyzing-the-rpi-for-at-large-teams-2/">2</a></p>
   	
   	</div>
   	
@@ -159,7 +164,6 @@
 			$('#espn-wl').text(json.espn.proj_win_loss_overall);
 			$('#espn-cwl').text(json.espn.proj_win_loss_conf);
 			$('#espn-sor').text(json.espn.sor);
-			console.log("SOR: " + json.espn.sor);
 			
 			$('#teamrankings-make-tourney').text(json.teamrankings.make_tournament);
 			$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
@@ -172,6 +176,13 @@
 			$('#warrennolan-group4').text(json.warrennolan.group4);
 			$('#warrennolan-wl').text(json.warrennolan.wl);
 			$('#warrennolan-cwl').text(json.warrennolan.cwl);
+			
+			$('#trank-proj').text(json.trank.proj);
+			$('#trank-sagarin').text(json.trank.sagarin);
+			$('#trank-trank').text(json.trank.trank);
+			$('#trank-kpi').text(json.trank.kpi);
+			$('#trank-current-wl').text(json.trank.current_wl);
+			$('#trank-current-cwl').text(json.trank.current_cwl);
 
 			
 			var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
@@ -182,7 +193,7 @@
 			
 			gauge_number = json.teamrankings.make_tournament	
 			
-			function FindScore(data) {
+			function FindScore(data) { // Calculate percentage chance basked on RPI-like ranking system
 				 var score;
 				 if (data < 30){ score = 99; }
 				 if (data > 30 && data <= 40) { score = 92; }
@@ -200,10 +211,13 @@
 			 
 			 kenpom_score = FindScore(json.kenpom.rating);
 			 ncaa_score = FindScore(json.ncaa.rpi_rank);
-			 espn_score = FindScore(parseInt(json.espn.sor));
-			 teamrankings_score = parseInt(json.teamrankings.make_tournament);
+			 espn_score = FindScore(parseInt(json.espn.sor)); // SOR is stronger predictor than BPI
+			 teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
+			 sagarin_score = FindScore(json.trank.sagarin);
+			 trank_score = FindScore(json.trank.trank);
+			 kpi_score = FindScore(json.trank.kpi);
 			 
-			 total_score = ((kenpom_score*.22) + (ncaa_score*.35) + (espn_score*.32) + (teamrankings_score*.21))/4
+			 total_score = ((kenpom_score*.15) + (ncaa_score*.22) + (espn_score*.2) + (teamrankings_score*.13) + (sagarin_score*.1) + (trank_score*.1) + (kpi_score*.1))/7
 			 
 			 
 			 
@@ -211,6 +225,9 @@
 			 console.log("NCAA score: " + ncaa_score);
 			 console.log("ESPN score: " + espn_score);
 			 console.log("TeamRankings score: " + teamrankings_score);
+			 console.log("Sagarin score: " + sagarin_score);
+			 console.log("T-Rank score: " + trank_score);
+			 console.log("KPI score: " + kpi_score);
 			 console.log("Total score: " + total_score);
 
 			});		
@@ -243,7 +260,7 @@
         chart.draw(data, options);
 
         setInterval(function() {
-          data.setValue(0, 1, total_score-1 + Math.round(6 * Math.random()));
+          data.setValue(0, 1, total_score + Math.round(6 * Math.random()));
           chart.draw(data, options);
         }, 300);
 
