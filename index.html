@@ -74,7 +74,7 @@
 		    	
 		    	<tbody>
 			    	<tr><td>Kenpom</td><td id="kenpom-rating"></td><td id="kenpom-sos"></td></tr>
-			    	<tr><td>NCAA RPI</td><td id="ncaa-rating"></td><td id="ncaa-sos"></td></tr>
+			    	<tr><td>NCAA RPI</td><td id="ncaa-rating"></td><td id="warrennolan-sos"></td></tr>
 			    	<tr><td>ESPN BPI</td><td id="espn-rating"></td><td id="espn-sos"></td></tr>
 			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating"></td><td id="teamrankings-sos"></td></tr>
 		    	</tbody>
@@ -98,6 +98,7 @@
 			
 			<br /><br />
 			
+			<h4>RPI details</h4>
 			<table class="table small">
 				<thead>
 					<tr>
@@ -112,7 +113,7 @@
 				<tbody>
 					<tr>
 						<td id="warrennolan-rpi"></td>
-						<td id="warrennolan-sos"></td>
+						<td id="warrennolan-sos2"></td>
 						<td id="warrennolan-group1"></td>
 						<td id="warrennolan-group2"></td>
 						<td id="warrennolan-group3"></td>
@@ -126,7 +127,7 @@
   	</div>
   	
   		<br /><br /><br />
-  		<p class="small text-muted text-center">Last update: <span id="time"></span> / Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a> / Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="http://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-rpi">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/rankings">TeamRankings</a> / Calculations help: <a href="https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/">1</a>, <a href="http://thesportsdaily.com/ncaa/analyzing-the-rpi-for-at-large-teams-2/">2</a></p>
+  		<p class="small text-muted text-center">Last update: <span id="time"></span> / Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a> / Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="http://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-rpi">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/rankings">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2018/rpi-live">Warren Nolan</a> / Calculations help: <a href="https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/">1</a>, <a href="http://thesportsdaily.com/ncaa/analyzing-the-rpi-for-at-large-teams-2/">2</a></p>
   	
   	</div>
   	
@@ -162,7 +163,7 @@
 			$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
 
 			$('#warrennolan-rpi').text(json.warrennolan.rpi);
-			$('#warrennolan-sos').text(json.warrennolan.sos);
+			$('#warrennolan-sos, #warrennolan-sos2').text(json.warrennolan.sos);
 			$('#warrennolan-group1').text(json.warrennolan.group1);
 			$('#warrennolan-group2').text(json.warrennolan.group2);
 			$('#warrennolan-group3').text(json.warrennolan.group3);
