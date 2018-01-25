@@ -17,39 +17,39 @@
         "sos": "45"
     },
     "lrmc": {
-        "rank": "48"
+        "rank": "44"
     },
     "ncaa": {
         "previous_rpi_rank": "67",
         "rpi_rank": "70"
     },
     "teamrankings": {
-        "make_tournament": "3.7%",
-        "most_likely_seed": "#12 (1.5%)",
-        "projected_losses": "12.6",
-        "projected_wins": "18.4",
-        "rank": "81",
-        "sos": "53"
+        "make_tournament": "6.1%",
+        "most_likely_seed": "#12 (2.3%)",
+        "projected_losses": "12.0",
+        "projected_wins": "19.0",
+        "rank": "78",
+        "sos": "51"
     },
     "time": {
-        "time": "Jan 25, 12:37 AM"
+        "time": "Jan 25,  7:48 AM"
     },
     "trank": {
         "current_cwl": "6-4",
         "current_wl": "15-8",
-        "kpi": "70",
+        "kpi": "71",
         "proj": "20-11 (11-7)",
         "sagarin": "69",
-        "trank": "62"
+        "trank": "61"
     },
     "warrennolan": {
-        "cwl": "(9-9)",
+        "cwl": "(10-8)",
         "group1": "0-5",
         "group2": "3-3",
         "group3": "5-0",
         "group4": "7-0",
-        "rpi": "60",
+        "rpi": "61",
         "sos": "83",
-        "wl": "18-13"
+        "wl": "19-12"
     }
 }
