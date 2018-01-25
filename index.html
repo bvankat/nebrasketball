@@ -112,6 +112,7 @@
 			<table class="table">
 				<thead>
 					<tr>
+						<th>Live RPI</th>
 						<th>SOS</th>
 						<th class="r">Group 1</th>
 						<th class="r">Group 2</th>
@@ -121,6 +122,7 @@
 				</thead>
 				<tbody>
 					<tr>
+						<td id="warrennolan-rpi"></td>
 						<td id="warrennolan-sos2"></td>
 						<td id="warrennolan-group1" class="r"></td>
 						<td id="warrennolan-group2" class="r"></td>
@@ -148,10 +150,13 @@
   	</div>
   	
   		<br /><br /><br />
-  		<p class="small text-muted text-center">Last update: <span id="time"></span></p>
-  		<p class="small text-muted text-center">Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a></p>
-  		<p class="small text-muted text-center">Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="http://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-rpi">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2018/rpi-live">Warren Nolan</a>, <a href="http://www.barttorvik.com/">T-Rank</a>, <a href="http://www.kpisports.net/d-i_mbb/2018kpi-d1mbb/">KPI</a>, <a href="http://sagarin.com/sports/cbsend.htm">Sagarin</a>, <a href="https://www2.isye.gatech.edu/~jsokol/lrmc/">LRMC</a>, <a href="http://bracketmatrix.com">Bracket Project</a></p>
-  		<p class="small text-muted text-center">Calculations help: <a href="https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/">1</a>, <a href="http://thesportsdaily.com/ncaa/analyzing-the-rpi-for-at-large-teams-2/">2</a>, <a href="http://www.kpisports.net/2017/03/14/comparing-advanced-metrics-to-ncaa-1-68-seed-list-2017-edition/">3</a></p>
+  		<p class="small text-muted">Last update: <span id="time"></span>
+	  		
+  		<br />Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a>
+  		
+  		<br />Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="http://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-rpi">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2018/rpi-live">Warren Nolan</a>, <a href="http://www.barttorvik.com/">T-Rank</a>, <a href="http://www.kpisports.net/d-i_mbb/2018kpi-d1mbb/">KPI</a>, <a href="http://sagarin.com/sports/cbsend.htm">Sagarin</a>, <a href="https://www2.isye.gatech.edu/~jsokol/lrmc/">LRMC</a>, <a href="http://bracketmatrix.com">Bracket Project</a>
+  		
+  		<br />Calculations help: <a href="https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/">1</a>, <a href="http://thesportsdaily.com/ncaa/analyzing-the-rpi-for-at-large-teams-2/">2</a>, <a href="http://www.kpisports.net/2017/03/14/comparing-advanced-metrics-to-ncaa-1-68-seed-list-2017-edition/">3</a></p>
   	
   	</div>
   	
@@ -169,7 +174,7 @@
 			console.log(json);
 
 			$('#kenpom-rating').text(json.kenpom.rating);
-			$('#ncaa-rating').text(json.ncaa.rpi_rank);
+			$('#ncaa-rating').text(json.warrennolan.rpi); // Using live one rather than json.ncaa.rpi_rank for more frequent updates
 			$('#espn-rating').text(json.espn.bpi);
 			$('#teamrankings-rating').text(json.teamrankings.rank);
 			
@@ -233,7 +238,7 @@
 
 			 
 			 kenpom_score = FindScore(json.kenpom.rating);
-			 ncaa_score = FindScore(json.ncaa.rpi_rank);
+			 ncaa_score = FindScore(json.warrennolan.rpi); // Using live one rather than json.ncaa.rpi_rank for more frequent updates
 			 espn_sor = FindScore(parseInt(json.espn.sor)); // SOR is stronger predictor than BPI
 			 espn_bpi = FindScore(parseInt(json.espn.bpi)); 
 			 teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
