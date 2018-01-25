@@ -5,12 +5,12 @@
     "espn": {
         "bpi": "74",
         "proj_tourney_seed": "12",
-        "proj_win_loss_conf": "9.8-8.2",
-        "proj_win_loss_overall": "18.8-12.2",
+        "proj_win_loss_conf": "10.5-7.5",
+        "proj_win_loss_overall": "19.5-11.5",
         "rpi": "64",
-        "seven_day_change": "14",
-        "sor": "48",
-        "sos": "19"
+        "seven_day_change": "13",
+        "sor": "45",
+        "sos": "18"
     },
     "kenpom": {
         "rating": "62",
@@ -20,8 +20,8 @@
         "rank": "44"
     },
     "ncaa": {
-        "previous_rpi_rank": "67",
-        "rpi_rank": "70"
+        "previous_rpi_rank": "70",
+        "rpi_rank": "61"
     },
     "teamrankings": {
         "make_tournament": "6.1%",
@@ -32,7 +32,7 @@
         "sos": "51"
     },
     "time": {
-        "time": "Jan 25,  7:48 AM"
+        "time": "Jan 25,  1:50 PM"
     },
     "trank": {
         "current_cwl": "6-4",
