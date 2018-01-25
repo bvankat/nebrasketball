@@ -45,7 +45,7 @@
 	  	
 	  
 	  <h2>Nebraska basketball NCAA tournament odds</h2>
-	  <p class="col-sm-12 text-center gray" style="margin-bottom: 30px;">Updates every 30 minutes</p>
+	  <p class="col-sm-12 text-center gray" style="margin-bottom: 30px;">Updates every 60 minutes</p>
 
 	  <div class="row">
 		  	  
@@ -128,7 +128,20 @@
 						<td id="warrennolan-group4" class="r"></td>
 					</tr>
 				</tbody>
-			</table>						
+			</table>					
+			
+			
+			<br /><br />
+			
+			<h4>Bracket Project</h4>
+			<table class="table">
+				<tbody>
+					<tr>
+						<td>How many brackets have Huskers?</td>
+						<td class="r"><span id="bracketproject-count"></span>/91</td>
+					</tr>
+				</tbody>
+			</table>
 			
 	    	
 	    </div>
@@ -186,6 +199,8 @@
 			$('#trank-current-cwl').text(json.trank.current_cwl);
 
 			$('#lrmc-rank').text(json.lrmc.rank);
+			
+			$('#bracketproject-count').text(json.bracketproject.matrix_count);
 			
 			var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
 			$('#teamrankings_wl').text(teamrankings_wl);
