@@ -3,14 +3,14 @@
         "matrix_count": "1"
     },
     "espn": {
-        "bpi": "74",
+        "bpi": "72",
         "proj_tourney_seed": "12",
-        "proj_win_loss_conf": "10.5-7.5",
-        "proj_win_loss_overall": "19.5-11.5",
+        "proj_win_loss_conf": "10.6-7.4",
+        "proj_win_loss_overall": "19.6-11.4",
         "rpi": "60",
-        "seven_day_change": "13",
+        "seven_day_change": "0",
         "sor": "45",
-        "sos": "18"
+        "sos": "21"
     },
     "kenpom": {
         "rating": "64",
@@ -20,8 +20,8 @@
         "rank": "45"
     },
     "ncaa": {
-        "previous_rpi_rank": "70",
-        "rpi_rank": "61"
+        "previous_rpi_rank": "61",
+        "rpi_rank": "65"
     },
     "teamrankings": {
         "make_tournament": "5.4%",
@@ -32,7 +32,7 @@
         "sos": "52"
     },
     "time": {
-        "time": "Jan 26, 10:08 AM"
+        "time": "Jan 26, 12:33 PM"
     },
     "trank": {
         "current_cwl": "6-4",
@@ -40,7 +40,7 @@
         "kpi": "71",
         "proj": "20-11 (11-7)",
         "sagarin": "67",
-        "trank": "62"
+        "trank": "61"
     },
     "warrennolan": {
         "cwl": "(9-9)",
