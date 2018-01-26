@@ -7,7 +7,7 @@
         "proj_tourney_seed": "12",
         "proj_win_loss_conf": "10.6-7.4",
         "proj_win_loss_overall": "19.6-11.4",
-        "rpi": "60",
+        "rpi": "63",
         "seven_day_change": "0",
         "sor": "45",
         "sos": "21"
@@ -32,7 +32,7 @@
         "sos": "52"
     },
     "time": {
-        "time": "Jan 26, 12:33 PM"
+        "time": "Jan 26,  1:00 PM"
     },
     "trank": {
         "current_cwl": "6-4",
