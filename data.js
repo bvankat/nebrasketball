@@ -13,7 +13,7 @@
         "sos": "18"
     },
     "kenpom": {
-        "rating": "66",
+        "rating": "64",
         "sos": "47"
     },
     "lrmc": {
@@ -32,15 +32,15 @@
         "sos": "51"
     },
     "time": {
-        "time": "Jan 25, 11:00 PM"
+        "time": "Jan 26, 12:00 AM"
     },
     "trank": {
         "current_cwl": "6-4",
         "current_wl": "15-8",
         "kpi": "71",
         "proj": "20-11 (11-7)",
-        "sagarin": "69",
-        "trank": "61"
+        "sagarin": "67",
+        "trank": "62"
     },
     "warrennolan": {
         "cwl": "(10-8)",
