@@ -81,6 +81,7 @@
 			    	<tr><td>Kenpom</td><td id="kenpom-rating" class="r"></td></tr>
 			    	<tr><td>KPI</td><td id="trank-kpi" class="r"></td></tr>
 			    	<tr><td>ESPN BPI</td><td id="espn-rating" class="r"></td></tr>
+			    	<tr><td>Massey Composite</td><td id="massey-comp" class="r"></td></tr>
 			    	<tr><td>T-Rank</td><td id="trank-trank" class="r"></td></tr>
 			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating" class="r"></td></tr>
 			    	<tr><td>Sagarin</td><td id="trank-sagarin" class="r"></td></tr>
@@ -154,7 +155,7 @@
 	  		
   		<br />Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a>
   		
-  		<br />Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="http://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-rpi">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2018/rpi-live">Warren Nolan</a>, <a href="http://www.barttorvik.com/">T-Rank</a>, <a href="http://www.kpisports.net/d-i_mbb/2018kpi-d1mbb/">KPI</a>, <a href="http://sagarin.com/sports/cbsend.htm">Sagarin</a>, <a href="https://www2.isye.gatech.edu/~jsokol/lrmc/">LRMC</a>, <a href="http://bracketmatrix.com">Bracket Project</a>
+  		<br />Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="http://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-rpi">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2018/rpi-live">Warren Nolan</a>, <a href="http://www.barttorvik.com/">T-Rank</a>, <a href="http://www.kpisports.net/d-i_mbb/2018kpi-d1mbb/">KPI</a>, <a href="http://sagarin.com/sports/cbsend.htm">Sagarin</a>, <a href="https://www2.isye.gatech.edu/~jsokol/lrmc/">LRMC</a>, <a href="http://bracketmatrix.com">Bracket Project</a>, <a href="https://www.masseyratings.com/cb/compare.htm">Massey Ratings</a>
   		
   		<br />Calculations help: <a href="https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/">1</a>, <a href="http://thesportsdaily.com/ncaa/analyzing-the-rpi-for-at-large-teams-2/">2</a>, <a href="http://www.kpisports.net/2017/03/14/comparing-advanced-metrics-to-ncaa-1-68-seed-list-2017-edition/">3</a></p>
   	
@@ -177,6 +178,7 @@
 			$('#ncaa-rating').text(json.warrennolan.rpi); // Using live one rather than json.ncaa.rpi_rank for more frequent updates
 			$('#espn-rating').text(json.espn.bpi);
 			$('#teamrankings-rating').text(json.teamrankings.rank);
+			$('#massey-comp').text(json.massey.composite);
 			
 			$('#kenpom-sos').text(json.kenpom.sos);
 			$('#espn-sos').text(json.espn.sos);
@@ -246,8 +248,9 @@
 			 trank_score = FindScore(json.trank.trank);
 			 kpi_score = FindScore(json.trank.kpi);
 			 lrmc_score = FindScore(json.lrmc.rank);
+			 massey_score = FindScore(json.massey.composite);
 			 
-			 total_score = ((kenpom_score*.15) + (ncaa_score*.19) + (espn_sor*.16) + (espn_bpi*.11) + (teamrankings_score*.07) + (sagarin_score*.05) + (trank_score*.09) + (kpi_score*.14) + (lrmc_score * .04));
+			 total_score = ((kenpom_score*.14) + (ncaa_score*.18) + (espn_sor*.15) + (espn_bpi*.10) + (teamrankings_score*.06) + (sagarin_score*.04) + (trank_score*.08) + (kpi_score*.13) + (lrmc_score * .03) + (massey_score * .09));
 			 
 			 function StatusCheck(data) {
 				 var status_message;
@@ -268,15 +271,16 @@
 
 			 
 			 
-			 console.log("NCAA score: " + ncaa_score + "    (19%)");
-			 console.log("ESPN SOR score: " + espn_sor + "    (16%)");
-			 console.log("Kenpom score: " + kenpom_score + "    (15%)");
-			 console.log("KPI score: " + kpi_score + "    (14%)");
-			 console.log("ESPN BPI score: " + espn_bpi + "    (11%)");
-			 console.log("T-Rank score: " + trank_score + "    (9%)");
-			 console.log("TeamRankings score: " + teamrankings_score + "    (7%)");
-			 console.log("Sagarin score: " + sagarin_score + "    (5%)");
-			 console.log("LRMC score: " + lrmc_score + "    (4%)");
+			 console.log("NCAA score: " + ncaa_score + "    (18%)");
+			 console.log("ESPN SOR score: " + espn_sor + "    (15%)");
+			 console.log("Kenpom score: " + kenpom_score + "    (14%)");
+			 console.log("KPI score: " + kpi_score + "    (13%)");
+			 console.log("ESPN BPI score: " + espn_bpi + "    (10%)");
+			 console.log("Massey score: " + massey_score + "    (9%)");
+			 console.log("T-Rank score: " + trank_score + "    (8%)");
+			 console.log("TeamRankings score: " + teamrankings_score + "    (6%)");
+			 console.log("Sagarin score: " + sagarin_score + "    (4%)");
+			 console.log("LRMC score: " + lrmc_score + "    (3%)");
 			 console.log("Total score: " + total_score);
 
 			});		
