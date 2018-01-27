@@ -13,11 +13,14 @@
         "sos": "21"
     },
     "kenpom": {
-        "rating": "65",
+        "rating": "63",
         "sos": "47"
     },
     "lrmc": {
         "rank": "45"
+    },
+    "massey": {
+        "composite": "62"
     },
     "ncaa": {
         "previous_rpi_rank": "61",
@@ -32,7 +35,7 @@
         "sos": "52"
     },
     "time": {
-        "time": "Jan 26, 10:00 PM"
+        "time": "Jan 26, 11:01 PM"
     },
     "trank": {
         "current_cwl": "6-4",
