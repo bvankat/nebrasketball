@@ -17,7 +17,7 @@
         "sos": "59"
     },
     "lrmc": {
-        "rank": "45"
+        "rank": "43"
     },
     "massey": {
         "composite": "62"
@@ -35,7 +35,7 @@
         "sos": "57"
     },
     "time": {
-        "time": "Jan 28, 10:01 AM"
+        "time": "Jan 28,  1:01 PM"
     },
     "trank": {
         "current_cwl": "7-4",
