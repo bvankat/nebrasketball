@@ -23,8 +23,8 @@
         "composite": "62"
     },
     "ncaa": {
-        "previous_rpi_rank": "65",
-        "rpi_rank": "64"
+        "previous_rpi_rank": "64",
+        "rpi_rank": "65"
     },
     "teamrankings": {
         "make_tournament": "7.1%",
@@ -35,15 +35,15 @@
         "sos": "57"
     },
     "time": {
-        "time": "Jan 28,  9:01 AM"
+        "time": "Jan 28, 10:01 AM"
     },
     "trank": {
         "current_cwl": "7-4",
         "current_wl": "16-8",
-        "kpi": "70",
+        "kpi": "71",
         "proj": "20-11 (11-7)",
         "sagarin": "67",
-        "trank": "61"
+        "trank": "64"
     },
     "warrennolan": {
         "cwl": "(9-9)",
