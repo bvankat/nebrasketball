@@ -3,14 +3,14 @@
         "matrix_count": "1"
     },
     "espn": {
-        "bpi": "71",
+        "bpi": "70",
         "proj_tourney_seed": "12",
         "proj_win_loss_conf": "10.9-7.1",
         "proj_win_loss_overall": "19.9-11.1",
         "rpi": "63",
-        "seven_day_change": "5",
+        "seven_day_change": "7",
         "sor": "47",
-        "sos": "29"
+        "sos": "31"
     },
     "kenpom": {
         "rating": "61",
@@ -23,7 +23,7 @@
         "composite": "61"
     },
     "ncaa": {
-        "previous_rpi_rank": "64",
+        "previous_rpi_rank": "65",
         "rpi_rank": "65"
     },
     "teamrankings": {
@@ -35,7 +35,7 @@
         "sos": "57"
     },
     "time": {
-        "time": "Jan 29,  8:01 AM"
+        "time": "Jan 29, 10:01 AM"
     },
     "trank": {
         "current_cwl": "7-4",
