@@ -13,7 +13,7 @@
         "sos": "29"
     },
     "kenpom": {
-        "rating": "62",
+        "rating": "61",
         "sos": "62"
     },
     "lrmc": {
@@ -35,7 +35,7 @@
         "sos": "57"
     },
     "time": {
-        "time": "Jan 28,  9:01 PM"
+        "time": "Jan 28, 10:01 PM"
     },
     "trank": {
         "current_cwl": "7-4",
