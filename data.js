@@ -3,14 +3,14 @@
         "matrix_count": "2"
     },
     "espn": {
-        "bpi": "70",
-        "proj_tourney_seed": "12",
-        "proj_win_loss_conf": "10.9-7.1",
-        "proj_win_loss_overall": "19.9-11.1",
+        "bpi": "64",
+        "proj_tourney_seed": "10",
+        "proj_win_loss_conf": "11.7-6.3",
+        "proj_win_loss_overall": "20.7-10.3",
         "rpi": "63",
-        "seven_day_change": "7",
-        "sor": "47",
-        "sos": "31"
+        "seven_day_change": "10",
+        "sor": "39",
+        "sos": "29"
     },
     "kenpom": {
         "rating": "57",
@@ -35,7 +35,7 @@
         "sos": "51"
     },
     "time": {
-        "time": "Jan 30,  9:48 AM"
+        "time": "Jan 30,  9:56 AM"
     },
     "trank": {
         "current_cwl": "8-4",
