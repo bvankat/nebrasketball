@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "1"
+        "matrix_count": 0
     },
     "espn": {
         "bpi": "70",
@@ -13,11 +13,11 @@
         "sos": "31"
     },
     "kenpom": {
-        "rating": "61",
-        "sos": "62"
+        "rating": "60",
+        "sos": "60"
     },
     "lrmc": {
-        "rank": "45"
+        "rank": "46"
     },
     "massey": {
         "composite": "61"
@@ -35,7 +35,7 @@
         "sos": "57"
     },
     "time": {
-        "time": "Jan 29, 10:01 AM"
+        "time": "Jan 29, 10:26 PM"
     },
     "trank": {
         "current_cwl": "7-4",
@@ -46,13 +46,13 @@
         "trank": "64"
     },
     "warrennolan": {
-        "cwl": "(9-9)",
+        "cwl": "(10-8)",
         "group1": "0-5",
-        "group2": "3-3",
+        "group2": "4-3",
         "group3": "5-0",
         "group4": "8-0",
-        "rpi": "65",
+        "rpi": "66",
         "sos": "91",
-        "wl": "18-13"
+        "wl": "19-12"
     }
 }
