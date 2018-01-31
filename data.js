@@ -8,7 +8,7 @@
         "proj_win_loss_conf": "11.7-6.3",
         "proj_win_loss_overall": "20.7-10.3",
         "seven_day_change": "10",
-        "sor": "39",
+        "sor": "38",
         "sos": "29"
     },
     "kenpom": {
@@ -34,7 +34,7 @@
         "sos": "53"
     },
     "time": {
-        "time": "Jan 31, 10:01 AM"
+        "time": "Jan 31, 11:00 AM"
     },
     "trank": {
         "current_cwl": "8-4",
