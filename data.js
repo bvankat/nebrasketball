@@ -8,8 +8,8 @@
         "proj_win_loss_conf": "11.7-6.3",
         "proj_win_loss_overall": "20.7-10.3",
         "seven_day_change": "10",
-        "sor": "38",
-        "sos": "29"
+        "sor": "40",
+        "sos": "31"
     },
     "kenpom": {
         "rating": "56",
@@ -22,8 +22,8 @@
         "composite": "59"
     },
     "ncaa": {
-        "previous_rpi_rank": "57",
-        "rpi_rank": "58"
+        "previous_rpi_rank": "58",
+        "rpi_rank": "59"
     },
     "teamrankings": {
         "make_tournament": "14.6%",
@@ -34,7 +34,7 @@
         "sos": "55"
     },
     "time": {
-        "time": "Feb 01, 10:23 AM"
+        "time": "Feb 01, 11:01 AM"
     },
     "trank": {
         "current_cwl": "8-4",
