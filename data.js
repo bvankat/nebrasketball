@@ -7,9 +7,9 @@
         "proj_tourney_seed": "10",
         "proj_win_loss_conf": "11.7-6.3",
         "proj_win_loss_overall": "20.7-10.3",
-        "seven_day_change": "10",
+        "seven_day_change": "8",
         "sor": "40",
-        "sos": "31"
+        "sos": "37"
     },
     "kenpom": {
         "rating": "57",
@@ -22,8 +22,8 @@
         "composite": "59"
     },
     "ncaa": {
-        "previous_rpi_rank": "58",
-        "rpi_rank": "59"
+        "previous_rpi_rank": "59",
+        "rpi_rank": "58"
     },
     "teamrankings": {
         "make_tournament": "14.2%",
@@ -34,14 +34,14 @@
         "sos": "55"
     },
     "time": {
-        "time": "Feb 02,  8:27 AM"
+        "time": "Feb 02, 12:01 PM"
     },
     "trank": {
         "current_cwl": "8-4",
         "current_wl": "17-8",
-        "kpi": "65",
+        "kpi": "68",
         "proj": "21-10 (12-6)",
-        "sagarin": "63",
+        "sagarin": "62",
         "trank": "55"
     },
     "warrennolan": {
