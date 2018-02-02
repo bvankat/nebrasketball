@@ -12,11 +12,11 @@
         "sos": "31"
     },
     "kenpom": {
-        "rating": "56",
-        "sos": "54"
+        "rating": "57",
+        "sos": "56"
     },
     "lrmc": {
-        "rank": "38"
+        "rank": "40"
     },
     "massey": {
         "composite": "59"
@@ -26,15 +26,15 @@
         "rpi_rank": "59"
     },
     "teamrankings": {
-        "make_tournament": "14.6%",
-        "most_likely_seed": "#12 (5.6%)",
+        "make_tournament": "14.2%",
+        "most_likely_seed": "#12 (5.3%)",
         "projected_losses": "10.8",
         "projected_wins": "20.2",
         "rank": "70",
         "sos": "55"
     },
     "time": {
-        "time": "Feb 01,  2:01 PM"
+        "time": "Feb 02,  8:27 AM"
     },
     "trank": {
         "current_cwl": "8-4",
@@ -45,13 +45,13 @@
         "trank": "55"
     },
     "warrennolan": {
-        "cwl": "(12-6)",
+        "cwl": "(11-7)",
         "group1": "0-5",
         "group2": "2-3",
         "group3": "8-0",
         "group4": "7-0",
-        "rpi": "59",
-        "sos": "92",
-        "wl": "21-10"
+        "rpi": "60",
+        "sos": "93",
+        "wl": "20-11"
     }
 }
