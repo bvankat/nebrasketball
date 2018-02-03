@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "3"
+        "matrix_count": "1"
     },
     "espn": {
         "bpi": "64",
@@ -12,7 +12,7 @@
         "sos": "37"
     },
     "kenpom": {
-        "rating": "57",
+        "rating": "55",
         "sos": "56"
     },
     "lrmc": {
@@ -34,7 +34,7 @@
         "sos": "55"
     },
     "time": {
-        "time": "Feb 02,  4:01 PM"
+        "time": "Feb 02,  9:02 PM"
     },
     "trank": {
         "current_cwl": "8-4",
@@ -50,8 +50,8 @@
         "group2": "2-3",
         "group3": "8-0",
         "group4": "7-0",
-        "rpi": "60",
-        "sos": "93",
+        "rpi": "58",
+        "sos": "91",
         "wl": "20-11"
     }
 }
