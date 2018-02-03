@@ -5,7 +5,7 @@
     "espn": {
         "bpi": "64",
         "proj_tourney_seed": "10",
-        "proj_win_loss_conf": "11.7-6.3",
+        "proj_win_loss_conf": "11.6-6.4",
         "proj_win_loss_overall": "20.7-10.3",
         "seven_day_change": "8",
         "sor": "40",
@@ -34,7 +34,7 @@
         "sos": "54"
     },
     "time": {
-        "time": "Feb 03, 10:01 AM"
+        "time": "Feb 03, 11:01 AM"
     },
     "trank": {
         "current_cwl": "8-4",
