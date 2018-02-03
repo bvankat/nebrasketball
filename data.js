@@ -34,14 +34,14 @@
         "sos": "55"
     },
     "time": {
-        "time": "Feb 03, 12:01 AM"
+        "time": "Feb 03,  1:01 AM"
     },
     "trank": {
         "current_cwl": "8-4",
         "current_wl": "17-8",
         "kpi": "68",
         "proj": "21-10 (12-6)",
-        "sagarin": "62",
+        "sagarin": "61",
         "trank": "55"
     },
     "warrennolan": {
