@@ -22,11 +22,11 @@
         "composite": "59"
     },
     "ncaa": {
-        "previous_rpi_rank": "58",
-        "rpi_rank": "57"
+        "previous_rpi_rank": "57",
+        "rpi_rank": "58"
     },
     "teamrankings": {
-        "make_tournament": "15.1%",
+        "make_tournament": "15.0%",
         "most_likely_seed": "#12 (5.8%)",
         "projected_losses": "10.8",
         "projected_wins": "20.2",
@@ -34,7 +34,7 @@
         "sos": "54"
     },
     "time": {
-        "time": "Feb 04,  7:21 PM"
+        "time": "Feb 05,  9:34 AM"
     },
     "trank": {
         "current_cwl": "8-4",
@@ -45,13 +45,13 @@
         "trank": "55"
     },
     "warrennolan": {
-        "cwl": "(10-8)",
+        "cwl": "(11-7)",
         "group1": "0-5",
         "group2": "2-3",
         "group3": "6-0",
         "group4": "9-0",
         "rpi": "58",
         "sos": "93",
-        "wl": "19-12"
+        "wl": "20-11"
     }
 }
