@@ -7,9 +7,9 @@
         "proj_tourney_seed": "11",
         "proj_win_loss_conf": "11.6-6.4",
         "proj_win_loss_overall": "20.6-10.4",
-        "seven_day_change": "5",
+        "seven_day_change": "4",
         "sor": "41",
-        "sos": "42"
+        "sos": "41"
     },
     "kenpom": {
         "rating": "61",
@@ -34,7 +34,7 @@
         "sos": "54"
     },
     "time": {
-        "time": "Feb 05,  9:34 AM"
+        "time": "Feb 05, 10:01 AM"
     },
     "trank": {
         "current_cwl": "8-4",
