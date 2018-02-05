@@ -12,7 +12,7 @@
         "sos": "42"
     },
     "kenpom": {
-        "rating": "60",
+        "rating": "61",
         "sos": "56"
     },
     "lrmc": {
@@ -34,23 +34,23 @@
         "sos": "54"
     },
     "time": {
-        "time": "Feb 04,  9:01 AM"
+        "time": "Feb 04,  7:21 PM"
     },
     "trank": {
         "current_cwl": "8-4",
         "current_wl": "17-8",
-        "kpi": "68",
+        "kpi": "65",
         "proj": "21-10 (12-6)",
-        "sagarin": "61",
+        "sagarin": "60",
         "trank": "55"
     },
     "warrennolan": {
         "cwl": "(10-8)",
         "group1": "0-5",
         "group2": "2-3",
-        "group3": "7-0",
-        "group4": "8-0",
-        "rpi": "57",
+        "group3": "6-0",
+        "group4": "9-0",
+        "rpi": "58",
         "sos": "93",
         "wl": "19-12"
     }
