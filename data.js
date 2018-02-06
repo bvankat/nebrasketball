@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "4"
+        "matrix_count": 0
     },
     "espn": {
         "bpi": "66",
@@ -16,17 +16,17 @@
         "sos": "58"
     },
     "lrmc": {
-        "rank": "42"
+        "rank": "44"
     },
     "massey": {
         "composite": "57"
     },
     "ncaa": {
-        "previous_rpi_rank": "57",
+        "previous_rpi_rank": "58",
         "rpi_rank": "58"
     },
     "teamrankings": {
-        "make_tournament": "14.0%",
+        "make_tournament": "14.1%",
         "most_likely_seed": "#12 (5.6%)",
         "projected_losses": "10.8",
         "projected_wins": "20.2",
@@ -34,7 +34,7 @@
         "sos": "56"
     },
     "time": {
-        "time": "Feb 06,  4:01 AM"
+        "time": "Feb 06,  9:13 AM"
     },
     "todays_games": [
         {
