@@ -1,15 +1,15 @@
 {
     "bracketproject": {
-        "matrix_count": 0
+        "matrix_count": "4"
     },
     "espn": {
         "bpi": "66",
-        "proj_tourney_seed": "11",
+        "proj_tourney_seed": "10",
         "proj_win_loss_conf": "11.6-6.4",
         "proj_win_loss_overall": "20.6-10.4",
-        "seven_day_change": "4",
-        "sor": "41",
-        "sos": "41"
+        "seven_day_change": "-2",
+        "sor": "40",
+        "sos": "44"
     },
     "kenpom": {
         "rating": "61",
@@ -34,7 +34,7 @@
         "sos": "56"
     },
     "time": {
-        "time": "Feb 06,  9:13 AM"
+        "time": "Feb 06,  9:57 AM"
     },
     "todays_games": [
         {
