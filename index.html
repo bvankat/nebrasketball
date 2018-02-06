@@ -101,27 +101,7 @@
 	    	
 	    	<br /><br />
 	    	
-	    	<h4>Projections <span class="small text-muted">(Current: <span id="trank-current-wl"></span>, <span id="trank-current-cwl"></span> Big Ten)</h4>
-	    	<table class="table">
-		    	<thead>
-			    	<tr>
-				    	<th>Service</th>
-						<th class="r">Projected W-L</th>
-			    	</tr>
-		    	</thead>
-		    	<tbody>
-			    	<tr><td>ESPN</td><td class="r"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td></tr>
-			    	<tr><td>Kenpom</td><td class="r">21-10 (12-6)</td></tr>
-				    <tr><td>TeamRankings.com</td><td id="teamrankings_wl" class="r"></td></tr>
-				    <tr><td>Warren Nolan</td><td class="r"><span id="warrennolan-wl"></span> <span id="warrennolan-cwl")></span></td></tr>
-				    <tr><td>T-Rank</td><td id="trank-proj" class="r"></td></tr>
-				</tbody>
-			</table>
-			
-			<br /><br />
-			
-			
-			<h4>RPI details</h4>
+	    	<h4>RPI details</h4>
 			<div class="table-responsive">
 			<table class="table">
 				<thead>
@@ -149,6 +129,28 @@
 			
 			
 			<br /><br />
+	    	
+	    	<h4>Projections <span class="small text-muted">(Current: <span id="trank-current-wl"></span>, <span id="trank-current-cwl"></span> Big Ten)</h4>
+	    	<table class="table">
+		    	<thead>
+			    	<tr>
+				    	<th>Service</th>
+						<th class="r">Projected W-L</th>
+			    	</tr>
+		    	</thead>
+		    	<tbody>
+			    	<tr><td>ESPN</td><td class="r"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td></tr>
+			    	<tr><td>Kenpom</td><td class="r">21-10 (12-6)</td></tr>
+				    <tr><td>TeamRankings.com</td><td id="teamrankings_wl" class="r"></td></tr>
+				    <tr><td>Warren Nolan</td><td class="r"><span id="warrennolan-wl"></span> <span id="warrennolan-cwl")></span></td></tr>
+				    <tr><td>T-Rank</td><td id="trank-proj" class="r"></td></tr>
+				</tbody>
+			</table>
+			
+			<br /><br />
+			
+			
+			
 			
 			<h4>Other notables</h4>
 			<table class="table">
@@ -165,6 +167,14 @@
 				</tbody>
 			</table>
 			
+			<br /><br />
+			
+			<h4>Today's bubble games</h4>
+			<table class="table">
+				<tbody id="todays-games">
+				</tbody>
+			</table>
+			
 	    	
 	    </div>
   	</div>
@@ -174,7 +184,7 @@
 	  		
   		<br />Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a>
   		
-  		<br />Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="http://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-rpi">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2018/rpi-live">Warren Nolan</a>, <a href="http://www.barttorvik.com/">T-Rank</a>, <a href="http://www.kpisports.net/d-i_mbb/2018kpi-d1mbb/">KPI</a>, <a href="http://sagarin.com/sports/cbsend.htm">Sagarin</a>, <a href="https://www2.isye.gatech.edu/~jsokol/lrmc/">LRMC</a>, <a href="http://bracketmatrix.com">Bracket Project</a>, <a href="https://www.masseyratings.com/cb/compare.htm">Massey Ratings</a>, <a href="http://www.espn.com/mens-college-basketball/bracketology">ESPN Bracketology</a>
+  		<br />Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="http://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-rpi">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2018/rpi-live">Warren Nolan</a>, <a href="http://www.barttorvik.com/">T-Rank</a>, <a href="http://www.kpisports.net/d-i_mbb/2018kpi-d1mbb/">KPI</a>, <a href="http://sagarin.com/sports/cbsend.htm">Sagarin</a>, <a href="https://www2.isye.gatech.edu/~jsokol/lrmc/">LRMC</a>, <a href="http://bracketmatrix.com">Bracket Project</a>, <a href="https://www.masseyratings.com/cb/compare.htm">Massey Ratings</a>, <a href="http://www.espn.com/mens-college-basketball/bracketology">ESPN Bracketology</a>, <a href="https://www.cbssports.com/college-basketball/bracketology/">CBS Sports</a>
   		
   		<br />Calculations help: <a href="https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/">1</a>, <a href="http://thesportsdaily.com/ncaa/analyzing-the-rpi-for-at-large-teams-2/">2</a>, <a href="http://www.kpisports.net/2017/03/14/comparing-advanced-metrics-to-ncaa-1-68-seed-list-2017-edition/">3</a></p>
   	
@@ -234,7 +244,22 @@
 			var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
 			$('#teamrankings_wl').text(teamrankings_wl);
 			
-			$('#time').text(json.time.time);				
+			$('#time').text(json.time.time);
+			
+				
+			games = json.todays_games;
+			console.log(games.length + " bubble games today:");
+			console.log(games);
+			
+			if (games.length > 0) {
+			
+			$.each(games, function(i, game){
+				$('#todays-games').append("<tr><td>" + game.team + " (" + game.rpi + ") " + game.next_opponent + ", " + game.time + "</td></tr>");
+			});
+			
+			} else {
+				$('#todays-games').append("<tr><td>No bubble games today</td></tr>");
+			};
 			
 			
 			gauge_number = json.teamrankings.make_tournament	
