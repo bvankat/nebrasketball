@@ -31,10 +31,10 @@
         "projected_losses": "10.8",
         "projected_wins": "20.2",
         "rank": "70",
-        "sos": "54"
+        "sos": "56"
     },
     "time": {
-        "time": "Feb 06,  2:39 AM"
+        "time": "Feb 06,  3:01 AM"
     },
     "todays_games": [
         {
