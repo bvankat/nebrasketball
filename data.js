@@ -34,8 +34,58 @@
         "sos": "54"
     },
     "time": {
-        "time": "Feb 06,  1:02 AM"
+        "time": "Feb 06,  1:44 AM"
     },
+    "todays_games": [
+        {
+            "next_opponent": "@ Miss. State",
+            "rpi": "38",
+            "team": "Alabama",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "vs Georgetown",
+            "rpi": "27",
+            "team": "Providence",
+            "time": " 7:30 PM"
+        },
+        {
+            "next_opponent": "@ Kansas",
+            "rpi": "30",
+            "team": "TCU",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs S. Carolina",
+            "rpi": "40",
+            "team": "Arkansas",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "@ New Mexico",
+            "rpi": "35",
+            "team": "Boise St.",
+            "time": " 9:00 PM"
+        },
+        {
+            "next_opponent": "vs Alabama",
+            "rpi": "57",
+            "team": "Miss. State",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "@ Minnesota",
+            "rpi": "58",
+            "team": "Nebraska",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "@ Cincinnati",
+            "rpi": "72",
+            "team": "UCF",
+            "time": " 6:00 PM"
+        }
+    ],
     "trank": {
         "current_cwl": "8-4",
         "current_wl": "17-8",
