@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "2"
+        "matrix_count": "4"
     },
     "espn": {
         "bpi": "66",
@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "61",
-        "sos": "56"
+        "sos": "58"
     },
     "lrmc": {
         "rank": "42"
@@ -34,7 +34,7 @@
         "sos": "54"
     },
     "time": {
-        "time": "Feb 05,  7:01 PM"
+        "time": "Feb 05, 10:36 PM"
     },
     "trank": {
         "current_cwl": "8-4",
@@ -43,15 +43,5 @@
         "proj": "21-10 (12-6)",
         "sagarin": "60",
         "trank": "55"
-    },
-    "warrennolan": {
-        "cwl": "(11-7)",
-        "group1": "0-5",
-        "group2": "2-3",
-        "group3": "6-0",
-        "group4": "9-0",
-        "rpi": "58",
-        "sos": "93",
-        "wl": "20-11"
     }
 }
