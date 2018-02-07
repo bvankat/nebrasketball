@@ -34,7 +34,7 @@
         "sos": "51"
     },
     "time": {
-        "time": "Feb 07,  8:14 AM"
+        "time": "Feb 07, 10:01 AM"
     },
     "todays_games": [
         {
@@ -95,10 +95,10 @@
     "trank": {
         "current_cwl": "9-4",
         "current_wl": "18-8",
-        "kpi": "66",
+        "kpi": "63",
         "proj": "21-10 (12-6)",
-        "sagarin": "60",
-        "trank": "54"
+        "sagarin": "58",
+        "trank": "53"
     },
     "warrennolan": {
         "cwl": "(13-5)",
