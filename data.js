@@ -12,8 +12,8 @@
         "sos": "44"
     },
     "kenpom": {
-        "rating": "61",
-        "sos": "60"
+        "rating": "57",
+        "sos": "52"
     },
     "lrmc": {
         "rank": "44"
@@ -34,19 +34,12 @@
         "sos": "56"
     },
     "time": {
-        "time": "Feb 06, 11:01 PM"
+        "time": "Feb 06, 11:31 PM"
     },
-    "todays_games": [
-        {
-            "next_opponent": "@ New Mexico",
-            "rpi": "35",
-            "team": "Boise St.",
-            "time": " 9:00 PM"
-        }
-    ],
+    "todays_games": [],
     "trank": {
-        "current_cwl": "8-4",
-        "current_wl": "17-8",
+        "current_cwl": "9-4",
+        "current_wl": "18-8",
         "kpi": "66",
         "proj": "21-10 (12-6)",
         "sagarin": "60",
