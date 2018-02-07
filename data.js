@@ -12,7 +12,7 @@
         "sos": "44"
     },
     "kenpom": {
-        "rating": "61",
+        "rating": "60",
         "sos": "58"
     },
     "lrmc": {
@@ -34,7 +34,7 @@
         "sos": "56"
     },
     "time": {
-        "time": "Feb 06,  3:01 PM"
+        "time": "Feb 06,  7:58 PM"
     },
     "todays_games": [
         {
