@@ -12,8 +12,8 @@
         "sos": "44"
     },
     "kenpom": {
-        "rating": "60",
-        "sos": "58"
+        "rating": "62",
+        "sos": "60"
     },
     "lrmc": {
         "rank": "44"
@@ -34,15 +34,9 @@
         "sos": "56"
     },
     "time": {
-        "time": "Feb 06,  7:58 PM"
+        "time": "Feb 06,  9:01 PM"
     },
     "todays_games": [
-        {
-            "next_opponent": "@ Miss. State",
-            "rpi": "38",
-            "team": "Alabama",
-            "time": " 6:00 PM"
-        },
         {
             "next_opponent": "vs Georgetown",
             "rpi": "27",
@@ -56,34 +50,16 @@
             "time": " 8:00 PM"
         },
         {
-            "next_opponent": "vs S. Carolina",
-            "rpi": "40",
-            "team": "Arkansas",
-            "time": " 6:00 PM"
-        },
-        {
             "next_opponent": "@ New Mexico",
             "rpi": "35",
             "team": "Boise St.",
             "time": " 9:00 PM"
         },
         {
-            "next_opponent": "vs Alabama",
-            "rpi": "57",
-            "team": "Miss. State",
-            "time": " 6:00 PM"
-        },
-        {
             "next_opponent": "@ Minnesota",
             "rpi": "58",
             "team": "Nebraska",
             "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "@ Cincinnati",
-            "rpi": "72",
-            "team": "UCF",
-            "time": " 6:00 PM"
         }
     ],
     "trank": {
@@ -98,10 +74,10 @@
         "cwl": "(11-7)",
         "group1": "0-5",
         "group2": "2-3",
-        "group3": "7-0",
-        "group4": "8-0",
+        "group3": "8-0",
+        "group4": "7-0",
         "rpi": "58",
-        "sos": "94",
+        "sos": "97",
         "wl": "20-11"
     }
 }
