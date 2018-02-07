@@ -12,7 +12,7 @@
         "sos": "44"
     },
     "kenpom": {
-        "rating": "62",
+        "rating": "61",
         "sos": "60"
     },
     "lrmc": {
@@ -34,32 +34,14 @@
         "sos": "56"
     },
     "time": {
-        "time": "Feb 06, 10:01 PM"
+        "time": "Feb 06, 10:47 PM"
     },
     "todays_games": [
-        {
-            "next_opponent": "vs Georgetown",
-            "rpi": "27",
-            "team": "Providence",
-            "time": " 7:30 PM"
-        },
-        {
-            "next_opponent": "@ Kansas",
-            "rpi": "30",
-            "team": "TCU",
-            "time": " 8:00 PM"
-        },
         {
             "next_opponent": "@ New Mexico",
             "rpi": "35",
             "team": "Boise St.",
             "time": " 9:00 PM"
-        },
-        {
-            "next_opponent": "@ Minnesota",
-            "rpi": "58",
-            "team": "Nebraska",
-            "time": " 8:00 PM"
         }
     ],
     "trank": {
@@ -71,13 +53,13 @@
         "trank": "54"
     },
     "warrennolan": {
-        "cwl": "(11-7)",
+        "cwl": "(12-6)",
         "group1": "0-5",
-        "group2": "2-3",
+        "group2": "3-3",
         "group3": "8-0",
         "group4": "7-0",
-        "rpi": "58",
-        "sos": "95",
-        "wl": "20-11"
+        "rpi": "54",
+        "sos": "93",
+        "wl": "21-10"
     }
 }
