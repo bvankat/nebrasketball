@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "58",
-        "sos": "52"
+        "sos": "53"
     },
     "lrmc": {
         "rank": "40"
@@ -34,28 +34,9 @@
         "sos": "51"
     },
     "time": {
-        "time": "Feb 07, 10:01 PM"
+        "time": "Feb 07, 11:02 PM"
     },
-    "todays_games": [
-        {
-            "next_opponent": "@ Va. Tech",
-            "rpi": "59",
-            "team": "NC State",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "@ Auburn",
-            "rpi": "30",
-            "team": "Texas A&M",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "vs NC State",
-            "rpi": "68",
-            "team": "Va. Tech",
-            "time": " 8:00 PM"
-        }
-    ],
+    "todays_games": [],
     "trank": {
         "current_cwl": "9-4",
         "current_wl": "18-8",
@@ -71,7 +52,7 @@
         "group3": "8-0",
         "group4": "7-0",
         "rpi": "55",
-        "sos": "94",
+        "sos": "92",
         "wl": "22-9"
     }
 }
