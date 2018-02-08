@@ -16,25 +16,25 @@
         "sos": "52"
     },
     "lrmc": {
-        "rank": "40"
+        "rank": "41"
     },
     "massey": {
         "composite": "57"
     },
     "ncaa": {
-        "previous_rpi_rank": "58",
-        "rpi_rank": "54"
+        "previous_rpi_rank": "54",
+        "rpi_rank": "55"
     },
     "teamrankings": {
-        "make_tournament": "24.8%",
-        "most_likely_seed": "#12 (9.0%)",
+        "make_tournament": "26.9%",
+        "most_likely_seed": "#12 (9.8%)",
         "projected_losses": "10.1",
         "projected_wins": "20.9",
         "rank": "69",
         "sos": "50"
     },
     "time": {
-        "time": "Feb 08,  3:01 AM"
+        "time": "Feb 08, 11:01 AM"
     },
     "todays_games": [
         {
@@ -97,8 +97,8 @@
         "current_wl": "18-8",
         "kpi": "63",
         "proj": "21-10 (12-6)",
-        "sagarin": "58",
-        "trank": "53"
+        "sagarin": "59",
+        "trank": "54"
     },
     "warrennolan": {
         "cwl": "(13-5)",
