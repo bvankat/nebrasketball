@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "6"
+        "matrix_count": "8"
     },
     "espn": {
         "bpi": "65",
@@ -34,9 +34,64 @@
         "sos": "51"
     },
     "time": {
-        "time": "Feb 07, 11:02 PM"
+        "time": "Feb 08, 12:01 AM"
     },
-    "todays_games": [],
+    "todays_games": [
+        {
+            "next_opponent": "vs SMU",
+            "rpi": "36",
+            "team": "Houston",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs Georgia Tech",
+            "rpi": "42",
+            "team": "Louisville",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "vs Rice",
+            "rpi": "21",
+            "team": "Middle Tenn.",
+            "time": " 6:30 PM"
+        },
+        {
+            "next_opponent": "vs Cal-Baker.",
+            "rpi": "46",
+            "team": "New Mex. St.",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "@ Houston",
+            "rpi": "71",
+            "team": "SMU",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "@ Arizona",
+            "rpi": "56",
+            "team": "UCLA",
+            "time": " 9:00 PM"
+        },
+        {
+            "next_opponent": "@ Arizona St.",
+            "rpi": "45",
+            "team": "USC",
+            "time": "10:00 PM"
+        },
+        {
+            "next_opponent": "vs Stanford",
+            "rpi": "57",
+            "team": "Utah",
+            "time": " 7:00 PM"
+        },
+        {
+            "next_opponent": "vs FAU",
+            "rpi": "50",
+            "team": "Western Ky.",
+            "time": " 7:30 PM"
+        }
+    ],
     "trank": {
         "current_cwl": "9-4",
         "current_wl": "18-8",
