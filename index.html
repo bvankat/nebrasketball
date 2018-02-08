@@ -15,6 +15,7 @@
 
 
   <link rel="apple-touch-icon" href="http://benvankat.com/projects/nebrasketball/app-icon.png">
+  <link rel="stylesheet" href="https://use.typekit.net/dhj5kzf.css">
 
    	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -26,7 +27,7 @@
 
 	<style>
 	    body { font-family: sans-serif; }
-	    h2 { font-weight: bold; text-align: center;}
+ 	    h2 { font-family: "factoria"; font-weight: bold; font-style: italic; text-align: center; }
 	    div.jumbotron { color: #fff; background-color: #eb132f; border-radius: 0; }
 	    .gray {color: #ddd; }
 	    th { text-align: left; }
@@ -300,8 +301,7 @@
 				 var status_message;
 				 if (data < 20) { status_message = "Still need some wins." }
 				 if (data >= 20 && data < 30) { status_message = "Can see the bubble from here." }
-				 if (data >= 30 && data < 35) { status_message = "Deep breaths, people" }
-				 if (data >= 35 && data < 40) { status_message = "What's good to eat in Dayton?" }
+				 if (data >= 30 && data < 40) { status_message = "What's good to eat in Dayton?" }
 				 if (data >= 40 && data < 55) { status_message = "Cautiously optimistic." }
 				 if (data >= 55 && data < 75) { status_message = "Feeling good." }
 				 if (data >= 75) { status_message = "Dancing." }
