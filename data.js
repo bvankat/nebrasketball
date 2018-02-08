@@ -30,34 +30,34 @@
         "most_likely_seed": "#12 (9.0%)",
         "projected_losses": "10.1",
         "projected_wins": "20.9",
-        "rank": "68",
-        "sos": "51"
+        "rank": "69",
+        "sos": "50"
     },
     "time": {
-        "time": "Feb 08,  1:31 AM"
+        "time": "Feb 08,  3:01 AM"
     },
     "todays_games": [
         {
             "next_opponent": "vs SMU",
-            "rpi": "36",
+            "rpi": "38",
             "team": "Houston",
             "time": " 8:00 PM"
         },
         {
             "next_opponent": "vs Georgia Tech",
-            "rpi": "42",
+            "rpi": "43",
             "team": "Louisville",
             "time": " 6:00 PM"
         },
         {
             "next_opponent": "vs Rice",
-            "rpi": "21",
+            "rpi": "22",
             "team": "Middle Tenn.",
             "time": " 6:30 PM"
         },
         {
             "next_opponent": "vs Cal-Baker.",
-            "rpi": "46",
+            "rpi": "45",
             "team": "New Mex. St.",
             "time": " 8:00 PM"
         },
@@ -69,25 +69,25 @@
         },
         {
             "next_opponent": "@ Arizona",
-            "rpi": "56",
+            "rpi": "57",
             "team": "UCLA",
             "time": " 9:00 PM"
         },
         {
             "next_opponent": "@ Arizona St.",
-            "rpi": "45",
+            "rpi": "44",
             "team": "USC",
             "time": "10:00 PM"
         },
         {
             "next_opponent": "vs Stanford",
-            "rpi": "57",
+            "rpi": "58",
             "team": "Utah",
             "time": " 7:00 PM"
         },
         {
             "next_opponent": "vs FAU",
-            "rpi": "50",
+            "rpi": "51",
             "team": "Western Ky.",
             "time": " 7:30 PM"
         }
