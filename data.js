@@ -34,7 +34,7 @@
         "sos": "50"
     },
     "time": {
-        "time": "Feb 09, 11:01 AM"
+        "time": "Feb 09, 12:01 PM"
     },
     "todays_games": [],
     "trank": {
