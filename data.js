@@ -5,25 +5,25 @@
     "espn": {
         "bpi": "65",
         "proj_tourney_seed": "9",
-        "proj_win_loss_conf": "12.1-5.9",
+        "proj_win_loss_conf": "12.2-5.8",
         "proj_win_loss_overall": "21.2-9.8",
         "seven_day_change": "-1",
         "sor": "35",
-        "sos": "39"
+        "sos": "36"
     },
     "kenpom": {
         "rating": "56",
         "sos": "52"
     },
     "lrmc": {
-        "rank": "41"
+        "rank": "43"
     },
     "massey": {
         "composite": "57"
     },
     "ncaa": {
-        "previous_rpi_rank": "54",
-        "rpi_rank": "55"
+        "previous_rpi_rank": "55",
+        "rpi_rank": "54"
     },
     "teamrankings": {
         "make_tournament": "27.5%",
@@ -34,7 +34,7 @@
         "sos": "50"
     },
     "time": {
-        "time": "Feb 09,  6:45 AM"
+        "time": "Feb 09, 11:01 AM"
     },
     "todays_games": [],
     "trank": {
@@ -42,17 +42,17 @@
         "current_wl": "18-8",
         "kpi": "63",
         "proj": "21-10 (12-6)",
-        "sagarin": "59",
-        "trank": "54"
+        "sagarin": "60",
+        "trank": "53"
     },
     "warrennolan": {
-        "cwl": "(13-5)",
+        "cwl": "(12-5)",
         "group1": "0-6",
         "group2": "3-2",
-        "group3": "8-0",
-        "group4": "7-0",
-        "rpi": "55",
-        "sos": "91",
-        "wl": "22-9"
+        "group3": "7-0",
+        "group4": "8-0",
+        "rpi": "54",
+        "sos": "93",
+        "wl": "21-9"
     }
 }
