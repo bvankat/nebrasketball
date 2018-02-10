@@ -34,7 +34,7 @@
         "sos": "50"
     },
     "time": {
-        "time": "Feb 10,  2:01 PM"
+        "time": "Feb 10,  3:01 PM"
     },
     "todays_games": [
         {
@@ -78,12 +78,6 @@
             "rpi": "29",
             "team": "Middle Tenn.",
             "time": " 5:00 PM"
-        },
-        {
-            "next_opponent": "vs N. Carolina",
-            "rpi": "65",
-            "team": "NC State",
-            "time": " 1:00 PM"
         },
         {
             "next_opponent": "vs San Diego St",
