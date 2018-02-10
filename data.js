@@ -22,24 +22,24 @@
         "composite": "57"
     },
     "ncaa": {
-        "previous_rpi_rank": "55",
-        "rpi_rank": "54"
+        "previous_rpi_rank": "54",
+        "rpi_rank": "57"
     },
     "teamrankings": {
-        "make_tournament": "27.5%",
-        "most_likely_seed": "#12 (9.6%)",
+        "make_tournament": "25.7%",
+        "most_likely_seed": "#12 (9.3%)",
         "projected_losses": "10.1",
         "projected_wins": "20.9",
-        "rank": "69",
+        "rank": "68",
         "sos": "50"
     },
     "time": {
-        "time": "Feb 10, 12:05 AM"
+        "time": "Feb 10, 10:01 AM"
     },
     "todays_games": [
         {
             "next_opponent": "vs Miss. State",
-            "rpi": "30",
+            "rpi": "31",
             "team": "Missouri",
             "time": " 1:00 PM"
         },
@@ -99,13 +99,13 @@
         },
         {
             "next_opponent": "vs Grand Canyon",
-            "rpi": "48",
+            "rpi": "49",
             "team": "New Mex. St.",
             "time": " 8:00 PM"
         },
         {
             "next_opponent": "vs Texas",
-            "rpi": "31",
+            "rpi": "30",
             "team": "TCU",
             "time": " 1:00 PM"
         },
@@ -123,7 +123,7 @@
         },
         {
             "next_opponent": "@ Arizona",
-            "rpi": "44",
+            "rpi": "45",
             "team": "USC",
             "time": " 9:15 PM"
         },
@@ -141,19 +141,19 @@
         },
         {
             "next_opponent": "@ St. John's",
-            "rpi": "57",
+            "rpi": "56",
             "team": "Marquette",
             "time": "11:00 AM"
         },
         {
             "next_opponent": "@ Missouri",
-            "rpi": "55",
+            "rpi": "54",
             "team": "Miss. State",
             "time": " 1:00 PM"
         },
         {
             "next_opponent": "vs Rutgers",
-            "rpi": "54",
+            "rpi": "57",
             "team": "Nebraska",
             "time": " 3:00 PM"
         },
@@ -171,7 +171,7 @@
         },
         {
             "next_opponent": "vs FIU",
-            "rpi": "56",
+            "rpi": "55",
             "team": "Western Ky.",
             "time": " 6:00 PM"
         }
@@ -179,10 +179,10 @@
     "trank": {
         "current_cwl": "9-4",
         "current_wl": "18-8",
-        "kpi": "63",
+        "kpi": "64",
         "proj": "21-10 (12-6)",
         "sagarin": "60",
-        "trank": "53"
+        "trank": "55"
     },
     "warrennolan": {
         "cwl": "(12-5)",
