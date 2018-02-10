@@ -3,13 +3,13 @@
         "matrix_count": "9"
     },
     "espn": {
-        "bpi": "65",
+        "bpi": "64",
         "proj_tourney_seed": "9",
         "proj_win_loss_conf": "12.2-5.8",
-        "proj_win_loss_overall": "21.2-9.8",
-        "seven_day_change": "-1",
+        "proj_win_loss_overall": "21.1-9.9",
+        "seven_day_change": "0",
         "sor": "35",
-        "sos": "36"
+        "sos": "41"
     },
     "kenpom": {
         "rating": "56",
@@ -34,7 +34,7 @@
         "sos": "50"
     },
     "time": {
-        "time": "Feb 10, 10:01 AM"
+        "time": "Feb 10, 11:01 AM"
     },
     "todays_games": [
         {
