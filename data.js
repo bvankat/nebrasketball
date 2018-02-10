@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "56",
-        "sos": "54"
+        "sos": "55"
     },
     "lrmc": {
         "rank": "43"
@@ -34,7 +34,7 @@
         "sos": "50"
     },
     "time": {
-        "time": "Feb 10,  1:01 PM"
+        "time": "Feb 10,  2:01 PM"
     },
     "todays_games": [
         {
@@ -66,12 +66,6 @@
             "rpi": "35",
             "team": "Arkansas",
             "time": " 7:30 PM"
-        },
-        {
-            "next_opponent": "@ S. Carolina",
-            "rpi": "50",
-            "team": "Florida",
-            "time": "11:00 AM"
         },
         {
             "next_opponent": "vs Texas Tech",
@@ -140,12 +134,6 @@
             "time": " 8:00 PM"
         },
         {
-            "next_opponent": "@ St. John's",
-            "rpi": "56",
-            "team": "Marquette",
-            "time": "11:00 AM"
-        },
-        {
             "next_opponent": "@ Missouri",
             "rpi": "54",
             "team": "Miss. State",
@@ -188,9 +176,9 @@
         "cwl": "(12-5)",
         "group1": "0-6",
         "group2": "3-2",
-        "group3": "7-0",
-        "group4": "8-0",
-        "rpi": "57",
+        "group3": "6-0",
+        "group4": "9-0",
+        "rpi": "56",
         "sos": "95",
         "wl": "21-9"
     }
