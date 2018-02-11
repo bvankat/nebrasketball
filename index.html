@@ -247,7 +247,7 @@
 			
 			$('#time').text(json.time.time);
 			
-				
+			if (json.todays_games) {	
 			games = json.todays_games;
 			console.log(games.length + " bubble games today:");
 			console.log(games);
@@ -262,6 +262,7 @@
 				$('#todays-games').append("<tr><td>No bubble games left today</td></tr>");
 			};
 			
+			};
 			
 			gauge_number = json.teamrankings.make_tournament	
 			
