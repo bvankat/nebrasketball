@@ -3,17 +3,17 @@
         "matrix_count": "4"
     },
     "espn": {
-        "bpi": "64",
+        "bpi": "61",
         "proj_tourney_seed": "9",
-        "proj_win_loss_conf": "12.2-5.8",
-        "proj_win_loss_overall": "21.1-9.9",
-        "seven_day_change": "0",
-        "sor": "35",
-        "sos": "41"
+        "proj_win_loss_conf": "12.4-5.6",
+        "proj_win_loss_overall": "21.4-9.6",
+        "seven_day_change": "5",
+        "sor": "36",
+        "sos": "54"
     },
     "kenpom": {
-        "rating": "55",
-        "sos": "65"
+        "rating": "52",
+        "sos": "64"
     },
     "lrmc": {
         "rank": "45"
@@ -22,8 +22,8 @@
         "composite": "57"
     },
     "ncaa": {
-        "previous_rpi_rank": "54",
-        "rpi_rank": "57"
+        "previous_rpi_rank": "57",
+        "rpi_rank": "54"
     },
     "teamrankings": {
         "make_tournament": "28.9%",
@@ -34,47 +34,15 @@
         "sos": "57"
     },
     "time": {
-        "time": "Feb 11,  9:01 AM"
+        "time": "Feb 11,  5:40 PM"
     },
-    "todays_games": [
-        {
-            "next_opponent": "@ Wisconsin",
-            "rpi": "40",
-            "team": "Michigan",
-            "time": "12:00 PM"
-        },
-        {
-            "next_opponent": "vs Tulane",
-            "rpi": "31",
-            "team": "Houston",
-            "time": " 5:00 PM"
-        },
-        {
-            "next_opponent": "@ Pittsburgh",
-            "rpi": "42",
-            "team": "Louisville",
-            "time": "12:00 PM"
-        },
-        {
-            "next_opponent": "vs Cincinnati",
-            "rpi": "75",
-            "team": "SMU",
-            "time": " 3:00 PM"
-        },
-        {
-            "next_opponent": "vs Wake Forest",
-            "rpi": "38",
-            "team": "Syracuse",
-            "time": "12:00 PM"
-        }
-    ],
     "trank": {
         "current_cwl": "10-4",
         "current_wl": "19-8",
-        "kpi": "66",
+        "kpi": "64",
         "proj": "21-10 (12-6)",
-        "sagarin": "60",
-        "trank": "55"
+        "sagarin": "58",
+        "trank": "52"
     },
     "warrennolan": {
         "cwl": "(13-5)",
