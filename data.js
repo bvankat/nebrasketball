@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "56",
-        "sos": "55"
+        "sos": "64"
     },
     "lrmc": {
         "rank": "43"
@@ -34,15 +34,9 @@
         "sos": "50"
     },
     "time": {
-        "time": "Feb 10,  3:01 PM"
+        "time": "Feb 10,  9:28 PM"
     },
     "todays_games": [
-        {
-            "next_opponent": "vs Miss. State",
-            "rpi": "31",
-            "team": "Missouri",
-            "time": " 1:00 PM"
-        },
         {
             "next_opponent": "vs Kentucky",
             "rpi": "18",
@@ -56,34 +50,10 @@
             "time": " 9:00 PM"
         },
         {
-            "next_opponent": "vs Tennessee",
-            "rpi": "42",
-            "team": "Alabama",
-            "time": " 5:00 PM"
-        },
-        {
             "next_opponent": "vs Vanderbilt",
             "rpi": "35",
             "team": "Arkansas",
             "time": " 7:30 PM"
-        },
-        {
-            "next_opponent": "vs Texas Tech",
-            "rpi": "59",
-            "team": "Kansas St.",
-            "time": " 7:00 PM"
-        },
-        {
-            "next_opponent": "vs North Texas",
-            "rpi": "29",
-            "team": "Middle Tenn.",
-            "time": " 5:00 PM"
-        },
-        {
-            "next_opponent": "vs San Diego St",
-            "rpi": "14",
-            "team": "Nevada",
-            "time": " 7:00 PM"
         },
         {
             "next_opponent": "vs Grand Canyon",
@@ -92,34 +62,10 @@
             "time": " 8:00 PM"
         },
         {
-            "next_opponent": "vs Texas",
-            "rpi": "30",
-            "team": "TCU",
-            "time": " 1:00 PM"
-        },
-        {
-            "next_opponent": "@ TCU",
-            "rpi": "46",
-            "team": "Texas",
-            "time": " 1:00 PM"
-        },
-        {
-            "next_opponent": "@ Arizona St.",
-            "rpi": "51",
-            "team": "UCLA",
-            "time": " 6:00 PM"
-        },
-        {
             "next_opponent": "@ Arizona",
             "rpi": "45",
             "team": "USC",
             "time": " 9:15 PM"
-        },
-        {
-            "next_opponent": "@ Virginia",
-            "rpi": "67",
-            "team": "Va. Tech",
-            "time": " 5:15 PM"
         },
         {
             "next_opponent": "@ Utah St.",
@@ -128,52 +74,28 @@
             "time": " 8:00 PM"
         },
         {
-            "next_opponent": "@ Missouri",
-            "rpi": "54",
-            "team": "Miss. State",
-            "time": " 1:00 PM"
-        },
-        {
-            "next_opponent": "vs Rutgers",
-            "rpi": "57",
-            "team": "Nebraska",
-            "time": " 3:00 PM"
-        },
-        {
-            "next_opponent": "vs Richmond",
-            "rpi": "47",
-            "team": "St. Bona.",
-            "time": " 3:00 PM"
-        },
-        {
             "next_opponent": "vs California",
             "rpi": "58",
             "team": "Utah",
             "time": " 8:30 PM"
-        },
-        {
-            "next_opponent": "vs FIU",
-            "rpi": "55",
-            "team": "Western Ky.",
-            "time": " 6:00 PM"
         }
     ],
     "trank": {
-        "current_cwl": "9-4",
-        "current_wl": "18-8",
+        "current_cwl": "10-4",
+        "current_wl": "19-8",
         "kpi": "64",
         "proj": "21-10 (12-6)",
         "sagarin": "60",
         "trank": "55"
     },
     "warrennolan": {
-        "cwl": "(12-5)",
+        "cwl": "(13-5)",
         "group1": "0-6",
         "group2": "3-2",
-        "group3": "6-0",
+        "group3": "7-0",
         "group4": "9-0",
-        "rpi": "56",
-        "sos": "95",
-        "wl": "21-9"
+        "rpi": "54",
+        "sos": "96",
+        "wl": "22-9"
     }
 }
