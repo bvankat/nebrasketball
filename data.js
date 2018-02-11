@@ -12,8 +12,8 @@
         "sos": "41"
     },
     "kenpom": {
-        "rating": "56",
-        "sos": "64"
+        "rating": "55",
+        "sos": "65"
     },
     "lrmc": {
         "rank": "43"
@@ -34,26 +34,14 @@
         "sos": "50"
     },
     "time": {
-        "time": "Feb 10,  9:28 PM"
+        "time": "Feb 10, 10:01 PM"
     },
     "todays_games": [
-        {
-            "next_opponent": "vs Kentucky",
-            "rpi": "18",
-            "team": "Texas A&M",
-            "time": " 7:15 PM"
-        },
         {
             "next_opponent": "@ Oregon St.",
             "rpi": "39",
             "team": "Washington",
             "time": " 9:00 PM"
-        },
-        {
-            "next_opponent": "vs Vanderbilt",
-            "rpi": "35",
-            "team": "Arkansas",
-            "time": " 7:30 PM"
         },
         {
             "next_opponent": "vs Grand Canyon",
@@ -95,7 +83,7 @@
         "group3": "7-0",
         "group4": "9-0",
         "rpi": "54",
-        "sos": "96",
+        "sos": "97",
         "wl": "22-9"
     }
 }
