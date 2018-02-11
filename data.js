@@ -13,10 +13,10 @@
     },
     "kenpom": {
         "rating": "55",
-        "sos": "66"
+        "sos": "65"
     },
     "lrmc": {
-        "rank": "43"
+        "rank": "45"
     },
     "massey": {
         "composite": "57"
@@ -26,26 +26,32 @@
         "rpi_rank": "57"
     },
     "teamrankings": {
-        "make_tournament": "25.7%",
-        "most_likely_seed": "#12 (9.3%)",
-        "projected_losses": "10.1",
-        "projected_wins": "20.9",
-        "rank": "68",
-        "sos": "50"
+        "make_tournament": "28.9%",
+        "most_likely_seed": "#12 (11.0%)",
+        "projected_losses": "9.9",
+        "projected_wins": "21.1",
+        "rank": "67",
+        "sos": "57"
     },
     "time": {
-        "time": "Feb 11,  1:01 AM"
+        "time": "Feb 11,  9:01 AM"
     },
     "todays_games": [
         {
+            "next_opponent": "@ Wisconsin",
+            "rpi": "40",
+            "team": "Michigan",
+            "time": "12:00 PM"
+        },
+        {
             "next_opponent": "vs Tulane",
-            "rpi": "33",
+            "rpi": "31",
             "team": "Houston",
             "time": " 5:00 PM"
         },
         {
             "next_opponent": "@ Pittsburgh",
-            "rpi": "43",
+            "rpi": "42",
             "team": "Louisville",
             "time": "12:00 PM"
         },
@@ -57,7 +63,7 @@
         },
         {
             "next_opponent": "vs Wake Forest",
-            "rpi": "37",
+            "rpi": "38",
             "team": "Syracuse",
             "time": "12:00 PM"
         }
@@ -65,7 +71,7 @@
     "trank": {
         "current_cwl": "10-4",
         "current_wl": "19-8",
-        "kpi": "64",
+        "kpi": "66",
         "proj": "21-10 (12-6)",
         "sagarin": "60",
         "trank": "55"
@@ -77,7 +83,7 @@
         "group3": "7-0",
         "group4": "9-0",
         "rpi": "54",
-        "sos": "97",
+        "sos": "96",
         "wl": "22-9"
     }
 }
