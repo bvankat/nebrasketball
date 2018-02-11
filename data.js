@@ -34,20 +34,32 @@
         "sos": "50"
     },
     "time": {
-        "time": "Feb 10, 11:01 PM"
+        "time": "Feb 11, 12:01 AM"
     },
     "todays_games": [
         {
-            "next_opponent": "@ Oregon St.",
-            "rpi": "39",
-            "team": "Washington",
-            "time": " 9:00 PM"
+            "next_opponent": "vs Tulane",
+            "rpi": "33",
+            "team": "Houston",
+            "time": " 5:00 PM"
         },
         {
-            "next_opponent": "@ Arizona",
-            "rpi": "45",
-            "team": "USC",
-            "time": " 9:15 PM"
+            "next_opponent": "@ Pittsburgh",
+            "rpi": "43",
+            "team": "Louisville",
+            "time": "12:00 PM"
+        },
+        {
+            "next_opponent": "vs Cincinnati",
+            "rpi": "75",
+            "team": "SMU",
+            "time": " 3:00 PM"
+        },
+        {
+            "next_opponent": "vs Wake Forest",
+            "rpi": "37",
+            "team": "Syracuse",
+            "time": "12:00 PM"
         }
     ],
     "trank": {
