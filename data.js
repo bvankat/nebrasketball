@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "55",
-        "sos": "65"
+        "sos": "66"
     },
     "lrmc": {
         "rank": "43"
@@ -34,7 +34,7 @@
         "sos": "50"
     },
     "time": {
-        "time": "Feb 10, 10:01 PM"
+        "time": "Feb 10, 11:01 PM"
     },
     "todays_games": [
         {
@@ -44,28 +44,10 @@
             "time": " 9:00 PM"
         },
         {
-            "next_opponent": "vs Grand Canyon",
-            "rpi": "49",
-            "team": "New Mex. St.",
-            "time": " 8:00 PM"
-        },
-        {
             "next_opponent": "@ Arizona",
             "rpi": "45",
             "team": "USC",
             "time": " 9:15 PM"
-        },
-        {
-            "next_opponent": "@ Utah St.",
-            "rpi": "32",
-            "team": "Boise St.",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "vs California",
-            "rpi": "58",
-            "team": "Utah",
-            "time": " 8:30 PM"
         }
     ],
     "trank": {
