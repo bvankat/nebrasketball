@@ -34,8 +34,22 @@
         "sos": "57"
     },
     "time": {
-        "time": "Feb 11,  5:48 PM"
+        "time": "Feb 12, 12:24 AM"
     },
+    "todays_games": [
+        {
+            "next_opponent": "@ W. Virginia",
+            "rpi": "24",
+            "team": "TCU",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs Baylor",
+            "rpi": "49",
+            "team": "Texas",
+            "time": " 8:00 PM"
+        }
+    ],
     "trank": {
         "current_cwl": "10-4",
         "current_wl": "19-8",
@@ -51,7 +65,7 @@
         "group3": "7-0",
         "group4": "9-0",
         "rpi": "54",
-        "sos": "96",
+        "sos": "97",
         "wl": "22-9"
     }
 }
