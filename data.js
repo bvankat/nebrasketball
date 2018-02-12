@@ -19,22 +19,22 @@
         "rank": "45"
     },
     "massey": {
-        "composite": "57"
+        "composite": "53"
     },
     "ncaa": {
-        "previous_rpi_rank": "57",
+        "previous_rpi_rank": "54",
         "rpi_rank": "54"
     },
     "teamrankings": {
         "make_tournament": "28.9%",
-        "most_likely_seed": "#12 (11.0%)",
+        "most_likely_seed": "#12 (11.1%)",
         "projected_losses": "9.9",
         "projected_wins": "21.1",
-        "rank": "67",
+        "rank": "66",
         "sos": "57"
     },
     "time": {
-        "time": "Feb 12,  1:01 AM"
+        "time": "Feb 12, 10:08 AM"
     },
     "todays_games": [
         {
@@ -45,7 +45,7 @@
         },
         {
             "next_opponent": "vs Baylor",
-            "rpi": "49",
+            "rpi": "48",
             "team": "Texas",
             "time": " 8:00 PM"
         }
@@ -59,13 +59,13 @@
         "trank": "52"
     },
     "warrennolan": {
-        "cwl": "(13-5)",
+        "cwl": "(12-6)",
         "group1": "0-6",
         "group2": "3-2",
         "group3": "7-0",
         "group4": "9-0",
         "rpi": "54",
         "sos": "97",
-        "wl": "22-9"
+        "wl": "21-10"
     }
 }
