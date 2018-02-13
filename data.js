@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "5"
+        "matrix_count": "9"
     },
     "espn": {
         "bpi": "61",
@@ -19,7 +19,7 @@
         "rank": "45"
     },
     "massey": {
-        "composite": "53"
+        "composite": "52"
     },
     "ncaa": {
         "previous_rpi_rank": "54",
@@ -34,20 +34,38 @@
         "sos": "57"
     },
     "time": {
-        "time": "Feb 12, 11:01 AM"
+        "time": "Feb 13, 12:54 AM"
     },
     "todays_games": [
         {
-            "next_opponent": "@ W. Virginia",
-            "rpi": "24",
-            "team": "TCU",
+            "next_opponent": "vs LSU",
+            "rpi": "33",
+            "team": "Alabama",
             "time": " 8:00 PM"
         },
         {
-            "next_opponent": "vs Baylor",
-            "rpi": "48",
-            "team": "Texas",
-            "time": " 8:00 PM"
+            "next_opponent": "@ Ole Miss",
+            "rpi": "34",
+            "team": "Arkansas",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "vs Georgetown",
+            "rpi": "31",
+            "team": "Butler",
+            "time": " 5:30 PM"
+        },
+        {
+            "next_opponent": "vs Maryland",
+            "rpi": "54",
+            "team": "Nebraska",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "@ La Salle",
+            "rpi": "43",
+            "team": "St. Bona.",
+            "time": " 6:00 PM"
         }
     ],
     "trank": {
