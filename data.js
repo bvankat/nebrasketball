@@ -34,24 +34,24 @@
         "sos": "57"
     },
     "time": {
-        "time": "Feb 13, 12:54 AM"
+        "time": "Feb 13,  1:22 AM"
     },
     "todays_games": [
         {
             "next_opponent": "vs LSU",
-            "rpi": "33",
+            "rpi": "34",
             "team": "Alabama",
             "time": " 8:00 PM"
         },
         {
             "next_opponent": "@ Ole Miss",
-            "rpi": "34",
+            "rpi": "35",
             "team": "Arkansas",
             "time": " 6:00 PM"
         },
         {
             "next_opponent": "vs Georgetown",
-            "rpi": "31",
+            "rpi": "32",
             "team": "Butler",
             "time": " 5:30 PM"
         },
@@ -63,7 +63,7 @@
         },
         {
             "next_opponent": "@ La Salle",
-            "rpi": "43",
+            "rpi": "44",
             "team": "St. Bona.",
             "time": " 6:00 PM"
         }
