@@ -26,17 +26,48 @@
         "rpi_rank": "54"
     },
     "teamrankings": {
-        "make_tournament": "28.6%",
-        "most_likely_seed": "#12 (11.0%)",
+        "make_tournament": "29.5%",
+        "most_likely_seed": "#12 (11.4%)",
         "projected_losses": "9.9",
         "projected_wins": "21.1",
         "rank": "67",
         "sos": "58"
     },
     "time": {
-        "time": "Feb 13,  4:01 AM"
+        "time": "Feb 13,  5:01 AM"
     },
-    "todays_games": [],
+    "todays_games": [
+        {
+            "next_opponent": "vs LSU",
+            "rpi": "34",
+            "team": "Alabama",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "@ Ole Miss",
+            "rpi": "35",
+            "team": "Arkansas",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "vs Georgetown",
+            "rpi": "32",
+            "team": "Butler",
+            "time": " 5:30 PM"
+        },
+        {
+            "next_opponent": "vs Maryland",
+            "rpi": "54",
+            "team": "Nebraska",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "@ La Salle",
+            "rpi": "44",
+            "team": "St. Bona.",
+            "time": " 6:00 PM"
+        }
+    ],
     "trank": {
         "current_cwl": "10-4",
         "current_wl": "19-8",
