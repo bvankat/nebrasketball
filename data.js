@@ -26,15 +26,15 @@
         "rpi_rank": "54"
     },
     "teamrankings": {
-        "make_tournament": "29.5%",
-        "most_likely_seed": "#12 (11.4%)",
+        "make_tournament": "29.0%",
+        "most_likely_seed": "#12 (11.3%)",
         "projected_losses": "9.9",
         "projected_wins": "21.1",
         "rank": "67",
         "sos": "58"
     },
     "time": {
-        "time": "Feb 13,  5:01 AM"
+        "time": "Feb 13, 10:01 AM"
     },
     "todays_games": [
         {
@@ -77,13 +77,13 @@
         "trank": "52"
     },
     "warrennolan": {
-        "cwl": "(12-6)",
+        "cwl": "(11-6)",
         "group1": "0-6",
         "group2": "3-2",
         "group3": "7-0",
         "group4": "9-0",
         "rpi": "54",
         "sos": "97",
-        "wl": "21-10"
+        "wl": "20-10"
     }
 }
