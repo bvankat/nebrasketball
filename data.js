@@ -34,18 +34,18 @@
         "sos": "58"
     },
     "time": {
-        "time": "Feb 14, 12:20 AM"
+        "time": "Feb 14,  1:01 AM"
     },
     "todays_games": [
         {
             "next_opponent": "vs Georgia",
-            "rpi": "46",
+            "rpi": "47",
             "team": "Florida",
             "time": " 8:00 PM"
         },
         {
             "next_opponent": "vs Iowa",
-            "rpi": "38",
+            "rpi": "39",
             "team": "Michigan",
             "time": " 5:30 PM"
         },
@@ -57,25 +57,25 @@
         },
         {
             "next_opponent": "@ Duke",
-            "rpi": "57",
+            "rpi": "59",
             "team": "Va. Tech",
             "time": " 6:00 PM"
         },
         {
             "next_opponent": "vs Clemson",
-            "rpi": "47",
+            "rpi": "46",
             "team": "Florida St.",
             "time": " 6:00 PM"
         },
         {
             "next_opponent": "@ Oklahoma St.",
-            "rpi": "66",
+            "rpi": "67",
             "team": "Kansas St.",
             "time": " 6:00 PM"
         },
         {
             "next_opponent": "@ Syracuse",
-            "rpi": "73",
+            "rpi": "70",
             "team": "NC State",
             "time": " 8:00 PM"
         },
@@ -105,7 +105,7 @@
         },
         {
             "next_opponent": "vs NC State",
-            "rpi": "41",
+            "rpi": "37",
             "team": "Syracuse",
             "time": " 8:00 PM"
         }
@@ -113,10 +113,10 @@
     "trank": {
         "current_cwl": "11-4",
         "current_wl": "20-8",
-        "kpi": "64",
+        "kpi": "61",
         "proj": "22-9 (13-5)",
-        "sagarin": "59",
-        "trank": "52"
+        "sagarin": "57",
+        "trank": "51"
     },
     "warrennolan": {
         "cwl": "(12-6)",
