@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "52",
-        "sos": "64"
+        "sos": "61"
     },
     "lrmc": {
         "rank": "45"
@@ -34,7 +34,7 @@
         "sos": "58"
     },
     "time": {
-        "time": "Feb 13,  4:18 PM"
+        "time": "Feb 13,  9:22 PM"
     },
     "todays_games": [
         {
@@ -42,48 +42,24 @@
             "rpi": "34",
             "team": "Alabama",
             "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "@ Ole Miss",
-            "rpi": "35",
-            "team": "Arkansas",
-            "time": " 6:00 PM"
-        },
-        {
-            "next_opponent": "vs Georgetown",
-            "rpi": "32",
-            "team": "Butler",
-            "time": " 5:30 PM"
-        },
-        {
-            "next_opponent": "vs Maryland",
-            "rpi": "54",
-            "team": "Nebraska",
-            "time": " 6:00 PM"
-        },
-        {
-            "next_opponent": "@ La Salle",
-            "rpi": "44",
-            "team": "St. Bona.",
-            "time": " 6:00 PM"
         }
     ],
     "trank": {
-        "current_cwl": "10-4",
-        "current_wl": "19-8",
+        "current_cwl": "11-4",
+        "current_wl": "20-8",
         "kpi": "64",
-        "proj": "21-10 (12-6)",
+        "proj": "22-9 (13-5)",
         "sagarin": "59",
         "trank": "52"
     },
     "warrennolan": {
-        "cwl": "(11-6)",
+        "cwl": "(12-6)",
         "group1": "0-6",
-        "group2": "3-2",
+        "group2": "4-2",
         "group3": "7-0",
         "group4": "9-0",
-        "rpi": "54",
-        "sos": "97",
-        "wl": "20-10"
+        "rpi": "53",
+        "sos": "95",
+        "wl": "21-10"
     }
 }
