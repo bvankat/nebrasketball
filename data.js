@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "52",
-        "sos": "61"
+        "sos": "62"
     },
     "lrmc": {
         "rank": "45"
@@ -34,13 +34,79 @@
         "sos": "58"
     },
     "time": {
-        "time": "Feb 13, 10:01 PM"
+        "time": "Feb 14, 12:20 AM"
     },
     "todays_games": [
         {
-            "next_opponent": "vs LSU",
-            "rpi": "34",
-            "team": "Alabama",
+            "next_opponent": "vs Georgia",
+            "rpi": "46",
+            "team": "Florida",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs Iowa",
+            "rpi": "38",
+            "team": "Michigan",
+            "time": " 5:30 PM"
+        },
+        {
+            "next_opponent": "@ Boise St.",
+            "rpi": "15",
+            "team": "Nevada",
+            "time": "10:00 PM"
+        },
+        {
+            "next_opponent": "@ Duke",
+            "rpi": "57",
+            "team": "Va. Tech",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "vs Clemson",
+            "rpi": "47",
+            "team": "Florida St.",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "@ Oklahoma St.",
+            "rpi": "66",
+            "team": "Kansas St.",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "@ Syracuse",
+            "rpi": "73",
+            "team": "NC State",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs Villanova",
+            "rpi": "42",
+            "team": "Providence",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "vs Nevada",
+            "rpi": "36",
+            "team": "Boise St.",
+            "time": "10:00 PM"
+        },
+        {
+            "next_opponent": "@ Vanderbilt",
+            "rpi": "58",
+            "team": "Miss. State",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "vs Memphis",
+            "rpi": "81",
+            "team": "SMU",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs NC State",
+            "rpi": "41",
+            "team": "Syracuse",
             "time": " 8:00 PM"
         }
     ],
