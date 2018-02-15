@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "9"
+        "matrix_count": "15"
     },
     "espn": {
         "bpi": "58",
@@ -13,10 +13,10 @@
     },
     "kenpom": {
         "rating": "52",
-        "sos": "61"
+        "sos": "63"
     },
     "lrmc": {
-        "rank": "45"
+        "rank": "44"
     },
     "massey": {
         "composite": "52"
@@ -34,15 +34,9 @@
         "sos": "56"
     },
     "time": {
-        "time": "Feb 14, 10:15 PM"
+        "time": "Feb 14, 11:02 PM"
     },
     "todays_games": [
-        {
-            "next_opponent": "vs Georgia",
-            "rpi": "47",
-            "team": "Florida",
-            "time": " 8:00 PM"
-        },
         {
             "next_opponent": "@ Boise St.",
             "rpi": "15",
@@ -50,22 +44,10 @@
             "time": "10:00 PM"
         },
         {
-            "next_opponent": "@ Syracuse",
-            "rpi": "70",
-            "team": "NC State",
-            "time": " 8:00 PM"
-        },
-        {
             "next_opponent": "vs Nevada",
             "rpi": "36",
             "team": "Boise St.",
             "time": "10:00 PM"
-        },
-        {
-            "next_opponent": "vs NC State",
-            "rpi": "37",
-            "team": "Syracuse",
-            "time": " 8:00 PM"
         }
     ],
     "trank": {
