@@ -34,20 +34,62 @@
         "sos": "56"
     },
     "time": {
-        "time": "Feb 14, 11:02 PM"
+        "time": "Feb 15, 12:02 AM"
     },
     "todays_games": [
         {
-            "next_opponent": "@ Boise St.",
-            "rpi": "15",
-            "team": "Nevada",
+            "next_opponent": "vs Cincinnati",
+            "rpi": "29",
+            "team": "Houston",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "@ So. Miss",
+            "rpi": "27",
+            "team": "Middle Tenn.",
+            "time": " 7:00 PM"
+        },
+        {
+            "next_opponent": "@ Utah Valley",
+            "rpi": "48",
+            "team": "New Mex. St.",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs Oregon St.",
+            "rpi": "52",
+            "team": "UCLA",
             "time": "10:00 PM"
         },
         {
-            "next_opponent": "vs Nevada",
-            "rpi": "36",
-            "team": "Boise St.",
-            "time": "10:00 PM"
+            "next_opponent": "vs Oregon",
+            "rpi": "49",
+            "team": "USC",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs Utah",
+            "rpi": "45",
+            "team": "Washington",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "@ Wichita St.",
+            "rpi": "37",
+            "team": "Temple",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "@ Washington",
+            "rpi": "60",
+            "team": "Utah",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "@ North Texas",
+            "rpi": "56",
+            "team": "Western Ky.",
+            "time": " 8:00 PM"
         }
     ],
     "trank": {
@@ -64,7 +106,7 @@
         "group2": "4-2",
         "group3": "7-0",
         "group4": "9-0",
-        "rpi": "53",
+        "rpi": "51",
         "sos": "93",
         "wl": "21-10"
     }
