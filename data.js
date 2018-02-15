@@ -9,7 +9,7 @@
         "proj_win_loss_overall": "21.8-9.2",
         "seven_day_change": "7",
         "sor": "28",
-        "sos": "55"
+        "sos": "56"
     },
     "kenpom": {
         "rating": "52",
@@ -22,19 +22,19 @@
         "composite": "52"
     },
     "ncaa": {
-        "previous_rpi_rank": "54",
-        "rpi_rank": "53"
+        "previous_rpi_rank": "53",
+        "rpi_rank": "51"
     },
     "teamrankings": {
-        "make_tournament": "45.7%",
-        "most_likely_seed": "#12 (16.7%)",
+        "make_tournament": "46.5%",
+        "most_likely_seed": "#12 (17.3%)",
         "projected_losses": "9.4",
         "projected_wins": "21.6",
-        "rank": "66",
-        "sos": "56"
+        "rank": "67",
+        "sos": "57"
     },
     "time": {
-        "time": "Feb 15,  1:01 AM"
+        "time": "Feb 15,  1:02 PM"
     },
     "todays_games": [
         {
@@ -45,13 +45,13 @@
         },
         {
             "next_opponent": "@ So. Miss",
-            "rpi": "27",
+            "rpi": "26",
             "team": "Middle Tenn.",
             "time": " 7:00 PM"
         },
         {
             "next_opponent": "@ Utah Valley",
-            "rpi": "48",
+            "rpi": "45",
             "team": "New Mex. St.",
             "time": " 8:00 PM"
         },
@@ -63,31 +63,31 @@
         },
         {
             "next_opponent": "vs Oregon",
-            "rpi": "49",
+            "rpi": "47",
             "team": "USC",
             "time": " 8:00 PM"
         },
         {
             "next_opponent": "vs Utah",
-            "rpi": "45",
+            "rpi": "43",
             "team": "Washington",
             "time": " 8:00 PM"
         },
         {
             "next_opponent": "@ Wichita St.",
-            "rpi": "37",
+            "rpi": "39",
             "team": "Temple",
             "time": " 6:00 PM"
         },
         {
             "next_opponent": "@ Washington",
-            "rpi": "60",
+            "rpi": "61",
             "team": "Utah",
             "time": " 8:00 PM"
         },
         {
             "next_opponent": "@ North Texas",
-            "rpi": "56",
+            "rpi": "58",
             "team": "Western Ky.",
             "time": " 8:00 PM"
         }
@@ -95,9 +95,9 @@
     "trank": {
         "current_cwl": "11-4",
         "current_wl": "20-8",
-        "kpi": "61",
+        "kpi": "60",
         "proj": "22-9 (13-5)",
-        "sagarin": "57",
+        "sagarin": "59",
         "trank": "50"
     },
     "warrennolan": {
