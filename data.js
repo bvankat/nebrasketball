@@ -34,7 +34,7 @@
         "sos": "56"
     },
     "time": {
-        "time": "Feb 14, 10:11 PM"
+        "time": "Feb 14, 10:15 PM"
     },
     "todays_games": [
         {
@@ -60,12 +60,6 @@
             "rpi": "36",
             "team": "Boise St.",
             "time": "10:00 PM"
-        },
-        {
-            "next_opponent": "vs Memphis",
-            "rpi": "81",
-            "team": "SMU",
-            "time": " 8:00 PM"
         },
         {
             "next_opponent": "vs NC State",
