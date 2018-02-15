@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "52",
-        "sos": "62"
+        "sos": "61"
     },
     "lrmc": {
         "rank": "45"
@@ -34,7 +34,7 @@
         "sos": "56"
     },
     "time": {
-        "time": "Feb 14,  5:01 PM"
+        "time": "Feb 14, 10:11 PM"
     },
     "todays_games": [
         {
@@ -44,34 +44,10 @@
             "time": " 8:00 PM"
         },
         {
-            "next_opponent": "vs Iowa",
-            "rpi": "39",
-            "team": "Michigan",
-            "time": " 5:30 PM"
-        },
-        {
             "next_opponent": "@ Boise St.",
             "rpi": "15",
             "team": "Nevada",
             "time": "10:00 PM"
-        },
-        {
-            "next_opponent": "@ Duke",
-            "rpi": "59",
-            "team": "Va. Tech",
-            "time": " 6:00 PM"
-        },
-        {
-            "next_opponent": "vs Clemson",
-            "rpi": "46",
-            "team": "Florida St.",
-            "time": " 6:00 PM"
-        },
-        {
-            "next_opponent": "@ Oklahoma St.",
-            "rpi": "67",
-            "team": "Kansas St.",
-            "time": " 6:00 PM"
         },
         {
             "next_opponent": "@ Syracuse",
@@ -80,22 +56,10 @@
             "time": " 8:00 PM"
         },
         {
-            "next_opponent": "vs Villanova",
-            "rpi": "42",
-            "team": "Providence",
-            "time": " 6:00 PM"
-        },
-        {
             "next_opponent": "vs Nevada",
             "rpi": "36",
             "team": "Boise St.",
             "time": "10:00 PM"
-        },
-        {
-            "next_opponent": "@ Vanderbilt",
-            "rpi": "58",
-            "team": "Miss. State",
-            "time": " 6:00 PM"
         },
         {
             "next_opponent": "vs Memphis",
@@ -125,7 +89,7 @@
         "group3": "7-0",
         "group4": "9-0",
         "rpi": "53",
-        "sos": "95",
+        "sos": "93",
         "wl": "21-10"
     }
 }
