@@ -12,7 +12,7 @@
         "sos": "56"
     },
     "kenpom": {
-        "rating": "52",
+        "rating": "53",
         "sos": "63"
     },
     "lrmc": {
@@ -34,56 +34,14 @@
         "sos": "57"
     },
     "time": {
-        "time": "Feb 15,  1:02 PM"
+        "time": "Feb 15, 10:10 PM"
     },
     "todays_games": [
-        {
-            "next_opponent": "vs Cincinnati",
-            "rpi": "29",
-            "team": "Houston",
-            "time": " 6:00 PM"
-        },
-        {
-            "next_opponent": "@ So. Miss",
-            "rpi": "26",
-            "team": "Middle Tenn.",
-            "time": " 7:00 PM"
-        },
-        {
-            "next_opponent": "@ Utah Valley",
-            "rpi": "45",
-            "team": "New Mex. St.",
-            "time": " 8:00 PM"
-        },
         {
             "next_opponent": "vs Oregon St.",
             "rpi": "52",
             "team": "UCLA",
             "time": "10:00 PM"
-        },
-        {
-            "next_opponent": "vs Oregon",
-            "rpi": "47",
-            "team": "USC",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "vs Utah",
-            "rpi": "43",
-            "team": "Washington",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "@ Wichita St.",
-            "rpi": "39",
-            "team": "Temple",
-            "time": " 6:00 PM"
-        },
-        {
-            "next_opponent": "@ Washington",
-            "rpi": "61",
-            "team": "Utah",
-            "time": " 8:00 PM"
         },
         {
             "next_opponent": "@ North Texas",
@@ -98,16 +56,16 @@
         "kpi": "60",
         "proj": "22-9 (13-5)",
         "sagarin": "59",
-        "trank": "50"
+        "trank": "49"
     },
     "warrennolan": {
         "cwl": "(12-6)",
-        "group1": "0-6",
-        "group2": "4-2",
+        "group1": "0-7",
+        "group2": "4-1",
         "group3": "7-0",
         "group4": "9-0",
         "rpi": "51",
-        "sos": "93",
+        "sos": "95",
         "wl": "21-10"
     }
 }
