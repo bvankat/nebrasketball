@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "15"
+        "matrix_count": "16"
     },
     "espn": {
         "bpi": "58",
@@ -12,8 +12,8 @@
         "sos": "56"
     },
     "kenpom": {
-        "rating": "53",
-        "sos": "63"
+        "rating": "54",
+        "sos": "64"
     },
     "lrmc": {
         "rank": "44"
@@ -34,20 +34,14 @@
         "sos": "57"
     },
     "time": {
-        "time": "Feb 15, 10:10 PM"
+        "time": "Feb 16,  1:01 AM"
     },
     "todays_games": [
         {
-            "next_opponent": "vs Oregon St.",
-            "rpi": "52",
-            "team": "UCLA",
-            "time": "10:00 PM"
-        },
-        {
-            "next_opponent": "@ North Texas",
-            "rpi": "58",
-            "team": "Western Ky.",
-            "time": " 8:00 PM"
+            "next_opponent": "vs Rhode Island",
+            "rpi": "41",
+            "team": "St. Bona.",
+            "time": " 6:00 PM"
         }
     ],
     "trank": {
@@ -65,7 +59,7 @@
         "group3": "7-0",
         "group4": "9-0",
         "rpi": "51",
-        "sos": "95",
+        "sos": "96",
         "wl": "21-10"
     }
 }
