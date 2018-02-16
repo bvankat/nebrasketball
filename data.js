@@ -4,12 +4,12 @@
     },
     "espn": {
         "bpi": "58",
-        "proj_tourney_seed": "7",
+        "proj_tourney_seed": "8",
         "proj_win_loss_conf": "12.8-5.2",
         "proj_win_loss_overall": "21.8-9.2",
         "seven_day_change": "7",
-        "sor": "28",
-        "sos": "56"
+        "sor": "29",
+        "sos": "55"
     },
     "kenpom": {
         "rating": "54",
@@ -22,24 +22,24 @@
         "composite": "52"
     },
     "ncaa": {
-        "previous_rpi_rank": "53",
-        "rpi_rank": "51"
+        "previous_rpi_rank": "51",
+        "rpi_rank": "52"
     },
     "teamrankings": {
-        "make_tournament": "46.5%",
-        "most_likely_seed": "#12 (17.3%)",
+        "make_tournament": "43.5%",
+        "most_likely_seed": "#12 (15.9%)",
         "projected_losses": "9.4",
         "projected_wins": "21.6",
         "rank": "67",
         "sos": "57"
     },
     "time": {
-        "time": "Feb 16,  1:01 AM"
+        "time": "Feb 16, 10:55 AM"
     },
     "todays_games": [
         {
             "next_opponent": "vs Rhode Island",
-            "rpi": "41",
+            "rpi": "40",
             "team": "St. Bona.",
             "time": " 6:00 PM"
         }
@@ -47,10 +47,10 @@
     "trank": {
         "current_cwl": "11-4",
         "current_wl": "20-8",
-        "kpi": "60",
+        "kpi": "59",
         "proj": "22-9 (13-5)",
         "sagarin": "59",
-        "trank": "49"
+        "trank": "52"
     },
     "warrennolan": {
         "cwl": "(12-6)",
@@ -58,7 +58,7 @@
         "group2": "4-1",
         "group3": "7-0",
         "group4": "9-0",
-        "rpi": "51",
+        "rpi": "52",
         "sos": "96",
         "wl": "21-10"
     }
