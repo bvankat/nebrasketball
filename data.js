@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "16"
+        "matrix_count": "9"
     },
     "espn": {
         "bpi": "58",
@@ -34,16 +34,9 @@
         "sos": "57"
     },
     "time": {
-        "time": "Feb 16,  6:09 PM"
+        "time": "Feb 16,  9:06 PM"
     },
-    "todays_games": [
-        {
-            "next_opponent": "vs Rhode Island",
-            "rpi": "40",
-            "team": "St. Bona.",
-            "time": " 6:00 PM"
-        }
-    ],
+    "todays_games": [],
     "trank": {
         "current_cwl": "11-4",
         "current_wl": "20-8",
@@ -55,11 +48,11 @@
     "warrennolan": {
         "cwl": "(12-6)",
         "group1": "0-7",
-        "group2": "4-1",
-        "group3": "7-0",
+        "group2": "5-1",
+        "group3": "6-0",
         "group4": "9-0",
         "rpi": "52",
-        "sos": "96",
+        "sos": "97",
         "wl": "21-10"
     }
 }
