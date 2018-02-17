@@ -12,7 +12,7 @@
         "sos": "55"
     },
     "kenpom": {
-        "rating": "53",
+        "rating": "54",
         "sos": "64"
     },
     "lrmc": {
@@ -34,7 +34,7 @@
         "sos": "57"
     },
     "time": {
-        "time": "Feb 16, 10:01 PM"
+        "time": "Feb 16, 11:01 PM"
     },
     "todays_games": [],
     "trank": {
@@ -52,7 +52,7 @@
         "group3": "6-0",
         "group4": "9-0",
         "rpi": "52",
-        "sos": "97",
+        "sos": "96",
         "wl": "21-10"
     }
 }
