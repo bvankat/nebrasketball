@@ -4,12 +4,12 @@
     },
     "espn": {
         "bpi": "58",
-        "proj_tourney_seed": "7",
+        "proj_tourney_seed": "8",
         "proj_win_loss_conf": "12.8-5.2",
         "proj_win_loss_overall": "21.8-9.2",
         "seven_day_change": "7",
-        "sor": "28",
-        "sos": "56"
+        "sor": "29",
+        "sos": "55"
     },
     "kenpom": {
         "rating": "54",
@@ -34,7 +34,7 @@
         "sos": "57"
     },
     "time": {
-        "time": "Feb 16,  3:01 PM"
+        "time": "Feb 16,  6:09 PM"
     },
     "todays_games": [
         {
