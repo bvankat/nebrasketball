@@ -34,9 +34,142 @@
         "sos": "57"
     },
     "time": {
-        "time": "Feb 16, 11:01 PM"
+        "time": "Feb 17, 12:01 AM"
     },
-    "todays_games": [],
+    "todays_games": [
+        {
+            "next_opponent": "@ Kentucky",
+            "rpi": "30",
+            "team": "Alabama",
+            "time": " 1:00 PM"
+        },
+        {
+            "next_opponent": "@ Butler",
+            "rpi": "32",
+            "team": "Providence",
+            "time": "11:00 AM"
+        },
+        {
+            "next_opponent": "vs Oklahoma St.",
+            "rpi": "26",
+            "team": "TCU",
+            "time": " 7:00 PM"
+        },
+        {
+            "next_opponent": "vs Texas A&M",
+            "rpi": "31",
+            "team": "Arkansas",
+            "time": " 3:00 PM"
+        },
+        {
+            "next_opponent": "@ Vanderbilt",
+            "rpi": "56",
+            "team": "Florida",
+            "time": " 3:00 PM"
+        },
+        {
+            "next_opponent": "vs Iowa St.",
+            "rpi": "58",
+            "team": "Kansas St.",
+            "time": "12:00 PM"
+        },
+        {
+            "next_opponent": "@ La. Tech",
+            "rpi": "27",
+            "team": "Middle Tenn.",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "@ Seattle",
+            "rpi": "47",
+            "team": "New Mex. St.",
+            "time": " 3:00 PM"
+        },
+        {
+            "next_opponent": "vs Oregon",
+            "rpi": "50",
+            "team": "UCLA",
+            "time": " 9:15 PM"
+        },
+        {
+            "next_opponent": "vs Oregon St.",
+            "rpi": "42",
+            "team": "USC",
+            "time": "10:00 PM"
+        },
+        {
+            "next_opponent": "@ Georgia Tech",
+            "rpi": "59",
+            "team": "Va. Tech",
+            "time": "11:00 AM"
+        },
+        {
+            "next_opponent": "vs Texas Tech",
+            "rpi": "54",
+            "team": "Baylor",
+            "time": " 6:30 PM"
+        },
+        {
+            "next_opponent": "vs Air Force",
+            "rpi": "46",
+            "team": "Boise St.",
+            "time": " 1:00 PM"
+        },
+        {
+            "next_opponent": "vs Providence",
+            "rpi": "44",
+            "team": "Butler",
+            "time": "11:00 AM"
+        },
+        {
+            "next_opponent": "vs N. Carolina",
+            "rpi": "41",
+            "team": "Louisville",
+            "time": " 7:15 PM"
+        },
+        {
+            "next_opponent": "vs Ole Miss",
+            "rpi": "69",
+            "team": "Miss. State",
+            "time": " 7:30 PM"
+        },
+        {
+            "next_opponent": "@ Wake Forest",
+            "rpi": "60",
+            "team": "NC State",
+            "time": " 3:00 PM"
+        },
+        {
+            "next_opponent": "@ Miami (Fla.)",
+            "rpi": "49",
+            "team": "Syracuse",
+            "time": "11:00 AM"
+        },
+        {
+            "next_opponent": "@ Oklahoma",
+            "rpi": "57",
+            "team": "Texas",
+            "time": "11:00 AM"
+        },
+        {
+            "next_opponent": "@ Wash. State",
+            "rpi": "51",
+            "team": "Utah",
+            "time": " 9:00 PM"
+        },
+        {
+            "next_opponent": "vs Colorado",
+            "rpi": "53",
+            "team": "Washington",
+            "time": " 7:00 PM"
+        },
+        {
+            "next_opponent": "@ Rice",
+            "rpi": "55",
+            "team": "Western Ky.",
+            "time": " 7:00 PM"
+        }
+    ],
     "trank": {
         "current_cwl": "11-4",
         "current_wl": "20-8",
