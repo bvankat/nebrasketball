@@ -34,18 +34,18 @@
         "sos": "57"
     },
     "time": {
-        "time": "Feb 17, 12:01 AM"
+        "time": "Feb 17,  1:01 AM"
     },
     "todays_games": [
         {
             "next_opponent": "@ Kentucky",
-            "rpi": "30",
+            "rpi": "31",
             "team": "Alabama",
             "time": " 1:00 PM"
         },
         {
             "next_opponent": "@ Butler",
-            "rpi": "32",
+            "rpi": "36",
             "team": "Providence",
             "time": "11:00 AM"
         },
@@ -57,7 +57,7 @@
         },
         {
             "next_opponent": "vs Texas A&M",
-            "rpi": "31",
+            "rpi": "32",
             "team": "Arkansas",
             "time": " 3:00 PM"
         },
