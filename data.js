@@ -34,15 +34,9 @@
         "sos": "57"
     },
     "time": {
-        "time": "Feb 17,  9:01 PM"
+        "time": "Feb 17,  9:50 PM"
     },
     "todays_games": [
-        {
-            "next_opponent": "vs Oklahoma St.",
-            "rpi": "26",
-            "team": "TCU",
-            "time": " 7:00 PM"
-        },
         {
             "next_opponent": "vs Oregon",
             "rpi": "50",
@@ -54,18 +48,6 @@
             "rpi": "42",
             "team": "USC",
             "time": "10:00 PM"
-        },
-        {
-            "next_opponent": "vs N. Carolina",
-            "rpi": "41",
-            "team": "Louisville",
-            "time": " 7:15 PM"
-        },
-        {
-            "next_opponent": "vs Ole Miss",
-            "rpi": "69",
-            "team": "Miss. State",
-            "time": " 7:30 PM"
         },
         {
             "next_opponent": "@ Wash. State",
