@@ -34,7 +34,7 @@
         "sos": "58"
     },
     "time": {
-        "time": "Feb 18,  4:03 PM"
+        "time": "Feb 18,  4:57 PM"
     },
     "todays_games": [
         {
@@ -48,12 +48,6 @@
             "rpi": "20",
             "team": "Houston",
             "time": " 3:00 PM"
-        },
-        {
-            "next_opponent": "@ Illinois",
-            "rpi": "55",
-            "team": "Nebraska",
-            "time": " 2:30 PM"
         },
         {
             "next_opponent": "@ Purdue",
@@ -80,10 +74,10 @@
         "cwl": "(12-6)",
         "group1": "1-6",
         "group2": "3-2",
-        "group3": "7-0",
-        "group4": "9-0",
-        "rpi": "54",
-        "sos": "94",
+        "group3": "6-1",
+        "group4": "10-0",
+        "rpi": "60",
+        "sos": "96",
         "wl": "21-10"
     }
 }
