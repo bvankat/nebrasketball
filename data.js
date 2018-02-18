@@ -34,7 +34,7 @@
         "sos": "57"
     },
     "time": {
-        "time": "Feb 17,  9:50 PM"
+        "time": "Feb 17, 10:01 PM"
     },
     "todays_games": [
         {
