@@ -12,7 +12,7 @@
         "sos": "55"
     },
     "kenpom": {
-        "rating": "54",
+        "rating": "51",
         "sos": "65"
     },
     "lrmc": {
@@ -34,7 +34,7 @@
         "sos": "57"
     },
     "time": {
-        "time": "Feb 17,  8:11 PM"
+        "time": "Feb 17,  9:01 PM"
     },
     "todays_games": [
         {
@@ -56,12 +56,6 @@
             "time": "10:00 PM"
         },
         {
-            "next_opponent": "vs Texas Tech",
-            "rpi": "54",
-            "team": "Baylor",
-            "time": " 6:30 PM"
-        },
-        {
             "next_opponent": "vs N. Carolina",
             "rpi": "41",
             "team": "Louisville",
@@ -78,18 +72,6 @@
             "rpi": "51",
             "team": "Utah",
             "time": " 9:00 PM"
-        },
-        {
-            "next_opponent": "vs Colorado",
-            "rpi": "53",
-            "team": "Washington",
-            "time": " 7:00 PM"
-        },
-        {
-            "next_opponent": "@ Rice",
-            "rpi": "55",
-            "team": "Western Ky.",
-            "time": " 7:00 PM"
         }
     ],
     "trank": {
