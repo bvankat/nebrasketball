@@ -3,20 +3,20 @@
         "matrix_count": "9"
     },
     "espn": {
-        "bpi": "58",
+        "bpi": "59",
         "proj_tourney_seed": "8",
         "proj_win_loss_conf": "12.8-5.2",
         "proj_win_loss_overall": "21.8-9.2",
-        "seven_day_change": "6",
-        "sor": "29",
-        "sos": "55"
+        "seven_day_change": "2",
+        "sor": "31",
+        "sos": "57"
     },
     "kenpom": {
-        "rating": "51",
+        "rating": "53",
         "sos": "65"
     },
     "lrmc": {
-        "rank": "46"
+        "rank": "49"
     },
     "massey": {
         "composite": "52"
@@ -26,17 +26,48 @@
         "rpi_rank": "52"
     },
     "teamrankings": {
-        "make_tournament": "43.3%",
-        "most_likely_seed": "#12 (15.9%)",
+        "make_tournament": "39.4%",
+        "most_likely_seed": "#12 (14.5%)",
         "projected_losses": "9.4",
         "projected_wins": "21.6",
-        "rank": "67",
-        "sos": "57"
+        "rank": "68",
+        "sos": "58"
     },
     "time": {
-        "time": "Feb 17, 11:16 PM"
+        "time": "Feb 18,  8:01 AM"
     },
-    "todays_games": [],
+    "todays_games": [
+        {
+            "next_opponent": "vs Pittsburgh",
+            "rpi": "43",
+            "team": "Florida St.",
+            "time": " 5:00 PM"
+        },
+        {
+            "next_opponent": "@ Temple",
+            "rpi": "20",
+            "team": "Houston",
+            "time": " 3:00 PM"
+        },
+        {
+            "next_opponent": "@ Illinois",
+            "rpi": "55",
+            "team": "Nebraska",
+            "time": " 2:30 PM"
+        },
+        {
+            "next_opponent": "@ Purdue",
+            "rpi": "76",
+            "team": "Penn St.",
+            "time": " 7:00 PM"
+        },
+        {
+            "next_opponent": "vs Houston",
+            "rpi": "35",
+            "team": "Temple",
+            "time": " 3:00 PM"
+        }
+    ],
     "trank": {
         "current_cwl": "11-4",
         "current_wl": "20-8",
@@ -48,11 +79,11 @@
     "warrennolan": {
         "cwl": "(12-6)",
         "group1": "0-6",
-        "group2": "3-2",
-        "group3": "8-0",
+        "group2": "4-2",
+        "group3": "7-0",
         "group4": "9-0",
         "rpi": "55",
-        "sos": "94",
+        "sos": "95",
         "wl": "21-10"
     }
 }
