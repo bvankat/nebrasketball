@@ -34,28 +34,9 @@
         "sos": "57"
     },
     "time": {
-        "time": "Feb 17, 11:01 PM"
+        "time": "Feb 17, 11:16 PM"
     },
-    "todays_games": [
-        {
-            "next_opponent": "vs Oregon",
-            "rpi": "50",
-            "team": "UCLA",
-            "time": " 9:15 PM"
-        },
-        {
-            "next_opponent": "vs Oregon St.",
-            "rpi": "42",
-            "team": "USC",
-            "time": "10:00 PM"
-        },
-        {
-            "next_opponent": "@ Wash. State",
-            "rpi": "51",
-            "team": "Utah",
-            "time": " 9:00 PM"
-        }
-    ],
+    "todays_games": [],
     "trank": {
         "current_cwl": "11-4",
         "current_wl": "20-8",
@@ -67,10 +48,10 @@
     "warrennolan": {
         "cwl": "(12-6)",
         "group1": "0-6",
-        "group2": "4-2",
-        "group3": "7-0",
+        "group2": "3-2",
+        "group3": "8-0",
         "group4": "9-0",
-        "rpi": "54",
+        "rpi": "55",
         "sos": "94",
         "wl": "21-10"
     }
