@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "9"
+        "matrix_count": "5"
     },
     "espn": {
         "bpi": "59",
@@ -12,7 +12,7 @@
         "sos": "57"
     },
     "kenpom": {
-        "rating": "53",
+        "rating": "52",
         "sos": "65"
     },
     "lrmc": {
@@ -23,7 +23,7 @@
     },
     "ncaa": {
         "previous_rpi_rank": "52",
-        "rpi_rank": "52"
+        "rpi_rank": "55"
     },
     "teamrankings": {
         "make_tournament": "39.4%",
@@ -34,7 +34,7 @@
         "sos": "58"
     },
     "time": {
-        "time": "Feb 18,  8:01 AM"
+        "time": "Feb 18,  3:51 PM"
     },
     "todays_games": [
         {
@@ -78,11 +78,11 @@
     },
     "warrennolan": {
         "cwl": "(12-6)",
-        "group1": "0-6",
-        "group2": "4-2",
+        "group1": "1-6",
+        "group2": "3-2",
         "group3": "7-0",
         "group4": "9-0",
-        "rpi": "55",
+        "rpi": "54",
         "sos": "95",
         "wl": "21-10"
     }
