@@ -141,7 +141,7 @@
 		    	</thead>
 		    	<tbody>
 			    	<tr><td>ESPN</td><td class="r"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td></tr>
-			    	<tr><td>Kenpom</td><td class="r">22-9 (13-5)</td></tr>
+			    	<tr><td>Kenpom</td><td class="r">21-10 (12-6)</td></tr>
 				    <tr><td>TeamRankings.com</td><td id="teamrankings_wl" class="r"></td></tr>
 				    <tr><td>Warren Nolan</td><td class="r"><span id="warrennolan-wl"></span> <span id="warrennolan-cwl")></span></td></tr>
 				    <tr><td>T-Rank</td><td id="trank-proj" class="r"></td></tr>
@@ -297,10 +297,10 @@
 			 
 			 function StatusCheck(data) {
 				 var status_message;
-				 if (data < 20) { status_message = "Still need some wins." }
-				 if (data >= 20 && data < 30) { status_message = "Can see the bubble from here." }
-				 if (data >= 30 && data < 40) { status_message = "What's good to eat in Dayton?" }
-				 if (data >= 40 && data < 55) { status_message = "Cautiously optimistic." }
+				 if (data < 25) { status_message = "NIT bound." }
+				 if (data >= 25 && data < 35) { status_message = "Find your most optimistic friend." }
+				 if (data >= 35 && data < 40) { status_message = "Dayton, you say? We'll take it." }
+				 if (data >= 40 && data < 55) { status_message = "Forever nervous." }
 				 if (data >= 55 && data < 75) { status_message = "Feeling good." }
 				 if (data >= 75) { status_message = "Dancing." }
 				 
