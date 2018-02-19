@@ -3,13 +3,13 @@
         "matrix_count": "5"
     },
     "espn": {
-        "bpi": "59",
-        "proj_tourney_seed": "8",
-        "proj_win_loss_conf": "12.8-5.2",
-        "proj_win_loss_overall": "21.8-9.2",
-        "seven_day_change": "2",
-        "sor": "31",
-        "sos": "57"
+        "bpi": "61",
+        "proj_tourney_seed": "10",
+        "proj_win_loss_conf": "12.2-5.8",
+        "proj_win_loss_overall": "21.2-9.8",
+        "seven_day_change": "0",
+        "sor": "38",
+        "sos": "55"
     },
     "kenpom": {
         "rating": "56",
