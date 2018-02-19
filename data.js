@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "5"
+        "matrix_count": "2"
     },
     "espn": {
         "bpi": "61",
@@ -19,7 +19,7 @@
         "rank": "47"
     },
     "massey": {
-        "composite": "52"
+        "composite": "55"
     },
     "ncaa": {
         "previous_rpi_rank": "55",
@@ -34,7 +34,7 @@
         "sos": "59"
     },
     "time": {
-        "time": "Feb 19, 10:02 AM"
+        "time": "Feb 19,  3:01 PM"
     },
     "todays_games": [
         {
@@ -47,10 +47,10 @@
     "trank": {
         "current_cwl": "11-5",
         "current_wl": "20-9",
-        "kpi": "59",
+        "kpi": "67",
         "proj": "21-10 (12-6)",
-        "sagarin": "57",
-        "trank": "54"
+        "sagarin": "64",
+        "trank": "57"
     },
     "warrennolan": {
         "cwl": "(12-6)",
