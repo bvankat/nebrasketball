@@ -12,8 +12,8 @@
         "sos": "57"
     },
     "kenpom": {
-        "rating": "52",
-        "sos": "65"
+        "rating": "56",
+        "sos": "62"
     },
     "lrmc": {
         "rank": "49"
@@ -34,50 +34,32 @@
         "sos": "58"
     },
     "time": {
-        "time": "Feb 18,  5:01 PM"
+        "time": "Feb 19, 12:54 AM"
     },
     "todays_games": [
         {
-            "next_opponent": "vs Pittsburgh",
-            "rpi": "43",
-            "team": "Florida St.",
-            "time": " 5:00 PM"
-        },
-        {
-            "next_opponent": "@ Temple",
-            "rpi": "20",
-            "team": "Houston",
-            "time": " 3:00 PM"
-        },
-        {
-            "next_opponent": "@ Purdue",
-            "rpi": "76",
-            "team": "Penn St.",
-            "time": " 7:00 PM"
-        },
-        {
-            "next_opponent": "vs Houston",
-            "rpi": "35",
-            "team": "Temple",
-            "time": " 3:00 PM"
+            "next_opponent": "@ Notre Dame",
+            "rpi": "37",
+            "team": "Miami (Fla.)",
+            "time": " 6:00 PM"
         }
     ],
     "trank": {
-        "current_cwl": "11-4",
-        "current_wl": "20-8",
+        "current_cwl": "11-5",
+        "current_wl": "20-9",
         "kpi": "59",
-        "proj": "22-9 (13-5)",
+        "proj": "21-10 (12-6)",
         "sagarin": "57",
-        "trank": "53"
+        "trank": "54"
     },
     "warrennolan": {
         "cwl": "(12-6)",
         "group1": "1-6",
         "group2": "3-2",
-        "group3": "6-1",
-        "group4": "10-0",
+        "group3": "7-1",
+        "group4": "9-0",
         "rpi": "60",
-        "sos": "97",
+        "sos": "98",
         "wl": "21-10"
     }
 }
