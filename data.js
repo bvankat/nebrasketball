@@ -19,7 +19,7 @@
         "rank": "47"
     },
     "massey": {
-        "composite": "55"
+        "composite": "56"
     },
     "ncaa": {
         "previous_rpi_rank": "55",
@@ -34,16 +34,9 @@
         "sos": "59"
     },
     "time": {
-        "time": "Feb 19,  3:01 PM"
+        "time": "Feb 19,  9:02 PM"
     },
-    "todays_games": [
-        {
-            "next_opponent": "@ Notre Dame",
-            "rpi": "37",
-            "team": "Miami (Fla.)",
-            "time": " 6:00 PM"
-        }
-    ],
+    "todays_games": [],
     "trank": {
         "current_cwl": "11-5",
         "current_wl": "20-9",
@@ -56,10 +49,10 @@
         "cwl": "(12-6)",
         "group1": "1-6",
         "group2": "3-2",
-        "group3": "7-1",
-        "group4": "9-0",
+        "group3": "6-1",
+        "group4": "10-0",
         "rpi": "60",
-        "sos": "98",
+        "sos": "97",
         "wl": "21-10"
     }
 }
