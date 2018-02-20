@@ -9,7 +9,7 @@
         "proj_win_loss_overall": "21.2-9.8",
         "seven_day_change": "0",
         "sor": "38",
-        "sos": "55"
+        "sos": "56"
     },
     "kenpom": {
         "rating": "56",
@@ -19,22 +19,22 @@
         "rank": "47"
     },
     "massey": {
-        "composite": "56"
+        "composite": "59"
     },
     "ncaa": {
-        "previous_rpi_rank": "55",
+        "previous_rpi_rank": "60",
         "rpi_rank": "60"
     },
     "teamrankings": {
-        "make_tournament": "27.4%",
-        "most_likely_seed": "#12 (10.2%)",
+        "make_tournament": "28.6%",
+        "most_likely_seed": "#12 (10.7%)",
         "projected_losses": "9.9",
         "projected_wins": "21.1",
         "rank": "68",
         "sos": "58"
     },
     "time": {
-        "time": "Feb 20,  3:02 AM"
+        "time": "Feb 20, 11:02 AM"
     },
     "todays_games": [
         {
