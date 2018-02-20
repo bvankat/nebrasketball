@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "2"
+        "matrix_count": "1"
     },
     "espn": {
         "bpi": "61",
@@ -34,7 +34,7 @@
         "sos": "58"
     },
     "time": {
-        "time": "Feb 20, 11:02 AM"
+        "time": "Feb 20, 12:01 PM"
     },
     "todays_games": [
         {
