@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "56",
-        "sos": "62"
+        "sos": "61"
     },
     "lrmc": {
         "rank": "47"
@@ -34,16 +34,53 @@
         "sos": "59"
     },
     "time": {
-        "time": "Feb 19, 11:01 PM"
+        "time": "Feb 20,  2:02 AM"
     },
-    "todays_games": [],
+    "todays_games": [
+        {
+            "next_opponent": "vs Kentucky",
+            "rpi": "26",
+            "team": "Arkansas",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs Miss. State",
+            "rpi": "21",
+            "team": "Texas A&M",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "vs Boston College",
+            "rpi": "61",
+            "team": "NC State",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "vs W. Virginia",
+            "rpi": "47",
+            "team": "Baylor",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "vs Creighton",
+            "rpi": "39",
+            "team": "Butler",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "vs Indiana",
+            "rpi": "60",
+            "team": "Nebraska",
+            "time": " 8:00 PM"
+        }
+    ],
     "trank": {
         "current_cwl": "11-5",
         "current_wl": "20-9",
-        "kpi": "67",
+        "kpi": "68",
         "proj": "21-10 (12-6)",
         "sagarin": "64",
-        "trank": "57"
+        "trank": "58"
     },
     "warrennolan": {
         "cwl": "(12-6)",
