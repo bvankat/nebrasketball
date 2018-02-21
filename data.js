@@ -34,48 +34,48 @@
         "sos": "58"
     },
     "time": {
-        "time": "Feb 21, 12:27 AM"
+        "time": "Feb 21,  1:02 AM"
     },
     "todays_games": [
         {
             "next_opponent": "@ Auburn",
-            "rpi": "34",
+            "rpi": "31",
             "team": "Alabama",
             "time": " 7:30 PM"
         },
         {
             "next_opponent": "@ Iowa St.",
-            "rpi": "22",
+            "rpi": "21",
             "team": "TCU",
             "time": " 7:00 PM"
         },
         {
             "next_opponent": "vs Texas",
-            "rpi": "56",
+            "rpi": "59",
             "team": "Kansas St.",
             "time": " 8:00 PM"
         },
         {
             "next_opponent": "vs Seton Hall",
-            "rpi": "37",
+            "rpi": "35",
             "team": "Providence",
             "time": " 5:30 PM"
         },
         {
             "next_opponent": "vs Clemson",
-            "rpi": "55",
+            "rpi": "54",
             "team": "Va. Tech",
             "time": " 6:00 PM"
         },
         {
             "next_opponent": "@ Colorado St.",
-            "rpi": "51",
+            "rpi": "50",
             "team": "Boise St.",
             "time": " 8:00 PM"
         },
         {
             "next_opponent": "@ Tennessee",
-            "rpi": "64",
+            "rpi": "65",
             "team": "Florida",
             "time": " 8:00 PM"
         },
@@ -87,13 +87,13 @@
         },
         {
             "next_opponent": "@ Duke",
-            "rpi": "52",
+            "rpi": "51",
             "team": "Louisville",
             "time": " 8:00 PM"
         },
         {
             "next_opponent": "vs St. John's",
-            "rpi": "57",
+            "rpi": "60",
             "team": "Marquette",
             "time": " 7:30 PM"
         },
@@ -105,19 +105,19 @@
         },
         {
             "next_opponent": "vs Duquesne",
-            "rpi": "27",
+            "rpi": "26",
             "team": "St. Bona.",
             "time": " 6:00 PM"
         },
         {
             "next_opponent": "vs N. Carolina",
-            "rpi": "38",
+            "rpi": "39",
             "team": "Syracuse",
             "time": " 6:00 PM"
         },
         {
             "next_opponent": "@ Kansas St.",
-            "rpi": "53",
+            "rpi": "52",
             "team": "Texas",
             "time": " 8:00 PM"
         },
