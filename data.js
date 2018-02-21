@@ -16,7 +16,7 @@
         "sos": "61"
     },
     "lrmc": {
-        "rank": "47"
+        "rank": "46"
     },
     "massey": {
         "composite": "59"
@@ -34,44 +34,98 @@
         "sos": "58"
     },
     "time": {
-        "time": "Feb 20, 12:01 PM"
+        "time": "Feb 21, 12:14 AM"
     },
     "todays_games": [
         {
-            "next_opponent": "vs Kentucky",
-            "rpi": "26",
-            "team": "Arkansas",
+            "next_opponent": "@ Auburn",
+            "rpi": "34",
+            "team": "Alabama",
+            "time": " 7:30 PM"
+        },
+        {
+            "next_opponent": "@ Iowa St.",
+            "rpi": "22",
+            "team": "TCU",
+            "time": " 7:00 PM"
+        },
+        {
+            "next_opponent": "vs Texas",
+            "rpi": "56",
+            "team": "Kansas St.",
             "time": " 8:00 PM"
         },
         {
-            "next_opponent": "vs Miss. State",
-            "rpi": "21",
-            "team": "Texas A&M",
+            "next_opponent": "vs Seton Hall",
+            "rpi": "37",
+            "team": "Providence",
+            "time": " 5:30 PM"
+        },
+        {
+            "next_opponent": "vs Clemson",
+            "rpi": "55",
+            "team": "Va. Tech",
             "time": " 6:00 PM"
         },
         {
-            "next_opponent": "vs Boston College",
-            "rpi": "61",
-            "team": "NC State",
-            "time": " 6:00 PM"
-        },
-        {
-            "next_opponent": "vs W. Virginia",
-            "rpi": "47",
-            "team": "Baylor",
-            "time": " 6:00 PM"
-        },
-        {
-            "next_opponent": "vs Creighton",
-            "rpi": "39",
-            "team": "Butler",
-            "time": " 6:00 PM"
-        },
-        {
-            "next_opponent": "vs Indiana",
-            "rpi": "60",
-            "team": "Nebraska",
+            "next_opponent": "@ Colorado St.",
+            "rpi": "51",
+            "team": "Boise St.",
             "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "@ Tennessee",
+            "rpi": "64",
+            "team": "Florida",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "@ S. Carolina",
+            "rpi": "66",
+            "team": "Georgia",
+            "time": " 5:30 PM"
+        },
+        {
+            "next_opponent": "@ Duke",
+            "rpi": "52",
+            "team": "Louisville",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs St. John's",
+            "rpi": "57",
+            "team": "Marquette",
+            "time": " 7:30 PM"
+        },
+        {
+            "next_opponent": "vs Michigan",
+            "rpi": "76",
+            "team": "Penn St.",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "vs Duquesne",
+            "rpi": "27",
+            "team": "St. Bona.",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "vs N. Carolina",
+            "rpi": "38",
+            "team": "Syracuse",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "@ Kansas St.",
+            "rpi": "53",
+            "team": "Texas",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "@ Colorado",
+            "rpi": "42",
+            "team": "USC",
+            "time": " 9:30 PM"
         }
     ],
     "trank": {
