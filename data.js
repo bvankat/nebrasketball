@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "56",
-        "sos": "61"
+        "sos": "63"
     },
     "lrmc": {
         "rank": "46"
@@ -34,7 +34,7 @@
         "sos": "58"
     },
     "time": {
-        "time": "Feb 21, 12:14 AM"
+        "time": "Feb 21, 12:27 AM"
     },
     "todays_games": [
         {
@@ -129,8 +129,8 @@
         }
     ],
     "trank": {
-        "current_cwl": "11-5",
-        "current_wl": "20-9",
+        "current_cwl": "12-5",
+        "current_wl": "21-9",
         "kpi": "68",
         "proj": "21-10 (12-6)",
         "sagarin": "64",
@@ -140,10 +140,10 @@
         "cwl": "(12-6)",
         "group1": "1-6",
         "group2": "3-2",
-        "group3": "6-1",
-        "group4": "10-0",
-        "rpi": "60",
-        "sos": "97",
+        "group3": "8-1",
+        "group4": "9-0",
+        "rpi": "58",
+        "sos": "99",
         "wl": "21-10"
     }
 }
