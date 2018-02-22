@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "1"
+        "matrix_count": "2"
     },
     "espn": {
         "bpi": "60",
@@ -34,20 +34,44 @@
         "sos": "59"
     },
     "time": {
-        "time": "Feb 21, 11:03 PM"
+        "time": "Feb 22, 12:02 AM"
     },
     "todays_games": [
         {
-            "next_opponent": "vs Seton Hall",
-            "rpi": "35",
-            "team": "Providence",
-            "time": " 5:30 PM"
+            "next_opponent": "@ Memphis",
+            "rpi": "19",
+            "team": "Houston",
+            "time": " 8:00 PM"
         },
         {
-            "next_opponent": "@ Colorado",
-            "rpi": "42",
-            "team": "USC",
-            "time": " 9:30 PM"
+            "next_opponent": "@ Utah",
+            "rpi": "47",
+            "team": "UCLA",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs Chicago St.",
+            "rpi": "46",
+            "team": "New Mex. St.",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs UCLA",
+            "rpi": "49",
+            "team": "Utah",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "@ Stanford",
+            "rpi": "47",
+            "team": "Washington",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs Charlotte",
+            "rpi": "57",
+            "team": "Western Ky.",
+            "time": " 7:00 PM"
         }
     ],
     "trank": {
@@ -60,8 +84,8 @@
     },
     "warrennolan": {
         "cwl": "(12-6)",
-        "group1": "1-5",
-        "group2": "3-3",
+        "group1": "1-6",
+        "group2": "3-2",
         "group3": "6-1",
         "group4": "11-0",
         "rpi": "59",
