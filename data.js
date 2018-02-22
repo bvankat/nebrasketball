@@ -22,8 +22,8 @@
         "composite": "59"
     },
     "ncaa": {
-        "previous_rpi_rank": "60",
-        "rpi_rank": "58"
+        "previous_rpi_rank": "58",
+        "rpi_rank": "59"
     },
     "teamrankings": {
         "make_tournament": "43.7%",
@@ -34,7 +34,7 @@
         "sos": "60"
     },
     "time": {
-        "time": "Feb 22, 10:06 AM"
+        "time": "Feb 22, 12:01 PM"
     },
     "todays_games": [
         {
@@ -42,12 +42,6 @@
             "rpi": "19",
             "team": "Houston",
             "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "vs Seton Hall",
-            "rpi": "37",
-            "team": "Providence",
-            "time": "11:00 AM"
         },
         {
             "next_opponent": "@ Utah",
