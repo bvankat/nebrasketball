@@ -34,7 +34,7 @@
         "sos": "59"
     },
     "time": {
-        "time": "Feb 22,  1:02 AM"
+        "time": "Feb 22,  2:02 AM"
     },
     "todays_games": [
         {
@@ -51,7 +51,7 @@
         },
         {
             "next_opponent": "vs Chicago St.",
-            "rpi": "46",
+            "rpi": "43",
             "team": "New Mex. St.",
             "time": " 8:00 PM"
         },
@@ -63,13 +63,13 @@
         },
         {
             "next_opponent": "@ Stanford",
-            "rpi": "47",
+            "rpi": "48",
             "team": "Washington",
             "time": " 8:00 PM"
         },
         {
             "next_opponent": "vs Charlotte",
-            "rpi": "57",
+            "rpi": "56",
             "team": "Western Ky.",
             "time": " 7:00 PM"
         }
