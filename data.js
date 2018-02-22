@@ -3,12 +3,12 @@
         "matrix_count": "2"
     },
     "espn": {
-        "bpi": "60",
+        "bpi": "61",
         "proj_tourney_seed": "9",
         "proj_win_loss_conf": "12.5-5.5",
         "proj_win_loss_overall": "21.5-9.5",
-        "seven_day_change": "-2",
-        "sor": "35",
+        "seven_day_change": "-3",
+        "sor": "34",
         "sos": "59"
     },
     "kenpom": {
@@ -26,15 +26,15 @@
         "rpi_rank": "58"
     },
     "teamrankings": {
-        "make_tournament": "42.1%",
-        "most_likely_seed": "#12 (15.5%)",
+        "make_tournament": "43.7%",
+        "most_likely_seed": "#12 (16.1%)",
         "projected_losses": "9.5",
         "projected_wins": "21.5",
         "rank": "68",
-        "sos": "59"
+        "sos": "60"
     },
     "time": {
-        "time": "Feb 22,  2:02 AM"
+        "time": "Feb 22,  9:52 AM"
     },
     "todays_games": [
         {
@@ -42,6 +42,12 @@
             "rpi": "19",
             "team": "Houston",
             "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs Seton Hall",
+            "rpi": "37",
+            "team": "Providence",
+            "time": "11:00 AM"
         },
         {
             "next_opponent": "@ Utah",
@@ -80,7 +86,7 @@
         "kpi": "63",
         "proj": "21-10 (12-6)",
         "sagarin": "58",
-        "trank": "56"
+        "trank": "57"
     },
     "warrennolan": {
         "cwl": "(12-6)",
