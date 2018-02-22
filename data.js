@@ -12,8 +12,8 @@
         "sos": "59"
     },
     "kenpom": {
-        "rating": "56",
-        "sos": "63"
+        "rating": "57",
+        "sos": "64"
     },
     "lrmc": {
         "rank": "44"
@@ -34,32 +34,14 @@
         "sos": "59"
     },
     "time": {
-        "time": "Feb 21, 10:03 PM"
+        "time": "Feb 21, 11:03 PM"
     },
     "todays_games": [
-        {
-            "next_opponent": "vs Texas",
-            "rpi": "59",
-            "team": "Kansas St.",
-            "time": " 8:00 PM"
-        },
         {
             "next_opponent": "vs Seton Hall",
             "rpi": "35",
             "team": "Providence",
             "time": " 5:30 PM"
-        },
-        {
-            "next_opponent": "@ Tennessee",
-            "rpi": "65",
-            "team": "Florida",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "@ Kansas St.",
-            "rpi": "52",
-            "team": "Texas",
-            "time": " 8:00 PM"
         },
         {
             "next_opponent": "@ Colorado",
@@ -74,16 +56,16 @@
         "kpi": "63",
         "proj": "21-10 (12-6)",
         "sagarin": "58",
-        "trank": "55"
+        "trank": "56"
     },
     "warrennolan": {
         "cwl": "(12-6)",
         "group1": "1-5",
         "group2": "3-3",
-        "group3": "7-1",
-        "group4": "10-0",
+        "group3": "6-1",
+        "group4": "11-0",
         "rpi": "59",
-        "sos": "99",
+        "sos": "101",
         "wl": "21-10"
     }
 }
