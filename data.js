@@ -26,15 +26,15 @@
         "rpi_rank": "59"
     },
     "teamrankings": {
-        "make_tournament": "43.7%",
-        "most_likely_seed": "#12 (16.1%)",
+        "make_tournament": "42.2%",
+        "most_likely_seed": "#12 (15.3%)",
         "projected_losses": "9.5",
         "projected_wins": "21.5",
         "rank": "68",
         "sos": "60"
     },
     "time": {
-        "time": "Feb 23, 12:01 AM"
+        "time": "Feb 23,  1:02 AM"
     },
     "todays_games": [],
     "trank": {
