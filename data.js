@@ -12,7 +12,7 @@
         "sos": "59"
     },
     "kenpom": {
-        "rating": "57",
+        "rating": "55",
         "sos": "64"
     },
     "lrmc": {
@@ -34,62 +34,25 @@
         "sos": "60"
     },
     "time": {
-        "time": "Feb 22, 12:01 PM"
+        "time": "Feb 23, 12:01 AM"
     },
-    "todays_games": [
-        {
-            "next_opponent": "@ Memphis",
-            "rpi": "19",
-            "team": "Houston",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "@ Utah",
-            "rpi": "47",
-            "team": "UCLA",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "vs Chicago St.",
-            "rpi": "43",
-            "team": "New Mex. St.",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "vs UCLA",
-            "rpi": "49",
-            "team": "Utah",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "@ Stanford",
-            "rpi": "48",
-            "team": "Washington",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "vs Charlotte",
-            "rpi": "56",
-            "team": "Western Ky.",
-            "time": " 7:00 PM"
-        }
-    ],
+    "todays_games": [],
     "trank": {
         "current_cwl": "12-5",
         "current_wl": "21-9",
         "kpi": "63",
-        "proj": "21-10 (12-6)",
-        "sagarin": "58",
+        "proj": "22-9 (13-5)",
+        "sagarin": "61",
         "trank": "57"
     },
     "warrennolan": {
         "cwl": "(12-6)",
-        "group1": "1-6",
-        "group2": "3-2",
-        "group3": "6-1",
-        "group4": "11-0",
+        "group1": "1-5",
+        "group2": "2-3",
+        "group3": "8-1",
+        "group4": "10-0",
         "rpi": "59",
-        "sos": "101",
+        "sos": "102",
         "wl": "21-10"
     }
 }
