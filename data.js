@@ -16,25 +16,25 @@
         "sos": "65"
     },
     "lrmc": {
-        "rank": "48"
+        "rank": "52"
     },
     "massey": {
         "composite": "59"
     },
     "ncaa": {
-        "previous_rpi_rank": "60",
+        "previous_rpi_rank": "61",
         "rpi_rank": "61"
     },
     "teamrankings": {
-        "make_tournament": "41.4%",
-        "most_likely_seed": "#12 (15.4%)",
+        "make_tournament": "41.2%",
+        "most_likely_seed": "#12 (15.0%)",
         "projected_losses": "9.5",
         "projected_wins": "21.5",
         "rank": "69",
         "sos": "61"
     },
     "time": {
-        "time": "Feb 25,  2:01 AM"
+        "time": "Feb 25, 11:01 AM"
     },
     "todays_games": [
         {
@@ -44,24 +44,24 @@
             "time": " 5:00 PM"
         },
         {
-            "next_opponent": "vs Penn St.",
-            "rpi": "61",
-            "team": "Nebraska",
-            "time": " 4:15 PM"
-        },
-        {
             "next_opponent": "@ Colorado",
             "rpi": "48",
             "team": "UCLA",
             "time": " 3:00 PM"
+        },
+        {
+            "next_opponent": "vs Penn St.",
+            "rpi": "61",
+            "team": "Nebraska",
+            "time": " 4:15 PM"
         }
     ],
     "trank": {
         "current_cwl": "12-5",
         "current_wl": "21-9",
-        "kpi": "63",
+        "kpi": "64",
         "proj": "22-9 (13-5)",
-        "sagarin": "61",
+        "sagarin": "62",
         "trank": "58"
     },
     "warrennolan": {
