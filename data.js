@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "59",
-        "sos": "64"
+        "sos": "65"
     },
     "lrmc": {
         "rank": "48"
@@ -34,12 +34,12 @@
         "sos": "61"
     },
     "time": {
-        "time": "Feb 25,  1:11 AM"
+        "time": "Feb 25,  2:01 AM"
     },
     "todays_games": [
         {
             "next_opponent": "vs Florida St.",
-            "rpi": "56",
+            "rpi": "57",
             "team": "NC State",
             "time": " 5:00 PM"
         },
@@ -51,7 +51,7 @@
         },
         {
             "next_opponent": "@ Colorado",
-            "rpi": "50",
+            "rpi": "48",
             "team": "UCLA",
             "time": " 3:00 PM"
         }
