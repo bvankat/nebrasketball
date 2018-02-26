@@ -16,25 +16,25 @@
         "sos": "64"
     },
     "lrmc": {
-        "rank": "52"
+        "rank": "45"
     },
     "massey": {
-        "composite": "59"
+        "composite": "55"
     },
     "ncaa": {
         "previous_rpi_rank": "61",
-        "rpi_rank": "61"
+        "rpi_rank": "58"
     },
     "teamrankings": {
         "make_tournament": "64.9%",
-        "most_likely_seed": "#12 (23.8%)",
+        "most_likely_seed": "#12 (22.2%)",
         "projected_losses": "9.0",
         "projected_wins": "22.0",
-        "rank": "69",
+        "rank": "64",
         "sos": "61"
     },
     "time": {
-        "time": "Feb 26,  1:01 AM"
+        "time": "Feb 26,  9:54 AM"
     },
     "todays_games": [
         {
