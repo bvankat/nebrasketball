@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "1"
+        "matrix_count": "6"
     },
     "espn": {
         "bpi": "61",
@@ -19,7 +19,7 @@
         "rank": "45"
     },
     "massey": {
-        "composite": "55"
+        "composite": "52"
     },
     "ncaa": {
         "previous_rpi_rank": "61",
@@ -34,7 +34,7 @@
         "sos": "61"
     },
     "time": {
-        "time": "Feb 26, 11:01 AM"
+        "time": "Feb 26,  2:49 PM"
     },
     "todays_games": [
         {
