@@ -1,19 +1,19 @@
 {
     "bracketproject": {
-        "matrix_count": "3"
+        "matrix_count": "1"
     },
     "espn": {
         "bpi": "62",
-        "proj_tourney_seed": "9",
+        "proj_tourney_seed": "10",
         "proj_win_loss_conf": "12.5-5.5",
         "proj_win_loss_overall": "21.5-9.5",
-        "seven_day_change": "-4",
-        "sor": "35",
-        "sos": "61"
+        "seven_day_change": "-3",
+        "sor": "37",
+        "sos": "60"
     },
     "kenpom": {
-        "rating": "59",
-        "sos": "65"
+        "rating": "54",
+        "sos": "64"
     },
     "lrmc": {
         "rank": "52"
@@ -34,7 +34,7 @@
         "sos": "61"
     },
     "time": {
-        "time": "Feb 25, 11:01 AM"
+        "time": "Feb 25,  7:01 PM"
     },
     "todays_games": [
         {
@@ -42,36 +42,24 @@
             "rpi": "57",
             "team": "NC State",
             "time": " 5:00 PM"
-        },
-        {
-            "next_opponent": "@ Colorado",
-            "rpi": "48",
-            "team": "UCLA",
-            "time": " 3:00 PM"
-        },
-        {
-            "next_opponent": "vs Penn St.",
-            "rpi": "61",
-            "team": "Nebraska",
-            "time": " 4:15 PM"
         }
     ],
     "trank": {
-        "current_cwl": "12-5",
-        "current_wl": "21-9",
+        "current_cwl": "13-5",
+        "current_wl": "22-9",
         "kpi": "64",
-        "proj": "22-9 (13-5)",
+        "proj": "Sun 02-25\nH\n56\n23 (III)Penn St. Nebraska -0.1, 71-70 (50%)\nW, 76-64 \n22-9\n13-5\n97\n-",
         "sagarin": "62",
         "trank": "58"
     },
     "warrennolan": {
-        "cwl": "(12-6)",
+        "cwl": "(13-5)",
         "group1": "1-5",
         "group2": "2-3",
-        "group3": "7-1",
+        "group3": "8-1",
         "group4": "11-0",
-        "rpi": "61",
+        "rpi": "58",
         "sos": "105",
-        "wl": "21-10"
+        "wl": "22-9"
     }
 }
