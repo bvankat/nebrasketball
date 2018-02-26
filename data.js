@@ -19,7 +19,7 @@
         "rank": "45"
     },
     "massey": {
-        "composite": "52"
+        "composite": "53"
     },
     "ncaa": {
         "previous_rpi_rank": "61",
@@ -34,7 +34,7 @@
         "sos": "61"
     },
     "time": {
-        "time": "Feb 26,  3:01 PM"
+        "time": "Feb 26,  4:01 PM"
     },
     "todays_games": [
         {
