@@ -34,7 +34,7 @@
         "sos": "61"
     },
     "time": {
-        "time": "Feb 26, 10:01 AM"
+        "time": "Feb 26, 11:01 AM"
     },
     "todays_games": [
         {
@@ -62,7 +62,7 @@
         "kpi": "64",
         "proj": "Sun 02-25\nH\n56\n23 (III)Penn St. Nebraska -0.1, 71-70 (50%)\nW, 76-64 \n22-9\n13-5\n97\n12.1",
         "sagarin": "59",
-        "trank": "58"
+        "trank": "56"
     },
     "warrennolan": {
         "cwl": "(13-5)",
