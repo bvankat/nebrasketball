@@ -34,22 +34,15 @@
         "sos": "61"
     },
     "time": {
-        "time": "Feb 25,  7:01 PM"
+        "time": "Feb 25,  9:53 PM"
     },
-    "todays_games": [
-        {
-            "next_opponent": "vs Florida St.",
-            "rpi": "57",
-            "team": "NC State",
-            "time": " 5:00 PM"
-        }
-    ],
+    "todays_games": [],
     "trank": {
         "current_cwl": "13-5",
         "current_wl": "22-9",
         "kpi": "64",
-        "proj": "Sun 02-25\nH\n56\n23 (III)Penn St. Nebraska -0.1, 71-70 (50%)\nW, 76-64 \n22-9\n13-5\n97\n-",
-        "sagarin": "62",
+        "proj": "Sun 02-25\nH\n56\n24 (III)Penn St. Nebraska -0.1, 71-70 (50%)\nW, 76-64 \n22-9\n13-5\n97\n-",
+        "sagarin": "59",
         "trank": "58"
     },
     "warrennolan": {
