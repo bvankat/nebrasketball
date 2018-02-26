@@ -34,24 +34,24 @@
         "sos": "61"
     },
     "time": {
-        "time": "Feb 26, 12:01 AM"
+        "time": "Feb 26,  1:01 AM"
     },
     "todays_games": [
         {
             "next_opponent": "vs Duke",
-            "rpi": "58",
+            "rpi": "59",
             "team": "Va. Tech",
             "time": " 6:00 PM"
         },
         {
             "next_opponent": "@ Kansas",
-            "rpi": "54",
+            "rpi": "55",
             "team": "Texas",
             "time": " 8:00 PM"
         },
         {
             "next_opponent": "@ Georgetown",
-            "rpi": "65",
+            "rpi": "66",
             "team": "Marquette",
             "time": " 6:00 PM"
         }
@@ -60,7 +60,7 @@
         "current_cwl": "13-5",
         "current_wl": "22-9",
         "kpi": "64",
-        "proj": "Sun 02-25\nH\n56\n24 (III)Penn St. Nebraska -0.1, 71-70 (50%)\nW, 76-64 \n22-9\n13-5\n97\n-",
+        "proj": "Sun 02-25\nH\n56\n23 (III)Penn St. Nebraska -0.1, 71-70 (50%)\nW, 76-64 \n22-9\n13-5\n97\n12.1",
         "sagarin": "59",
         "trank": "58"
     },
