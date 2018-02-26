@@ -26,17 +26,36 @@
         "rpi_rank": "61"
     },
     "teamrankings": {
-        "make_tournament": "41.2%",
-        "most_likely_seed": "#12 (15.0%)",
-        "projected_losses": "9.5",
-        "projected_wins": "21.5",
+        "make_tournament": "64.9%",
+        "most_likely_seed": "#12 (23.8%)",
+        "projected_losses": "9.0",
+        "projected_wins": "22.0",
         "rank": "69",
         "sos": "61"
     },
     "time": {
-        "time": "Feb 25, 11:01 PM"
+        "time": "Feb 26, 12:01 AM"
     },
-    "todays_games": [],
+    "todays_games": [
+        {
+            "next_opponent": "vs Duke",
+            "rpi": "58",
+            "team": "Va. Tech",
+            "time": " 6:00 PM"
+        },
+        {
+            "next_opponent": "@ Kansas",
+            "rpi": "54",
+            "team": "Texas",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "@ Georgetown",
+            "rpi": "65",
+            "team": "Marquette",
+            "time": " 6:00 PM"
+        }
+    ],
     "trank": {
         "current_cwl": "13-5",
         "current_wl": "22-9",
