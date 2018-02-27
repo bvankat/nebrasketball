@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "6"
+        "matrix_count": "7"
     },
     "espn": {
         "bpi": "61",
@@ -34,16 +34,9 @@
         "sos": "61"
     },
     "time": {
-        "time": "Feb 26, 10:01 PM"
+        "time": "Feb 26, 11:01 PM"
     },
-    "todays_games": [
-        {
-            "next_opponent": "@ Kansas",
-            "rpi": "55",
-            "team": "Texas",
-            "time": " 8:00 PM"
-        }
-    ],
+    "todays_games": [],
     "trank": {
         "current_cwl": "13-5",
         "current_wl": "22-9",
