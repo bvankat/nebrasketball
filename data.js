@@ -34,26 +34,14 @@
         "sos": "61"
     },
     "time": {
-        "time": "Feb 26,  6:02 PM"
+        "time": "Feb 26,  9:01 PM"
     },
     "todays_games": [
-        {
-            "next_opponent": "vs Duke",
-            "rpi": "59",
-            "team": "Va. Tech",
-            "time": " 6:00 PM"
-        },
         {
             "next_opponent": "@ Kansas",
             "rpi": "55",
             "team": "Texas",
             "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "@ Georgetown",
-            "rpi": "66",
-            "team": "Marquette",
-            "time": " 6:00 PM"
         }
     ],
     "trank": {
@@ -70,7 +58,7 @@
         "group2": "2-3",
         "group3": "8-1",
         "group4": "11-0",
-        "rpi": "58",
+        "rpi": "59",
         "sos": "105",
         "wl": "22-9"
     }
