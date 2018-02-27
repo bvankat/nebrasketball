@@ -3,11 +3,11 @@
         "matrix_count": "7"
     },
     "espn": {
-        "bpi": "61",
+        "bpi": "62",
         "proj_tourney_seed": "9",
         "proj_win_loss_conf": "13.0-5.0",
         "proj_win_loss_overall": "22.0-9.0",
-        "seven_day_change": "0",
+        "seven_day_change": "-1",
         "sor": "33",
         "sos": "60"
     },
@@ -22,19 +22,19 @@
         "composite": "53"
     },
     "ncaa": {
-        "previous_rpi_rank": "61",
-        "rpi_rank": "58"
+        "previous_rpi_rank": "58",
+        "rpi_rank": "59"
     },
     "teamrankings": {
-        "make_tournament": "61.2%",
-        "most_likely_seed": "#12 (21.9%)",
+        "make_tournament": "61.5%",
+        "most_likely_seed": "#12 (22.2%)",
         "projected_losses": "9.0",
         "projected_wins": "22.0",
         "rank": "64",
         "sos": "61"
     },
     "time": {
-        "time": "Feb 27,  2:01 AM"
+        "time": "Feb 27, 11:01 AM"
     },
     "todays_games": [
         {
