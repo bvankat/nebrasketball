@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "7"
+        "matrix_count": "8"
     },
     "espn": {
         "bpi": "62",
@@ -12,7 +12,7 @@
         "sos": "60"
     },
     "kenpom": {
-        "rating": "54",
+        "rating": "51",
         "sos": "64"
     },
     "lrmc": {
@@ -26,97 +26,55 @@
         "rpi_rank": "59"
     },
     "teamrankings": {
-        "make_tournament": "61.5%",
-        "most_likely_seed": "#12 (22.2%)",
+        "make_tournament": "60.7%",
+        "most_likely_seed": "#12 (21.4%)",
         "projected_losses": "9.0",
         "projected_wins": "22.0",
         "rank": "64",
         "sos": "61"
     },
     "time": {
-        "time": "Feb 27, 11:01 AM"
+        "time": "Feb 28,  8:30 AM"
     },
     "todays_games": [
         {
-            "next_opponent": "@ Alabama",
-            "rpi": "58",
-            "team": "Florida",
-            "time": " 6:00 PM"
-        },
-        {
-            "next_opponent": "@ N. Carolina",
-            "rpi": "32",
-            "team": "Miami (Fla.)",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "@ Vanderbilt",
-            "rpi": "43",
-            "team": "Missouri",
-            "time": " 6:00 PM"
-        },
-        {
-            "next_opponent": "@ Baylor",
+            "next_opponent": "@ St. John's",
             "rpi": "34",
-            "team": "Oklahoma",
+            "team": "Butler",
             "time": " 8:00 PM"
         },
         {
-            "next_opponent": "",
-            "rpi": "38",
-            "team": "St. Mary's",
+            "next_opponent": "@ Clemson",
+            "rpi": "47",
+            "team": "Florida St.",
             "time": " 8:00 PM"
         },
         {
-            "next_opponent": "vs Florida",
-            "rpi": "41",
-            "team": "Alabama",
-            "time": " 6:00 PM"
+            "next_opponent": "@ Georgia",
+            "rpi": "28",
+            "team": "Texas A&M",
+            "time": " 7:30 PM"
         },
         {
-            "next_opponent": "@ TCU",
-            "rpi": "62",
-            "team": "Kansas St.",
+            "next_opponent": "@ Xavier",
+            "rpi": "43",
+            "team": "Providence",
+            "time": " 5:30 PM"
+        },
+        {
+            "next_opponent": "@ Boston College",
+            "rpi": "44",
+            "team": "Syracuse",
             "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "vs Davidson",
-            "rpi": "23",
-            "team": "St. Bona.",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "vs Oklahoma",
-            "rpi": "64",
-            "team": "Baylor",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "@ San Diego St",
-            "rpi": "45",
-            "team": "Boise St.",
-            "time": "10:00 PM"
-        },
-        {
-            "next_opponent": "vs Tennessee",
-            "rpi": "63",
-            "team": "Miss. State",
-            "time": " 6:00 PM"
-        },
-        {
-            "next_opponent": "",
-            "rpi": "59",
-            "team": "Nebraska",
-            "time": " 6:00 PM"
         }
     ],
     "trank": {
         "current_cwl": "13-5",
         "current_wl": "22-9",
         "kpi": "64",
-        "proj": "Sun 02-25\nH\n56\n23 (III)Penn St. Nebraska -0.1, 71-70 (50%)\nW, 76-64 \n22-9\n13-5\n97\n12.1",
+        "proj": "Sun 02-25\nH\n56\n24 (III)Penn St. Nebraska -0.1, 71-70 (50%)\nW, 76-64 \n22-9\n13-5\n97\n12.1",
         "sagarin": "59",
-        "trank": "56"
+        "trank": "55"
     },
     "warrennolan": {
         "cwl": "(13-5)",
