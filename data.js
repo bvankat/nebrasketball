@@ -3,13 +3,13 @@
         "matrix_count": "8"
     },
     "espn": {
-        "bpi": "62",
-        "proj_tourney_seed": "9",
+        "bpi": "60",
+        "proj_tourney_seed": "8",
         "proj_win_loss_conf": "13.0-5.0",
         "proj_win_loss_overall": "22.0-9.0",
-        "seven_day_change": "-1",
-        "sor": "33",
-        "sos": "60"
+        "seven_day_change": "0",
+        "sor": "31",
+        "sos": "59"
     },
     "kenpom": {
         "rating": "51",
@@ -22,7 +22,7 @@
         "composite": "53"
     },
     "ncaa": {
-        "previous_rpi_rank": "58",
+        "previous_rpi_rank": "59",
         "rpi_rank": "59"
     },
     "teamrankings": {
@@ -34,7 +34,7 @@
         "sos": "61"
     },
     "time": {
-        "time": "Feb 28,  8:30 AM"
+        "time": "Feb 28,  9:01 AM"
     },
     "todays_games": [
         {
@@ -73,8 +73,8 @@
         "current_wl": "22-9",
         "kpi": "64",
         "proj": "Sun 02-25\nH\n56\n24 (III)Penn St. Nebraska -0.1, 71-70 (50%)\nW, 76-64 \n22-9\n13-5\n97\n12.1",
-        "sagarin": "59",
-        "trank": "55"
+        "sagarin": "57",
+        "trank": "53"
     },
     "warrennolan": {
         "cwl": "(13-5)",
