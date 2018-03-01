@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "51",
-        "sos": "64"
+        "sos": "65"
     },
     "lrmc": {
         "rank": "45"
@@ -34,7 +34,7 @@
         "sos": "61"
     },
     "time": {
-        "time": "Feb 28,  7:01 PM"
+        "time": "Feb 28, 10:01 PM"
     },
     "todays_games": [
         {
@@ -48,18 +48,6 @@
             "rpi": "47",
             "team": "Florida St.",
             "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "@ Georgia",
-            "rpi": "28",
-            "team": "Texas A&M",
-            "time": " 7:30 PM"
-        },
-        {
-            "next_opponent": "@ Xavier",
-            "rpi": "43",
-            "team": "Providence",
-            "time": " 5:30 PM"
         },
         {
             "next_opponent": "@ Boston College",
@@ -83,7 +71,7 @@
         "group3": "8-1",
         "group4": "11-0",
         "rpi": "59",
-        "sos": "106",
+        "sos": "105",
         "wl": "22-9"
     }
 }
