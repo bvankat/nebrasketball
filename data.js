@@ -34,36 +34,36 @@
         "sos": "61"
     },
     "time": {
-        "time": "Mar 01, 12:01 AM"
+        "time": "Mar 01,  1:01 AM"
     },
     "todays_games": [
         {
             "next_opponent": "vs California",
-            "rpi": "42",
+            "rpi": "40",
             "team": "Arizona St.",
             "time": " 8:00 PM"
         },
         {
             "next_opponent": "vs Western Ky.",
-            "rpi": "25",
+            "rpi": "26",
             "team": "Middle Tenn.",
             "time": " 7:00 PM"
         },
         {
             "next_opponent": "@ Georgia Tech",
-            "rpi": "49",
+            "rpi": "46",
             "team": "NC State",
             "time": " 7:00 PM"
         },
         {
             "next_opponent": "",
-            "rpi": "38",
+            "rpi": "37",
             "team": "St. Mary's",
             "time": " 7:00 PM"
         },
         {
             "next_opponent": "vs Virginia",
-            "rpi": "39",
+            "rpi": "38",
             "team": "Louisville",
             "time": " 7:00 PM"
         },
@@ -75,7 +75,7 @@
         },
         {
             "next_opponent": "@ Wash. State",
-            "rpi": "74",
+            "rpi": "71",
             "team": "Oregon",
             "time": " 8:00 PM"
         }
@@ -95,7 +95,7 @@
         "group3": "8-1",
         "group4": "11-0",
         "rpi": "57",
-        "sos": "100",
+        "sos": "99",
         "wl": "22-9"
     }
 }
