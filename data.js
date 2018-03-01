@@ -12,8 +12,8 @@
         "sos": "59"
     },
     "kenpom": {
-        "rating": "51",
-        "sos": "65"
+        "rating": "50",
+        "sos": "63"
     },
     "lrmc": {
         "rank": "45"
@@ -34,28 +34,9 @@
         "sos": "61"
     },
     "time": {
-        "time": "Feb 28, 10:01 PM"
+        "time": "Feb 28, 10:42 PM"
     },
-    "todays_games": [
-        {
-            "next_opponent": "@ St. John's",
-            "rpi": "34",
-            "team": "Butler",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "@ Clemson",
-            "rpi": "47",
-            "team": "Florida St.",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "@ Boston College",
-            "rpi": "44",
-            "team": "Syracuse",
-            "time": " 8:00 PM"
-        }
-    ],
+    "todays_games": [],
     "trank": {
         "current_cwl": "13-5",
         "current_wl": "22-9",
@@ -70,8 +51,8 @@
         "group2": "2-3",
         "group3": "8-1",
         "group4": "11-0",
-        "rpi": "59",
-        "sos": "105",
+        "rpi": "58",
+        "sos": "101",
         "wl": "22-9"
     }
 }
