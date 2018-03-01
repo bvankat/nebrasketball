@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "5"
+        "matrix_count": "8"
     },
     "espn": {
         "bpi": "60",
@@ -34,9 +34,52 @@
         "sos": "61"
     },
     "time": {
-        "time": "Feb 28, 11:01 PM"
+        "time": "Mar 01, 12:01 AM"
     },
-    "todays_games": [],
+    "todays_games": [
+        {
+            "next_opponent": "vs California",
+            "rpi": "42",
+            "team": "Arizona St.",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs Western Ky.",
+            "rpi": "25",
+            "team": "Middle Tenn.",
+            "time": " 7:00 PM"
+        },
+        {
+            "next_opponent": "@ Georgia Tech",
+            "rpi": "49",
+            "team": "NC State",
+            "time": " 7:00 PM"
+        },
+        {
+            "next_opponent": "",
+            "rpi": "38",
+            "team": "St. Mary's",
+            "time": " 7:00 PM"
+        },
+        {
+            "next_opponent": "vs Virginia",
+            "rpi": "39",
+            "team": "Louisville",
+            "time": " 7:00 PM"
+        },
+        {
+            "next_opponent": "vs Oregon St.",
+            "rpi": "51",
+            "team": "Washington",
+            "time": "10:00 PM"
+        },
+        {
+            "next_opponent": "@ Wash. State",
+            "rpi": "74",
+            "team": "Oregon",
+            "time": " 8:00 PM"
+        }
+    ],
     "trank": {
         "current_cwl": "13-5",
         "current_wl": "22-9",
