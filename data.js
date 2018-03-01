@@ -34,7 +34,7 @@
         "sos": "61"
     },
     "time": {
-        "time": "Feb 28, 10:42 PM"
+        "time": "Feb 28, 11:01 PM"
     },
     "todays_games": [],
     "trank": {
@@ -51,8 +51,8 @@
         "group2": "2-3",
         "group3": "8-1",
         "group4": "11-0",
-        "rpi": "58",
-        "sos": "101",
+        "rpi": "57",
+        "sos": "100",
         "wl": "22-9"
     }
 }
