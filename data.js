@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "8"
+        "matrix_count": "9"
     },
     "espn": {
         "bpi": "60",
@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "50",
-        "sos": "63"
+        "sos": "62"
     },
     "lrmc": {
         "rank": "45"
@@ -22,70 +22,34 @@
         "composite": "53"
     },
     "ncaa": {
-        "previous_rpi_rank": "59",
-        "rpi_rank": "59"
+        "previous_rpi_rank": "57",
+        "rpi_rank": "57"
     },
     "teamrankings": {
-        "make_tournament": "60.7%",
-        "most_likely_seed": "#12 (21.4%)",
+        "make_tournament": "64.7%",
+        "most_likely_seed": "#11 (21.9%)",
         "projected_losses": "9.0",
         "projected_wins": "22.0",
         "rank": "64",
         "sos": "61"
     },
     "time": {
-        "time": "Mar 01,  2:01 AM"
+        "time": "Mar 01, 10:55 PM"
     },
     "todays_games": [
-        {
-            "next_opponent": "vs California",
-            "rpi": "40",
-            "team": "Arizona St.",
-            "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "vs Western Ky.",
-            "rpi": "26",
-            "team": "Middle Tenn.",
-            "time": " 7:00 PM"
-        },
-        {
-            "next_opponent": "@ Georgia Tech",
-            "rpi": "46",
-            "team": "NC State",
-            "time": " 7:00 PM"
-        },
-        {
-            "next_opponent": "",
-            "rpi": "37",
-            "team": "St. Mary's",
-            "time": " 7:00 PM"
-        },
-        {
-            "next_opponent": "vs Virginia",
-            "rpi": "38",
-            "team": "Louisville",
-            "time": " 7:00 PM"
-        },
         {
             "next_opponent": "vs Oregon St.",
             "rpi": "51",
             "team": "Washington",
             "time": "10:00 PM"
-        },
-        {
-            "next_opponent": "@ Wash. State",
-            "rpi": "71",
-            "team": "Oregon",
-            "time": " 8:00 PM"
         }
     ],
     "trank": {
         "current_cwl": "13-5",
         "current_wl": "22-9",
         "kpi": "64",
-        "proj": "Sun 02-25\nH\n56\n24 (III)Penn St. Nebraska -0.1, 71-70 (50%)\nW, 76-64 \n22-9\n13-5\n97\n12.1",
-        "sagarin": "57",
+        "proj": "22-10 (13-5)",
+        "sagarin": "56",
         "trank": "52"
     },
     "warrennolan": {
@@ -94,8 +58,8 @@
         "group2": "2-3",
         "group3": "8-1",
         "group4": "11-0",
-        "rpi": "57",
-        "sos": "99",
+        "rpi": "56",
+        "sos": "97",
         "wl": "22-9"
     }
 }
