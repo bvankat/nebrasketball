@@ -30,11 +30,11 @@
         "most_likely_seed": "#11 (24.9%)",
         "projected_losses": "9.0",
         "projected_wins": "22.0",
-        "rank": "64",
-        "sos": "61"
+        "rank": "63",
+        "sos": "59"
     },
     "time": {
-        "time": "Mar 02,  2:44 AM"
+        "time": "Mar 02,  3:01 AM"
     },
     "todays_games": [
         {
