@@ -3,20 +3,20 @@
         "matrix_count": "9"
     },
     "espn": {
-        "bpi": "59",
+        "bpi": "58",
         "proj_tourney_seed": "9",
         "proj_win_loss_conf": "13.0-5.0",
-        "proj_win_loss_overall": "22.0-9.0",
-        "seven_day_change": "2",
-        "sor": "34",
-        "sos": "59"
+        "proj_win_loss_overall": "22.2-9.8",
+        "seven_day_change": "3",
+        "sor": "33",
+        "sos": "60"
     },
     "kenpom": {
         "rating": "50",
         "sos": "62"
     },
     "lrmc": {
-        "rank": "45"
+        "rank": "46"
     },
     "massey": {
         "composite": "53"
@@ -34,7 +34,7 @@
         "sos": "59"
     },
     "time": {
-        "time": "Mar 02,  4:55 AM"
+        "time": "Mar 02,  8:03 AM"
     },
     "todays_games": [
         {
