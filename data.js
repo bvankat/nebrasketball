@@ -26,22 +26,28 @@
         "rpi_rank": "57"
     },
     "teamrankings": {
-        "make_tournament": "64.7%",
-        "most_likely_seed": "#11 (21.9%)",
+        "make_tournament": "72.3%",
+        "most_likely_seed": "#11 (24.9%)",
         "projected_losses": "9.0",
         "projected_wins": "22.0",
         "rank": "64",
         "sos": "61"
     },
     "time": {
-        "time": "Mar 01, 11:01 PM"
+        "time": "Mar 02, 12:01 AM"
     },
     "todays_games": [
         {
-            "next_opponent": "vs Oregon St.",
-            "rpi": "51",
-            "team": "Washington",
-            "time": "10:00 PM"
+            "next_opponent": "vs Iowa St.",
+            "rpi": "36",
+            "team": "Oklahoma",
+            "time": " 8:00 PM"
+        },
+        {
+            "next_opponent": "vs Michigan",
+            "rpi": "57",
+            "team": "Nebraska",
+            "time": " 1:25 PM"
         }
     ],
     "trank": {
