@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "9"
+        "matrix_count": "8"
     },
     "espn": {
         "bpi": "58",
@@ -19,11 +19,11 @@
         "rank": "46"
     },
     "massey": {
-        "composite": "53"
+        "composite": "52"
     },
     "ncaa": {
-        "previous_rpi_rank": "57",
-        "rpi_rank": "57"
+        "previous_rpi_rank": "54",
+        "rpi_rank": "54"
     },
     "teamrankings": {
         "make_tournament": "75.3%",
@@ -34,7 +34,7 @@
         "sos": "59"
     },
     "time": {
-        "time": "Mar 02,  8:04 AM"
+        "time": "Mar 02,  2:04 PM"
     },
     "todays_games": [
         {
@@ -47,7 +47,7 @@
             "next_opponent": "vs Michigan",
             "rpi": "54",
             "team": "Nebraska",
-            "time": " 1:25 PM"
+            "time": " 1:34 PM"
         }
     ],
     "trank": {
@@ -56,7 +56,7 @@
         "kpi": "64",
         "proj": "22-10 (13-5)",
         "sagarin": "55",
-        "trank": "51"
+        "trank": "52"
     },
     "warrennolan": {
         "cwl": "(13-5)",
@@ -64,8 +64,8 @@
         "group2": "2-3",
         "group3": "9-1",
         "group4": "10-0",
-        "rpi": "54",
+        "rpi": "55",
         "sos": "97",
-        "wl": "22-9"
+        "wl": "22-10"
     }
 }
