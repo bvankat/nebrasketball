@@ -34,18 +34,18 @@
         "sos": "61"
     },
     "time": {
-        "time": "Mar 02, 12:13 AM"
+        "time": "Mar 02,  2:40 AM"
     },
     "todays_games": [
         {
             "next_opponent": "vs Iowa St.",
-            "rpi": "36",
+            "rpi": "37",
             "team": "Oklahoma",
             "time": " 8:00 PM"
         },
         {
             "next_opponent": "vs Michigan",
-            "rpi": "57",
+            "rpi": "54",
             "team": "Nebraska",
             "time": " 1:25 PM"
         }
@@ -55,8 +55,8 @@
         "current_wl": "22-9",
         "kpi": "64",
         "proj": "22-10 (13-5)",
-        "sagarin": "56",
-        "trank": "53"
+        "sagarin": "55",
+        "trank": "51"
     },
     "warrennolan": {
         "cwl": "(13-5)",
