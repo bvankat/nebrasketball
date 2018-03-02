@@ -34,7 +34,7 @@
         "sos": "61"
     },
     "time": {
-        "time": "Mar 02, 12:01 AM"
+        "time": "Mar 02, 12:13 AM"
     },
     "todays_games": [
         {
@@ -56,15 +56,15 @@
         "kpi": "64",
         "proj": "22-10 (13-5)",
         "sagarin": "56",
-        "trank": "52"
+        "trank": "53"
     },
     "warrennolan": {
         "cwl": "(13-5)",
         "group1": "1-5",
         "group2": "2-3",
-        "group3": "8-1",
-        "group4": "11-0",
-        "rpi": "56",
+        "group3": "9-1",
+        "group4": "10-0",
+        "rpi": "54",
         "sos": "97",
         "wl": "22-9"
     }
