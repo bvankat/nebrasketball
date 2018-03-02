@@ -34,7 +34,7 @@
         "sos": "59"
     },
     "time": {
-        "time": "Mar 02,  3:01 PM"
+        "time": "Mar 02,  5:27 PM"
     },
     "todays_games": [
         {
@@ -42,12 +42,6 @@
             "rpi": "37",
             "team": "Oklahoma",
             "time": " 8:00 PM"
-        },
-        {
-            "next_opponent": "vs Michigan",
-            "rpi": "54",
-            "team": "Nebraska",
-            "time": " 1:34 PM"
         }
     ],
     "trank": {
@@ -60,12 +54,12 @@
     },
     "warrennolan": {
         "cwl": "(13-5)",
-        "group1": "1-5",
+        "group1": "1-6",
         "group2": "2-3",
         "group3": "9-1",
         "group4": "10-0",
-        "rpi": "55",
-        "sos": "97",
+        "rpi": "61",
+        "sos": "92",
         "wl": "22-10"
     }
 }
