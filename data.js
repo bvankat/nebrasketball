@@ -34,7 +34,7 @@
         "sos": "59"
     },
     "time": {
-        "time": "Mar 03, 10:01 PM"
+        "time": "Mar 03, 11:01 PM"
     },
     "trank": {
         "current_cwl": "13-5",
@@ -46,9 +46,9 @@
     },
     "warrennolan": {
         "cwl": "(13-5)",
-        "group1": "1-6",
-        "group2": "2-3",
-        "group3": "9-1",
+        "group1": "1-7",
+        "group2": "3-2",
+        "group3": "8-1",
         "group4": "10-0",
         "rpi": "64",
         "sos": "97",
