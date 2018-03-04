@@ -30,11 +30,11 @@
         "most_likely_seed": "#11 (25.8%)",
         "projected_losses": "10.0",
         "projected_wins": "22.0",
-        "rank": "66",
-        "sos": "59"
+        "rank": "68",
+        "sos": "58"
     },
     "time": {
-        "time": "Mar 04,  2:01 AM"
+        "time": "Mar 04,  3:02 AM"
     },
     "trank": {
         "current_cwl": "13-5",
