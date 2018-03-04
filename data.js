@@ -26,15 +26,15 @@
         "rpi_rank": "61"
     },
     "teamrankings": {
-        "make_tournament": "77.4%",
-        "most_likely_seed": "#11 (25.8%)",
+        "make_tournament": "76.3%",
+        "most_likely_seed": "#11 (25.3%)",
         "projected_losses": "10.0",
         "projected_wins": "22.0",
         "rank": "68",
         "sos": "58"
     },
     "time": {
-        "time": "Mar 04,  3:02 AM"
+        "time": "Mar 04,  4:03 AM"
     },
     "trank": {
         "current_cwl": "13-5",
