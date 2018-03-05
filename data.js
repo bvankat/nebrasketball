@@ -1,15 +1,15 @@
 {
     "bracketproject": {
-        "matrix_count": "6"
+        "matrix_count": "4"
     },
     "espn": {
-        "bpi": "64",
+        "bpi": "63",
         "proj_tourney_seed": "10",
         "proj_win_loss_conf": "13.0-5.0",
         "proj_win_loss_overall": "22.0-10.0",
         "seven_day_change": "-2",
         "sor": "37",
-        "sos": "60"
+        "sos": "59"
     },
     "kenpom": {
         "rating": "56",
@@ -19,7 +19,7 @@
         "rank": "52"
     },
     "massey": {
-        "composite": "54"
+        "composite": "55"
     },
     "ncaa": {
         "previous_rpi_rank": "64",
@@ -34,7 +34,7 @@
         "sos": "58"
     },
     "time": {
-        "time": "Mar 05, 10:17 AM"
+        "time": "Mar 05,  2:28 PM"
     },
     "trank": {
         "current_cwl": "13-5",
