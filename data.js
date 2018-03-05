@@ -34,7 +34,7 @@
         "sos": "58"
     },
     "time": {
-        "time": "Mar 05,  2:28 PM"
+        "time": "Mar 05,  2:29 PM"
     },
     "trank": {
         "current_cwl": "13-5",
