@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "7"
+        "matrix_count": "6"
     },
     "espn": {
         "bpi": "62",
@@ -16,40 +16,40 @@
         "sos": "61"
     },
     "lrmc": {
-        "rank": "48"
+        "rank": "52"
     },
     "massey": {
-        "composite": "52"
+        "composite": "55"
     },
     "ncaa": {
-        "previous_rpi_rank": "54",
-        "rpi_rank": "61"
+        "previous_rpi_rank": "64",
+        "rpi_rank": "64"
     },
     "teamrankings": {
-        "make_tournament": "76.3%",
-        "most_likely_seed": "#11 (25.3%)",
+        "make_tournament": "80.8%",
+        "most_likely_seed": "#11 (26.5%)",
         "projected_losses": "10.0",
         "projected_wins": "22.0",
-        "rank": "68",
+        "rank": "67",
         "sos": "58"
     },
     "time": {
-        "time": "Mar 04,  4:03 AM"
+        "time": "Mar 05,  8:07 AM"
     },
     "trank": {
         "current_cwl": "13-5",
         "current_wl": "22-10",
         "kpi": "64",
-        "proj": "Fri 03-02\nN\n45\n8 (I)Michigan Michigan -4.6, 68-64 (67%)\nL, 77-58 \n22-10\n\n41\n-9.7",
-        "sagarin": "60",
-        "trank": "57"
+        "proj": "Fri 03-02\nN\n45\n7 (I)Michigan Michigan -4.6, 68-64 (67%)\nL, 77-58 \n22-10\n\n43\n-9.7",
+        "sagarin": "61",
+        "trank": "56"
     },
     "warrennolan": {
         "cwl": "(13-5)",
-        "group1": "1-7",
-        "group2": "3-2",
-        "group3": "7-1",
-        "group4": "11-0",
+        "group1": "1-6",
+        "group2": "2-3",
+        "group3": "9-1",
+        "group4": "10-0",
         "rpi": "64",
         "sos": "96",
         "wl": "22-10"
