@@ -16,7 +16,7 @@
         "sos": "61"
     },
     "lrmc": {
-        "rank": "52"
+        "rank": "51"
     },
     "massey": {
         "composite": "55"
@@ -26,20 +26,20 @@
         "rpi_rank": "64"
     },
     "teamrankings": {
-        "make_tournament": "79.1%",
-        "most_likely_seed": "#11 (25.6%)",
+        "make_tournament": "79.3%",
+        "most_likely_seed": "#11 (25.7%)",
         "projected_losses": "10.0",
         "projected_wins": "22.0",
         "rank": "67",
         "sos": "58"
     },
     "time": {
-        "time": "Mar 06,  4:01 AM"
+        "time": "Mar 06, 11:01 AM"
     },
     "trank": {
         "current_cwl": "13-5",
         "current_wl": "22-10",
-        "kpi": "64",
+        "kpi": "63",
         "proj": "Fri 03-02\nN\n45\n7 (I)Michigan Michigan -4.6, 68-64 (67%)\nL, 77-58 \n22-10\n\n43\n-9.7",
         "sagarin": "61",
         "trank": "56"
