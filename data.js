@@ -4,11 +4,11 @@
     },
     "espn": {
         "bpi": "63",
-        "proj_tourney_seed": "10",
+        "proj_tourney_seed": "9",
         "proj_win_loss_conf": "13.0-5.0",
         "proj_win_loss_overall": "22.0-10.0",
-        "seven_day_change": "-2",
-        "sor": "37",
+        "seven_day_change": "-1",
+        "sor": "35",
         "sos": "59"
     },
     "kenpom": {
@@ -34,7 +34,7 @@
         "sos": "58"
     },
     "time": {
-        "time": "Mar 06, 11:01 AM"
+        "time": "Mar 06, 12:01 PM"
     },
     "trank": {
         "current_cwl": "13-5",
