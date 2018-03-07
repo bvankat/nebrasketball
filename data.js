@@ -23,7 +23,7 @@
     },
     "ncaa": {
         "previous_rpi_rank": "64",
-        "rpi_rank": "64"
+        "rpi_rank": "61"
     },
     "teamrankings": {
         "make_tournament": "81.0%",
@@ -34,7 +34,7 @@
         "sos": "58"
     },
     "time": {
-        "time": "Mar 07,  6:01 AM"
+        "time": "Mar 07,  7:01 AM"
     },
     "trank": {
         "current_cwl": "13-5",
