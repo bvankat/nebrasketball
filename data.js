@@ -16,7 +16,7 @@
         "sos": "61"
     },
     "lrmc": {
-        "rank": "51"
+        "rank": "52"
     },
     "massey": {
         "composite": "55"
@@ -34,11 +34,11 @@
         "sos": "58"
     },
     "time": {
-        "time": "Mar 07,  7:01 AM"
+        "time": "Mar 07,  8:01 AM"
     },
     "trank": {
-        "current_cwl": "13-5",
-        "current_wl": "22-10",
+        "current_cwl": "",
+        "current_wl": "",
         "kpi": "63",
         "proj": "Fri 03-02\nN\n45\n7 (I)Michigan Michigan -4.6, 68-64 (67%)\nL, 77-58 \n22-10\n\n43\n-9.7",
         "sagarin": "61",
