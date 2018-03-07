@@ -3,13 +3,13 @@
         "matrix_count": "4"
     },
     "espn": {
-        "bpi": "63",
+        "bpi": "62",
         "proj_tourney_seed": "9",
         "proj_win_loss_conf": "13.0-5.0",
         "proj_win_loss_overall": "22.0-10.0",
-        "seven_day_change": "-1",
-        "sor": "35",
-        "sos": "59"
+        "seven_day_change": "-2",
+        "sor": "36",
+        "sos": "58"
     },
     "kenpom": {
         "rating": "56",
@@ -26,15 +26,15 @@
         "rpi_rank": "64"
     },
     "teamrankings": {
-        "make_tournament": "80.8%",
-        "most_likely_seed": "#11 (25.1%)",
+        "make_tournament": "81.0%",
+        "most_likely_seed": "#11 (25.2%)",
         "projected_losses": "10.0",
         "projected_wins": "22.0",
         "rank": "67",
         "sos": "58"
     },
     "time": {
-        "time": "Mar 07,  5:01 AM"
+        "time": "Mar 07,  6:01 AM"
     },
     "trank": {
         "current_cwl": "13-5",
