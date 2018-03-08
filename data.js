@@ -34,7 +34,7 @@
         "sos": "58"
     },
     "time": {
-        "time": "Mar 08,  3:01 PM"
+        "time": "Mar 08,  4:01 PM"
     },
     "trank": {
         "current_cwl": "13-5",
@@ -50,7 +50,7 @@
         "group2": "2-2",
         "group3": "9-1",
         "group4": "10-0",
-        "rpi": "58",
+        "rpi": "59",
         "sos": "92",
         "wl": "22-10"
     }
