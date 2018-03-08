@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "56",
-        "sos": "61"
+        "sos": "60"
     },
     "lrmc": {
         "rank": "52"
@@ -26,21 +26,21 @@
         "rpi_rank": "61"
     },
     "teamrankings": {
-        "make_tournament": "81.0%",
-        "most_likely_seed": "#11 (25.2%)",
+        "make_tournament": "84.3%",
+        "most_likely_seed": "#11 (26.2%)",
         "projected_losses": "10.0",
         "projected_wins": "22.0",
-        "rank": "67",
+        "rank": "68",
         "sos": "58"
     },
     "time": {
-        "time": "Mar 07,  2:26 PM"
+        "time": "Mar 08,  3:13 AM"
     },
     "trank": {
         "current_cwl": "13-5",
         "current_wl": "22-10",
         "kpi": "62",
-        "proj": "Fri 03-02\nN\n45\n7 (I)Michigan Michigan -4.6, 68-64 (67%)\nL, 77-58 \n22-10\n\n43\n-9.7",
+        "proj": "Fri 03-02\nN\n45\n8 (I)Michigan Michigan -4.6, 68-64 (67%)\nL, 77-58 \n22-10\n\n43\n-9.7",
         "sagarin": "61",
         "trank": "56"
     },
@@ -50,8 +50,8 @@
         "group2": "2-3",
         "group3": "9-1",
         "group4": "10-0",
-        "rpi": "61",
-        "sos": "94",
+        "rpi": "57",
+        "sos": "92",
         "wl": "22-10"
     }
 }
