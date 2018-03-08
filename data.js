@@ -7,8 +7,8 @@
         "proj_tourney_seed": "9",
         "proj_win_loss_conf": "13.0-5.0",
         "proj_win_loss_overall": "22.0-10.0",
-        "seven_day_change": "-2",
-        "sor": "36",
+        "seven_day_change": "-3",
+        "sor": "35",
         "sos": "58"
     },
     "kenpom": {
@@ -16,14 +16,14 @@
         "sos": "60"
     },
     "lrmc": {
-        "rank": "52"
+        "rank": "53"
     },
     "massey": {
         "composite": "55"
     },
     "ncaa": {
-        "previous_rpi_rank": "64",
-        "rpi_rank": "61"
+        "previous_rpi_rank": "57",
+        "rpi_rank": "57"
     },
     "teamrankings": {
         "make_tournament": "84.3%",
@@ -34,14 +34,14 @@
         "sos": "58"
     },
     "time": {
-        "time": "Mar 08,  5:01 AM"
+        "time": "Mar 08, 12:07 PM"
     },
     "trank": {
         "current_cwl": "13-5",
         "current_wl": "22-10",
         "kpi": "62",
         "proj": "Fri 03-02\nN\n45\n8 (I)Michigan Michigan -4.6, 68-64 (67%)\nL, 77-58 \n22-10\n\n43\n-9.7",
-        "sagarin": "61",
+        "sagarin": "62",
         "trank": "56"
     },
     "warrennolan": {
