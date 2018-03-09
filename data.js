@@ -3,13 +3,13 @@
         "matrix_count": "3"
     },
     "espn": {
-        "bpi": "62",
+        "bpi": "63",
         "proj_tourney_seed": "9",
         "proj_win_loss_conf": "13.0-5.0",
         "proj_win_loss_overall": "22.0-10.0",
-        "seven_day_change": "-3",
-        "sor": "35",
-        "sos": "58"
+        "seven_day_change": "-5",
+        "sor": "34",
+        "sos": "60"
     },
     "kenpom": {
         "rating": "55",
@@ -34,7 +34,7 @@
         "sos": "58"
     },
     "time": {
-        "time": "Mar 09,  1:02 PM"
+        "time": "Mar 09,  1:04 PM"
     },
     "trank": {
         "current_cwl": "13-5",
