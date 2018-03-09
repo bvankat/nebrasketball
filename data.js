@@ -34,7 +34,7 @@
         "sos": "58"
     },
     "time": {
-        "time": "Mar 08, 10:01 PM"
+        "time": "Mar 08, 11:01 PM"
     },
     "trank": {
         "current_cwl": "13-5",
@@ -42,7 +42,7 @@
         "kpi": "64",
         "proj": "Fri 03-02\nN\n45\n8 (I)Michigan Michigan -4.6, 68-64 (67%)\nL, 77-58 \n22-10\n\n43\n-9.7",
         "sagarin": "62",
-        "trank": "57"
+        "trank": "56"
     },
     "warrennolan": {
         "cwl": "(13-5)",
@@ -50,8 +50,8 @@
         "group2": "1-3",
         "group3": "10-1",
         "group4": "10-0",
-        "rpi": "60",
-        "sos": "95",
+        "rpi": "59",
+        "sos": "94",
         "wl": "22-10"
     }
 }
