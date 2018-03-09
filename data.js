@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "56",
-        "sos": "61"
+        "sos": "62"
     },
     "lrmc": {
         "rank": "53"
@@ -34,7 +34,7 @@
         "sos": "58"
     },
     "time": {
-        "time": "Mar 08,  9:50 PM"
+        "time": "Mar 08, 10:01 PM"
     },
     "trank": {
         "current_cwl": "13-5",
@@ -47,10 +47,10 @@
     "warrennolan": {
         "cwl": "(13-5)",
         "group1": "1-6",
-        "group2": "2-3",
-        "group3": "9-1",
+        "group2": "1-3",
+        "group3": "10-1",
         "group4": "10-0",
-        "rpi": "59",
+        "rpi": "60",
         "sos": "95",
         "wl": "22-10"
     }
