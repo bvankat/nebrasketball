@@ -12,7 +12,7 @@
         "sos": "58"
     },
     "kenpom": {
-        "rating": "56",
+        "rating": "55",
         "sos": "62"
     },
     "lrmc": {
@@ -34,7 +34,7 @@
         "sos": "58"
     },
     "time": {
-        "time": "Mar 08, 11:01 PM"
+        "time": "Mar 09, 12:01 AM"
     },
     "trank": {
         "current_cwl": "13-5",
@@ -42,7 +42,7 @@
         "kpi": "64",
         "proj": "Fri 03-02\nN\n45\n8 (I)Michigan Michigan -4.6, 68-64 (67%)\nL, 77-58 \n22-10\n\n43\n-9.7",
         "sagarin": "62",
-        "trank": "56"
+        "trank": "54"
     },
     "warrennolan": {
         "cwl": "(13-5)",
