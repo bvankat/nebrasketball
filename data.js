@@ -13,7 +13,7 @@
     },
     "kenpom": {
         "rating": "56",
-        "sos": "60"
+        "sos": "61"
     },
     "lrmc": {
         "rank": "53"
@@ -34,24 +34,24 @@
         "sos": "58"
     },
     "time": {
-        "time": "Mar 08,  5:01 PM"
+        "time": "Mar 08,  6:01 PM"
     },
     "trank": {
         "current_cwl": "13-5",
         "current_wl": "22-10",
-        "kpi": "62",
+        "kpi": "64",
         "proj": "Fri 03-02\nN\n45\n8 (I)Michigan Michigan -4.6, 68-64 (67%)\nL, 77-58 \n22-10\n\n43\n-9.7",
         "sagarin": "62",
-        "trank": "56"
+        "trank": "57"
     },
     "warrennolan": {
         "cwl": "(13-5)",
-        "group1": "1-7",
-        "group2": "2-2",
+        "group1": "1-6",
+        "group2": "2-3",
         "group3": "9-1",
         "group4": "10-0",
         "rpi": "59",
-        "sos": "92",
+        "sos": "95",
         "wl": "22-10"
     }
 }
