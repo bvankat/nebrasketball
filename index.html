@@ -164,7 +164,7 @@
 					</tr>
 					<tr>
 						<td>ESPN Joe Lunardi: Where's NU?</td>
-						<td class="r">"Next Four Out"</td>
+						<td class="r">(Unlisted)</td>
 					</tr>
 				
 				</tbody>
@@ -265,7 +265,7 @@
 			
 			gauge_number = json.teamrankings.make_tournament	
 			
-			function FindScore(data) { // Calculate percentage chance basked on RPI-like ranking system
+			function FindScore(data) { // Calculate percentage chance based on RPI-like ranking system
 				 var score;
 				 if (data < 30){ score = 99; }
 				 if (data > 30 && data <= 40) { score = 92; }
@@ -300,7 +300,7 @@
 			 function StatusCheck(data) {
 				 var status_message;
 				 if (data < 25) { status_message = "NIT bound." }
-				 if (data >= 25 && data < 35) { status_message = "Poking our ACC and Big 12 voodoo dolls." }
+				 if (data >= 25 && data < 35) { status_message = "Thanks for nothing, Nevada." }
 				 if (data >= 35 && data < 45) { status_message = "Ignoring everything but the eye test." }
 				 if (data >= 45 && data < 55) { status_message = "Forever nervous." }
 				 if (data >= 55 && data < 75) { status_message = "Feeling good." }
