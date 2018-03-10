@@ -34,14 +34,14 @@
         "sos": "60"
     },
     "time": {
-        "time": "Mar 10, 10:01 AM"
+        "time": "Mar 10, 11:01 AM"
     },
     "trank": {
         "current_cwl": "13-5",
         "current_wl": "22-10",
         "kpi": "63",
         "proj": "Fri 03-02\nN\n45\n8 (I)Michigan Michigan -4.6, 68-64 (67%)\nL, 77-58 \n22-10\n\n43\n-9.7",
-        "sagarin": "60",
+        "sagarin": "59",
         "trank": "54"
     },
     "warrennolan": {
