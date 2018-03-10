@@ -4,12 +4,12 @@
     },
     "espn": {
         "bpi": "63",
-        "proj_tourney_seed": "9",
+        "proj_tourney_seed": "8",
         "proj_win_loss_conf": "13.0-5.0",
         "proj_win_loss_overall": "22.0-10.0",
-        "seven_day_change": "-5",
-        "sor": "34",
-        "sos": "60"
+        "seven_day_change": "-1",
+        "sor": "32",
+        "sos": "58"
     },
     "kenpom": {
         "rating": "56",
