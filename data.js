@@ -12,8 +12,8 @@
         "sos": "60"
     },
     "kenpom": {
-        "rating": "55",
-        "sos": "62"
+        "rating": "56",
+        "sos": "63"
     },
     "lrmc": {
         "rank": "58"
@@ -22,19 +22,19 @@
         "composite": "55"
     },
     "ncaa": {
-        "previous_rpi_rank": "57",
-        "rpi_rank": "59"
+        "previous_rpi_rank": "59",
+        "rpi_rank": "57"
     },
     "teamrankings": {
-        "make_tournament": "82.8%",
-        "most_likely_seed": "#11 (25.4%)",
+        "make_tournament": "79.0%",
+        "most_likely_seed": "#11 (23.5%)",
         "projected_losses": "10.0",
         "projected_wins": "22.0",
         "rank": "67",
-        "sos": "58"
+        "sos": "60"
     },
     "time": {
-        "time": "Mar 09,  3:01 PM"
+        "time": "Mar 10, 10:01 AM"
     },
     "trank": {
         "current_cwl": "13-5",
@@ -47,11 +47,11 @@
     "warrennolan": {
         "cwl": "(13-5)",
         "group1": "1-6",
-        "group2": "1-3",
-        "group3": "10-1",
+        "group2": "2-3",
+        "group3": "9-1",
         "group4": "10-0",
-        "rpi": "60",
-        "sos": "94",
+        "rpi": "57",
+        "sos": "95",
         "wl": "22-10"
     }
 }
