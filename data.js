@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "3"
+        "matrix_count": "4"
     },
     "espn": {
         "bpi": "63",
@@ -34,7 +34,7 @@
         "sos": "60"
     },
     "time": {
-        "time": "Mar 10, 11:01 AM"
+        "time": "Mar 10,  4:35 PM"
     },
     "trank": {
         "current_cwl": "13-5",
@@ -50,7 +50,7 @@
         "group2": "2-3",
         "group3": "9-1",
         "group4": "10-0",
-        "rpi": "57",
+        "rpi": "55",
         "sos": "95",
         "wl": "22-10"
     }
