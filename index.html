@@ -51,6 +51,10 @@
   </head>
   <body>
 	  
+	  <div class="alert alert-warning" role="alert">
+	  	Heads up: We're shutting it down for the season as of March 11. See you in the fall.
+	  </div>
+	  
 	  	<div class="jumbotron">
 	  	<div class="container">
 	  	
@@ -62,7 +66,7 @@
 		  	  
 		  		<div id="chart_div" style="width: 350px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
-		  		<h4 class="col-sm-12 text-center">Status: <span id="message"></span></h4>
+		  		<h4 class="col-sm-12 text-center">Status: <span id="message">A 5-seed in the NIT, you say? Oh.</span></h4>
 		  		
 
     
@@ -247,7 +251,7 @@
 			var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
 			$('#teamrankings_wl').text(teamrankings_wl);
 			
-			$('#time').text(json.time.time);
+			// $('#time').text(json.time.time);
 			
 			if (json.todays_games) {	
 				games = json.todays_games;
@@ -297,6 +301,8 @@
 			 
 			 total_score = ((kenpom_score*.14) + (ncaa_score*.18) + (espn_sor*.15) + (espn_bpi*.10) + (teamrankings_score*.06) + (sagarin_score*.04) + (trank_score*.08) + (kpi_score*.13) + (lrmc_score * .03) + (massey_score * .09));
 			 
+			 
+			 
 			 function StatusCheck(data) {
 				 var status_message;
 				 if (data < 25) { status_message = "NIT bound." }
@@ -313,7 +319,7 @@
 			 message = StatusCheck(total_score);
 			 console.log(message);
 
-			 $('#message').text(message);
+			//  $('#message').text(message);
 
 			 
 			 
