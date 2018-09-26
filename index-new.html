@@ -17,22 +17,39 @@
   <link rel="apple-touch-icon" href="http://benvankat.com/projects/nebrasketball/app-icon.png">
   <link rel="stylesheet" href="https://use.typekit.net/dhj5kzf.css">
 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
    	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 	
 	<script type="text/javascript" src="data.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
 	<style>
-	    body { font-family: sans-serif; }
- 	    h2 { font-family: "factoria", sans-serif; font-weight: bold; text-align: center; }
-	    div.jumbotron { color: #fff; background-color: #eb132f; border-radius: 0; }
+	    body { font-family: "avory-i-latin", sans-serif; border-left: 20px solid #fff; background: #c10000 url(white-grunge.png) top left; font-variant-ligatures: no-common-ligatures; }
+   	    div.jumbotron { color: #fff; background: #c10000 url(white-grunge.png)top left; border-radius: 0; border-top: 25px solid #fff; }
+
+	    
+ 	    h2 { font-family: "avory-i-latin", sans-serif; text-transform: uppercase; letter-spacing: .75em; font-size: 100%; color: #000; font-variant-ligatures: no-common-ligatures; float: left; margin: 0 0 50px 0; }
+ 	    h3 { font-family: "korolev-condensed", sans-serif; font-size: 20em; font-weight: bold; line-height: 1; z-index: 10; padding-left: 40px; }
+ 	    h4 { font-family: "avory-i-latin", sans-serif; font-weight: normal; letter-spacing: 10px; text-transform: uppercase; color: #000; font-size: 1.25em; padding: 40px 0 40px 20px; }
+ 	    h5 { font-family: "avory-i-latin", sans-serif; font-weight: bold; font-size: 1em; color: #000; }
+ 	    span.percent { font-size: 50px; opacity: 0.3; }
+ 	    .rating-number { font-family: "korolev-condensed", sans-serif; color: #fff; font-size: 3em; }
+ 	    
 	    .gray {color: #ddd; }
+	    .red { color: #c10000; }
+	    div.white { background: #fff url(white-grunge.png) bottom left; padding: 3em; }
+	    p.white { color: #fff; }
+	    .paint { margin: -250px 0 0 -60px; z-index: 0; }
 	    th { text-align: left; }
 	    .r { text-align: right; }
 	    .alert { margin-bottom: 0; }
+	    .player { width: 500px; float: left; margin-left: 50px; top: -50;}
+	    .fira { font-family: "fira-mono", monospace; }
 	    
 	</style>
 
@@ -52,25 +69,67 @@
   </head>
   <body>
 	  
-	  <div class="alert alert-warning text-center" role="alert">
-	  	Heads up: We're shutting it down for the season as of March 11. See you in the fall.
-	  </div>
-	  
+	  	<div class="white">
+  		<div class="container">
+	  			  <div class="col-sm-8">
+		  			  <h2><b>Nebraska basketball</b><br />NCAA tournament odds</h2>
+		  		 <div class="col-sm-4">
+		  			  <img src="palmer.png" class="player" />
+		  		 </div>
+  		</div>
+	  	</div>
+
+
 	  	<div class="jumbotron">
 	  	<div class="container">
 	  	
 	  
-	  <h2>Nebraska basketball NCAA tournament odds</h2>
-	  <p class="col-sm-12 text-center gray" style="margin-bottom: 30px;">Updates every 60 minutes</p>
 
 	  <div class="row">
 		  	  
-		  		<div id="chart_div" style="width: 350px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
-		  		<h4 class="col-sm-12 text-center">Status: <span id="message">A 5-seed in the NIT, you say? Oh.</span></h4>
+		  		<h3>56<span class="percent">%</span></h3>
+		  		<!-- <div id="chart_div" style="width: 350px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div> -->
 		  		
+		  		<img src="paint-smear.png" class="paint" /> 		
 
     
+		  </div>
+		  
+		  <div class="row">
+			  <h4>Selection committee metrics</h4>
+		  </div>
+		  
+		  <div class="row">
+			  
+			  <div class="rating col-sm-2">
+				  <h5>RPI</h5>
+				  <p class="rating-number" id="ncaa-rating">50</p>
+			  </div>
+			  
+			  <div class="rating col-sm-2">
+				  <h5>SOR</h5>
+				  <p class="rating-number" id="espn-sor">50</p>
+			  </div> 
+			  
+			   <div class="rating col-sm-2">
+				  <h5>KENPOM</h5>
+				  <p class="rating-number" id="kenpom-rating">50</p>
+			  </div>
+			  
+			   <div class="rating col-sm-2">
+				  <h5>KPI</h5>
+				  <p class="rating-number" id="trank-kpi">50</p>
+			  </div>
+			  
+			   <div class="rating col-sm-2">
+				  <h5>BPI</h5>
+				  <p class="rating-number" id="espn-rating">50</p>
+			  </div>  	
+			    	
+			  
+			  
+			  
 		  </div>
 
   	</div>
@@ -80,88 +139,26 @@
 		  
 		  <div class="row">
 			  
-		  <div class="col-sm-12">
+		  <div class="col-sm-8">
 			  
-	    
-	    	<table class="table">
-		    	<thead>
-			    	<tr>
-				    	<th>Service</th>
-				    	<th class="r">Current rating</th>
-			    	</tr>
-		    	</thead>
-		    	
-		    	<tbody>
-			    	<tr><td>NCAA RPI</td><td id="ncaa-rating" class="r"></td></tr>
-			    	<tr><td>ESPN SOR</td><td id="espn-sor" class="r"></td></tr>
-			    	<tr><td>Kenpom</td><td id="kenpom-rating" class="r"></td></tr>
-			    	<tr><td>KPI</td><td id="trank-kpi" class="r"></td></tr>
-			    	<tr><td>ESPN BPI</td><td id="espn-rating" class="r"></td></tr>
-			    	<tr><td>Massey Composite</td><td id="massey-comp" class="r"></td></tr>
-			    	<tr><td>T-Rank</td><td id="trank-trank" class="r"></td></tr>
-			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating" class="r"></td></tr>
-			    	<tr><td>Sagarin</td><td id="trank-sagarin" class="r"></td></tr>
-			    	<tr><td>LRMC</td><td id="lrmc-rank" class="r"></td></tr>
-		    	</tbody>
-	    	</table>
-	    	
-	    	<br /><br />
-	    	
-	    	<h4>RPI details</h4>
-			<div class="table-responsive">
-			<table class="table">
-				<thead>
-					<tr>
-						<th>Live RPI</th>
-						<th>SOS</th>
-						<th class="r">Group 1</th>
-						<th class="r">Group 2</th>
-						<th class="r">Group 3</th>
-						<th class="r">Group 4</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td id="warrennolan-rpi"></td>
-						<td id="warrennolan-sos2"></td>
-						<td id="warrennolan-group1" class="r"></td>
-						<td id="warrennolan-group2" class="r"></td>
-						<td id="warrennolan-group3" class="r"></td>
-						<td id="warrennolan-group4" class="r"></td>
-					</tr>
-				</tbody>
-			</table>	
+	    	    	
+		    	<h4>RPI details</h4>
+		
+						<p>Group 1</p>
+						<p class="group-record" id="warrennolan-group1"></p>
+						<p>Group 2</p>
+						<p class="group-record" id="warrennolan-group2"></p>
+						<p>Group 3</p>
+						<p class="group-record" id="warrennolan-group3"></p>
+						<p>Group 4</p>
+						<p class="group-record" id="warrennolan-group4"></p>
+						
 			</div>				
 			
 			
-			<br /><br />
-
-<!--
-	    	
-	    	<h4>Projections <span class="small text-muted">(Current: <span id="trank-current-wl"></span>, <span id="trank-current-cwl"></span> Big Ten)</h4>
-	    	<table class="table">
-		    	<thead>
-			    	<tr>
-				    	<th>Service</th>
-						<th class="r">Projected W-L</th>
-			    	</tr>
-		    	</thead>
-		    	<tbody>
-			    	<tr><td>ESPN</td><td class="r"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td></tr>
-			    	<tr><td>Kenpom</td><td class="r">22-9 (13-5)</td></tr>
-				    <tr><td>TeamRankings.com</td><td id="teamrankings_wl" class="r"></td></tr>
-				    <tr><td>Warren Nolan</td><td class="r"><span id="warrennolan-wl"></span> <span id="warrennolan-cwl")></span></td></tr>
-				    <tr><td>T-Rank</td><td id="trank-proj" class="r"></td></tr>
-				</tbody>
-			</table>
-			
-			<br /><br />
-			
--->			
-			
-			
-			<h4>Other notables</h4>
-			<table class="table">
+			<div class="col-sm-4">
+				
+				<table class="table">
 				<tbody>
 					<tr>
 						<td>Bracket Project: How many brackets have NU?</td>
@@ -174,29 +171,30 @@
 				
 				</tbody>
 			</table>
+
+				
+			</div>
 			
-			<br /><br />
-			
-		<!--	<h4>Upcoming bubble games</h4>
-			<table class="table">
-				<tbody id="todays-games">
-				</tbody>
-			</table>
-		-->	
-	    	
-	    </div>
-  	</div>
-  	
-  		<br /><br /><br />
-  		<p class="small text-muted">Last update: <span id="time">March 11, 9:45 p.m.</span>
+		  </div><!-- row --> 
+
+
+		
+		<div class="row">
+		<br /><br /><br />	
+		  	
+  		<p class="small fira white"><b>Last update</b>: <span id="time">March 11, 9:45 p.m.</span> * Updated every 60 minutes *
 	  		
-  		<br />Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a>
+  		<br /><b>Details</b>: <a href="http://github.com/bvankat/nebrasketball">Github</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a>
   		
-  		<br />Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN 1</a>, <a href="http://www.espn.com/mens-college-basketball/bracketology">ESPN 2</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="http://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-rpi">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2018/rpi-live">Warren Nolan</a>, <a href="http://barttorvik.com/team.php?team=Nebraska">T-Rank</a>, <a href="http://www.kpisports.net/d-i_mbb/2018kpi-d1mbb/">KPI</a>, <a href="http://sagarin.com/sports/cbsend.htm">Sagarin</a>, <a href="https://www2.isye.gatech.edu/~jsokol/lrmc/">LRMC</a>, <a href="http://bracketmatrix.com">Bracket Project</a>, <a href="https://www.masseyratings.com/cb/compare.htm">Massey Ratings</a>, <a href="https://www.cbssports.com/college-basketball/bracketology/">CBS Sports</a>
+  		<br /><b>Sources</b>: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN 1</a>, <a href="http://www.espn.com/mens-college-basketball/bracketology">ESPN 2</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="http://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-rpi">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2018/rpi-live">Warren Nolan</a>, <a href="http://barttorvik.com/team.php?team=Nebraska">T-Rank</a>, <a href="http://www.kpisports.net/d-i_mbb/2018kpi-d1mbb/">KPI</a>, <a href="http://sagarin.com/sports/cbsend.htm">Sagarin</a>, <a href="https://www2.isye.gatech.edu/~jsokol/lrmc/">LRMC</a>, <a href="http://bracketmatrix.com">Bracket Project</a>, <a href="https://www.masseyratings.com/cb/compare.htm">Massey Ratings</a>, <a href="https://www.cbssports.com/college-basketball/bracketology/">CBS Sports</a>
   		
-  		<br />Calculations help: <a href="https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/">1</a>, <a href="http://thesportsdaily.com/ncaa/analyzing-the-rpi-for-at-large-teams-2/">2</a>, <a href="http://www.kpisports.net/2017/03/14/comparing-advanced-metrics-to-ncaa-1-68-seed-list-2017-edition/">3</a></p>
+  		<br /><b>Calculations help</b>: <a href="https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/">1</a>, <a href="http://thesportsdaily.com/ncaa/analyzing-the-rpi-for-at-large-teams-2/">2</a>, <a href="http://www.kpisports.net/2017/03/14/comparing-advanced-metrics-to-ncaa-1-68-seed-list-2017-edition/">3</a>
+  		
+  		<br /><b>Shout out</b>: <a href="http://brianhelge.com">Brian H.</a></p>
   	
-  	</div>
+  	</div><!-- row -->
+  	
+  </div><!-- container -->
   	
   	</body>
  
