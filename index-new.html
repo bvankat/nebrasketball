@@ -44,12 +44,19 @@
 	    .red { color: #c10000; }
 	    div.white { background: #fff url(white-grunge.png) bottom left; padding: 3em; }
 	    p.white { color: #fff; }
+	    
+	    .group-record { font-family: "korolev-condensed", sans-serif; font-weight: bold; color: #fff; font-size: 3em; line-height: 100%; border-bottom: 1px solid #000; margin: 15px 0 50px 0; padding: 0 0 -20px 0; }
+	    .group-name { font-family: "korolev-condensed", sans-serif; font-size: 3em; margin: 0; padding: 0; line-height: 100%; }
 	    .paint { margin: -250px 0 0 -60px; z-index: 0; }
 	    th { text-align: left; }
 	    .r { text-align: right; }
 	    .alert { margin-bottom: 0; }
 	    .player { width: 500px; float: left; margin-left: 50px; top: -50;}
+	    
 	    .fira { font-family: "fira-mono", monospace; }
+	    .korolev { font-family: "korolev-condensed", sans-serif; }
+	    
+	    .footer a { color: inherit; text-decoration: underline; }
 	    
 	</style>
 
@@ -71,11 +78,9 @@
 	  
 	  	<div class="white">
   		<div class="container">
-	  			  <div class="col-sm-8">
-		  			  <h2><b>Nebraska basketball</b><br />NCAA tournament odds</h2>
-		  		 <div class="col-sm-4">
-		  			  <img src="palmer.png" class="player" />
-		  		 </div>
+	  			  <h2><b>Nebraska basketball</b><br />NCAA tournament odds</h2>
+	  			  <img src="palmer.png" class="player" />
+	  			  
   		</div>
 	  	</div>
 
@@ -142,16 +147,16 @@
 		  <div class="col-sm-8">
 			  
 	    	    	
-		    	<h4>RPI details</h4>
+		    	<h4><b>RPI details</b></h4>
 		
-						<p>Group 1</p>
-						<p class="group-record" id="warrennolan-group1"></p>
-						<p>Group 2</p>
-						<p class="group-record" id="warrennolan-group2"></p>
-						<p>Group 3</p>
-						<p class="group-record" id="warrennolan-group3"></p>
-						<p>Group 4</p>
-						<p class="group-record" id="warrennolan-group4"></p>
+						<p class="group-name">GROUP 1</p>
+						<p class="group-record" id="warrennolan-group1">10-0</p>
+						<p class="group-name">GROUP 2</p>
+						<p class="group-record" id="warrennolan-group2">10-0</p>
+						<p class="group-name">GROUP 3</p>
+						<p class="group-record" id="warrennolan-group3">10-0</p>
+						<p class="group-name">GROUP 4</p>
+						<p class="group-record" id="warrennolan-group4">10-0</p>
 						
 			</div>				
 			
@@ -179,7 +184,7 @@
 
 
 		
-		<div class="row">
+		<div class="row footer">
 		<br /><br /><br />	
 		  	
   		<p class="small fira white"><b>Last update</b>: <span id="time">March 11, 9:45 p.m.</span> * Updated every 60 minutes *
