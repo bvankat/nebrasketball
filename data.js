@@ -4,6 +4,7 @@
     },
     "espn": {
         "bpi": "40",
+        "chance_sweet_16": "18.4%",
         "proj_tourney_seed": "14",
         "proj_win_loss_conf": "10.3-9.7",
         "proj_win_loss_overall": "18.6-11.4",
@@ -23,15 +24,15 @@
         "rpi_rank": "54"
     },
     "teamrankings": {
-        "make_tournament": "88.0%",
-        "most_likely_seed": "#2 (18.3%)",
-        "projected_losses": "6.9",
-        "projected_wins": "22.1",
+        "make_tournament": "92.1%",
+        "most_likely_seed": "#2 (16.5%)",
+        "projected_losses": "6.8",
+        "projected_wins": "23.2",
         "rank": "4",
         "sos": "104"
     },
     "time": {
-        "time": "Nov 20,  2:46 AM"
+        "time": "Nov 20,  3:30 AM"
     },
     "trank": {
         "trank": "16"
