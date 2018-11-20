@@ -23,7 +23,7 @@
         "rank": "6"
     },
     "time": {
-        "time": "Nov 20,  1:44 AM"
+        "time": "Nov 20,  2:00 AM"
     },
     "warrennolan": {
         "cwl": "(0-0)",
