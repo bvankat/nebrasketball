@@ -98,13 +98,13 @@
 			    	<tr><td>T-Rank</td><td id="trank-trank" class="r"></td></tr>
 			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating" class="r"></td></tr>
 			    	<tr><td>Sagarin</td><td id="trank-sagarin" class="r"></td></tr>
-			    	<tr><td>LRMC</td><td id="lrmc-rank" class="r"></td></tr>
+			    	<!-- <tr><td>LRMC</td><td id="lrmc-rank" class="r"></td></tr> -->
 		    	</tbody>
 	    	</table>
 	    	
 	    	<br /><br />
 	    	
-	    	<h4>RPI details</h4>
+	    	<h4>RPI details<span class="small text-muted">We'll use this until NCAA tells us how to calculate the new NET rating)</span></h4>
 			<div class="table-responsive">
 			<table class="table">
 				<thead>
@@ -237,9 +237,9 @@
 			$('#warrennolan-cwl').text(json.warrennolan.cwl);
 			
 			$('#trank-proj').text(json.trank.proj);
-			$('#trank-sagarin').text(json.trank.sagarin);
-			$('#trank-trank').text(json.trank.trank);
-			$('#trank-kpi').text(json.trank.kpi);
+			// $('#trank-sagarin').text(json.trank.sagarin);
+			// $('#trank-trank').text(json.trank.trank);
+			// $('#trank-kpi').text(json.trank.kpi);
 			$('#trank-current-wl').text(json.trank.current_wl);
 			$('#trank-current-cwl').text(json.trank.current_cwl);
 
@@ -292,13 +292,16 @@
 			 espn_sor = FindScore(parseInt(json.espn.sor)); // SOR is stronger predictor than BPI
 			 espn_bpi = FindScore(parseInt(json.espn.bpi)); 
 			 teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
-			 sagarin_score = FindScore(json.trank.sagarin);
-			 trank_score = FindScore(json.trank.trank);
-			 kpi_score = FindScore(json.trank.kpi);
+			 // sagarin_score = FindScore(json.trank.sagarin);
+			 // trank_score = FindScore(json.trank.trank);
+			 // kpi_score = FindScore(json.trank.kpi);
 			 // lrmc_score = FindScore(json.lrmc.rank);
 			 massey_score = FindScore(json.massey.composite);
 			 
-			 total_score = ((kenpom_score*.14) + (ncaa_score*.18) + (espn_sor*.15) + (espn_bpi*.10) + (teamrankings_score*.06) + (sagarin_score*.04) + (trank_score*.08) + (kpi_score*.13) + (lrmc_score * .03) + (massey_score * .09));
+			 total_score = ((kenpom_score*.14) + (ncaa_score*.18) + (espn_sor*.15) + (espn_bpi*.10) + (teamrankings_score*.06) + (sagarin_score*.04) + (trank_score*.08) + (kpi_score*.13) + (massey_score * .12));
+
+			 // Adjustments until all scores are being calculated. Once that happens, use the above formula
+			 total_score = ((kenpom_score*.19) + (ncaa_score*.23) + (espn_sor*.20) + (espn_bpi*.13) + (teamrankings_score*.06) + (trank_score*.08) + (massey_score * .12));
 			 
 			 
 			 
