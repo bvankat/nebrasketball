@@ -3,14 +3,14 @@
         "matrix_count": "40"
     },
     "espn": {
-        "bpi": "40",
-        "chance_sweet_16": "18.4%",
-        "proj_tourney_seed": "14",
-        "proj_win_loss_conf": "10.3-9.7",
-        "proj_win_loss_overall": "18.6-11.4",
-        "seven_day_change": "0",
-        "sor": "55",
-        "sos": "302"
+        "bpi": "31",
+        "chance_sweet_16": "24.3%",
+        "proj_tourney_seed": "9",
+        "proj_win_loss_conf": "10.7-9.3",
+        "proj_win_loss_overall": "19.8-11.2",
+        "seven_day_change": "9",
+        "sor": "34",
+        "sos": "298"
     },
     "kenpom": {
         "rating": "23",
@@ -19,23 +19,19 @@
     "massey": {
         "composite": "15"
     },
-    "ncaa": {
-        "previous_rpi_rank": "56",
-        "rpi_rank": "54"
-    },
     "teamrankings": {
-        "make_tournament": "92.1%",
-        "most_likely_seed": "#2 (16.5%)",
+        "make_tournament": "91.8%",
+        "most_likely_seed": "#2 (16.3%)",
         "projected_losses": "6.8",
         "projected_wins": "23.2",
         "rank": "4",
         "sos": "104"
     },
     "time": {
-        "time": "Nov 20,  3:30 AM"
+        "time": "Nov 20,  9:33 AM"
     },
     "trank": {
-        "trank": "16"
+        "trank": "15"
     },
     "warrennolan": {
         "cwl": "(0-0)",
