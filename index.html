@@ -64,7 +64,7 @@
 		  	  
 		  		<div id="chart_div" style="width: 350px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
-		  		<h4 class="col-sm-12 text-center">Status: <span id="message">A 5% chance to win the national championship, you say? Oh.</span></h4>
+		  		<h4 class="col-sm-12 text-center">Status: <span id="message"></span></h4>
 		  		
 
     
@@ -293,15 +293,16 @@
 			 espn_bpi = FindScore(parseInt(json.espn.bpi)); 
 			 teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
 			 // sagarin_score = FindScore(json.trank.sagarin);
-			 // trank_score = FindScore(json.trank.trank);
+			 trank_score = FindScore(json.trank.trank);
 			 // kpi_score = FindScore(json.trank.kpi);
 			 // lrmc_score = FindScore(json.lrmc.rank);
 			 massey_score = FindScore(json.massey.composite);
 			 
-			 total_score = ((kenpom_score*.14) + (ncaa_score*.18) + (espn_sor*.15) + (espn_bpi*.10) + (teamrankings_score*.06) + (sagarin_score*.04) + (trank_score*.08) + (kpi_score*.13) + (massey_score * .12));
+			 //Here's last year's formula, multipliers should add to 1.0
+			 //total_score = ((kenpom_score*.14) + (ncaa_score*.18) + (espn_sor*.15) + (espn_bpi*.10) + (teamrankings_score*.06) + (sagarin_score*.04) + (trank_score*.08) + (kpi_score*.13) + (massey_score * .12));
 
 			 // Adjustments until all scores are being calculated. Once that happens, use the above formula
-			 total_score = ((kenpom_score*.19) + (ncaa_score*.23) + (espn_sor*.20) + (espn_bpi*.13) + (teamrankings_score*.06) + (trank_score*.08) + (massey_score * .12));
+			 total_score = ((kenpom_score*.19) + (ncaa_score*.19) + (espn_sor*.20) + (espn_bpi*.13) + (teamrankings_score*.06) + (trank_score*.12) + (massey_score * .11));
 			 
 			 
 			 
