@@ -2,6 +2,9 @@
     "bracketproject": {
         "matrix_count": "40"
     },
+    "cbs": {
+        "cbs_rank": "8"
+    },
     "espn": {
         "bpi": "31",
         "chance_sweet_16": "24.3%",
@@ -28,7 +31,7 @@
         "sos": "104"
     },
     "time": {
-        "time": "Nov 20, 10:01 AM"
+        "time": "Nov 20, 10:11 AM"
     },
     "trank": {
         "trank": "15"
@@ -40,7 +43,7 @@
         "group3": "2-0",
         "group4": "2-0",
         "rpi": "43",
-        "sos": "128",
+        "sos": "127",
         "wl": "4-0"
     }
 }
