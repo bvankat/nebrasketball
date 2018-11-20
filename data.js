@@ -27,11 +27,14 @@
         "most_likely_seed": "#2 (18.3%)",
         "projected_losses": "6.9",
         "projected_wins": "22.1",
-        "rank": "6",
-        "sos": "114"
+        "rank": "4",
+        "sos": "104"
     },
     "time": {
-        "time": "Nov 20,  2:26 AM"
+        "time": "Nov 20,  2:46 AM"
+    },
+    "trank": {
+        "trank": "16"
     },
     "warrennolan": {
         "cwl": "(0-0)",
