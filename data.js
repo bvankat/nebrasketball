@@ -15,15 +15,23 @@
         "rating": "23",
         "sos": "302"
     },
+    "massey": {
+        "composite": "15"
+    },
+    "ncaa": {
+        "previous_rpi_rank": "56",
+        "rpi_rank": "54"
+    },
     "teamrankings": {
         "make_tournament": "88.0%",
         "most_likely_seed": "#2 (18.3%)",
         "projected_losses": "6.9",
         "projected_wins": "22.1",
-        "rank": "6"
+        "rank": "6",
+        "sos": "114"
     },
     "time": {
-        "time": "Nov 20,  2:00 AM"
+        "time": "Nov 20,  2:26 AM"
     },
     "warrennolan": {
         "cwl": "(0-0)",
