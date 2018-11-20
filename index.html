@@ -64,7 +64,7 @@
 		  	  
 		  		<div id="chart_div" style="width: 350px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
-		  		<h4 class="col-sm-12 text-center">Status: <span id="message">A 5-seed in the NIT, you say? Oh.</span></h4>
+		  		<h4 class="col-sm-12 text-center">Status: <span id="message">A 5% chance to win the national championship, you say? Oh.</span></h4>
 		  		
 
     
@@ -133,7 +133,7 @@
 			
 			<br /><br />
 
-<!--
+
 	    	
 	    	<h4>Projections <span class="small text-muted">(Current: <span id="trank-current-wl"></span>, <span id="trank-current-cwl"></span> Big Ten)</h4>
 	    	<table class="table">
@@ -154,7 +154,7 @@
 			
 			<br /><br />
 			
--->			
+		
 			
 			
 			<h4>Other notables</h4>
@@ -162,11 +162,11 @@
 				<tbody>
 					<tr>
 						<td>Bracket Project: How many brackets have NU?</td>
-						<td class="r"><span id="bracketproject-count"></span>/84</td>
+						<td class="r"><span id="bracketproject-count"></span>/48</td>
 					</tr>
 					<tr>
 						<td>ESPN Joe Lunardi: Where's NU?</td>
-						<td class="r">(Unlisted)</td>
+						<td class="r">8-seed</td>
 					</tr>
 				
 				</tbody>
@@ -191,7 +191,8 @@
   		
   		<br />Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN 1</a>, <a href="http://www.espn.com/mens-college-basketball/bracketology">ESPN 2</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="http://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-rpi">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2018/rpi-live">Warren Nolan</a>, <a href="http://barttorvik.com/team.php?team=Nebraska">T-Rank</a>, <a href="http://www.kpisports.net/d-i_mbb/2018kpi-d1mbb/">KPI</a>, <a href="http://sagarin.com/sports/cbsend.htm">Sagarin</a>, <a href="https://www2.isye.gatech.edu/~jsokol/lrmc/">LRMC</a>, <a href="http://bracketmatrix.com">Bracket Project</a>, <a href="https://www.masseyratings.com/cb/compare.htm">Massey Ratings</a>, <a href="https://www.cbssports.com/college-basketball/bracketology/">CBS Sports</a>
   		
-  		<br />Calculations help: <a href="https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/">1</a>, <a href="http://thesportsdaily.com/ncaa/analyzing-the-rpi-for-at-large-teams-2/">2</a>, <a href="http://www.kpisports.net/2017/03/14/comparing-advanced-metrics-to-ncaa-1-68-seed-list-2017-edition/">3</a></p>
+  		<br />Calculations help: <a href="https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/">1</a>, <a href="http://thesportsdaily.com/ncaa/analyzing-the-rpi-for-at-large-teams-2/">2</a>, <a href="http://www.kpisports.net/2017/03/14/comparing-advanced-metrics-to-ncaa-1-68-seed-list-2017-edition/">3</a>
+  		<br />Shout out: <a href="http://brianhelge.com">Brian H.</a></p>
   	
   	</div>
   	
@@ -242,7 +243,7 @@
 			$('#trank-current-wl').text(json.trank.current_wl);
 			$('#trank-current-cwl').text(json.trank.current_cwl);
 
-			$('#lrmc-rank').text(json.lrmc.rank);
+			// $('#lrmc-rank').text(json.lrmc.rank);
 			
 			$('#bracketproject-count').text(json.bracketproject.matrix_count);
 			
@@ -294,7 +295,7 @@
 			 sagarin_score = FindScore(json.trank.sagarin);
 			 trank_score = FindScore(json.trank.trank);
 			 kpi_score = FindScore(json.trank.kpi);
-			 lrmc_score = FindScore(json.lrmc.rank);
+			 // lrmc_score = FindScore(json.lrmc.rank);
 			 massey_score = FindScore(json.massey.composite);
 			 
 			 total_score = ((kenpom_score*.14) + (ncaa_score*.18) + (espn_sor*.15) + (espn_bpi*.10) + (teamrankings_score*.06) + (sagarin_score*.04) + (trank_score*.08) + (kpi_score*.13) + (lrmc_score * .03) + (massey_score * .09));
@@ -330,7 +331,7 @@
 			 console.log("T-Rank score: " + trank_score + "    (8%)");
 			 console.log("TeamRankings score: " + teamrankings_score + "    (6%)");
 			 console.log("Sagarin score: " + sagarin_score + "    (4%)");
-			 console.log("LRMC score: " + lrmc_score + "    (3%)");
+			// console.log("LRMC score: " + lrmc_score + "    (3%)");
 			 console.log("Total score: " + total_score);
 
 			});		
