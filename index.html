@@ -104,7 +104,7 @@
 	    	
 	    	<br /><br />
 	    	
-	    	<h4>RPI details<span class="small text-muted">We'll use this until NCAA tells us how to calculate the new NET rating)</span></h4>
+	    	<h4>RPI details<span class="small text-muted">&emsp; (We'll use this until NCAA tells us how to calculate the new NET rating)</span></h4>
 			<div class="table-responsive">
 			<table class="table">
 				<thead>
@@ -145,7 +145,7 @@
 		    	</thead>
 		    	<tbody>
 			    	<tr><td>ESPN</td><td class="r"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td></tr>
-			    	<tr><td>Kenpom</td><td class="r">22-9 (13-5)</td></tr>
+			    	<tr><td>Kenpom</td><td class="r">20-11 (11-9)</td></tr>
 				    <tr><td>TeamRankings.com</td><td id="teamrankings_wl" class="r"></td></tr>
 				    <tr><td>Warren Nolan</td><td class="r"><span id="warrennolan-wl"></span> <span id="warrennolan-cwl")></span></td></tr>
 				    <tr><td>T-Rank</td><td id="trank-proj" class="r"></td></tr>
@@ -167,6 +167,10 @@
 					<tr>
 						<td>ESPN Joe Lunardi: Where's NU?</td>
 						<td class="r">8-seed</td>
+					</tr>
+					<tr>
+						<td>ESPN Sweet 16 chances</td>
+						<td class="r"><span id="espn-sweet16"></span></td>
 					</tr>
 				
 				</tbody>
@@ -223,6 +227,7 @@
 			$('#espn-wl').text(json.espn.proj_win_loss_overall);
 			$('#espn-cwl').text(json.espn.proj_win_loss_conf);
 			$('#espn-sor').text(json.espn.sor);
+			$('#espn-sweet16').text(json.espn.chance_sweet_16);
 			
 			$('#teamrankings-make-tourney').text(json.teamrankings.make_tournament);
 			$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
@@ -238,7 +243,7 @@
 			
 			$('#trank-proj').text(json.trank.proj);
 			// $('#trank-sagarin').text(json.trank.sagarin);
-			// $('#trank-trank').text(json.trank.trank);
+			$('#trank-trank').text(json.trank.trank);
 			// $('#trank-kpi').text(json.trank.kpi);
 			$('#trank-current-wl').text(json.trank.current_wl);
 			$('#trank-current-cwl').text(json.trank.current_cwl);
