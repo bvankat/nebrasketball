@@ -27,11 +27,11 @@
         "most_likely_seed": "#2 (16.3%)",
         "projected_losses": "6.8",
         "projected_wins": "23.2",
-        "rank": "4",
-        "sos": "104"
+        "rank": "10",
+        "sos": "30"
     },
     "time": {
-        "time": "Nov 21,  2:41 AM"
+        "time": "Nov 21,  3:03 AM"
     },
     "trank": {
         "trank": "23"
