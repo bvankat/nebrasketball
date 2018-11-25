@@ -17,7 +17,7 @@
     },
     "kenpom": {
         "rating": "31",
-        "sos": "295"
+        "sos": "296"
     },
     "massey": {
         "composite": "15"
@@ -31,10 +31,10 @@
         "sos": "30"
     },
     "time": {
-        "time": "Nov 24, 10:41 PM"
+        "time": "Nov 24, 11:41 PM"
     },
     "trank": {
-        "trank": "18"
+        "trank": "17"
     },
     "warrennolan": {
         "cwl": "(0-0)",
@@ -42,7 +42,7 @@
         "group2": "0-0",
         "group3": "1-0",
         "group4": "4-0",
-        "rpi": "95",
+        "rpi": "97",
         "sos": "185",
         "wl": "5-1"
     }
