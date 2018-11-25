@@ -23,15 +23,15 @@
         "composite": "15"
     },
     "teamrankings": {
-        "make_tournament": "77.5%",
-        "most_likely_seed": "#5 (9.2%)",
+        "make_tournament": "77.1%",
+        "most_likely_seed": "#5 (9.0%)",
         "projected_losses": "9.2",
         "projected_wins": "20.8",
         "rank": "12",
         "sos": "43"
     },
     "time": {
-        "time": "Nov 25,  4:33 AM"
+        "time": "Nov 25,  4:37 AM"
     },
     "trank": {
         "trank": "17"
