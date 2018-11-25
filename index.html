@@ -177,7 +177,7 @@
 		    	</thead>
 		    	<tbody>
 			    	<tr><td>ESPN</td><td class="r"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td></tr>
-			    	<tr><td>Kenpom</td><td class="r">20-11 (11-9)</td></tr>
+			    	<tr><td>Kenpom</td><td class="r">19-12 (10-10)</td></tr>
 				    <tr><td>TeamRankings.com</td><td id="teamrankings_wl" class="r"></td></tr>
 				    <!-- <tr><td>Warren Nolan</td><td class="r"><span id="warrennolan-wl"></span> <span id="warrennolan-cwl")></span></td></tr> -->
 				    <tr><td>T-Rank</td><td id="trank-proj" class="r"></td></tr>
@@ -252,7 +252,7 @@
 			$('#warrennolan-cwl').text(json.warrennolan.cwl);
 			
 			$('#trank-proj').text(json.trank.proj);
-			$('#sagarin').text(json.sagarin.rating);
+			$('#sagarin').text(json.sagarin.sagarin_rate);
 			$('#trank-trank').text(json.trank.trank);
 			// $('#trank-kpi').text(json.trank.kpi);
 			$('#trank-current-wl').text(json.trank.current_wl);
@@ -308,7 +308,7 @@
 			 espn_sor = FindScore(parseInt(json.espn.sor)); // SOR is stronger predictor than BPI
 			 espn_bpi = FindScore(parseInt(json.espn.bpi)); 
 			 teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
-			 sagarin_score = FindScore(json.sagarin.rating);
+			 sagarin_score = FindScore(json.sagarin.sagarin_rate);
 			 trank_score = FindScore(json.trank.trank);
 			 // kpi_score = FindScore(json.trank.kpi);
 			 // lrmc_score = FindScore(json.lrmc.rank);
@@ -318,7 +318,7 @@
 			 //total_score = ((kenpom_score*.14) + (ncaa_score*.18) + (espn_sor*.15) + (espn_bpi*.10) + (teamrankings_score*.06) + (sagarin_score*.04) + (trank_score*.08) + (kpi_score*.13) + (massey_score * .12));
 
 			 // Adjustments until all scores are being calculated. Once that happens, use the above formula
-			 total_score = ((kenpom_score*.19) + (ncaa_score*.19) + (espn_sor*.17) + (espn_bpi*.16) + (teamrankings_score*.06) + (trank_score*.12) + (massey_score * .6) + (sagarin_score * .5);
+			 total_score = ((kenpom_score*.19) + (ncaa_score*.19) + (espn_sor*.17) + (espn_bpi*.16) + (teamrankings_score*.06) + (trank_score*.12) + (massey_score * .6) + (sagarin_score * .5));
 			 
 			 
 			 
