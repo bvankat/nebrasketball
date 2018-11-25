@@ -31,7 +31,7 @@
         "sos": "30"
     },
     "time": {
-        "time": "Nov 25, 12:41 AM"
+        "time": "Nov 25,  1:41 AM"
     },
     "trank": {
         "trank": "17"
