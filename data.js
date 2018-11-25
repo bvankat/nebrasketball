@@ -6,14 +6,14 @@
         "cbs_rank": "8"
     },
     "espn": {
-        "bpi": "35",
-        "chance_sweet_16": "20.8%",
+        "bpi": "32",
+        "chance_sweet_16": "22.0%",
         "proj_tourney_seed": "",
-        "proj_win_loss_conf": "10.4-9.6",
-        "proj_win_loss_overall": "19.0-12.0",
-        "seven_day_change": "6",
-        "sor": "70",
-        "sos": "216"
+        "proj_win_loss_conf": "10.8-9.2",
+        "proj_win_loss_overall": "19.4-11.6",
+        "seven_day_change": "9",
+        "sor": "65",
+        "sos": "250"
     },
     "kenpom": {
         "rating": "31",
@@ -23,7 +23,7 @@
         "composite": "15"
     },
     "sagarin": {
-        "rating": "31"
+        "sagarin_rate": "6"
     },
     "teamrankings": {
         "make_tournament": "77.1%",
@@ -34,7 +34,7 @@
         "sos": "43"
     },
     "time": {
-        "time": "Nov 25,  4:51 AM"
+        "time": "Nov 25,  4:57 AM"
     },
     "trank": {
         "trank": "17"
