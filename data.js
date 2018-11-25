@@ -17,7 +17,7 @@
     },
     "kenpom": {
         "rating": "31",
-        "sos": "296"
+        "sos": "295"
     },
     "massey": {
         "composite": "15"
@@ -31,7 +31,7 @@
         "sos": "30"
     },
     "time": {
-        "time": "Nov 24, 11:41 PM"
+        "time": "Nov 25, 12:41 AM"
     },
     "trank": {
         "trank": "17"
