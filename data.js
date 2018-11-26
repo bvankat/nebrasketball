@@ -34,7 +34,7 @@
         "sos": "43"
     },
     "time": {
-        "time": "Nov 25, 10:44 PM"
+        "time": "Nov 25, 11:41 PM"
     },
     "trank": {
         "trank": "16"
@@ -42,11 +42,11 @@
     "warrennolan": {
         "cwl": "(0-0)",
         "group1": "0-1",
-        "group2": "0-0",
-        "group3": "2-0",
+        "group2": "1-0",
+        "group3": "1-0",
         "group4": "3-0",
-        "rpi": "107",
-        "sos": "201",
+        "rpi": "100",
+        "sos": "184",
         "wl": "5-1"
     }
 }
