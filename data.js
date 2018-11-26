@@ -7,13 +7,13 @@
     },
     "espn": {
         "bpi": "32",
-        "chance_sweet_16": "22.0%",
+        "chance_sweet_16": "23.6%",
         "proj_tourney_seed": "",
-        "proj_win_loss_conf": "10.8-9.2",
-        "proj_win_loss_overall": "19.4-11.6",
-        "seven_day_change": "9",
-        "sor": "65",
-        "sos": "250"
+        "proj_win_loss_conf": "10.9-9.1",
+        "proj_win_loss_overall": "19.5-11.5",
+        "seven_day_change": "8",
+        "sor": "63",
+        "sos": "249"
     },
     "kenpom": {
         "rating": "31",
@@ -34,7 +34,7 @@
         "sos": "40"
     },
     "time": {
-        "time": "Nov 26,  9:27 AM"
+        "time": "Nov 26,  1:40 PM"
     },
     "trank": {
         "trank": "16"
