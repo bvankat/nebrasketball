@@ -20,13 +20,13 @@
         "sos": "293"
     },
     "massey": {
-        "composite": "15"
+        "composite": "16"
     },
     "sagarin": {
-        "sagarin_rate": "11"
+        "sagarin_rate": "10"
     },
     "teamrankings": {
-        "make_tournament": "79.3%",
+        "make_tournament": "79.0%",
         "most_likely_seed": "#5 (9.4%)",
         "projected_losses": "9.1",
         "projected_wins": "20.9",
@@ -34,7 +34,7 @@
         "sos": "40"
     },
     "time": {
-        "time": "Nov 26,  3:41 AM"
+        "time": "Nov 26,  9:27 AM"
     },
     "trank": {
         "trank": "16"
