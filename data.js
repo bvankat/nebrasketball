@@ -38,11 +38,12 @@
         "sos": "40"
     },
     "time": {
-        "time": "Nov 26, 11:41 PM"
+        "time": "Nov 26, 11:44 PM"
     },
     "trank": {
         "current_record": "6-1",
-        "trank": "16"
+        "trank": "16",
+        "trank_proj_record": "21-10 (12-8)"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
