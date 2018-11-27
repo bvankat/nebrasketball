@@ -16,11 +16,14 @@
         "sos": "249"
     },
     "kenpom": {
-        "rating": "31",
-        "sos": "293"
+        "rating": "25",
+        "sos": "192"
     },
     "massey": {
         "composite": "17"
+    },
+    "ncaa": {
+        "net_rank": "14"
     },
     "sagarin": {
         "sagarin_rate": "10"
@@ -34,7 +37,7 @@
         "sos": "40"
     },
     "time": {
-        "time": "Nov 26,  8:25 PM"
+        "time": "Nov 26,  9:24 PM"
     },
     "trank": {
         "trank": "16"
@@ -43,10 +46,10 @@
         "cwl": "(0-0)",
         "group1": "0-1",
         "group2": "2-0",
-        "group3": "1-0",
-        "group4": "3-0",
-        "rpi": "55",
-        "sos": "128",
+        "group3": "0-0",
+        "group4": "4-0",
+        "rpi": "56",
+        "sos": "133",
         "wl": "6-1"
     }
 }
