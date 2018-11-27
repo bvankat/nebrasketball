@@ -1,7 +1,7 @@
 # Nebrasketball
 Tracking tournament odds for the Nebraska basketball team
 
-- Scrapes a few data sources for RPI and record projections. (Requests, Selenium, BeautifulSoup)
+- Scrapes a few data sources for rankings and record projections. (Requests, Selenium, BeautifulSoup)
 - Pulls them into an HTML table. (.getJSON())
 - Calculates chance of making the tournament, assigns score based on each rating. (Educated guesswork)
 - Averages the scores. (Math)
