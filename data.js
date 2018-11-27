@@ -1,6 +1,7 @@
 {
     "bracketproject": {
-        "matrix_count": "40"
+        "matrix_count": "40",
+        "total_brackets": "48"
     },
     "cbs": {
         "cbs_rank": "8"
@@ -37,7 +38,7 @@
         "sos": "40"
     },
     "time": {
-        "time": "Nov 26, 11:16 PM"
+        "time": "Nov 26, 11:19 PM"
     },
     "trank": {
         "current_record": "6-1",
