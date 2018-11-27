@@ -38,7 +38,7 @@
         "sos": "14"
     },
     "time": {
-        "time": "Nov 27,  1:34 PM"
+        "time": "Nov 27,  1:41 PM"
     },
     "trank": {
         "current_record": "6-1",
