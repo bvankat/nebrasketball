@@ -20,7 +20,7 @@
         "sos": "293"
     },
     "massey": {
-        "composite": "16"
+        "composite": "17"
     },
     "sagarin": {
         "sagarin_rate": "10"
@@ -34,7 +34,7 @@
         "sos": "40"
     },
     "time": {
-        "time": "Nov 26,  2:41 PM"
+        "time": "Nov 26,  8:25 PM"
     },
     "trank": {
         "trank": "16"
@@ -42,11 +42,11 @@
     "warrennolan": {
         "cwl": "(0-0)",
         "group1": "0-1",
-        "group2": "1-0",
+        "group2": "2-0",
         "group3": "1-0",
         "group4": "3-0",
-        "rpi": "100",
-        "sos": "184",
-        "wl": "5-1"
+        "rpi": "55",
+        "sos": "128",
+        "wl": "6-1"
     }
 }
