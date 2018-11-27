@@ -166,7 +166,7 @@
 
 
 	    	
-	    	<h4>Projections <span class="small text-muted">(Current: <span id="current_record"></span>, <span id="trank-current-cwl"></span> Big Ten)</h4>
+	    	<h4>Projections <span class="small text-muted">(Current: <span id="current_record"></span>, <span id="current_conf_record"></span> Big Ten)</h4>
 	    	<table class="table">
 		    	<thead>
 			    	<tr>
@@ -251,7 +251,7 @@
 			
 			
 			$('#current_record').text(json.trank.current_record);
-//			$('#warrennolan-cwl').text(json.warrennolan.cwl);
+			$('#current_conf_record').text(json.warrennolan.current_conf_record);
 			
 			$('#trank-proj').text(json.trank.proj);
 			$('#sagarin').text(json.sagarin.sagarin_rate);
