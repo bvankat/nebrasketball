@@ -24,7 +24,7 @@
         "composite": "17"
     },
     "ncaa": {
-        "net_rank": "14"
+        "net_rank": "9"
     },
     "sagarin": {
         "sagarin_rate": "10"
@@ -38,7 +38,7 @@
         "sos": "14"
     },
     "time": {
-        "time": "Nov 27, 12:41 PM"
+        "time": "Nov 27,  1:34 PM"
     },
     "trank": {
         "current_record": "6-1",
