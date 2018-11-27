@@ -93,10 +93,10 @@
 			    	<tr><td>ESPN BPI</td><td id="espn-rating" class="r"></td></tr>
 			    	<tr><td>ESPN SOR</td><td id="espn-sor" class="r"></td></tr>
 			    	<tr><td>KPI</td><td id="trank-kpi" class="r"><span class="gray small">Not released</span></td></tr>
-			    	<tr><td>T-Rank</td><td id="trank-trank" class="r"></td></tr>
+			    	<tr><td>Sagarin</td><td id="sagarin" class="r"></td></tr>
+			    	<tr><td>Bart Torvik</td><td id="trank-trank" class="r"></td></tr>
 			    	<tr><td>Massey Composite</td><td id="massey-comp" class="r"></td></tr>
 			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating" class="r"></td></tr>
-			    	<tr><td>Sagarin</td><td id="sagarin" class="r"></td></tr>
 			    	<!-- <tr><td>LRMC</td><td id="lrmc-rank" class="r"></td></tr> -->
 		    	</tbody>
 	    	</table>
@@ -179,7 +179,7 @@
 			    	<tr><td>Kenpom</td><td class="r">20-11 (11-9)</td></tr>
 				    <tr><td>TeamRankings.com</td><td id="teamrankings_wl" class="r"></td></tr>
 				    <!-- <tr><td>Warren Nolan</td><td class="r"><span id="warrennolan-wl"></span> <span id="warrennolan-cwl")></span></td></tr> -->
-				    <tr><td>T-Rank</td><td id="trank-proj" class="r"></td></tr>
+				    <tr><td>Bart Torvik</td><td id="trank-proj" class="r"></td></tr>
 				</tbody>
 			</table>
 			
@@ -253,13 +253,11 @@
 			$('#current_record').text(json.trank.current_record);
 			$('#current_conf_record').text(json.warrennolan.current_conf_record);
 			
-			$('#trank-proj').text(json.trank.proj);
+			$('#trank-proj').text(json.trank.trank_proj_record);
 			$('#sagarin').text(json.sagarin.sagarin_rate);
 			$('#trank-trank').text(json.trank.trank);
+			
 			// $('#trank-kpi').text(json.trank.kpi);
-			$('#trank-current-wl').text(json.trank.current_wl);
-			$('#trank-current-cwl').text(json.trank.current_cwl);
-
 			// $('#lrmc-rank').text(json.lrmc.rank);
 			
 			$('#bracketproject-count').text(json.bracketproject.matrix_count);
