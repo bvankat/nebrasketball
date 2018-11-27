@@ -112,7 +112,7 @@
 				<tbody>
 					<tr>
 						<td>Bracket Project: How many brackets have NU?</td>
-						<td class="r"><span id="bracketproject-count"></span>/48</td>
+						<td class="r"><span id="bracketproject-count"></span>/<span id="bracketproject-totalbrackets"></span></td>
 					</tr>
 					<tr>
 						<td>ESPN - Joe Lunardi Bracketology</td>
@@ -263,6 +263,8 @@
 			// $('#lrmc-rank').text(json.lrmc.rank);
 			
 			$('#bracketproject-count').text(json.bracketproject.matrix_count);
+			$('#bracketproject-count').text(json.bracketproject.total_brackets);
+
 			$('#cbs-bracket').text(json.cbs.cbs_rank);
 			
 			var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
