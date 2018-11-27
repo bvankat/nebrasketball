@@ -90,6 +90,7 @@
 		    	
 		    	<tbody>
 			    	<tr><td>Kenpom</td><td id="kenpom-rating" class="r"></td></tr>
+			    	<tr><td>NCAA NET</td><td id="ncaa-net" class="r"></td></tr>
 			    	<tr><td>RPI</td><td id="ncaa-rating" class="r"></td></tr>
 			    	<tr><td>ESPN BPI</td><td id="espn-rating" class="r"></td></tr>
 			    	<tr><td>ESPN SOR</td><td id="espn-sor" class="r"></td></tr>
@@ -134,12 +135,12 @@
 	    	<br /><br />
 
 	    	
-	    	<h4>RPI details<span class="small text-muted">&emsp; (Using this until NCAA tells us how NET rating is calculated)</span></h4>
+	    	<h4>Quadrants</h4>
 			<div class="table-responsive">
 			<table class="table">
 				<thead>
 					<tr>
-						<th>Live RPI</th>
+						<th>RPI</th>
 						<th>SOS</th>
 						<th class="r">Group 1</th>
 						<th class="r">Group 2</th>
@@ -177,7 +178,7 @@
 		    	</thead>
 		    	<tbody>
 			    	<tr><td>ESPN</td><td class="r"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td></tr>
-			    	<tr><td>Kenpom</td><td class="r">19-12 (10-10)</td></tr>
+			    	<tr><td>Kenpom</td><td class="r">20-11 (11-9)</td></tr>
 				    <tr><td>TeamRankings.com</td><td id="teamrankings_wl" class="r"></td></tr>
 				    <!-- <tr><td>Warren Nolan</td><td class="r"><span id="warrennolan-wl"></span> <span id="warrennolan-cwl")></span></td></tr> -->
 				    <tr><td>T-Rank</td><td id="trank-proj" class="r"></td></tr>
@@ -224,6 +225,7 @@
 			console.log(json);
 
 			$('#kenpom-rating').text(json.kenpom.rating);
+			$('#ncaa-net').text(json.ncaa.net_rank); // Using live one rather than json.ncaa.rpi_rank for more frequent updates
 			$('#ncaa-rating').text(json.warrennolan.rpi); // Using live one rather than json.ncaa.rpi_rank for more frequent updates
 			$('#espn-rating').text(json.espn.bpi);
 			$('#teamrankings-rating').text(json.teamrankings.rank);
@@ -304,6 +306,7 @@
 
 			 
 			 kenpom_score = FindScore(json.kenpom.rating);
+			 net_score = FindScore(json.ncaa.net_rank);
 			 ncaa_score = FindScore(json.warrennolan.rpi); // Using live one rather than json.ncaa.rpi_rank for more frequent updates
 			 espn_sor = FindScore(parseInt(json.espn.sor)); // SOR is stronger predictor than BPI
 			 espn_bpi = FindScore(parseInt(json.espn.bpi)); 
@@ -318,7 +321,7 @@
 			 //total_score = ((kenpom_score*.14) + (ncaa_score*.18) + (espn_sor*.15) + (espn_bpi*.10) + (teamrankings_score*.06) + (sagarin_score*.04) + (trank_score*.08) + (kpi_score*.13) + (massey_score * .12));
 
 			 // Adjustments until all scores are being calculated. Once that happens, use the above formula
-			 total_score = ((kenpom_score*.19) + (ncaa_score*.19) + (espn_sor*.17) + (espn_bpi*.16) + (teamrankings_score*.06) + (trank_score*.12) + (massey_score * .06) + (sagarin_score * .05));
+			 total_score = ((kenpom_score *.17) + (net_score * .17) + (espn_sor *.17) + (espn_bpi *.17) + (sagarin_score * .10) + (trank_score *.12) + (teamrankings_score *.06) + (massey_score * .06));
 			 
 			 
 			 
@@ -342,15 +345,15 @@
 
 			 
 			 
-			 console.log("NCAA score: " + ncaa_score + "    (19%)");
-			 console.log("Kenpom score: " + kenpom_score + "    (19%)");
+			 console.log("NCAA NET: " + net_score + "    (17%)");
+			 console.log("Kenpom score: " + kenpom_score + "    (17%)");
 			 console.log("ESPN SOR score: " + espn_sor + "    (17%)");
 			// console.log("KPI score: " + kpi_score + "    (13%)");
-			 console.log("ESPN BPI score: " + espn_bpi + "    (16%)");
+			 console.log("ESPN BPI score: " + espn_bpi + "    (17%)");
+			 console.log("Sagarin score: " + sagarin_score + "    (10%)");
 			 console.log("T-Rank score: " + trank_score + "    (12%)");
 			 console.log("Massey score: " + massey_score + "    (6%)");
 			 console.log("TeamRankings score: " + teamrankings_score + "    (6%)");
-			 console.log("Sagarin score: " + sagarin_score + "    (5%)");
 			// console.log("LRMC score: " + lrmc_score + "    (3%)");
 			 console.log("Total score: " + total_score);
 
