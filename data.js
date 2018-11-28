@@ -17,11 +17,11 @@
         "sos": "110"
     },
     "kenpom": {
-        "rating": "24",
-        "sos": "194"
+        "rating": "25",
+        "sos": "196"
     },
     "massey": {
-        "composite": "17"
+        "composite": "15"
     },
     "ncaa": {
         "net_rank": "9"
@@ -30,20 +30,20 @@
         "sagarin_rate": "10"
     },
     "teamrankings": {
-        "make_tournament": "83.8%",
-        "most_likely_seed": "#5 (10.4%)",
-        "projected_losses": "8.5",
-        "projected_wins": "21.5",
+        "make_tournament": "84.1%",
+        "most_likely_seed": "#4 (10.7%)",
+        "projected_losses": "8.4",
+        "projected_wins": "21.6",
         "rank": "11",
         "sos": "14"
     },
     "time": {
-        "time": "Nov 27,  1:41 PM"
+        "time": "Nov 28,  8:41 AM"
     },
     "trank": {
         "current_record": "6-1",
         "trank": "16",
-        "trank_proj_record": "21-10 (12-8)"
+        "trank_proj_record": "22-9 (12-8)"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
@@ -51,7 +51,7 @@
         "group2": "2-0",
         "group3": "0-0",
         "group4": "4-0",
-        "rpi": "55",
-        "sos": "132"
+        "rpi": "56",
+        "sos": "121"
     }
 }
