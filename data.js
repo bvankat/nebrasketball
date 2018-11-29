@@ -17,8 +17,8 @@
         "sos": "113"
     },
     "kenpom": {
-        "rating": "24",
-        "sos": "197"
+        "rating": "21",
+        "sos": "203"
     },
     "massey": {
         "composite": "15"
@@ -38,20 +38,20 @@
         "sos": "14"
     },
     "time": {
-        "time": "Nov 28,  2:46 PM"
+        "time": "Nov 28, 11:41 PM"
     },
     "trank": {
         "current_record": "6-1",
         "trank": "16",
-        "trank_proj_record": "22-9 (12-8)"
+        "trank_proj_record": "21-10 (12-8)"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "group1": "0-1",
-        "group2": "2-0",
+        "group1": "1-1",
+        "group2": "1-0",
         "group3": "0-0",
         "group4": "4-0",
-        "rpi": "57",
-        "sos": "122"
+        "rpi": "41",
+        "sos": "114"
     }
 }
