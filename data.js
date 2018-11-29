@@ -38,7 +38,7 @@
         "sos": "14"
     },
     "time": {
-        "time": "Nov 28, 11:41 PM"
+        "time": "Nov 29, 12:42 AM"
     },
     "trank": {
         "current_record": "6-1",
@@ -52,6 +52,6 @@
         "group3": "0-0",
         "group4": "4-0",
         "rpi": "41",
-        "sos": "114"
+        "sos": "112"
     }
 }
