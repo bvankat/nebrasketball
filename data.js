@@ -7,14 +7,14 @@
         "cbs_rank": "8"
     },
     "espn": {
-        "bpi": "25",
-        "chance_sweet_16": "29.2%",
-        "proj_tourney_seed": "5",
+        "bpi": "26",
+        "chance_sweet_16": "28.5%",
+        "proj_tourney_seed": "6",
         "proj_win_loss_conf": "11.2-8.8",
         "proj_win_loss_overall": "20.6-10.4",
-        "seven_day_change": "10",
-        "sor": "20",
-        "sos": "113"
+        "seven_day_change": "7",
+        "sor": "23",
+        "sos": "117"
     },
     "kenpom": {
         "rating": "21",
@@ -38,7 +38,7 @@
         "sos": "17"
     },
     "time": {
-        "time": "Nov 30, 12:30 AM"
+        "time": "Nov 30, 12:41 AM"
     },
     "trank": {
         "current_record": "6-1",
