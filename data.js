@@ -30,15 +30,15 @@
         "sagarin_rate": "10"
     },
     "teamrankings": {
-        "make_tournament": "83.1%",
-        "most_likely_seed": "#4 (10.6%)",
-        "projected_losses": "8.5",
-        "projected_wins": "21.5",
-        "rank": "12",
+        "make_tournament": "84.0%",
+        "most_likely_seed": "#4 (10.5%)",
+        "projected_losses": "8.6",
+        "projected_wins": "21.4",
+        "rank": "11",
         "sos": "16"
     },
     "time": {
-        "time": "Dec 01,  2:41 AM"
+        "time": "Dec 01,  3:42 AM"
     },
     "trank": {
         "current_record": "6-1",
