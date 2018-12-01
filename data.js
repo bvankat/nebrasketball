@@ -10,11 +10,11 @@
         "bpi": "26",
         "chance_sweet_16": "28.1%",
         "proj_tourney_seed": "6",
-        "proj_win_loss_conf": "11.2-8.8",
+        "proj_win_loss_conf": "11.3-8.7",
         "proj_win_loss_overall": "20.6-10.4",
         "seven_day_change": "9",
         "sor": "24",
-        "sos": "116"
+        "sos": "109"
     },
     "kenpom": {
         "rating": "21",
@@ -38,7 +38,7 @@
         "sos": "16"
     },
     "time": {
-        "time": "Dec 01,  1:32 AM"
+        "time": "Dec 01,  1:41 AM"
     },
     "trank": {
         "current_record": "6-1",
