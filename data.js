@@ -7,18 +7,18 @@
         "cbs_rank": "8"
     },
     "espn": {
-        "bpi": "26",
-        "chance_sweet_16": "28.1%",
-        "proj_tourney_seed": "6",
+        "bpi": "23",
+        "chance_sweet_16": "26.4%",
+        "proj_tourney_seed": "5",
         "proj_win_loss_conf": "11.3-8.7",
-        "proj_win_loss_overall": "20.6-10.4",
+        "proj_win_loss_overall": "20.8-10.2",
         "seven_day_change": "9",
-        "sor": "24",
-        "sos": "109"
+        "sor": "19",
+        "sos": "108"
     },
     "kenpom": {
         "rating": "21",
-        "sos": "203"
+        "sos": "195"
     },
     "massey": {
         "composite": "15"
@@ -27,31 +27,31 @@
         "net_rank": "8"
     },
     "sagarin": {
-        "sagarin_rate": "10"
+        "sagarin_rate": "11"
     },
     "teamrankings": {
-        "make_tournament": "84.0%",
-        "most_likely_seed": "#4 (10.5%)",
-        "projected_losses": "8.6",
-        "projected_wins": "21.4",
-        "rank": "11",
-        "sos": "16"
+        "make_tournament": "82.6%",
+        "most_likely_seed": "#4 (10.7%)",
+        "projected_losses": "8.5",
+        "projected_wins": "21.5",
+        "rank": "12",
+        "sos": "17"
     },
     "time": {
-        "time": "Dec 01,  3:42 AM"
+        "time": "Dec 02,  9:32 PM"
     },
     "trank": {
-        "current_record": "6-1",
-        "trank": "16",
-        "trank_proj_record": "21-10 (12-8)"
+        "current_record": "7-1",
+        "trank": "12",
+        "trank_proj_record": "22-9 (13-7)"
     },
     "warrennolan": {
-        "current_conf_record": "0-0",
+        "current_conf_record": "1-0",
         "group1": "1-1",
         "group2": "1-0",
-        "group3": "0-0",
+        "group3": "1-0",
         "group4": "4-0",
-        "rpi": "41",
-        "sos": "103"
+        "rpi": "36",
+        "sos": "112"
     }
 }
