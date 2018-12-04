@@ -21,7 +21,7 @@
         "sos": "195"
     },
     "massey": {
-        "composite": "16"
+        "composite": "15"
     },
     "ncaa": {
         "net_rank": "9"
@@ -38,7 +38,7 @@
         "sos": "22"
     },
     "time": {
-        "time": "Dec 03, 12:41 PM"
+        "time": "Dec 03,  8:41 PM"
     },
     "trank": {
         "current_record": "7-1",
@@ -51,7 +51,7 @@
         "group2": "1-0",
         "group3": "1-0",
         "group4": "4-0",
-        "rpi": "36",
+        "rpi": "37",
         "sos": "113"
     }
 }
