@@ -1,7 +1,7 @@
 {
     "bracketproject": {
-        "matrix_count": "40",
-        "total_brackets": "48"
+        "matrix_count": "26",
+        "total_brackets": "28"
     },
     "cbs": {
         "cbs_rank": "8"
@@ -39,10 +39,10 @@
         "projected_losses": "8.4",
         "projected_wins": "21.6",
         "rank": "12",
-        "sos": "22"
+        "sos": "20"
     },
     "time": {
-        "time": "Dec 04,  1:41 AM"
+        "time": "Dec 04,  2:56 AM"
     },
     "trank": {
         "current_record": "7-1",
