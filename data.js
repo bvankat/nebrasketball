@@ -18,7 +18,7 @@
     },
     "kenpom": {
         "rating": "21",
-        "sos": "196"
+        "sos": "195"
     },
     "massey": {
         "composite": "15"
@@ -42,7 +42,7 @@
         "sos": "22"
     },
     "time": {
-        "time": "Dec 03, 10:41 PM"
+        "time": "Dec 03, 11:41 PM"
     },
     "trank": {
         "current_record": "7-1",
