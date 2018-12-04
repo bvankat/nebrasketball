@@ -26,6 +26,10 @@
     "ncaa": {
         "net_rank": "9"
     },
+    "polls": {
+        "ap_rank": "24",
+        "coaches_rank": "25"
+    },
     "sagarin": {
         "sagarin_rate": "11"
     },
@@ -38,7 +42,7 @@
         "sos": "22"
     },
     "time": {
-        "time": "Dec 03,  9:39 PM"
+        "time": "Dec 03,  9:43 PM"
     },
     "trank": {
         "current_record": "7-1",
