@@ -116,6 +116,17 @@
 						<td>Bracket Project: How many brackets have NU?</td>
 						<td class="r"><span id="bracketproject-count"></span>/<span id="bracketproject-totalbrackets"></span></td>
 					</tr>
+					
+					<tr>
+						<td>AP Poll</td>
+						<td class="r"><span id="ap-rank"></span></td>
+					</tr>
+					
+					<tr>
+						<td>Coaches Poll</td>
+						<td class="r"><span id="coaches-rank"></span></td>
+					</tr>
+							
 					<tr>
 						<td>ESPN - Joe Lunardi Bracketology</td>
 						<td class="r">6-seed</td>
@@ -285,6 +296,8 @@
 			$('#warrennolan-group3').text(json.warrennolan.group3);
 			$('#warrennolan-group4').text(json.warrennolan.group4);
 			
+			$('#ap-rank').text(json.polls.ap_rank);
+			$('#coaches-rank').text(json.polls.coaches_rank);
 			
 			$('#current_record').text(json.trank.current_record);
 			$('#current_conf_record').text(json.warrennolan.current_conf_record);
