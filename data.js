@@ -7,14 +7,14 @@
         "cbs_rank": "8"
     },
     "espn": {
-        "bpi": "22",
-        "chance_sweet_16": "30.3%",
-        "proj_tourney_seed": "5",
-        "proj_win_loss_conf": "11.7-8.3",
-        "proj_win_loss_overall": "21.1-9.9",
+        "bpi": "23",
+        "chance_sweet_16": "27.7%",
+        "proj_tourney_seed": "9",
+        "proj_win_loss_conf": "11.0-9.0",
+        "proj_win_loss_overall": "20.5-10.5",
         "seven_day_change": "3",
-        "sor": "17",
-        "sos": "128"
+        "sor": "33",
+        "sos": "87"
     },
     "kenpom": {
         "rating": "24",
@@ -24,7 +24,7 @@
         "composite": "15"
     },
     "ncaa": {
-        "net_rank": "11"
+        "net_rank": "24"
     },
     "polls": {
         "ap_rank": "24",
@@ -42,7 +42,7 @@
         "sos": "20"
     },
     "time": {
-        "time": "Dec 06, 12:31 PM"
+        "time": "Dec 06, 12:41 PM"
     },
     "trank": {
         "current_record": "7-2",
