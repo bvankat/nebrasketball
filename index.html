@@ -189,7 +189,7 @@
 		    	</thead>
 		    	<tbody>
 			    	<tr><td>ESPN</td><td class="r"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td></tr>
-			    	<tr><td>Kenpom</td><td class="r">21-10 (11-9)</td></tr>
+			    	<tr><td>Kenpom</td><td class="r">20-11 (10-10)</td></tr>
 				    <tr><td>TeamRankings.com</td><td id="teamrankings_wl" class="r"></td></tr>
 				    <!-- <tr><td>Warren Nolan</td><td class="r"><span id="warrennolan-wl"></span> <span id="warrennolan-cwl")></span></td></tr> -->
 				    <tr><td>Bart Torvik</td><td id="trank-proj" class="r"></td></tr>
@@ -335,7 +335,7 @@
 						
 			function FindScore(data) { // Calculate percentage chance based on RPI-like ranking system
 				 var score;
-				 if (data < 30){ score = 99; }
+				 if (data <= 30){ score = 99; }
 				 if (data > 30 && data <= 40) { score = 92; }
 				 if (data > 40 && data <= 43) { score = 85; }
 				 if (data > 43 && data <= 45) { score = 80; }
