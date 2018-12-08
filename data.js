@@ -18,7 +18,7 @@
     },
     "kenpom": {
         "rating": "24",
-        "sos": "142"
+        "sos": "141"
     },
     "massey": {
         "composite": "15"
@@ -31,18 +31,18 @@
         "coaches_rank": "25"
     },
     "sagarin": {
-        "sagarin_rate": "14"
+        "sagarin_rate": "15"
     },
     "teamrankings": {
-        "make_tournament": "70.6%",
-        "most_likely_seed": "#8 (7.9%)",
+        "make_tournament": "69.5%",
+        "most_likely_seed": "#7 (7.8%)",
         "projected_losses": "9.8",
         "projected_wins": "20.2",
         "rank": "14",
-        "sos": "21"
+        "sos": "22"
     },
     "time": {
-        "time": "Dec 08, 12:41 AM"
+        "time": "Dec 08, 11:41 AM"
     },
     "trank": {
         "current_record": "7-2",
@@ -55,7 +55,7 @@
         "group2": "1-0",
         "group3": "2-0",
         "group4": "4-0",
-        "rpi": "53",
-        "sos": "104"
+        "rpi": "52",
+        "sos": "102"
     }
 }
