@@ -8,7 +8,7 @@
     },
     "espn": {
         "bpi": "21",
-        "chance_sweet_16": "26.8%",
+        "chance_sweet_16": "27.1%",
         "proj_tourney_seed": "9",
         "proj_win_loss_conf": "11.0-9.0",
         "proj_win_loss_overall": "20.5-10.5",
@@ -18,7 +18,7 @@
     },
     "kenpom": {
         "rating": "24",
-        "sos": "141"
+        "sos": "138"
     },
     "massey": {
         "composite": "15"
@@ -42,7 +42,7 @@
         "sos": "22"
     },
     "time": {
-        "time": "Dec 08, 11:41 AM"
+        "time": "Dec 08,  2:13 PM"
     },
     "trank": {
         "current_record": "7-2",
@@ -55,7 +55,7 @@
         "group2": "1-0",
         "group3": "2-0",
         "group4": "4-0",
-        "rpi": "52",
-        "sos": "102"
+        "rpi": "47",
+        "sos": "91"
     }
 }
