@@ -18,13 +18,13 @@
     },
     "kenpom": {
         "rating": "21",
-        "sos": "109"
+        "sos": "113"
     },
     "massey": {
         "composite": "15"
     },
     "ncaa": {
-        "net_rank": "25"
+        "net_rank": "15"
     },
     "polls": {
         "ap_rank": "24",
@@ -42,7 +42,7 @@
         "sos": "20"
     },
     "time": {
-        "time": "Dec 09, 12:37 PM"
+        "time": "Dec 09,  3:41 PM"
     },
     "trank": {
         "current_record": "8-2",
@@ -53,9 +53,9 @@
         "current_conf_record": "1-1",
         "group1": "1-2",
         "group2": "1-0",
-        "group3": "2-0",
-        "group4": "4-0",
-        "rpi": "30",
-        "sos": "72"
+        "group3": "1-0",
+        "group4": "5-0",
+        "rpi": "29",
+        "sos": "74"
     }
 }
