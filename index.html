@@ -94,7 +94,7 @@
 			    	<tr><td>NCAA NET</td><td id="ncaa-net" class="r"></td></tr>
 			    	<tr><td>ESPN BPI</td><td id="espn-rating" class="r"></td></tr>
 			    	<tr><td>ESPN SOR</td><td id="espn-sor" class="r"></td></tr>
-			    	<tr><td>KPI</td><td id="trank-kpi" class="r"><span class="gray small">Not released</span></td></tr>
+			    	<tr><td>KPI</td><td id="kpi_ranking" class="r"></td></tr>
 			    	<tr><td>Sagarin</td><td id="sagarin" class="r"></td></tr>
 			    	<tr><td>Bart Torvik</td><td id="trank-trank" class="r"></td></tr>
 			    	<tr><td>Massey Composite</td><td id="massey-comp" class="r"></td></tr>
@@ -306,8 +306,7 @@
 			$('#sagarin').text(json.sagarin.sagarin_rate);
 			$('#trank-trank').text(json.trank.trank);
 			
-			// $('#trank-kpi').text(json.trank.kpi);
-			// $('#lrmc-rank').text(json.lrmc.rank);
+			$('#kpi_ranking').text(json.kpi_sports.kpi_ranking);
 			
 			$('#bracketproject-count').text(json.bracketproject.matrix_count);
 			$('#bracketproject-totalbrackets').text(json.bracketproject.total_brackets);
@@ -360,7 +359,7 @@
 			 teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
 			 sagarin_score = FindScore(json.sagarin.sagarin_rate);
 			 trank_score = FindScore(json.trank.trank);
-			 // kpi_score = FindScore(json.trank.kpi);
+			 kpi_score = FindScore(json.kpi_sports.kpi_ranking);
 			 // lrmc_score = FindScore(json.lrmc.rank);
 			 massey_score = FindScore(json.massey.composite);
 			 
@@ -368,7 +367,7 @@
 			 //total_score = ((kenpom_score*.14) + (ncaa_score*.18) + (espn_sor*.15) + (espn_bpi*.10) + (teamrankings_score*.06) + (sagarin_score*.04) + (trank_score*.08) + (kpi_score*.13) + (massey_score * .12));
 
 			 // Adjustments until all scores are being calculated. Once that happens, use the above formula
-			 total_score = ((kenpom_score *.17) + (net_score * .17) + (espn_sor *.17) + (espn_bpi *.17) + (sagarin_score * .10) + (trank_score *.09) + (teamrankings_score *.06) + (massey_score * .06));
+			 total_score = ((kenpom_score *.14) + (net_score * .14) + (espn_sor *.14) + (espn_bpi *.14) + (kpi_score * .12) + (sagarin_score * .10) + (trank_score * .09) + (massey_score * .06) + (teamrankings_score *.05));
 			 
 			 
 			 
@@ -395,13 +394,12 @@
 			 console.log("NCAA NET: " + net_score + "    (17%)");
 			 console.log("Kenpom score: " + kenpom_score + "    (17%)");
 			 console.log("ESPN SOR score: " + espn_sor + "    (17%)");
-			// console.log("KPI score: " + kpi_score + "    (13%)");
+			 console.log("KPI score: " + kpi_score + "    (13%)");
 			 console.log("ESPN BPI score: " + espn_bpi + "    (17%)");
 			 console.log("Sagarin score: " + sagarin_score + "    (10%)");
 			 console.log("T-Rank score: " + trank_score + "    (9%)");
 			 console.log("Massey score: " + massey_score + "    (6%)");
 			 console.log("TeamRankings score: " + teamrankings_score + "    (6%)");
-			// console.log("LRMC score: " + lrmc_score + "    (3%)");
 			 console.log("Total score: " + total_score);
 
 			});		
