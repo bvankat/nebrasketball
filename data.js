@@ -7,42 +7,42 @@
         "cbs_rank": "8"
     },
     "espn": {
-        "bpi": "17",
-        "chance_sweet_16": "30.0%",
-        "proj_tourney_seed": "8",
-        "proj_win_loss_conf": "11.4-8.6",
-        "proj_win_loss_overall": "21.1-9.9",
-        "seven_day_change": "6",
-        "sor": "29",
-        "sos": "88"
+        "bpi": "19",
+        "chance_sweet_16": "28.7%",
+        "proj_tourney_seed": "7",
+        "proj_win_loss_conf": "11.3-8.7",
+        "proj_win_loss_overall": "21.0-10.0",
+        "seven_day_change": "2",
+        "sor": "28",
+        "sos": "90"
     },
     "kenpom": {
         "rating": "21",
         "sos": "111"
     },
     "massey": {
-        "composite": "15"
+        "composite": "16"
     },
     "ncaa": {
-        "net_rank": "15"
+        "net_rank": "16"
     },
     "polls": {
-        "ap_rank": "24",
+        "ap_rank": "NR",
         "coaches_rank": "25"
     },
     "sagarin": {
-        "sagarin_rate": "10"
+        "sagarin_rate": "11"
     },
     "teamrankings": {
-        "make_tournament": "78.3%",
-        "most_likely_seed": "#7 (9.2%)",
+        "make_tournament": "77.6%",
+        "most_likely_seed": "#7 (9.0%)",
         "projected_losses": "9.1",
         "projected_wins": "20.9",
         "rank": "12",
         "sos": "20"
     },
     "time": {
-        "time": "Dec 10,  1:41 AM"
+        "time": "Dec 10,  1:41 PM"
     },
     "trank": {
         "current_record": "8-2",
