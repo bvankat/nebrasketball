@@ -98,7 +98,7 @@
 			    	<tr><td>Sagarin</td><td id="sagarin" class="r"></td></tr>
 			    	<tr><td>Bart Torvik</td><td id="trank-trank" class="r"></td></tr>
 			    	<tr><td>Massey Composite</td><td id="massey-comp" class="r"></td></tr>
-			    	<tr><td>TeamRankings.com</td><td id="teamrankings-rating" class="r"></td></tr>
+			    	<!-- <tr><td>TeamRankings.com</td><td id="teamrankings-rating" class="r"></td></tr> -->
 			    	<!-- <tr><td>LRMC</td><td id="lrmc-rank" class="r"></td></tr> -->
 		    	</tbody>
 	    	</table>
@@ -273,12 +273,11 @@
 			$('#ncaa-net').text(json.ncaa.net_rank); // Using live one rather than json.ncaa.rpi_rank for more frequent updates
 			$('#ncaa-rating').text(json.warrennolan.rpi); // Using live one rather than json.ncaa.rpi_rank for more frequent updates
 			$('#espn-rating').text(json.espn.bpi);
-			$('#teamrankings-rating').text(json.teamrankings.rank);
+			// $('#teamrankings-rating').text(json.teamrankings.rank);
 			$('#massey-comp').text(json.massey.composite);
 			
 			$('#kenpom-sos').text(json.kenpom.sos);
 			$('#espn-sos').text(json.espn.sos);
-			$('#teamrankings-sos').text(json.teamrankings.sos)
 			
 			$('#espn-proj-tourney-seed').text(json.espn.proj_tourney_seed);
 			$('#espn-wl').text(json.espn.proj_win_loss_overall);
@@ -286,8 +285,6 @@
 			$('#espn-sor').text(json.espn.sor);
 			$('#espn-sweet16').text(json.espn.chance_sweet_16);
 			
-			$('#teamrankings-make-tourney').text(json.teamrankings.make_tournament);
-			$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
 
 			$('#warrennolan-rpi').text(json.warrennolan.rpi);
 			$('#warrennolan-sos, #warrennolan-sos2').text(json.warrennolan.sos);
@@ -356,18 +353,15 @@
 			 ncaa_score = FindScore(json.warrennolan.rpi); // Using live one rather than json.ncaa.rpi_rank for more frequent updates
 			 espn_sor = FindScore(parseInt(json.espn.sor)); // SOR is stronger predictor than BPI
 			 espn_bpi = FindScore(parseInt(json.espn.bpi)); 
-			 teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
+			 // teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
 			 sagarin_score = FindScore(json.sagarin.sagarin_rate);
 			 trank_score = FindScore(json.trank.trank);
 			 kpi_score = FindScore(json.kpi_sports.kpi_ranking);
 			 // lrmc_score = FindScore(json.lrmc.rank);
 			 massey_score = FindScore(json.massey.composite);
 			 
-			 //Here's last year's formula, multipliers should add to 1.0
-			 //total_score = ((kenpom_score*.14) + (ncaa_score*.18) + (espn_sor*.15) + (espn_bpi*.10) + (teamrankings_score*.06) + (sagarin_score*.04) + (trank_score*.08) + (kpi_score*.13) + (massey_score * .12));
-
-			 // Adjustments until all scores are being calculated. Once that happens, use the above formula
-			 total_score = ((kenpom_score *.14) + (net_score * .14) + (espn_sor *.14) + (espn_bpi *.14) + (kpi_score * .12) + (sagarin_score * .10) + (trank_score * .09) + (massey_score * .06) + (teamrankings_score *.05));
+			 //Current formula, multipliers should add to .98 to keep the gauge happy
+			 total_score = ((net_score * .16) + (kenpom_score * .14) + (espn_sor * .14) + (espn_bpi * .14) + (kpi_score * .14) + (sagarin_score * .10) + (trank_score * .10) + (massey_score * .06));
 			 
 			 
 			 
@@ -391,15 +385,14 @@
 
 			 
 			 
-			 console.log("NCAA NET: " + net_score + "    (17%)");
-			 console.log("Kenpom score: " + kenpom_score + "    (17%)");
-			 console.log("ESPN SOR score: " + espn_sor + "    (17%)");
-			 console.log("KPI score: " + kpi_score + "    (13%)");
-			 console.log("ESPN BPI score: " + espn_bpi + "    (17%)");
-			 console.log("Sagarin score: " + sagarin_score + "    (10%)");
-			 console.log("T-Rank score: " + trank_score + "    (9%)");
-			 console.log("Massey score: " + massey_score + "    (6%)");
-			 console.log("TeamRankings score: " + teamrankings_score + "    (6%)");
+			 console.log("NCAA NET: " + net_score + "    (16%)");
+			 console.log("Kenpom score (predictive): " + kenpom_score + "    (14%)");
+			 console.log("ESPN SOR score (results-based): " + espn_sor + "    (14%)");
+			 console.log("KPI score (results-based): " + kpi_score + "    (14%)");
+			 console.log("ESPN BPI score (predictive): " + espn_bpi + "    (14%)");
+			 console.log("Sagarin score (predictive): " + sagarin_score + "    (10%)");
+			 console.log("Torvik T-Rank score (predictive): " + trank_score + "    (10%)");
+			 console.log("Massey score (composite): " + massey_score + "    (6%)");
 			 console.log("Total score: " + total_score);
 
 			});		
