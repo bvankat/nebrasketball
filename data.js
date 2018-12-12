@@ -36,16 +36,8 @@
     "sagarin": {
         "sagarin_rate": "11"
     },
-    "teamrankings": {
-        "make_tournament": "77.7%",
-        "most_likely_seed": "#5 (9.2%)",
-        "projected_losses": "9.1",
-        "projected_wins": "20.9",
-        "rank": "12",
-        "sos": "20"
-    },
     "time": {
-        "time": "Dec 12,  1:41 PM"
+        "time": "Dec 12,  2:19 PM"
     },
     "trank": {
         "current_record": "8-2",
