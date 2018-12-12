@@ -18,7 +18,7 @@
     },
     "kenpom": {
         "rating": "21",
-        "sos": "111"
+        "sos": "113"
     },
     "kpi_sports": {
         "kpi_ranking": "27"
@@ -27,7 +27,7 @@
         "composite": "15"
     },
     "ncaa": {
-        "net_rank": "16"
+        "net_rank": "15"
     },
     "polls": {
         "ap_rank": "NR",
@@ -37,15 +37,15 @@
         "sagarin_rate": "11"
     },
     "teamrankings": {
-        "make_tournament": "77.6%",
-        "most_likely_seed": "#7 (9.0%)",
+        "make_tournament": "77.7%",
+        "most_likely_seed": "#5 (9.2%)",
         "projected_losses": "9.1",
         "projected_wins": "20.9",
         "rank": "12",
         "sos": "20"
     },
     "time": {
-        "time": "Dec 12, 12:58 PM"
+        "time": "Dec 12,  1:13 PM"
     },
     "trank": {
         "current_record": "8-2",
