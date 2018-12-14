@@ -21,7 +21,7 @@
         "sos": "113"
     },
     "kpi_sports": {
-        "kpi_ranking": "29"
+        "kpi_ranking": "30"
     },
     "massey": {
         "composite": "15"
@@ -37,15 +37,15 @@
         "sagarin_rate": "11"
     },
     "teamrankings": {
-        "make_tournament": "78.0%",
-        "most_likely_seed": "#5 (9.1%)",
+        "make_tournament": "77.1%",
+        "most_likely_seed": "#7 (9.1%)",
         "projected_losses": "9.1",
         "projected_wins": "20.9",
         "rank": "12",
         "sos": "14"
     },
     "time": {
-        "time": "Dec 13,  2:41 PM"
+        "time": "Dec 14,  9:08 AM"
     },
     "trank": {
         "current_record": "8-2",
@@ -56,9 +56,9 @@
         "current_conf_record": "1-1",
         "group1": "1-2",
         "group2": "2-0",
-        "group3": "1-0",
-        "group4": "4-0",
-        "rpi": "33",
-        "sos": "80"
+        "group3": "0-0",
+        "group4": "5-0",
+        "rpi": "34",
+        "sos": "83"
     }
 }
