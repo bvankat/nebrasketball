@@ -1,27 +1,27 @@
 {
     "bracketproject": {
-        "matrix_count": "26",
-        "total_brackets": "28"
+        "matrix_count": "38",
+        "total_brackets": "38"
     },
     "cbs": {
         "cbs_rank": "8"
     },
     "espn": {
-        "bpi": "18",
-        "chance_sweet_16": "28.5%",
-        "proj_tourney_seed": "7",
+        "bpi": "17",
+        "chance_sweet_16": "30.0%",
+        "proj_tourney_seed": "8",
         "proj_win_loss_conf": "11.3-8.7",
         "proj_win_loss_overall": "21.0-10.0",
-        "seven_day_change": "3",
-        "sor": "28",
+        "seven_day_change": "0",
+        "sor": "30",
         "sos": "77"
     },
     "kenpom": {
-        "rating": "21",
-        "sos": "113"
+        "rating": "14",
+        "sos": "92"
     },
     "kpi_sports": {
-        "kpi_ranking": "30"
+        "kpi_ranking": "29"
     },
     "massey": {
         "composite": "15"
@@ -34,31 +34,31 @@
         "coaches_rank": "25"
     },
     "sagarin": {
-        "sagarin_rate": "11"
+        "sagarin_rate": "12"
     },
     "teamrankings": {
-        "make_tournament": "77.1%",
-        "most_likely_seed": "#7 (9.1%)",
-        "projected_losses": "9.1",
-        "projected_wins": "20.9",
-        "rank": "12",
-        "sos": "14"
+        "make_tournament": "77.7%",
+        "most_likely_seed": "#4 (9.3%)",
+        "projected_losses": "9.0",
+        "projected_wins": "21.0",
+        "rank": "13",
+        "sos": "18"
     },
     "time": {
-        "time": "Dec 14,  2:41 PM"
+        "time": "Dec 16, 10:41 PM"
     },
     "trank": {
-        "current_record": "8-2",
-        "trank": "12",
-        "trank_proj_record": "22-9 (12-8)"
+        "current_record": "9-2",
+        "trank": "9",
+        "trank_proj_record": "23-8 (13-7)"
     },
     "warrennolan": {
         "current_conf_record": "1-1",
-        "group1": "1-2",
-        "group2": "2-0",
-        "group3": "0-0",
-        "group4": "5-0",
-        "rpi": "34",
-        "sos": "83"
+        "group1": "0-2",
+        "group2": "4-0",
+        "group3": "1-0",
+        "group4": "4-0",
+        "rpi": "29",
+        "sos": "79"
     }
 }
