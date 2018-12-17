@@ -21,7 +21,7 @@
         "sos": "92"
     },
     "kpi_sports": {
-        "kpi_ranking": "29"
+        "kpi_ranking": "26"
     },
     "massey": {
         "composite": "15"
@@ -45,7 +45,7 @@
         "sos": "18"
     },
     "time": {
-        "time": "Dec 16, 10:54 PM"
+        "time": "Dec 16, 11:41 PM"
     },
     "trank": {
         "current_record": "9-2",
