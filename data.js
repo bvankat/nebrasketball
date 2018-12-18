@@ -42,10 +42,10 @@
         "projected_losses": "8.3",
         "projected_wins": "21.7",
         "rank": "12",
-        "sos": "17"
+        "sos": "16"
     },
     "time": {
-        "time": "Dec 18,  2:41 AM"
+        "time": "Dec 18,  3:04 AM"
     },
     "trank": {
         "current_record": "9-2",
@@ -54,11 +54,10 @@
     },
     "warrennolan": {
         "current_conf_record": "1-1",
-        "group1": "0-2",
-        "group2": "4-0",
-        "group3": "1-0",
+        "group1": "1-2",
+        "group2": "2-0",
+        "group3": "2-0",
         "group4": "4-0",
-        "rpi": "31",
         "sos": "88"
     }
 }
