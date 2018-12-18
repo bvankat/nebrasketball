@@ -199,7 +199,7 @@
 			    	<tr><td>Kenpom</td><td class="r">21-10 (11-9)</td><td><span class="small gray">NA</span></td></tr>
 				    <tr><td>TeamRankings.com</td><td id="teamrankings_wl" class="r"></td><td></td></tr>
 				    <!-- <tr><td>Warren Nolan</td><td class="r"><span id="warrennolan-wl"></span> <span id="warrennolan-cwl")></span></td></tr> -->
-				    <tr><td>Bart Torvik</td><td id="trank-proj" class="r"></td><td></td></tr>
+				    <tr><td>Bart Torvik</td><td id="trank-proj" class="r"></td><td><span id="trank-seed"></span></td></tr>
 				</tbody>
 			</table>
 			
@@ -273,6 +273,7 @@
 			$('#current_conf_record').text(json.warrennolan.current_conf_record);
 			
 			$('#trank-proj').text(json.trank.trank_proj_record);
+			$('#trank-seed').text(json.trank.trank_seed);
 			$('#sagarin').text(json.sagarin.sagarin_rate);
 			$('#trank-trank').text(json.trank.trank);
 			
