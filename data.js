@@ -37,20 +37,21 @@
         "sagarin_rate": "9"
     },
     "teamrankings": {
-        "make_tournament": "85.1%",
-        "most_likely_seed": "#3 (10.9%)",
-        "projected_losses": "8.3",
-        "projected_wins": "21.7",
+        "make_tournament": "84.2%",
+        "most_likely_seed": "#3 (11.0%)",
+        "projected_losses": "8.5",
+        "projected_wins": "21.5",
         "rank": "12",
         "sos": "16"
     },
     "time": {
-        "time": "Dec 18,  3:04 AM"
+        "time": "Dec 18,  3:45 AM"
     },
     "trank": {
         "current_record": "9-2",
         "trank": "10",
-        "trank_proj_record": "22-9 (12-8)"
+        "trank_proj_record": "22-9 (12-8)",
+        "trank_seed": "4"
     },
     "warrennolan": {
         "current_conf_record": "1-1",
