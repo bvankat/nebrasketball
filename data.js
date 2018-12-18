@@ -4,7 +4,7 @@
         "total_brackets": "38"
     },
     "cbs": {
-        "cbs_rank": "8"
+        "cbs_rank": "6"
     },
     "espn": {
         "bpi": "15",
@@ -24,14 +24,14 @@
         "kpi_ranking": "26"
     },
     "massey": {
-        "composite": "13"
+        "composite": "14"
     },
     "ncaa": {
         "net_rank": "13"
     },
     "polls": {
         "ap_rank": "25",
-        "coaches_rank": "25"
+        "coaches_rank": "22"
     },
     "sagarin": {
         "sagarin_rate": "9"
@@ -45,7 +45,7 @@
         "sos": "17"
     },
     "time": {
-        "time": "Dec 17,  1:41 PM"
+        "time": "Dec 17, 11:09 PM"
     },
     "trank": {
         "current_record": "9-2",
