@@ -1,4 +1,4 @@
-# Nebrasketball
+# Nebrasketball NCAA odds machine
 Tracking tournament odds for the Nebraska basketball team
 
 - Scrapes a few data sources for rankings and record projections. (Requests, Selenium, BeautifulSoup)
