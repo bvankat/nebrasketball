@@ -161,7 +161,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td id="ncaa-net"></td>
+						<td id="ncaa-net2"></td>
 						<td id="warrennolan-sos2"></td>
 						<td id="warrennolan-group1" class="r"></td>
 						<td id="warrennolan-group2" class="r"></td>
@@ -270,10 +270,8 @@
 			console.log(json);
 
 			$('#kenpom-rating').text(json.kenpom.rating);
-			$('#ncaa-net').text(json.ncaa.net_rank); // Using live one rather than json.ncaa.rpi_rank for more frequent updates
-			$('#ncaa-rating').text(json.warrennolan.rpi); // Using live one rather than json.ncaa.rpi_rank for more frequent updates
+			$('#ncaa-net, #ncaa-net2').text(json.ncaa.net_rank); 
 			$('#espn-rating').text(json.espn.bpi);
-			// $('#teamrankings-rating').text(json.teamrankings.rank);
 			$('#massey-comp').text(json.massey.composite);
 			
 			$('#kenpom-sos').text(json.kenpom.sos);
@@ -286,7 +284,6 @@
 			$('#espn-sweet16').text(json.espn.chance_sweet_16);
 			
 
-			$('#warrennolan-rpi').text(json.warrennolan.rpi);
 			$('#warrennolan-sos, #warrennolan-sos2').text(json.warrennolan.sos);
 			$('#warrennolan-group1').text(json.warrennolan.group1);
 			$('#warrennolan-group2').text(json.warrennolan.group2);
