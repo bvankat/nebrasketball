@@ -9,20 +9,20 @@
     },
     "espn": {
         "bpi": "15",
-        "chance_sweet_16": "39.3%",
+        "chance_sweet_16": "39.0%",
         "proj_tourney_seed": "7",
         "proj_win_loss_conf": "11.9-8.1",
         "proj_win_loss_overall": "21.8-9.2",
-        "seven_day_change": "2",
+        "seven_day_change": "3",
         "sor": "27",
         "sos": "81"
     },
     "kenpom": {
         "rating": "14",
-        "sos": "103"
+        "sos": "114"
     },
     "kpi_sports": {
-        "kpi_ranking": "28"
+        "kpi_ranking": "27"
     },
     "massey": {
         "composite": "14"
@@ -38,20 +38,20 @@
         "sagarin_rate": "9"
     },
     "teamrankings": {
-        "make_tournament": "85.9%",
+        "make_tournament": "85.5%",
         "most_likely_seed": "3",
         "projected_losses": "8.4",
         "projected_wins": "22.6",
-        "rank": "11",
-        "sos": "11"
+        "rank": "8",
+        "sos": "10"
     },
     "time": {
-        "time": "Dec 20, 11:04 AM"
+        "time": "Dec 23,  3:01 AM"
     },
     "trank": {
-        "current_record": "9-2",
-        "trank": "11",
-        "trank_proj_record": "22-9 (12-8)",
+        "current_record": "10-2",
+        "trank": "7",
+        "trank_proj_record": "23-8 (13-7)",
         "trank_seed": "4"
     },
     "warrennolan": {
@@ -59,7 +59,7 @@
         "group1": "1-2",
         "group2": "2-0",
         "group3": "2-0",
-        "group4": "4-0",
-        "sos": "87"
+        "group4": "5-0",
+        "sos": "130"
     }
 }
