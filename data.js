@@ -22,7 +22,7 @@
         "sos": "110"
     },
     "kpi_sports": {
-        "kpi_ranking": "31"
+        "kpi_ranking": "29"
     },
     "massey": {
         "composite": "12"
@@ -46,12 +46,12 @@
         "sos": "16"
     },
     "time": {
-        "time": "Dec 28, 11:42 AM"
+        "time": "Dec 29, 10:32 AM"
     },
     "trank": {
         "current_record": "10-2",
-        "trank": "7",
-        "trank_proj_record": "23-8 (13-7)",
+        "trank": "8",
+        "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "4"
     },
     "warrennolan": {
@@ -60,6 +60,6 @@
         "group2": "3-0",
         "group3": "1-0",
         "group4": "5-0",
-        "sos": "130"
+        "sos": "125"
     }
 }
