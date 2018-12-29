@@ -19,7 +19,7 @@
     },
     "kenpom": {
         "rating": "14",
-        "sos": "110"
+        "sos": "114"
     },
     "kpi_sports": {
         "kpi_ranking": "29"
@@ -38,7 +38,7 @@
         "sagarin_rate": "9"
     },
     "teamrankings": {
-        "make_tournament": "87.1%",
+        "make_tournament": "86.7%",
         "most_likely_seed": "3",
         "projected_losses": "8.2",
         "projected_wins": "22.8",
@@ -46,7 +46,7 @@
         "sos": "16"
     },
     "time": {
-        "time": "Dec 29, 10:32 AM"
+        "time": "Dec 29, 10:41 AM"
     },
     "trank": {
         "current_record": "10-2",
@@ -60,6 +60,6 @@
         "group2": "3-0",
         "group3": "1-0",
         "group4": "5-0",
-        "sos": "125"
+        "sos": "124"
     }
 }
