@@ -1,7 +1,7 @@
 {
     "bracketproject": {
         "matrix_count": "35",
-        "matrix_seed": "5",
+        "matrix_seed": "6",
         "total_brackets": "35"
     },
     "cbs": {
@@ -19,16 +19,16 @@
     },
     "kenpom": {
         "rating": "15",
-        "sos": "109"
+        "sos": "106"
     },
     "kpi_sports": {
-        "kpi_ranking": "30"
+        "kpi_ranking": "27"
     },
     "massey": {
-        "composite": "12"
+        "composite": "13"
     },
     "ncaa": {
-        "net_rank": "12"
+        "net_rank": "10"
     },
     "polls": {
         "ap_rank": "24",
@@ -38,15 +38,15 @@
         "sagarin_rate": "9"
     },
     "teamrankings": {
-        "make_tournament": "86.8%",
+        "make_tournament": "87.1%",
         "most_likely_seed": "3",
-        "projected_losses": "8.2",
-        "projected_wins": "22.8",
+        "projected_losses": "8.1",
+        "projected_wins": "22.9",
         "rank": "11",
-        "sos": "13"
+        "sos": "9"
     },
     "time": {
-        "time": "Dec 31,  2:41 PM"
+        "time": "Jan 01,  1:41 PM"
     },
     "trank": {
         "current_record": "11-2",
@@ -60,6 +60,6 @@
         "group2": "3-0",
         "group3": "1-0",
         "group4": "5-0",
-        "sos": "103"
+        "sos": "97"
     }
 }
