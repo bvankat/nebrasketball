@@ -19,7 +19,7 @@
     },
     "kenpom": {
         "rating": "15",
-        "sos": "61"
+        "sos": "63"
     },
     "kpi_sports": {
         "kpi_ranking": "29"
@@ -46,7 +46,7 @@
         "sos": "9"
     },
     "time": {
-        "time": "Jan 02,  9:41 PM"
+        "time": "Jan 02, 10:41 PM"
     },
     "trank": {
         "current_record": "11-3",
@@ -60,6 +60,6 @@
         "group2": "3-0",
         "group3": "1-0",
         "group4": "5-0",
-        "sos": "76"
+        "sos": "78"
     }
 }
