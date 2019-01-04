@@ -18,39 +18,39 @@
         "sos": "120"
     },
     "kenpom": {
-        "rating": "15",
-        "sos": "63"
+        "rating": "14",
+        "sos": "50"
     },
     "kpi_sports": {
-        "kpi_ranking": "40"
+        "kpi_ranking": "39"
     },
     "massey": {
         "composite": "13"
     },
     "ncaa": {
-        "net_rank": "10"
+        "net_rank": "14"
     },
     "polls": {
         "ap_rank": "24",
         "coaches_rank": "T-23"
     },
     "sagarin": {
-        "sagarin_rate": "9"
+        "sagarin_rate": "10"
     },
     "teamrankings": {
-        "make_tournament": "87.7%",
-        "most_likely_seed": "3",
-        "projected_losses": "8.1",
-        "projected_wins": "22.9",
+        "make_tournament": "82.1%",
+        "most_likely_seed": "7",
+        "projected_losses": "8.8",
+        "projected_wins": "22.2",
         "rank": "11",
-        "sos": "9"
+        "sos": "11"
     },
     "time": {
-        "time": "Jan 03, 12:41 AM"
+        "time": "Jan 04,  2:19 AM"
     },
     "trank": {
         "current_record": "11-3",
-        "trank": "10",
+        "trank": "9",
         "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "4"
     },
@@ -60,6 +60,6 @@
         "group2": "3-0",
         "group3": "1-0",
         "group4": "5-0",
-        "sos": "78"
+        "sos": "75"
     }
 }
