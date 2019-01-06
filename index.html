@@ -135,7 +135,7 @@
 							
 					<tr>
 						<td>ESPN - Joe Lunardi Bracketology</td>
-						<td class="r">6-seed</td>
+						<td class="r"><span id="espn-bracketology-seed"></span></td>
 					</tr>
 					<tr>
 						<td>ESPN Sweet 16 chances</td>
@@ -258,6 +258,7 @@
 			$('#espn-cwl').text(json.espn.proj_win_loss_conf);
 			$('#espn-sor').text(json.espn.sor);
 			$('#espn-sweet16').text(json.espn.chance_sweet_16);
+			$('#espn-bracketology-seed').text(json.espn_bracketology.seed);
 			
 			$('#warrennolan-sos, #warrennolan-sos2').text(json.warrennolan.sos);
 			$('#warrennolan-group1').text(json.warrennolan.group1);
