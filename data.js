@@ -49,7 +49,7 @@
         "sos": "10"
     },
     "time": {
-        "time": "Jan 06,  3:41 PM"
+        "time": "Jan 06,  6:37 PM"
     },
     "trank": {
         "current_record": "11-3",
@@ -58,11 +58,11 @@
         "trank_seed": "4"
     },
     "warrennolan": {
-        "current_conf_record": "1-2",
-        "group1": "1-3",
+        "current_conf_record": "1-3",
+        "group1": "1-4",
         "group2": "3-0",
         "group3": "1-0",
         "group4": "5-0",
-        "sos": "104"
+        "sos": "77"
     }
 }
