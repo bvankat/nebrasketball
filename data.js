@@ -21,14 +21,14 @@
         "seed": "6"
     },
     "kenpom": {
-        "rating": "13",
-        "sos": "52"
+        "rating": "16",
+        "sos": "31"
     },
     "kpi_sports": {
-        "kpi_ranking": "42"
+        "kpi_ranking": "47"
     },
     "massey": {
-        "composite": "13"
+        "composite": "14"
     },
     "ncaa": {
         "net_rank": "13"
@@ -49,13 +49,13 @@
         "sos": "10"
     },
     "time": {
-        "time": "Jan 06,  6:41 PM"
+        "time": "Jan 06, 11:41 PM"
     },
     "trank": {
-        "current_record": "11-3",
-        "trank": "10",
-        "trank_proj_record": "22-9 (12-8)",
-        "trank_seed": "4"
+        "current_record": "11-4",
+        "trank": "11",
+        "trank_proj_record": "21-10 (11-9)",
+        "trank_seed": "5"
     },
     "warrennolan": {
         "current_conf_record": "1-3",
@@ -63,6 +63,6 @@
         "group2": "3-0",
         "group3": "1-0",
         "group4": "5-0",
-        "sos": "77"
+        "sos": "78"
     }
 }
