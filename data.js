@@ -31,7 +31,7 @@
         "composite": "21"
     },
     "ncaa": {
-        "net_rank": "15"
+        "net_rank": "12"
     },
     "polls": {
         "ap_rank": "NR",
@@ -41,15 +41,15 @@
         "sagarin_rate": "12"
     },
     "teamrankings": {
-        "make_tournament": "74.2%",
+        "make_tournament": "75.9%",
         "most_likely_seed": "7",
         "projected_losses": "9.7",
         "projected_wins": "21.3",
         "rank": "12",
-        "sos": "10"
+        "sos": "9"
     },
     "time": {
-        "time": "Jan 09,  2:41 AM"
+        "time": "Jan 09,  2:42 PM"
     },
     "trank": {
         "current_record": "11-4",
@@ -61,8 +61,8 @@
         "current_conf_record": "1-3",
         "group1": "1-4",
         "group2": "3-0",
-        "group3": "1-0",
-        "group4": "5-0",
+        "group3": "2-0",
+        "group4": "4-0",
         "sos": "73"
     }
 }
