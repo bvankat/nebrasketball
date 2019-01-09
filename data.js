@@ -9,13 +9,13 @@
     },
     "espn": {
         "bpi": "16",
-        "chance_sweet_16": "34.2%",
+        "chance_sweet_16": "34.8%",
         "proj_tourney_seed": "10",
         "proj_win_loss_conf": "11.0-9.0",
         "proj_win_loss_overall": "21.1-9.9",
         "seven_day_change": "-2",
         "sor": "37",
-        "sos": "31"
+        "sos": "30"
     },
     "espn_bracketology": {
         "seed": "6"
@@ -35,7 +35,7 @@
     },
     "polls": {
         "ap_rank": "NR",
-        "coaches_rank": "NR"
+        "coaches_rank": "T-23"
     },
     "sagarin": {
         "sagarin_rate": "12"
@@ -49,13 +49,13 @@
         "sos": "10"
     },
     "time": {
-        "time": "Jan 08, 10:12 PM"
+        "time": "Jan 09, 12:41 AM"
     },
     "trank": {
         "current_record": "11-4",
         "trank": "11",
         "trank_proj_record": "21-10 (11-9)",
-        "trank_seed": "5"
+        "trank_seed": "4"
     },
     "warrennolan": {
         "current_conf_record": "1-3",
