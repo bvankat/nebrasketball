@@ -22,7 +22,7 @@
     },
     "kenpom": {
         "rating": "16",
-        "sos": "28"
+        "sos": "29"
     },
     "kpi_sports": {
         "kpi_ranking": "45"
@@ -38,7 +38,7 @@
         "coaches_rank": "T-23"
     },
     "sagarin": {
-        "sagarin_rate": "12"
+        "sagarin_rate": "11"
     },
     "teamrankings": {
         "make_tournament": "75.9%",
@@ -49,7 +49,7 @@
         "sos": "9"
     },
     "time": {
-        "time": "Jan 09, 11:57 PM"
+        "time": "Jan 10,  2:41 AM"
     },
     "trank": {
         "current_record": "11-4",
@@ -63,6 +63,6 @@
         "group2": "3-0",
         "group3": "2-0",
         "group4": "4-0",
-        "sos": "82"
+        "sos": "83"
     }
 }
