@@ -25,7 +25,7 @@
         "sos": "29"
     },
     "kpi_sports": {
-        "kpi_ranking": "45"
+        "kpi_ranking": "47"
     },
     "massey": {
         "composite": "21"
@@ -41,15 +41,15 @@
         "sagarin_rate": "11"
     },
     "teamrankings": {
-        "make_tournament": "75.9%",
+        "make_tournament": "74.7%",
         "most_likely_seed": "7",
         "projected_losses": "9.7",
         "projected_wins": "21.3",
         "rank": "12",
-        "sos": "9"
+        "sos": "10"
     },
     "time": {
-        "time": "Jan 10,  2:41 AM"
+        "time": "Jan 10, 11:05 AM"
     },
     "trank": {
         "current_record": "11-4",
