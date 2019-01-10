@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": "60",
         "matrix_seed": "7",
-        "total_brackets": "60"
+        "total_brackets": "61"
     },
     "cbs": {
         "cbs_rank": "6"
@@ -22,7 +22,7 @@
     },
     "kenpom": {
         "rating": "16",
-        "sos": "30"
+        "sos": "28"
     },
     "kpi_sports": {
         "kpi_ranking": "45"
@@ -49,7 +49,7 @@
         "sos": "9"
     },
     "time": {
-        "time": "Jan 09, 10:41 PM"
+        "time": "Jan 09, 11:57 PM"
     },
     "trank": {
         "current_record": "11-4",
