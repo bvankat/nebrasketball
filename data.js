@@ -31,7 +31,7 @@
         "composite": "21"
     },
     "ncaa": {
-        "net_rank": "12"
+        "net_rank": "13"
     },
     "polls": {
         "ap_rank": "NR",
@@ -49,7 +49,7 @@
         "sos": "10"
     },
     "time": {
-        "time": "Jan 10, 11:44 AM"
+        "time": "Jan 10, 12:41 PM"
     },
     "trank": {
         "current_record": "11-4",
