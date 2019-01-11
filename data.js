@@ -5,7 +5,7 @@
         "total_brackets": "61"
     },
     "cbs": {
-        "cbs_rank": "6"
+        "cbs_rank": "7"
     },
     "espn": {
         "bpi": "15",
@@ -31,7 +31,7 @@
         "composite": "21"
     },
     "ncaa": {
-        "net_rank": "13"
+        "net_rank": "14"
     },
     "polls": {
         "ap_rank": "NR",
@@ -41,7 +41,7 @@
         "sagarin_rate": "11"
     },
     "teamrankings": {
-        "make_tournament": "74.7%",
+        "make_tournament": "72.6%",
         "most_likely_seed": "7",
         "projected_losses": "9.7",
         "projected_wins": "21.3",
@@ -49,7 +49,7 @@
         "sos": "10"
     },
     "time": {
-        "time": "Jan 11,  2:43 AM"
+        "time": "Jan 11, 12:41 PM"
     },
     "trank": {
         "current_record": "12-4",
@@ -60,8 +60,8 @@
     "warrennolan": {
         "current_conf_record": "2-3",
         "group1": "1-4",
-        "group2": "3-0",
-        "group3": "3-0",
+        "group2": "4-0",
+        "group3": "2-0",
         "group4": "4-0",
         "sos": "89"
     }
