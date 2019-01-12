@@ -1,28 +1,28 @@
 {
     "bracketproject": {
-        "matrix_count": "60",
+        "matrix_count": "64",
         "matrix_seed": "7",
-        "total_brackets": "61"
+        "total_brackets": "65"
     },
     "cbs": {
         "cbs_rank": "7"
     },
     "espn": {
         "bpi": "15",
-        "chance_sweet_16": "37.3%",
-        "proj_tourney_seed": "10",
-        "proj_win_loss_conf": "11.1-8.9",
+        "chance_sweet_16": "34.0%",
+        "proj_tourney_seed": "9",
+        "proj_win_loss_conf": "11.0-9.0",
         "proj_win_loss_overall": "21.1-9.9",
-        "seven_day_change": "0",
-        "sor": "37",
-        "sos": "32"
+        "seven_day_change": "-2",
+        "sor": "35",
+        "sos": "38"
     },
     "espn_bracketology": {
         "seed": "6"
     },
     "kenpom": {
         "rating": "16",
-        "sos": "28"
+        "sos": "27"
     },
     "kpi_sports": {
         "kpi_ranking": "47"
@@ -49,7 +49,7 @@
         "sos": "10"
     },
     "time": {
-        "time": "Jan 11, 12:41 PM"
+        "time": "Jan 11, 10:41 PM"
     },
     "trank": {
         "current_record": "12-4",
@@ -63,6 +63,6 @@
         "group2": "4-0",
         "group3": "2-0",
         "group4": "4-0",
-        "sos": "89"
+        "sos": "86"
     }
 }
