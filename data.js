@@ -9,23 +9,23 @@
     },
     "espn": {
         "bpi": "15",
-        "chance_sweet_16": "34.0%",
-        "proj_tourney_seed": "9",
-        "proj_win_loss_conf": "11.0-9.0",
+        "chance_sweet_16": "32.5%",
+        "proj_tourney_seed": "10",
+        "proj_win_loss_conf": "11.1-8.9",
         "proj_win_loss_overall": "21.1-9.9",
         "seven_day_change": "-2",
-        "sor": "35",
-        "sos": "38"
+        "sor": "37",
+        "sos": "39"
     },
     "espn_bracketology": {
         "seed": "6"
     },
     "kenpom": {
-        "rating": "13",
-        "sos": "28"
+        "rating": "15",
+        "sos": "30"
     },
     "kpi_sports": {
-        "kpi_ranking": "47"
+        "kpi_ranking": "48"
     },
     "massey": {
         "composite": "21"
@@ -38,24 +38,24 @@
         "coaches_rank": "T-23"
     },
     "sagarin": {
-        "sagarin_rate": "11"
+        "sagarin_rate": "12"
     },
     "teamrankings": {
-        "make_tournament": "74.3%",
+        "make_tournament": "75.1%",
         "most_likely_seed": "7",
         "projected_losses": "9.7",
         "projected_wins": "21.3",
         "rank": "13",
-        "sos": "11"
+        "sos": "14"
     },
     "time": {
-        "time": "Jan 13, 12:41 AM"
+        "time": "Jan 13,  2:04 PM"
     },
     "trank": {
         "current_record": "12-4",
         "trank": "12",
         "trank_proj_record": "21-10 (11-9)",
-        "trank_seed": "5"
+        "trank_seed": "4"
     },
     "warrennolan": {
         "current_conf_record": "2-3",
@@ -63,6 +63,6 @@
         "group2": "4-0",
         "group3": "2-0",
         "group4": "4-0",
-        "sos": "78"
+        "sos": "82"
     }
 }
