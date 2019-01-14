@@ -28,28 +28,28 @@
         "kpi_ranking": "48"
     },
     "massey": {
-        "composite": "21"
+        "composite": "18"
     },
     "ncaa": {
         "net_rank": "13"
     },
     "polls": {
         "ap_rank": "NR",
-        "coaches_rank": "T-23"
+        "coaches_rank": "NR"
     },
     "sagarin": {
         "sagarin_rate": "12"
     },
     "teamrankings": {
-        "make_tournament": "75.1%",
+        "make_tournament": "73.2%",
         "most_likely_seed": "7",
         "projected_losses": "9.7",
         "projected_wins": "21.3",
         "rank": "13",
-        "sos": "14"
+        "sos": "15"
     },
     "time": {
-        "time": "Jan 13, 11:41 PM"
+        "time": "Jan 14, 12:42 PM"
     },
     "trank": {
         "current_record": "12-4",
@@ -60,8 +60,8 @@
     "warrennolan": {
         "current_conf_record": "2-3",
         "group1": "1-4",
-        "group2": "4-0",
-        "group3": "2-0",
+        "group2": "3-0",
+        "group3": "3-0",
         "group4": "4-0",
         "sos": "84"
     }
