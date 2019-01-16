@@ -18,7 +18,7 @@
         "sos": "25"
     },
     "espn_bracketology": {
-        "seed": "5"
+        "seed": "5-seed"
     },
     "kenpom": {
         "rating": "11",
@@ -45,11 +45,11 @@
         "most_likely_seed": "4",
         "projected_losses": "8.9",
         "projected_wins": "22.1",
-        "rank": "12",
+        "rank": "10",
         "sos": "15"
     },
     "time": {
-        "time": "Jan 16,  2:41 AM"
+        "time": "Jan 16,  2:54 AM"
     },
     "trank": {
         "current_record": "13-4",
