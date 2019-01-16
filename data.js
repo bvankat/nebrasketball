@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": "71",
-        "matrix_seed": "7",
-        "total_brackets": "73"
+        "matrix_count": "74",
+        "matrix_seed": "6",
+        "total_brackets": "75"
     },
     "cbs": {
         "cbs_rank": "5"
@@ -49,11 +49,11 @@
         "sos": "15"
     },
     "time": {
-        "time": "Jan 15, 12:41 PM"
+        "time": "Jan 16,  1:46 AM"
     },
     "trank": {
         "current_record": "13-4",
-        "trank": "8",
+        "trank": "7",
         "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "3"
     },
@@ -63,6 +63,6 @@
         "group2": "3-0",
         "group3": "3-0",
         "group4": "4-0",
-        "sos": "62"
+        "sos": "72"
     }
 }
