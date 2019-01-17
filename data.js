@@ -9,13 +9,13 @@
     },
     "espn": {
         "bpi": "12",
-        "chance_sweet_16": "40.5%",
+        "chance_sweet_16": "39.9%",
         "proj_tourney_seed": "6",
         "proj_win_loss_conf": "11.9-8.1",
         "proj_win_loss_overall": "21.9-9.1",
         "seven_day_change": "3",
-        "sor": "22",
-        "sos": "26"
+        "sor": "24",
+        "sos": "27"
     },
     "espn_bracketology": {
         "seed": "5-seed"
@@ -49,7 +49,7 @@
         "sos": "15"
     },
     "time": {
-        "time": "Jan 17,  2:04 PM"
+        "time": "Jan 17,  3:48 PM"
     },
     "trank": {
         "current_record": "13-4",
