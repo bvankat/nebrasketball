@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": "75",
+        "matrix_count": "77",
         "matrix_seed": "6",
-        "total_brackets": "76"
+        "total_brackets": "78"
     },
     "cbs": {
         "cbs_rank": "5"
@@ -21,8 +21,8 @@
         "seed": "5-seed"
     },
     "kenpom": {
-        "rating": "11",
-        "sos": "21"
+        "rating": "12",
+        "sos": "15"
     },
     "kpi_sports": {
         "kpi_ranking": "42"
@@ -38,31 +38,31 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "9"
+        "sagarin_rate": "10"
     },
     "teamrankings": {
-        "make_tournament": "81.9%",
-        "most_likely_seed": "4",
-        "projected_losses": "9.0",
-        "projected_wins": "22.0",
-        "rank": "10",
+        "make_tournament": "75.3%",
+        "most_likely_seed": "7",
+        "projected_losses": "9.5",
+        "projected_wins": "21.5",
+        "rank": "11",
         "sos": "15"
     },
     "time": {
-        "time": "Jan 17,  5:48 PM"
+        "time": "Jan 18,  3:42 AM"
     },
     "trank": {
-        "current_record": "13-4",
+        "current_record": "13-5",
         "trank": "7",
         "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "4"
     },
     "warrennolan": {
-        "current_conf_record": "3-3",
-        "group1": "2-4",
+        "current_conf_record": "3-4",
+        "group1": "2-5",
         "group2": "3-0",
         "group3": "3-0",
         "group4": "4-0",
-        "sos": "78"
+        "sos": "55"
     }
 }
