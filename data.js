@@ -1,11 +1,11 @@
 {
     "bracketproject": {
-        "matrix_count": "77",
+        "matrix_count": "74",
         "matrix_seed": "6",
-        "total_brackets": "78"
+        "total_brackets": "75"
     },
     "cbs": {
-        "cbs_rank": "5"
+        "cbs_rank": "6"
     },
     "espn": {
         "bpi": "12",
@@ -25,13 +25,13 @@
         "sos": "15"
     },
     "kpi_sports": {
-        "kpi_ranking": "42"
+        "kpi_ranking": "43"
     },
     "massey": {
         "composite": "18"
     },
     "ncaa": {
-        "net_rank": "11"
+        "net_rank": "14"
     },
     "polls": {
         "ap_rank": "NR",
@@ -41,7 +41,7 @@
         "sagarin_rate": "10"
     },
     "teamrankings": {
-        "make_tournament": "75.3%",
+        "make_tournament": "74.6%",
         "most_likely_seed": "7",
         "projected_losses": "9.5",
         "projected_wins": "21.5",
@@ -49,7 +49,7 @@
         "sos": "15"
     },
     "time": {
-        "time": "Jan 18,  3:42 AM"
+        "time": "Jan 19, 12:27 AM"
     },
     "trank": {
         "current_record": "13-5",
@@ -63,6 +63,6 @@
         "group2": "3-0",
         "group3": "3-0",
         "group4": "4-0",
-        "sos": "55"
+        "sos": "57"
     }
 }
