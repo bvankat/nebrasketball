@@ -21,7 +21,7 @@
         "seed": "5-seed"
     },
     "kenpom": {
-        "rating": "12",
+        "rating": "11",
         "sos": "17"
     },
     "kpi_sports": {
@@ -49,7 +49,7 @@
         "sos": "15"
     },
     "time": {
-        "time": "Jan 19,  5:56 PM"
+        "time": "Jan 19,  8:25 PM"
     },
     "trank": {
         "current_record": "13-5",
@@ -63,6 +63,6 @@
         "group2": "3-0",
         "group3": "3-0",
         "group4": "4-0",
-        "sos": "53"
+        "sos": "51"
     }
 }
