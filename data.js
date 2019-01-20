@@ -21,7 +21,7 @@
         "seed": "5-seed"
     },
     "kenpom": {
-        "rating": "13",
+        "rating": "12",
         "sos": "18"
     },
     "kpi_sports": {
@@ -49,13 +49,13 @@
         "sos": "15"
     },
     "time": {
-        "time": "Jan 19,  8:42 PM"
+        "time": "Jan 19,  9:44 PM"
     },
     "trank": {
         "current_record": "13-5",
         "trank": "7",
         "trank_proj_record": "22-9 (12-8)",
-        "trank_seed": "4"
+        "trank_seed": "5"
     },
     "warrennolan": {
         "current_conf_record": "3-4",
@@ -63,6 +63,6 @@
         "group2": "3-0",
         "group3": "3-0",
         "group4": "4-0",
-        "sos": "58"
+        "sos": "59"
     }
 }
