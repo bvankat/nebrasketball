@@ -49,13 +49,13 @@
         "sos": "19"
     },
     "time": {
-        "time": "Jan 21, 12:42 AM"
+        "time": "Jan 21,  1:42 AM"
     },
     "trank": {
         "current_record": "13-5",
         "trank": "7",
         "trank_proj_record": "22-9 (12-8)",
-        "trank_seed": "4"
+        "trank_seed": "5"
     },
     "warrennolan": {
         "current_conf_record": "3-4",
