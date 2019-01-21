@@ -8,14 +8,14 @@
         "cbs_rank": "6"
     },
     "espn": {
-        "bpi": "13",
-        "chance_sweet_16": "37.6%",
-        "proj_tourney_seed": "7",
+        "bpi": "15",
+        "chance_sweet_16": "36.8%",
+        "proj_tourney_seed": "8",
         "proj_win_loss_conf": "11.3-8.7",
         "proj_win_loss_overall": "21.3-9.7",
-        "seven_day_change": "2",
-        "sor": "28",
-        "sos": "20"
+        "seven_day_change": "-1",
+        "sor": "30",
+        "sos": "21"
     },
     "espn_bracketology": {
         "seed": "5-seed"
@@ -31,7 +31,7 @@
         "composite": "18"
     },
     "ncaa": {
-        "net_rank": "14"
+        "net_rank": "15"
     },
     "polls": {
         "ap_rank": "NR",
@@ -49,7 +49,7 @@
         "sos": "19"
     },
     "time": {
-        "time": "Jan 20,  1:41 PM"
+        "time": "Jan 20, 10:55 PM"
     },
     "trank": {
         "current_record": "13-5",
@@ -60,9 +60,9 @@
     "warrennolan": {
         "current_conf_record": "3-4",
         "group1": "2-5",
-        "group2": "3-0",
-        "group3": "3-0",
+        "group2": "4-0",
+        "group3": "2-0",
         "group4": "4-0",
-        "sos": "56"
+        "sos": "57"
     }
 }
