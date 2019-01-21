@@ -28,7 +28,7 @@
         "kpi_ranking": "45"
     },
     "massey": {
-        "composite": "21"
+        "composite": "18"
     },
     "ncaa": {
         "net_rank": "13"
@@ -49,7 +49,7 @@
         "sos": "19"
     },
     "time": {
-        "time": "Jan 21,  2:42 PM"
+        "time": "Jan 21,  3:42 PM"
     },
     "trank": {
         "current_record": "13-5",
@@ -63,6 +63,6 @@
         "group2": "4-0",
         "group3": "2-0",
         "group4": "4-0",
-        "sos": "57"
+        "sos": "59"
     }
 }
