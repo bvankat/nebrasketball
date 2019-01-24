@@ -9,20 +9,20 @@
     },
     "espn": {
         "bpi": "16",
-        "chance_sweet_16": "28.3%",
-        "proj_tourney_seed": "10",
-        "proj_win_loss_conf": "10.4-9.6",
-        "proj_win_loss_overall": "20.4-10.6",
+        "chance_sweet_16": "28.7%",
+        "proj_tourney_seed": "9",
+        "proj_win_loss_conf": "10.3-9.7",
+        "proj_win_loss_overall": "20.3-10.7",
         "seven_day_change": "-4",
-        "sor": "38",
+        "sor": "36",
         "sos": "19"
     },
     "espn_bracketology": {
         "seed": "8-seed"
     },
     "kenpom": {
-        "rating": "15",
-        "sos": "17"
+        "rating": "14",
+        "sos": "16"
     },
     "kpi_sports": {
         "kpi_ranking": "48"
@@ -31,7 +31,7 @@
         "composite": "21"
     },
     "ncaa": {
-        "net_rank": "21"
+        "net_rank": "20"
     },
     "polls": {
         "ap_rank": "NR",
@@ -49,7 +49,7 @@
         "sos": "18"
     },
     "time": {
-        "time": "Jan 23,  2:45 PM"
+        "time": "Jan 23,  9:41 PM"
     },
     "trank": {
         "current_record": "13-6",
@@ -63,6 +63,6 @@
         "group2": "3-1",
         "group3": "3-0",
         "group4": "4-0",
-        "sos": "79"
+        "sos": "75"
     }
 }
