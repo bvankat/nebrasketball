@@ -43,13 +43,13 @@
     "teamrankings": {
         "make_tournament": "63.2%",
         "most_likely_seed": "7",
-        "projected_losses": "10.5",
-        "projected_wins": "20.5",
+        "projected_losses": "10.6",
+        "projected_wins": "20.4",
         "rank": "13",
         "sos": "18"
     },
     "time": {
-        "time": "Jan 25, 10:41 PM"
+        "time": "Jan 26, 11:16 AM"
     },
     "trank": {
         "current_record": "13-6",
@@ -60,8 +60,8 @@
     "warrennolan": {
         "current_conf_record": "3-5",
         "group1": "2-5",
-        "group2": "4-1",
-        "group3": "2-0",
+        "group2": "3-1",
+        "group3": "3-0",
         "group4": "4-0",
         "sos": "76"
     }
