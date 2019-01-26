@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": "85",
+        "matrix_count": "86",
         "matrix_seed": "7",
-        "total_brackets": "86"
+        "total_brackets": "87"
     },
     "cbs": {
         "cbs_rank": "8"
@@ -49,7 +49,7 @@
         "sos": "18"
     },
     "time": {
-        "time": "Jan 25,  3:41 PM"
+        "time": "Jan 25,  9:42 PM"
     },
     "trank": {
         "current_record": "13-6",
@@ -63,6 +63,6 @@
         "group2": "4-1",
         "group3": "2-0",
         "group4": "4-0",
-        "sos": "76"
+        "sos": "77"
     }
 }
