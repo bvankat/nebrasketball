@@ -9,11 +9,11 @@
     },
     "espn": {
         "bpi": "16",
-        "chance_sweet_16": "29.5%",
+        "chance_sweet_16": "28.6%",
         "proj_tourney_seed": "10",
-        "proj_win_loss_conf": "10.4-9.6",
-        "proj_win_loss_overall": "20.4-10.6",
-        "seven_day_change": "-2",
+        "proj_win_loss_conf": "10.3-9.7",
+        "proj_win_loss_overall": "20.3-10.7",
+        "seven_day_change": "-3",
         "sor": "37",
         "sos": "20"
     },
@@ -49,7 +49,7 @@
         "sos": "18"
     },
     "time": {
-        "time": "Jan 26, 11:16 AM"
+        "time": "Jan 26, 11:42 AM"
     },
     "trank": {
         "current_record": "13-6",
