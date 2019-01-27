@@ -49,11 +49,11 @@
         "sos": "18"
     },
     "time": {
-        "time": "Jan 26, 10:31 PM"
+        "time": "Jan 26, 10:41 PM"
     },
     "trank": {
         "current_record": "13-7",
-        "trank": "13",
+        "trank": "12",
         "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "6"
     },
