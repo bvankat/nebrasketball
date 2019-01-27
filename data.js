@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": "86",
+        "matrix_count": "87",
         "matrix_seed": "7",
-        "total_brackets": "87"
+        "total_brackets": "88"
     },
     "cbs": {
         "cbs_rank": "8"
@@ -21,8 +21,8 @@
         "seed": "8-seed"
     },
     "kenpom": {
-        "rating": "14",
-        "sos": "17"
+        "rating": "18",
+        "sos": "14"
     },
     "kpi_sports": {
         "kpi_ranking": "47"
@@ -49,12 +49,12 @@
         "sos": "18"
     },
     "time": {
-        "time": "Jan 26,  1:41 PM"
+        "time": "Jan 26, 10:31 PM"
     },
     "trank": {
-        "current_record": "13-6",
-        "trank": "10",
-        "trank_proj_record": "20-11 (10-10)",
+        "current_record": "13-7",
+        "trank": "13",
+        "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "6"
     },
     "warrennolan": {
@@ -63,6 +63,6 @@
         "group2": "3-2",
         "group3": "3-0",
         "group4": "4-0",
-        "sos": "68"
+        "sos": "66"
     }
 }
