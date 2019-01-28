@@ -41,7 +41,7 @@
         "sagarin_rate": "19"
     },
     "teamrankings": {
-        "make_tournament": "46.5%",
+        "make_tournament": "43.9%",
         "most_likely_seed": "8",
         "projected_losses": "11.6",
         "projected_wins": "19.4",
@@ -49,13 +49,13 @@
         "sos": "20"
     },
     "time": {
-        "time": "Jan 28,  2:41 AM"
+        "time": "Jan 28,  3:42 AM"
     },
     "trank": {
         "current_record": "13-7",
         "trank": "13",
         "trank_proj_record": "19-12 (9-11)",
-        "trank_seed": "7"
+        "trank_seed": "8"
     },
     "warrennolan": {
         "current_conf_record": "3-6",
