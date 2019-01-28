@@ -122,7 +122,6 @@
 					<tr><td>Bart Torvik</td><td id="trank-trank" class="r"></td></tr>
 			    	<tr><td>Massey Composite</td><td id="massey-comp" class="r"></td></tr>
 			    
-			    	<!-- <tr><td>TeamRankings.com</td><td id="teamrankings-rating" class="r"></td></tr> -->
 			    	<!-- <tr><td>LRMC</td><td id="lrmc-rank" class="r"></td></tr> -->
 		    	
 					
@@ -145,6 +144,13 @@
 						<td>CBS Sports - Jerry Palm Bracketology</td>
 						<td class="r"><span id="cbs-bracket"></span>-seed</td>
 					</tr>
+					<tr>
+						<td>TeamRankings tournament percentage</td>
+						<td id="teamrankings-rating" class="r"></td>
+						</tr>
+
+
+
 				</tbody>
 			</table>
 	    	
@@ -278,6 +284,7 @@
 			$('#trank-trank').text(json.trank.trank);
 			
 			$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
+			$('#teamrankings-rating').text(json.teamrankings.make_tournament);
 			
 			$('#kpi_ranking').text(json.kpi_sports.kpi_ranking);
 			
