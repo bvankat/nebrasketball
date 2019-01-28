@@ -337,7 +337,7 @@
 			 ncaa_score = FindScore(json.warrennolan.rpi); // Using live one rather than json.ncaa.rpi_rank for more frequent updates
 			 espn_sor = FindScore(parseInt(json.espn.sor)); // SOR is stronger predictor than BPI
 			 espn_bpi = FindScore(parseInt(json.espn.bpi)); 
-			 // teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
+			 teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
 			 sagarin_score = FindScore(json.sagarin.sagarin_rate);
 			 trank_score = FindScore(json.trank.trank);
 			 kpi_score = FindScore(json.kpi_sports.kpi_ranking);
@@ -369,14 +369,15 @@
 
 			 
 			 
-			 console.log("NCAA NET: " + net_score + "    (12%)");
-			 console.log("Kenpom score (predictive): " + kenpom_score + "    (12%)");
+			 console.log("NCAA NET: " + net_score + "    (10%)");
+			 console.log("Kenpom score (predictive): " + kenpom_score + "    (10%)");
 			 console.log("ESPN SOR score (results-based): " + espn_sor + "    (18%)");
 			 console.log("KPI score (results-based): " + kpi_score + "    (20%)");
-			 console.log("ESPN BPI score (predictive): " + espn_bpi + "    (12%)");
+			 console.log("ESPN BPI score (predictive): " + espn_bpi + "    (10%)");
+			 console.log("Massey score (composite): " + massey_score + "    (6%)");
 			 console.log("Sagarin score (predictive): " + sagarin_score + "    (9%)");
 			 console.log("Torvik T-Rank score (predictive): " + trank_score + "    (9%)");
-			 console.log("Massey score (composite): " + massey_score + "    (6%)");
+			 console.log("TeamRankings (RPI-based): " + teamrankings_score + "    (6%)");
 			 console.log("Total score: " + total_score);
 
 			});		
