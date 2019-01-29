@@ -18,14 +18,14 @@
         "sos": "22"
     },
     "espn_bracketology": {
-        "seed": "8-seed"
+        "seed": "9-seed"
     },
     "kenpom": {
         "rating": "17",
-        "sos": "15"
+        "sos": "14"
     },
     "kpi_sports": {
-        "kpi_ranking": "51"
+        "kpi_ranking": "52"
     },
     "massey": {
         "composite": "30"
@@ -49,7 +49,7 @@
         "sos": "20"
     },
     "time": {
-        "time": "Jan 28, 10:42 PM"
+        "time": "Jan 28, 11:42 PM"
     },
     "trank": {
         "current_record": "13-7",
