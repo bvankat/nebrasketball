@@ -9,7 +9,7 @@
     },
     "espn": {
         "bpi": "22",
-        "chance_sweet_16": "17.4%",
+        "chance_sweet_16": "20.1%",
         "proj_tourney_seed": "12",
         "proj_win_loss_conf": "8.5-11.5",
         "proj_win_loss_overall": "18.5-12.5",
@@ -49,7 +49,7 @@
         "sos": "25"
     },
     "time": {
-        "time": "Feb 01, 11:42 AM"
+        "time": "Feb 01, 12:41 PM"
     },
     "trank": {
         "current_record": "13-8",
