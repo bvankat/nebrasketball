@@ -5,7 +5,7 @@
         "total_brackets": "99"
     },
     "cbs": {
-        "cbs_rank": "10"
+        "cbs_rank": "11"
     },
     "espn": {
         "bpi": "22",
@@ -42,14 +42,14 @@
     },
     "teamrankings": {
         "make_tournament": "21.9%",
-        "most_likely_seed": "10",
+        "most_likely_seed": "9",
         "projected_losses": "12.6",
         "projected_wins": "18.4",
         "rank": "20",
         "sos": "25"
     },
     "time": {
-        "time": "Feb 01,  1:42 AM"
+        "time": "Feb 01, 11:42 AM"
     },
     "trank": {
         "current_record": "13-8",
