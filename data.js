@@ -9,13 +9,13 @@
     },
     "espn": {
         "bpi": "22",
-        "chance_sweet_16": "14.7%",
+        "chance_sweet_16": "15.0%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "7.7-12.3",
         "proj_win_loss_overall": "17.7-13.3",
-        "seven_day_change": "-4",
-        "sor": "61",
-        "sos": "26"
+        "seven_day_change": "-3",
+        "sor": "60",
+        "sos": "25"
     },
     "espn_bracketology": {
         "seed": "10-seed"
@@ -28,7 +28,7 @@
         "kpi_ranking": "64"
     },
     "massey": {
-        "composite": "35"
+        "composite": "36"
     },
     "ncaa": {
         "net_rank": "33"
@@ -49,7 +49,7 @@
         "sos": "29"
     },
     "time": {
-        "time": "Feb 04,  1:17 PM"
+        "time": "Feb 04,  1:41 PM"
     },
     "trank": {
         "current_record": "13-9",
