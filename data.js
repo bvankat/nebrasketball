@@ -28,7 +28,7 @@
         "kpi_ranking": "64"
     },
     "massey": {
-        "composite": "30"
+        "composite": "35"
     },
     "ncaa": {
         "net_rank": "33"
@@ -38,18 +38,18 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "23"
+        "sagarin_rate": "22"
     },
     "teamrankings": {
-        "make_tournament": "10.5%",
+        "make_tournament": "11.1%",
         "most_likely_seed": "9",
         "projected_losses": "13.4",
         "projected_wins": "17.6",
         "rank": "21",
-        "sos": "27"
+        "sos": "29"
     },
     "time": {
-        "time": "Feb 03,  3:44 PM"
+        "time": "Feb 04,  1:17 PM"
     },
     "trank": {
         "current_record": "13-9",
@@ -64,6 +64,6 @@
         "group3": "3-0",
         "group4": "4-0",
         "rpi": "109",
-        "sos": "82"
+        "sos": "107"
     }
 }
