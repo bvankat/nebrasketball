@@ -335,7 +335,6 @@
 			 
 			 kenpom_score = FindScore(json.kenpom.rating);
 			 net_score = FindScore(json.ncaa.net_rank);
-			 ncaa_score = FindScore(json.warrennolan.rpi); // Using live one rather than json.ncaa.rpi_rank for more frequent updates
 			 espn_sor = FindScore(parseInt(json.espn.sor)); // SOR is stronger predictor than BPI
 			 espn_bpi = FindScore(parseInt(json.espn.bpi)); 
 			 teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
@@ -352,31 +351,18 @@
 			 
 			 
 			 
-			 
-			 
 			 function StatusCheck(data) {
 				 var status_message;
-				 if (data < 45) { status_message = "Nope. Just look at them." }
-				 if (data >= 45 && data < 55) { status_message = "Few positive scenarios remain." }
-				 if (data >= 55 && data < 75) { status_message = "Computer rankings are a light in the darkness." }
+				 if (data < 25) { status_message = "Gonna have to turn down that NIT bid." }
+				 if (data >= 25 && data < 35) { status_message = "Win one, then we'll talk again." }
+				 if (data >= 35 && data < 45) { status_message = "Optimism creeping back in. Beware." }
+				 if (data >= 45 && data < 55) { status_message = "Scouting possible B10 Tournament oppenents." }
+				 if (data >= 55 && data < 75) { status_message = "We've come a long way, baby." }
 				 if (data >= 75) { status_message = "Believe it when we see it." }
 				 
 				 return status_message;
 				 
 			 }
-			 
-		//	 function StatusCheck(data) {
-		//		 var status_message;
-		//		 if (data < 25) { status_message = "NIT bound." }
-		//		 if (data >= 25 && data < 35) { status_message = "Not happening, but we're still watching the selection show." }
-		//		 if (data >= 35 && data < 45) { status_message = "Ignoring everything but the eye test." }
-		//		 if (data >= 45 && data < 55) { status_message = "Few positive scenarios remain." }
-		//		 if (data >= 55 && data < 75) { status_message = "Computer rankings are a light in the darkness." }
-		//		 if (data >= 75) { status_message = "Believe it when we see it." }
-		//		 
-		//		 return status_message;
-		//		 
-		//	 }
 			 
 			 message = StatusCheck(total_score);
 			 console.log(message);
