@@ -8,27 +8,27 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "22",
-        "chance_sweet_16": "15.0%",
+        "bpi": "21",
+        "chance_sweet_16": "14.8%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "7.7-12.3",
         "proj_win_loss_overall": "17.7-13.3",
-        "seven_day_change": "-3",
+        "seven_day_change": "-2",
         "sor": "60",
         "sos": "25"
     },
     "espn_bracketology": {
-        "seed": "10-seed"
+        "seed": "NR"
     },
     "kenpom": {
         "rating": "27",
         "sos": "13"
     },
     "kpi_sports": {
-        "kpi_ranking": "64"
+        "kpi_ranking": "65"
     },
     "massey": {
-        "composite": "36"
+        "composite": "37"
     },
     "ncaa": {
         "net_rank": "33"
@@ -38,18 +38,18 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "22"
+        "sagarin_rate": "21"
     },
     "teamrankings": {
-        "make_tournament": "11.1%",
+        "make_tournament": "11.2%",
         "most_likely_seed": "9",
         "projected_losses": "13.4",
         "projected_wins": "17.6",
-        "rank": "21",
+        "rank": "20",
         "sos": "29"
     },
     "time": {
-        "time": "Feb 04, 10:42 PM"
+        "time": "Feb 05,  2:40 PM"
     },
     "trank": {
         "current_record": "13-9",
@@ -60,8 +60,8 @@
     "warrennolan": {
         "current_conf_record": "3-8",
         "group1": "2-6",
-        "group2": "3-3",
-        "group3": "3-0",
+        "group2": "4-3",
+        "group3": "2-0",
         "group4": "4-0",
         "rpi": "104",
         "sos": "106"
