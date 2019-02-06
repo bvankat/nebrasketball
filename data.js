@@ -45,11 +45,11 @@
         "most_likely_seed": "9",
         "projected_losses": "13.4",
         "projected_wins": "17.6",
-        "rank": "20",
-        "sos": "29"
+        "rank": "27",
+        "sos": "30"
     },
     "time": {
-        "time": "Feb 05,  8:41 PM"
+        "time": "Feb 05,  9:41 PM"
     },
     "trank": {
         "current_record": "13-9",
@@ -63,7 +63,7 @@
         "group2": "4-3",
         "group3": "2-0",
         "group4": "4-0",
-        "rpi": "102",
-        "sos": "104"
+        "rpi": "104",
+        "sos": "105"
     }
 }
