@@ -25,7 +25,7 @@
         "sos": "15"
     },
     "kpi_sports": {
-        "kpi_ranking": "65"
+        "kpi_ranking": "63"
     },
     "massey": {
         "composite": "38"
@@ -38,18 +38,18 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "21"
+        "sagarin_rate": "22"
     },
     "teamrankings": {
-        "make_tournament": "11.2%",
+        "make_tournament": "11.5%",
         "most_likely_seed": "9",
-        "projected_losses": "13.4",
-        "projected_wins": "17.6",
-        "rank": "21",
+        "projected_losses": "13.3",
+        "projected_wins": "17.7",
+        "rank": "20",
         "sos": "29"
     },
     "time": {
-        "time": "Feb 06, 12:22 AM"
+        "time": "Feb 06,  3:41 PM"
     },
     "trank": {
         "current_record": "13-9",
@@ -60,8 +60,8 @@
     "warrennolan": {
         "current_conf_record": "3-8",
         "group1": "2-6",
-        "group2": "4-3",
-        "group3": "2-0",
+        "group2": "3-3",
+        "group3": "3-0",
         "group4": "4-0",
         "rpi": "103",
         "sos": "105"
