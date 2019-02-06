@@ -22,7 +22,7 @@
     },
     "kenpom": {
         "rating": "27",
-        "sos": "14"
+        "sos": "15"
     },
     "kpi_sports": {
         "kpi_ranking": "65"
@@ -45,15 +45,15 @@
         "most_likely_seed": "9",
         "projected_losses": "13.4",
         "projected_wins": "17.6",
-        "rank": "27",
-        "sos": "30"
+        "rank": "21",
+        "sos": "29"
     },
     "time": {
-        "time": "Feb 05,  9:41 PM"
+        "time": "Feb 05, 10:41 PM"
     },
     "trank": {
         "current_record": "13-9",
-        "trank": "21",
+        "trank": "20",
         "trank_proj_record": "18-13 (8-12)",
         "trank_seed": "10"
     },
