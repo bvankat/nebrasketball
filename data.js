@@ -21,8 +21,8 @@
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "33",
-        "sos": "12"
+        "rating": "32",
+        "sos": "13"
     },
     "kpi_sports": {
         "kpi_ranking": "63"
@@ -49,7 +49,7 @@
         "sos": "29"
     },
     "time": {
-        "time": "Feb 06,  9:41 PM"
+        "time": "Feb 06, 10:46 PM"
     },
     "trank": {
         "current_record": "13-10",
@@ -63,7 +63,7 @@
         "group2": "3-3",
         "group3": "3-0",
         "group4": "4-0",
-        "rpi": "114",
-        "sos": "88"
+        "rpi": "117",
+        "sos": "92"
     }
 }
