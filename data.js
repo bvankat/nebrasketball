@@ -49,7 +49,7 @@
         "sos": "25"
     },
     "time": {
-        "time": "Feb 07, 10:53 AM"
+        "time": "Feb 07,  2:41 PM"
     },
     "trank": {
         "current_record": "13-10",
