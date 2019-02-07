@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": "62",
+        "matrix_count": "64",
         "matrix_seed": "10",
-        "total_brackets": "102"
+        "total_brackets": "108"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -49,13 +49,13 @@
         "sos": "29"
     },
     "time": {
-        "time": "Feb 06, 10:46 PM"
+        "time": "Feb 06, 11:41 PM"
     },
     "trank": {
         "current_record": "13-10",
         "trank": "25",
         "trank_proj_record": "17-14 (7-13)",
-        "trank_seed": "12"
+        "trank_seed": "11"
     },
     "warrennolan": {
         "current_conf_record": "3-9",
@@ -63,7 +63,7 @@
         "group2": "3-3",
         "group3": "3-0",
         "group4": "4-0",
-        "rpi": "117",
-        "sos": "92"
+        "rpi": "118",
+        "sos": "95"
     }
 }
