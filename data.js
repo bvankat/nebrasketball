@@ -49,19 +49,19 @@
         "sos": "27"
     },
     "time": {
-        "time": "Feb 08, 10:41 AM"
+        "time": "Feb 08, 11:41 AM"
     },
     "trank": {
         "current_record": "13-10",
         "trank": "27",
         "trank_proj_record": "17-14 (7-13)",
-        "trank_seed": "12"
+        "trank_seed": "11"
     },
     "warrennolan": {
         "current_conf_record": "3-9",
         "group1": "2-7",
-        "group2": "3-3",
-        "group3": "3-0",
+        "group2": "4-3",
+        "group3": "2-0",
         "group4": "4-0",
         "rpi": "116",
         "sos": "99"
