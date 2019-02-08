@@ -9,12 +9,12 @@
     },
     "espn": {
         "bpi": "26",
-        "chance_sweet_16": "11.8%",
+        "chance_sweet_16": "5.9%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "6.8-13.2",
         "proj_win_loss_overall": "16.8-14.2",
         "seven_day_change": "-4",
-        "sor": "66",
+        "sor": "63",
         "sos": "23"
     },
     "espn_bracketology": {
@@ -49,7 +49,7 @@
         "sos": "27"
     },
     "time": {
-        "time": "Feb 08,  9:42 AM"
+        "time": "Feb 08, 10:41 AM"
     },
     "trank": {
         "current_record": "13-10",
