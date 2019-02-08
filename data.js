@@ -25,7 +25,7 @@
         "sos": "12"
     },
     "kpi_sports": {
-        "kpi_ranking": "63"
+        "kpi_ranking": "64"
     },
     "massey": {
         "composite": "38"
@@ -49,11 +49,11 @@
         "sos": "25"
     },
     "time": {
-        "time": "Feb 07, 11:41 PM"
+        "time": "Feb 08, 12:42 AM"
     },
     "trank": {
         "current_record": "13-10",
-        "trank": "26",
+        "trank": "27",
         "trank_proj_record": "17-14 (7-13)",
         "trank_seed": "12"
     },
@@ -63,7 +63,7 @@
         "group2": "3-3",
         "group3": "3-0",
         "group4": "4-0",
-        "rpi": "116",
+        "rpi": "115",
         "sos": "99"
     }
 }
