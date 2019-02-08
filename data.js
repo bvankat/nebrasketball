@@ -49,7 +49,7 @@
         "sos": "25"
     },
     "time": {
-        "time": "Feb 08, 12:42 AM"
+        "time": "Feb 08,  1:42 AM"
     },
     "trank": {
         "current_record": "13-10",
@@ -63,7 +63,7 @@
         "group2": "3-3",
         "group3": "3-0",
         "group4": "4-0",
-        "rpi": "115",
+        "rpi": "116",
         "sos": "99"
     }
 }
