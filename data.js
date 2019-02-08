@@ -22,7 +22,7 @@
     },
     "kenpom": {
         "rating": "32",
-        "sos": "13"
+        "sos": "12"
     },
     "kpi_sports": {
         "kpi_ranking": "63"
@@ -49,13 +49,13 @@
         "sos": "25"
     },
     "time": {
-        "time": "Feb 07,  8:41 PM"
+        "time": "Feb 07,  9:41 PM"
     },
     "trank": {
         "current_record": "13-10",
         "trank": "26",
         "trank_proj_record": "17-14 (7-13)",
-        "trank_seed": "NR"
+        "trank_seed": "12"
     },
     "warrennolan": {
         "current_conf_record": "3-9",
@@ -63,7 +63,7 @@
         "group2": "3-3",
         "group3": "3-0",
         "group4": "4-0",
-        "rpi": "119",
-        "sos": "94"
+        "rpi": "116",
+        "sos": "97"
     }
 }
