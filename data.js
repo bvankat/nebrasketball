@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "10.53",
+        "matrix_count": "Big Ten",
         "matrix_seed": "",
         "total_brackets": "1.00"
     },
@@ -49,7 +49,7 @@
         "sos": "26"
     },
     "time": {
-        "time": "Feb 11,  1:42 AM"
+        "time": "Feb 11,  1:55 AM"
     },
     "trank": {
         "current_record": "13-11",
