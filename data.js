@@ -8,62 +8,62 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "26",
-        "chance_sweet_16": "5.9%",
+        "bpi": "31",
+        "chance_sweet_16": "3.7%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "6.8-13.2",
-        "proj_win_loss_overall": "16.8-14.2",
-        "seven_day_change": "-4",
+        "proj_win_loss_conf": "6.5-13.5",
+        "proj_win_loss_overall": "16.5-14.5",
+        "seven_day_change": "-9",
         "sor": "63",
-        "sos": "23"
+        "sos": "17"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "33",
-        "sos": "13"
+        "rating": "36",
+        "sos": "10"
     },
     "kpi_sports": {
-        "kpi_ranking": "64"
+        "kpi_ranking": "69"
     },
     "massey": {
         "composite": "38"
     },
     "ncaa": {
-        "net_rank": "36"
+        "net_rank": "40"
     },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "30"
+        "sagarin_rate": "37"
     },
     "teamrankings": {
-        "make_tournament": "5.3%",
+        "make_tournament": "3.3%",
         "most_likely_seed": "12",
-        "projected_losses": "14.2",
-        "projected_wins": "16.8",
-        "rank": "27",
-        "sos": "27"
+        "projected_losses": "14.5",
+        "projected_wins": "16.5",
+        "rank": "31",
+        "sos": "26"
     },
     "time": {
-        "time": "Feb 09,  1:42 PM"
+        "time": "Feb 11,  1:42 AM"
     },
     "trank": {
-        "current_record": "13-10",
-        "trank": "27",
+        "current_record": "13-11",
+        "trank": "28",
         "trank_proj_record": "17-14 (7-13)",
-        "trank_seed": "11"
+        "trank_seed": "NR"
     },
     "warrennolan": {
-        "current_conf_record": "3-9",
-        "group1": "2-7",
+        "current_conf_record": "3-10",
+        "group1": "2-8",
         "group2": "4-3",
         "group3": "2-0",
         "group4": "4-0",
-        "rpi": "117",
-        "sos": "101"
+        "rpi": "109",
+        "sos": "79"
     }
 }
