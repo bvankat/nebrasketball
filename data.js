@@ -13,9 +13,9 @@
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "6.5-13.5",
         "proj_win_loss_overall": "16.5-14.5",
-        "seven_day_change": "-9",
+        "seven_day_change": "-10",
         "sor": "63",
-        "sos": "17"
+        "sos": "18"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -41,7 +41,7 @@
         "sagarin_rate": "32"
     },
     "teamrankings": {
-        "make_tournament": "3.6%",
+        "make_tournament": "3.7%",
         "most_likely_seed": "12",
         "projected_losses": "14.5",
         "projected_wins": "16.5",
@@ -49,7 +49,7 @@
         "sos": "25"
     },
     "time": {
-        "time": "Feb 12,  5:41 AM"
+        "time": "Feb 12,  6:41 AM"
     },
     "trank": {
         "current_record": "13-11",
