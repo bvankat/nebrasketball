@@ -22,10 +22,10 @@
     },
     "kenpom": {
         "rating": "35",
-        "sos": "10"
+        "sos": "11"
     },
     "kpi_sports": {
-        "kpi_ranking": "69"
+        "kpi_ranking": "68"
     },
     "massey": {
         "composite": "46"
@@ -49,11 +49,11 @@
         "sos": "25"
     },
     "time": {
-        "time": "Feb 12, 10:43 PM"
+        "time": "Feb 13,  2:42 AM"
     },
     "trank": {
         "current_record": "13-11",
-        "trank": "28",
+        "trank": "29",
         "trank_proj_record": "17-14 (7-13)",
         "trank_seed": "12"
     },
