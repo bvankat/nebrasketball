@@ -38,24 +38,24 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "32"
+        "sagarin_rate": "34"
     },
     "teamrankings": {
-        "make_tournament": "3.7%",
+        "make_tournament": "3.6%",
         "most_likely_seed": "12",
         "projected_losses": "14.5",
         "projected_wins": "16.5",
-        "rank": "31",
+        "rank": "30",
         "sos": "25"
     },
     "time": {
-        "time": "Feb 13,  2:42 AM"
+        "time": "Feb 13,  2:42 PM"
     },
     "trank": {
         "current_record": "13-11",
         "trank": "29",
         "trank_proj_record": "17-14 (7-13)",
-        "trank_seed": "12"
+        "trank_seed": "NR"
     },
     "warrennolan": {
         "current_conf_record": "3-10",
