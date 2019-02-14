@@ -8,21 +8,21 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "31",
-        "chance_sweet_16": "4.0%",
+        "bpi": "32",
+        "chance_sweet_16": "4.6%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "6.5-13.5",
         "proj_win_loss_overall": "16.5-14.5",
         "seven_day_change": "-10",
         "sor": "63",
-        "sos": "18"
+        "sos": "17"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "35",
-        "sos": "11"
+        "rating": "34",
+        "sos": "12"
     },
     "kpi_sports": {
         "kpi_ranking": "68"
@@ -49,21 +49,21 @@
         "sos": "25"
     },
     "time": {
-        "time": "Feb 13,  2:42 PM"
+        "time": "Feb 13, 11:25 PM"
     },
     "trank": {
         "current_record": "13-11",
         "trank": "29",
         "trank_proj_record": "17-14 (7-13)",
-        "trank_seed": "NR"
+        "trank_seed": "12"
     },
     "warrennolan": {
-        "current_conf_record": "3-10",
+        "current_conf_record": "4-10",
         "group1": "2-8",
-        "group2": "4-3",
+        "group2": "5-3",
         "group3": "2-0",
         "group4": "4-0",
-        "rpi": "111",
-        "sos": "78"
+        "rpi": "99",
+        "sos": "70"
     }
 }
