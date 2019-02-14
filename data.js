@@ -8,14 +8,14 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "32",
-        "chance_sweet_16": "4.6%",
+        "bpi": "33",
+        "chance_sweet_16": "3.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "6.5-13.5",
-        "proj_win_loss_overall": "16.5-14.5",
-        "seven_day_change": "-10",
-        "sor": "63",
-        "sos": "17"
+        "proj_win_loss_conf": "6.7-13.3",
+        "proj_win_loss_overall": "16.7-14.3",
+        "seven_day_change": "-7",
+        "sor": "60",
+        "sos": "20"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -49,7 +49,7 @@
         "sos": "24"
     },
     "time": {
-        "time": "Feb 14,  1:17 PM"
+        "time": "Feb 14,  1:41 PM"
     },
     "trank": {
         "current_record": "14-11",
