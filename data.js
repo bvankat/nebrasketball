@@ -21,7 +21,7 @@
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "36",
+        "rating": "35",
         "sos": "12"
     },
     "kpi_sports": {
@@ -31,7 +31,7 @@
         "composite": "46"
     },
     "ncaa": {
-        "net_rank": "40"
+        "net_rank": "39"
     },
     "polls": {
         "ap_rank": "NR",
@@ -49,7 +49,7 @@
         "sos": "24"
     },
     "time": {
-        "time": "Feb 14,  2:41 PM"
+        "time": "Feb 14,  9:41 PM"
     },
     "trank": {
         "current_record": "14-11",
@@ -63,7 +63,7 @@
         "group2": "5-3",
         "group3": "2-0",
         "group4": "4-0",
-        "rpi": "100",
-        "sos": "70"
+        "rpi": "99",
+        "sos": "69"
     }
 }
