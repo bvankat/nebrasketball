@@ -343,9 +343,9 @@
 			 kpi_score = FindScore(json.kpi_sports.kpi_ranking);
 			 rpi_score = FindScore(json.warrennolan.rpi);
 			 massey_score = FindScore(json.massey.composite);
-			 intangibles = -30; // Copeland :-(
+			 intangibles = -30; // Copeland :-( -- Don't think any of the systems has a way to value this, so we need to add it
 			 
-			 //Current formula, multipliers should add to .98 to keep the gauge happy, then subtract 15 for Copeland injury
+			 //Current formula, multipliers should add to .98 to keep the gauge happy
 			 total_score = ((net_score * .10) + (kenpom_score * .10) + (espn_sor * .10) + (espn_bpi * .10) + (kpi_score * .16) + (sagarin_score * .08) + (trank_score * .06) + (massey_score * .06) + (teamrankings_score * .10) + (rpi_score * .10) + intangibles);
 			 
 			 if (total_score <= 5) {
@@ -356,7 +356,7 @@
 			 
 			 function StatusCheck(data) {
 				 var status_message;
-				 if (data < 15) { status_message = "Tells self, 'Gonna be a wide-open Big Ten tournament.'" }
+				 if (data < 15) { status_message = "Tells self, 'It's gonna be a wide-open Big Ten tournament.'" }
 				 if (data >= 15 && data < 35) { status_message = "Small chance. A very small chance." }
 				 if (data >= 35 && data < 45) { status_message = "Optimism creeping back in. Don't do that to yourself." }
 				 if (data >= 45 && data < 55) { status_message = "Scouting possible B10 Tournament oppenents." }
