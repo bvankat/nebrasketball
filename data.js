@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": "34",
         "matrix_seed": "NR",
-        "total_brackets": "119"
+        "total_brackets": "109"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -31,7 +31,7 @@
         "composite": "44"
     },
     "ncaa": {
-        "net_rank": "39"
+        "net_rank": "38"
     },
     "polls": {
         "ap_rank": "NR",
@@ -49,7 +49,7 @@
         "sos": "33"
     },
     "time": {
-        "time": "Feb 19,  4:41 AM"
+        "time": "Feb 19, 10:43 AM"
     },
     "trank": {
         "current_record": "15-11",
