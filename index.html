@@ -202,7 +202,7 @@
 		    	</thead>
 		    	<tbody>
 			    	<tr><td>ESPN</td><td class="r"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td><td class="r"><span id="espn-proj-tourney-seed"></span></tr>
-			    	<tr><td>Kenpom</td><td class="r">17-14 (7-13)</td><td class="r"><span class="small gray">NA</span></td></tr>
+			    	<tr><td>Kenpom</td><td class="r">16-15 (6-14)</td><td class="r"><span class="small gray">NA</span></td></tr>
 				    <tr><td>Bart Torvik</td><td id="trank-proj" class="r"></td><td class="r"><span id="trank-seed"></span></td></tr>
 				    <tr><td>Bracket Matrix</td><td class="r"><span class="small gray">NA</span></td><td class="r"><span id="bracketproject-seed"></span></td></tr>
 					<tr><td>TeamRankings.com</td><td id="teamrankings_wl" class="r"></td><td class="r"><span id="teamrankings-seed"></span></td></tr>
@@ -356,9 +356,9 @@
 			 
 			 function StatusCheck(data) {
 				 var status_message;
-				 if (data < 15) { status_message = "Tells self, 'It's gonna be a wide-open Big Ten tournament.'" }
-				 if (data >= 15 && data < 35) { status_message = "Small chance. A very small chance." }
-				 if (data >= 35 && data < 45) { status_message = "Optimism creeping back in. Don't do that to yourself." }
+				 if (data < 20) { status_message = "The end is near.'" }
+				 if (data >= 20 && data < 35) { status_message = "Small chance. A very small chance." }
+				 if (data >= 35 && data < 45) { status_message = "Optimism creeping back in. Probably shouldn't do that to yourself." }
 				 if (data >= 45 && data < 55) { status_message = "Scouting possible B10 Tournament oppenents." }
 				 if (data >= 55 && data < 75) { status_message = "We've come a long way, baby." }
 				 if (data >= 75) { status_message = "Believe it when we see it." }
