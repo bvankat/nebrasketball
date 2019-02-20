@@ -25,13 +25,13 @@
         "sos": "11"
     },
     "kpi_sports": {
-        "kpi_ranking": "56"
+        "kpi_ranking": "63"
     },
     "massey": {
         "composite": "44"
     },
     "ncaa": {
-        "net_rank": "38"
+        "net_rank": "46"
     },
     "polls": {
         "ap_rank": "NR",
@@ -41,15 +41,15 @@
         "sagarin_rate": "36"
     },
     "teamrankings": {
-        "make_tournament": "4.7%",
+        "make_tournament": "2.1%",
         "most_likely_seed": "12",
-        "projected_losses": "14.1",
-        "projected_wins": "16.9",
+        "projected_losses": "14.6",
+        "projected_wins": "16.4",
         "rank": "34",
         "sos": "33"
     },
     "time": {
-        "time": "Feb 20, 12:41 AM"
+        "time": "Feb 20,  2:41 PM"
     },
     "trank": {
         "current_record": "15-12",
