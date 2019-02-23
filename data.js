@@ -9,12 +9,12 @@
     },
     "espn": {
         "bpi": "35",
-        "chance_sweet_16": "2.5%",
+        "chance_sweet_16": "2.7%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "6.3-13.7",
         "proj_win_loss_overall": "16.3-14.7",
-        "seven_day_change": "-2",
-        "sor": "58",
+        "seven_day_change": "-3",
+        "sor": "57",
         "sos": "17"
     },
     "espn_bracketology": {
@@ -25,7 +25,7 @@
         "sos": "14"
     },
     "kpi_sports": {
-        "kpi_ranking": "65"
+        "kpi_ranking": "64"
     },
     "massey": {
         "composite": "44"
@@ -41,19 +41,19 @@
         "sagarin_rate": "37"
     },
     "teamrankings": {
-        "make_tournament": "2.0%",
+        "make_tournament": "2.1%",
         "most_likely_seed": "12",
         "projected_losses": "14.7",
         "projected_wins": "16.3",
         "rank": "36",
-        "sos": "32"
+        "sos": "31"
     },
     "time": {
-        "time": "Feb 22, 11:41 AM"
+        "time": "Feb 23, 10:50 AM"
     },
     "trank": {
         "current_record": "15-12",
-        "trank": "39",
+        "trank": "38",
         "trank_proj_record": "16-15 (6-14)",
         "trank_seed": "NR"
     },
@@ -63,7 +63,7 @@
         "group2": "5-3",
         "group3": "3-0",
         "group4": "4-0",
-        "rpi": "110",
+        "rpi": "109",
         "sos": "92"
     }
 }
