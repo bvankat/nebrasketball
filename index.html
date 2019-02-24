@@ -343,7 +343,7 @@
 			 kpi_score = FindScore(json.kpi_sports.kpi_ranking);
 			 rpi_score = FindScore(json.warrennolan.rpi);
 			 massey_score = FindScore(json.massey.composite);
-			 intangibles = -40; // Copeland injury -- Don't think any of the systems has a way to value injuries, so we need to add it
+			 intangibles = 0; // Copeland injury -- Don't think any of the systems has a way to value injuries, so we need to add it
 			 
 			 //Current formula, multipliers should add to .98 to keep the gauge happy
 			 total_score = ((net_score * .10) + (kenpom_score * .10) + (espn_sor * .10) + (espn_bpi * .10) + (kpi_score * .16) + (sagarin_score * .08) + (trank_score * .06) + (massey_score * .06) + (teamrankings_score * .10) + (rpi_score * .10) + intangibles);
