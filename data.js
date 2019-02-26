@@ -13,7 +13,7 @@
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "5.9-14.1",
         "proj_win_loss_overall": "15.9-15.1",
-        "seven_day_change": "-1",
+        "seven_day_change": "-2",
         "sor": "60",
         "sos": "16"
     },
@@ -49,7 +49,7 @@
         "sos": "34"
     },
     "time": {
-        "time": "Feb 26, 12:41 PM"
+        "time": "Feb 26,  2:08 PM"
     },
     "trank": {
         "current_record": "15-13",
