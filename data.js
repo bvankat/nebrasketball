@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": "5",
         "matrix_seed": "NR",
-        "total_brackets": "112"
+        "total_brackets": "118"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -21,11 +21,11 @@
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "43",
+        "rating": "42",
         "sos": "13"
     },
     "kpi_sports": {
-        "kpi_ranking": "69"
+        "kpi_ranking": "68"
     },
     "massey": {
         "composite": "49"
@@ -41,7 +41,7 @@
         "sagarin_rate": "39"
     },
     "teamrankings": {
-        "make_tournament": "1.4%",
+        "make_tournament": "1.3%",
         "most_likely_seed": "12",
         "projected_losses": "15.1",
         "projected_wins": "15.9",
@@ -49,7 +49,7 @@
         "sos": "34"
     },
     "time": {
-        "time": "Feb 26,  3:42 PM"
+        "time": "Feb 27,  1:51 PM"
     },
     "trank": {
         "current_record": "15-13",
@@ -63,7 +63,7 @@
         "group2": "5-3",
         "group3": "3-0",
         "group4": "4-0",
-        "rpi": "116",
-        "sos": "81"
+        "rpi": "117",
+        "sos": "82"
     }
 }
