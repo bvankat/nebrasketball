@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "5",
+        "matrix_count": "7",
         "matrix_seed": "NR",
         "total_brackets": "118"
     },
@@ -8,24 +8,24 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "34",
+        "bpi": "35",
         "chance_sweet_16": "1.5%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "5.9-14.1",
         "proj_win_loss_overall": "15.9-15.1",
-        "seven_day_change": "-1",
-        "sor": "61",
-        "sos": "14"
+        "seven_day_change": "0",
+        "sor": "59",
+        "sos": "15"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "42",
-        "sos": "13"
+        "rating": "46",
+        "sos": "11"
     },
     "kpi_sports": {
-        "kpi_ranking": "68"
+        "kpi_ranking": "70"
     },
     "massey": {
         "composite": "49"
@@ -46,24 +46,24 @@
         "projected_losses": "15.1",
         "projected_wins": "15.9",
         "rank": "36",
-        "sos": "34"
+        "sos": "35"
     },
     "time": {
-        "time": "Feb 27,  3:42 PM"
+        "time": "Feb 28,  9:42 PM"
     },
     "trank": {
-        "current_record": "15-13",
-        "trank": "38",
+        "current_record": "15-14",
+        "trank": "45",
         "trank_proj_record": "16-15 (6-14)",
         "trank_seed": "NR"
     },
     "warrennolan": {
-        "current_conf_record": "5-12",
-        "group1": "2-10",
+        "current_conf_record": "5-13",
+        "group1": "2-11",
         "group2": "5-3",
         "group3": "3-0",
         "group4": "4-0",
-        "rpi": "117",
-        "sos": "82"
+        "rpi": "113",
+        "sos": "63"
     }
 }
