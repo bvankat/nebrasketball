@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": "7",
+        "matrix_count": "8",
         "matrix_seed": "NR",
-        "total_brackets": "118"
+        "total_brackets": "122"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -22,7 +22,7 @@
     },
     "kenpom": {
         "rating": "46",
-        "sos": "11"
+        "sos": "10"
     },
     "kpi_sports": {
         "kpi_ranking": "70"
@@ -49,7 +49,7 @@
         "sos": "35"
     },
     "time": {
-        "time": "Feb 28,  9:42 PM"
+        "time": "Feb 28, 10:41 PM"
     },
     "trank": {
         "current_record": "15-14",
@@ -64,6 +64,6 @@
         "group3": "3-0",
         "group4": "4-0",
         "rpi": "113",
-        "sos": "63"
+        "sos": "64"
     }
 }
