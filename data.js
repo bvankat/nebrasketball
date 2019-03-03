@@ -49,7 +49,7 @@
         "sos": "36"
     },
     "time": {
-        "time": "Mar 03, 12:41 AM"
+        "time": "Mar 03,  1:41 AM"
     },
     "trank": {
         "current_record": "15-14",
