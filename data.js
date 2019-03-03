@@ -25,13 +25,13 @@
         "sos": "11"
     },
     "kpi_sports": {
-        "kpi_ranking": "73"
+        "kpi_ranking": "74"
     },
     "massey": {
         "composite": "49"
     },
     "ncaa": {
-        "net_rank": "48"
+        "net_rank": "51"
     },
     "polls": {
         "ap_rank": "NR",
@@ -49,7 +49,7 @@
         "sos": "39"
     },
     "time": {
-        "time": "Mar 03,  3:41 AM"
+        "time": "Mar 03, 10:41 AM"
     },
     "trank": {
         "current_record": "15-14",
