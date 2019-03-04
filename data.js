@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": "4",
+        "matrix_count": "2",
         "matrix_seed": "NR",
-        "total_brackets": "105"
+        "total_brackets": "96"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -25,10 +25,10 @@
         "sos": "11"
     },
     "kpi_sports": {
-        "kpi_ranking": "74"
+        "kpi_ranking": "73"
     },
     "massey": {
-        "composite": "49"
+        "composite": "54"
     },
     "ncaa": {
         "net_rank": "51"
@@ -41,15 +41,15 @@
         "sagarin_rate": "39"
     },
     "teamrankings": {
-        "make_tournament": "0.8%",
+        "make_tournament": "0.9%",
         "most_likely_seed": "12",
         "projected_losses": "15.3",
         "projected_wins": "15.7",
         "rank": "38",
-        "sos": "39"
+        "sos": "33"
     },
     "time": {
-        "time": "Mar 03,  3:45 PM"
+        "time": "Mar 04,  1:42 PM"
     },
     "trank": {
         "current_record": "15-14",
@@ -63,7 +63,7 @@
         "group2": "5-3",
         "group3": "3-0",
         "group4": "4-0",
-        "rpi": "117",
+        "rpi": "114",
         "sos": "71"
     }
 }
