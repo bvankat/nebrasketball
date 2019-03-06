@@ -28,7 +28,7 @@
         "kpi_ranking": "75"
     },
     "massey": {
-        "composite": "56"
+        "composite": "55"
     },
     "ncaa": {
         "net_rank": "51"
@@ -41,7 +41,7 @@
         "sagarin_rate": "39"
     },
     "teamrankings": {
-        "make_tournament": "0.8%",
+        "make_tournament": "0.7%",
         "most_likely_seed": "12",
         "projected_losses": "15.4",
         "projected_wins": "15.6",
@@ -49,7 +49,7 @@
         "sos": "33"
     },
     "time": {
-        "time": "Mar 06, 12:41 AM"
+        "time": "Mar 06,  4:40 PM"
     },
     "trank": {
         "current_record": "15-15",
