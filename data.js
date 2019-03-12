@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "87"
+        "total_brackets": "118"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -28,7 +28,7 @@
         "kpi_ranking": "65"
     },
     "massey": {
-        "composite": "56"
+        "composite": "55"
     },
     "ncaa": {
         "net_rank": "52"
@@ -49,7 +49,7 @@
         "sos": "41"
     },
     "time": {
-        "time": "Mar 11, 12:53 PM"
+        "time": "Mar 12,  1:42 AM"
     },
     "trank": {
         "current_record": "16-15",
@@ -63,7 +63,7 @@
         "group2": "6-3",
         "group3": "3-0",
         "group4": "4-0",
-        "rpi": "100",
+        "rpi": "99",
         "sos": "44"
     }
 }
