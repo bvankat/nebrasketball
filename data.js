@@ -9,12 +9,12 @@
     },
     "espn": {
         "bpi": "36",
-        "chance_sweet_16": "1.0%",
+        "chance_sweet_16": "1.6%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "6.0-14.0",
         "proj_win_loss_overall": "16.7-15.3",
         "seven_day_change": "1",
-        "sor": "58",
+        "sor": "57",
         "sos": "14"
     },
     "espn_bracketology": {
@@ -38,7 +38,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "39"
+        "sagarin_rate": "38"
     },
     "teamrankings": {
         "make_tournament": "0.8%",
@@ -49,7 +49,7 @@
         "sos": "41"
     },
     "time": {
-        "time": "Mar 12,  3:42 AM"
+        "time": "Mar 12, 11:41 AM"
     },
     "trank": {
         "current_record": "16-15",
