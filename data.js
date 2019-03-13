@@ -8,14 +8,14 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "36",
-        "chance_sweet_16": "1.6%",
+        "bpi": "37",
+        "chance_sweet_16": "1.3%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "6.0-14.0",
         "proj_win_loss_overall": "16.7-15.3",
-        "seven_day_change": "1",
-        "sor": "57",
-        "sos": "14"
+        "seven_day_change": "2",
+        "sor": "55",
+        "sos": "13"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -38,18 +38,18 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "38"
+        "sagarin_rate": "40"
     },
     "teamrankings": {
         "make_tournament": "0.8%",
         "most_likely_seed": "12",
         "projected_losses": "15.0",
         "projected_wins": "16.0",
-        "rank": "37",
-        "sos": "41"
+        "rank": "38",
+        "sos": "42"
     },
     "time": {
-        "time": "Mar 12, 11:42 PM"
+        "time": "Mar 13, 10:42 AM"
     },
     "trank": {
         "current_record": "16-15",
