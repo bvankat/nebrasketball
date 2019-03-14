@@ -45,11 +45,11 @@
         "most_likely_seed": "12",
         "projected_losses": "15.0",
         "projected_wins": "16.0",
-        "rank": "38",
+        "rank": "37",
         "sos": "42"
     },
     "time": {
-        "time": "Mar 14,  1:42 AM"
+        "time": "Mar 14,  2:42 AM"
     },
     "trank": {
         "current_record": "17-15",
