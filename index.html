@@ -348,11 +348,13 @@
 			 //Current formula, multipliers should add to .98 to keep the gauge happy
 			 total_score = ((net_score * .10) + (kenpom_score * .10) + (espn_sor * .10) + (espn_bpi * .10) + (kpi_score * .16) + (sagarin_score * .08) + (trank_score * .06) + (massey_score * .06) + (teamrankings_score * .10) + (rpi_score * .10) + intangibles);
 			 
-			 if (total_score <= 5) {
-				 total_score = 5;
-			 }
 			 
+			 // uncomment next three lines to keep gauge score > 5
+			 // if (total_score <= 5) {
+			 // total_score = 5;
+			 // }
 			 
+			 total_score = 0;
 			 
 			 function StatusCheck(data) {
 				 var status_message;
@@ -415,10 +417,13 @@
 
         chart.draw(data, options);
 
-        setInterval(function() {
-          data.setValue(0, 1, total_score-3 + Math.round(6 * Math.random()));
-          chart.draw(data, options);
-        }, 300);
+
+
+
+//        setInterval(function() {
+//          data.setValue(0, 1, total_score-3 + Math.round(6 * Math.random()));
+//          chart.draw(data, options);
+//        }, 300);
      
      
       };
