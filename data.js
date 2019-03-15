@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": 0,
+        "matrix_count": "1",
         "matrix_seed": "NR",
-        "total_brackets": "119"
+        "total_brackets": "117"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -31,14 +31,14 @@
         "composite": "55"
     },
     "ncaa": {
-        "net_rank": "52"
+        "net_rank": "49"
     },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "37"
+        "sagarin_rate": "33"
     },
     "teamrankings": {
         "make_tournament": "2.8%",
@@ -49,7 +49,7 @@
         "sos": "42"
     },
     "time": {
-        "time": "Mar 15,  4:42 AM"
+        "time": "Mar 15,  1:41 PM"
     },
     "trank": {
         "current_record": "18-15",
@@ -60,10 +60,10 @@
     "warrennolan": {
         "current_conf_record": "6-14",
         "group1": "3-12",
-        "group2": "7-3",
-        "group3": "3-0",
+        "group2": "6-3",
+        "group3": "4-0",
         "group4": "4-0",
         "rpi": "83",
-        "sos": "44"
+        "sos": "43"
     }
 }
