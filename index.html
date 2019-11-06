@@ -283,8 +283,8 @@
 			$('#sagarin').text(json.sagarin.sagarin_rate);
 			$('#trank-trank').text(json.trank.trank);
 			
-			//$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
-			//$('#teamrankings-rating').text(json.teamrankings.make_tournament);
+			$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
+			$('#teamrankings-rating').text(json.teamrankings.make_tournament);
 			
 			//$('#kpi_ranking').text(json.kpi_sports.kpi_ranking);
 			
@@ -294,8 +294,8 @@
 
 			//$('#cbs-bracket').text(json.cbs.cbs_rank);
 			
-			//var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
-			//$('#teamrankings_wl').text(teamrankings_wl);
+			var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
+			$('#teamrankings_wl').text(teamrankings_wl);
 			
 			$('#time').text(json.time.time);
 			
