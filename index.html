@@ -90,11 +90,11 @@
 		    	
 		    	<tbody>
 			    	<tr><td>Kenpom</td><td id="kenpom-rating" class="r"></td></tr>
-			    	<tr><td>NCAA NET</td><td id="ncaa-net" class="r"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>NCAA NET</td><td id="ncaa-net" class="r"><span class="small gray">NA</span></td></tr>
 			    	<tr><td>ESPN BPI</td><td id="espn-rating" class="r"></td></tr>
-			    	<tr><td>ESPN SOR</td><td id="espn-sor" class="r"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>KPI</td><td id="kpi_ranking" class="r"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>Sagarin</td><td id="sagarin" class="r"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>ESPN SOR</td><td id="espn-sor" class="r"><span class="small gray">NA</span></td></tr>
+			    	<tr><td>KPI</td><td id="kpi_ranking" class="r"><span class="small gray">NA</span></td></tr>
+			    	<tr><td>Sagarin</td><td id="sagarin" class="r"><span class="small gray">NA</span></td></tr>
 			    	</tbody>
 	    	</table>
 	    	
@@ -119,9 +119,9 @@
 					
 					
 					<tr><td>Bart Torvik</td><td id="trank-trank" class="r"></td></tr>
-			    	<tr><td>Massey Composite</td><td id="massey-comp" class="r"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>Massey Composite</td><td id="massey-comp" class="r"><span class="small gray">NA</span></td></tr>
 			    
-			    	<tr><td>RPI</td><td id="nolan-rpi" class="r"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>RPI</td><td id="nolan-rpi" class="r"><span class="small gray">NA</span></td></tr>
 		    	
 					
 					
@@ -133,19 +133,19 @@
 							
 					<tr>
 						<td>ESPN - Joe Lunardi Bracketology</td>
-						<td class="r"><span id="espn-bracketology-seed"></span></td>
+						<td class="r"><span id="espn-bracketology-seed"><span class="small gray">NA</span></span></td>
 					</tr>
 					<tr>
 						<td>ESPN Sweet 16 chances</td>
-						<td class="r"><span id="espn-sweet16"></span></td>
+						<td class="r"><span id="espn-sweet16"><span class="small gray">NA</span></span></td>
 					</tr>
 					<tr>
 						<td>CBS Sports - Jerry Palm Bracketology</td>
-						<td class="r"><span id="cbs-bracket"><span class="small text-muted">NA</span></span></td>
+						<td class="r"><span id="cbs-bracket"><span class="small gray">NA</span></span></td>
 					</tr>
 					<tr>
 						<td>TeamRankings tournament percentage</td>
-						<td id="teamrankings-rating" class="r"><span class="small text-muted">NA</span></td>
+						<td id="teamrankings-rating" class="r"><span class="small gray">NA</span></td>
 					</tr>
 
 
@@ -174,10 +174,10 @@
 					<tr>
 						<td id="ncaa-net2"></td>
 						<td id="warrennolan-sos2"></td>
-						<td id="warrennolan-group1" class="r"></td>
-						<td id="warrennolan-group2" class="r"></td>
-						<td id="warrennolan-group3" class="r"></td>
-						<td id="warrennolan-group4" class="r"></td>
+						<td id="warrennolan-group1" class="r"><span class="small gray">NA</span></td>
+						<td id="warrennolan-group2" class="r"><span class="small gray">NA</span></td>
+						<td id="warrennolan-group3" class="r"><span class="small gray">NA</span></td>
+						<td id="warrennolan-group4" class="r"><span class="small gray">NA</span></td>
 					</tr>
 				</tbody>
 			</table>	
@@ -294,7 +294,7 @@
 
 			//$('#cbs-bracket').text(json.cbs.cbs_rank);
 			
-			var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
+			//var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
 			//$('#teamrankings_wl').text(teamrankings_wl);
 			
 			$('#time').text(json.time.time);
