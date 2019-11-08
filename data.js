@@ -8,8 +8,8 @@
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "128",
-        "sos": "175"
+        "rating": "127",
+        "sos": "180"
     },
     "polls": {
         "ap_rank": "NR",
@@ -27,7 +27,7 @@
         "sos": "207"
     },
     "time": {
-        "time": "Nov 07,  3:41 PM"
+        "time": "Nov 07, 11:25 PM"
     },
     "trank": {
         "current_record": "0-1",
