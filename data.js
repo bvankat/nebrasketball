@@ -4,12 +4,22 @@
         "matrix_seed": "NR",
         "total_brackets": "46"
     },
+    "espn": {
+        "bpi": "100",
+        "chance_sweet_16": "0.0%",
+        "proj_tourney_seed": "NR",
+        "proj_win_loss_conf": "6.8-13.2",
+        "proj_win_loss_overall": "12.2-16.8",
+        "seven_day_change": "",
+        "sor": "237",
+        "sos": "235"
+    },
     "espn_bracketology": {
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "127",
-        "sos": "227"
+        "rating": "135",
+        "sos": "238"
     },
     "polls": {
         "ap_rank": "NR",
@@ -27,12 +37,12 @@
         "sos": "200"
     },
     "time": {
-        "time": "Nov 09,  2:41 PM"
+        "time": "Nov 09,  8:41 PM"
     },
     "trank": {
-        "current_record": "0-1",
-        "trank": "117",
-        "trank_proj_record": "10-19 (5-15)",
+        "current_record": "0-2",
+        "trank": "126",
+        "trank_proj_record": "9-20 (4-16)",
         "trank_seed": "NR"
     }
 }
