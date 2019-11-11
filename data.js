@@ -4,16 +4,6 @@
         "matrix_seed": "NR",
         "total_brackets": "46"
     },
-    "espn": {
-        "bpi": "100",
-        "chance_sweet_16": "0.0%",
-        "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "6.8-13.2",
-        "proj_win_loss_overall": "12.2-16.8",
-        "seven_day_change": "",
-        "sor": "237",
-        "sos": "235"
-    },
     "espn_bracketology": {
         "seed": "NR"
     },
@@ -37,7 +27,7 @@
         "sos": "228"
     },
     "time": {
-        "time": "Nov 10,  8:41 PM"
+        "time": "Nov 10,  9:42 PM"
     },
     "trank": {
         "current_record": "0-2",
