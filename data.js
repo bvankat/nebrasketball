@@ -37,12 +37,15 @@
         "sos": "234"
     },
     "time": {
-        "time": "Nov 11, 10:42 AM"
+        "time": "Nov 11, 10:56 AM"
     },
     "trank": {
         "current_record": "0-2",
         "trank": "124",
         "trank_proj_record": "9-20 (4-16)",
         "trank_seed": "NR"
+    },
+    "warrennolan": {
+        "rpi": "182"
     }
 }
