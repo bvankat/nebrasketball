@@ -9,7 +9,7 @@
     },
     "kenpom": {
         "rating": "136",
-        "sos": "269"
+        "sos": "270"
     },
     "polls": {
         "ap_rank": "NR",
@@ -27,7 +27,7 @@
         "sos": "228"
     },
     "time": {
-        "time": "Nov 10, 10:41 PM"
+        "time": "Nov 10, 11:41 PM"
     },
     "trank": {
         "current_record": "0-2",
