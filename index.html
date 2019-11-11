@@ -265,11 +265,11 @@
 			$('#espn-sweet16').text(json.espn.chance_sweet_16);
 			$('#espn-bracketology-seed').text(json.espn_bracketology.seed);
 			
-			//$('#warrennolan-sos, #warrennolan-sos2').text(json.warrennolan.sos);
-			//$('#warrennolan-group1').text(json.warrennolan.group1);
-			//$('#warrennolan-group2').text(json.warrennolan.group2);
-			//$('#warrennolan-group3').text(json.warrennolan.group3);
-			//$('#warrennolan-group4').text(json.warrennolan.group4);
+			$('#warrennolan-sos, #warrennolan-sos2').text(json.warrennolan.sos);
+			$('#warrennolan-group1').text(json.warrennolan.group1);
+			$('#warrennolan-group2').text(json.warrennolan.group2);
+			$('#warrennolan-group3').text(json.warrennolan.group3);
+			$('#warrennolan-group4').text(json.warrennolan.group4);
 			$('#nolan-rpi').text(json.warrennolan.rpi);
 			
 			$('#ap-rank').text(json.polls.ap_rank);
@@ -292,7 +292,7 @@
 			$('#bracketproject-totalbrackets').text(json.bracketproject.total_brackets);
 			$('#bracketproject-seed').text(json.bracketproject.matrix_seed);
 
-			//$('#cbs-bracket').text(json.cbs.cbs_rank);
+			$('#cbs-bracket').text(json.cbs.cbs_rank);
 			
 			var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
 			$('#teamrankings_wl').text(teamrankings_wl);
