@@ -16,18 +16,18 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "237"
+        "sagarin_rate": "270"
     },
     "teamrankings": {
-        "make_tournament": "0.5%",
+        "make_tournament": "0.4%",
         "most_likely_seed": "11",
-        "projected_losses": "19.7",
-        "projected_wins": "9.3",
-        "rank": "123",
-        "sos": "228"
+        "projected_losses": "19.8",
+        "projected_wins": "9.2",
+        "rank": "124",
+        "sos": "234"
     },
     "time": {
-        "time": "Nov 11, 12:42 AM"
+        "time": "Nov 11, 10:17 AM"
     },
     "trank": {
         "current_record": "0-2",
