@@ -4,6 +4,9 @@
         "matrix_seed": "NR",
         "total_brackets": "46"
     },
+    "cbs": {
+        "cbs_rank": "NR"
+    },
     "espn": {
         "bpi": "106",
         "chance_sweet_16": "0.0%",
@@ -37,7 +40,7 @@
         "sos": "234"
     },
     "time": {
-        "time": "Nov 11, 10:56 AM"
+        "time": "Nov 11, 11:15 AM"
     },
     "trank": {
         "current_record": "0-2",
@@ -46,6 +49,12 @@
         "trank_seed": "NR"
     },
     "warrennolan": {
-        "rpi": "182"
+        "current_conf_record": "0-0",
+        "group1": "0-0",
+        "group2": "0-0",
+        "group3": "0-2",
+        "group4": "0-0",
+        "rpi": "182",
+        "sos": "122"
     }
 }
