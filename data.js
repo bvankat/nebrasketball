@@ -40,11 +40,11 @@
         "sos": "234"
     },
     "time": {
-        "time": "Nov 11, 10:41 PM"
+        "time": "Nov 11, 11:42 PM"
     },
     "trank": {
         "current_record": "0-2",
-        "trank": "124",
+        "trank": "123",
         "trank_proj_record": "9-20 (5-15)",
         "trank_seed": "NR"
     },
