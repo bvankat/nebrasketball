@@ -40,21 +40,21 @@
         "sos": "234"
     },
     "time": {
-        "time": "Nov 11,  1:41 PM"
+        "time": "Nov 11, 10:14 PM"
     },
     "trank": {
         "current_record": "0-2",
         "trank": "124",
-        "trank_proj_record": "9-20 (4-16)",
+        "trank_proj_record": "9-20 (5-15)",
         "trank_seed": "NR"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
         "group1": "0-0",
         "group2": "0-0",
-        "group3": "0-2",
-        "group4": "0-0",
-        "rpi": "182",
-        "sos": "122"
+        "group3": "0-1",
+        "group4": "0-1",
+        "rpi": "212",
+        "sos": "163"
     }
 }
