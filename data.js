@@ -40,7 +40,7 @@
         "sos": "256"
     },
     "time": {
-        "time": "Nov 15, 10:42 AM"
+        "time": "Nov 15, 11:41 AM"
     },
     "trank": {
         "current_record": "0-2",
