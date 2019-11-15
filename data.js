@@ -11,41 +11,41 @@
         "bpi": "106",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "6.5-13.5",
+        "proj_win_loss_conf": "6.4-13.6",
         "proj_win_loss_overall": "11.0-18.0",
-        "seven_day_change": "",
-        "sor": "277",
-        "sos": "293"
+        "seven_day_change": "-3",
+        "sor": "309",
+        "sos": "317"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "135",
-        "sos": "276"
+        "rating": "136",
+        "sos": "294"
     },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "268"
+        "sagarin_rate": "97"
     },
     "teamrankings": {
-        "make_tournament": "0.4%",
+        "make_tournament": "0.7%",
         "most_likely_seed": "12",
-        "projected_losses": "19.6",
-        "projected_wins": "9.4",
-        "rank": "124",
-        "sos": "238"
+        "projected_losses": "19.7",
+        "projected_wins": "9.3",
+        "rank": "120",
+        "sos": "249"
     },
     "time": {
-        "time": "Nov 12,  3:42 PM"
+        "time": "Nov 14, 10:41 PM"
     },
     "trank": {
         "current_record": "0-2",
-        "trank": "123",
-        "trank_proj_record": "9-20 (5-15)",
+        "trank": "119",
+        "trank_proj_record": "9-20 (4-16)",
         "trank_seed": "NR"
     },
     "warrennolan": {
@@ -54,7 +54,7 @@
         "group2": "0-0",
         "group3": "0-0",
         "group4": "0-2",
-        "rpi": "238",
-        "sos": "192"
+        "rpi": "302",
+        "sos": "248"
     }
 }
