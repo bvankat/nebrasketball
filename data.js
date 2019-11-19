@@ -22,7 +22,7 @@
     },
     "kenpom": {
         "rating": "129",
-        "sos": "311"
+        "sos": "312"
     },
     "polls": {
         "ap_rank": "NR",
@@ -32,15 +32,15 @@
         "sagarin_rate": "108"
     },
     "teamrankings": {
-        "make_tournament": "0.7%",
+        "make_tournament": "0.9%",
         "most_likely_seed": "11",
-        "projected_losses": "19.0",
-        "projected_wins": "10.0",
+        "projected_losses": "18.9",
+        "projected_wins": "10.1",
         "rank": "109",
         "sos": "284"
     },
     "time": {
-        "time": "Nov 19,  6:41 AM"
+        "time": "Nov 19, 12:43 PM"
     },
     "trank": {
         "current_record": "1-2",
