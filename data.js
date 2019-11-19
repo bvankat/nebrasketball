@@ -40,7 +40,7 @@
         "sos": "284"
     },
     "time": {
-        "time": "Nov 19,  1:42 PM"
+        "time": "Nov 19,  2:41 PM"
     },
     "trank": {
         "current_record": "1-2",
