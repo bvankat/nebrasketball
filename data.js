@@ -21,8 +21,8 @@
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "130",
-        "sos": "307"
+        "rating": "129",
+        "sos": "311"
     },
     "polls": {
         "ap_rank": "NR",
@@ -33,14 +33,14 @@
     },
     "teamrankings": {
         "make_tournament": "0.7%",
-        "most_likely_seed": "10",
+        "most_likely_seed": "12",
         "projected_losses": "18.9",
         "projected_wins": "10.1",
         "rank": "108",
-        "sos": "281"
+        "sos": "282"
     },
     "time": {
-        "time": "Nov 18,  6:41 AM"
+        "time": "Nov 19,  2:41 AM"
     },
     "trank": {
         "current_record": "1-2",
@@ -54,7 +54,7 @@
         "group2": "0-1",
         "group3": "0-0",
         "group4": "1-1",
-        "rpi": "327",
-        "sos": "302"
+        "rpi": "325",
+        "sos": "297"
     }
 }
