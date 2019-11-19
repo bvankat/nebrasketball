@@ -33,14 +33,14 @@
     },
     "teamrankings": {
         "make_tournament": "0.7%",
-        "most_likely_seed": "12",
-        "projected_losses": "18.9",
-        "projected_wins": "10.1",
+        "most_likely_seed": "11",
+        "projected_losses": "19.0",
+        "projected_wins": "10.0",
         "rank": "109",
         "sos": "284"
     },
     "time": {
-        "time": "Nov 19,  4:42 AM"
+        "time": "Nov 19,  5:42 AM"
     },
     "trank": {
         "current_record": "1-2",
