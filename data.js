@@ -40,7 +40,7 @@
         "sos": "289"
     },
     "time": {
-        "time": "Nov 21, 12:41 AM"
+        "time": "Nov 21,  1:41 AM"
     },
     "trank": {
         "current_record": "1-2",
@@ -51,10 +51,10 @@
     "warrennolan": {
         "current_conf_record": "0-0",
         "group1": "0-0",
-        "group2": "0-1",
-        "group3": "0-0",
-        "group4": "1-1",
-        "rpi": "321",
-        "sos": "294"
+        "group2": "0-0",
+        "group3": "0-2",
+        "group4": "1-0",
+        "rpi": "318",
+        "sos": "281"
     }
 }
