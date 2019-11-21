@@ -21,8 +21,8 @@
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "132",
-        "sos": "314"
+        "rating": "134",
+        "sos": "313"
     },
     "polls": {
         "ap_rank": "NR",
@@ -40,12 +40,12 @@
         "sos": "289"
     },
     "time": {
-        "time": "Nov 20,  5:42 PM"
+        "time": "Nov 20, 11:41 PM"
     },
     "trank": {
         "current_record": "1-2",
         "trank": "115",
-        "trank_proj_record": "10-19 (5-15)",
+        "trank_proj_record": "9-20 (5-15)",
         "trank_seed": "NR"
     },
     "warrennolan": {
@@ -54,7 +54,7 @@
         "group2": "0-1",
         "group3": "0-0",
         "group4": "1-1",
-        "rpi": "320",
-        "sos": "292"
+        "rpi": "321",
+        "sos": "294"
     }
 }
