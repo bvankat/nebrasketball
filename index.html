@@ -360,7 +360,7 @@
 			 			 
 			 function StatusCheck(data) {
 				 var status_message;
-				 if (data < 20) { status_message = "Can only go slightly lower. But anything's possible." }
+				 if (data < 20) { status_message = "Small victories = Not getting outrebounded by 30." }
 				 if (data >= 20 && data < 45) { status_message = "Optimism creeping back in. Probably shouldn't do that to yourself." }
 				 if (data >= 45 && data < 75) { status_message = "We've come a long way, baby." }
 				 if (data >= 75) { status_message = "Believe it when we see it." }
@@ -423,7 +423,7 @@
 
 
         setInterval(function() {
-          data.setValue(0, 1, total_score-2 + Math.round(6 * Math.random()));
+          data.setValue(0, 1, total_score-2 + Math.round(2 * Math.random()));
           chart.draw(data, options);
         }, 300);
      
