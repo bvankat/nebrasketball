@@ -21,8 +21,8 @@
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "134",
-        "sos": "311"
+        "rating": "141",
+        "sos": "346"
     },
     "polls": {
         "ap_rank": "NR",
@@ -32,20 +32,20 @@
         "sagarin_rate": "124"
     },
     "teamrankings": {
-        "make_tournament": "0.7%",
+        "make_tournament": "0.6%",
         "most_likely_seed": "9",
-        "projected_losses": "18.9",
-        "projected_wins": "10.1",
+        "projected_losses": "18.8",
+        "projected_wins": "10.2",
         "rank": "108",
         "sos": "291"
     },
     "time": {
-        "time": "Nov 22, 11:42 AM"
+        "time": "Nov 23, 12:43 AM"
     },
     "trank": {
-        "current_record": "1-2",
-        "trank": "114",
-        "trank_proj_record": "10-19 (5-15)",
+        "current_record": "2-2",
+        "trank": "134",
+        "trank_proj_record": "9-20 (4-16)",
         "trank_seed": "NR"
     },
     "warrennolan": {
@@ -53,8 +53,8 @@
         "group1": "0-0",
         "group2": "0-0",
         "group3": "0-2",
-        "group4": "1-0",
-        "rpi": "334",
-        "sos": "311"
+        "group4": "2-0",
+        "rpi": "338",
+        "sos": "341"
     }
 }
