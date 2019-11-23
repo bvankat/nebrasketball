@@ -353,8 +353,8 @@
 			 
 
 			 // uncomment next three lines to keep gauge score > 3
-			  if (total_score <= 3) {
-			  total_score = 3;
+			  if (total_score <= 2) {
+			  total_score = 2;
 			  }
 			  
 			 			 
@@ -423,7 +423,7 @@
 
 
         setInterval(function() {
-          data.setValue(0, 1, total_score-2 + Math.round(2 * Math.random()));
+          data.setValue(0, 1, total_score-2 + Math.round(1 * Math.random()));
           chart.draw(data, options);
         }, 300);
      
