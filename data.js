@@ -29,7 +29,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "124"
+        "sagarin_rate": "142"
     },
     "teamrankings": {
         "make_tournament": "0.6%",
@@ -40,7 +40,7 @@
         "sos": "291"
     },
     "time": {
-        "time": "Nov 23, 12:43 AM"
+        "time": "Nov 23,  1:41 AM"
     },
     "trank": {
         "current_record": "2-2",
