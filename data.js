@@ -33,14 +33,14 @@
     },
     "teamrankings": {
         "make_tournament": "0.1%",
-        "most_likely_seed": "12",
+        "most_likely_seed": "10",
         "projected_losses": "20.4",
         "projected_wins": "10.6",
         "rank": "120",
         "sos": "189"
     },
     "time": {
-        "time": "Dec 02,  3:41 AM"
+        "time": "Dec 02, 10:44 AM"
     },
     "trank": {
         "current_record": "4-3",
@@ -54,7 +54,7 @@
         "group2": "0-0",
         "group3": "1-1",
         "group4": "3-1",
-        "rpi": "194",
+        "rpi": "195",
         "sos": "186"
     }
 }
