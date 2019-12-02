@@ -37,10 +37,10 @@
         "projected_losses": "20.4",
         "projected_wins": "10.6",
         "rank": "120",
-        "sos": "191"
+        "sos": "189"
     },
     "time": {
-        "time": "Dec 02,  2:41 AM"
+        "time": "Dec 02,  3:41 AM"
     },
     "trank": {
         "current_record": "4-3",
