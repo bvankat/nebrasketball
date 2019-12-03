@@ -21,8 +21,8 @@
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "143",
-        "sos": "305"
+        "rating": "144",
+        "sos": "304"
     },
     "polls": {
         "ap_rank": "NR",
@@ -40,11 +40,11 @@
         "sos": "189"
     },
     "time": {
-        "time": "Dec 02,  5:43 PM"
+        "time": "Dec 02, 10:41 PM"
     },
     "trank": {
         "current_record": "4-3",
-        "trank": "139",
+        "trank": "140",
         "trank_proj_record": "10-21 (4-16)",
         "trank_seed": "NR"
     },
@@ -54,7 +54,7 @@
         "group2": "0-0",
         "group3": "1-1",
         "group4": "3-1",
-        "rpi": "195",
-        "sos": "186"
+        "rpi": "179",
+        "sos": "165"
     }
 }
