@@ -40,11 +40,11 @@
         "sos": "187"
     },
     "time": {
-        "time": "Dec 05, 12:41 AM"
+        "time": "Dec 05,  1:42 AM"
     },
     "trank": {
         "current_record": "4-4",
-        "trank": "152",
+        "trank": "153",
         "trank_proj_record": "9-22 (3-17)",
         "trank_seed": "NR"
     },
