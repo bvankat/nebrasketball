@@ -22,7 +22,10 @@
     },
     "kenpom": {
         "rating": "127",
-        "sos": "91"
+        "sos": "92"
+    },
+    "ncaa": {
+        "net_rank": "153"
     },
     "polls": {
         "ap_rank": "NR",
@@ -40,7 +43,7 @@
         "sos": "66"
     },
     "time": {
-        "time": "Dec 16,  8:42 PM"
+        "time": "Dec 16,  9:14 PM"
     },
     "trank": {
         "current_record": "5-6",
