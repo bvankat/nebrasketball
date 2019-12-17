@@ -43,7 +43,7 @@
         "sos": "66"
     },
     "time": {
-        "time": "Dec 16, 11:42 PM"
+        "time": "Dec 17, 12:43 AM"
     },
     "trank": {
         "current_record": "5-6",
