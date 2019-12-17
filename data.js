@@ -8,20 +8,20 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "146",
+        "bpi": "135",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "4.1-15.9",
-        "proj_win_loss_overall": "9.8-21.2",
-        "seven_day_change": "5",
-        "sor": "219",
-        "sos": "105"
+        "proj_win_loss_conf": "5.3-14.7",
+        "proj_win_loss_overall": "11.1-19.9",
+        "seven_day_change": "13",
+        "sor": "180",
+        "sos": "76"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "128",
+        "rating": "127",
         "sos": "91"
     },
     "polls": {
@@ -34,17 +34,17 @@
     "teamrankings": {
         "make_tournament": "0.0%",
         "most_likely_seed": "14",
-        "projected_losses": "21.7",
-        "projected_wins": "9.3",
-        "rank": "132",
-        "sos": "92"
+        "projected_losses": "20.1",
+        "projected_wins": "10.9",
+        "rank": "114",
+        "sos": "66"
     },
     "time": {
-        "time": "Dec 16, 12:42 AM"
+        "time": "Dec 16,  8:42 PM"
     },
     "trank": {
         "current_record": "5-6",
-        "trank": "138",
+        "trank": "139",
         "trank_proj_record": "10-21 (4-16)",
         "trank_seed": "NR"
     },
@@ -54,7 +54,7 @@
         "group2": "0-2",
         "group3": "2-1",
         "group4": "3-1",
-        "rpi": "132",
+        "rpi": "133",
         "sos": "63"
     }
 }
