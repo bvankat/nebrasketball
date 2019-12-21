@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "27"
+        "total_brackets": "32"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -21,8 +21,8 @@
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "128",
-        "sos": "84"
+        "rating": "129",
+        "sos": "83"
     },
     "ncaa": {
         "net_rank": "162"
@@ -32,7 +32,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "118"
+        "sagarin_rate": "117"
     },
     "teamrankings": {
         "make_tournament": "0.1%",
@@ -43,7 +43,7 @@
         "sos": "63"
     },
     "time": {
-        "time": "Dec 20, 11:41 AM"
+        "time": "Dec 20,  9:42 PM"
     },
     "trank": {
         "current_record": "5-6",
@@ -57,7 +57,7 @@
         "group2": "1-0",
         "group3": "0-2",
         "group4": "4-1",
-        "rpi": "131",
-        "sos": "54"
+        "rpi": "130",
+        "sos": "50"
     }
 }
