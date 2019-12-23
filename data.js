@@ -43,7 +43,7 @@
         "sos": "86"
     },
     "time": {
-        "time": "Dec 22, 10:41 PM"
+        "time": "Dec 22, 11:41 PM"
     },
     "trank": {
         "current_record": "5-7",
@@ -58,6 +58,6 @@
         "group3": "1-2",
         "group4": "3-2",
         "rpi": "159",
-        "sos": "79"
+        "sos": "78"
     }
 }
