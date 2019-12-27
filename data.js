@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "32"
+        "total_brackets": "34"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -14,18 +14,18 @@
         "proj_win_loss_conf": "4.8-15.2",
         "proj_win_loss_overall": "9.7-21.3",
         "seven_day_change": "-9",
-        "sor": "204",
-        "sos": "91"
+        "sor": "203",
+        "sos": "88"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "141",
-        "sos": "107"
+        "rating": "139",
+        "sos": "102"
     },
     "ncaa": {
-        "net_rank": "179"
+        "net_rank": "175"
     },
     "polls": {
         "ap_rank": "NR",
@@ -40,10 +40,10 @@
         "projected_losses": "21.4",
         "projected_wins": "9.6",
         "rank": "120",
-        "sos": "80"
+        "sos": "79"
     },
     "time": {
-        "time": "Dec 25, 11:42 AM"
+        "time": "Dec 26,  8:41 PM"
     },
     "trank": {
         "current_record": "5-7",
@@ -54,10 +54,10 @@
     "warrennolan": {
         "current_conf_record": "1-1",
         "group1": "0-3",
-        "group2": "1-0",
-        "group3": "1-2",
+        "group2": "1-1",
+        "group3": "1-1",
         "group4": "3-2",
-        "rpi": "162",
-        "sos": "83"
+        "rpi": "158",
+        "sos": "75"
     }
 }
