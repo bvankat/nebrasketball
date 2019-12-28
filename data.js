@@ -13,7 +13,7 @@
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "4.8-15.2",
         "proj_win_loss_overall": "9.7-21.3",
-        "seven_day_change": "-9",
+        "seven_day_change": "-7",
         "sor": "203",
         "sos": "88"
     },
@@ -22,10 +22,10 @@
     },
     "kenpom": {
         "rating": "139",
-        "sos": "102"
+        "sos": "101"
     },
     "ncaa": {
-        "net_rank": "175"
+        "net_rank": "176"
     },
     "polls": {
         "ap_rank": "NR",
@@ -36,14 +36,14 @@
     },
     "teamrankings": {
         "make_tournament": "0.0%",
-        "most_likely_seed": "13",
-        "projected_losses": "21.4",
-        "projected_wins": "9.6",
+        "most_likely_seed": "12",
+        "projected_losses": "21.3",
+        "projected_wins": "9.7",
         "rank": "120",
         "sos": "79"
     },
     "time": {
-        "time": "Dec 26,  8:41 PM"
+        "time": "Dec 28, 12:42 AM"
     },
     "trank": {
         "current_record": "5-7",
@@ -58,6 +58,6 @@
         "group3": "1-1",
         "group4": "3-2",
         "rpi": "158",
-        "sos": "75"
+        "sos": "73"
     }
 }
