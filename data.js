@@ -22,7 +22,7 @@
     },
     "kenpom": {
         "rating": "134",
-        "sos": "147"
+        "sos": "146"
     },
     "ncaa": {
         "net_rank": "174"
@@ -43,7 +43,7 @@
         "sos": "75"
     },
     "time": {
-        "time": "Dec 29, 11:41 PM"
+        "time": "Dec 30, 12:42 AM"
     },
     "trank": {
         "current_record": "6-7",
