@@ -25,7 +25,7 @@
         "sos": "144"
     },
     "ncaa": {
-        "net_rank": "169"
+        "net_rank": "168"
     },
     "polls": {
         "ap_rank": "NR",
@@ -36,14 +36,14 @@
     },
     "teamrankings": {
         "make_tournament": "0.0%",
-        "most_likely_seed": "13",
+        "most_likely_seed": "15",
         "projected_losses": "21.2",
         "projected_wins": "9.8",
         "rank": "116",
         "sos": "89"
     },
     "time": {
-        "time": "Dec 31,  5:41 AM"
+        "time": "Dec 31,  6:41 AM"
     },
     "trank": {
         "current_record": "6-7",
