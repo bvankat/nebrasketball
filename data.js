@@ -22,7 +22,7 @@
     },
     "kenpom": {
         "rating": "138",
-        "sos": "146"
+        "sos": "144"
     },
     "ncaa": {
         "net_rank": "169"
@@ -32,7 +32,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "119"
+        "sagarin_rate": "118"
     },
     "teamrankings": {
         "make_tournament": "0.0%",
@@ -43,11 +43,11 @@
         "sos": "88"
     },
     "time": {
-        "time": "Dec 30, 10:42 PM"
+        "time": "Dec 30, 11:41 PM"
     },
     "trank": {
         "current_record": "6-7",
-        "trank": "148",
+        "trank": "147",
         "trank_proj_record": "9-22 (4-16)",
         "trank_seed": "NR"
     },
@@ -57,7 +57,7 @@
         "group2": "1-1",
         "group3": "1-1",
         "group4": "4-2",
-        "rpi": "176",
-        "sos": "117"
+        "rpi": "169",
+        "sos": "108"
     }
 }
