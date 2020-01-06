@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "52"
+        "total_brackets": "54"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -43,7 +43,7 @@
         "sos": "81"
     },
     "time": {
-        "time": "Jan 06, 12:41 AM"
+        "time": "Jan 06,  1:41 AM"
     },
     "trank": {
         "current_record": "6-8",
