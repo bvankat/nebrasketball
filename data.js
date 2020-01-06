@@ -11,11 +11,11 @@
         "bpi": "158",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "3.9-16.1",
+        "proj_win_loss_conf": "3.8-16.2",
         "proj_win_loss_overall": "8.9-22.1",
-        "seven_day_change": "-19",
+        "seven_day_change": "-18",
         "sor": "207",
-        "sos": "98"
+        "sos": "101"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -43,7 +43,7 @@
         "sos": "86"
     },
     "time": {
-        "time": "Jan 06, 10:41 AM"
+        "time": "Jan 06,  4:41 PM"
     },
     "trank": {
         "current_record": "6-8",
