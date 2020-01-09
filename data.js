@@ -21,8 +21,8 @@
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "137",
-        "sos": "87"
+        "rating": "139",
+        "sos": "89"
     },
     "ncaa": {
         "net_rank": "150"
@@ -43,11 +43,11 @@
         "sos": "73"
     },
     "time": {
-        "time": "Jan 08,  2:42 PM"
+        "time": "Jan 08, 10:43 PM"
     },
     "trank": {
         "current_record": "7-8",
-        "trank": "138",
+        "trank": "140",
         "trank_proj_record": "10-21 (5-15)",
         "trank_seed": "NR"
     },
@@ -57,7 +57,7 @@
         "group2": "1-1",
         "group3": "3-1",
         "group4": "3-2",
-        "rpi": "152",
-        "sos": "71"
+        "rpi": "154",
+        "sos": "69"
     }
 }
