@@ -13,16 +13,16 @@
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "4.8-15.2",
         "proj_win_loss_overall": "9.8-21.2",
-        "seven_day_change": "-2",
-        "sor": "181",
-        "sos": "94"
+        "seven_day_change": "12",
+        "sor": "180",
+        "sos": "92"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "139",
-        "sos": "81"
+        "rating": "134",
+        "sos": "84"
     },
     "ncaa": {
         "net_rank": "152"
@@ -43,21 +43,21 @@
         "sos": "79"
     },
     "time": {
-        "time": "Jan 11, 11:42 AM"
+        "time": "Jan 11,  4:41 PM"
     },
     "trank": {
         "current_record": "7-8",
-        "trank": "138",
+        "trank": "131",
         "trank_proj_record": "10-21 (5-15)",
         "trank_seed": "NR"
     },
     "warrennolan": {
         "current_conf_record": "2-2",
-        "group1": "0-4",
-        "group2": "2-1",
+        "group1": "0-3",
+        "group2": "2-2",
         "group3": "1-1",
         "group4": "4-2",
-        "rpi": "148",
-        "sos": "69"
+        "rpi": "152",
+        "sos": "66"
     }
 }
