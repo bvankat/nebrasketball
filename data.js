@@ -21,7 +21,7 @@
         "seed": "NR"
     },
     "kenpom": {
-        "rating": "138",
+        "rating": "139",
         "sos": "81"
     },
     "ncaa": {
@@ -32,7 +32,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "111"
+        "sagarin_rate": "110"
     },
     "teamrankings": {
         "make_tournament": "0.0%",
@@ -43,7 +43,7 @@
         "sos": "79"
     },
     "time": {
-        "time": "Jan 10, 11:08 PM"
+        "time": "Jan 10, 11:45 PM"
     },
     "trank": {
         "current_record": "7-8",
