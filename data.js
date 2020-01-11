@@ -25,7 +25,7 @@
         "sos": "81"
     },
     "ncaa": {
-        "net_rank": "153"
+        "net_rank": "152"
     },
     "polls": {
         "ap_rank": "NR",
@@ -36,14 +36,14 @@
     },
     "teamrankings": {
         "make_tournament": "0.0%",
-        "most_likely_seed": "15",
+        "most_likely_seed": "13",
         "projected_losses": "20.8",
         "projected_wins": "10.2",
         "rank": "117",
         "sos": "79"
     },
     "time": {
-        "time": "Jan 11,  1:43 AM"
+        "time": "Jan 11,  6:43 AM"
     },
     "trank": {
         "current_record": "7-8",
