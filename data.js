@@ -43,11 +43,11 @@
         "sos": "79"
     },
     "time": {
-        "time": "Jan 10, 11:45 PM"
+        "time": "Jan 11, 12:42 AM"
     },
     "trank": {
         "current_record": "7-8",
-        "trank": "139",
+        "trank": "138",
         "trank_proj_record": "10-21 (5-15)",
         "trank_seed": "NR"
     },
