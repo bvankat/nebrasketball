@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "70"
+        "total_brackets": "75"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -22,7 +22,7 @@
     },
     "kenpom": {
         "rating": "131",
-        "sos": "58"
+        "sos": "57"
     },
     "ncaa": {
         "net_rank": "159"
@@ -43,11 +43,11 @@
         "sos": "76"
     },
     "time": {
-        "time": "Jan 13, 10:41 PM"
+        "time": "Jan 14, 12:42 AM"
     },
     "trank": {
         "current_record": "7-9",
-        "trank": "130",
+        "trank": "129",
         "trank_proj_record": "10-21 (5-15)",
         "trank_seed": "NR"
     },
