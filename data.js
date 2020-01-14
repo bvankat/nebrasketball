@@ -25,7 +25,7 @@
         "sos": "57"
     },
     "ncaa": {
-        "net_rank": "159"
+        "net_rank": "157"
     },
     "polls": {
         "ap_rank": "NR",
@@ -43,7 +43,7 @@
         "sos": "76"
     },
     "time": {
-        "time": "Jan 14,  4:42 AM"
+        "time": "Jan 14,  8:41 AM"
     },
     "trank": {
         "current_record": "7-9",
