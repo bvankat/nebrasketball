@@ -6,6 +6,7 @@
     },
     "espn": {
         "bpi": "174",
+        "chance_round_32": "0.0%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "2.0-18.0",
@@ -35,7 +36,7 @@
         "rank": "139"
     },
     "time": {
-        "time": "Nov 22, 12:28 AM"
+        "time": "Nov 22,  1:37 AM"
     },
     "trank": {
         "current_record": "0-0\u2013",
