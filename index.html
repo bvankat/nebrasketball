@@ -321,8 +321,11 @@
 			 rpi_score = FindScore(json.warrennolan.rpi);
 			 intangibles = 0; // Don't think any of the systems has a way to value injuries, so we need to add it. Check out sports-reference Win Shares, perhaps. 
 			 
-			 //Current formula, multipliers should add to .98 to keep the gauge happy (Need to add KPI as of Dec. 16)
-			 total_score = ((net_score * .14) + (kenpom_score * .14) + (espn_sor * .14) + (espn_bpi * .13) + (sagarin_score * .11) + (trank_score * .11) + (teamrankings_score * .10) + (rpi_score * .11) + intangibles);
+			 //Current formula, multipliers should add to .98 to keep the gauge happy
+			 
+			 
+			 // This is 19-20 formula
+			 // total_score = ((net_score * .14) + (kenpom_score * .14) + (espn_sor * .14) + (espn_bpi * .13) + (sagarin_score * .11) + (trank_score * .11) + (teamrankings_score * .10) + (rpi_score * .11) + intangibles);
 			 
 			 total_score = ((kenpom_score * .2) + (espn_sor * .2) + (espn_bpi * .2) + (trank_score * .2) + (rpi_score * .2) + intangibles);
 			 
