@@ -325,7 +325,7 @@
 			 rpi_score = FindScore(json.warrennolan.rpi);
 			 
 			 
-			 // Intangiables: Don't think any of the systems has a way to value injuries, so we need to add it. Check out sports-reference Win Shares, perhaps. 
+			 // Intangibles: Don't think any of the systems has a way to value injuries, so we need to add it. Check out sports-reference Win Shares, perhaps. 
 			 
 			 intangibles = 5; // Early season: Let's add a few points to account for the uncertainty of *everything* in Covid Times.
 			 //Current formula, multipliers should add to .98 to keep the gauge happy
@@ -349,7 +349,7 @@
 			 			 
 			 function StatusCheck(data) {
 				 var status_message;
-				 if (data < 20) { status_message = "Pessimists are never disappointed." }
+				 if (data < 20) { status_message = "Pessimists are rarely disappointed." }
 				 if (data >= 20 && data < 45) { status_message = "Optimism creeping back in. Probably shouldn't do that to yourself." }
 				 if (data >= 45 && data < 75) { status_message = "We're, uh, not sure how to behave right now." }
 				 if (data >= 75) { status_message = "Believe it when we see it." }
