@@ -35,7 +35,7 @@
         "rank": "139"
     },
     "time": {
-        "time": "Nov 22, 12:01 AM"
+        "time": "Nov 22, 12:25 AM"
     },
     "trank": {
         "current_record": "0-0\u2013",
