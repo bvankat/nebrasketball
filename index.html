@@ -202,7 +202,7 @@
 		    	</thead>
 		    	<tbody>
 			    	<tr><td>ESPN</td><td class="r"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td><td class="r"><span id="espn-proj-tourney-seed"></span></tr>
-			    	<tr><td>Kenpom</td><td class="r">7-18 (3-15)</td><td class="r"><span class="small gray">NA</span></td></tr>
+			    	<tr><td>Kenpom</td><td class="r"><span id="kenpom-overall"></span> (<span id="kenpom-conference">)</span></td><td class="r"><span class="small gray">NA</span></td></tr>
 				    <tr><td>Bart Torvik</td><td id="trank-proj" class="r"></td><td class="r"><span id="trank-seed"></span></td></tr>
 				    <tr><td>Bracket Matrix</td><td class="r"><span class="small gray">NA</span></td><td class="r"><span id="bracketproject-seed"></span></td></tr>
 					<tr><td>TeamRankings.com</td><td id="teamrankings_wl" class="r"><span class="small gray">NA</span></td><td class="r"><span id="teamrankings-seed"><span class="small gray">NA</span></span></td></tr>
@@ -242,7 +242,11 @@
 			console.log(json);
 
 			$('#kenpom-rating').text(json.kenpom.rating);
+			$('#kenpom-conference').text(json.kenpom.conference_record);
+			$('#kenpom-overall').text(json.kenpom.overall_record);
+			
 			// $('#ncaa-net, #ncaa-net2').text(json.ncaa.net_rank); 
+			
 			$('#espn-rating').text(json.espn.bpi);
 			
 			$('#kenpom-sos').text(json.kenpom.sos);
