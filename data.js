@@ -21,8 +21,12 @@
         "rating": "117",
         "sos": "1"
     },
+    "polls": {
+        "ap_rank": "NR",
+        "coaches_rank": "NR"
+    },
     "time": {
-        "time": "Nov 21, 10:38 PM"
+        "time": "Nov 21, 11:25 PM"
     },
     "trank": {
         "current_record": "0-0\u2013",
