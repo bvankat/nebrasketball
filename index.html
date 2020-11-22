@@ -96,7 +96,7 @@
 			    	<tr><td>NCAA NET</td><td id="ncaa-net" class="r"><span class="small gray">NA</span></td></tr>
 			    	<tr><td>ESPN BPI</td><td id="espn-rating" class="r"><span class="small gray">NA</span></td></tr>
 			    	<tr><td>ESPN SOR</td><td id="espn-sor" class="r"><span class="small gray">NA</span></td></tr>
-			    	<tr><td>KPI</td><td id="kpi_ranking" class="r">204</td></tr>
+			    	<tr><td>KPI</td><td id="kpi_ranking" class="r"><span class="small gray">NA</span></td></tr>
 			    	<tr><td>Sagarin</td><td id="sagarin" class="r"><span class="small gray">NA</span></td></tr>
 			    	</tbody>
 	    	</table>
@@ -203,7 +203,7 @@
 		    	</thead>
 		    	<tbody>
 			    	<tr><td>ESPN</td><td class="r"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td><td class="r"><span id="espn-proj-tourney-seed"></span></tr>
-			    	<tr><td>Kenpom</td><td class="r">7-24 (2-18)</td><td class="r"><span class="small gray">NA</span></td></tr>
+			    	<tr><td>Kenpom</td><td class="r">7-18 (3-15)</td><td class="r"><span class="small gray">NA</span></td></tr>
 				    <tr><td>Bart Torvik</td><td id="trank-proj" class="r"></td><td class="r"><span id="trank-seed"></span></td></tr>
 				    <tr><td>Bracket Matrix</td><td class="r"><span class="small gray">NA</span></td><td class="r"><span id="bracketproject-seed"></span></td></tr>
 					<tr><td>TeamRankings.com</td><td id="teamrankings_wl" class="r"><span class="small gray">NA</span></td><td class="r"><span id="teamrankings-seed"><span class="small gray">NA</span></span></td></tr>
@@ -211,16 +211,6 @@
 			</table>
 			
 
-			
-			<br /><br />
-			
-		<!--	<h4>Upcoming bubble games</h4>
-			<table class="table">
-				<tbody id="todays-games">
-				</tbody>
-			</table>
-		-->	
-		
 			
 			<br /><br />
 	    	
@@ -253,7 +243,7 @@
 			console.log(json);
 
 			$('#kenpom-rating').text(json.kenpom.rating);
-			$('#ncaa-net, #ncaa-net2').text(json.ncaa.net_rank); 
+			// $('#ncaa-net, #ncaa-net2').text(json.ncaa.net_rank); 
 			$('#espn-rating').text(json.espn.bpi);
 			
 			$('#kenpom-sos').text(json.kenpom.sos);
@@ -273,15 +263,15 @@
 			$('#warrennolan-group4').text(json.warrennolan.group4);
 			$('#nolan-rpi').text(json.warrennolan.rpi);
 			
-			$('#ap-rank').text(json.polls.ap_rank);
-			$('#coaches-rank').text(json.polls.coaches_rank);
+			// $('#ap-rank').text(json.polls.ap_rank);
+			// $('#coaches-rank').text(json.polls.coaches_rank);
 			
 			$('#current_record').text(json.trank.current_record);
 			$('#current_conf_record').text(json.warrennolan.current_conf_record);
 			
 			$('#trank-proj').text(json.trank.trank_proj_record);
 			$('#trank-seed').text(json.trank.trank_seed);
-			$('#sagarin').text(json.sagarin.sagarin_rate);
+			// $('#sagarin').text(json.sagarin.sagarin_rate);
 			$('#trank-trank').text(json.trank.trank);
 			
 			$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
@@ -293,25 +283,12 @@
 			$('#bracketproject-totalbrackets').text(json.bracketproject.total_brackets);
 			$('#bracketproject-seed').text(json.bracketproject.matrix_seed);
 
-			$('#cbs-bracket').text(json.cbs.cbs_rank);
+			// $('#cbs-bracket').text(json.cbs.cbs_rank);
 			
-			var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
-			$('#teamrankings_wl').text(teamrankings_wl);
+			// var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
+			// $('#teamrankings_wl').text(teamrankings_wl);
 			
 			$('#time').text(json.time.time);
-			
-			if (json.todays_games) {	
-				games = json.todays_games;
-				console.log(games.length + " bubble games today:");
-				console.log(games);
-			
-				$.each(games, function(i, game){
-					$('#todays-games').append("<tr><td>" + game.team + " (" + game.rpi + ") " + game.next_opponent + ", " + game.time + "</td></tr>");
-				});
-			
-			} else {
-				$('#todays-games').append("<tr><td>No bubble games left today</td></tr>");
-			};
 			
 						
 			function FindScore(data) { // Calculate percentage chance based on RPI-like ranking system
@@ -334,11 +311,11 @@
 
 			 
 			 kenpom_score = FindScore(json.kenpom.rating);
-			 net_score = FindScore(json.ncaa.net_rank);
+			 // net_score = FindScore(json.ncaa.net_rank);
 			 espn_sor = FindScore(parseInt(json.espn.sor)); // SOR is stronger predictor than BPI
 			 espn_bpi = FindScore(parseInt(json.espn.bpi)); 
-			 teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
-			 sagarin_score = FindScore(json.sagarin.sagarin_rate);
+			 // teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
+			 // sagarin_score = FindScore(json.sagarin.sagarin_rate);
 			 trank_score = FindScore(json.trank.trank);
 			 //kpi_score = FindScore(json.kpi_sports.kpi_ranking);
 			 rpi_score = FindScore(json.warrennolan.rpi);
@@ -346,7 +323,12 @@
 			 
 			 //Current formula, multipliers should add to .98 to keep the gauge happy (Need to add KPI as of Dec. 16)
 			 total_score = ((net_score * .14) + (kenpom_score * .14) + (espn_sor * .14) + (espn_bpi * .13) + (sagarin_score * .11) + (trank_score * .11) + (teamrankings_score * .10) + (rpi_score * .11) + intangibles);
+			 
+			 total_score = ((kenpom_score * .2) + (espn_sor * .2) + (espn_bpi * .2) + (trank_score * .2) + (rpi_score * .2) + intangibles);
+			 
+			 
 			 console.log("Total score (calculated): " + total_score);
+			 
 			 
 
 			 // uncomment next three lines to keep gauge score > 3
@@ -376,11 +358,11 @@
 			 console.log("NCAA NET: " + net_score + "    (14%)");
 			 console.log("Kenpom score (predictive): " + kenpom_score + "    (14%)");
 			 console.log("ESPN SOR score (results-based): " + espn_sor + "    (13%)");
-			 //console.log("KPI score (results-based): " + kpi_score + "    (16%)");
+			 // console.log("KPI score (results-based): " + kpi_score + "    (16%)");
 			 console.log("ESPN BPI score (predictive): " + espn_bpi + "    (13%)");
-			 console.log("Sagarin score (predictive): " + sagarin_score + "    (11%)");
+			 // console.log("Sagarin score (predictive): " + sagarin_score + "    (11%)");
 			 console.log("Torvik T-Rank score (predictive): " + trank_score + "    (11%)");
-			 console.log("TeamRankings (results-based): " + teamrankings_score + "    (11%)");
+			 // console.log("TeamRankings (results-based): " + teamrankings_score + "    (11%)");
 			 console.log("RPI score (results-based): " + rpi_score + "    (11%)");
 			 console.log("Intangibles: " + intangibles);
 			 console.log("Total score: " + total_score);
