@@ -25,8 +25,15 @@
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
+    "teamrankings": {
+        "make_tournament": "0.6%",
+        "most_likely_seed": "13",
+        "projected_losses": "16.7",
+        "projected_wins": "4.3",
+        "rank": "139"
+    },
     "time": {
-        "time": "Nov 21, 11:25 PM"
+        "time": "Nov 21, 11:41 PM"
     },
     "trank": {
         "current_record": "0-0\u2013",
