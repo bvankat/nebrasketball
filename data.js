@@ -18,6 +18,8 @@
         "seed": "NR"
     },
     "kenpom": {
+        "conference_record": "B10",
+        "overall_record": "Nebraska",
         "rating": "117",
         "sos": "1"
     },
@@ -33,7 +35,7 @@
         "rank": "139"
     },
     "time": {
-        "time": "Nov 21, 11:41 PM"
+        "time": "Nov 22, 12:01 AM"
     },
     "trank": {
         "current_record": "0-0\u2013",
