@@ -273,8 +273,8 @@
 			// $('#sagarin').text(json.sagarin.sagarin_rate);
 			$('#trank-trank').text(json.trank.trank);
 			
-			// $('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
-			// $('#teamrankings-rating').text(json.teamrankings.make_tournament);
+			$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
+			$('#teamrankings-rating').text(json.teamrankings.make_tournament);
 			
 			//$('#kpi_ranking').text(json.kpi_sports.kpi_ranking);
 			
@@ -284,8 +284,8 @@
 
 			// $('#cbs-bracket').text(json.cbs.cbs_rank);
 			
-			// var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
-			// $('#teamrankings_wl').text(teamrankings_wl);
+			var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
+			$('#teamrankings_wl').text(teamrankings_wl);
 			
 			$('#time').text(json.time.time);
 			
@@ -313,7 +313,7 @@
 			 // net_score = FindScore(json.ncaa.net_rank);
 			 espn_sor = FindScore(parseInt(json.espn.sor)); // SOR is stronger predictor than BPI
 			 espn_bpi = FindScore(parseInt(json.espn.bpi)); 
-			 // teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
+			 teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
 			 // sagarin_score = FindScore(json.sagarin.sagarin_rate);
 			 trank_score = FindScore(json.trank.trank);
 			 //kpi_score = FindScore(json.kpi_sports.kpi_ranking);
@@ -329,7 +329,7 @@
 			 // This is 19-20 formula
 			 // total_score = ((net_score * .14) + (kenpom_score * .14) + (espn_sor * .14) + (espn_bpi * .13) + (sagarin_score * .11) + (trank_score * .11) + (teamrankings_score * .10) + (rpi_score * .11) + intangibles);
 			 
-			 total_score = ((kenpom_score * .2) + (espn_sor * .2) + (espn_bpi * .2) + (trank_score * .2) + (rpi_score * .2) + intangibles);
+			 total_score = ((kenpom_score * .20) + (espn_sor * .20) + (espn_bpi * .15) + (trank_score * .15) + (rpi_score * .14) + (team_rankings_score * .14) + intangibles);
 			 
 			 
 			 console.log("Total score (calculated): " + total_score);
@@ -361,14 +361,14 @@
 			 // Note from KPI: Selections have trended toward using results-based metrics. Predictive metrics help more with seeding.
 			 
 			 // console.log("NCAA NET: " + net_score + "    (14%)");
-			 console.log("Kenpom score (predictive): " + kenpom_score + "    (14%)");
-			 console.log("ESPN SOR score (results-based): " + espn_sor + "    (13%)");
+			 console.log("Kenpom score (predictive): " + kenpom_score + "    (20%)");
+			 console.log("ESPN SOR score (results-based): " + espn_sor + "    (20%)");
 			 // console.log("KPI score (results-based): " + kpi_score + "    (16%)");
-			 console.log("ESPN BPI score (predictive): " + espn_bpi + "    (13%)");
+			 console.log("ESPN BPI score (predictive): " + espn_bpi + "    (15%)");
 			 // console.log("Sagarin score (predictive): " + sagarin_score + "    (11%)");
-			 console.log("Torvik T-Rank score (predictive): " + trank_score + "    (11%)");
-			 // console.log("TeamRankings (results-based): " + teamrankings_score + "    (11%)");
-			 console.log("RPI score (results-based): " + rpi_score + "    (11%)");
+			 console.log("Torvik T-Rank score (predictive): " + trank_score + "    (15%)");
+			 console.log("TeamRankings (results-based): " + teamrankings_score + "    (14%)");
+			 console.log("RPI score (results-based): " + rpi_score + "    (14%)");
 			 console.log("Intangibles: " + intangibles);
 			 console.log("Total score: " + total_score);
 
