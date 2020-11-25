@@ -327,11 +327,10 @@
 			 
 			 // Intangibles: Don't think any of the systems has a way to value injuries, so we need to add it. Check out sports-reference Win Shares, perhaps. 
 			 
-			 intangibles = 5; // Early season: Let's add a few points to account for the uncertainty of *everything* in Covid Times.
+			 intangibles = 4; // Early season: Let's add a few points to account for the uncertainty of *everything* in Covid Times. Take one off for Derrick Walker suspension.
+			 
+			 // TOTAL SCORE FORMULA
 			 //Current formula, multipliers should add to .98 to keep the gauge happy
-			 
-			 
-			 // This is 19-20 formula
 			 // total_score = ((net_score * .14) + (kenpom_score * .14) + (espn_sor * .14) + (espn_bpi * .13) + (sagarin_score * .11) + (trank_score * .11) + (teamrankings_score * .10) + (rpi_score * .11) + intangibles);
 			 
 			 total_score = ((kenpom_score * .20) + (espn_sor * .20) + (espn_bpi * .15) + (trank_score * .15) + (rpi_score * .14) + (teamrankings_score * .14) + intangibles);
