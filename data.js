@@ -19,10 +19,10 @@
         "seed": "NR"
     },
     "kenpom": {
-        "conference_record": "3-15",
+        "conference_record": "4-14",
         "overall_record": "8-17",
-        "rating": "117",
-        "sos": "1"
+        "rating": "108",
+        "sos": "22"
     },
     "polls": {
         "ap_rank": "NR",
@@ -36,17 +36,17 @@
         "rank": "139"
     },
     "time": {
-        "time": "Nov 25,  9:41 AM"
+        "time": "Nov 25,  3:43 PM"
     },
     "trank": {
-        "current_record": "0-0\u2013",
-        "trank": "102",
-        "trank_proj_record": "10-17 (5-15)",
+        "current_record": "1-00\u20130",
+        "trank": "89",
+        "trank_proj_record": "11-16 (6-14)",
         "trank_seed": "NR"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "group1": "0-0",
+        "group1": "1-0",
         "group2": "0-0",
         "group3": "0-0",
         "group4": "0-0",
