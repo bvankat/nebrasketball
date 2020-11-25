@@ -5,22 +5,22 @@
         "total_brackets": "97"
     },
     "espn": {
-        "bpi": "174",
-        "chance_round_32": "0.0%",
+        "bpi": "98",
+        "chance_round_32": "0.1%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "2.0-18.0",
-        "proj_win_loss_overall": "7.0-25.0",
-        "seven_day_change": "-16",
-        "sor": "200",
-        "sos": "8"
+        "proj_win_loss_conf": "6.1-11.9",
+        "proj_win_loss_overall": "11.3-13.7",
+        "seven_day_change": "",
+        "sor": "1",
+        "sos": "1"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "kenpom": {
         "conference_record": "3-15",
-        "overall_record": "7-18",
+        "overall_record": "8-17",
         "rating": "117",
         "sos": "1"
     },
@@ -29,19 +29,19 @@
         "coaches_rank": "NR"
     },
     "teamrankings": {
-        "make_tournament": "0.6%",
-        "most_likely_seed": "13",
-        "projected_losses": "16.7",
-        "projected_wins": "4.3",
+        "make_tournament": "0.9%",
+        "most_likely_seed": "10",
+        "projected_losses": "17.2",
+        "projected_wins": "5.8",
         "rank": "139"
     },
     "time": {
-        "time": "Nov 22,  1:37 AM"
+        "time": "Nov 25,  9:41 AM"
     },
     "trank": {
         "current_record": "0-0\u2013",
         "trank": "102",
-        "trank_proj_record": "9-16 (5-15)",
+        "trank_proj_record": "10-17 (5-15)",
         "trank_seed": "NR"
     },
     "warrennolan": {
@@ -50,7 +50,7 @@
         "group2": "0-0",
         "group3": "0-0",
         "group4": "0-0",
-        "rpi": "251",
-        "sos": "0"
+        "rpi": "1",
+        "sos": "1"
     }
 }
