@@ -28,6 +28,9 @@
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
+    "sagarin": {
+        "sagarin_rate": "78"
+    },
     "teamrankings": {
         "make_tournament": "4.0%",
         "most_likely_seed": "7",
@@ -36,7 +39,7 @@
         "rank": "99"
     },
     "time": {
-        "time": "Nov 26, 12:46 PM"
+        "time": "Nov 26,  1:01 PM"
     },
     "trank": {
         "current_record": "1-00\u20130",
@@ -50,7 +53,7 @@
         "group2": "0-0",
         "group3": "1-0",
         "group4": "0-0",
-        "rpi": "2",
-        "sos": "3"
+        "rpi": "5",
+        "sos": "7"
     }
 }
