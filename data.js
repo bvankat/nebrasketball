@@ -5,55 +5,55 @@
         "total_brackets": "31"
     },
     "espn": {
-        "bpi": "90",
-        "chance_round_32": "0.2%",
-        "chance_sweet_16": "0.1%",
+        "bpi": "98",
+        "chance_round_32": "0.0%",
+        "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "6.1-11.9",
-        "proj_win_loss_overall": "11.3-13.7",
+        "proj_win_loss_conf": "5.8-12.2",
+        "proj_win_loss_overall": "10.3-14.7",
         "seven_day_change": "",
-        "sor": "63",
-        "sos": "143"
+        "sor": "121",
+        "sos": "119"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "kenpom": {
-        "conference_record": "4-14",
-        "overall_record": "8-17",
-        "rating": "109",
-        "sos": "151"
+        "conference_record": "3-15",
+        "overall_record": "7-18",
+        "rating": "114",
+        "sos": "120"
     },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "78"
+        "sagarin_rate": "92"
     },
     "teamrankings": {
-        "make_tournament": "4.0%",
-        "most_likely_seed": "7",
-        "projected_losses": "15.1",
-        "projected_wins": "7.9",
-        "rank": "99"
+        "make_tournament": "1.9%",
+        "most_likely_seed": "8",
+        "projected_losses": "17.0",
+        "projected_wins": "8.0",
+        "rank": "105"
     },
     "time": {
-        "time": "Nov 26,  1:01 PM"
+        "time": "Nov 27, 10:08 AM"
     },
     "trank": {
-        "current_record": "1-00\u20130",
-        "trank": "90",
-        "trank_proj_record": "11-16 (6-14)",
+        "current_record": "1-10\u20130",
+        "trank": "94",
+        "trank_proj_record": "10-17 (5-15)",
         "trank_seed": "NR"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "group1": "0-0",
+        "group1": "0-1",
         "group2": "0-0",
         "group3": "1-0",
         "group4": "0-0",
-        "rpi": "5",
-        "sos": "7"
+        "rpi": "26",
+        "sos": "23"
     }
 }
