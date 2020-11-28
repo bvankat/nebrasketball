@@ -40,7 +40,7 @@
         "rank": "108"
     },
     "time": {
-        "time": "Nov 28,  1:15 PM"
+        "time": "Nov 28,  1:17 PM"
     },
     "trank": {
         "current_record": "1-10\u20130",
@@ -54,7 +54,7 @@
         "group2": "1-0",
         "group3": "1-0",
         "group4": "0-0",
-        "record": "Nebraska\nBig Ten (0-0)",
+        "record": "2-1",
         "rpi": "77",
         "sos": "65"
     }
