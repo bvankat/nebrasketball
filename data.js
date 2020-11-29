@@ -35,12 +35,13 @@
     "teamrankings": {
         "make_tournament": "1.7%",
         "most_likely_seed": "8",
+        "proj_conf_record": "4.0 - 14.0",
         "projected_losses": "16.9",
         "projected_wins": "8.1",
         "rank": "108"
     },
     "time": {
-        "time": "Nov 28,  9:38 PM"
+        "time": "Nov 28,  9:42 PM"
     },
     "trank": {
         "current_record": "2-10\u20130",
@@ -55,7 +56,7 @@
         "group3": "2-0",
         "group4": "0-0",
         "record": "2-1",
-        "rpi": "104",
-        "sos": "95"
+        "rpi": "106",
+        "sos": "97"
     }
 }
