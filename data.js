@@ -23,7 +23,7 @@
         "overall_record": "8-17",
         "rating": "105",
         "record": "2-1",
-        "sos": "162"
+        "sos": "165"
     },
     "polls": {
         "ap_rank": "NR",
@@ -40,7 +40,7 @@
         "rank": "108"
     },
     "time": {
-        "time": "Nov 28,  9:00 PM"
+        "time": "Nov 28,  9:28 PM"
     },
     "trank": {
         "current_record": "2-10\u20130",
