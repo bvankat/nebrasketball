@@ -124,7 +124,8 @@
 			    	
 			    	<tr><td>RPI</td><td id="nolan-rpi" class="r"><span class="small gray">NA</span></td></tr>
 		    	
-					
+					<tr><td>TeamRankings.com predictive rank</td><td id="teamrankings-rank" class="r"><span class="small gray">NA</span></td></tr>
+		    	
 					
 					<tr>
 						<td>Bracket Project: How many brackets have NU?</td>
@@ -281,6 +282,8 @@
 			
 			$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
 			$('#teamrankings-rating').text(json.teamrankings.make_tournament);
+			$('#teamrankings-rank').text(json.teamrankings.rank);
+			
 			
 			//$('#kpi_ranking').text(json.kpi_sports.kpi_ranking);
 			
