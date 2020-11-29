@@ -206,7 +206,7 @@
 			    	<tr><td>Kenpom</td><td class="r"><span id="kenpom-overall"></span> (<span id="kenpom-conference"></span>)</td><td class="r"><span class="small gray">NA</span></td></tr>
 				    <tr><td>Bart Torvik</td><td id="trank-proj" class="r"></td><td class="r"><span id="trank-seed"></span></td></tr>
 				    <tr><td>Bracket Matrix</td><td class="r"><span class="small gray">NA</span></td><td class="r"><span id="bracketproject-seed"></span></td></tr>
-					<tr><td>TeamRankings.com</td><td id="teamrankings_wl" class="r"><span class="small gray">NA</span></td><td class="r"><span id="teamrankings-seed"><span class="small gray">NA</span></span></td></tr>
+					<tr><td>TeamRankings.com</td><td id="teamrankings_wl" class="r"><span class="small gray">NA</span> (<span id="teamrankings-conf-wl"></span>)</td><td class="r"><span id="teamrankings-seed"><span class="small gray">NA</span></span></td></tr>
 			    </tbody>
 			</table>
 			
@@ -283,6 +283,7 @@
 			$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
 			$('#teamrankings-rating').text(json.teamrankings.make_tournament);
 			$('#teamrankings-rank').text(json.teamrankings.rank);
+			$('#teamrankings-conf-wl').text(json.teamrankings.proj_conf_record);
 			
 			
 			//$('#kpi_ranking').text(json.kpi_sports.kpi_ranking);
