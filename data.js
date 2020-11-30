@@ -23,7 +23,7 @@
         "overall_record": "8-17",
         "rating": "104",
         "record": "2-1",
-        "sos": "175"
+        "sos": "176"
     },
     "polls": {
         "ap_rank": "NR",
@@ -41,7 +41,7 @@
         "rank": "95"
     },
     "time": {
-        "time": "Nov 30,  4:29 PM"
+        "time": "Nov 30,  5:29 PM"
     },
     "trank": {
         "trank": "85",
@@ -53,10 +53,10 @@
         "elo": "231",
         "group1": "0-0",
         "group2": "0-1",
-        "group3": "2-0",
-        "group4": "0-0",
+        "group3": "1-0",
+        "group4": "1-0",
         "record": "2-1",
-        "rpi": "135",
-        "sos": "128"
+        "rpi": "136",
+        "sos": "129"
     }
 }
