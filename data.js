@@ -5,15 +5,15 @@
         "total_brackets": "31"
     },
     "espn": {
-        "bpi": "99",
+        "bpi": "93",
         "chance_round_32": "0.1%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "5.8-12.2",
-        "proj_win_loss_overall": "10.4-14.6",
+        "proj_win_loss_overall": "10.5-14.5",
         "seven_day_change": "",
-        "sor": "131",
-        "sos": "180"
+        "sor": "134",
+        "sos": "187"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -41,7 +41,7 @@
         "rank": "95"
     },
     "time": {
-        "time": "Nov 30, 10:29 AM"
+        "time": "Nov 30, 11:29 AM"
     },
     "trank": {
         "trank": "85",
