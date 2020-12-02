@@ -19,8 +19,8 @@
         "seed": "NR"
     },
     "kenpom": {
-        "conference_record": "4-14",
-        "overall_record": "8-17",
+        "conference_record": "4-16",
+        "overall_record": "9-18",
         "rating": "107",
         "record": "3-1",
         "sos": "196"
@@ -41,22 +41,22 @@
         "rank": "97"
     },
     "time": {
-        "time": "Dec 02, 12:34 PM"
+        "time": "Dec 02,  3:29 PM"
     },
     "trank": {
         "trank": "88",
-        "trank_proj_record": "10-17 (6-14)",
+        "trank_proj_record": "10-17 (5-15)",
         "trank_seed": "NR"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
         "elo": "215",
         "group1": "0-1",
-        "group2": "0-0",
-        "group3": "3-0",
+        "group2": "1-0",
+        "group3": "2-0",
         "group4": "0-0",
         "record": "3-1",
-        "rpi": "118",
+        "rpi": "119",
         "sos": "125"
     }
 }
