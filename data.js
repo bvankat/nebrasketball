@@ -41,10 +41,10 @@
         "rank": "92"
     },
     "time": {
-        "time": "Dec 01, 10:29 PM"
+        "time": "Dec 02,  1:29 AM"
     },
     "trank": {
-        "trank": "83",
+        "trank": "88",
         "trank_proj_record": "10-17 (6-14)",
         "trank_seed": "NR"
     },
@@ -56,7 +56,7 @@
         "group3": "3-0",
         "group4": "0-0",
         "record": "3-1",
-        "rpi": "119",
-        "sos": "128"
+        "rpi": "118",
+        "sos": "125"
     }
 }
