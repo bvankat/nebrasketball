@@ -5,14 +5,14 @@
         "total_brackets": "31"
     },
     "espn": {
-        "bpi": "95",
-        "chance_round_32": "0.1%",
+        "bpi": "93",
+        "chance_round_32": "0.0%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "5.7-12.3",
-        "proj_win_loss_overall": "10.4-14.6",
+        "proj_win_loss_conf": "5.8-12.2",
+        "proj_win_loss_overall": "10.5-14.5",
         "seven_day_change": "",
-        "sor": "138",
+        "sor": "139",
         "sos": "201"
     },
     "espn_bracketology": {
@@ -21,9 +21,9 @@
     "kenpom": {
         "conference_record": "4-14",
         "overall_record": "8-17",
-        "rating": "104",
-        "record": "2-1",
-        "sos": "181"
+        "rating": "107",
+        "record": "3-1",
+        "sos": "196"
     },
     "polls": {
         "ap_rank": "NR",
@@ -41,7 +41,7 @@
         "rank": "92"
     },
     "time": {
-        "time": "Dec 01, 11:29 AM"
+        "time": "Dec 01, 10:29 PM"
     },
     "trank": {
         "trank": "83",
@@ -50,13 +50,13 @@
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "229",
+        "elo": "215",
         "group1": "0-1",
         "group2": "0-0",
-        "group3": "0-0",
-        "group4": "2-0",
-        "record": "2-1",
-        "rpi": "136",
-        "sos": "141"
+        "group3": "3-0",
+        "group4": "0-0",
+        "record": "3-1",
+        "rpi": "119",
+        "sos": "128"
     }
 }
