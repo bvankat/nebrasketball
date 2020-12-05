@@ -23,7 +23,7 @@
         "overall_record": "8-18",
         "rating": "109",
         "record": "3-1",
-        "sos": "232"
+        "sos": "231"
     },
     "polls": {
         "ap_rank": "NR",
@@ -41,10 +41,10 @@
         "rank": "99"
     },
     "time": {
-        "time": "Dec 05,  3:29 PM"
+        "time": "Dec 05,  4:31 PM"
     },
     "trank": {
-        "trank": "90",
+        "trank": "91",
         "trank_proj_record": "9-17 (6-14)",
         "trank_seed": "NR"
     },
@@ -56,7 +56,7 @@
         "group3": "2-0",
         "group4": "1-0",
         "record": "3-1",
-        "rpi": "197",
-        "sos": "222"
+        "rpi": "199",
+        "sos": "221"
     }
 }
