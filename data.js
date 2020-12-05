@@ -6,11 +6,11 @@
     },
     "espn": {
         "bpi": "99",
-        "chance_round_32": "0.1%",
-        "chance_sweet_16": "0.1%",
+        "chance_round_32": "0.0%",
+        "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "5.5-12.5",
-        "proj_win_loss_overall": "10.2-14.8",
+        "proj_win_loss_overall": "9.3-14.7",
         "seven_day_change": "-2",
         "sor": "144",
         "sos": "235"
@@ -20,10 +20,10 @@
     },
     "kenpom": {
         "conference_record": "4-16",
-        "overall_record": "9-18",
+        "overall_record": "8-18",
         "rating": "109",
         "record": "3-1",
-        "sos": "223"
+        "sos": "230"
     },
     "polls": {
         "ap_rank": "NR",
@@ -41,11 +41,11 @@
         "rank": "98"
     },
     "time": {
-        "time": "Dec 04, 11:31 AM"
+        "time": "Dec 05,  1:29 AM"
     },
     "trank": {
-        "trank": "91",
-        "trank_proj_record": "10-17 (5-15)",
+        "trank": "90",
+        "trank_proj_record": "10-17 (6-14)",
         "trank_seed": "NR"
     },
     "warrennolan": {
@@ -56,7 +56,7 @@
         "group3": "2-0",
         "group4": "1-0",
         "record": "3-1",
-        "rpi": "167",
-        "sos": "183"
+        "rpi": "190",
+        "sos": "217"
     }
 }
