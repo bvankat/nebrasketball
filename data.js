@@ -6,14 +6,14 @@
     },
     "espn": {
         "bpi": "96",
-        "chance_round_32": "0.1%",
+        "chance_round_32": "0.0%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "6.3-13.7",
-        "proj_win_loss_overall": "10.0-16.0",
-        "seven_day_change": "-3",
-        "sor": "153",
-        "sos": "261"
+        "proj_win_loss_conf": "6.1-13.9",
+        "proj_win_loss_overall": "9.8-16.2",
+        "seven_day_change": "4",
+        "sor": "151",
+        "sos": "270"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -30,18 +30,18 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "77"
+        "sagarin_rate": "76"
     },
     "teamrankings": {
-        "make_tournament": "4.5%",
+        "make_tournament": "4.3%",
         "most_likely_seed": "11",
-        "proj_conf_record": "4.6-15.4",
+        "proj_conf_record": "4.7-15.3",
         "projected_losses": "17.8",
         "projected_wins": "8.2",
         "rank": "99"
     },
     "time": {
-        "time": "Dec 09,  4:29 AM"
+        "time": "Dec 09, 10:29 AM"
     },
     "trank": {
         "trank": "93",
