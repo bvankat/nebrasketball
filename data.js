@@ -23,7 +23,7 @@
         "overall_record": "8-18",
         "rating": "108",
         "record": "3-1",
-        "sos": "240"
+        "sos": "244"
     },
     "polls": {
         "ap_rank": "NR",
@@ -33,19 +33,19 @@
         "sagarin_rate": "77"
     },
     "teamrankings": {
-        "make_tournament": "4.4%",
+        "make_tournament": "4.5%",
         "most_likely_seed": "11",
-        "proj_conf_record": "4.8-15.2",
-        "projected_losses": "17.6",
-        "projected_wins": "8.4",
-        "rank": "97"
+        "proj_conf_record": "4.6-15.4",
+        "projected_losses": "17.8",
+        "projected_wins": "8.2",
+        "rank": "99"
     },
     "time": {
-        "time": "Dec 08, 10:48 PM"
+        "time": "Dec 09,  4:29 AM"
     },
     "trank": {
         "trank": "93",
-        "trank_proj_record": "9-17 (6-14)",
+        "trank_proj_record": "9-17 (5-15)",
         "trank_seed": "NR"
     },
     "warrennolan": {
@@ -56,7 +56,7 @@
         "group3": "0-0",
         "group4": "3-0",
         "record": "3-1",
-        "rpi": "234",
-        "sos": "255"
+        "rpi": "237",
+        "sos": "257"
     }
 }
