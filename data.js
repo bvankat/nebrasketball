@@ -23,7 +23,7 @@
         "overall_record": "7-19",
         "rating": "114",
         "record": "3-3",
-        "sos": "188"
+        "sos": "189"
     },
     "polls": {
         "ap_rank": "NR",
@@ -41,22 +41,22 @@
         "rank": "112"
     },
     "time": {
-        "time": "Dec 13, 12:29 PM"
+        "time": "Dec 13,  2:29 PM"
     },
     "trank": {
-        "trank": "91",
+        "trank": "92",
         "trank_proj_record": "8-18 (5-15)",
         "trank_seed": "NR"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
         "elo": "221",
-        "group1": "0-0",
-        "group2": "0-2",
+        "group1": "0-1",
+        "group2": "0-1",
         "group3": "0-1",
         "group4": "3-0",
         "record": "3-3",
-        "rpi": "255",
+        "rpi": "252",
         "sos": "238"
     }
 }
