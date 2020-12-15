@@ -23,7 +23,7 @@
         "overall_record": "7-19",
         "rating": "116",
         "record": "3-3",
-        "sos": "183"
+        "sos": "181"
     },
     "polls": {
         "ap_rank": "NR",
@@ -41,7 +41,7 @@
         "rank": "116"
     },
     "time": {
-        "time": "Dec 14, 10:30 PM"
+        "time": "Dec 14, 10:34 PM"
     },
     "trank": {
         "trank": "92",
@@ -51,10 +51,6 @@
     "warrennolan": {
         "current_conf_record": "0-0",
         "elo": "219",
-        "group1": "0-0",
-        "group2": "0-1",
-        "group3": "0-2",
-        "group4": "3-0",
         "quadrant_1": "0-1",
         "quadrant_2": "0-1",
         "quadrant_3": "1-1",
