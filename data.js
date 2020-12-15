@@ -23,7 +23,7 @@
         "overall_record": "7-19",
         "rating": "116",
         "record": "3-3",
-        "sos": "182"
+        "sos": "183"
     },
     "polls": {
         "ap_rank": "NR",
@@ -41,10 +41,10 @@
         "rank": "116"
     },
     "time": {
-        "time": "Dec 15, 12:29 AM"
+        "time": "Dec 15,  1:29 AM"
     },
     "trank": {
-        "trank": "93",
+        "trank": "92",
         "trank_proj_record": "8-18 (5-15)",
         "trank_seed": "NR"
     },
