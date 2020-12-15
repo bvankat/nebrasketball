@@ -23,14 +23,14 @@
         "overall_record": "7-19",
         "rating": "116",
         "record": "3-3",
-        "sos": "181"
+        "sos": "182"
     },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "116"
+        "sagarin_rate": "117"
     },
     "teamrankings": {
         "make_tournament": "0.6%",
@@ -41,10 +41,10 @@
         "rank": "116"
     },
     "time": {
-        "time": "Dec 14, 10:34 PM"
+        "time": "Dec 14, 11:29 PM"
     },
     "trank": {
-        "trank": "92",
+        "trank": "93",
         "trank_proj_record": "8-18 (5-15)",
         "trank_seed": "NR"
     },
