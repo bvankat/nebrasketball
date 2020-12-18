@@ -41,7 +41,7 @@
         "rank": "117"
     },
     "time": {
-        "time": "Dec 17,  9:38 PM"
+        "time": "Dec 17, 10:29 PM"
     },
     "trank": {
         "trank": "90",
@@ -56,7 +56,7 @@
         "quadrant_3": "1-1",
         "quadrant_4": "2-0",
         "record": "3-3",
-        "rpi": "269",
-        "sos": "261"
+        "rpi": "270",
+        "sos": "263"
     }
 }
