@@ -30,18 +30,18 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "108"
+        "sagarin_rate": "109"
     },
     "teamrankings": {
         "make_tournament": "0.6%",
         "most_likely_seed": "11",
-        "proj_conf_record": "3.7-16.3",
-        "projected_losses": "19.3",
-        "projected_wins": "7.7",
+        "proj_conf_record": "3.9-16.1",
+        "projected_losses": "19.1",
+        "projected_wins": "7.9",
         "rank": "110"
     },
     "time": {
-        "time": "Dec 18,  3:29 AM"
+        "time": "Dec 18,  4:30 AM"
     },
     "trank": {
         "trank": "90",
