@@ -41,10 +41,10 @@
         "rank": "112"
     },
     "time": {
-        "time": "Dec 22,  1:31 AM"
+        "time": "Dec 22,  2:29 AM"
     },
     "trank": {
-        "trank": "96",
+        "trank": "95",
         "trank_proj_record": "9-18 (5-15)",
         "trank_seed": "NR"
     },
