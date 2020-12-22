@@ -38,10 +38,10 @@
         "proj_conf_record": "3.6-16.4",
         "projected_losses": "19.4",
         "projected_wins": "7.6",
-        "rank": "112"
+        "rank": "111"
     },
     "time": {
-        "time": "Dec 22,  2:29 AM"
+        "time": "Dec 22,  3:29 AM"
     },
     "trank": {
         "trank": "95",
