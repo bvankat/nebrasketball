@@ -23,7 +23,7 @@
         "overall_record": "7-20",
         "rating": "121",
         "record": "4-6",
-        "sos": "55"
+        "sos": "53"
     },
     "polls": {
         "ap_rank": "NR",
@@ -41,7 +41,7 @@
         "rank": "130"
     },
     "time": {
-        "time": "Dec 31, 10:29 PM"
+        "time": "Dec 31, 11:29 PM"
     },
     "trank": {
         "trank": "104",
@@ -56,7 +56,7 @@
         "quadrant_3": "1-1",
         "quadrant_4": "2-0",
         "record": "3-6",
-        "rpi": "204",
+        "rpi": "203",
         "sos": "110"
     }
 }
