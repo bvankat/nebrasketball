@@ -21,9 +21,9 @@
     "kenpom": {
         "conference_record": "3-17",
         "overall_record": "7-20",
-        "rating": "122",
+        "rating": "121",
         "record": "4-6",
-        "sos": "56"
+        "sos": "55"
     },
     "polls": {
         "ap_rank": "NR",
@@ -41,7 +41,7 @@
         "rank": "130"
     },
     "time": {
-        "time": "Dec 31,  4:29 PM"
+        "time": "Dec 31, 10:29 PM"
     },
     "trank": {
         "trank": "104",
@@ -56,7 +56,7 @@
         "quadrant_3": "1-1",
         "quadrant_4": "2-0",
         "record": "3-6",
-        "rpi": "206",
-        "sos": "114"
+        "rpi": "204",
+        "sos": "110"
     }
 }
