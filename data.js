@@ -23,7 +23,7 @@
         "overall_record": "7-19",
         "rating": "117",
         "record": "4-7",
-        "sos": "43"
+        "sos": "46"
     },
     "polls": {
         "ap_rank": "NR",
@@ -41,10 +41,10 @@
         "rank": "125"
     },
     "time": {
-        "time": "Jan 05,  7:29 PM"
+        "time": "Jan 05,  9:30 PM"
     },
     "trank": {
-        "trank": "103",
+        "trank": "102",
         "trank_proj_record": "8-19 (4-16)",
         "trank_seed": "NR"
     },
@@ -57,6 +57,6 @@
         "quadrant_4": "3-0",
         "record": "3-7",
         "rpi": "194",
-        "sos": "69"
+        "sos": "68"
     }
 }
