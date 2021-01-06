@@ -21,7 +21,7 @@
     "kenpom": {
         "conference_record": "3-16",
         "overall_record": "7-19",
-        "rating": "116",
+        "rating": "117",
         "record": "4-7",
         "sos": "43"
     },
@@ -41,7 +41,7 @@
         "rank": "125"
     },
     "time": {
-        "time": "Jan 05,  1:29 PM"
+        "time": "Jan 05,  7:29 PM"
     },
     "trank": {
         "trank": "103",
@@ -50,13 +50,13 @@
     },
     "warrennolan": {
         "current_conf_record": "0-4",
-        "elo": "236",
+        "elo": "237",
         "quadrant_1": "0-4",
         "quadrant_2": "0-0",
         "quadrant_3": "0-3",
         "quadrant_4": "3-0",
         "record": "3-7",
         "rpi": "194",
-        "sos": "71"
+        "sos": "69"
     }
 }
