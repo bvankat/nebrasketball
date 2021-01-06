@@ -41,10 +41,10 @@
         "rank": "125"
     },
     "time": {
-        "time": "Jan 05, 10:31 PM"
+        "time": "Jan 05, 11:30 PM"
     },
     "trank": {
-        "trank": "101",
+        "trank": "100",
         "trank_proj_record": "8-19 (4-16)",
         "trank_seed": "NR"
     },
