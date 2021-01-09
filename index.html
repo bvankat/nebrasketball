@@ -67,7 +67,7 @@
 		  	  
 		  		<div id="chart_div" style="width: 350px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
-		  		<h4 class="col-sm-12 text-center">Status: <span id="message"></span></h4>
+		  		<!-- <h4 class="col-sm-12 text-center">Status: <span id="message"></span></h4>-->
 		  		
 
     
@@ -351,9 +351,9 @@
 			 			 
 			 function StatusCheck(data) {
 				 var status_message;
-				 if (data < 20) { status_message = "Pessimists are rarely disappointed." }
-				 if (data >= 20 && data < 45) { status_message = "Let's beat a Top 200 team before we get too excited." }
-				 if (data >= 45 && data < 75) { status_message = "We're, uh, not sure how to behave right now." }
+				 if (data < 20) { status_message = "Nope. Not happening." }
+				 if (data >= 20 && data < 45) { status_message = "It's been a minute since the odds were even this high." }
+				 if (data >= 45 && data < 75) { status_message = "These aren't uncharted waters. But they're very lightly charted." }
 				 if (data >= 75) { status_message = "Believe it when we see it." }
 				 
 				 return status_message;
