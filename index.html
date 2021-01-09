@@ -193,7 +193,7 @@
 
 
 	    	
-	    	<h4>Projections <span class="small text-muted">(Current record: <span id="warrennolan-record"></span>, <span id="current_conf_record"></span> Big Ten)</h4>
+	    	<h4>Projections <span class="small text-muted">(Current record: <span id="kenpom-record"></span>, <span id="current_conf_record"></span> Big Ten)</h4>
 	    	<table class="table">
 		    	<thead>
 			    	<tr>
@@ -246,12 +246,14 @@
 			$('#kenpom-rating').text(json.kenpom.rating);
 			$('#kenpom-conference').text(json.kenpom.conference_record);
 			$('#kenpom-overall').text(json.kenpom.overall_record);
+			$('#kenpom-sos').text(json.kenpom.sos);
+			$('#kenpom-record').text(json.kenpom.record);)
 			
-			// $('#ncaa-net, #ncaa-net2').text(json.ncaa.net_rank); 
+			
+			$('#ncaa-net, #ncaa-net2').text(json.ncaa.net_rank); 
 			
 			$('#espn-rating').text(json.espn.bpi);
 			
-			$('#kenpom-sos').text(json.kenpom.sos);
 			$('#espn-sos').text(json.espn.sos);
 			
 			$('#espn-proj-tourney-seed').text(json.espn.proj_tourney_seed);
@@ -263,7 +265,6 @@
 			$('#espn-bracketology-seed').text(json.espn_bracketology.seed);
 			
 			$('#warrennolan-sos, #warrennolan-sos2').text(json.warrennolan.sos);
-			$('#warrennolan-record').text(json.warrennolan.record);
 			$('#warrennolan-group1').text(json.warrennolan.quadrant_1);
 			$('#warrennolan-group2').text(json.warrennolan.quadrant_2);
 			$('#warrennolan-group3').text(json.warrennolan.quadrant_3);
