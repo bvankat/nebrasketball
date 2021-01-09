@@ -25,6 +25,9 @@
         "record": "4-7",
         "sos": "34"
     },
+    "ncaa": {
+        "net_rank": "169"
+    },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
@@ -41,7 +44,7 @@
         "rank": "123"
     },
     "time": {
-        "time": "Jan 09,  4:30 AM"
+        "time": "Jan 09,  5:03 AM"
     },
     "trank": {
         "trank": "97",
