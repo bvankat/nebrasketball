@@ -23,7 +23,7 @@
         "overall_record": "7-19",
         "rating": "121",
         "record": "4-8",
-        "sos": "27"
+        "sos": "28"
     },
     "ncaa": {
         "net_rank": "161"
@@ -44,7 +44,7 @@
         "rank": "121"
     },
     "time": {
-        "time": "Jan 11,  4:29 PM"
+        "time": "Jan 11,  6:29 PM"
     },
     "trank": {
         "trank": "95",
