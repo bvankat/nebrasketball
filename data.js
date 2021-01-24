@@ -23,7 +23,7 @@
         "overall_record": "6-15",
         "rating": "123",
         "record": "4-8",
-        "sos": "24"
+        "sos": "27"
     },
     "ncaa": {
         "net_rank": "163"
@@ -44,7 +44,7 @@
         "rank": "122"
     },
     "time": {
-        "time": "Jan 24,  1:29 PM"
+        "time": "Jan 24,  5:29 PM"
     },
     "trank": {
         "trank": "95",
@@ -59,7 +59,7 @@
         "quadrant_3": "0-2",
         "quadrant_4": "3-0",
         "record": "3-8",
-        "rpi": "210",
-        "sos": "50"
+        "rpi": "215",
+        "sos": "56"
     }
 }
