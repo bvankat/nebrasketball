@@ -2,49 +2,49 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "49"
+        "total_brackets": "75"
     },
     "espn": {
-        "bpi": "129",
+        "bpi": "125",
         "chance_round_32": "0.0%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "3.1-15.9",
-        "proj_win_loss_overall": "7.1-18.9",
-        "seven_day_change": "-5",
-        "sor": "221",
-        "sos": "37"
+        "proj_win_loss_conf": "2.0-12.0",
+        "proj_win_loss_overall": "6.0-15.0",
+        "seven_day_change": "-1",
+        "sor": "201",
+        "sos": "35"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "kenpom": {
-        "conference_record": "3-16",
-        "overall_record": "7-19",
-        "rating": "121",
+        "conference_record": "2-12",
+        "overall_record": "6-15",
+        "rating": "123",
         "record": "4-8",
-        "sos": "28"
+        "sos": "24"
     },
     "ncaa": {
-        "net_rank": "161"
+        "net_rank": "163"
     },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "108"
+        "sagarin_rate": "105"
     },
     "teamrankings": {
-        "make_tournament": "0.1%",
-        "most_likely_seed": "11",
-        "proj_conf_record": "2.6-17.4",
-        "projected_losses": "20.4",
-        "projected_wins": "6.6",
-        "rank": "121"
+        "make_tournament": "0.0%",
+        "most_likely_seed": "12",
+        "proj_conf_record": "2.7-17.3",
+        "projected_losses": "20.3",
+        "projected_wins": "6.7",
+        "rank": "122"
     },
     "time": {
-        "time": "Jan 11,  6:29 PM"
+        "time": "Jan 24,  4:41 AM"
     },
     "trank": {
         "trank": "95",
@@ -53,13 +53,13 @@
     },
     "warrennolan": {
         "current_conf_record": "0-5",
-        "elo": "242",
+        "elo": "238",
         "quadrant_1": "0-4",
-        "quadrant_2": "0-1",
-        "quadrant_3": "0-3",
+        "quadrant_2": "0-2",
+        "quadrant_3": "0-2",
         "quadrant_4": "3-0",
         "record": "3-8",
-        "rpi": "197",
-        "sos": "50"
+        "rpi": "210",
+        "sos": "47"
     }
 }
