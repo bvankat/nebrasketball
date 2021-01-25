@@ -44,10 +44,10 @@
         "rank": "122"
     },
     "time": {
-        "time": "Jan 24,  5:29 PM"
+        "time": "Jan 24,  6:46 PM"
     },
     "trank": {
-        "trank": "95",
+        "trank": "94",
         "trank_proj_record": "8-19 (4-16)",
         "trank_seed": "NR"
     },
