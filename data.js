@@ -21,7 +21,7 @@
     "kenpom": {
         "conference_record": "2-12",
         "overall_record": "6-15",
-        "rating": "124",
+        "rating": "125",
         "record": "4-8",
         "sos": "27"
     },
@@ -44,7 +44,7 @@
         "rank": "121"
     },
     "time": {
-        "time": "Jan 25, 10:30 PM"
+        "time": "Jan 25, 11:29 PM"
     },
     "trank": {
         "trank": "95",
