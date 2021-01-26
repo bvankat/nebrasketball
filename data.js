@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "75"
+        "total_brackets": "77"
     },
     "espn": {
         "bpi": "123",
@@ -44,7 +44,7 @@
         "rank": "121"
     },
     "time": {
-        "time": "Jan 25,  9:30 PM"
+        "time": "Jan 25, 10:30 PM"
     },
     "trank": {
         "trank": "95",
@@ -53,7 +53,7 @@
     },
     "warrennolan": {
         "current_conf_record": "0-5",
-        "elo": "236",
+        "elo": "235",
         "quadrant_1": "0-4",
         "quadrant_2": "0-2",
         "quadrant_3": "0-2",
