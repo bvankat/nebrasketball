@@ -21,9 +21,9 @@
     "kenpom": {
         "conference_record": "2-12",
         "overall_record": "6-15",
-        "rating": "125",
+        "rating": "124",
         "record": "4-8",
-        "sos": "32"
+        "sos": "30"
     },
     "ncaa": {
         "net_rank": "167"
@@ -44,22 +44,22 @@
         "rank": "122"
     },
     "time": {
-        "time": "Jan 29,  7:30 PM"
+        "time": "Jan 29, 10:29 PM"
     },
     "trank": {
-        "trank": "100",
+        "trank": "99",
         "trank_proj_record": "8-19 (4-16)",
         "trank_seed": "NR"
     },
     "warrennolan": {
         "current_conf_record": "0-5",
-        "elo": "238",
+        "elo": "236",
         "quadrant_1": "0-4",
         "quadrant_2": "0-2",
         "quadrant_3": "0-2",
         "quadrant_4": "3-0",
         "record": "3-8",
-        "rpi": "217",
-        "sos": "52"
+        "rpi": "212",
+        "sos": "48"
     }
 }
