@@ -44,7 +44,7 @@
         "rank": "121"
     },
     "time": {
-        "time": "Feb 01, 12:30 PM"
+        "time": "Feb 01,  2:31 PM"
     },
     "trank": {
         "trank": "98",
@@ -53,13 +53,13 @@
     },
     "warrennolan": {
         "current_conf_record": "0-5",
-        "elo": "237",
+        "elo": "238",
         "quadrant_1": "0-4",
         "quadrant_2": "0-2",
         "quadrant_3": "0-2",
         "quadrant_4": "3-0",
         "record": "3-8",
-        "rpi": "215",
+        "rpi": "216",
         "sos": "52"
     }
 }
