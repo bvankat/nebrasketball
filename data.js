@@ -23,7 +23,7 @@
         "overall_record": "6-15",
         "rating": "122",
         "record": "4-8",
-        "sos": "30"
+        "sos": "28"
     },
     "ncaa": {
         "net_rank": "170"
@@ -44,22 +44,22 @@
         "rank": "121"
     },
     "time": {
-        "time": "Feb 04, 10:29 AM"
+        "time": "Feb 04, 10:29 PM"
     },
     "trank": {
-        "trank": "99",
+        "trank": "98",
         "trank_proj_record": "8-19 (4-16)",
         "trank_seed": "NR"
     },
     "warrennolan": {
         "current_conf_record": "0-5",
-        "elo": "239",
+        "elo": "240",
         "quadrant_1": "0-4",
         "quadrant_2": "0-2",
         "quadrant_3": "0-2",
         "quadrant_4": "3-0",
         "record": "3-8",
-        "rpi": "222",
+        "rpi": "224",
         "sos": "57"
     }
 }
