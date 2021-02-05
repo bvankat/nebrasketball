@@ -36,7 +36,7 @@
         "sagarin_rate": "118"
     },
     "teamrankings": {
-        "make_tournament": "0.1%",
+        "make_tournament": "0.0%",
         "most_likely_seed": "11",
         "proj_conf_record": "2.4-16.6",
         "projected_losses": "19.6",
@@ -44,7 +44,7 @@
         "rank": "122"
     },
     "time": {
-        "time": "Feb 05,  3:29 AM"
+        "time": "Feb 05,  4:30 AM"
     },
     "trank": {
         "trank": "98",
