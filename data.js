@@ -23,10 +23,10 @@
         "overall_record": "6-15",
         "rating": "123",
         "record": "4-8",
-        "sos": "29"
+        "sos": "28"
     },
     "ncaa": {
-        "net_rank": "167"
+        "net_rank": "160"
     },
     "polls": {
         "ap_rank": "NR",
@@ -44,7 +44,7 @@
         "rank": "122"
     },
     "time": {
-        "time": "Feb 06, 10:53 AM"
+        "time": "Feb 06, 11:30 AM"
     },
     "trank": {
         "trank": "101",
