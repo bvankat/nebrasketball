@@ -2,18 +2,18 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "92"
+        "total_brackets": "94"
     },
     "espn": {
         "bpi": "124",
         "chance_round_32": "0.0%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "1.9-12.1",
-        "proj_win_loss_overall": "5.9-15.1",
-        "seven_day_change": "-2",
-        "sor": "173",
-        "sos": "45"
+        "proj_win_loss_conf": "2.0-12.0",
+        "proj_win_loss_overall": "6.0-15.0",
+        "seven_day_change": "-3",
+        "sor": "171",
+        "sos": "41"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -23,7 +23,7 @@
         "overall_record": "6-15",
         "rating": "123",
         "record": "4-8",
-        "sos": "28"
+        "sos": "29"
     },
     "ncaa": {
         "net_rank": "167"
@@ -33,7 +33,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "121"
+        "sagarin_rate": "115"
     },
     "teamrankings": {
         "make_tournament": "0.0%",
@@ -44,22 +44,22 @@
         "rank": "122"
     },
     "time": {
-        "time": "Feb 05, 11:30 AM"
+        "time": "Feb 06, 10:53 AM"
     },
     "trank": {
-        "trank": "99",
+        "trank": "101",
         "trank_proj_record": "8-19 (4-16)",
         "trank_seed": "NR"
     },
     "warrennolan": {
         "current_conf_record": "0-5",
-        "elo": "240",
+        "elo": "242",
         "quadrant_1": "0-4",
         "quadrant_2": "0-2",
-        "quadrant_3": "0-2",
-        "quadrant_4": "3-0",
+        "quadrant_3": "1-2",
+        "quadrant_4": "2-0",
         "record": "3-8",
-        "rpi": "225",
-        "sos": "57"
+        "rpi": "223",
+        "sos": "49"
     }
 }
