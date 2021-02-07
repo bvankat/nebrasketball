@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "94"
+        "total_brackets": "93"
     },
     "espn": {
         "bpi": "124",
@@ -19,11 +19,11 @@
         "seed": "NR"
     },
     "kenpom": {
-        "conference_record": "2-12",
-        "overall_record": "6-15",
-        "rating": "123",
-        "record": "4-8",
-        "sos": "28"
+        "conference_record": "1-13",
+        "overall_record": "5-16",
+        "rating": "124",
+        "record": "4-9",
+        "sos": "26"
     },
     "ncaa": {
         "net_rank": "160"
@@ -44,22 +44,22 @@
         "rank": "122"
     },
     "time": {
-        "time": "Feb 06, 11:30 AM"
+        "time": "Feb 06, 10:30 PM"
     },
     "trank": {
-        "trank": "101",
-        "trank_proj_record": "8-19 (4-16)",
+        "trank": "109",
+        "trank_proj_record": "7-20 (3-17)",
         "trank_seed": "NR"
     },
     "warrennolan": {
-        "current_conf_record": "0-5",
-        "elo": "242",
+        "current_conf_record": "0-6",
+        "elo": "241",
         "quadrant_1": "0-4",
-        "quadrant_2": "0-2",
+        "quadrant_2": "0-3",
         "quadrant_3": "1-2",
         "quadrant_4": "2-0",
-        "record": "3-8",
-        "rpi": "223",
-        "sos": "49"
+        "record": "3-9",
+        "rpi": "217",
+        "sos": "42"
     }
 }
