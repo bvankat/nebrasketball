@@ -19,14 +19,14 @@
         "seed": "NR"
     },
     "kenpom": {
-        "conference_record": "2-12",
-        "overall_record": "6-15",
-        "rating": "123",
-        "record": "4-9",
-        "sos": "25"
+        "conference_record": "1-13",
+        "overall_record": "5-16",
+        "rating": "128",
+        "record": "4-10",
+        "sos": "18"
     },
     "ncaa": {
-        "net_rank": "163"
+        "net_rank": "166"
     },
     "polls": {
         "ap_rank": "NR",
@@ -44,7 +44,7 @@
         "rank": "128"
     },
     "time": {
-        "time": "Feb 09, 10:36 AM"
+        "time": "Feb 09, 11:29 AM"
     },
     "trank": {
         "trank": "114",
