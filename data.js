@@ -40,14 +40,14 @@
     },
     "teamrankings": {
         "make_tournament": "0.0%",
-        "most_likely_seed": "0",
+        "most_likely_seed": "NR",
         "proj_conf_record": "1.9-17.1",
         "projected_losses": "20.1",
         "projected_wins": "5.9",
         "rank": "129"
     },
     "time": {
-        "time": "Feb 10,  1:50 PM"
+        "time": "Feb 10,  2:00 PM"
     },
     "trank": {
         "trank": "114",
