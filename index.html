@@ -289,7 +289,7 @@
 			$('#teamrankings-conf-wl').text(json.teamrankings.proj_conf_record);
 			
 			
-			//$('#kpi_ranking').text(json.kpi_sports.kpi_ranking);
+			$('#kpi_ranking').text(json.kpi_sports.kpi_ranking);
 			
 			$('#bracketproject-count').text(json.bracketproject.matrix_count);
 			$('#bracketproject-totalbrackets').text(json.bracketproject.total_brackets);
@@ -329,7 +329,7 @@
 			 teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
 			 sagarin_score = FindScore(json.sagarin.sagarin_rate);
 			 trank_score = FindScore(json.trank.trank);
-			 //kpi_score = FindScore(json.kpi_sports.kpi_ranking);
+			 kpi_score = FindScore(json.kpi_sports.kpi_ranking);
 			 rpi_score = FindScore(json.warrennolan.rpi);
 			 
 			 
@@ -340,15 +340,13 @@
 			 // TOTAL SCORE FORMULA
 			 //Current formula, multipliers should add to .98 to keep the gauge happy
 			 
-			 // total_score = ((net_score * .14) + (kenpom_score * .14) + (espn_sor * .14) + (espn_bpi * .13) + (sagarin_score * .11) + (trank_score * .11) + (teamrankings_score * .10) + (rpi_score * .11) + intangibles);
-			 
-			 total_score = ((net_score * .15) + (kenpom_score * .15) + (espn_sor * .15) + (espn_bpi * .15) + (trank_score * .11) + (rpi_score * .09) + (teamrankings_score * .09) + + (sagarin_score * .09) + intangibles);
-			 
+			 total_score = ((net_score * .14) + (kenpom_score * .14) + (espn_sor * .14) + (espn_bpi * .13) + (sagarin_score * .11) + (trank_score * .11) + (teamrankings_score * .10) + (rpi_score * .11) + intangibles);
+						 
 			
-			 // uncomment next three lines to keep gauge score > 3
-			  if (total_score <= 2) {
-			  total_score = 2;
-			  }
+			 // next three lines keep gauge score > 3 in the really sad times
+			 if (total_score <= 2) {
+			 total_score = 2;
+			 }
 			  
 			 			 
 			 function StatusCheck(data) {
@@ -372,7 +370,7 @@
 			 // console.log("NCAA NET: " + net_score + "    (14%)");
 			 console.log("Kenpom score (predictive): " + kenpom_score + "    (20%)");
 			 console.log("ESPN SOR score (results-based): " + espn_sor + "    (20%)");
-			 // console.log("KPI score (results-based): " + kpi_score + "    (16%)");
+			 console.log("KPI score (results-based): " + kpi_score + "    (16%)");
 			 console.log("ESPN BPI score (predictive): " + espn_bpi + "    (15%)");
 			 console.log("Sagarin score (predictive): " + sagarin_score + "    (11%)");
 			 console.log("Torvik T-Rank score (predictive): " + trank_score + "    (15%)");
