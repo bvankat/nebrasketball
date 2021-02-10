@@ -11,9 +11,9 @@
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "1.6-13.4",
         "proj_win_loss_overall": "5.6-16.4",
-        "seven_day_change": "-1",
-        "sor": "182",
-        "sos": "35"
+        "seven_day_change": "-6",
+        "sor": "180",
+        "sos": "36"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -24,6 +24,9 @@
         "rating": "128",
         "record": "4-10",
         "sos": "19"
+    },
+    "kpi_sports": {
+        "kpi_ranking": "190"
     },
     "ncaa": {
         "net_rank": "165"
@@ -37,14 +40,14 @@
     },
     "teamrankings": {
         "make_tournament": "0.0%",
-        "most_likely_seed": "13",
+        "most_likely_seed": "0",
         "proj_conf_record": "1.9-17.1",
         "projected_losses": "20.1",
         "projected_wins": "5.9",
-        "rank": "128"
+        "rank": "129"
     },
     "time": {
-        "time": "Feb 10,  1:29 AM"
+        "time": "Feb 10,  1:50 PM"
     },
     "trank": {
         "trank": "114",
