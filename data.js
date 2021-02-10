@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "95"
+        "total_brackets": "97"
     },
     "espn": {
         "bpi": "128",
@@ -23,10 +23,10 @@
         "overall_record": "5-16",
         "rating": "128",
         "record": "4-10",
-        "sos": "18"
+        "sos": "19"
     },
     "ncaa": {
-        "net_rank": "166"
+        "net_rank": "165"
     },
     "polls": {
         "ap_rank": "NR",
@@ -44,7 +44,7 @@
         "rank": "128"
     },
     "time": {
-        "time": "Feb 09,  1:30 PM"
+        "time": "Feb 10,  1:29 AM"
     },
     "trank": {
         "trank": "114",
@@ -59,7 +59,7 @@
         "quadrant_3": "1-2",
         "quadrant_4": "2-0",
         "record": "3-10",
-        "rpi": "223",
-        "sos": "40"
+        "rpi": "219",
+        "sos": "35"
     }
 }
