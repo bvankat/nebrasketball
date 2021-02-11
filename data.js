@@ -47,11 +47,11 @@
         "rank": "129"
     },
     "time": {
-        "time": "Feb 10, 11:30 PM"
+        "time": "Feb 11, 12:30 AM"
     },
     "trank": {
-        "trank": "117",
-        "trank_proj_record": "6-21 (2-18)",
+        "trank": "116",
+        "trank_proj_record": "7-20 (3-17)",
         "trank_seed": "NR"
     },
     "warrennolan": {
@@ -63,6 +63,6 @@
         "quadrant_4": "2-0",
         "record": "3-11",
         "rpi": "223",
-        "sos": "32"
+        "sos": "31"
     }
 }
