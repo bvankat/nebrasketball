@@ -29,7 +29,7 @@
         "kpi_ranking": "190"
     },
     "ncaa": {
-        "net_rank": "165"
+        "net_rank": "167"
     },
     "polls": {
         "ap_rank": "NR",
@@ -47,7 +47,7 @@
         "rank": "129"
     },
     "time": {
-        "time": "Feb 11,  1:30 AM"
+        "time": "Feb 11,  2:30 AM"
     },
     "trank": {
         "trank": "116",
