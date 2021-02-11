@@ -47,22 +47,22 @@
         "rank": "129"
     },
     "time": {
-        "time": "Feb 10,  2:00 PM"
+        "time": "Feb 10, 10:30 PM"
     },
     "trank": {
-        "trank": "114",
+        "trank": "116",
         "trank_proj_record": "7-20 (3-17)",
         "trank_seed": "NR"
     },
     "warrennolan": {
         "current_conf_record": "0-7",
-        "elo": "250",
+        "elo": "252",
         "quadrant_1": "0-5",
         "quadrant_2": "0-3",
         "quadrant_3": "1-2",
         "quadrant_4": "2-0",
         "record": "3-10",
-        "rpi": "219",
-        "sos": "35"
+        "rpi": "222",
+        "sos": "33"
     }
 }
