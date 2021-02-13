@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "103"
+        "total_brackets": "102"
     },
     "espn": {
         "bpi": "130",
@@ -21,9 +21,9 @@
     "kenpom": {
         "conference_record": "1-14",
         "overall_record": "5-17",
-        "rating": "129",
-        "record": "4-11",
-        "sos": "14"
+        "rating": "125",
+        "record": "4-12",
+        "sos": "10"
     },
     "kpi_sports": {
         "kpi_ranking": "190"
@@ -36,7 +36,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "127"
+        "sagarin_rate": "124"
     },
     "teamrankings": {
         "make_tournament": "0.0%",
@@ -47,22 +47,22 @@
         "rank": "129"
     },
     "time": {
-        "time": "Feb 12,  2:29 PM"
+        "time": "Feb 13,  1:29 AM"
     },
     "trank": {
-        "trank": "120",
+        "trank": "110",
         "trank_proj_record": "6-21 (2-18)",
         "trank_seed": "NR"
     },
     "warrennolan": {
-        "current_conf_record": "0-8",
-        "elo": "256",
-        "quadrant_1": "0-6",
+        "current_conf_record": "0-9",
+        "elo": "261",
+        "quadrant_1": "0-7",
         "quadrant_2": "0-3",
         "quadrant_3": "1-2",
         "quadrant_4": "2-0",
-        "record": "3-11",
-        "rpi": "221",
-        "sos": "31"
+        "record": "3-12",
+        "rpi": "222",
+        "sos": "24"
     }
 }
