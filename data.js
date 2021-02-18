@@ -47,11 +47,11 @@
         "rank": "125"
     },
     "time": {
-        "time": "Feb 18,  9:29 AM"
+        "time": "Feb 18, 10:30 AM"
     },
     "trank": {
         "trank": "112",
-        "trank_proj_record": "7-21 (3-18)",
+        "trank_proj_record": "7-19 (3-16)",
         "trank_seed": "NR"
     },
     "warrennolan": {
