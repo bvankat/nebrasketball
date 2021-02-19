@@ -21,9 +21,9 @@
     "kenpom": {
         "conference_record": "2-13",
         "overall_record": "6-16",
-        "rating": "114",
+        "rating": "117",
         "record": "5-14",
-        "sos": "4"
+        "sos": "5"
     },
     "kpi_sports": {
         "kpi_ranking": "190"
@@ -47,11 +47,11 @@
         "rank": "125"
     },
     "time": {
-        "time": "Feb 18, 10:30 AM"
+        "time": "Feb 18, 10:29 PM"
     },
     "trank": {
         "trank": "112",
-        "trank_proj_record": "7-19 (3-16)",
+        "trank_proj_record": "6-19 (2-16)",
         "trank_seed": "NR"
     },
     "warrennolan": {
@@ -62,7 +62,7 @@
         "quadrant_3": "0-2",
         "quadrant_4": "3-0",
         "record": "4-14",
-        "rpi": "215",
-        "sos": "35"
+        "rpi": "222",
+        "sos": "37"
     }
 }
