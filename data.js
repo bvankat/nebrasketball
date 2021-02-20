@@ -23,7 +23,7 @@
         "overall_record": "6-20",
         "rating": "117",
         "record": "5-14",
-        "sos": "5"
+        "sos": "6"
     },
     "kpi_sports": {
         "kpi_ranking": "190"
@@ -47,22 +47,22 @@
         "rank": "124"
     },
     "time": {
-        "time": "Feb 20,  1:29 PM"
+        "time": "Feb 20,  4:29 PM"
     },
     "trank": {
-        "trank": "111",
+        "trank": "108",
         "trank_proj_record": "7-19 (3-16)",
         "trank_seed": "NR"
     },
     "warrennolan": {
         "current_conf_record": "1-11",
-        "elo": "237",
+        "elo": "240",
         "quadrant_1": "1-9",
         "quadrant_2": "0-3",
         "quadrant_3": "0-2",
         "quadrant_4": "3-0",
         "record": "4-14",
-        "rpi": "217",
-        "sos": "36"
+        "rpi": "218",
+        "sos": "38"
     }
 }
