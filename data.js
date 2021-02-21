@@ -47,7 +47,7 @@
         "rank": "124"
     },
     "time": {
-        "time": "Feb 21,  9:29 AM"
+        "time": "Feb 21,  1:29 PM"
     },
     "trank": {
         "trank": "112",
@@ -56,7 +56,7 @@
     },
     "warrennolan": {
         "current_conf_record": "1-12",
-        "elo": "246",
+        "elo": "245",
         "quadrant_1": "1-10",
         "quadrant_2": "0-3",
         "quadrant_3": "0-2",
