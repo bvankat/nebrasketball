@@ -47,10 +47,10 @@
         "rank": "122"
     },
     "time": {
-        "time": "Feb 22,  1:29 PM"
+        "time": "Feb 22,  4:30 PM"
     },
     "trank": {
-        "trank": "109",
+        "trank": "110",
         "trank_proj_record": "6-20 (2-17)",
         "trank_seed": "NR"
     },
