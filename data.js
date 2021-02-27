@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "110"
+        "total_brackets": "105"
     },
     "espn": {
         "bpi": "126",
@@ -36,7 +36,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "115"
+        "sagarin_rate": "120"
     },
     "teamrankings": {
         "make_tournament": "0.0%",
@@ -47,7 +47,7 @@
         "rank": "119"
     },
     "time": {
-        "time": "Feb 26,  8:29 PM"
+        "time": "Feb 27,  3:29 AM"
     },
     "trank": {
         "trank": "105",
@@ -56,13 +56,13 @@
     },
     "warrennolan": {
         "current_conf_record": "1-14",
-        "elo": "252",
+        "elo": "254",
         "quadrant_1": "1-12",
         "quadrant_2": "0-4",
         "quadrant_3": "0-1",
         "quadrant_4": "3-0",
         "record": "4-17",
-        "rpi": "229",
-        "sos": "24"
+        "rpi": "231",
+        "sos": "26"
     }
 }
