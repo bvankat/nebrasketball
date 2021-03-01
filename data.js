@@ -47,10 +47,10 @@
         "rank": "116"
     },
     "time": {
-        "time": "Mar 01, 12:30 AM"
+        "time": "Mar 01,  1:29 AM"
     },
     "trank": {
-        "trank": "96",
+        "trank": "97",
         "trank_proj_record": "7-19 (3-16)",
         "trank_seed": "NR"
     },
