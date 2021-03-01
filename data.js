@@ -11,9 +11,9 @@
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "2.6-16.4",
         "proj_win_loss_overall": "6.6-19.4",
-        "seven_day_change": "5",
-        "sor": "159",
-        "sos": "8"
+        "seven_day_change": "2",
+        "sor": "162",
+        "sos": "9"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -47,7 +47,7 @@
         "rank": "116"
     },
     "time": {
-        "time": "Mar 01,  3:30 AM"
+        "time": "Mar 01, 10:29 AM"
     },
     "trank": {
         "trank": "97",
@@ -57,9 +57,9 @@
     "warrennolan": {
         "current_conf_record": "2-14",
         "elo": "225",
-        "quadrant_1": "1-12",
+        "quadrant_1": "1-11",
         "quadrant_2": "1-4",
-        "quadrant_3": "0-1",
+        "quadrant_3": "0-2",
         "quadrant_4": "3-0",
         "record": "5-17",
         "rpi": "223",
