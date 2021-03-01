@@ -2,17 +2,17 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "104"
+        "total_brackets": "100"
     },
     "espn": {
-        "bpi": "125",
+        "bpi": "124",
         "chance_round_32": "0.0%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "2.0-17.0",
-        "proj_win_loss_overall": "6.0-20.0",
-        "seven_day_change": "1",
-        "sor": "175",
+        "proj_win_loss_conf": "2.6-16.4",
+        "proj_win_loss_overall": "6.6-19.4",
+        "seven_day_change": "5",
+        "sor": "159",
         "sos": "8"
     },
     "espn_bracketology": {
@@ -21,12 +21,12 @@
     "kenpom": {
         "conference_record": "3-16",
         "overall_record": "7-19",
-        "rating": "108",
+        "rating": "109",
         "record": "6-17",
         "sos": "4"
     },
     "kpi_sports": {
-        "kpi_ranking": "190"
+        "kpi_ranking": "179"
     },
     "ncaa": {
         "net_rank": "138"
@@ -36,33 +36,33 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "120"
+        "sagarin_rate": "108"
     },
     "teamrankings": {
         "make_tournament": "0.0%",
-        "most_likely_seed": "14",
-        "proj_conf_record": "1.8-17.2",
-        "projected_losses": "20.2",
-        "projected_wins": "5.8",
-        "rank": "119"
+        "most_likely_seed": "NR",
+        "proj_conf_record": "2.6-16.4",
+        "projected_losses": "19.4",
+        "projected_wins": "6.6",
+        "rank": "116"
     },
     "time": {
-        "time": "Feb 28, 12:30 AM"
+        "time": "Mar 01, 12:30 AM"
     },
     "trank": {
-        "trank": "97",
+        "trank": "96",
         "trank_proj_record": "7-19 (3-16)",
         "trank_seed": "NR"
     },
     "warrennolan": {
         "current_conf_record": "2-14",
-        "elo": "226",
+        "elo": "225",
         "quadrant_1": "1-12",
         "quadrant_2": "1-4",
         "quadrant_3": "0-1",
         "quadrant_4": "3-0",
         "record": "5-17",
-        "rpi": "224",
-        "sos": "24"
+        "rpi": "223",
+        "sos": "27"
     }
 }
