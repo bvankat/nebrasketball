@@ -47,7 +47,7 @@
         "rank": "105"
     },
     "time": {
-        "time": "Mar 04, 11:30 AM"
+        "time": "Mar 04,  4:30 PM"
     },
     "trank": {
         "trank": "82",
@@ -62,7 +62,7 @@
         "quadrant_3": "1-1",
         "quadrant_4": "3-0",
         "record": "6-17",
-        "rpi": "213",
+        "rpi": "212",
         "sos": "28"
     }
 }
