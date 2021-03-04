@@ -40,14 +40,14 @@
     },
     "teamrankings": {
         "make_tournament": "0.0%",
-        "most_likely_seed": "14",
+        "most_likely_seed": "NR",
         "proj_conf_record": "3.4-15.6",
         "projected_losses": "18.6",
         "projected_wins": "7.4",
         "rank": "105"
     },
     "time": {
-        "time": "Mar 04,  5:31 AM"
+        "time": "Mar 04,  6:30 AM"
     },
     "trank": {
         "trank": "82",
@@ -57,9 +57,9 @@
     "warrennolan": {
         "current_conf_record": "3-14",
         "elo": "192",
-        "quadrant_1": "1-12",
-        "quadrant_2": "2-4",
-        "quadrant_3": "0-1",
+        "quadrant_1": "1-11",
+        "quadrant_2": "1-5",
+        "quadrant_3": "1-1",
         "quadrant_4": "3-0",
         "record": "6-17",
         "rpi": "213",
