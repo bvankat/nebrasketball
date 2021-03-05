@@ -29,7 +29,7 @@
         "kpi_ranking": "162"
     },
     "ncaa": {
-        "net_rank": "119"
+        "net_rank": "127"
     },
     "polls": {
         "ap_rank": "NR",
@@ -40,14 +40,14 @@
     },
     "teamrankings": {
         "make_tournament": "0.0%",
-        "most_likely_seed": "14",
+        "most_likely_seed": "NR",
         "proj_conf_record": "3.3-15.7",
         "projected_losses": "18.7",
         "projected_wins": "7.3",
         "rank": "115"
     },
     "time": {
-        "time": "Mar 05,  6:30 AM"
+        "time": "Mar 05,  7:30 AM"
     },
     "trank": {
         "trank": "88",
