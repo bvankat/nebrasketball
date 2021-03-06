@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "107"
+        "total_brackets": "116"
     },
     "espn": {
         "bpi": "121",
@@ -13,7 +13,7 @@
         "proj_win_loss_overall": "7.3-18.7",
         "seven_day_change": "5",
         "sor": "149",
-        "sos": "8"
+        "sos": "9"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -47,22 +47,22 @@
         "rank": "115"
     },
     "time": {
-        "time": "Mar 05,  7:30 AM"
+        "time": "Mar 05, 11:29 PM"
     },
     "trank": {
-        "trank": "88",
+        "trank": "86",
         "trank_proj_record": "7-19 (3-16)",
         "trank_seed": "NR"
     },
     "warrennolan": {
         "current_conf_record": "3-15",
-        "elo": "191",
+        "elo": "190",
         "quadrant_1": "1-12",
         "quadrant_2": "1-5",
         "quadrant_3": "1-1",
         "quadrant_4": "3-0",
         "record": "6-18",
         "rpi": "212",
-        "sos": "24"
+        "sos": "21"
     }
 }
