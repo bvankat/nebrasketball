@@ -20,16 +20,16 @@
     },
     "kenpom": {
         "conference_record": "3-16",
-        "overall_record": "7-19",
-        "rating": "94",
-        "record": "7-18",
-        "sos": "3"
+        "overall_record": "7-20",
+        "rating": "95",
+        "record": "7-20",
+        "sos": "4"
     },
     "kpi_sports": {
-        "kpi_ranking": "162"
+        "kpi_ranking": "182"
     },
     "ncaa": {
-        "net_rank": "125"
+        "net_rank": "126"
     },
     "polls": {
         "ap_rank": "NR",
@@ -41,28 +41,28 @@
     "teamrankings": {
         "make_tournament": "0.0%",
         "most_likely_seed": "NR",
-        "proj_conf_record": "3.3-15.7",
-        "projected_losses": "18.7",
-        "projected_wins": "7.3",
+        "proj_conf_record": "3-16",
+        "projected_losses": "19",
+        "projected_wins": "7",
         "rank": "113"
     },
     "time": {
-        "time": "Mar 07,  2:29 AM"
+        "time": "Mar 15,  5:41 AM"
     },
     "trank": {
-        "trank": "84",
+        "trank": "86",
         "trank_proj_record": "7-19 (3-16)",
         "trank_seed": "NR"
     },
     "warrennolan": {
-        "current_conf_record": "3-15",
+        "current_conf_record": "3-16",
         "elo": "190",
         "quadrant_1": "1-12",
         "quadrant_2": "1-5",
         "quadrant_3": "1-1",
         "quadrant_4": "3-0",
-        "record": "6-18",
-        "rpi": "214",
-        "sos": "21"
+        "record": "7-20",
+        "rpi": "243",
+        "sos": "43"
     }
 }
