@@ -340,13 +340,17 @@
 			 // TOTAL SCORE FORMULA
 			 //Current formula, multipliers should add to .98 to keep the gauge happy
 			 
-			 total_score = ((net_score * .14) + (kenpom_score * .14) + (espn_sor * .14) + (espn_bpi * .13) + (sagarin_score * .11) + (trank_score * .11) + (teamrankings_score * .10) + (rpi_score * .11) + intangibles);
+			 
+			 total_score = 0;
+			 
+			 // FORMULA MUTED IN OFFSEASON
+			 //total_score = ((net_score * .14) + (kenpom_score * .14) + (espn_sor * .14) + (espn_bpi * .13) + (sagarin_score * .11) + (trank_score * .11) + (teamrankings_score * .10) + (rpi_score * .11) + intangibles);
 						 
 			
 			 // next three lines keep gauge score > 3 in the really sad times
-			 if (total_score <= 2) {
-			 total_score = 2;
-			 }
+			 //if (total_score <= 2) {
+			// total_score = 2;
+			// }
 			  
 			 			 
 			 function StatusCheck(data) {
@@ -411,11 +415,11 @@
 
 
 
-
-        setInterval(function() {
-          data.setValue(0, 1, total_score-2 + Math.round(1 * Math.random()));
-          chart.draw(data, options);
-        }, 300);
+		// BOUNCE THE NEEDLE DISABLED IN OFFSEASON
+       // setInterval(function() {
+       //   data.setValue(0, 1, total_score-2 + Math.round(1 * Math.random()));
+       //   chart.draw(data, options);
+       // }, 300);
      
      
       };
