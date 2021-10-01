@@ -67,7 +67,7 @@
 		  	  
 		  		<div id="chart_div" style="width: 350px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
-		  		<!-- <h4 class="col-sm-12 text-center">Status: <span id="message"></span></h4>-->
+		  		<h4 class="col-sm-12 text-center">Status: <span id="message">First preseason ranking we saw has Nebraska at #66. 👀</span></h4>
 		  		
 
     
@@ -82,7 +82,7 @@
 			  
 		  <div class="col-sm-12">
 			  
-			  <p class="text-muted small">(These numbers will update as 2022 projections start to trickle in this month.)</p>
+			  <p class="text-muted small text-center">(These numbers will update as 2022 projections start to trickle in this month.)</p>
 			  	    
 	    	<table class="table">
 		    	<thead>
@@ -349,22 +349,22 @@
 			 //total_score = ((net_score * .14) + (kenpom_score * .14) + (espn_sor * .14) + (espn_bpi * .13) + (sagarin_score * .11) + (trank_score * .11) + (teamrankings_score * .10) + (rpi_score * .11) + intangibles);
 						 
 			
-			  next three lines keep gauge score > 3 in the really sad times
+			 // next three lines keep gauge score > 3 in the really sad times
 			 if (total_score <= 2) {
 			 total_score = 2;
 			 }
 			  
-			 			 
-			 function StatusCheck(data) {
-				 var status_message;
-				 if (data < 20) { status_message = "Nope. Not happening." }
-				 if (data >= 20 && data < 45) { status_message = "It's been a minute since the odds were even this high." }
-				 if (data >= 45 && data < 75) { status_message = "These aren't uncharted waters. But they're very lightly charted." }
-				 if (data >= 75) { status_message = "Believe it when we see it." }
-				 
-				 return status_message;
-				 
-			 }
+			 
+			 // Manual status updates in offseason			 
+			 // function StatusCheck(data) {
+			//	 var status_message;
+			//	 if (data < 20) { status_message = "Nope. Not happening." }
+			//	 if (data >= 20 && data < 45) { status_message = "It's been a minute since the odds were even this high." }
+			//	 if (data >= 45 && data < 75) { status_message = "These aren't uncharted waters. But they're very lightly charted." }
+			//	 if (data >= 75) { status_message = "Believe it when we see it." }
+			//	 
+			//	 return status_message;	 
+			// }
 			 
 			 message = StatusCheck(total_score);
 			 console.log(message);
