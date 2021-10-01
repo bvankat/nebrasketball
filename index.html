@@ -53,7 +53,7 @@
   </head>
   <body>
 	  
-  	  	<div class="alert alert-warning text-center">OFFSEASON: No more live updates. We've wrapped up another year. See you in the fall!</div>
+  	  	<div class="alert alert-warning text-center">Oct 1: Season starts today! We'll be back soon with daily updates.</div>
 
 	  	  
 	  	<div class="jumbotron">
@@ -340,17 +340,17 @@
 			 // TOTAL SCORE FORMULA
 			 //Current formula, multipliers should add to .98 to keep the gauge happy
 			 
-			 
-			 total_score = 0;
+			 // Manual total until automated scrape returns
+			 total_score = 6;
 			 
 			 // FORMULA MUTED IN OFFSEASON
 			 //total_score = ((net_score * .14) + (kenpom_score * .14) + (espn_sor * .14) + (espn_bpi * .13) + (sagarin_score * .11) + (trank_score * .11) + (teamrankings_score * .10) + (rpi_score * .11) + intangibles);
 						 
 			
-			 // next three lines keep gauge score > 3 in the really sad times
-			 //if (total_score <= 2) {
-			// total_score = 2;
-			// }
+			  next three lines keep gauge score > 3 in the really sad times
+			 if (total_score <= 2) {
+			 total_score = 2;
+			 }
 			  
 			 			 
 			 function StatusCheck(data) {
@@ -416,10 +416,10 @@
 
 
 		// BOUNCE THE NEEDLE DISABLED IN OFFSEASON
-       // setInterval(function() {
-       //   data.setValue(0, 1, total_score-2 + Math.round(1 * Math.random()));
-       //   chart.draw(data, options);
-       // }, 300);
+        setInterval(function() {
+          data.setValue(0, 1, total_score-2 + Math.round(1 * Math.random()));
+          chart.draw(data, options);
+        }, 300);
      
      
       };
