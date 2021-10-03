@@ -21,8 +21,11 @@
   
 
    	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
 	
 	<script type="text/javascript" src="data.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -31,7 +34,7 @@
 	<style>
 	    body { font-family: sans-serif; }
  	    h2 { font-family: "factoria", sans-serif; font-weight: bold; text-align: center; }
-	    div.jumbotron { color: #fff; background-color: #eb132f; border-radius: 0; }
+	    div.jumbotron { color: #fff; background-color: #eb132f; border-radius: 0; padding: 4em 0; margin-bottom: 4em; }
 	    .gray {color: #ddd; }
 	    th { text-align: left; }
 	    .r { text-align: right; }
@@ -53,7 +56,7 @@
   </head>
   <body>
 	  
-  	  	<div class="alert alert-warning text-center"><strong>Oct. 1</strong>: Season kicks off today and the gauge is active again! We'll be back soon with daily updates.</div>
+  	  	<div class="alert small alert-warning text-center"><strong>Oct. 1</strong>: Season kicks off today and the gauge is active again! We'll be back soon with daily updates.</div>
 
 	  	  
 	  	<div class="jumbotron">
@@ -93,7 +96,7 @@
 		    	</thead>
 		    	
 		    	<tbody>
-			    	<tr><td>Kenpom</td><td id="kenpom-rating" class="r"><span class="small gray">NA</span></td></tr>
+			    	<tr><td>Kenpom</i></td><td id="kenpom-rating" class="r"><span class="small gray">NA</span></td></tr>
 			    	<tr><td>NCAA NET</td><td id="ncaa-net" class="r"><span class="small gray">NA</span></td></tr>
 			    	<tr><td>ESPN BPI</td><td id="espn-rating" class="r"><span class="small gray">NA</span></td></tr>
 			    	<tr><td>ESPN SOR</td><td id="espn-sor" class="r"><span class="small gray">NA</span></td></tr>
@@ -165,7 +168,7 @@
 	    	<h4>Quadrants</h4>
 			<div class="table-responsive">
 			<table class="table">
-				<thead>
+				<thead class="small">
 					<tr>
 						<th>NET</th>
 						<th>SOS</th>
