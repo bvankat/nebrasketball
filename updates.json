@@ -1,0 +1,82 @@
+{
+    "updates": [
+        {
+            "kpi_sports": {
+                "kpi_ranking": "162"
+            }, 
+            "kenpom": {
+                "rating": "109", 
+                "sos": "4", 
+                "record": "7-20"
+            }, 
+            "time": {
+                "update_id": "04Oct2021-00:43:24", 
+                "time": "Oct 04, 12:43 AM"
+            }
+        }, 
+        {
+            "kpi_sports": {
+                "kpi_ranking": "162"
+            }, 
+            "kenpom": {
+                "rating": "109", 
+                "sos": "4", 
+                "record": "7-20"
+            }, 
+            "time": {
+                "update_id": "04Oct2021-00:43:44", 
+                "time": "Oct 04, 12:43 AM"
+            }
+        }, 
+        {
+            "kpi_sports": {
+                "kpi_ranking": "162"
+            }, 
+            "kenpom": {
+                "rating": "81", 
+                "sos": "1", 
+                "record": "0-0"
+            }, 
+            "time": {
+                "update_id": "20Oct2021-13:49:03", 
+                "time": "Oct 20,  1:49 PM"
+            }
+        }, 
+        {
+            "kpi_sports": {
+                "kpi_ranking": "162"
+            }, 
+            "kenpom": {
+                "rating": "81", 
+                "sos": "1", 
+                "record": "0-0"
+            }, 
+            "time": {
+                "update_id": "20Oct2021-13:50:21", 
+                "time": "Oct 20,  1:50 PM"
+            }
+        }, 
+        {
+            "trank": {
+                "trank_proj_record": "16-15 (8-12)", 
+                "trank": "66", 
+                "trank_seed": "NR", 
+                "trank_make_tourney": "9.5"
+            }, 
+            "polls": {
+                "ap_rank": "NR", 
+                "coaches_rank": "NR"
+            }, 
+            "kenpom": {
+                "rating": "81", 
+                "sos": "1", 
+                "overall_record": "14-17", 
+                "conference_record": "6-14", 
+                "record": "0-0"
+            }, 
+            "time": {
+                "time": "Oct 20,  2:10 PM"
+            }
+        }
+    ]
+}
