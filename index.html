@@ -85,9 +85,7 @@
 		  <div class="row">
 			  
 		  <div class="col-sm-12">
-			  
-			  <p class="text-muted small text-center">(These numbers will update as 2022 projections start to trickle in this month. Currently showing 2021 final numbers.)</p>
-			  	    
+			    	    
 	    	<table class="table">
 		    	<thead>
 			    	<tr>
@@ -156,6 +154,10 @@
 						<td>TeamRankings tournament percentage</td>
 						<td id="teamrankings-rating" class="r"><span class="small gray">NA</span></td>
 					</tr>
+					<tr>
+						<td>T-Ranketology tournament percentage</td>
+						<td id="trank-make-tourney" class="r"><span class="small gray">NA</span></td>
+					</tr>
 
 
 
@@ -199,7 +201,7 @@
 
 
 	    	
-	    	<h4>Projections <span class="small text-muted">(Current record: <span id="kenpom-record"></span>, <span id="current_conf_record"></span> Big Ten)</h4>
+	    	<h4>Projections <span class="small text-muted">(Current record: <span id="kenpom-record">0-0</span>, <span id="current_conf_record">0-0</span> Big Ten)</h4>
 	    	<table class="table">
 		    	<thead>
 			    	<tr>
@@ -247,6 +249,7 @@
 	  	
 	  	
 		$.getJSON( "data.js", function( json ) {
+			
 			console.log(json);
 
 			$('#kenpom-rating').text(json.kenpom.rating);
@@ -256,55 +259,56 @@
 			$('#kenpom-record').text(json.kenpom.record);
 			
 			
-			$('#ncaa-net, #ncaa-net2').text(json.ncaa.net_rank); 
+			// $('#ncaa-net, #ncaa-net2').text(json.ncaa.net_rank); 
 			
-			$('#espn-rating').text(json.espn.bpi);
+			// $('#espn-rating').text(json.espn.bpi);
+			// $('#espn-sos').text(json.espn.sos);
+			// $('#espn-proj-tourney-seed').text(json.espn.proj_tourney_seed);
+			// $('#espn-wl').text(json.espn.proj_win_loss_overall);
+			// $('#espn-cwl').text(json.espn.proj_win_loss_conf);
+			// $('#espn-sor').text(json.espn.sor);
+			// $('#espn-sweet16').text(json.espn.chance_sweet_16);
+			// $('#espn-round-32').text(json.espn.chance_round_32);
+			// $('#espn-bracketology-seed').text(json.espn_bracketology.seed);
 			
-			$('#espn-sos').text(json.espn.sos);
-			
-			$('#espn-proj-tourney-seed').text(json.espn.proj_tourney_seed);
-			$('#espn-wl').text(json.espn.proj_win_loss_overall);
-			$('#espn-cwl').text(json.espn.proj_win_loss_conf);
-			$('#espn-sor').text(json.espn.sor);
-			$('#espn-sweet16').text(json.espn.chance_sweet_16);
-			$('#espn-round-32').text(json.espn.chance_round_32);
-			$('#espn-bracketology-seed').text(json.espn_bracketology.seed);
-			
-			$('#warrennolan-sos, #warrennolan-sos2').text(json.warrennolan.sos);
-			$('#warrennolan-group1').text(json.warrennolan.quadrant_1);
-			$('#warrennolan-group2').text(json.warrennolan.quadrant_2);
-			$('#warrennolan-group3').text(json.warrennolan.quadrant_3);
-			$('#warrennolan-group4').text(json.warrennolan.quadrant_4);
-			$('#nolan-rpi').text(json.warrennolan.rpi);
-			$('#nolan-elo').text(json.warrennolan.elo);
+			// $('#warrennolan-sos, #warrennolan-sos2').text(json.warrennolan.sos);
+			// $('#warrennolan-group1').text(json.warrennolan.quadrant_1);
+			// $('#warrennolan-group2').text(json.warrennolan.quadrant_2);
+			// $('#warrennolan-group3').text(json.warrennolan.quadrant_3);
+			// $('#warrennolan-group4').text(json.warrennolan.quadrant_4);
+			// $('#nolan-rpi').text(json.warrennolan.rpi);
+			// $('#nolan-elo').text(json.warrennolan.elo);
 			
 			$('#ap-rank').text(json.polls.ap_rank);
 			$('#coaches-rank').text(json.polls.coaches_rank);
 			
 			$('#current_record').text(json.trank.current_record);
-			$('#current_conf_record').text(json.warrennolan.current_conf_record);
+			// $('#current_conf_record').text(json.warrennolan.current_conf_record);
 			
 			$('#trank-proj').text(json.trank.trank_proj_record);
 			$('#trank-seed').text(json.trank.trank_seed);
-			$('#sagarin').text(json.sagarin.sagarin_rate);
 			$('#trank-trank').text(json.trank.trank);
+			$('#trank-make-tourney').text(json.trank.trank_make_tourney);
 			
-			$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
-			$('#teamrankings-rating').text(json.teamrankings.make_tournament);
-			$('#teamrankings-rank').text(json.teamrankings.rank);
-			$('#teamrankings-conf-wl').text(json.teamrankings.proj_conf_record);
+			// $('#sagarin').text(json.sagarin.sagarin_rate);
 			
 			
-			$('#kpi_ranking').text(json.kpi_sports.kpi_ranking);
+			// $('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
+			// $('#teamrankings-rating').text(json.teamrankings.make_tournament);
+			// $('#teamrankings-rank').text(json.teamrankings.rank);
+			// $('#teamrankings-conf-wl').text(json.teamrankings.proj_conf_record);
 			
-			$('#bracketproject-count').text(json.bracketproject.matrix_count);
-			$('#bracketproject-totalbrackets').text(json.bracketproject.total_brackets);
-			$('#bracketproject-seed').text(json.bracketproject.matrix_seed);
+			
+			// $('#kpi_ranking').text(json.kpi_sports.kpi_ranking);
+			
+			// $('#bracketproject-count').text(json.bracketproject.matrix_count);
+			// $('#bracketproject-totalbrackets').text(json.bracketproject.total_brackets);
+			// $('#bracketproject-seed').text(json.bracketproject.matrix_seed);
 
 			// $('#cbs-bracket').text(json.cbs.cbs_rank);
 			
-			var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
-			$('#teamrankings_wl').text(teamrankings_wl);
+			// var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
+			// $('#teamrankings_wl').text(teamrankings_wl);
 			
 			$('#time').text(json.time.time);
 			
