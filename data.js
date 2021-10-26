@@ -17,7 +17,7 @@
         "coaches_rank": "NR"
     },
     "time": {
-        "time": "Oct 26,  1:47 PM"
+        "time": "Oct 26,  1:51 PM"
     },
     "trank": {
         "trank": "67",

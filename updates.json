@@ -1,15 +1,33 @@
 {
-    "updates": [ 
+    "updates": [
         {
+            "polls": {
+                "ap_rank": "NR", 
+                "coaches_rank": "NR"
+            }, 
             "trank": {
                 "trank_proj_record": "16-15 (8-12)", 
                 "trank": "66", 
                 "trank_seed": "NR", 
                 "trank_make_tourney": "9.5"
             }, 
-            "polls": {
-                "ap_rank": "NR", 
-                "coaches_rank": "NR"
+            "kenpom": {
+                "record": "0-0", 
+                "rating": "81", 
+                "sos": "1", 
+                "overall_record": "14-17", 
+                "conference_record": "6-14"
+            }, 
+            "time": {
+                "time": "Oct 20,  2:10 PM"
+            }
+        }, 
+        {
+            "trank": {
+                "trank_proj_record": "16-15 (8-12)", 
+                "trank": "67", 
+                "trank_seed": "NR", 
+                "trank_make_tourney": "9.1"
             }, 
             "kenpom": {
                 "rating": "81", 
@@ -18,8 +36,18 @@
                 "conference_record": "6-14", 
                 "record": "0-0"
             }, 
+            "polls": {
+                "ap_rank": "NR", 
+                "coaches_rank": "NR"
+            }, 
+            "espn_bracketology": {
+                "seed": "NR"
+            }, 
+            "cbs": {
+                "cbs_rank": "NR"
+            }, 
             "time": {
-                "time": "Oct 20,  2:10 PM"
+                "time": "Oct 26,  1:51 PM"
             }
         }
     ]
