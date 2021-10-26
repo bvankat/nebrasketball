@@ -1,4 +1,10 @@
 {
+    "cbs": {
+        "cbs_rank": "NR"
+    },
+    "espn_bracketology": {
+        "seed": "NR"
+    },
     "kenpom": {
         "conference_record": "6-14",
         "overall_record": "14-17",
@@ -11,11 +17,11 @@
         "coaches_rank": "NR"
     },
     "time": {
-        "time": "Oct 20,  2:15 PM"
+        "time": "Oct 26,  1:47 PM"
     },
     "trank": {
-        "trank": "66",
-        "trank_make_tourney": "9.5",
+        "trank": "67",
+        "trank_make_tourney": "9.1",
         "trank_proj_record": "16-15 (8-12)",
         "trank_seed": "NR"
     }
