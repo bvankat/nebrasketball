@@ -27,8 +27,11 @@
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
+    "sagarin": {
+        "sagarin_rate": "67"
+    },
     "time": {
-        "time": "Nov 05,  4:35 PM"
+        "time": "Nov 05,  4:49 PM"
     },
     "trank": {
         "trank": "66",
