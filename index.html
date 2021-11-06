@@ -73,7 +73,7 @@
 		  	  
 		  		<div id="chart_div" style="width: 350px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
-		  		<h4 class="col-sm-12 text-center">Status: <span id="message">The first "Nebrasketball in the Field of 68" projection is here. Hype escalating.</span></h4>
+		  		<h4 class="col-sm-12 text-center">Status: <span id="message">Calm down. Every team is #1 in RPI and SOR before the season starts.</span></h4>
 		  		
 
     
@@ -352,7 +352,7 @@
 			 
 			 // TOTAL SCORE FORMULA
 			 
-			 // Manual total until automated scrape returns
+			 // Manual total during preseason before rankings released
 			 // total_score = 6;
 
 			//Current formula, multipliers should add to .98 to keep the gauge happy
@@ -367,21 +367,20 @@
 			  
 			 
 			 // Manual status updates in offseason			 
-			 // function StatusCheck(data) {
-			//	 var status_message;
-			//	 if (data < 20) { status_message = "Nope. Not happening." }
-			//	 if (data >= 20 && data < 45) { status_message = "It's been a minute since the odds were even this high." }
-			//	 if (data >= 45 && data < 75) { status_message = "These aren't uncharted waters. But they're very lightly charted." }
-			//	 if (data >= 75) { status_message = "Believe it when we see it." }
-			//	 
-			//	 return status_message;	 
-			// }
+			function StatusCheck(data) {
+				 var status_message;
+				 if (data < 20) { status_message = "Nope. Not happening." }
+				 if (data >= 20 && data < 45) { status_message = "It's been a minute since the odds were even this high." }
+				 if (data >= 45 && data < 75) { status_message = "These aren't uncharted waters. But they're very lightly charted." }
+				 if (data >= 75) { status_message = "Believe it when we see it." }
+				 
+				 return status_message;	 
+			 }
 			 
-			 message = StatusCheck(total_score);
-			 console.log(message);
+			message = StatusCheck(total_score);
+			console.log(message);
 
 			 // $('#message').text(message);
-
 			 // Note from KPI: Selections have trended toward using results-based metrics. Predictive metrics help more with seeding.
 			 
 			 console.log("Warren Nolan NET: " + net_score + "    (12%)");
