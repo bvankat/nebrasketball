@@ -67,13 +67,13 @@
 	  	
 	  
 	  <h2>Nebraska basketball NCAA tournament odds</h2>
-	  <p class="col-sm-12 text-center gray" style="margin-bottom: 30px;">Updated every 60 minutes during the season</p>
+	  <p class="col-sm-12 text-center gray" style="margin-bottom: 30px;"><em>Updated every 60 minutes during the season</em></p>
 
 	  <div class="row">
 		  	  
 		  		<div id="chart_div" style="width: 350px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
-		  		<h4 class="col-sm-12 text-center">Status: <span id="message">The first "Nebrasketball in the Field of 68" projection is here. Hype escalating.</span></h4>
+		  		<p class="col-sm-12 text-center">Status: <span id="message">The first "Nebrasketball in the Field of 68" projection is here. Hype escalating.</span></p>
 		  		
 
     
@@ -92,7 +92,7 @@
 	    	<table class="table">
 		    	<thead>
 			    	<tr>
-				    	<th></th>
+				    	<th>Service</th>
 				    	<th class="r">Current rating</th>
 			    	</tr>
 		    	</thead>
@@ -135,28 +135,13 @@
 		    	
 					<tr><td>TeamRankings.com predictive rank</td><td id="teamrankings-rank" class="r"><span class="small gray">NA</span></td></tr>
 					
-					
-							
-					<tr>
-						<td>ESPN - Lunardi Bracketology seed</td>
-						<td class="r"><span id="espn-bracketology-seed"><span class="small gray">NA</span></span></td>
-					</tr>
-					<tr>
-						<td>CBS Sports - Jerry Palm Bracketology seed</td>
-						<td class="r"><span id="cbs-bracket"><span class="small gray">NA</span></span></td>
-					</tr>
-					
-					
-
-
-
 				</tbody>
 			</table>
 	    	
 	    	
 	    	<br /><br />
 	    	
-	    	<h4>How good are the odds?</h4>
+	    	<h4>What are the odds?</h4>
 	    	<table class="table">
 		    	<tbody>
 			    	
@@ -226,7 +211,7 @@
 			    	<tr>
 				    	<th>Service</th>
 						<th class="r">Projected W-L</th>
-						<th class="r">Projected/Likely seed</th>
+						<th class="r">Projected seed</th>
 			    	</tr>
 		    	</thead>
 		    	<tbody>
@@ -235,6 +220,8 @@
 				    <tr><td>Bart Torvik</td><td id="trank-proj" class="r"></td><td class="r"><span id="trank-seed"></span></td></tr>
 				    <tr><td>Bracket Matrix</td><td class="r"><span class="small gray">NA</span></td><td class="r" id="bracketproject-seed"><span class="small gray">NA</span></td></tr>
 					<tr><td>TeamRankings.com</td><td class="r"><span id="teamrankings_wl"></span> (<span id="teamrankings-conf-wl"></span>)</td><td class="r"><span id="teamrankings-seed"><span class="small gray">NA</span></span></td></tr>
+					<tr><td>ESPN - Lunardi Bracketology</td><td class="r small gray">NA</td><td class="r"><span id="espn-bracketology-seed"><span class="small gray">NA</span></span></td></tr>
+					<tr><td>CBS Sports - Jerry Palm Bracketology</td><td class="r small gray">NA</td><td class="r"><span id="cbs-bracket"><span class="small gray">NA</span></span></td></tr>
 			    </tbody>
 			</table>
 			
@@ -308,7 +295,9 @@
 			$('#trank-proj').text(json.trank.trank_proj_record);
 			$('#trank-seed').text(json.trank.trank_seed);
 			$('#trank-trank').text(json.trank.trank);
-			$('#trank-make-tourney').text(json.trank.trank_make_tourney);
+			
+			var trank_tourney_pct = json.trank.trank_make_tourney + "%";
+			$('#trank-make-tourney').text(trank_tourney_pct);
 			
 			$('#sagarin').text(json.sagarin.sagarin_rate);
 			
