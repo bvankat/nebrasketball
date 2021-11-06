@@ -260,7 +260,6 @@
 			$('#kenpom-sos').text(json.kenpom.sos);
 			$('#kenpom-record').text(json.kenpom.record);
 			
-			
 			// $('#ncaa-net, #ncaa-net2').text(json.ncaa.net_rank); 
 			
 			$('#espn-rating').text(json.espn.bpi);
@@ -301,7 +300,7 @@
 			// $('#teamrankings-conf-wl').text(json.teamrankings.proj_conf_record);
 			
 			
-			// $('#kpi_ranking').text(json.kpi_sports.kpi_ranking);
+			$('#kpi_ranking').text(json.kpi_sports.kpi_ranking);
 			
 			// $('#bracketproject-count').text(json.bracketproject.matrix_count);
 			// $('#bracketproject-totalbrackets').text(json.bracketproject.total_brackets);
@@ -379,7 +378,7 @@
 			 message = StatusCheck(total_score);
 			 console.log(message);
 
-			 $('#message').text(message);
+			 // $('#message').text(message);
 
 			 // Note from KPI: Selections have trended toward using results-based metrics. Predictive metrics help more with seeding.
 			 
