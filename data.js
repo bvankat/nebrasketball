@@ -23,6 +23,9 @@
         "record": "0-0",
         "sos": "1"
     },
+    "kpi_sports": {
+        "kpi_ranking": 201
+    },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
@@ -31,7 +34,7 @@
         "sagarin_rate": "67"
     },
     "time": {
-        "time": "Nov 05, 11:43 PM"
+        "time": "Nov 05, 11:46 PM"
     },
     "trank": {
         "trank": "66",

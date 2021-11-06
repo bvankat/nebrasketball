@@ -1,22 +1,22 @@
 {
     "updates": [
         {
+            "polls": {
+                "ap_rank": "NR", 
+                "coaches_rank": "NR"
+            }, 
             "trank": {
                 "trank_proj_record": "16-15 (8-12)", 
                 "trank": "66", 
                 "trank_seed": "NR", 
                 "trank_make_tourney": "9.5"
             }, 
-            "polls": {
-                "ap_rank": "NR", 
-                "coaches_rank": "NR"
-            }, 
             "kenpom": {
                 "record": "0-0", 
                 "sos": "1", 
                 "overall_record": "14-17", 
-                "conference_record": "6-14", 
-                "rating": "81"
+                "rating": "81", 
+                "conference_record": "6-14"
             }, 
             "time": {
                 "time": "Oct 20,  2:10 PM"
@@ -33,8 +33,8 @@
                 "record": "0-0", 
                 "sos": "1", 
                 "overall_record": "14-17", 
-                "rating": "81", 
-                "conference_record": "6-14"
+                "conference_record": "6-14", 
+                "rating": "81"
             }, 
             "polls": {
                 "ap_rank": "NR", 
@@ -72,8 +72,8 @@
                 "record": "0-0", 
                 "sos": "1", 
                 "overall_record": "14-17", 
-                "conference_record": "6-14", 
-                "rating": "81"
+                "rating": "81", 
+                "conference_record": "6-14"
             }, 
             "polls": {
                 "ap_rank": "NR", 
@@ -114,6 +114,48 @@
                 "record": "0-0", 
                 "sos": "1", 
                 "overall_record": "14-17", 
+                "conference_record": "6-14", 
+                "rating": "81"
+            }, 
+            "polls": {
+                "ap_rank": "NR", 
+                "coaches_rank": "NR"
+            }, 
+            "espn_bracketology": {
+                "seed": "NR"
+            }, 
+            "cbs": {
+                "cbs_rank": "NR"
+            }, 
+            "time": {
+                "time": "Nov 05,  4:49 PM"
+            }
+        }, 
+        {
+            "trank": {
+                "trank_proj_record": "16-15 (8-12)", 
+                "trank": "66", 
+                "trank_seed": "NR", 
+                "trank_make_tourney": "10.8"
+            }, 
+            "espn": {
+                "seven_day_change": "", 
+                "bpi": "90", 
+                "chance_round_32": "0.3%", 
+                "sos": "1", 
+                "proj_win_loss_overall": "15.6-15.4", 
+                "proj_win_loss_conf": "7.6-12.4", 
+                "sor": "1", 
+                "chance_sweet_16": "0.1%", 
+                "proj_tourney_seed": "NR"
+            }, 
+            "sagarin": {
+                "sagarin_rate": "67"
+            }, 
+            "kenpom": {
+                "record": "0-0", 
+                "sos": "1", 
+                "overall_record": "14-17", 
                 "rating": "81", 
                 "conference_record": "6-14"
             }, 
@@ -128,7 +170,7 @@
                 "cbs_rank": "NR"
             }, 
             "time": {
-                "time": "Nov 05,  4:49 PM"
+                "time": "Nov 05, 11:09 PM"
             }
         }, 
         {
@@ -170,7 +212,7 @@
                 "cbs_rank": "NR"
             }, 
             "time": {
-                "time": "Nov 05, 11:09 PM"
+                "time": "Nov 05, 11:40 PM"
             }
         }, 
         {
@@ -212,7 +254,7 @@
                 "cbs_rank": "NR"
             }, 
             "time": {
-                "time": "Nov 05, 11:40 PM"
+                "time": "Nov 05, 11:43 PM"
             }
         }, 
         {
@@ -253,8 +295,11 @@
             "cbs": {
                 "cbs_rank": "NR"
             }, 
+            "kpi_sports": {
+                "kpi_ranking": 201
+            }, 
             "time": {
-                "time": "Nov 05, 11:43 PM"
+                "time": "Nov 05, 11:46 PM"
             }
         }
     ]
