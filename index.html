@@ -373,7 +373,7 @@
 
 			//Current formula, multipliers should add to .98 to keep the gauge happy
 			// Using estimated NET from Warren Nolan right now until real NCAA ratings are released			 
-			total_score = ((net_score * .13) + (kenpom_score * .08) + (espn_sor * .13) + (espn_bpi * .08) + (kpi_score * .13) + (sagarin_score * .08) + (trank_score * .08) + (teamrankings_score * .13) + (rpi_score * .13) + intangibles);
+			total_score = ((net_score * .14) + (espn_sor * .14) + (kpi_score * .14) + (teamrankings_score * .12) + (rpi_score * .10) + (kenpom_score * .08) + (espn_bpi * .08) +  (sagarin_score * .08) + (trank_score * .08) + intangibles);
 						 
 			
 			 // next three lines keep gauge score > 3 in the really sad times
@@ -397,13 +397,13 @@
 			console.log(message);
 
 			 // $('#message').text(message);
-			 // Note from KPI: Selections have trended toward using results-based metrics. Predictive metrics help more with seeding.
+			 // Note from KPI: Selections have trended toward using results-based metrics - "Who's resume is better?". Predictive metrics help more with seeding - "Who would win between these two?".
 			 
-			 console.log("Warren Nolan NET: " + net_score + "    (12%)");
-			 console.log("ESPN SOR score (results-based): " + espn_sor + "    (12%)");
-			 console.log("KPI score (results-based): " + kpi_score + "    (12%)");
+			 console.log("Warren Nolan NET: " + net_score + "    (14%)");
+			 console.log("ESPN SOR score (results-based): " + espn_sor + "    (14%)");
+			 console.log("KPI score (results-based): " + kpi_score + "    (14%)");
 			 console.log("TeamRankings (results-based): " + teamrankings_score + "    (12%)");
-			 console.log("RPI score (results-based): " + rpi_score + "    (12%)");
+			 console.log("RPI score (results-based): " + rpi_score + "    (10%)");
 			 console.log("ESPN BPI score (predictive): " + espn_bpi + "    (08%)");
 			 console.log("Kenpom score (predictive): " + espn_bpi + "    (08%)");
 			 console.log("Sagarin score (predictive): " + sagarin_score + "    (08%)");
