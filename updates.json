@@ -1,22 +1,22 @@
 {
     "updates": [
         {
-            "polls": {
-                "ap_rank": "NR", 
-                "coaches_rank": "NR"
-            }, 
             "trank": {
                 "trank_proj_record": "16-15 (8-12)", 
                 "trank": "66", 
                 "trank_seed": "NR", 
                 "trank_make_tourney": "9.5"
             }, 
+            "polls": {
+                "ap_rank": "NR", 
+                "coaches_rank": "NR"
+            }, 
             "kenpom": {
                 "record": "0-0", 
                 "sos": "1", 
                 "overall_record": "14-17", 
-                "rating": "81", 
-                "conference_record": "6-14"
+                "conference_record": "6-14", 
+                "rating": "81"
             }, 
             "time": {
                 "time": "Oct 20,  2:10 PM"
@@ -33,8 +33,8 @@
                 "record": "0-0", 
                 "sos": "1", 
                 "overall_record": "14-17", 
-                "conference_record": "6-14", 
-                "rating": "81"
+                "rating": "81", 
+                "conference_record": "6-14"
             }, 
             "polls": {
                 "ap_rank": "NR", 
@@ -72,8 +72,8 @@
                 "record": "0-0", 
                 "sos": "1", 
                 "overall_record": "14-17", 
-                "rating": "81", 
-                "conference_record": "6-14"
+                "conference_record": "6-14", 
+                "rating": "81"
             }, 
             "polls": {
                 "ap_rank": "NR", 
@@ -114,8 +114,8 @@
                 "record": "0-0", 
                 "sos": "1", 
                 "overall_record": "14-17", 
-                "conference_record": "6-14", 
-                "rating": "81"
+                "rating": "81", 
+                "conference_record": "6-14"
             }, 
             "polls": {
                 "ap_rank": "NR", 
@@ -156,8 +156,8 @@
                 "record": "0-0", 
                 "sos": "1", 
                 "overall_record": "14-17", 
-                "rating": "81", 
-                "conference_record": "6-14"
+                "conference_record": "6-14", 
+                "rating": "81"
             }, 
             "polls": {
                 "ap_rank": "NR", 
@@ -198,8 +198,8 @@
                 "record": "0-0", 
                 "sos": "1", 
                 "overall_record": "14-17", 
-                "conference_record": "6-14", 
-                "rating": "81"
+                "rating": "81", 
+                "conference_record": "6-14"
             }, 
             "polls": {
                 "ap_rank": "NR", 
@@ -240,8 +240,8 @@
                 "record": "0-0", 
                 "sos": "1", 
                 "overall_record": "14-17", 
-                "rating": "81", 
-                "conference_record": "6-14"
+                "conference_record": "6-14", 
+                "rating": "81"
             }, 
             "polls": {
                 "ap_rank": "NR", 
@@ -282,8 +282,8 @@
                 "record": "0-0", 
                 "sos": "1", 
                 "overall_record": "14-17", 
-                "conference_record": "6-14", 
-                "rating": "81"
+                "rating": "81", 
+                "conference_record": "6-14"
             }, 
             "polls": {
                 "ap_rank": "NR", 
@@ -323,8 +323,12 @@
             "sagarin": {
                 "sagarin_rate": "67"
             }, 
-            "espn_bracketology": {
-                "seed": "NR"
+            "kenpom": {
+                "record": "0-0", 
+                "sos": "1", 
+                "overall_record": "14-17", 
+                "conference_record": "6-14", 
+                "rating": "81"
             }, 
             "warrennolan": {
                 "elo": "215", 
@@ -336,6 +340,58 @@
                 "quadrant_3": "1-1", 
                 "quadrant_2": "1-6", 
                 "quadrant_1": "1-13"
+            }, 
+            "polls": {
+                "ap_rank": "NR", 
+                "coaches_rank": "NR"
+            }, 
+            "espn_bracketology": {
+                "seed": "NR"
+            }, 
+            "cbs": {
+                "cbs_rank": "NR"
+            }, 
+            "kpi_sports": {
+                "kpi_ranking": 201
+            }, 
+            "time": {
+                "time": "Nov 05, 11:56 PM"
+            }
+        }, 
+        {
+            "trank": {
+                "trank_proj_record": "16-15 (8-12)", 
+                "trank": "66", 
+                "trank_seed": "NR", 
+                "trank_make_tourney": "10.8"
+            }, 
+            "espn": {
+                "seven_day_change": "", 
+                "bpi": "90", 
+                "chance_round_32": "0.3%", 
+                "sos": "1", 
+                "proj_win_loss_overall": "15.6-15.4", 
+                "proj_win_loss_conf": "7.6-12.4", 
+                "sor": "1", 
+                "chance_sweet_16": "0.1%", 
+                "proj_tourney_seed": "NR"
+            }, 
+            "sagarin": {
+                "sagarin_rate": "67"
+            }, 
+            "espn_bracketology": {
+                "seed": "NR"
+            }, 
+            "warrennolan": {
+                "elo": "215", 
+                "current_conf_record": "0-0", 
+                "record": "0-0", 
+                "sos": "1", 
+                "rpi": "1", 
+                "quadrant_4": "0-0", 
+                "quadrant_3": "0-0", 
+                "quadrant_2": "0-0", 
+                "quadrant_1": "0-0"
             }, 
             "polls": {
                 "ap_rank": "NR", 
@@ -355,7 +411,7 @@
                 "kpi_ranking": 201
             }, 
             "time": {
-                "time": "Nov 05, 11:56 PM"
+                "time": "Nov 05, 11:59 PM"
             }
         }, 
         {
@@ -411,7 +467,15 @@
                 "kpi_ranking": 201
             }, 
             "time": {
-                "time": "Nov 05, 11:59 PM"
+                "time": "Nov 06, 12:19 AM"
+            }, 
+            "teamrankings": {
+                "projected_losses": "16.5", 
+                "projected_wins": "14.5", 
+                "proj_conf_record": "6.4-13.6", 
+                "rank": "80", 
+                "most_likely_seed": "12", 
+                "make_tournament": "20.5%"
             }
         }
     ]
