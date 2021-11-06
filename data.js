@@ -31,7 +31,7 @@
         "sagarin_rate": "67"
     },
     "time": {
-        "time": "Nov 05, 11:09 PM"
+        "time": "Nov 05, 11:40 PM"
     },
     "trank": {
         "trank": "66",
