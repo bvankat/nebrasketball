@@ -34,7 +34,7 @@
         "sagarin_rate": "67"
     },
     "time": {
-        "time": "Nov 05, 11:56 PM"
+        "time": "Nov 05, 11:59 PM"
     },
     "trank": {
         "trank": "66",
@@ -45,10 +45,10 @@
     "warrennolan": {
         "current_conf_record": "0-0",
         "elo": "215",
-        "quadrant_1": "1-13",
-        "quadrant_2": "1-6",
-        "quadrant_3": "1-1",
-        "quadrant_4": "3-0",
+        "quadrant_1": "0-0",
+        "quadrant_2": "0-0",
+        "quadrant_3": "0-0",
+        "quadrant_4": "0-0",
         "record": "0-0",
         "rpi": "1",
         "sos": "1"
