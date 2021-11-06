@@ -34,12 +34,23 @@
         "sagarin_rate": "67"
     },
     "time": {
-        "time": "Nov 05, 11:46 PM"
+        "time": "Nov 05, 11:56 PM"
     },
     "trank": {
         "trank": "66",
         "trank_make_tourney": "10.8",
         "trank_proj_record": "16-15 (8-12)",
         "trank_seed": "NR"
+    },
+    "warrennolan": {
+        "current_conf_record": "0-0",
+        "elo": "215",
+        "quadrant_1": "1-13",
+        "quadrant_2": "1-6",
+        "quadrant_3": "1-1",
+        "quadrant_4": "3-0",
+        "record": "0-0",
+        "rpi": "1",
+        "sos": "1"
     }
 }
