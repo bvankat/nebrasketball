@@ -132,7 +132,7 @@
 						<td>Coaches Poll</td>
 						<td class="r"><span id="coaches-rank"><span class="small gray">NA</span></span></td>
 					</tr>
-					
+					<tr><td>Wins Above Bubble</td><td><span id="wab-score" class="small text-muted"></span><span id="wab-rank"></span></td></tr>
 					
 					
 					
@@ -304,6 +304,9 @@
 			$('#trank-proj').text(json.trank.trank_proj_record);
 			$('#trank-seed').text(json.trank.trank_seed);
 			$('#trank-trank').text(json.trank.trank);
+			// $('#wab-score').text(json.trank.wab-score);
+			// $('#wab-rank').text(json.trank.wab-rank);
+			
 			
 			var trank_tourney_pct = json.trank.trank_make_tourney + "%";
 			$('#trank-make-tourney').text(trank_tourney_pct);
