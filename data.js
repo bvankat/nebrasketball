@@ -3,25 +3,25 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "90",
-        "chance_round_32": "0.3%",
-        "chance_sweet_16": "0.1%",
+        "bpi": "99",
+        "chance_round_32": "0.1%",
+        "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "7.6-12.4",
-        "proj_win_loss_overall": "15.6-15.4",
-        "seven_day_change": "",
-        "sor": "1",
-        "sos": "1"
+        "proj_win_loss_conf": "7.3-12.7",
+        "proj_win_loss_overall": "14.3-16.7",
+        "seven_day_change": "-9",
+        "sor": "185",
+        "sos": "161"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "kenpom": {
         "conference_record": "6-14",
-        "overall_record": "14-17",
-        "rating": "81",
-        "record": "0-0",
-        "sos": "1"
+        "overall_record": "13-18",
+        "rating": "90",
+        "record": "0-1",
+        "sos": "156"
     },
     "kpi_sports": {
         "kpi_ranking": 201
@@ -31,35 +31,35 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "67"
+        "sagarin_rate": "89"
     },
     "teamrankings": {
-        "make_tournament": "20.5%",
+        "make_tournament": "7.7%",
         "most_likely_seed": "12",
-        "proj_conf_record": "6.5-13.5",
-        "projected_losses": "16.3",
-        "projected_wins": "14.7",
-        "rank": "80"
+        "proj_conf_record": "5.4-14.6",
+        "projected_losses": "18.8",
+        "projected_wins": "12.2",
+        "rank": "97"
     },
     "time": {
-        "time": "Nov 07,  8:38 PM"
+        "time": "Nov 10,  9:22 AM"
     },
     "trank": {
-        "trank": "66",
-        "trank_make_tourney": "10.4",
-        "trank_proj_record": "16-15 (8-12)",
+        "trank": "65",
+        "trank_make_tourney": "0.8",
+        "trank_proj_record": "15-16 (7-13)",
         "trank_seed": "NR"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "215",
+        "elo": "239",
         "nolan_net": "126",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
-        "quadrant_4": "0-0",
-        "record": "0-0",
-        "rpi": "1",
+        "quadrant_4": "0-1",
+        "record": "0-1",
+        "rpi": "67",
         "sos": "1"
     }
 }
