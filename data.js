@@ -1,4 +1,9 @@
 {
+    "bracketproject": {
+        "matrix_count": "1",
+        "matrix_seed": "NR",
+        "total_brackets": "45"
+    },
     "cbs": {
         "cbs_rank": "NR"
     },
@@ -42,7 +47,7 @@
         "rank": "97"
     },
     "time": {
-        "time": "Nov 10,  9:22 AM"
+        "time": "Nov 10,  9:30 AM"
     },
     "trank": {
         "trank": "65",
