@@ -304,7 +304,9 @@
 			$('#trank-proj').text(json.trank.trank_proj_record);
 			$('#trank-seed').text(json.trank.trank_seed);
 			$('#trank-trank').text(json.trank.trank);
-			$('#wab-score').text(json.trank.wab_score);
+			
+			var wab_score_styled = "(" + json.trank.wab_score + ") ";
+			$('#wab-score').text(wab_score_styled);
 			$('#wab-rank').text(json.trank.wab_rank);
 			
 			
