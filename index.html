@@ -73,7 +73,7 @@
 		  	  
 		  		<div id="chart_div" style="width: 350px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
-		  		<p class="col-sm-12 text-center">Status: <span id="message">The first "Nebrasketball in the Field of 68" projection is here. Hype escalating.</span></p>
+		  		<p class="col-sm-12 text-center">Status: <span id="message">Well, that first game sure was a needle to the hype balloon.</span></p>
 		  		
 
     
@@ -364,8 +364,8 @@
 			 
 			 // Intangibles: Don't think any of the systems has a way to value injuries and/or hype, so we need to add it. Check out sports-reference Win Shares, perhaps, for injuries data points. 
 			 
-			 intangibles = -20;
-			 intangibles_msg = "Offset preseason #1 rankings in SOR and RPI";
+			 intangibles = 0;
+			 intangibles_msg = "None";
 			 
 			 // TOTAL SCORE FORMULA
 			 
@@ -396,8 +396,9 @@
 			 
 			message = StatusCheck(total_score);
 			console.log(message);
-
-			 // $('#message').text(message);
+			// $('#message').text(message);
+			
+			
 			 // Note from KPI: Selections have trended toward using results-based metrics - "Who's resume is better?". Predictive metrics help more with seeding - "Who would win between these two?".
 			 
 			 console.log("Warren Nolan NET: " + net_score + "    (14%)");
