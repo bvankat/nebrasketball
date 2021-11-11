@@ -25,17 +25,12 @@
 
 
   <link rel="stylesheet" href="https://use.typekit.net/dhj5kzf.css">
-  
 
    	
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	
 	
-	<script type="text/javascript" src="data.js"></script>
 	<script type="text/javascript" src="updates.json"></script>
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 
 	<style>
 	    body { font-family: sans-serif; }
@@ -262,7 +257,7 @@
  
       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
       
-      <script>
+      <script type="text/javascript">
 	      
 	      async function loadData() {
 			  const response = await fetch('data.js');
@@ -340,27 +335,7 @@
 			document.getElementById('time').innerHTML = data.time.time;
 
 
-			}
-			loadData();
 
-	      
-	  </script>
- 	
-  	<script>
-	  	
-	  	var total_score;
-	  	
-	  	
-		$.getJSON( "data.js", function( json ) {
-			
-			
-			
-			
-			
-			
-			
-						
-						
 			function FindScore(data) { // Calculate percentage chance based on RPI-like ranking system
 				 var score;
 				 if (data <= 30){ score = 99; }
@@ -380,16 +355,16 @@
 			 
 
 			 
-			 kenpom_score = FindScore(json.kenpom.rating);
-			 net_score = FindScore(json.warrennolan.nolan_net);
-			 //net_score = FindScore(json.ncaa.net_rank);
-			 espn_sor = FindScore(parseInt(json.espn.sor)); // SOR is stronger predictor than BPI
-			 espn_bpi = FindScore(parseInt(json.espn.bpi)); 
-			 teamrankings_score = parseInt(json.teamrankings.make_tournament); // This one's already a % score
-			 sagarin_score = FindScore(json.sagarin.sagarin_rate);
-			 trank_score = FindScore(json.trank.trank);
-			 kpi_score = FindScore(json.kpi_sports.kpi_ranking);
-			 rpi_score = FindScore(json.warrennolan.rpi);
+			 kenpom_score = FindScore(data.kenpom.rating);
+			 net_score = FindScore(data.warrennolan.nolan_net);
+			 //net_score = FindScore(data.ncaa.net_rank);
+			 espn_sor = FindScore(parseInt(data.espn.sor)); // SOR is stronger predictor than BPI
+			 espn_bpi = FindScore(parseInt(data.espn.bpi)); 
+			 teamrankings_score = parseInt(data.teamrankings.make_tournament); // This one's already a % score
+			 sagarin_score = FindScore(data.sagarin.sagarin_rate);
+			 trank_score = FindScore(data.trank.trank);
+			 kpi_score = FindScore(data.kpi_sports.kpi_ranking);
+			 rpi_score = FindScore(data.warrennolan.rpi);
 			 
 			 
 			 // Intangibles: Don't think any of the systems has a way to value injuries and/or hype, so we need to add it. Check out sports-reference Win Shares, perhaps, for injuries data points. 
@@ -404,6 +379,9 @@
 
 			//Current formula, multipliers should add to .98 to keep the gauge happy
 			// Using estimated NET from Warren Nolan right now until real NCAA ratings are released			 
+			
+			var total_score;
+
 			total_score = ((net_score * .14) + (espn_sor * .14) + (kpi_score * .14) + (teamrankings_score * .12) + (rpi_score * .10) + (kenpom_score * .08) + (espn_bpi * .08) +  (sagarin_score * .08) + (trank_score * .08) + intangibles);
 						 
 			
@@ -424,9 +402,9 @@
 				 return status_message;	 
 			 }
 			 
-			message = StatusCheck(total_score);
-			console.log(message);
-			// $('#message').text(message);
+			 	message = StatusCheck(total_score);
+			 	console.log(message);
+			 	// $('#message').text(message);
 			
 			
 			 // Note from KPI: Selections have trended toward using results-based metrics - "Who's resume is better?". Predictive metrics help more with seeding - "Who would win between these two?".
@@ -443,49 +421,46 @@
 			 console.log("Intangibles: " + intangibles + " (" + intangibles_msg + ")");
 			 console.log("Total score: " + total_score);
 
-			});		
-
-				
-			 google.charts.load('current', {'packages':['gauge']});
-			 google.charts.setOnLoadCallback(drawChart);
-
-			 
-			 
+	
+		google.charts.load('current', {'packages':['gauge']});
+		google.charts.setOnLoadCallback(drawChart);
 		
 			 
 	   function drawChart() {
-				      total_score = parseInt(total_score);
+	   		
+	   		total_score = parseInt(total_score);
 
-        var data = google.visualization.arrayToDataTable([
-          ['Label', 'Value'],
-          ['', total_score],
-        ]);
-
-        var options = {
-          width: 350, height: 350,
-          redFrom: 75, redTo: 100,
-          yellowFrom:50, yellowTo: 75,
-          minorTicks: 10
-        };
-
-        var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
-
-
-        chart.draw(data, options);
-
-
-
-		// NEEDLE BOUNCE DISABLED IN OFFSEASON
-        setInterval(function() {
-          data.setValue(0, 1, total_score-2 + Math.round(1 * Math.random()));
-          chart.draw(data, options);
-        }, 300);
-     
-     
-      };
-      
-				
-    </script>
+	        var data = google.visualization.arrayToDataTable([
+	          ['Label', 'Value'],
+	          ['', total_score],
+	        ]);
+	
+	        var options = {
+	          width: 350, height: 350,
+	          redFrom: 75, redTo: 100,
+	          yellowFrom:50, yellowTo: 75,
+	          minorTicks: 10
+	        };
+	
+	        var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
+	
+	
+	        chart.draw(data, options);
+	
+	
+	
+			// NEEDLE BOUNCE DISABLED IN OFFSEASON
+	        setInterval(function() {
+	          data.setValue(0, 1, total_score-2 + Math.round(1 * Math.random()));
+	          chart.draw(data, options);
+	        }, 300);
+	     
+	     
+      	};  // end drawChart()
+	} // end loadData async function
+			
+    loadData(); // MAKES THE MAGIC HAPPEN
+</script>
   
   
 </html>
