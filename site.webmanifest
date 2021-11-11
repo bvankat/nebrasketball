@@ -1,6 +1,8 @@
 {
     "name": "Nebraska basketball NCAA tournament odds",
     "short_name": "Nebrasketball",
+    "description": "A machine that calculates how close #Nebrasketball is to the Big Dance. Updated every 60 minutes.",
+    
     "icons": [
         {
             "src": "/icons/favicon-192x192.png",
@@ -25,5 +27,6 @@
     ],
     "theme_color": "#eb132f",
     "background_color": "#eb132f",
-    "display": "standalone"
+    "display": "minimal-ui",
+    "orientation": "portrait"
 }
