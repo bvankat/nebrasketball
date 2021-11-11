@@ -29,19 +29,18 @@
    	
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	
-	
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<script type="text/javascript" src="updates.json"></script>
 
 	<style>
 	    body { font-family: sans-serif; }
- 	    h2 { font-family: "factoria", sans-serif; font-weight: bold; text-align: center; }
+ 	    h1 { font-family: "factoria", serif; font-weight: 500; text-align: center; }
+ 	    h2 { font-size: 1.5rem; }
 	    div.jumbotron { color: #fff; background-color: #eb132f; border-radius: 0; padding: 4em 0; margin-bottom: 4em; }
-	    .gray {color: #ccc; }
+	    .gray {color: #eee; }
 	    th { text-align: left; }
 		.table>:not(caption)>*>* { padding: 0.8rem 0; }
-	    .r { text-align: right; }
 	    .alert { margin-bottom: 0; }
-	    .big { font-size: 30px; }
 	</style>
 
 
@@ -65,12 +64,12 @@
 	  	<div class="container">
 	  	
 	  
-	  <h2>Nebraska basketball NCAA tournament odds</h2>
+	  <h1>Nebraska basketball NCAA tournament odds</h1>
 	  <p class="col-sm-12 text-center gray" style="margin-bottom: 30px;"><em>Updated every 60 minutes during the season</em></p>
 
 	  <div class="row">
 		  	  
-		  		<div id="chart_div" style="width: 350px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
+		  		<div id="chart_div" style="width: 370px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
 		  		<p class="col-sm-12 text-center">Status: <span id="message">Well, that first game sure was a needle to the hype balloon.</span></p>
 		  		
@@ -87,7 +86,7 @@
 			  
 		  <div class="col-sm-12">
 			    	   
-			<h4>NCAA team-sheet metrics</h4>
+			<h2>NCAA team-sheet metrics</h2>
 	    	<table class="table">
 		    	<thead>
 			    	<tr>
@@ -112,7 +111,7 @@
 		
 			
 			
-			<h4>Other notable rankings</h4>
+			<h2>Other notable rankings</h2>
 			<table class="table">
 				<tbody>
 					<tr><td>Bart Torvik</td><td id="trank-trank" class="r"><span class="small text-muted">NA</span></td></tr>
@@ -141,7 +140,7 @@
 	    	
 	    	<br /><br />
 	    	
-	    	<h4>Chance to make tourney?</h4>
+	    	<h2>Chance to make tourney?</h2>
 	    	<table class="table">
 		    	<tbody>
 			    	
@@ -172,7 +171,7 @@
 	    	<br /><br />
 
 	    	
-	    	<h4>Quadrants</h4>
+	    	<h2>Quadrants</h2>
 			<div class="table-responsive">
 			<table class="table">
 				<thead class="small">
@@ -205,7 +204,7 @@
 
 
 	    	
-	    	<h4>Projections <span class="small text-muted">(Current record: <span id="kenpom-record">0-0</span>, <span id="current_conf_record">0-0</span> Big Ten)</h4>
+	    	<h2>Projections <span class="small text-muted">(Current record: <span id="kenpom-record">0-0</span>, <span id="current_conf_record">0-0</span> Big Ten)</h2>
 	    	<table class="table">
 		    	<thead>
 			    	<tr>
@@ -255,8 +254,6 @@
   	</body>
  
  
-      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-      
       <script type="text/javascript">
 	      
 	      async function loadData() {
