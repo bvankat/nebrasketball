@@ -193,7 +193,7 @@
 				<tbody>
 					<tr>
 						<td id="ncaa-net2"><span class="small text-muted">NA</span></td>
-						<td id="warrennolan-sos2"><span class="small text-muted">NA</span></td>
+						<td id="quadrants-sos"><span class="small text-muted">NA</span></td>
 						<td id="warrennolan-group1" class="r"><span class="small text-muted">NA</span></td>
 						<td id="warrennolan-group2" class="r"><span class="small text-muted">NA</span></td>
 						<td id="warrennolan-group3" class="r"><span class="small text-muted">NA</span></td>
@@ -268,10 +268,81 @@
 			  const response = await fetch('data.js');
 			  const data = await response.json();
 			  console.log(data); 
+			  
+			// document.getElementById('ncaa-net').innerHTML = data.ncaa.net_rank; 
+			// document.getElementById('ncaa-net2').innerHTML = data.ncaa.net_rank; 
+			document.getElementById("ncaa-net").innerHTML = data.warrennolan.nolan_net; // use this until real NET is released
+			document.getElementById("ncaa-net2").innerHTML = data.warrennolan.nolan_net; // use this until real NET is released
+
+			document.getElementById('kenpom-rating').innerHTML = data.kenpom.rating;
+			document.getElementById('kenpom-overall').innerHTML = data.kenpom.overall_record;
+			document.getElementById('kenpom-conference').innerHTML = data.kenpom.conference_record;
+			document.getElementById('kenpom-record').innerHTML = data.kenpom.record;
+
+			document.getElementById('kpi_ranking').innerHTML = data.kpi_sports.kpi_ranking;
+
+			document.getElementById('espn-rating').innerHTML = data.espn.bpi;
+			document.getElementById('espn-proj-tourney-seed').innerHTML = data.espn.proj_tourney_seed;
+			document.getElementById('espn-wl').innerHTML = data.espn.proj_win_loss_overall;
+			document.getElementById('espn-cwl').innerHTML = data.espn.proj_win_loss_conf;
+			document.getElementById('espn-sor').innerHTML = data.espn.sor;
+			// document.getElementById('espn-sweet16').innerHTML = data.espn.chance_sweet_16;
+			document.getElementById('espn-round-32').innerHTML = data.espn.chance_round_32;
+			document.getElementById('espn-bracketology-seed').innerHTML = data.espn_bracketology.seed;
+			document.getElementById('quadrants-sos').innerHTML = data.espn.sos;
+
+			document.getElementById('warrennolan-group1').innerHTML = data.warrennolan.quadrant_1;
+			document.getElementById('warrennolan-group2').innerHTML = data.warrennolan.quadrant_2;
+			document.getElementById('warrennolan-group3').innerHTML = data.warrennolan.quadrant_3;
+			document.getElementById('warrennolan-group4').innerHTML = data.warrennolan.quadrant_4;
+			document.getElementById('nolan-rpi').innerHTML = data.warrennolan.rpi;
+			document.getElementById('nolan-elo').innerHTML = data.warrennolan.elo;
+
+
+			document.getElementById('ap-rank').innerHTML = data.polls.ap_rank;
+			document.getElementById('coaches-rank').innerHTML = data.polls.coaches_rank;
+			
+			
+			// document.getElementById('current_record').innerHTML = data.trank.current_record;
+			document.getElementById('current_conf_record').innerHTML = data.warrennolan.current_conf_record;
+			
+			document.getElementById('trank-proj').innerHTML = data.trank.trank_proj_record;
+			document.getElementById('trank-seed').innerHTML = data.trank.trank_seed;
+			document.getElementById('trank-trank').innerHTML = data.trank.trank;
+			
+			var wab_score_styled = "(" + data.trank.wab_score + ") ";
+			document.getElementById('wab-score').innerHTML = wab_score_styled;
+			document.getElementById('wab-rank').innerHTML = data.trank.wab_rank;
+			
+			
+			var trank_tourney_pct = data.trank.trank_make_tourney + "%";
+			document.getElementById('trank-make-tourney').innerHTML = trank_tourney_pct;
+			
+			document.getElementById('sagarin').innerHTML = data.sagarin.sagarin_rate;
+			
+			
+			document.getElementById('teamrankings-seed').innerHTML = data.teamrankings.most_likely_seed;
+			document.getElementById('teamrankings-rating').innerHTML = data.teamrankings.make_tournament;
+			document.getElementById('teamrankings-rank').innerHTML = data.teamrankings.rank;
+			document.getElementById('teamrankings-conf-wl').innerHTML = data.teamrankings.proj_conf_record;
+			
+			
+			
+			document.getElementById('bracketproject-count').innerHTML = data.bracketproject.matrix_count;
+			document.getElementById('bracketproject-totalbrackets').innerHTML = data.bracketproject.total_brackets;
+			document.getElementById('bracketproject-seed').innerHTML = data.bracketproject.matrix_seed;
+
+			document.getElementById('cbs-bracket').innerHTML = data.cbs.cbs_rank;
+			
+			var teamrankings_wl = data.teamrankings.projected_wins + "-" + data.teamrankings.projected_losses
+			document.getElementById('teamrankings_wl').innerHTML = teamrankings_wl;
+			
+			document.getElementById('time').innerHTML = data.time.time;
+
+
 			}
 			loadData();
 
-			document.getElementById("ncaa-net").innerHTML = data.warrennolan.nolan_net;
 	      
 	  </script>
  	
@@ -282,73 +353,13 @@
 	  	
 		$.getJSON( "data.js", function( json ) {
 			
-			$('#kenpom-rating').text(json.kenpom.rating);
-			$('#kenpom-conference').text(json.kenpom.conference_record);
-			$('#kenpom-overall').text(json.kenpom.overall_record);
-			$('#kenpom-sos').text(json.kenpom.sos);
-			$('#kenpom-record').text(json.kenpom.record);
-			
-			// $('#ncaa-net, #ncaa-net2').text(json.ncaa.net_rank); 
-			// $('#ncaa-net, #ncaa-net2').text(json.warrennolan.nolan_net); // use this until real NET is released
-			
-			$('#espn-rating').text(json.espn.bpi);
-			$('#espn-sos').text(json.espn.sos);
-			$('#espn-proj-tourney-seed').text(json.espn.proj_tourney_seed);
-			$('#espn-wl').text(json.espn.proj_win_loss_overall);
-			$('#espn-cwl').text(json.espn.proj_win_loss_conf);
-			$('#espn-sor').text(json.espn.sor);
-			$('#espn-sweet16').text(json.espn.chance_sweet_16);
-			$('#espn-round-32').text(json.espn.chance_round_32);
-			$('#espn-bracketology-seed').text(json.espn_bracketology.seed);
-			
-			$('#warrennolan-sos, #warrennolan-sos2').text(json.warrennolan.sos);
-			$('#warrennolan-group1').text(json.warrennolan.quadrant_1);
-			$('#warrennolan-group2').text(json.warrennolan.quadrant_2);
-			$('#warrennolan-group3').text(json.warrennolan.quadrant_3);
-			$('#warrennolan-group4').text(json.warrennolan.quadrant_4);
-			$('#nolan-rpi').text(json.warrennolan.rpi);
-			$('#nolan-elo').text(json.warrennolan.elo);
-			
-			$('#ap-rank').text(json.polls.ap_rank);
-			$('#coaches-rank').text(json.polls.coaches_rank);
-			
-			$('#current_record').text(json.trank.current_record);
-			$('#current_conf_record').text(json.warrennolan.current_conf_record);
-			
-			$('#trank-proj').text(json.trank.trank_proj_record);
-			$('#trank-seed').text(json.trank.trank_seed);
-			$('#trank-trank').text(json.trank.trank);
-			
-			var wab_score_styled = "(" + json.trank.wab_score + ") ";
-			$('#wab-score').text(wab_score_styled);
-			$('#wab-rank').text(json.trank.wab_rank);
 			
 			
-			var trank_tourney_pct = json.trank.trank_make_tourney + "%";
-			$('#trank-make-tourney').text(trank_tourney_pct);
-			
-			$('#sagarin').text(json.sagarin.sagarin_rate);
 			
 			
-			$('#teamrankings-seed').text(json.teamrankings.most_likely_seed);
-			$('#teamrankings-rating').text(json.teamrankings.make_tournament);
-			$('#teamrankings-rank').text(json.teamrankings.rank);
-			$('#teamrankings-conf-wl').text(json.teamrankings.proj_conf_record);
 			
 			
-			$('#kpi_ranking').text(json.kpi_sports.kpi_ranking);
-			
-			$('#bracketproject-count').text(json.bracketproject.matrix_count);
-			$('#bracketproject-totalbrackets').text(json.bracketproject.total_brackets);
-			$('#bracketproject-seed').text(json.bracketproject.matrix_seed);
-
-			$('#cbs-bracket').text(json.cbs.cbs_rank);
-			
-			var teamrankings_wl = json.teamrankings.projected_wins + "-" + json.teamrankings.projected_losses
-			$('#teamrankings_wl').text(teamrankings_wl);
-			
-			$('#time').text(json.time.time);
-			
+						
 						
 			function FindScore(data) { // Calculate percentage chance based on RPI-like ranking system
 				 var score;
