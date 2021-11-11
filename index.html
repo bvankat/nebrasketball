@@ -25,7 +25,10 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/icons/app-icon-180x180.png">
   <link rel="manifest" href="/site.webmanifest">
 
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="preload" href="/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/css/bootstrap.min.css"></noscript>
+
   <link rel="stylesheet" href="/css/adobe-fonts.css">
 
    	
