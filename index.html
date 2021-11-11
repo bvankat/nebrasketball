@@ -261,6 +261,17 @@
  
  
       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      
+      <script>
+	      
+	      async function loadData() {
+			  const response = await fetch('data.js');
+			  const data = await response.json();
+			  console.log(data); 
+			}
+			loadData();
+	      
+	  </script>
  	
   	<script>
 	  	
