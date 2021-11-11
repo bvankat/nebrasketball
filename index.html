@@ -270,6 +270,8 @@
 			  console.log(data); 
 			}
 			loadData();
+
+			document.getElementById("ncaa-net").innerHTML = data.warrennolan.nolan_net;
 	      
 	  </script>
  	
@@ -280,8 +282,6 @@
 	  	
 		$.getJSON( "data.js", function( json ) {
 			
-			console.log(json);
-
 			$('#kenpom-rating').text(json.kenpom.rating);
 			$('#kenpom-conference').text(json.kenpom.conference_record);
 			$('#kenpom-overall').text(json.kenpom.overall_record);
@@ -289,8 +289,7 @@
 			$('#kenpom-record').text(json.kenpom.record);
 			
 			// $('#ncaa-net, #ncaa-net2').text(json.ncaa.net_rank); 
-			$('#ncaa-net, #ncaa-net2').text(json.warrennolan.nolan_net); // use this until real NET is released
-			
+			// $('#ncaa-net, #ncaa-net2').text(json.warrennolan.nolan_net); // use this until real NET is released
 			
 			$('#espn-rating').text(json.espn.bpi);
 			$('#espn-sos').text(json.espn.sos);
