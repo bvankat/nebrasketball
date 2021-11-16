@@ -22,7 +22,7 @@
         "seed": "NR"
     },
     "haslametrics": {
-        "haslam_rating": ""
+        "haslam_rating": "91"
     },
     "kenpom": {
         "conference_record": "6-14",
@@ -50,7 +50,7 @@
         "rank": "104"
     },
     "time": {
-        "time": "Nov 15, 11:29 PM"
+        "time": "Nov 15, 11:31 PM"
     },
     "trank": {
         "trank": "81",
