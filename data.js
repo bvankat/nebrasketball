@@ -22,7 +22,7 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "157"
+        "miya_rating": "152"
     },
     "haslametrics": {
         "haslam_rating": "87"
@@ -48,16 +48,16 @@
         "make_tournament": "6.2%",
         "most_likely_seed": "12",
         "proj_conf_record": "5.3-14.7",
-        "projected_losses": "18.6",
-        "projected_wins": "12.4",
+        "projected_losses": "18.5",
+        "projected_wins": "12.5",
         "rank": "103"
     },
     "time": {
-        "time": "Nov 16,  1:30 AM"
+        "time": "Nov 16, 10:44 AM"
     },
     "trank": {
         "trank": "81",
-        "trank_make_tourney": "0.4",
+        "trank_make_tourney": "0.5",
         "trank_proj_record": "14-17 (7-13)",
         "trank_seed": "NR",
         "wab_rank": "260",
