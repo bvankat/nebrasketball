@@ -21,12 +21,15 @@
     "espn_bracketology": {
         "seed": "NR"
     },
+    "haslametrics": {
+        "haslam_rating": ""
+    },
     "kenpom": {
         "conference_record": "6-14",
         "overall_record": "13-18",
         "rating": "89",
         "record": "1-1",
-        "sos": "271"
+        "sos": "270"
     },
     "kpi_sports": {
         "kpi_ranking": 201
@@ -44,10 +47,10 @@
         "proj_conf_record": "5.3-14.7",
         "projected_losses": "18.6",
         "projected_wins": "12.4",
-        "rank": "103"
+        "rank": "104"
     },
     "time": {
-        "time": "Nov 15, 11:05 PM"
+        "time": "Nov 15, 11:19 PM"
     },
     "trank": {
         "trank": "81",
@@ -67,6 +70,6 @@
         "quadrant_4": "1-1",
         "record": "1-1",
         "rpi": "327",
-        "sos": "307"
+        "sos": "308"
     }
 }
