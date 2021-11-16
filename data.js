@@ -21,6 +21,9 @@
     "espn_bracketology": {
         "seed": "NR"
     },
+    "evanmiya": {
+        "miya_rating": "157"
+    },
     "haslametrics": {
         "haslam_rating": "91"
     },
@@ -29,7 +32,7 @@
         "overall_record": "13-18",
         "rating": "89",
         "record": "1-1",
-        "sos": "270"
+        "sos": "273"
     },
     "kpi_sports": {
         "kpi_ranking": 201
@@ -50,15 +53,15 @@
         "rank": "104"
     },
     "time": {
-        "time": "Nov 15, 11:31 PM"
+        "time": "Nov 16, 12:19 AM"
     },
     "trank": {
         "trank": "81",
         "trank_make_tourney": "0.4",
         "trank_proj_record": "14-17 (7-13)",
         "trank_seed": "NR",
-        "wab_rank": "261",
-        "wab_score": "-0.8261"
+        "wab_rank": "260",
+        "wab_score": "-0.8260"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
@@ -69,7 +72,7 @@
         "quadrant_3": "0-0",
         "quadrant_4": "1-1",
         "record": "1-1",
-        "rpi": "327",
-        "sos": "308"
+        "rpi": "328",
+        "sos": "311"
     }
 }
