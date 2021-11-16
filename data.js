@@ -50,7 +50,7 @@
         "rank": "104"
     },
     "time": {
-        "time": "Nov 15, 11:27 PM"
+        "time": "Nov 15, 11:29 PM"
     },
     "trank": {
         "trank": "81",
