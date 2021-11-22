@@ -53,7 +53,7 @@
         "rank": "106"
     },
     "time": {
-        "time": "Nov 22,  9:30 AM"
+        "time": "Nov 22,  9:43 AM"
     },
     "trank": {
         "trank": "90",
