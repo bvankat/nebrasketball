@@ -397,6 +397,7 @@
 			 // next three lines keep gauge score > 3 in the really sad times
 			 if (total_score <= 2) {
 			 total_score = 2;
+			 console.log("Note: Minimum total_score applied")
 			 }
 			  
 			 
@@ -412,7 +413,7 @@
 			 }
 			 
 			 	message = StatusCheck(total_score);
-			 	console.log(message);
+			 	// console.log(message);
 			 	// $('#message').text(message);
 			
 			
