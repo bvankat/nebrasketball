@@ -32,7 +32,7 @@
         "overall_record": "13-18",
         "rating": "91",
         "record": "3-2",
-        "sos": "303"
+        "sos": "305"
     },
     "kpi_sports": {
         "kpi_ranking": 201
@@ -53,10 +53,10 @@
         "rank": "105"
     },
     "time": {
-        "time": "Nov 23,  2:30 PM"
+        "time": "Nov 23,  5:32 PM"
     },
     "trank": {
-        "trank": "87",
+        "trank": "86",
         "trank_make_tourney": "0.6",
         "trank_proj_record": "14-17 (7-13)",
         "trank_seed": "NR",
@@ -72,7 +72,7 @@
         "quadrant_3": "0-0",
         "quadrant_4": "3-1",
         "record": "3-2",
-        "rpi": "256",
+        "rpi": "260",
         "sos": "245"
     }
 }
