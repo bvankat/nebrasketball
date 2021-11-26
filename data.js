@@ -53,10 +53,10 @@
         "rank": "110"
     },
     "time": {
-        "time": "Nov 26,  2:30 PM"
+        "time": "Nov 26,  3:30 PM"
     },
     "trank": {
-        "trank": "106",
+        "trank": "107",
         "trank_make_tourney": "0.2",
         "trank_proj_record": "13-18 (6-14)",
         "trank_seed": "NR",
@@ -65,14 +65,14 @@
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "187",
+        "elo": "186",
         "nolan_net": "126",
         "quadrant_1": "0-1",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "4-1",
         "record": "4-2",
-        "rpi": "309",
+        "rpi": "312",
         "sos": "338"
     }
 }
