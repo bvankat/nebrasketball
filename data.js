@@ -53,10 +53,10 @@
         "rank": "110"
     },
     "time": {
-        "time": "Nov 26,  1:48 PM"
+        "time": "Nov 26,  2:30 PM"
     },
     "trank": {
-        "trank": "107",
+        "trank": "106",
         "trank_make_tourney": "0.2",
         "trank_proj_record": "13-18 (6-14)",
         "trank_seed": "NR",
@@ -72,7 +72,7 @@
         "quadrant_3": "0-0",
         "quadrant_4": "4-1",
         "record": "4-2",
-        "rpi": "308",
-        "sos": "339"
+        "rpi": "309",
+        "sos": "338"
     }
 }
