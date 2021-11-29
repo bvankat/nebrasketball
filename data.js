@@ -53,11 +53,11 @@
         "rank": "108"
     },
     "time": {
-        "time": "Nov 29,  1:30 AM"
+        "time": "Nov 29,  3:30 AM"
     },
     "trank": {
         "trank": "106",
-        "trank_make_tourney": "0.2",
+        "trank_make_tourney": "0.3",
         "trank_proj_record": "13-18 (6-14)",
         "trank_seed": "NR",
         "wab_rank": "190",
