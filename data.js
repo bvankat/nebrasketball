@@ -25,7 +25,7 @@
         "miya_rating": "113"
     },
     "haslametrics": {
-        "haslam_rating": "117"
+        "haslam_rating": "121"
     },
     "kenpom": {
         "conference_record": "6-14",
@@ -53,7 +53,7 @@
         "rank": "108"
     },
     "time": {
-        "time": "Nov 28, 11:30 PM"
+        "time": "Nov 29, 12:30 AM"
     },
     "trank": {
         "trank": "106",
