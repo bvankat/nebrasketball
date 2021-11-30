@@ -25,7 +25,7 @@
         "miya_rating": "113"
     },
     "haslametrics": {
-        "haslam_rating": "121"
+        "haslam_rating": "119"
     },
     "kenpom": {
         "conference_record": "6-14",
@@ -42,7 +42,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "113"
+        "sagarin_rate": "110"
     },
     "teamrankings": {
         "make_tournament": "2.7%",
@@ -53,15 +53,15 @@
         "rank": "108"
     },
     "time": {
-        "time": "Nov 29, 11:30 PM"
+        "time": "Nov 30, 12:30 AM"
     },
     "trank": {
-        "trank": "104",
+        "trank": "106",
         "trank_make_tourney": "0.3",
         "trank_proj_record": "13-18 (6-14)",
         "trank_seed": "NR",
-        "wab_rank": "187",
-        "wab_score": "-1.4187"
+        "wab_rank": "185",
+        "wab_score": "-1.4185"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
