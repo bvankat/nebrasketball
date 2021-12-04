@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": "1",
+        "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "45"
+        "total_brackets": "29"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -25,7 +25,7 @@
         "miya_rating": "102"
     },
     "haslametrics": {
-        "haslam_rating": "116"
+        "haslam_rating": "114"
     },
     "kenpom": {
         "conference_record": "6-14",
@@ -53,26 +53,26 @@
         "rank": "107"
     },
     "time": {
-        "time": "Dec 03, 10:30 AM"
+        "time": "Dec 03, 11:30 PM"
     },
     "trank": {
-        "trank": "107",
+        "trank": "108",
         "trank_make_tourney": "0.2",
         "trank_proj_record": "13-18 (6-14)",
         "trank_seed": "NR",
-        "wab_rank": "213",
-        "wab_score": "-1.8213"
+        "wab_rank": "212",
+        "wab_score": "-1.8212"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "180",
+        "elo": "179",
         "nolan_net": "126",
         "quadrant_1": "0-2",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "5-1",
         "record": "5-3",
-        "rpi": "249",
-        "sos": "265"
+        "rpi": "245",
+        "sos": "269"
     }
 }
