@@ -37,6 +37,9 @@
     "kpi_sports": {
         "kpi_ranking": 201
     },
+    "ncaa": {
+        "net_rank": "192"
+    },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
@@ -53,15 +56,15 @@
         "rank": "108"
     },
     "time": {
-        "time": "Dec 06,  8:30 PM"
+        "time": "Dec 06,  8:36 PM"
     },
     "trank": {
         "trank": "112",
         "trank_make_tourney": "0.1",
         "trank_proj_record": "12-19 (6-14)",
         "trank_seed": "NR",
-        "wab_rank": "211",
-        "wab_score": "-2.1211"
+        "wab_rank": "210",
+        "wab_score": "-2.1210"
     },
     "warrennolan": {
         "current_conf_record": "0-1",
