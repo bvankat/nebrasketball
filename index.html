@@ -72,7 +72,7 @@
 		  	  
 		  		<div id="chart_div" style="width: 370px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
-		  		<p class="col-sm-12 text-center">Status: <span id="message">Biiiig week ahead if they're going to make a run.</span></p>
+		  		<p class="col-sm-12 text-center">Status: <span id="message">The road is getting longer.</span></p>
 		  		
 
     
@@ -268,11 +268,9 @@
 			  const data = await response.json();
 			  console.log(data); 
 			  
-			// document.getElementById('ncaa-net').innerHTML = data.ncaa.net_rank; 
-			// document.getElementById('ncaa-net2').innerHTML = data.ncaa.net_rank; 
-			// document.getElementById("ncaa-net").innerHTML = data.warrennolan.nolan_net; // use this until real NET is released
-			// document.getElementById("ncaa-net2").innerHTML = data.warrennolan.nolan_net; // use this until real NET is released
-
+			document.getElementById('ncaa-net').innerHTML = data.ncaa.net_rank; 
+			document.getElementById('ncaa-net2').innerHTML = data.ncaa.net_rank; 
+			
 			document.getElementById('kenpom-rating').innerHTML = data.kenpom.rating;
 			document.getElementById('kenpom-overall').innerHTML = data.kenpom.overall_record;
 			document.getElementById('kenpom-conference').innerHTML = data.kenpom.conference_record;
@@ -364,7 +362,7 @@
 			 
 			 kenpom_score = FindScore(data.kenpom.rating);
 			 net_score = FindScore(data.warrennolan.nolan_net);
-			 //net_score = FindScore(data.ncaa.net_rank);
+			 net_score = FindScore(data.ncaa.net_rank);
 			 espn_sor = FindScore(parseInt(data.espn.sor)); // SOR is stronger predictor than BPI
 			 espn_bpi = FindScore(parseInt(data.espn.bpi)); 
 			 teamrankings_score = parseInt(data.teamrankings.make_tournament); // This one's already a % score
@@ -385,11 +383,10 @@
 			 // total_score = 6;
 
 			//Current formula, multipliers should add to .98 to keep the gauge happy
-			// Using estimated NET from Warren Nolan right now until real NCAA ratings are released			 
 			
 			var total_score;
 
-			total_score = (/*(net_score * .16) + */(espn_sor * .20) + /* (kpi_score * .14) + */ (teamrankings_score * .16) + (rpi_score * .14) + (kenpom_score * .12) + (espn_bpi * .12) +  (sagarin_score * .11) + (trank_score * .11) + intangibles);
+			total_score = ((net_score * .14) + (espn_sor * .16) + /* (kpi_score * .14) + */ (teamrankings_score * .12) + (rpi_score * .12) + (kenpom_score * .11) + (espn_bpi * .11) +  (sagarin_score * .10) + (trank_score * .10) + intangibles);
 			
 			
 						 
