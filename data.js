@@ -22,7 +22,7 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "110"
+        "miya_rating": "133"
     },
     "haslametrics": {
         "haslam_rating": "149"
@@ -32,7 +32,7 @@
         "overall_record": "11-20",
         "rating": "117",
         "record": "5-5",
-        "sos": "237"
+        "sos": "239"
     },
     "kpi_sports": {
         "kpi_ranking": 201
@@ -56,26 +56,26 @@
         "rank": "130"
     },
     "time": {
-        "time": "Dec 08,  8:30 AM"
+        "time": "Dec 08, 11:30 PM"
     },
     "trank": {
-        "trank": "134",
+        "trank": "135",
         "trank_make_tourney": "0",
         "trank_proj_record": "11-20 (5-15)",
         "trank_seed": "NR",
-        "wab_rank": "241",
-        "wab_score": "-2.6241"
+        "wab_rank": "232",
+        "wab_score": "-2.5232"
     },
     "warrennolan": {
         "current_conf_record": "0-2",
-        "elo": "187",
+        "elo": "185",
         "nolan_net": "229",
         "quadrant_1": "0-1",
         "quadrant_2": "0-2",
         "quadrant_3": "0-2",
         "quadrant_4": "5-0",
         "record": "5-5",
-        "rpi": "272",
+        "rpi": "270",
         "sos": "254"
     }
 }
