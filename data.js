@@ -35,17 +35,17 @@
         "sos": "171"
     },
     "kpi_sports": {
-        "kpi_ranking": 191
+        "kpi_ranking": 193
     },
     "ncaa": {
-        "net_rank": "220"
+        "net_rank": "225"
     },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "140"
+        "sagarin_rate": "135"
     },
     "teamrankings": {
         "make_tournament": "0.1%",
@@ -53,10 +53,10 @@
         "proj_conf_record": "3.6-16.4",
         "projected_losses": "21.1",
         "projected_wins": "9.9",
-        "rank": "144"
+        "rank": "142"
     },
     "time": {
-        "time": "Dec 15, 12:59 AM"
+        "time": "Dec 15, 11:30 AM"
     },
     "trank": {
         "trank": "161",
@@ -69,10 +69,10 @@
     "warrennolan": {
         "current_conf_record": "0-2",
         "elo": "194",
-        "nolan_net": "220",
+        "nolan_net": "225",
         "quadrant_1": "0-2",
-        "quadrant_2": "0-3",
-        "quadrant_3": "0-1",
+        "quadrant_2": "0-2",
+        "quadrant_3": "0-2",
         "quadrant_4": "5-0",
         "record": "5-6",
         "rpi": "240",
