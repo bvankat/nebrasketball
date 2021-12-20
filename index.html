@@ -276,7 +276,7 @@
 			document.getElementById('kenpom-conference').innerHTML = data.kenpom.conference_record;
 			document.getElementById('kenpom-record').innerHTML = data.kenpom.record;
 
-			// document.getElementById('kpi_ranking').innerHTML = data.kpi_sports.kpi_ranking;
+			document.getElementById('kpi_ranking').innerHTML = data.kpi_sports.kpi_ranking;
 
 			document.getElementById('espn-rating').innerHTML = data.espn.bpi;
 			document.getElementById('espn-proj-tourney-seed').innerHTML = data.espn.proj_tourney_seed;
@@ -361,14 +361,13 @@
 
 			 
 			 kenpom_score = FindScore(data.kenpom.rating);
-			 net_score = FindScore(data.warrennolan.nolan_net);
 			 net_score = FindScore(data.ncaa.net_rank);
 			 espn_sor = FindScore(parseInt(data.espn.sor)); // SOR is stronger predictor than BPI
 			 espn_bpi = FindScore(parseInt(data.espn.bpi)); 
 			 teamrankings_score = parseInt(data.teamrankings.make_tournament); // This one's already a % score
 			 sagarin_score = FindScore(data.sagarin.sagarin_rate);
 			 trank_score = FindScore(data.trank.trank);
-			 // kpi_score = FindScore(data.kpi_sports.kpi_ranking);
+			 kpi_score = FindScore(data.kpi_sports.kpi_ranking);
 			 rpi_score = FindScore(data.warrennolan.rpi);
 			 
 			 
@@ -386,7 +385,7 @@
 			
 			var total_score;
 
-			total_score = ((net_score * .14) + (espn_sor * .16) + /* (kpi_score * .14) + */ (teamrankings_score * .12) + (rpi_score * .12) + (kenpom_score * .11) + (espn_bpi * .11) +  (sagarin_score * .10) + (trank_score * .10) + intangibles);
+			total_score = ((net_score * .12) + (espn_sor * .14) + (kpi_score * .14) + (teamrankings_score * .10) + (rpi_score * .10) + (kenpom_score * .10) + (espn_bpi * .10) +  (sagarin_score * .09) + (trank_score * .09) + intangibles);
 			
 			
 						 
@@ -416,9 +415,9 @@
 			
 			 // Note from KPI: Selections have trended toward using results-based metrics - "Who's resume is better?". Predictive metrics help more with seeding - "Who would win between these two?".
 			 
-			 // console.log("Warren Nolan NET: " + net_score + "    (14%)");
+			 console.log("NCAA NET: " + net_score + "    (14%)");
 			 console.log("ESPN SOR score (results-based): " + espn_sor + "    (14%)");
-			 // console.log("KPI score (results-based): " + kpi_score + "    (14%)");
+			 console.log("KPI score (results-based): " + kpi_score + "    (14%)");
 			 console.log("TeamRankings (results-based): " + teamrankings_score + "    (12%)");
 			 console.log("RPI score (results-based): " + rpi_score + "    (10%)");
 			 console.log("ESPN BPI score (predictive): " + espn_bpi + "    (08%)");
