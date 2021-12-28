@@ -49,14 +49,14 @@
     },
     "teamrankings": {
         "make_tournament": "0.0%",
-        "most_likely_seed": "12",
+        "most_likely_seed": "13",
         "proj_conf_record": "3.4-16.6",
         "projected_losses": "21.6",
         "projected_wins": "9.4",
         "rank": "145"
     },
     "time": {
-        "time": "Dec 28,  3:30 AM"
+        "time": "Dec 28,  7:33 AM"
     },
     "trank": {
         "trank": "172",
