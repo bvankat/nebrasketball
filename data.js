@@ -16,7 +16,7 @@
         "proj_win_loss_overall": "10.0-21.0",
         "seven_day_change": "-3",
         "sor": "225",
-        "sos": "146"
+        "sos": "148"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -56,7 +56,7 @@
         "rank": "145"
     },
     "time": {
-        "time": "Dec 28,  9:25 AM"
+        "time": "Dec 28,  9:30 AM"
     },
     "trank": {
         "trank": "172",
