@@ -8,21 +8,21 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "162",
+        "bpi": "161",
         "chance_round_32": "0.0%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "3.6-16.4",
         "proj_win_loss_overall": "9.6-21.4",
         "seven_day_change": "-8",
-        "sor": "240",
-        "sos": "117"
+        "sor": "237",
+        "sos": "115"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "135"
+        "miya_rating": "136"
     },
     "haslametrics": {
         "haslam_rating": "141"
@@ -30,12 +30,12 @@
     "kenpom": {
         "conference_record": "3-17",
         "overall_record": "9-22",
-        "rating": "141",
-        "record": "6-8",
-        "sos": "162"
+        "rating": "143",
+        "record": "6-9",
+        "sos": "124"
     },
     "kpi_sports": {
-        "kpi_ranking": 214
+        "kpi_ranking": 218
     },
     "ncaa": {
         "net_rank": "217"
@@ -45,7 +45,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "138"
+        "sagarin_rate": "137"
     },
     "teamrankings": {
         "make_tournament": "0.0%",
@@ -56,26 +56,26 @@
         "rank": "142"
     },
     "time": {
-        "time": "Jan 05,  1:30 AM"
+        "time": "Jan 05, 10:30 PM"
     },
     "trank": {
-        "trank": "165",
+        "trank": "162",
         "trank_make_tourney": "0",
         "trank_proj_record": "9-22 (3-17)",
         "trank_seed": "NR",
-        "wab_rank": "253",
-        "wab_score": "-4.2253"
+        "wab_rank": "266",
+        "wab_score": "-4.5266"
     },
     "warrennolan": {
-        "current_conf_record": "0-3",
-        "elo": "203",
-        "nolan_net": "224",
-        "quadrant_1": "0-3",
+        "current_conf_record": "0-4",
+        "elo": "206",
+        "nolan_net": "217",
+        "quadrant_1": "0-4",
         "quadrant_2": "0-2",
         "quadrant_3": "0-2",
         "quadrant_4": "6-1",
-        "record": "6-8",
-        "rpi": "258",
-        "sos": "162"
+        "record": "6-9",
+        "rpi": "243",
+        "sos": "120"
     }
 }
