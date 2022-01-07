@@ -30,9 +30,9 @@
     "kenpom": {
         "conference_record": "3-17",
         "overall_record": "9-22",
-        "rating": "143",
+        "rating": "145",
         "record": "6-9",
-        "sos": "124"
+        "sos": "122"
     },
     "kpi_sports": {
         "kpi_ranking": 210
@@ -56,26 +56,26 @@
         "rank": "142"
     },
     "time": {
-        "time": "Jan 06, 12:30 PM"
+        "time": "Jan 06,  8:30 PM"
     },
     "trank": {
         "trank": "161",
         "trank_make_tourney": "0",
         "trank_proj_record": "9-22 (3-17)",
         "trank_seed": "NR",
-        "wab_rank": "265",
-        "wab_score": "-4.4265"
+        "wab_rank": "262",
+        "wab_score": "-4.4262"
     },
     "warrennolan": {
         "current_conf_record": "0-4",
-        "elo": "206",
+        "elo": "207",
         "nolan_net": "206",
         "quadrant_1": "0-4",
         "quadrant_2": "0-2",
         "quadrant_3": "0-2",
         "quadrant_4": "6-1",
         "record": "6-9",
-        "rpi": "243",
-        "sos": "120"
+        "rpi": "249",
+        "sos": "125"
     }
 }
