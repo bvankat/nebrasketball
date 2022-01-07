@@ -12,11 +12,11 @@
         "chance_round_32": "0.0%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "3.6-16.4",
-        "proj_win_loss_overall": "9.6-21.4",
-        "seven_day_change": "-5",
-        "sor": "244",
-        "sos": "74"
+        "proj_win_loss_conf": "3.5-16.5",
+        "proj_win_loss_overall": "9.5-21.5",
+        "seven_day_change": "-4",
+        "sor": "243",
+        "sos": "67"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -56,7 +56,7 @@
         "rank": "140"
     },
     "time": {
-        "time": "Jan 07, 11:00 AM"
+        "time": "Jan 07, 11:31 AM"
     },
     "trank": {
         "trank": "163",
