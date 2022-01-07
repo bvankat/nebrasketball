@@ -32,7 +32,7 @@
         "overall_record": "9-22",
         "rating": "145",
         "record": "6-9",
-        "sos": "120"
+        "sos": "122"
     },
     "kpi_sports": {
         "kpi_ranking": 210
@@ -56,19 +56,19 @@
         "rank": "142"
     },
     "time": {
-        "time": "Jan 06, 10:32 PM"
+        "time": "Jan 06, 11:31 PM"
     },
     "trank": {
-        "trank": "162",
+        "trank": "163",
         "trank_make_tourney": "0",
         "trank_proj_record": "9-22 (3-17)",
         "trank_seed": "NR",
-        "wab_rank": "262",
-        "wab_score": "-4.6262"
+        "wab_rank": "261",
+        "wab_score": "-4.6261"
     },
     "warrennolan": {
         "current_conf_record": "0-4",
-        "elo": "207",
+        "elo": "206",
         "nolan_net": "206",
         "quadrant_1": "0-4",
         "quadrant_2": "0-2",
@@ -76,6 +76,6 @@
         "quadrant_4": "6-1",
         "record": "6-9",
         "rpi": "250",
-        "sos": "133"
+        "sos": "131"
     }
 }
