@@ -45,7 +45,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "143"
+        "sagarin_rate": "142"
     },
     "teamrankings": {
         "make_tournament": "0.0%",
@@ -56,7 +56,7 @@
         "rank": "149"
     },
     "time": {
-        "time": "Jan 10, 11:30 PM"
+        "time": "Jan 11, 12:30 AM"
     },
     "trank": {
         "trank": "171",
