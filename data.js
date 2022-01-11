@@ -22,7 +22,7 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "143"
+        "miya_rating": "142"
     },
     "haslametrics": {
         "haslam_rating": "160"
@@ -35,10 +35,10 @@
         "sos": "79"
     },
     "kpi_sports": {
-        "kpi_ranking": 205
+        "kpi_ranking": 204
     },
     "ncaa": {
-        "net_rank": "219"
+        "net_rank": "221"
     },
     "polls": {
         "ap_rank": "NR",
@@ -49,14 +49,14 @@
     },
     "teamrankings": {
         "make_tournament": "0.0%",
-        "most_likely_seed": "15",
+        "most_likely_seed": "NR",
         "proj_conf_record": "2.7-17.3",
         "projected_losses": "22.3",
         "projected_wins": "8.7",
         "rank": "149"
     },
     "time": {
-        "time": "Jan 11,  4:30 AM"
+        "time": "Jan 11, 11:30 AM"
     },
     "trank": {
         "trank": "171",
@@ -69,10 +69,10 @@
     "warrennolan": {
         "current_conf_record": "0-5",
         "elo": "207",
-        "nolan_net": "219",
+        "nolan_net": "221",
         "quadrant_1": "0-4",
-        "quadrant_2": "0-3",
-        "quadrant_3": "0-2",
+        "quadrant_2": "0-4",
+        "quadrant_3": "0-1",
         "quadrant_4": "6-1",
         "record": "6-10",
         "rpi": "241",
