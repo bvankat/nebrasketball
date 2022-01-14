@@ -25,14 +25,14 @@
         "miya_rating": "137"
     },
     "haslametrics": {
-        "haslam_rating": "155"
+        "haslam_rating": "151"
     },
     "kenpom": {
         "conference_record": "3-17",
         "overall_record": "9-22",
-        "rating": "159",
+        "rating": "156",
         "record": "6-11",
-        "sos": "57"
+        "sos": "59"
     },
     "kpi_sports": {
         "kpi_ranking": 203
@@ -56,26 +56,26 @@
         "rank": "147"
     },
     "time": {
-        "time": "Jan 13,  4:30 PM"
+        "time": "Jan 14,  1:31 AM"
     },
     "trank": {
-        "trank": "161",
+        "trank": "163",
         "trank_make_tourney": "0",
         "trank_proj_record": "9-22 (3-17)",
         "trank_seed": "NR",
-        "wab_rank": "270",
-        "wab_score": "-5.3"
+        "wab_rank": "268",
+        "wab_score": "-5.4"
     },
     "warrennolan": {
         "current_conf_record": "0-6",
-        "elo": "211",
+        "elo": "209",
         "nolan_net": "217",
         "quadrant_1": "0-5",
         "quadrant_2": "0-4",
         "quadrant_3": "0-1",
         "quadrant_4": "6-1",
         "record": "6-11",
-        "rpi": "237",
-        "sos": "87"
+        "rpi": "234",
+        "sos": "84"
     }
 }
