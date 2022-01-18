@@ -56,7 +56,7 @@
         "rank": "145"
     },
     "time": {
-        "time": "Jan 18,  1:30 PM"
+        "time": "Jan 18,  2:30 PM"
     },
     "trank": {
         "trank": "157",
