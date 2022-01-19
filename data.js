@@ -53,10 +53,10 @@
         "proj_conf_record": "2.5-17.5",
         "projected_losses": "22.5",
         "projected_wins": "8.5",
-        "rank": "144"
+        "rank": "143"
     },
     "time": {
-        "time": "Jan 19, 11:30 AM"
+        "time": "Jan 19,  4:29 PM"
     },
     "trank": {
         "trank": "156",
