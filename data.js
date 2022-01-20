@@ -32,7 +32,7 @@
         "overall_record": "8-22",
         "rating": "159",
         "record": "6-13",
-        "sos": "24"
+        "sos": "23"
     },
     "kpi_sports": {
         "kpi_ranking": 190
@@ -56,7 +56,7 @@
         "rank": "142"
     },
     "time": {
-        "time": "Jan 20,  1:30 PM"
+        "time": "Jan 20,  2:30 PM"
     },
     "trank": {
         "trank": "156",
