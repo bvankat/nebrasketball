@@ -28,8 +28,8 @@
         "haslam_rating": "144"
     },
     "kenpom": {
-        "conference_record": "2-18",
-        "overall_record": "8-23",
+        "conference_record": "2-17",
+        "overall_record": "8-22",
         "rating": "159",
         "record": "6-13",
         "sos": "24"
@@ -56,7 +56,7 @@
         "rank": "142"
     },
     "time": {
-        "time": "Jan 20, 11:30 AM"
+        "time": "Jan 20, 12:30 PM"
     },
     "trank": {
         "trank": "156",
