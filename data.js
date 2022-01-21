@@ -30,9 +30,9 @@
     "kenpom": {
         "conference_record": "2-17",
         "overall_record": "8-22",
-        "rating": "159",
+        "rating": "163",
         "record": "6-13",
-        "sos": "23"
+        "sos": "20"
     },
     "kpi_sports": {
         "kpi_ranking": 190
@@ -45,7 +45,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "134"
+        "sagarin_rate": "132"
     },
     "teamrankings": {
         "make_tournament": "0.0%",
@@ -53,22 +53,22 @@
         "proj_conf_record": "2.5-17.5",
         "projected_losses": "22.5",
         "projected_wins": "8.5",
-        "rank": "142"
+        "rank": "145"
     },
     "time": {
-        "time": "Jan 20,  4:00 PM"
+        "time": "Jan 21,  3:33 AM"
     },
     "trank": {
-        "trank": "156",
+        "trank": "158",
         "trank_make_tourney": "0",
         "trank_proj_record": "9-21 (3-16)",
         "trank_seed": "NR",
-        "wab_rank": "264",
-        "wab_score": "-6.1"
+        "wab_rank": "253",
+        "wab_score": "-6"
     },
     "warrennolan": {
         "current_conf_record": "0-8",
-        "elo": "221",
+        "elo": "223",
         "nolan_net": "200",
         "quadrant_1": "0-6",
         "quadrant_2": "0-6",
@@ -76,6 +76,6 @@
         "quadrant_4": "6-1",
         "record": "6-13",
         "rpi": "205",
-        "sos": "41"
+        "sos": "39"
     }
 }
