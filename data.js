@@ -22,7 +22,7 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "142"
+        "miya_rating": "141"
     },
     "haslametrics": {
         "haslam_rating": "144"
@@ -49,14 +49,14 @@
     },
     "teamrankings": {
         "make_tournament": "0.0%",
-        "most_likely_seed": "16",
+        "most_likely_seed": "13",
         "proj_conf_record": "2.5-17.5",
         "projected_losses": "22.5",
         "projected_wins": "8.5",
         "rank": "145"
     },
     "time": {
-        "time": "Jan 21,  5:32 AM"
+        "time": "Jan 21,  6:33 AM"
     },
     "trank": {
         "trank": "158",
