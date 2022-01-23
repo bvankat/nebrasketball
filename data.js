@@ -25,7 +25,7 @@
         "miya_rating": "141"
     },
     "haslametrics": {
-        "haslam_rating": "146"
+        "haslam_rating": "135"
     },
     "kenpom": {
         "conference_record": "2-17",
@@ -56,15 +56,15 @@
         "rank": "145"
     },
     "time": {
-        "time": "Jan 22, 11:32 PM"
+        "time": "Jan 23,  1:32 AM"
     },
     "trank": {
-        "trank": "154",
+        "trank": "155",
         "trank_make_tourney": "0",
         "trank_proj_record": "9-22 (3-17)",
         "trank_seed": "NR",
         "wab_rank": "246",
-        "wab_score": "-6.1"
+        "wab_score": "-6"
     },
     "warrennolan": {
         "current_conf_record": "0-8",
@@ -76,6 +76,6 @@
         "quadrant_4": "6-1",
         "record": "6-13",
         "rpi": "201",
-        "sos": "37"
+        "sos": "38"
     }
 }
