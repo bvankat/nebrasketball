@@ -32,7 +32,7 @@
         "overall_record": "8-22",
         "rating": "160",
         "record": "6-13",
-        "sos": "25"
+        "sos": "24"
     },
     "kpi_sports": {
         "kpi_ranking": 184
@@ -56,10 +56,10 @@
         "rank": "143"
     },
     "time": {
-        "time": "Jan 24,  9:31 PM"
+        "time": "Jan 24, 11:31 PM"
     },
     "trank": {
-        "trank": "152",
+        "trank": "157",
         "trank_make_tourney": "0",
         "trank_proj_record": "9-22 (3-17)",
         "trank_seed": "NR",
@@ -76,6 +76,6 @@
         "quadrant_4": "6-1",
         "record": "6-13",
         "rpi": "202",
-        "sos": "38"
+        "sos": "36"
     }
 }
