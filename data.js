@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "93"
+        "total_brackets": "90"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -56,10 +56,10 @@
         "rank": "143"
     },
     "time": {
-        "time": "Jan 25, 12:31 AM"
+        "time": "Jan 25,  2:31 AM"
     },
     "trank": {
-        "trank": "157",
+        "trank": "156",
         "trank_make_tourney": "0",
         "trank_proj_record": "9-22 (3-17)",
         "trank_seed": "NR",
