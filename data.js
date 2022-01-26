@@ -56,26 +56,26 @@
         "rank": "142"
     },
     "time": {
-        "time": "Jan 25,  7:33 PM"
+        "time": "Jan 25,  8:34 PM"
     },
     "trank": {
         "trank": "156",
         "trank_make_tourney": "0",
         "trank_proj_record": "9-22 (3-17)",
         "trank_seed": "NR",
-        "wab_rank": "242",
+        "wab_rank": "241",
         "wab_score": "-6.1"
     },
     "warrennolan": {
         "current_conf_record": "0-8",
-        "elo": "219",
+        "elo": "221",
         "nolan_net": "192",
         "quadrant_1": "0-6",
         "quadrant_2": "0-6",
         "quadrant_3": "0-0",
         "quadrant_4": "6-1",
         "record": "6-13",
-        "rpi": "202",
+        "rpi": "204",
         "sos": "37"
     }
 }
