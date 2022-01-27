@@ -25,7 +25,7 @@
         "miya_rating": "141"
     },
     "haslametrics": {
-        "haslam_rating": "148"
+        "haslam_rating": "144"
     },
     "kenpom": {
         "conference_record": "2-17",
@@ -49,17 +49,17 @@
     },
     "teamrankings": {
         "make_tournament": "0.0%",
-        "most_likely_seed": "NR",
+        "most_likely_seed": "14",
         "proj_conf_record": "2.5-17.5",
         "projected_losses": "22.5",
         "projected_wins": "8.5",
         "rank": "141"
     },
     "time": {
-        "time": "Jan 26, 11:31 PM"
+        "time": "Jan 27, 12:35 AM"
     },
     "trank": {
-        "trank": "153",
+        "trank": "154",
         "trank_make_tourney": "0",
         "trank_proj_record": "9-22 (3-17)",
         "trank_seed": "NR",
