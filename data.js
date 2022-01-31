@@ -8,34 +8,34 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "168",
+        "bpi": "166",
         "chance_round_32": "0.0%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "1.6-17.4",
+        "proj_win_loss_conf": "1.7-17.3",
         "proj_win_loss_overall": "7.7-22.3",
-        "seven_day_change": "-9",
-        "sor": "239",
-        "sos": "33"
+        "seven_day_change": "-4",
+        "sor": "246",
+        "sos": "39"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "145"
+        "miya_rating": "146"
     },
     "haslametrics": {
-        "haslam_rating": "143"
+        "haslam_rating": "145"
     },
     "kenpom": {
         "conference_record": "2-17",
         "overall_record": "8-22",
         "rating": "182",
         "record": "6-15",
-        "sos": "32"
+        "sos": "33"
     },
     "kpi_sports": {
-        "kpi_ranking": 197
+        "kpi_ranking": 198
     },
     "ncaa": {
         "net_rank": "202"
@@ -45,7 +45,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "134"
+        "sagarin_rate": "137"
     },
     "teamrankings": {
         "make_tournament": "0.0%",
@@ -56,26 +56,26 @@
         "rank": "144"
     },
     "time": {
-        "time": "Jan 30,  5:30 PM"
+        "time": "Jan 31,  9:30 AM"
     },
     "trank": {
-        "trank": "154",
+        "trank": "155",
         "trank_make_tourney": "0",
         "trank_proj_record": "8-23 (2-18)",
         "trank_seed": "NR",
-        "wab_rank": "266",
+        "wab_rank": "265",
         "wab_score": "-7.5"
     },
     "warrennolan": {
         "current_conf_record": "0-10",
-        "elo": "230",
+        "elo": "231",
         "nolan_net": "202",
         "quadrant_1": "0-8",
-        "quadrant_2": "0-5",
-        "quadrant_3": "0-1",
+        "quadrant_2": "0-4",
+        "quadrant_3": "0-2",
         "quadrant_4": "6-1",
         "record": "6-15",
-        "rpi": "219",
+        "rpi": "218",
         "sos": "34"
     }
 }
