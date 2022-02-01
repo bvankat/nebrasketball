@@ -56,7 +56,7 @@
         "rank": "144"
     },
     "time": {
-        "time": "Feb 01, 12:32 PM"
+        "time": "Feb 01,  4:30 PM"
     },
     "trank": {
         "trank": "155",
