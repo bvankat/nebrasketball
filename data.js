@@ -30,9 +30,9 @@
     "kenpom": {
         "conference_record": "2-18",
         "overall_record": "8-23",
-        "rating": "170",
+        "rating": "171",
         "record": "7-18",
-        "sos": "31"
+        "sos": "33"
     },
     "kpi_sports": {
         "kpi_ranking": 182
@@ -56,10 +56,10 @@
         "rank": "146"
     },
     "time": {
-        "time": "Feb 17,  4:30 PM"
+        "time": "Feb 17,  5:30 PM"
     },
     "trank": {
-        "trank": "148",
+        "trank": "149",
         "trank_make_tourney": "0",
         "trank_proj_record": "8-23 (2-18)",
         "trank_seed": "NR",
@@ -75,7 +75,7 @@
         "quadrant_3": "1-0",
         "quadrant_4": "6-1",
         "record": "38",
-        "rpi": "226",
+        "rpi": "228",
         "sos": "226"
     }
 }
