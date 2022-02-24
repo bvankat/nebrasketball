@@ -56,10 +56,10 @@
         "rank": "152"
     },
     "time": {
-        "time": "Feb 24, 10:31 AM"
+        "time": "Feb 24, 11:30 AM"
     },
     "trank": {
-        "trank": "165",
+        "trank": "166",
         "trank_make_tourney": "0",
         "trank_proj_record": "8-23 (2-18)",
         "trank_seed": "NR",
