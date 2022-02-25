@@ -53,17 +53,17 @@
         "proj_conf_record": "1.4-18.6",
         "projected_losses": "23.6",
         "projected_wins": "7.4",
-        "rank": "152"
+        "rank": "149"
     },
     "time": {
-        "time": "Feb 25,  1:30 AM"
+        "time": "Feb 25,  2:30 AM"
     },
     "trank": {
         "trank": "164",
         "trank_make_tourney": "0",
         "trank_proj_record": "8-23 (2-18)",
         "trank_seed": "NR",
-        "wab_rank": "247",
+        "wab_rank": "246",
         "wab_score": "-9.6"
     },
     "warrennolan": {
