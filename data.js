@@ -56,14 +56,14 @@
         "rank": "152"
     },
     "time": {
-        "time": "Feb 25, 12:30 AM"
+        "time": "Feb 25,  1:30 AM"
     },
     "trank": {
         "trank": "164",
         "trank_make_tourney": "0",
         "trank_proj_record": "8-23 (2-18)",
         "trank_seed": "NR",
-        "wab_rank": "248",
+        "wab_rank": "247",
         "wab_score": "-9.6"
     },
     "warrennolan": {
