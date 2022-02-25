@@ -30,7 +30,7 @@
     "kenpom": {
         "conference_record": "1-19",
         "overall_record": "7-24",
-        "rating": "182",
+        "rating": "181",
         "record": "7-20",
         "sos": "31"
     },
@@ -56,7 +56,7 @@
         "rank": "152"
     },
     "time": {
-        "time": "Feb 24, 10:30 PM"
+        "time": "Feb 24, 11:30 PM"
     },
     "trank": {
         "trank": "163",
@@ -75,7 +75,7 @@
         "quadrant_3": "1-4",
         "quadrant_4": "6-1",
         "record": "53",
-        "rpi": "242",
-        "sos": "221"
+        "rpi": "243",
+        "sos": "223"
     }
 }
