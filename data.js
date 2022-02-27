@@ -8,21 +8,21 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "174",
+        "bpi": "176",
         "chance_round_32": "0.0%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "1.2-18.8",
         "proj_win_loss_overall": "7.2-23.8",
-        "seven_day_change": "3",
+        "seven_day_change": "-1",
         "sor": "219",
-        "sos": "33"
+        "sos": "36"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "172"
+        "miya_rating": "173"
     },
     "haslametrics": {
         "haslam_rating": "163"
@@ -35,7 +35,7 @@
         "sos": "33"
     },
     "kpi_sports": {
-        "kpi_ranking": 200
+        "kpi_ranking": 208
     },
     "ncaa": {
         "net_rank": "188"
@@ -56,7 +56,7 @@
         "rank": "151"
     },
     "time": {
-        "time": "Feb 27,  4:30 AM"
+        "time": "Feb 27,  7:30 AM"
     },
     "trank": {
         "trank": "161",
@@ -69,10 +69,10 @@
     "warrennolan": {
         "current_conf_record": "1-16",
         "elo": "234",
-        "nolan_net": "187",
+        "nolan_net": "188",
         "quadrant_1": "0-10",
-        "quadrant_2": "0-7",
-        "quadrant_3": "1-3",
+        "quadrant_2": "0-6",
+        "quadrant_3": "1-4",
         "quadrant_4": "6-1",
         "record": "56",
         "rpi": "255",
