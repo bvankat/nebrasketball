@@ -25,20 +25,20 @@
         "miya_rating": "172"
     },
     "haslametrics": {
-        "haslam_rating": "164"
+        "haslam_rating": "163"
     },
     "kenpom": {
         "conference_record": "1-19",
         "overall_record": "7-24",
-        "rating": "180",
+        "rating": "184",
         "record": "7-21",
-        "sos": "29"
+        "sos": "33"
     },
     "kpi_sports": {
         "kpi_ranking": 200
     },
     "ncaa": {
-        "net_rank": "187"
+        "net_rank": "188"
     },
     "polls": {
         "ap_rank": "NR",
@@ -49,22 +49,22 @@
     },
     "teamrankings": {
         "make_tournament": "0.0%",
-        "most_likely_seed": "14",
+        "most_likely_seed": "NR",
         "proj_conf_record": "1.3-18.7",
         "projected_losses": "23.7",
         "projected_wins": "7.3",
-        "rank": "149"
+        "rank": "151"
     },
     "time": {
-        "time": "Feb 26,  5:30 PM"
+        "time": "Feb 27,  3:31 AM"
     },
     "trank": {
-        "trank": "162",
+        "trank": "161",
         "trank_make_tourney": "0",
         "trank_proj_record": "7-24 (1-19)",
         "trank_seed": "NR",
-        "wab_rank": "252",
-        "wab_score": "-10.1"
+        "wab_rank": "250",
+        "wab_score": "-10.2"
     },
     "warrennolan": {
         "current_conf_record": "1-16",
@@ -74,8 +74,8 @@
         "quadrant_2": "0-7",
         "quadrant_3": "1-3",
         "quadrant_4": "6-1",
-        "record": "52",
-        "rpi": "249",
-        "sos": "232"
+        "record": "56",
+        "rpi": "255",
+        "sos": "235"
     }
 }
