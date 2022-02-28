@@ -35,7 +35,7 @@
         "sos": "31"
     },
     "kpi_sports": {
-        "kpi_ranking": 208
+        "kpi_ranking": 192
     },
     "ncaa": {
         "net_rank": "164"
@@ -56,7 +56,7 @@
         "rank": "135"
     },
     "time": {
-        "time": "Feb 28,  8:31 AM"
+        "time": "Feb 28,  9:30 AM"
     },
     "trank": {
         "trank": "140",
