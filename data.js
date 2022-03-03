@@ -14,9 +14,9 @@
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "3.1-16.9",
         "proj_win_loss_overall": "9.1-21.9",
-        "seven_day_change": "27",
-        "sor": "188",
-        "sos": "28"
+        "seven_day_change": "25",
+        "sor": "185",
+        "sos": "31"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -45,7 +45,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "120"
+        "sagarin_rate": "119"
     },
     "teamrankings": {
         "make_tournament": "0.0%",
@@ -56,7 +56,7 @@
         "rank": "130"
     },
     "time": {
-        "time": "Mar 03, 10:30 AM"
+        "time": "Mar 03, 11:30 AM"
     },
     "trank": {
         "trank": "129",
