@@ -56,15 +56,15 @@
         "rank": "130"
     },
     "time": {
-        "time": "Mar 03,  9:30 AM"
+        "time": "Mar 03, 10:30 AM"
     },
     "trank": {
         "trank": "129",
-        "trank_make_tourney": "0",
+        "trank_make_tourney": "0.1",
         "trank_proj_record": "9-22 (3-17)",
         "trank_seed": "NR",
-        "wab_rank": "228",
-        "wab_score": "-9.1"
+        "wab_rank": "227",
+        "wab_score": "-9"
     },
     "warrennolan": {
         "current_conf_record": "3-16",
