@@ -35,7 +35,7 @@
         "sos": "28"
     },
     "kpi_sports": {
-        "kpi_ranking": 170
+        "kpi_ranking": 168
     },
     "ncaa": {
         "net_rank": "148"
@@ -56,7 +56,7 @@
         "rank": "130"
     },
     "time": {
-        "time": "Mar 03,  2:30 AM"
+        "time": "Mar 03,  9:30 AM"
     },
     "trank": {
         "trank": "129",
@@ -70,9 +70,9 @@
         "current_conf_record": "3-16",
         "elo": "192",
         "nolan_net": "148",
-        "quadrant_1": "1-10",
+        "quadrant_1": "1-11",
         "quadrant_2": "1-6",
-        "quadrant_3": "1-4",
+        "quadrant_3": "1-3",
         "quadrant_4": "6-1",
         "record": "55",
         "rpi": "220",
