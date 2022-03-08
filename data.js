@@ -56,14 +56,14 @@
         "rank": "122"
     },
     "time": {
-        "time": "Mar 07,  9:31 PM"
+        "time": "Mar 07, 10:30 PM"
     },
     "trank": {
         "trank": "117",
         "trank_make_tourney": "0",
         "trank_proj_record": "10-22 (4-16)",
         "trank_seed": "NR",
-        "wab_rank": "201",
+        "wab_rank": "200",
         "wab_score": "-8.3"
     },
     "warrennolan": {
@@ -76,6 +76,6 @@
         "quadrant_4": "6-1",
         "record": "46",
         "rpi": "205",
-        "sos": "235"
+        "sos": "234"
     }
 }
