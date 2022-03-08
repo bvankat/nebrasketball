@@ -35,10 +35,10 @@
         "sos": "27"
     },
     "kpi_sports": {
-        "kpi_ranking": 150
+        "kpi_ranking": 151
     },
     "ncaa": {
-        "net_rank": "138"
+        "net_rank": "140"
     },
     "polls": {
         "ap_rank": "NR",
@@ -49,14 +49,14 @@
     },
     "teamrankings": {
         "make_tournament": "0.0%",
-        "most_likely_seed": "13",
+        "most_likely_seed": "14",
         "proj_conf_record": "4.0-16.0",
         "projected_losses": "21.0",
         "projected_wins": "10.0",
-        "rank": "122"
+        "rank": "123"
     },
     "time": {
-        "time": "Mar 08, 12:30 AM"
+        "time": "Mar 08, 10:30 AM"
     },
     "trank": {
         "trank": "117",
@@ -69,7 +69,7 @@
     "warrennolan": {
         "current_conf_record": "4-16",
         "elo": "153",
-        "nolan_net": "138",
+        "nolan_net": "140",
         "quadrant_1": "2-10",
         "quadrant_2": "1-6",
         "quadrant_3": "1-4",
