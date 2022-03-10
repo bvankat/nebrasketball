@@ -29,7 +29,7 @@
     },
     "kenpom": {
         "conference_record": "4-16",
-        "overall_record": "10-21",
+        "overall_record": "10-22",
         "rating": "134",
         "record": "10-22",
         "sos": "26"
@@ -56,7 +56,7 @@
         "rank": "121"
     },
     "time": {
-        "time": "Mar 10,  2:30 AM"
+        "time": "Mar 10,  2:37 AM"
     },
     "trank": {
         "trank": "113",
