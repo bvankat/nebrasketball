@@ -38,7 +38,7 @@
         "kpi_ranking": 162
     },
     "ncaa": {
-        "net_rank": "140"
+        "net_rank": "139"
     },
     "polls": {
         "ap_rank": "NR",
@@ -53,10 +53,10 @@
         "proj_conf_record": "4.0-16.0",
         "projected_losses": "21.0",
         "projected_wins": "10.0",
-        "rank": "123"
+        "rank": "121"
     },
     "time": {
-        "time": "Mar 10,  2:09 AM"
+        "time": "Mar 10,  2:30 AM"
     },
     "trank": {
         "trank": "113",
