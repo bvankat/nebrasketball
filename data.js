@@ -30,9 +30,9 @@
     "kenpom": {
         "conference_record": "4-16",
         "overall_record": "10-22",
-        "rating": "134",
+        "rating": "136",
         "record": "10-22",
-        "sos": "26"
+        "sos": "27"
     },
     "kpi_sports": {
         "kpi_ranking": 160
@@ -56,7 +56,7 @@
         "rank": "121"
     },
     "time": {
-        "time": "Mar 10,  2:31 PM"
+        "time": "Mar 10,  3:30 PM"
     },
     "trank": {
         "trank": "113",
@@ -74,8 +74,8 @@
         "quadrant_2": "1-6",
         "quadrant_3": "2-5",
         "quadrant_4": "5-1",
-        "record": "56",
-        "rpi": "211",
+        "record": "58",
+        "rpi": "212",
         "sos": "237"
     }
 }
