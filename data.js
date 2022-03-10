@@ -56,7 +56,7 @@
         "rank": "121"
     },
     "time": {
-        "time": "Mar 10,  4:30 AM"
+        "time": "Mar 10,  5:30 AM"
     },
     "trank": {
         "trank": "113",
@@ -69,11 +69,11 @@
     "warrennolan": {
         "current_conf_record": "4-16",
         "elo": "163",
-        "nolan_net": "140",
+        "nolan_net": "139",
         "quadrant_1": "2-10",
-        "quadrant_2": "1-7",
-        "quadrant_3": "1-4",
-        "quadrant_4": "6-1",
+        "quadrant_2": "1-6",
+        "quadrant_3": "2-5",
+        "quadrant_4": "5-1",
         "record": "56",
         "rpi": "211",
         "sos": "238"
