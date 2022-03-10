@@ -56,11 +56,12 @@
         "rank": "123"
     },
     "time": {
-        "time": "Mar 10,  1:56 AM"
+        "time": "Mar 10,  2:09 AM"
     },
     "trank": {
         "trank": "113",
         "trank_make_tourney": "0.1",
+        "trank_proj_record": "10-22 (4-16)",
         "trank_seed": "NR",
         "wab_rank": "207",
         "wab_score": "-8.9"
