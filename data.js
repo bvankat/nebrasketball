@@ -51,16 +51,16 @@
         "make_tournament": "0.0%",
         "most_likely_seed": "NR",
         "proj_conf_record": "4.0-16.0",
-        "projected_losses": "21.0",
+        "projected_losses": "22.0",
         "projected_wins": "10.0",
         "rank": "121"
     },
     "time": {
-        "time": "Mar 10,  2:37 AM"
+        "time": "Mar 10,  4:30 AM"
     },
     "trank": {
         "trank": "113",
-        "trank_make_tourney": "0.1",
+        "trank_make_tourney": "0",
         "trank_proj_record": "10-22 (4-16)",
         "trank_seed": "NR",
         "wab_rank": "207",
