@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "126"
+        "total_brackets": "129"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -56,7 +56,7 @@
         "rank": "121"
     },
     "time": {
-        "time": "Mar 11,  2:30 PM"
+        "time": "Mar 11,  3:30 PM"
     },
     "trank": {
         "trank": "112",
@@ -64,7 +64,7 @@
         "trank_proj_record": "10-22 (4-16)",
         "trank_seed": "NR",
         "wab_rank": "204",
-        "wab_score": "-8.8"
+        "wab_score": "-8.9"
     },
     "warrennolan": {
         "current_conf_record": "4-16",
@@ -74,7 +74,7 @@
         "quadrant_2": "1-7",
         "quadrant_3": "2-4",
         "quadrant_4": "5-1",
-        "record": "61",
+        "record": "62",
         "rpi": "211",
         "sos": "241"
     }
