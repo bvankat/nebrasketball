@@ -2,30 +2,30 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "129"
+        "total_brackets": "143"
     },
     "cbs": {
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "138",
+        "bpi": "139",
         "chance_round_32": "0.0%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "4.0-16.0",
         "proj_win_loss_overall": "10.0-22.0",
         "seven_day_change": "10",
-        "sor": "163",
-        "sos": "25"
+        "sor": "160",
+        "sos": "26"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "142"
+        "miya_rating": "143"
     },
     "haslametrics": {
-        "haslam_rating": "111"
+        "haslam_rating": "109"
     },
     "kenpom": {
         "conference_record": "4-16",
@@ -35,7 +35,7 @@
         "sos": "30"
     },
     "kpi_sports": {
-        "kpi_ranking": 160
+        "kpi_ranking": 161
     },
     "ncaa": {
         "net_rank": "141"
@@ -56,25 +56,25 @@
         "rank": "121"
     },
     "time": {
-        "time": "Mar 12, 12:30 AM"
+        "time": "Mar 12,  4:30 PM"
     },
     "trank": {
         "trank": "111",
         "trank_make_tourney": "0",
         "trank_proj_record": "10-22 (4-16)",
         "trank_seed": "NR",
-        "wab_rank": "202",
+        "wab_rank": "201",
         "wab_score": "-8.8"
     },
     "warrennolan": {
         "current_conf_record": "4-16",
         "elo": "166",
-        "nolan_net": "140",
+        "nolan_net": "141",
         "quadrant_1": "2-10",
         "quadrant_2": "1-7",
         "quadrant_3": "2-4",
         "quadrant_4": "5-1",
-        "record": "65",
+        "record": "67",
         "rpi": "212",
         "sos": "240"
     }
