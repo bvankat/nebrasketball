@@ -32,10 +32,10 @@
         "overall_record": "10-22",
         "rating": "138",
         "record": "10-22",
-        "sos": "30"
+        "sos": "31"
     },
     "kpi_sports": {
-        "kpi_ranking": 161
+        "kpi_ranking": 160
     },
     "ncaa": {
         "net_rank": "141"
@@ -56,7 +56,7 @@
         "rank": "121"
     },
     "time": {
-        "time": "Mar 12,  4:30 PM"
+        "time": "Mar 12,  9:30 PM"
     },
     "trank": {
         "trank": "111",
@@ -68,14 +68,14 @@
     },
     "warrennolan": {
         "current_conf_record": "4-16",
-        "elo": "166",
+        "elo": "165",
         "nolan_net": "141",
         "quadrant_1": "2-10",
         "quadrant_2": "1-7",
         "quadrant_3": "2-4",
         "quadrant_4": "5-1",
         "record": "67",
-        "rpi": "212",
+        "rpi": "213",
         "sos": "240"
     }
 }
