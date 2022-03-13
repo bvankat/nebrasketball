@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "140"
+        "total_brackets": "100"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -56,7 +56,7 @@
         "rank": "122"
     },
     "time": {
-        "time": "Mar 13, 12:30 PM"
+        "time": "Mar 13,  2:29 PM"
     },
     "trank": {
         "trank": "111",
@@ -74,8 +74,8 @@
         "quadrant_2": "1-7",
         "quadrant_3": "2-4",
         "quadrant_4": "5-1",
-        "record": "68",
-        "rpi": "212",
+        "record": "70",
+        "rpi": "213",
         "sos": "240"
     }
 }
