@@ -14,9 +14,9 @@
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "4.0-16.0",
         "proj_win_loss_overall": "10.0-22.0",
-        "seven_day_change": "10",
-        "sor": "160",
-        "sos": "26"
+        "seven_day_change": "8",
+        "sor": "158",
+        "sos": "27"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -56,7 +56,7 @@
         "rank": "122"
     },
     "time": {
-        "time": "Mar 13, 11:29 AM"
+        "time": "Mar 13, 12:30 PM"
     },
     "trank": {
         "trank": "111",
