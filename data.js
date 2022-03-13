@@ -32,7 +32,7 @@
         "overall_record": "10-22",
         "rating": "138",
         "record": "10-22",
-        "sos": "31"
+        "sos": "30"
     },
     "kpi_sports": {
         "kpi_ranking": 160
@@ -56,7 +56,7 @@
         "rank": "121"
     },
     "time": {
-        "time": "Mar 12, 10:30 PM"
+        "time": "Mar 12, 11:30 PM"
     },
     "trank": {
         "trank": "111",
@@ -74,7 +74,7 @@
         "quadrant_2": "1-7",
         "quadrant_3": "2-4",
         "quadrant_4": "5-1",
-        "record": "67",
+        "record": "68",
         "rpi": "212",
         "sos": "240"
     }
