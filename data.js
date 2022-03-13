@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "143"
+        "total_brackets": "131"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -22,10 +22,10 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "143"
+        "miya_rating": "142"
     },
     "haslametrics": {
-        "haslam_rating": "109"
+        "haslam_rating": "110"
     },
     "kenpom": {
         "conference_record": "4-16",
@@ -53,10 +53,10 @@
         "proj_conf_record": "4.0-16.0",
         "projected_losses": "22.0",
         "projected_wins": "10.0",
-        "rank": "121"
+        "rank": "122"
     },
     "time": {
-        "time": "Mar 12, 11:30 PM"
+        "time": "Mar 13, 10:30 AM"
     },
     "trank": {
         "trank": "111",
