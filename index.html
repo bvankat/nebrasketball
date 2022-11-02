@@ -267,28 +267,36 @@
 			  const response = await fetch('/data/data.js');
 			  const data = await response.json();
 			  console.log(data); 
-			  
-			// document.getElementById('ncaa-net').innerHTML = data.warrennolan.nolan_net; 
-			// document.getElementById('ncaa-net2').innerHTML = data.ncaa.warrennolan.nolan_net; 
 			
-			document.getElementById('kenpom-rating').innerHTML = data.kenpom.rating;
-			document.getElementById('kenpom-overall').innerHTML = data.kenpom.overall_record;
-			document.getElementById('kenpom-conference').innerHTML = data.kenpom.conference_record;
-			document.getElementById('kenpom-record').innerHTML = data.kenpom.record;
+			if ( data.ncaa ) {  
+				document.getElementById('ncaa-net').innerHTML = data.warrennolan.nolan_net; 
+				document.getElementById('ncaa-net2').innerHTML = data.ncaa.warrennolan.nolan_net; 
+			}	
+			
+			if ( data.kenpom ) {
+				document.getElementById('kenpom-rating').innerHTML = data.kenpom.rating;
+				document.getElementById('kenpom-overall').innerHTML = data.kenpom.overall_record;
+				document.getElementById('kenpom-conference').innerHTML = data.kenpom.conference_record;
+				document.getElementById('kenpom-record').innerHTML = data.kenpom.record;
+			}
 
-			document.getElementById('kpi_ranking').innerHTML = data.kpi_sports.kpi_ranking;
+			if ( data.kpi_sports ) {
+				document.getElementById('kpi_ranking').innerHTML = data.kpi_sports.kpi_ranking;
+			}
 
-			document.getElementById('espn-rating').innerHTML = data.espn.bpi;
-			document.getElementById('espn-proj-tourney-seed').innerHTML = data.espn.proj_tourney_seed;
-			document.getElementById('espn-wl').innerHTML = data.espn.proj_win_loss_overall;
-			document.getElementById('espn-cwl').innerHTML = data.espn.proj_win_loss_conf;
-			document.getElementById('espn-sor').innerHTML = data.espn.sor;
-			// document.getElementById('espn-sweet16').innerHTML = data.espn.chance_sweet_16;
-			document.getElementById('espn-round-32').innerHTML = data.espn.chance_round_32;
-			document.getElementById('espn-bracketology-seed').innerHTML = data.espn_bracketology.seed;
-			document.getElementById('quadrants-sos').innerHTML = data.espn.sos;
+			if ( data.espn ) {
+				document.getElementById('espn-rating').innerHTML = data.espn.bpi;
+				document.getElementById('espn-proj-tourney-seed').innerHTML = data.espn.proj_tourney_seed;
+				document.getElementById('espn-wl').innerHTML = data.espn.proj_win_loss_overall;
+				document.getElementById('espn-cwl').innerHTML = data.espn.proj_win_loss_conf;
+				document.getElementById('espn-sor').innerHTML = data.espn.sor;
+				// document.getElementById('espn-sweet16').innerHTML = data.espn.chance_sweet_16;
+				document.getElementById('espn-round-32').innerHTML = data.espn.chance_round_32;
+				document.getElementById('espn-bracketology-seed').innerHTML = data.espn_bracketology.seed;
+				document.getElementById('quadrants-sos').innerHTML = data.espn.sos;
+			}
 
-			if (data.warrennolan ) {
+			if ( data.warrennolan ) {
 				document.getElementById('warrennolan-group1').innerHTML = data.warrennolan.quadrant_1;
 				document.getElementById('warrennolan-group2').innerHTML = data.warrennolan.quadrant_2;
 				document.getElementById('warrennolan-group3').innerHTML = data.warrennolan.quadrant_3;
@@ -297,24 +305,34 @@
 				document.getElementById('nolan-elo').innerHTML = data.warrennolan.elo;
 				}
 
-			document.getElementById('ap-rank').innerHTML = data.polls.ap_rank;
-			document.getElementById('coaches-rank').innerHTML = data.polls.coaches_rank;
+			if ( data.polls ) {
+				document.getElementById('ap-rank').innerHTML = data.polls.ap_rank;
+				document.getElementById('coaches-rank').innerHTML = data.polls.coaches_rank;
+			}	
 			
 			
-			// document.getElementById('current_record').innerHTML = data.trank.current_record;
-			document.getElementById('current_conf_record').innerHTML = data.warrennolan.current_conf_record;
+			if ( data.warrennolan ) {
+				// document.getElementById('current_record').innerHTML = data.trank.current_record;
+				document.getElementById('current_conf_record').innerHTML = data.warrennolan.current_conf_record;
+			}
 			
-			document.getElementById('trank-proj').innerHTML = data.trank.trank_proj_record;
-			document.getElementById('trank-seed').innerHTML = data.trank.trank_seed;
-			document.getElementById('trank-trank').innerHTML = data.trank.trank;
-			
-			var wab_score_styled = "(" + data.trank.wab_score + ") ";
-			document.getElementById('wab-score').innerHTML = wab_score_styled;
-			document.getElementById('wab-rank').innerHTML = data.trank.wab_rank;
+			if ( data.trank ) {
+				document.getElementById('trank-proj').innerHTML = data.trank.trank_proj_record;
+				document.getElementById('trank-seed').innerHTML = data.trank.trank_seed;
+				document.getElementById('trank-trank').innerHTML = data.trank.trank;
+				
+				var wab_score_styled = "(" + data.trank.wab_score + ") ";
+				document.getElementById('wab-score').innerHTML = wab_score_styled;
+				document.getElementById('wab-rank').innerHTML = data.trank.wab_rank;
+			}
 
-			document.getElementById('haslam-rating').innerHTML = data.haslametrics.haslam_rating;
+			if ( data.haslametrics ) {
+				document.getElementById('haslam-rating').innerHTML = data.haslametrics.haslam_rating;
+			}
 			
-			document.getElementById('miya-rating').innerHTML = data.evanmiya.miya_rating;			
+			if ( data.evanmiya ) {
+				document.getElementById('miya-rating').innerHTML = data.evanmiya.miya_rating;
+			}
 			
 			var trank_tourney_pct = data.trank.trank_make_tourney + "%";
 			document.getElementById('trank-make-tourney').innerHTML = trank_tourney_pct;
