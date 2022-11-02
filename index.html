@@ -288,13 +288,14 @@
 			document.getElementById('espn-bracketology-seed').innerHTML = data.espn_bracketology.seed;
 			document.getElementById('quadrants-sos').innerHTML = data.espn.sos;
 
-			document.getElementById('warrennolan-group1').innerHTML = data.warrennolan.quadrant_1;
-			document.getElementById('warrennolan-group2').innerHTML = data.warrennolan.quadrant_2;
-			document.getElementById('warrennolan-group3').innerHTML = data.warrennolan.quadrant_3;
-			document.getElementById('warrennolan-group4').innerHTML = data.warrennolan.quadrant_4;
-			document.getElementById('nolan-rpi').innerHTML = data.warrennolan.rpi;
-			document.getElementById('nolan-elo').innerHTML = data.warrennolan.elo;
-
+			if (data.warrennolan ) {
+				document.getElementById('warrennolan-group1').innerHTML = data.warrennolan.quadrant_1;
+				document.getElementById('warrennolan-group2').innerHTML = data.warrennolan.quadrant_2;
+				document.getElementById('warrennolan-group3').innerHTML = data.warrennolan.quadrant_3;
+				document.getElementById('warrennolan-group4').innerHTML = data.warrennolan.quadrant_4;
+				document.getElementById('nolan-rpi').innerHTML = data.warrennolan.rpi;
+				document.getElementById('nolan-elo').innerHTML = data.warrennolan.elo;
+				}
 
 			document.getElementById('ap-rank').innerHTML = data.polls.ap_rank;
 			document.getElementById('coaches-rank').innerHTML = data.polls.coaches_rank;
