@@ -58,7 +58,7 @@
   </head>
   <body>
 	  
-  	  	<div class="alert small alert-warning text-center"><strong>Nov. 1: </strong>Guess it's time to fire it up again.</div>
+	  <!-- <div class="alert small alert-warning text-center"><strong>Nov. 1: </strong>Time to fire it up again.</div> -->
 
 	  	  
 	  	<div class="jumbotron">
@@ -72,7 +72,7 @@
 		  	  
 		  		<div id="chart_div" style="width: 370px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
-		  		<p class="col-sm-12 text-center">Status: <span id="message">Outscored by 16 after being up 14 at half. That's the team we know and love.</span></p>
+		  		<p class="col-sm-12 text-center">Status: <span id="message">Guess we're doing this again.</span></p>
 		  		
 
     
@@ -379,7 +379,7 @@
 			 // TOTAL SCORE FORMULA
 			 
 			 // Manual total during preseason before rankings released
-			 total_score = 0;
+			 total_score = 3;
 
 			//Current formula, multipliers should add to .98 to keep the gauge happy
 			
@@ -456,10 +456,10 @@
 	
 	
 			// NEEDLE BOUNCE DISABLED IN OFFSEASON
-	        //setInterval(function() {
-	       //   data.setValue(0, 1, total_score-2 + Math.round(1 * Math.random()));
-	       //   chart.draw(data, options);
-	       // }, 300);
+	    	setInterval(function() {
+	          data.setValue(0, 1, total_score-2 + Math.round(1 * Math.random()));
+	          chart.draw(data, options);
+	        }, 300);
 	     
 	     
       	};  // end drawChart()
