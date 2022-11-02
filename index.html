@@ -31,7 +31,7 @@
   <link rel="stylesheet" href="/css/adobe-fonts.css">
 
    	
-	<script type="text/javascript" src="updates.json"></script>
+	<script type="text/javascript" src="/updates-2023.js"></script>
 
 	<style>
 	    body { font-family: sans-serif; }
@@ -264,7 +264,7 @@
       <script type="text/javascript">
 	      
 	      async function loadData() {
-			  const response = await fetch('data.js');
+			  const response = await fetch('/data/data.js');
 			  const data = await response.json();
 			  console.log(data); 
 			  
@@ -379,12 +379,14 @@
 			 // TOTAL SCORE FORMULA
 			 
 			 // Manual total during preseason before rankings released
-			 total_score = 3;
+			 // total_score = 3;
 
 			//Current formula, multipliers should add to .98 to keep the gauge happy
 			
-			//var total_score;
+			var total_score;
 
+			total_score = ((net_score * .14) + (espn_sor * .16)  + (teamrankings_score * .12) + (rpi_score * .12) + (kenpom_score * .12) + (espn_bpi * .12) +  (sagarin_score * .10) + (trank_score * .10) + intangibles);
+			
 			//total_score = ((net_score * .12) + (espn_sor * .14) + (kpi_score * .14) + (teamrankings_score * .10) + (rpi_score * .10) + (kenpom_score * .10) + (espn_bpi * .10) +  (sagarin_score * .09) + (trank_score * .09) + intangibles);
 			
 			
