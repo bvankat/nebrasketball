@@ -360,6 +360,7 @@
 				document.getElementById('cbs-bracket').innerHTML = data.cbs.cbs_rank;
 			}
 			
+			
 			document.getElementById('time').innerHTML = data.time.time;
 
 
@@ -385,8 +386,8 @@
 			 
 			 kenpom_score = FindScore(data.kenpom.rating);
 			 // net_score = FindScore(data.ncaa.net_rank);
-			 espn_sor = FindScore(parseInt(data.espn.sor)); // SOR is stronger predictor than BPI
-			 espn_bpi = FindScore(parseInt(data.espn.bpi)); 
+			 // espn_sor = FindScore(parseInt(data.espn.sor)); // SOR is stronger predictor than BPI
+			 // espn_bpi = FindScore(parseInt(data.espn.bpi)); 
 			 teamrankings_score = parseInt(data.teamrankings.make_tournament); // This one's already a % score
 			 sagarin_score = FindScore(data.sagarin.sagarin_rate);
 			 trank_score = FindScore(data.trank.trank);
