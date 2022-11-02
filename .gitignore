@@ -1,2 +1,7 @@
-#ignore nebrasketball directory
 /nebrasketball
+.nova/
+/old-files
+get-pip.py
+geckodriver.log
+.DS_Store
+.gitignore
