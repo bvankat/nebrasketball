@@ -337,24 +337,28 @@
 			var trank_tourney_pct = data.trank.trank_make_tourney + "%";
 			document.getElementById('trank-make-tourney').innerHTML = trank_tourney_pct;
 			
-			document.getElementById('sagarin').innerHTML = data.sagarin.sagarin_rate;
-			
-			
-			document.getElementById('teamrankings-seed').innerHTML = data.teamrankings.most_likely_seed;
-			document.getElementById('teamrankings-rating').innerHTML = data.teamrankings.make_tournament;
-			document.getElementById('teamrankings-rank').innerHTML = data.teamrankings.rank;
-			document.getElementById('teamrankings-conf-wl').innerHTML = data.teamrankings.proj_conf_record;
-			
-			
-			
-			document.getElementById('bracketproject-count').innerHTML = data.bracketproject.matrix_count;
-			document.getElementById('bracketproject-totalbrackets').innerHTML = data.bracketproject.total_brackets;
-			document.getElementById('bracketproject-seed').innerHTML = data.bracketproject.matrix_seed;
+			if ( data.sagarin ) {
+				document.getElementById('sagarin').innerHTML = data.sagarin.sagarin_rate;
+			}
 
-			document.getElementById('cbs-bracket').innerHTML = data.cbs.cbs_rank;
+			if ( data.temarankings ) {
+				document.getElementById('teamrankings-seed').innerHTML = data.teamrankings.most_likely_seed;
+				document.getElementById('teamrankings-rating').innerHTML = data.teamrankings.make_tournament;
+				document.getElementById('teamrankings-rank').innerHTML = data.teamrankings.rank;
+				document.getElementById('teamrankings-conf-wl').innerHTML = data.teamrankings.proj_conf_record;
+				var teamrankings_wl = data.teamrankings.projected_wins + "-" + data.teamrankings.projected_losses
+				document.getElementById('teamrankings_wl').innerHTML = teamrankings_wl;
+			}
 			
-			var teamrankings_wl = data.teamrankings.projected_wins + "-" + data.teamrankings.projected_losses
-			document.getElementById('teamrankings_wl').innerHTML = teamrankings_wl;
+			if ( data.bracketproject ) {
+				document.getElementById('bracketproject-count').innerHTML = data.bracketproject.matrix_count;
+				document.getElementById('bracketproject-totalbrackets').innerHTML = data.bracketproject.total_brackets;
+				document.getElementById('bracketproject-seed').innerHTML = data.bracketproject.matrix_seed;
+			}
+
+			if ( data.cbs ) {
+				document.getElementById('cbs-bracket').innerHTML = data.cbs.cbs_rank;
+			}
 			
 			document.getElementById('time').innerHTML = data.time.time;
 
@@ -386,7 +390,7 @@
 			 teamrankings_score = parseInt(data.teamrankings.make_tournament); // This one's already a % score
 			 sagarin_score = FindScore(data.sagarin.sagarin_rate);
 			 trank_score = FindScore(data.trank.trank);
-			 kpi_score = FindScore(data.kpi_sports.kpi_ranking);
+			 // kpi_score = FindScore(data.kpi_sports.kpi_ranking);
 			 rpi_score = FindScore(data.warrennolan.rpi);
 			 
 			 
