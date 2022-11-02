@@ -392,7 +392,7 @@
 			 sagarin_score = FindScore(data.sagarin.sagarin_rate);
 			 trank_score = FindScore(data.trank.trank);
 			 // kpi_score = FindScore(data.kpi_sports.kpi_ranking);
-			 rpi_score = FindScore(data.warrennolan.rpi);
+			 // rpi_score = FindScore(data.warrennolan.rpi);
 			 
 			 
 			 // Intangibles: Don't think any of the systems has a way to value injuries and/or hype, so we need to add it. Check out sports-reference Win Shares, perhaps, for injuries data points. 
@@ -409,9 +409,11 @@
 			
 			var total_score;
 
-			// missing KPI and NET for now
+			// missing KPI, RPI and NET for now
 			total_score = ((espn_sor * .18)  + (teamrankings_score * .14) + (rpi_score * .14) + (kenpom_score * .14) + (espn_bpi * .14) +  (sagarin_score * .12) + (trank_score * .10) + intangibles);
 			
+			
+			// one idea to make life easy early in the season: weight all these the same and then count by the number of available ratings and add em up. (rather than commenting out the empty ones every time.) 
 			//total_score = ((net_score * .12) + (espn_sor * .14) + (kpi_score * .14) + (teamrankings_score * .10) + (rpi_score * .10) + (kenpom_score * .10) + (espn_bpi * .10) +  (sagarin_score * .09) + (trank_score * .09) + intangibles);
 			
 			
