@@ -2,6 +2,17 @@
     "cbs": {
         "cbs_rank": "NR"
     },
+    "espn": {
+        "bpi": "83",
+        "chance_round_32": "0.5%",
+        "chance_sweet_16": "0.2%",
+        "proj_tourney_seed": "NR",
+        "proj_win_loss_conf": "8.2-11.8",
+        "proj_win_loss_overall": "13.8-15.2",
+        "seven_day_change": "",
+        "sor": "1",
+        "sos": "1"
+    },
     "espn_bracketology": {
         "seed": "NR"
     },
@@ -26,15 +37,15 @@
         "sagarin_rate": "90"
     },
     "teamrankings": {
-        "make_tournament": "10.0%",
+        "make_tournament": "9.7%",
         "most_likely_seed": "12",
         "proj_conf_record": "6.1-13.9",
-        "projected_losses": "17.7",
-        "projected_wins": "11.3",
+        "projected_losses": "17.6",
+        "projected_wins": "11.4",
         "rank": "102"
     },
     "time": {
-        "time": "Nov 02, 11:01 AM"
+        "time": "Nov 03, 12:36 PM"
     },
     "trank": {
         "trank": "91",
