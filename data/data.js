@@ -45,7 +45,7 @@
         "rank": "102"
     },
     "time": {
-        "time": "Nov 03, 12:36 PM"
+        "time": "Nov 03,  1:09 PM"
     },
     "trank": {
         "trank": "91",
@@ -54,5 +54,16 @@
         "trank_seed": "NR",
         "wab_rank": "NA",
         "wab_score": "NA"
+    },
+    "warrennolan": {
+        "current_conf_record": "0-0",
+        "elo": "164",
+        "nolan_net": "145",
+        "quadrant_1": "0-0",
+        "quadrant_2": "0-0",
+        "quadrant_3": "0-0",
+        "quadrant_4": "0-0",
+        "record": "145",
+        "rpi": "216"
     }
 }
