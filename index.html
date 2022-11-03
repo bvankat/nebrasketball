@@ -324,6 +324,8 @@
 				var wab_score_styled = "(" + data.trank.wab_score + ") ";
 				document.getElementById('wab-score').innerHTML = wab_score_styled;
 				document.getElementById('wab-rank').innerHTML = data.trank.wab_rank;
+			
+				var trank_tourney_pct = data.trank.trank_make_tourney + "%";
 			}
 
 			if ( data.haslametrics ) {
@@ -334,14 +336,13 @@
 				document.getElementById('miya-rating').innerHTML = data.evanmiya.miya_rating;
 			}
 			
-			var trank_tourney_pct = data.trank.trank_make_tourney + "%";
 			document.getElementById('trank-make-tourney').innerHTML = trank_tourney_pct;
 			
 			if ( data.sagarin ) {
 				document.getElementById('sagarin').innerHTML = data.sagarin.sagarin_rate;
 			}
 
-			if ( data.temarankings ) {
+			if ( data.teamrankings ) {
 				document.getElementById('teamrankings-seed').innerHTML = data.teamrankings.most_likely_seed;
 				document.getElementById('teamrankings-rating').innerHTML = data.teamrankings.make_tournament;
 				document.getElementById('teamrankings-rank').innerHTML = data.teamrankings.rank;
@@ -386,7 +387,7 @@
 			 
 			 kenpom_score = FindScore(data.kenpom.rating);
 			 // net_score = FindScore(data.ncaa.net_rank);
-			 espn_sor = FindScore(parseInt(data.espn.sor)); // SOR is stronger predictor than BPI
+			 espn_sor = FindScore(parseInt(data.espn.sor)); // SOR is stronger predictor than BPI. Note: Preseason SOR is 1. That skews the gauge.
 			 espn_bpi = FindScore(parseInt(data.espn.bpi)); 
 			 teamrankings_score = parseInt(data.teamrankings.make_tournament); // This one's already a % score
 			 sagarin_score = FindScore(data.sagarin.sagarin_rate);
