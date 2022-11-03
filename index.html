@@ -386,8 +386,8 @@
 			 
 			 kenpom_score = FindScore(data.kenpom.rating);
 			 // net_score = FindScore(data.ncaa.net_rank);
-			 // espn_sor = FindScore(parseInt(data.espn.sor)); // SOR is stronger predictor than BPI
-			 // espn_bpi = FindScore(parseInt(data.espn.bpi)); 
+			 espn_sor = FindScore(parseInt(data.espn.sor)); // SOR is stronger predictor than BPI
+			 espn_bpi = FindScore(parseInt(data.espn.bpi)); 
 			 teamrankings_score = parseInt(data.teamrankings.make_tournament); // This one's already a % score
 			 sagarin_score = FindScore(data.sagarin.sagarin_rate);
 			 trank_score = FindScore(data.trank.trank);
@@ -410,7 +410,7 @@
 			var total_score;
 
 			// missing KPI, RPI and NET for now
-			total_score = ((espn_sor * .18)  + (teamrankings_score * .14) + (rpi_score * .14) + (kenpom_score * .14) + (espn_bpi * .14) +  (sagarin_score * .12) + (trank_score * .10) + intangibles);
+			total_score = ((espn_sor * .20)  + (teamrankings_score * .16) + (kenpom_score * .18) + (espn_bpi * .16) +  (sagarin_score * .14) + (trank_score * .14) + intangibles);
 			
 			
 			// one idea to make life easy early in the season: weight all these the same and then count by the number of available ratings and add em up. (rather than commenting out the empty ones every time.) 
