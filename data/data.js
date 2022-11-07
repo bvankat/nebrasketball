@@ -41,7 +41,7 @@
         "rank": "102"
     },
     "time": {
-        "time": "Nov 07,  5:18 PM"
+        "time": "Nov 07,  5:22 PM"
     },
     "trank": {
         "trank": "91",
@@ -60,6 +60,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "0-0",
         "record": "145",
-        "rpi": ""
+        "rpi": "3"
     }
 }
