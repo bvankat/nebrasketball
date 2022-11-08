@@ -380,8 +380,8 @@
 				 var score;
 				 if (data <= 30){ score = 99; } 
 				 if (data > 30 && data <= 40) { score = 92; } 
- 				 if (data > 40 && data <= 43) { score = 85; } 
-				 if (data > 43 && data <= 45) { score = 80; }
+ 				 if (data > 40 && data <= 43) { score = 80; } 
+				 if (data > 43 && data <= 45) { score = 70; }
 				 if (data > 45 && data <= 47) { score = 55; }
 				 if (data > 47 && data <= 51) { score = 35; }
 				 if (data > 51 && data <= 55) { score = 25; }
@@ -421,7 +421,7 @@
 			var total_score;
 			
 			// one idea to make life easy early in the season: weight all these the same and then count by the number of available ratings and add em up. (rather than commenting out the empty ones every time.) 
-			total_score = ((net_score * .16) + (espn_sor * .16) + (teamrankings_score * .12) + (rpi_score * .12) + (kenpom_score * .12) + (espn_bpi * .12) +  (sagarin_score * .09) + (trank_score * .09) + intangibles);
+			total_score = ((net_score * .16) + (espn_sor * .16) + (teamrankings_score * .16) + (rpi_score * .10) + (kenpom_score * .10) + (espn_bpi * .10) +  (sagarin_score * .10) + (trank_score * .10) + intangibles);
 			
 			
 			//total_score = ((net_score * .12) + (espn_sor * .14) + (kpi_score * .14) + (teamrankings_score * .10) + (rpi_score * .10) + (kenpom_score * .10) + (espn_bpi * .10) +  (sagarin_score * .09) + (trank_score * .09) + intangibles);
@@ -447,7 +447,7 @@
 				 return status_message;	 
 			 }
 			 
-			 	message = StatusCheck(total_score);
+			 	// message = StatusCheck(total_score);
 			 	// console.log(message);
 			 	// $('#message').text(message);
 			
