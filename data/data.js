@@ -24,42 +24,42 @@
         "overall_record": "10-19",
         "rating": "114",
         "record": "1-0",
-        "sos": "176"
+        "sos": "240"
     },
     "ncaa": {
         "net_rank": "145"
     },
     "sagarin": {
-        "sagarin_rate": "90"
+        "sagarin_rate": "94"
     },
     "teamrankings": {
-        "make_tournament": "10.3%",
+        "make_tournament": "7.0%",
         "most_likely_seed": "12",
-        "proj_conf_record": "6.1-13.9",
-        "projected_losses": "17.7",
-        "projected_wins": "11.3",
-        "rank": "102"
+        "proj_conf_record": "5.5-14.5",
+        "projected_losses": "18.3",
+        "projected_wins": "10.7",
+        "rank": "111"
     },
     "time": {
-        "time": "Nov 07, 10:50 PM"
+        "time": "Nov 08, 10:30 AM"
     },
     "trank": {
-        "trank": "91",
-        "trank_make_tourney": "1.3",
-        "trank_proj_record": "13-16 (7-13)",
+        "trank": "94",
+        "trank_make_tourney": "1.1",
+        "trank_proj_record": "12-17 (7-13)",
         "trank_seed": "NR",
-        "wab_rank": "58",
+        "wab_rank": "102",
         "wab_score": "0"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "153",
+        "elo": "152",
         "nolan_net": "145",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "1-0",
         "record": "145",
-        "rpi": "6"
+        "rpi": "1"
     }
 }
