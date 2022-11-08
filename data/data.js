@@ -24,7 +24,7 @@
         "overall_record": "10-19",
         "rating": "114",
         "record": "1-0",
-        "sos": "156"
+        "sos": "176"
     },
     "ncaa": {
         "net_rank": "145"
@@ -41,7 +41,7 @@
         "rank": "102"
     },
     "time": {
-        "time": "Nov 07, 10:34 PM"
+        "time": "Nov 07, 10:50 PM"
     },
     "trank": {
         "trank": "91",
@@ -53,7 +53,7 @@
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "152",
+        "elo": "153",
         "nolan_net": "145",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
