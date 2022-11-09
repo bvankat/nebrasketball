@@ -401,7 +401,7 @@
 			 espn_bpi = FindScore(parseInt(data.espn.bpi)); 
 			 teamrankings_score = parseInt(data.teamrankings.make_tournament); // This one's already a % score
 			 sagarin_score = FindScore(data.sagarin.sagarin_rate);
-			 trank_score = FindScore(data.trank.trank);
+			 torvik_score = parseInt(data.trank.trank_make_tourney);
 			 // kpi_score = FindScore(data.kpi_sports.kpi_ranking);
 			 rpi_score = FindScore(data.warrennolan.rpi);
 			 
@@ -421,7 +421,7 @@
 			var total_score;
 			
 			// one idea to make life easy early in the season: weight all these the same and then count by the number of available ratings and add em up. (rather than commenting out the empty ones every time.) 
-			total_score = ((net_score * .16) + (espn_sor * .16) + (teamrankings_score * .16) + (rpi_score * .10) + (kenpom_score * .10) + (espn_bpi * .10) +  (sagarin_score * .10) + (trank_score * .10) + intangibles);
+			total_score = ((net_score * .16) + (espn_sor * .16) + (teamrankings_score * .16) + (rpi_score * .10) + (kenpom_score * .10) + (espn_bpi * .10) +  (sagarin_score * .10) + (torvik_score * .10) + intangibles);
 			
 			
 			//total_score = ((net_score * .12) + (espn_sor * .14) + (kpi_score * .14) + (teamrankings_score * .10) + (rpi_score * .10) + (kenpom_score * .10) + (espn_bpi * .10) +  (sagarin_score * .09) + (trank_score * .09) + intangibles);
