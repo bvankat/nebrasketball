@@ -6,4 +6,4 @@ Tracking tournament odds for the Nebraska basketball team
 - Calculates chance of making the tournament, assigns score based on each rating. (Educated guesswork)
 - Averages the scores. (Math)
 - Powers a needle gauge, a la #nytneedle from Election Night 2016. (Google Charts)
-- Updates self automatically every couple hours. (crontab)
+- Updates self automatically every couple hours. (cron)
