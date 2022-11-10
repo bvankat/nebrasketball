@@ -36,6 +36,9 @@
     "sagarin": {
         "sagarin_rate": "93"
     },
+    "shot_quality": {
+        "sq_ranking": 123
+    },
     "teamrankings": {
         "make_tournament": "7.3%",
         "most_likely_seed": "12",
@@ -45,7 +48,7 @@
         "rank": "111"
     },
     "time": {
-        "time": "Nov 09, 11:52 PM"
+        "time": "Nov 09, 11:56 PM"
     },
     "trank": {
         "trank": "94",
