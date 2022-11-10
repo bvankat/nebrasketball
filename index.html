@@ -134,6 +134,7 @@
 					<tr><td>Wins Above Bubble</td><td class="text-end"><span id="wab-score" class="small text-muted"> </span><span id="wab-rank"></span></td></tr>
 			    	<tr><td>Haslametrics</td><td id="haslam-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>Evan Miyakawa</td><td id="miya-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>Shot Quality</td><td id="sq-ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
 					
 					
 					
@@ -344,6 +345,10 @@
 			
 			if ( data.evanmiya ) {
 				document.getElementById('miya-rating').innerHTML = data.evanmiya.miya_rating;
+			}
+			
+			if ( data.shot_quality ) {
+				document.getElementById('sq-ranking').innerHTML = data.shot_quality.sq_ranking;
 			}
 			
 			document.getElementById('trank-make-tourney').innerHTML = trank_tourney_pct;
