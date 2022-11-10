@@ -17,14 +17,14 @@
         "seed": "NR"
     },
     "haslametrics": {
-        "haslam_rating": "120"
+        "haslam_rating": "128"
     },
     "kenpom": {
         "conference_record": "5-15",
         "overall_record": "10-19",
         "rating": "114",
         "record": "1-0",
-        "sos": "255"
+        "sos": "270"
     },
     "ncaa": {
         "net_rank": "145"
@@ -45,25 +45,25 @@
         "rank": "111"
     },
     "time": {
-        "time": "Nov 09, 12:50 PM"
+        "time": "Nov 09, 11:51 PM"
     },
     "trank": {
         "trank": "94",
         "trank_make_tourney": "0.9",
         "trank_proj_record": "12-17 (7-13)",
         "trank_seed": "NR",
-        "wab_rank": "108",
+        "wab_rank": "112",
         "wab_score": "0"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "152",
+        "elo": "151",
         "nolan_net": "145",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "1-0",
         "record": "145",
-        "rpi": "1"
+        "rpi": "7"
     }
 }
