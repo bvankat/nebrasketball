@@ -45,7 +45,7 @@
         "sagarin_rate": "93"
     },
     "shot_quality": {
-        "sq_ranking": 123
+        "sq_ranking": 135
     },
     "teamrankings": {
         "make_tournament": "7.3%",
@@ -56,11 +56,11 @@
         "rank": "111"
     },
     "time": {
-        "time": "Nov 10,  2:29 AM"
+        "time": "Nov 10, 12:54 PM"
     },
     "trank": {
         "trank": "94",
-        "trank_make_tourney": "0.9",
+        "trank_make_tourney": "1.2",
         "trank_proj_record": "12-17 (7-13)",
         "trank_seed": "NR",
         "wab_rank": "112",
