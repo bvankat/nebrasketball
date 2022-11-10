@@ -1749,6 +1749,278 @@
             "time": {
                 "time": "Nov 10, 12:00 AM"
             }
+        },
+        {
+            "evanmiya": {
+                "miya_rating": "106"
+            },
+            "time": {
+                "time": "Nov 10,  1:38 AM"
+            }
+        },
+        {
+            "evanmiya": {
+                "miya_rating": "106"
+            },
+            "shot_quality": {
+                "sq_ranking": 123
+            },
+            "time": {
+                "time": "Nov 10,  1:41 AM"
+            }
+        },
+        {
+            "haslametrics": {
+                "haslam_rating": "129"
+            },
+            "evanmiya": {
+                "miya_rating": "106"
+            },
+            "shot_quality": {
+                "sq_ranking": 123
+            },
+            "time": {
+                "time": "Nov 10,  1:42 AM"
+            }
+        },
+        {
+            "trank": {
+                "trank": "94",
+                "trank_proj_record": "12-17 (7-13)",
+                "trank_seed": "NR",
+                "trank_make_tourney": "0.9",
+                "wab_score": "0",
+                "wab_rank": "112"
+            },
+            "cbs": {
+                "cbs_rank": "NR"
+            },
+            "sagarin": {
+                "sagarin_rate": "93"
+            },
+            "haslametrics": {
+                "haslam_rating": "129"
+            },
+            "evanmiya": {
+                "miya_rating": "106"
+            },
+            "shot_quality": {
+                "sq_ranking": 123
+            },
+            "time": {
+                "time": "Nov 10,  1:43 AM"
+            }
+        },
+        {
+            "teamrankings": {
+                "make_tournament": "7.3%",
+                "most_likely_seed": "12",
+                "rank": "111",
+                "projected_wins": "10.5",
+                "projected_losses": "18.5",
+                "proj_conf_record": "5.4-14.6"
+            },
+            "espn": {
+                "bpi": "85",
+                "seven_day_change": "-2",
+                "proj_tourney_seed": "NR",
+                "proj_win_loss_overall": "13.7-15.3",
+                "proj_win_loss_conf": "8.1-11.9",
+                "sor": "114",
+                "sos": "245",
+                "chance_sweet_16": "0.2%",
+                "chance_round_32": "0.4%"
+            },
+            "espn_bracketology": {
+                "seed": "NR"
+            },
+            "warrennolan": {
+                "record": "145",
+                "current_conf_record": "0-0",
+                "rpi": "9",
+                "elo": "151",
+                "quadrant_1": "0-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "1-0",
+                "nolan_net": "145"
+            },
+            "trank": {
+                "trank": "94",
+                "trank_proj_record": "12-17 (7-13)",
+                "trank_seed": "NR",
+                "trank_make_tourney": "0.9",
+                "wab_score": "0",
+                "wab_rank": "112"
+            },
+            "cbs": {
+                "cbs_rank": "NR"
+            },
+            "sagarin": {
+                "sagarin_rate": "93"
+            },
+            "haslametrics": {
+                "haslam_rating": "129"
+            },
+            "evanmiya": {
+                "miya_rating": "106"
+            },
+            "shot_quality": {
+                "sq_ranking": 123
+            },
+            "time": {
+                "time": "Nov 10,  1:43 AM"
+            }
+        },
+        {
+            "evanmiya": {
+                "miya_rating": "106"
+            },
+            "kenpom": {
+                "rating": "114",
+                "record": "1-0",
+                "sos": "270",
+                "overall_record": "10-19",
+                "conference_record": "5-15"
+            },
+            "ncaa": {
+                "net_rank": "145"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "teamrankings": {
+                "make_tournament": "7.3%",
+                "most_likely_seed": "12",
+                "rank": "111",
+                "projected_wins": "10.5",
+                "projected_losses": "18.5",
+                "proj_conf_record": "5.4-14.6"
+            },
+            "espn": {
+                "bpi": "85",
+                "seven_day_change": "-2",
+                "proj_tourney_seed": "NR",
+                "proj_win_loss_overall": "13.7-15.3",
+                "proj_win_loss_conf": "8.1-11.9",
+                "sor": "114",
+                "sos": "245",
+                "chance_sweet_16": "0.2%",
+                "chance_round_32": "0.4%"
+            },
+            "espn_bracketology": {
+                "seed": "NR"
+            },
+            "warrennolan": {
+                "record": "145",
+                "current_conf_record": "0-0",
+                "rpi": "9",
+                "elo": "151",
+                "quadrant_1": "0-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "1-0",
+                "nolan_net": "145"
+            },
+            "trank": {
+                "trank": "94",
+                "trank_proj_record": "12-17 (7-13)",
+                "trank_seed": "NR",
+                "trank_make_tourney": "0.9",
+                "wab_score": "0",
+                "wab_rank": "112"
+            },
+            "cbs": {
+                "cbs_rank": "NR"
+            },
+            "sagarin": {
+                "sagarin_rate": "93"
+            },
+            "haslametrics": {
+                "haslam_rating": "129"
+            },
+            "shot_quality": {
+                "sq_ranking": 123
+            },
+            "time": {
+                "time": "Nov 10,  1:47 AM"
+            }
+        },
+        {
+            "evanmiya": {
+                "miya_rating": "106"
+            },
+            "kenpom": {
+                "rating": "114",
+                "record": "1-0",
+                "sos": "270",
+                "overall_record": "10-19",
+                "conference_record": "5-15"
+            },
+            "ncaa": {
+                "net_rank": "145"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "teamrankings": {
+                "make_tournament": "7.3%",
+                "most_likely_seed": "12",
+                "rank": "111",
+                "projected_wins": "10.5",
+                "projected_losses": "18.5",
+                "proj_conf_record": "5.4-14.6"
+            },
+            "espn": {
+                "bpi": "85",
+                "seven_day_change": "-2",
+                "proj_tourney_seed": "NR",
+                "proj_win_loss_overall": "13.7-15.3",
+                "proj_win_loss_conf": "8.1-11.9",
+                "sor": "114",
+                "sos": "245",
+                "chance_sweet_16": "0.2%",
+                "chance_round_32": "0.4%"
+            },
+            "espn_bracketology": {
+                "seed": "NR"
+            },
+            "warrennolan": {
+                "record": "145",
+                "current_conf_record": "0-0",
+                "rpi": "9",
+                "elo": "151",
+                "quadrant_1": "0-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "1-0",
+                "nolan_net": "145"
+            },
+            "trank": {
+                "trank": "94",
+                "trank_proj_record": "12-17 (7-13)",
+                "trank_seed": "NR",
+                "trank_make_tourney": "0.9",
+                "wab_score": "0",
+                "wab_rank": "112"
+            },
+            "cbs": {
+                "cbs_rank": "NR"
+            },
+            "sagarin": {
+                "sagarin_rate": "93"
+            },
+            "haslametrics": {
+                "haslam_rating": "129"
+            },
+            "shot_quality": {
+                "sq_ranking": 123
+            },
+            "time": {
+                "time": "Nov 10,  1:48 AM"
+            }
         }
     ]
 }

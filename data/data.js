@@ -16,8 +16,11 @@
     "espn_bracketology": {
         "seed": "NR"
     },
+    "evanmiya": {
+        "miya_rating": "106"
+    },
     "haslametrics": {
-        "haslam_rating": "128"
+        "haslam_rating": "129"
     },
     "kenpom": {
         "conference_record": "5-15",
@@ -48,7 +51,7 @@
         "rank": "111"
     },
     "time": {
-        "time": "Nov 10, 12:00 AM"
+        "time": "Nov 10,  1:48 AM"
     },
     "trank": {
         "trank": "94",
@@ -67,6 +70,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "1-0",
         "record": "145",
-        "rpi": "7"
+        "rpi": "9"
     }
 }
