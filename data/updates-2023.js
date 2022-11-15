@@ -2491,6 +2491,86 @@
             "time": {
                 "time": "Nov 14, 10:58 AM"
             }
+        },
+        {
+            "evanmiya": {
+                "miya_rating": "106"
+            },
+            "kenpom": {
+                "rating": "109",
+                "record": "2-0",
+                "sos": "350",
+                "overall_record": "11-18",
+                "conference_record": "5-15"
+            },
+            "ncaa": {
+                "net_rank": "145"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "teamrankings": {
+                "make_tournament": "6.9%",
+                "most_likely_seed": "12",
+                "rank": "110",
+                "projected_wins": "10.5",
+                "projected_losses": "18.5",
+                "proj_conf_record": "5.2-14.8"
+            },
+            "espn": {
+                "bpi": "90",
+                "seven_day_change": "-7",
+                "proj_tourney_seed": "NR",
+                "proj_win_loss_overall": "13.4-15.6",
+                "proj_win_loss_conf": "7.7-12.3",
+                "sor": "121",
+                "sos": "335",
+                "chance_sweet_16": "0.1%",
+                "chance_round_32": "0.2%"
+            },
+            "espn_bracketology": {
+                "seed": "NR"
+            },
+            "warrennolan": {
+                "record": "145",
+                "current_conf_record": "0-0",
+                "rpi": "9",
+                "elo": "140",
+                "quadrant_1": "0-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "2-0",
+                "nolan_net": "145"
+            },
+            "trank": {
+                "trank": "89",
+                "trank_proj_record": "13-16 (7-13)",
+                "trank_seed": "NR",
+                "trank_make_tourney": "1.4",
+                "wab_score": "0.1",
+                "wab_rank": "106"
+            },
+            "cbs": {
+                "cbs_rank": "NR"
+            },
+            "sagarin": {
+                "sagarin_rate": "98"
+            },
+            "haslametrics": {
+                "haslam_rating": "118"
+            },
+            "shot_quality": {
+                "sq_ranking": 41
+            },
+            "bracketproject": {
+                "matrix_count": 0,
+                "total_brackets": "47",
+                "matrix_seed": "NR"
+            },
+            "time": {
+                "time": "Nov 15, 10:32 AM"
+            }
         }
     ]
 }
