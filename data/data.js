@@ -30,9 +30,9 @@
     "kenpom": {
         "conference_record": "5-15",
         "overall_record": "10-19",
-        "rating": "111",
-        "record": "2-0",
-        "sos": "357"
+        "rating": "120",
+        "record": "2-1",
+        "sos": "301"
     },
     "ncaa": {
         "net_rank": "145"
@@ -45,7 +45,7 @@
         "sagarin_rate": "99"
     },
     "shot_quality": {
-        "sq_ranking": 35
+        "sq_ranking": 34
     },
     "teamrankings": {
         "make_tournament": "7.6%",
@@ -56,25 +56,25 @@
         "rank": "110"
     },
     "time": {
-        "time": "Nov 17,  9:13 AM"
+        "time": "Nov 17,  8:36 PM"
     },
     "trank": {
-        "trank": "90",
-        "trank_make_tourney": "1.3",
+        "trank": "103",
+        "trank_make_tourney": "1.5",
         "trank_proj_record": "12-17 (7-13)",
         "trank_seed": "NR",
-        "wab_rank": "98",
-        "wab_score": "0.1"
+        "wab_rank": "144",
+        "wab_score": "-0.3"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "142",
+        "elo": "165",
         "nolan_net": "145",
-        "quadrant_1": "0-0",
+        "quadrant_1": "0-1",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "2-0",
         "record": "145",
-        "rpi": "12"
+        "rpi": "46"
     }
 }
