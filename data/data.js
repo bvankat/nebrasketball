@@ -32,7 +32,7 @@
         "overall_record": "10-19",
         "rating": "120",
         "record": "2-1",
-        "sos": "301"
+        "sos": "309"
     },
     "ncaa": {
         "net_rank": "145"
@@ -45,7 +45,7 @@
         "sagarin_rate": "99"
     },
     "shot_quality": {
-        "sq_ranking": 34
+        "sq_ranking": 84
     },
     "teamrankings": {
         "make_tournament": "7.6%",
@@ -56,14 +56,14 @@
         "rank": "110"
     },
     "time": {
-        "time": "Nov 17,  8:36 PM"
+        "time": "Nov 18,  1:33 AM"
     },
     "trank": {
-        "trank": "103",
+        "trank": "104",
         "trank_make_tourney": "1.5",
         "trank_proj_record": "12-17 (7-13)",
         "trank_seed": "NR",
-        "wab_rank": "144",
+        "wab_rank": "142",
         "wab_score": "-0.3"
     },
     "warrennolan": {
@@ -75,6 +75,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "2-0",
         "record": "145",
-        "rpi": "46"
+        "rpi": "44"
     }
 }
