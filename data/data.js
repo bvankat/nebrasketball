@@ -22,7 +22,7 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "105"
+        "miya_rating": "104"
     },
     "haslametrics": {
         "haslam_rating": "134"
@@ -42,25 +42,25 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "122"
+        "sagarin_rate": "111"
     },
     "shot_quality": {
-        "sq_ranking": 39
+        "sq_ranking": 37
     },
     "teamrankings": {
-        "make_tournament": "4.0%",
+        "make_tournament": "5.5%",
         "most_likely_seed": "12",
-        "proj_conf_record": "4.4-15.6",
-        "projected_losses": "19.7",
-        "projected_wins": "9.3",
-        "rank": "124"
+        "proj_conf_record": "4.8-15.2",
+        "projected_losses": "19.1",
+        "projected_wins": "9.9",
+        "rank": "118"
     },
     "time": {
-        "time": "Nov 21,  2:25 AM"
+        "time": "Nov 21,  9:25 AM"
     },
     "trank": {
         "trank": "100",
-        "trank_make_tourney": "0.6",
+        "trank_make_tourney": "0.4",
         "trank_proj_record": "12-17 (6-14)",
         "trank_seed": "NR",
         "wab_rank": "105",
