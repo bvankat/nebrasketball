@@ -22,7 +22,7 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "101"
+        "miya_rating": "86"
     },
     "haslametrics": {
         "haslam_rating": "64"
@@ -35,32 +35,32 @@
         "sos": "94"
     },
     "ncaa": {
-        "net_rank": "145"
+        "net_rank": "59"
     },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "90"
+        "sagarin_rate": "69"
     },
     "shot_quality": {
-        "sq_ranking": 37
+        "sq_ranking": 46
     },
     "teamrankings": {
-        "make_tournament": "8.4%",
+        "make_tournament": "20.2%",
         "most_likely_seed": "12",
-        "proj_conf_record": "5.5-14.5",
-        "projected_losses": "19.3",
-        "projected_wins": "11.7",
-        "rank": "97"
+        "proj_conf_record": "6.3-13.7",
+        "projected_losses": "17.5",
+        "projected_wins": "13.5",
+        "rank": "81"
     },
     "time": {
-        "time": "Dec 04, 11:04 PM"
+        "time": "Dec 05,  9:30 AM"
     },
     "trank": {
         "trank": "79",
-        "trank_make_tourney": "0.5",
+        "trank_make_tourney": "3.8",
         "trank_proj_record": "14-17 (7-13)",
         "trank_seed": "NR",
         "wab_rank": "74",
