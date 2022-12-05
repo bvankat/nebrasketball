@@ -254,14 +254,6 @@
   		
   		<br />Calculations help: <a href="https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/">1</a>, <a href="http://thesportsdaily.com/ncaa/analyzing-the-rpi-for-at-large-teams-2/">2</a>, <a href="http://www.kpisports.net/2017/03/14/comparing-advanced-metrics-to-ncaa-1-68-seed-list-2017-edition/">3</a>, <a href="https://www.cbssports.com/college-basketball/news/bracketolgy-ncaa-tournament-rpi-numbers-to-know-through-the-years/">4</a>, <a href="https://www.sbnation.com/college-basketball/2019/3/18/18270907/ncaa-tournament-2019-bracket-march-madness-selection-net-rpi-analytics-kenpom">5</a>, <a href="https://fivethirtyeight.com/methodology/how-our-march-madness-predictions-work-2/">6</a>, <a href="https://twitter.com/KevinPauga/status/1207300776781066240">7</a>, <a href="https://twitter.com/KevinPauga/status/1364564183853973506?s=20">8</a>, <a href="https://twitter.com/KevinPauga/status/1234524830063448064?s=20">9</a>, <a href="https://twitter.com/KevinPauga/status/1207300776781066240?s=20">10</a>, <a href="https://barttorvik.com/resume-compare-all.php">11</a>
   		<br />Shout out: <a href="http://brianhelge.com">Brian H.</a></p>
-		  
-		<!-- Calculations notes: -->
-		<!-- 2022 Last 4 In: Wyoming (NET 50), Rutgers (77), Indiana (38), Notre Dame (53) -->
-		<!-- 2022 First 4 Out: Dayton (NET 58), SMU (NET 45), Texas A&M (NET 43) -->
-		
-		<!-- Approx. 500 at-large bids from 2008-2022 -->
-		<!-- Only five at-large teams with NET over 70: All 10 or 11 seeds -->
-		<!-- 20 at large bids with NET/RPI above 60 -->
 		
   	
   	</div>
@@ -280,7 +272,8 @@
 			  console.log(data); 
 			
 			// replace this with NCAA when real NET is released. Nolan is approxiation, but calculated earlier in season
-			if ( data.warrennolan ) {  
+			// Nolan NET might be sketchy? As of Dec. 5, 2022, doesn't seem like it's getting updates. Review for next year.
+			if ( data.ncaa.net_rank ) {  
 				document.getElementById('ncaa-net').innerHTML = data.ncaa.net_rank; 
 				document.getElementById('ncaa-net2').innerHTML = data.ncaa.net_rank; 
 			}	
@@ -399,6 +392,14 @@
 				 return score;
 			 };
 			 
+
+			 // Calculations notes: 
+			 // 2022 Last 4 In: Wyoming (NET 50), Rutgers (77), Indiana (38), Notre Dame (53)
+			 // 2022 First 4 Out: Dayton (NET 58), SMU (NET 45), Texas A&M (NET 43) 
+			 
+			 // Approx. 500 at-large bids from 2008-2022 
+			 // Only five at-large teams with NET over 70: All 10 or 11 seeds 
+			 // 20 at large bids with NET/RPI above 60 
 
 			 
 			 kenpom_score = FindScore(data.kenpom.rating);
