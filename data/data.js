@@ -38,7 +38,7 @@
         "kpi_ranking": 57
     },
     "massey_composite": {
-        "massey_rank": "77"
+        "massey_rank": "71"
     },
     "ncaa": {
         "net_rank": "59"
@@ -62,11 +62,11 @@
         "rank": "81"
     },
     "time": {
-        "time": "Dec 05, 11:03 AM"
+        "time": "Dec 05,  1:56 PM"
     },
     "trank": {
         "trank": "79",
-        "trank_make_tourney": "3.7",
+        "trank_make_tourney": "5.7",
         "trank_proj_record": "14-17 (7-13)",
         "trank_seed": "NR",
         "wab_rank": "74",
