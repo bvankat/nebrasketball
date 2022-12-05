@@ -120,8 +120,13 @@
 			    	
 			    	<tr><td>RPI</td><td id="nolan-rpi" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>ELO rank</td><td id="nolan-elo" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>Massey Composite</td><td id="massey-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
 		    	
 					<tr><td>TeamRankings.com</td><td id="teamrankings-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					<tr><td>Wins Above Bubble</td><td class="text-end"><span id="wab-score" class="small text-muted"> </span><span id="wab-rank"></span></td></tr>
+			    	<tr><td>Haslametrics</td><td id="haslam-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>Evan Miyakawa</td><td id="miya-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>Shot Quality</td><td id="sq-ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
 					<tr>
 						<td>AP Poll</td>
 						<td class="text-end"><span id="ap-rank"><span class="small text-muted">NA</span></span></td>
@@ -131,10 +136,6 @@
 						<td>Coaches Poll</td>
 						<td class="text-end"><span id="coaches-rank"><span class="small text-muted">NA</span></span></td>
 					</tr>
-					<tr><td>Wins Above Bubble</td><td class="text-end"><span id="wab-score" class="small text-muted"> </span><span id="wab-rank"></span></td></tr>
-			    	<tr><td>Haslametrics</td><td id="haslam-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>Evan Miyakawa</td><td id="miya-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>Shot Quality</td><td id="sq-ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
 					
 					
 					
@@ -370,6 +371,9 @@
 				document.getElementById('cbs-bracket').innerHTML = data.cbs.cbs_rank;
 			}
 			
+			if ( data.massey_composite ) {
+				document.getElementById('massey-rank').innerHTML = data.massey_composite.massey_rank;
+			}
 			
 			document.getElementById('time').innerHTML = data.time.time;
 
