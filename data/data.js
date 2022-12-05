@@ -34,6 +34,9 @@
         "record": "6-3",
         "sos": "94"
     },
+    "kpi_sports": {
+        "kpi_ranking": 57
+    },
     "ncaa": {
         "net_rank": "59"
     },
@@ -56,7 +59,7 @@
         "rank": "81"
     },
     "time": {
-        "time": "Dec 05,  9:30 AM"
+        "time": "Dec 05,  9:32 AM"
     },
     "trank": {
         "trank": "79",
