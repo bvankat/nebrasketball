@@ -37,6 +37,9 @@
     "kpi_sports": {
         "kpi_ranking": 57
     },
+    "massey_composite": {
+        "massey_rank": "77"
+    },
     "ncaa": {
         "net_rank": "59"
     },
@@ -59,7 +62,7 @@
         "rank": "81"
     },
     "time": {
-        "time": "Dec 05, 10:28 AM"
+        "time": "Dec 05, 11:03 AM"
     },
     "trank": {
         "trank": "79",
@@ -72,12 +75,12 @@
     "warrennolan": {
         "current_conf_record": "0-0",
         "elo": "104",
-        "nolan_net": "145",
+        "nolan_net": "59",
         "quadrant_1": "1-3",
         "quadrant_2": "0-0",
-        "quadrant_3": "2-0",
-        "quadrant_4": "3-0",
-        "record": "145",
+        "quadrant_3": "0-0",
+        "quadrant_4": "5-0",
+        "record": "59",
         "rpi": "79"
     }
 }
