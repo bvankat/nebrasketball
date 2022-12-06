@@ -54,6 +54,9 @@
 	
 	  gtag('config', 'UA-129862823-1');
 	</script>
+	
+	<!-- D3 for charts -->
+	<script src="https://d3js.org/d3.v6.js"></script>
     
   </head>
   <body>
@@ -97,12 +100,12 @@
 		    	</thead>
 		    	
 		    	<tbody>
-			    	<tr><td>NCAA NET</td><td id="ncaa-net" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>KPI</td><td id="kpi_ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>ESPN SOR</td><td id="espn-sor" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>ESPN BPI</td><td id="espn-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>Kenpom</i></td><td id="kenpom-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>Sagarin</td><td id="sagarin" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>NCAA NET</td><td id="net-chart"></td><td id="ncaa-net" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>KPI</td><td id="kpi-chart"></td><td id="kpi_ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>ESPN SOR</td><td id="sor-chart"></td><td id="espn-sor" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>ESPN BPI</td><td id="bpi-chart"></td><td id="espn-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>Kenpom</i></td><td id="kenpom-chart"></td><td id="kenpom-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>Sagarin</td><td id="sagarin-chart"></td><td id="sagarin" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	</tbody>
 	    	</table>
 	    	
@@ -515,6 +518,8 @@
 			
     loadData(); // MAKES THE MAGIC HAPPEN
 </script>
+
+
   
   
 </html>
