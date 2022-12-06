@@ -30,9 +30,9 @@
     "kenpom": {
         "conference_record": "7-13",
         "overall_record": "14-17",
-        "rating": "78",
+        "rating": "77",
         "record": "6-3",
-        "sos": "93"
+        "sos": "94"
     },
     "kpi_sports": {
         "kpi_ranking": 57
@@ -48,7 +48,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "69"
+        "sagarin_rate": "70"
     },
     "shot_quality": {
         "sq_ranking": 46
@@ -62,14 +62,14 @@
         "rank": "81"
     },
     "time": {
-        "time": "Dec 05,  9:56 PM"
+        "time": "Dec. 6, 2022 at  1:10 AM"
     },
     "trank": {
         "trank": "79",
         "trank_make_tourney": "5.7",
         "trank_proj_record": "14-17 (7-13)",
         "trank_seed": "NR",
-        "wab_rank": "74",
+        "wab_rank": "73",
         "wab_score": "-0.1"
     },
     "warrennolan": {
@@ -81,6 +81,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "5-0",
         "record": "59",
-        "rpi": "79"
+        "rpi": "80"
     }
 }
