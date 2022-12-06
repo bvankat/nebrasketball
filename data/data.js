@@ -62,7 +62,7 @@
         "rank": "81"
     },
     "time": {
-        "time": "Dec. 6, 2022 at  1:10 AM"
+        "time": "Dec. 6, 2022 at 01:12 AM"
     },
     "trank": {
         "trank": "79",
