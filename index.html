@@ -505,11 +505,9 @@
 	
 	        var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
 	
-	
 	        chart.draw(data, options);
 	
-	
-	
+
 			// NEEDLE BOUNCE DISABLED IN OFFSEASON
 	    	setInterval(function() {
 	          data.setValue(0, 1, total_score-2 + Math.round(1 * Math.random()));
@@ -518,12 +516,11 @@
 	     
 	     
       	};  // end drawChart()
+		  
 	} // end loadData async function
 			
     loadData(); // MAKES THE MAGIC HAPPEN
 </script>
 
-
-  
   
 </html>
