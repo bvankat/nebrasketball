@@ -9,14 +9,14 @@
     },
     "espn": {
         "bpi": "88",
-        "chance_round_32": "0.2%",
+        "chance_round_32": "0.1%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "7.3-12.7",
+        "proj_win_loss_conf": "7.2-12.8",
         "proj_win_loss_overall": "14.5-16.5",
         "seven_day_change": "9",
         "sor": "65",
-        "sos": "36"
+        "sos": "35"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -51,7 +51,7 @@
         "sagarin_rate": "70"
     },
     "shot_quality": {
-        "sq_ranking": 46
+        "sq_ranking": 45
     },
     "teamrankings": {
         "make_tournament": "20.8%",
@@ -62,7 +62,7 @@
         "rank": "81"
     },
     "time": {
-        "time": "Dec. 6, 2022 at 10:16 AM"
+        "time": "Dec. 6, 2022 at 12:40 PM"
     },
     "trank": {
         "trank": "79",
