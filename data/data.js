@@ -8,21 +8,21 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "88",
+        "bpi": "89",
         "chance_round_32": "0.1%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "7.2-12.8",
-        "proj_win_loss_overall": "14.5-16.5",
-        "seven_day_change": "9",
-        "sor": "65",
-        "sos": "35"
+        "proj_win_loss_overall": "14.4-16.6",
+        "seven_day_change": "11",
+        "sor": "66",
+        "sos": "39"
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "86"
+        "miya_rating": "87"
     },
     "haslametrics": {
         "haslam_rating": "68"
@@ -51,7 +51,7 @@
         "sagarin_rate": "70"
     },
     "shot_quality": {
-        "sq_ranking": 47
+        "sq_ranking": 46
     },
     "teamrankings": {
         "make_tournament": "18.1%",
@@ -62,7 +62,7 @@
         "rank": "83"
     },
     "time": {
-        "time": "Dec. 7, 2022 at 10:20 AM"
+        "time": "Dec. 7, 2022 at 1:57 PM"
     },
     "trank": {
         "trank": "81",
