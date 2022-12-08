@@ -22,7 +22,7 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "87"
+        "miya_rating": "86"
     },
     "haslametrics": {
         "haslam_rating": "68"
@@ -30,9 +30,9 @@
     "kenpom": {
         "conference_record": "7-13",
         "overall_record": "14-17",
-        "rating": "83",
-        "record": "6-3",
-        "sos": "100"
+        "rating": "82",
+        "record": "6-4",
+        "sos": "50"
     },
     "kpi_sports": {
         "kpi_ranking": 68
@@ -51,7 +51,7 @@
         "sagarin_rate": "70"
     },
     "shot_quality": {
-        "sq_ranking": 46
+        "sq_ranking": 52
     },
     "teamrankings": {
         "make_tournament": "18.1%",
@@ -62,25 +62,25 @@
         "rank": "83"
     },
     "time": {
-        "time": "Dec. 7, 2022 at 1:57 PM"
+        "time": "Dec. 7, 2022 at 10:40 PM"
     },
     "trank": {
-        "trank": "81",
+        "trank": "82",
         "trank_make_tourney": "3.9",
         "trank_proj_record": "14-17 (7-13)",
         "trank_seed": "NR",
-        "wab_rank": "75",
-        "wab_score": "-0.1"
+        "wab_rank": "86",
+        "wab_score": "-0.3"
     },
     "warrennolan": {
-        "current_conf_record": "0-0",
-        "elo": "106",
+        "current_conf_record": "0-1",
+        "elo": "112",
         "nolan_net": "64",
-        "quadrant_1": "1-3",
+        "quadrant_1": "1-4",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "5-0",
         "record": "64",
-        "rpi": "90"
+        "rpi": "88"
     }
 }
