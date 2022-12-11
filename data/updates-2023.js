@@ -5215,6 +5215,92 @@
             "time": {
                 "time": "Dec. 7, 2022 at 10:40 PM"
             }
+        },
+        {
+            "evanmiya": {
+                "miya_rating": "92"
+            },
+            "kenpom": {
+                "rating": "81",
+                "record": "6-5",
+                "sos": "30",
+                "overall_record": "14-17",
+                "conference_record": "6-14"
+            },
+            "ncaa": {
+                "net_rank": "75"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "teamrankings": {
+                "make_tournament": "12.9%",
+                "most_likely_seed": "12",
+                "rank": "80",
+                "projected_wins": "13.1",
+                "projected_losses": "17.9",
+                "proj_conf_record": "6.0-14.0"
+            },
+            "espn": {
+                "bpi": "91",
+                "seven_day_change": "5",
+                "proj_tourney_seed": "NR",
+                "proj_win_loss_overall": "13.8-17.2",
+                "proj_win_loss_conf": "6.7-13.3",
+                "sor": "93",
+                "sos": "13",
+                "chance_sweet_16": "0.0%",
+                "chance_round_32": "0.0%"
+            },
+            "espn_bracketology": {
+                "seed": "NR"
+            },
+            "warrennolan": {
+                "record": "75",
+                "current_conf_record": "0-2",
+                "rpi": "98",
+                "elo": "123",
+                "quadrant_1": "1-4",
+                "quadrant_2": "0-1",
+                "quadrant_3": "0-0",
+                "quadrant_4": "5-0",
+                "nolan_net": "75"
+            },
+            "trank": {
+                "trank": "84",
+                "trank_proj_record": "14-17 (6-14)",
+                "trank_seed": "NR",
+                "trank_make_tourney": "1.6",
+                "wab_score": "-0.9",
+                "wab_rank": "103"
+            },
+            "cbs": {
+                "cbs_rank": "NR"
+            },
+            "sagarin": {
+                "sagarin_rate": "72"
+            },
+            "haslametrics": {
+                "haslam_rating": "70"
+            },
+            "kpi_sports": {
+                "kpi_ranking": 99
+            },
+            "shot_quality": {
+                "sq_ranking": 41
+            },
+            "bracketproject": {
+                "matrix_count": "1",
+                "total_brackets": "30",
+                "matrix_seed": "NR"
+            },
+            "massey_composite": {
+                "massey_rank": "71"
+            },
+            "time": {
+                "time": "Dec. 11, 2022 at 12:50 PM"
+            }
         }
     ]
 }
