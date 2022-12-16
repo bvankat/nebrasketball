@@ -51,10 +51,10 @@
         "sagarin_rate": "72"
     },
     "shot_quality": {
-        "sq_ranking": 40
+        "sq_ranking": 39
     },
     "teamrankings": {
-        "make_tournament": "11.5%",
+        "make_tournament": "12.1%",
         "most_likely_seed": "12",
         "proj_conf_record": "6.2-13.8",
         "projected_losses": "17.7",
@@ -62,7 +62,7 @@
         "rank": "80"
     },
     "time": {
-        "time": "Dec. 16, 2022 at 4:09 AM"
+        "time": "Dec. 16, 2022 at 5:36 AM"
     },
     "trank": {
         "trank": "84",
