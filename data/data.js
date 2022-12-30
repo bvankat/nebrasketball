@@ -8,15 +8,15 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "96",
-        "chance_round_32": "0.0%",
+        "bpi": "91",
+        "chance_round_32": "0.1%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "6.3-13.7",
-        "proj_win_loss_overall": "13.3-17.7",
-        "seven_day_change": "2",
-        "sor": "90",
-        "sos": "13"
+        "proj_win_loss_conf": "7.2-12.8",
+        "proj_win_loss_overall": "14.3-16.7",
+        "seven_day_change": "6",
+        "sor": "79",
+        "sos": "11"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -62,7 +62,7 @@
         "rank": "80"
     },
     "time": {
-        "time": "Dec. 30, 2022 at 1:09 PM"
+        "time": "Dec. 30, 2022 at 1:13 PM"
     },
     "trank": {
         "trank": "78",
