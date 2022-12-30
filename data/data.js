@@ -32,7 +32,7 @@
         "overall_record": "15-16",
         "rating": "77",
         "record": "8-6",
-        "sos": "24"
+        "sos": "23"
     },
     "kpi_sports": {
         "kpi_ranking": 61
@@ -62,14 +62,14 @@
         "rank": "80"
     },
     "time": {
-        "time": "Dec. 30, 2022 at 1:13 PM"
+        "time": "Dec. 30, 2022 at 4:22 PM"
     },
     "trank": {
         "trank": "78",
         "trank_make_tourney": "3.8",
         "trank_proj_record": "15-16 (8-12)",
         "trank_seed": "NR",
-        "wab_rank": "94",
+        "wab_rank": "95",
         "wab_score": "-1.2"
     },
     "warrennolan": {
