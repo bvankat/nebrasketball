@@ -28,11 +28,11 @@
         "haslam_rating": "83"
     },
     "kenpom": {
-        "conference_record": "8-12",
-        "overall_record": "15-16",
-        "rating": "82",
-        "record": "8-6",
-        "sos": "22"
+        "conference_record": "7-13",
+        "overall_record": "14-17",
+        "rating": "88",
+        "record": "8-7",
+        "sos": "15"
     },
     "kpi_sports": {
         "kpi_ranking": 74
@@ -62,25 +62,25 @@
         "rank": "82"
     },
     "time": {
-        "time": "Jan. 3, 2023 at 4:12 PM"
+        "time": "Jan. 3, 2023 at 10:39 PM"
     },
     "trank": {
-        "trank": "81",
+        "trank": "93",
         "trank_make_tourney": "3.1",
-        "trank_proj_record": "15-16 (8-12)",
+        "trank_proj_record": "14-17 (7-13)",
         "trank_seed": "NR",
-        "wab_rank": "95",
-        "wab_score": "-1.3"
+        "wab_rank": "108",
+        "wab_score": "-1.6"
     },
     "warrennolan": {
-        "current_conf_record": "1-2",
-        "elo": "95",
+        "current_conf_record": "1-3",
+        "elo": "113",
         "nolan_net": "78",
-        "quadrant_1": "1-4",
+        "quadrant_1": "1-5",
         "quadrant_2": "1-2",
         "quadrant_3": "1-0",
         "quadrant_4": "5-0",
         "record": "78",
-        "rpi": "74"
+        "rpi": "79"
     }
 }
