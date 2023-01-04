@@ -25,14 +25,14 @@
         "miya_rating": "89"
     },
     "haslametrics": {
-        "haslam_rating": "83"
+        "haslam_rating": "95"
     },
     "kenpom": {
         "conference_record": "7-13",
         "overall_record": "14-17",
         "rating": "88",
         "record": "8-7",
-        "sos": "15"
+        "sos": "12"
     },
     "kpi_sports": {
         "kpi_ranking": 74
@@ -62,15 +62,15 @@
         "rank": "82"
     },
     "time": {
-        "time": "Jan. 3, 2023 at 10:39 PM"
+        "time": "Jan. 4, 2023 at 1:31 AM"
     },
     "trank": {
         "trank": "93",
         "trank_make_tourney": "3.1",
         "trank_proj_record": "14-17 (7-13)",
         "trank_seed": "NR",
-        "wab_rank": "108",
-        "wab_score": "-1.6"
+        "wab_rank": "106",
+        "wab_score": "-1.5"
     },
     "warrennolan": {
         "current_conf_record": "1-3",
