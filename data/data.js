@@ -2,21 +2,21 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "36"
+        "total_brackets": "48"
     },
     "cbs": {
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "93",
+        "bpi": "97",
         "chance_round_32": "0.0%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "7.2-12.8",
-        "proj_win_loss_overall": "14.2-16.8",
-        "seven_day_change": "4",
-        "sor": "77",
-        "sos": "8"
+        "proj_win_loss_conf": "6.6-13.4",
+        "proj_win_loss_overall": "13.6-17.4",
+        "seven_day_change": "0",
+        "sor": "82",
+        "sos": "7"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -62,7 +62,7 @@
         "rank": "87"
     },
     "time": {
-        "time": "Jan. 4, 2023 at 10:13 AM"
+        "time": "Jan. 4, 2023 at 5:33 PM"
     },
     "trank": {
         "trank": "93",
