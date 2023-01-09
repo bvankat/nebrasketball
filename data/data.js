@@ -38,7 +38,7 @@
         "kpi_ranking": 68
     },
     "massey_composite": {
-        "massey_rank": "82"
+        "massey_rank": "84"
     },
     "ncaa": {
         "net_rank": "83"
@@ -62,7 +62,7 @@
         "rank": "87"
     },
     "time": {
-        "time": "Jan. 9, 2023 at 10:21 AM"
+        "time": "Jan. 9, 2023 at 1:20 PM"
     },
     "trank": {
         "trank": "95",
