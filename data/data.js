@@ -48,7 +48,7 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "86"
+        "sagarin_rate": "95"
     },
     "shot_quality": {
         "sq_ranking": 73
@@ -62,12 +62,12 @@
         "rank": "92"
     },
     "time": {
-        "time": "Jan. 11, 2023 at 10:50 AM"
+        "time": "Jan. 11, 2023 at 11:12 AM"
     },
     "trank": {
         "trank": "106",
         "trank_make_tourney": "0.2",
-        "trank_proj_record": "13-18 (6-13)",
+        "trank_proj_record": "13-18 (6-14)",
         "trank_seed": "NR",
         "wab_rank": "106",
         "wab_score": "-1.7"
