@@ -62,7 +62,7 @@
         "rank": "92"
     },
     "time": {
-        "time": "Jan. 11, 2023 at 9:49 AM"
+        "time": "Jan. 11, 2023 at 10:50 AM"
     },
     "trank": {
         "trank": "106",
