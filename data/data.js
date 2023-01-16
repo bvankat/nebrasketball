@@ -35,10 +35,10 @@
         "sos": "3"
     },
     "kpi_sports": {
-        "kpi_ranking": 81
+        "kpi_ranking": 77
     },
     "massey_composite": {
-        "massey_rank": "83"
+        "massey_rank": "93"
     },
     "ncaa": {
         "net_rank": "94"
@@ -54,7 +54,7 @@
         "sq_ranking": 78
     },
     "teamrankings": {
-        "make_tournament": "3.2%",
+        "make_tournament": "3.5%",
         "most_likely_seed": "12",
         "proj_conf_record": "6.1-13.9",
         "projected_losses": "17.9",
@@ -62,11 +62,11 @@
         "rank": "97"
     },
     "time": {
-        "time": "Jan. 16, 2023 at 12:28 AM"
+        "time": "Jan. 16, 2023 at 2:02 PM"
     },
     "trank": {
         "trank": "109",
-        "trank_make_tourney": "0.1",
+        "trank_make_tourney": "0.2",
         "trank_proj_record": "13-18 (6-14)",
         "trank_seed": "NR",
         "wab_rank": "105",
@@ -75,12 +75,12 @@
     "warrennolan": {
         "current_conf_record": "2-5",
         "elo": "126",
-        "nolan_net": "97",
+        "nolan_net": "94",
         "quadrant_1": "1-8",
         "quadrant_2": "1-1",
         "quadrant_3": "1-0",
         "quadrant_4": "6-0",
-        "record": "97",
+        "record": "94",
         "rpi": "78"
     }
 }
