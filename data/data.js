@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "79"
+        "total_brackets": "80"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -62,7 +62,7 @@
         "rank": "92"
     },
     "time": {
-        "time": "Jan. 25, 2023 at 11:58 AM"
+        "time": "Jan. 25, 2023 at 5:44 PM"
     },
     "trank": {
         "trank": "106",
