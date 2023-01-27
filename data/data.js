@@ -25,7 +25,7 @@
         "miya_rating": "144"
     },
     "haslametrics": {
-        "haslam_rating": "125"
+        "haslam_rating": "124"
     },
     "kenpom": {
         "conference_record": "6-14",
@@ -54,33 +54,33 @@
         "sq_ranking": 71
     },
     "teamrankings": {
-        "make_tournament": "1.7%",
+        "make_tournament": "2.1%",
         "most_likely_seed": "12",
         "proj_conf_record": "6.2-13.8",
         "projected_losses": "17.8",
         "projected_wins": "13.2",
-        "rank": "96"
+        "rank": "95"
     },
     "time": {
-        "time": "Jan. 26, 2023 at 11:24 PM"
+        "time": "Jan. 27, 2023 at 10:06 AM"
     },
     "trank": {
         "trank": "117",
-        "trank_make_tourney": "0.2",
+        "trank_make_tourney": "0.1",
         "trank_proj_record": "13-18 (6-14)",
         "trank_seed": "NR",
-        "wab_rank": "104",
+        "wab_rank": "102",
         "wab_score": "-2.2"
     },
     "warrennolan": {
         "current_conf_record": "3-7",
-        "elo": "134",
+        "elo": "133",
         "nolan_net": "100",
         "quadrant_1": "2-8",
         "quadrant_2": "1-3",
         "quadrant_3": "1-0",
         "quadrant_4": "6-0",
         "record": "100",
-        "rpi": "87"
+        "rpi": "86"
     }
 }
