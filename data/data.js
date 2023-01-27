@@ -30,7 +30,7 @@
     "kenpom": {
         "conference_record": "6-14",
         "overall_record": "13-18",
-        "rating": "99",
+        "rating": "98",
         "record": "10-11",
         "sos": "2"
     },
@@ -51,7 +51,7 @@
         "sagarin_rate": "101"
     },
     "shot_quality": {
-        "sq_ranking": 70
+        "sq_ranking": 71
     },
     "teamrankings": {
         "make_tournament": "1.7%",
@@ -62,19 +62,19 @@
         "rank": "96"
     },
     "time": {
-        "time": "Jan. 26, 2023 at 10:57 AM"
+        "time": "Jan. 26, 2023 at 11:24 PM"
     },
     "trank": {
         "trank": "117",
         "trank_make_tourney": "0.2",
         "trank_proj_record": "13-18 (6-14)",
         "trank_seed": "NR",
-        "wab_rank": "105",
+        "wab_rank": "104",
         "wab_score": "-2.2"
     },
     "warrennolan": {
         "current_conf_record": "3-7",
-        "elo": "137",
+        "elo": "134",
         "nolan_net": "100",
         "quadrant_1": "2-8",
         "quadrant_2": "1-3",
