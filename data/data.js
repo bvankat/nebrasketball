@@ -62,7 +62,7 @@
         "rank": "95"
     },
     "time": {
-        "time": "Jan. 27, 2023 at 2:27 PM"
+        "time": "Jan. 27, 2023 at 8:03 PM"
     },
     "trank": {
         "trank": "117",
@@ -74,7 +74,7 @@
     },
     "warrennolan": {
         "current_conf_record": "3-7",
-        "elo": "133",
+        "elo": "134",
         "nolan_net": "100",
         "quadrant_1": "2-8",
         "quadrant_2": "1-3",
