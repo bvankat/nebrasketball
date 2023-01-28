@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "80"
+        "total_brackets": "84"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -41,14 +41,14 @@
         "massey_rank": "93"
     },
     "ncaa": {
-        "net_rank": "100"
+        "net_rank": "98"
     },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "101"
+        "sagarin_rate": "100"
     },
     "shot_quality": {
         "sq_ranking": 71
@@ -62,25 +62,25 @@
         "rank": "95"
     },
     "time": {
-        "time": "Jan. 27, 2023 at 8:03 PM"
+        "time": "Jan. 28, 2023 at 11:08 AM"
     },
     "trank": {
         "trank": "117",
         "trank_make_tourney": "0.1",
         "trank_proj_record": "13-18 (6-14)",
         "trank_seed": "NR",
-        "wab_rank": "102",
+        "wab_rank": "101",
         "wab_score": "-2.2"
     },
     "warrennolan": {
         "current_conf_record": "3-7",
         "elo": "134",
-        "nolan_net": "100",
+        "nolan_net": "98",
         "quadrant_1": "2-8",
         "quadrant_2": "1-3",
         "quadrant_3": "1-0",
         "quadrant_4": "6-0",
-        "record": "100",
+        "record": "98",
         "rpi": "86"
     }
 }
