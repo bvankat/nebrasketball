@@ -22,7 +22,7 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "143"
+        "miya_rating": "139"
     },
     "haslametrics": {
         "haslam_rating": "117"
@@ -62,7 +62,7 @@
         "rank": "95"
     },
     "time": {
-        "time": "Feb. 6, 2023 at 11:14 AM"
+        "time": "Feb. 6, 2023 at 5:06 PM"
     },
     "trank": {
         "trank": "113",
