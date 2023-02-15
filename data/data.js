@@ -62,7 +62,7 @@
         "rank": "98"
     },
     "time": {
-        "time": "Feb. 14, 2023 at 10:01 PM"
+        "time": "Feb. 14, 2023 at 10:31 PM"
     },
     "trank": {
         "trank": "110",
@@ -74,13 +74,13 @@
     },
     "warrennolan": {
         "current_conf_record": "6-10",
-        "elo": "99",
+        "elo": "100",
         "nolan_net": "100",
         "quadrant_1": "2-11",
         "quadrant_2": "3-3",
         "quadrant_3": "1-0",
         "quadrant_4": "7-0",
         "record": "100",
-        "rpi": "95"
+        "rpi": "96"
     }
 }
