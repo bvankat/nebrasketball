@@ -22,10 +22,10 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "138"
+        "miya_rating": "134"
     },
     "haslametrics": {
-        "haslam_rating": "122"
+        "haslam_rating": "110"
     },
     "kenpom": {
         "conference_record": "8-12",
@@ -35,52 +35,52 @@
         "sos": "5"
     },
     "kpi_sports": {
-        "kpi_ranking": 90
+        "kpi_ranking": 75
     },
     "massey_composite": {
         "massey_rank": "101"
     },
     "ncaa": {
-        "net_rank": "100"
+        "net_rank": "94"
     },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "98"
+        "sagarin_rate": "89"
     },
     "shot_quality": {
-        "sq_ranking": 76
+        "sq_ranking": 77
     },
     "teamrankings": {
-        "make_tournament": "0.2%",
+        "make_tournament": "0.7%",
         "most_likely_seed": "12",
-        "proj_conf_record": "6.7-13.3",
-        "projected_losses": "17.3",
-        "projected_wins": "13.7",
-        "rank": "98"
+        "proj_conf_record": "7.6-12.4",
+        "projected_losses": "16.4",
+        "projected_wins": "14.6",
+        "rank": "93"
     },
     "time": {
-        "time": "Feb. 14, 2023 at 10:31 PM"
+        "time": "Feb. 15, 2023 at 10:51 AM"
     },
     "trank": {
         "trank": "110",
-        "trank_make_tourney": "0.1",
+        "trank_make_tourney": "0.2",
         "trank_proj_record": "15-16 (8-12)",
         "trank_seed": "NR",
-        "wab_rank": "90",
-        "wab_score": "-2"
+        "wab_rank": "91",
+        "wab_score": "-1.9"
     },
     "warrennolan": {
         "current_conf_record": "6-10",
-        "elo": "100",
-        "nolan_net": "100",
+        "elo": "101",
+        "nolan_net": "94",
         "quadrant_1": "2-11",
         "quadrant_2": "3-3",
         "quadrant_3": "1-0",
         "quadrant_4": "7-0",
-        "record": "100",
-        "rpi": "96"
+        "record": "94",
+        "rpi": "95"
     }
 }
