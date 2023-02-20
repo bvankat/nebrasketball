@@ -62,7 +62,7 @@
         "rank": "92"
     },
     "time": {
-        "time": "Feb. 20, 2023 at 3:36 PM"
+        "time": "Feb. 20, 2023 at 4:16 PM"
     },
     "trank": {
         "trank": "109",
