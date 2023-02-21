@@ -11,6 +11,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - Highest NET ranking to get bid: 77 in 2022, Highest RPI: 74 in 1999
 - 2022 Last 4 In: Wyoming (NET 50), Rutgers (77), Indiana (38), Notre Dame (53)
 - 2022 First 4 Out: Dayton (NET 58), SMU (NET 45), Texas A&M (NET 43) 
+- "The committee’s approach can be assessed — at least to some extent — using a model that projects NCAA Tournament seeds by averaging each team’s resume and quality metrics and weighting them evenly." ([#](https://heatcheckcbb.com/bracketology-analyzing-impact-of-metrics-in-ncaa-tournament-selection-seeding/))
 
 ## Team Sheet notes
 
