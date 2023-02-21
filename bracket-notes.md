@@ -1,8 +1,10 @@
 # Bracketology calculations, reminders and helpers
 
-A collection of links and notes to demystify the NCAA basketball tournament selection committee decisions. These ideas help form the algorithm for the [Nebrasketball NCAA Tournament Odds Machine](https://nebrasketball.info). Email bvankat [ at ] gmail with additions, corrections and feedback.
+A collection of links and notes to demystify the NCAA basketball tournament selection committee decisions for at-large teams. These ideas help form the algorithm for the [Nebrasketball NCAA Tournament Odds Machine](https://nebrasketball.info). Email bvankat [ at ] gmail with additions, corrections and feedback.
 
-## Notes
+## Calculations Notes
+
+*If you're Team A with metrics X, Y, Z — Will you get an at-large bid?*
 
 - Question: "Who should get a bid?" Answer: Use *results-based* metrics - KPI and SOR. 
 - Question: "What seed will they get? Who wins head-to-head?" Answer: Use *predictive* metrics.
