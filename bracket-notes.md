@@ -13,7 +13,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - 2022 First 4 Out: Dayton (NET 58), SMU (NET 45), Texas A&M (NET 43) 
 - "The committee’s approach can be assessed — at least to some extent — using a model that projects NCAA Tournament seeds by averaging each team’s resume and quality metrics and weighting them evenly." ([#](https://heatcheckcbb.com/bracketology-analyzing-impact-of-metrics-in-ncaa-tournament-selection-seeding/))
 
-## Team Sheet notes
+## Team Sheet basics
 
 *NCAA Selection committee has six metrics on the team sheets used to compare teams in the runup to Selection Sunday*
 
