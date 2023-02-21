@@ -16,6 +16,17 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - 2019: Lowest ranked at-large team in each metric: NET: 73, SOR: 55, KPI: 62, BPI: 72, KenPom: 78, Sagarin: 68 ([#](https://twitter.com/KevinPauga/status/1364564183853973506?s=20))
 - "The committee’s approach can be assessed — at least to some extent — using a model that projects NCAA Tournament seeds by averaging each team’s resume and quality metrics and weighting them evenly." ([#](https://heatcheckcbb.com/bracketology-analyzing-impact-of-metrics-in-ncaa-tournament-selection-seeding/))
 
+## Future algorithm adjustments
+
+*Probably should incorporate these at some point*
+
+- Bonus/penalty for Quad 1 wins and Quad 3/4 losses. 
+    -- 3-4 Q1 wins seems like the high end for 2022 bubble teams. 
+    -- Teams with 3 Q3 losses are very bubbly. 
+    -- Only one team in NET top 70 has more than 1 Q4 loss
+- Injury adjustments
+    -- Could base on Sports Reference Win Shares ([#](https://www.sports-reference.com/cbb/about/ws.html))
+
 ## Team Sheet basics
 
 *NCAA Selection committee has six metrics on the team sheets used to compare teams in the runup to Selection Sunday*
