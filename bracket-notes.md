@@ -12,6 +12,27 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - 2022 Last 4 In: Wyoming (NET 50), Rutgers (77), Indiana (38), Notre Dame (53)
 - 2022 First 4 Out: Dayton (NET 58), SMU (NET 45), Texas A&M (NET 43) 
 
+## Team Sheet notes
+
+Selection committee has six metrics on the team sheet. 
+
+### NET
+-An opaque combination of metrics. Seems to lean predictive rather than resume-based. 
+- Started in 2021
+
+### ESPN's BPI
+- Predictive
+
+### ESPN's SOR - Resume
+- KPI - Resume
+
+### Kenpom
+- Predictive
+- Records back to 2002
+
+### Sagarin
+- Predictive
+
 
 ## Sources
 
