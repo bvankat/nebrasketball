@@ -16,21 +16,21 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 
 *NCAA Selection committee has six metrics on the team sheets used to compare teams in the runup to Selection Sunday*
 
-### NET
+#### NET
 -An opaque combination of metrics. Seems to lean predictive rather than resume-based. 
 - Started in 2021
 
-### ESPN's BPI
+#### ESPN's BPI
 - Predictive
 
-### ESPN's SOR - Resume
+#### ESPN's SOR - Resume
 - KPI - Resume
 
-### Kenpom
+#### Kenpom
 - Predictive
 - Records back to 2002
 
-### Sagarin
+#### Sagarin
 - Predictive
 
 
