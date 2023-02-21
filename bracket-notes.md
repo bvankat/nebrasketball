@@ -67,12 +67,14 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 
 ## Quadrants
 
-*"Using the quadrant system the quality of wins and losses will be organized based on game location and the opponent's NET ranking. The number of Quadrant 1 wins and Quadrant 3/4 losses will be incredibly important when it comes time for NCAA tournament selection and seeding."* ([#](https://www.ncaa.com/news/basketball-men/article/2022-12-05/college-basketballs-net-rankings-explained))
+> Using the quadrant system the quality of wins and losses will be organized based on game location and the opponent's NET ranking. The number of Quadrant 1 wins and Quadrant 3/4 losses will be incredibly important when it comes time for NCAA tournament selection and seeding." ([#](https://www.ncaa.com/news/basketball-men/article/2022-12-05/college-basketballs-net-rankings-explained))
 
 - Quadrant 1: Home 1-30, Neutral 1-50, Away 1-75
 - Quadrant 2: Home 31-75, Neutral 51-100, Away 76-135
 - Quadrant 3: Home 76-160, Neutral 101-200, Away 135-240
 - Quadrant 4: Home 161-353, Neutral 201-353, Away 241-353
+
+> "The NET is designed to define the quadrants, not to choose or seed teams. It's not a tiebreaker or anything like that. Teams are not compared by NET or other computer rankings." ([#](https://www.cbssports.com/college-basketball/news/bracketology-explaining-the-team-sheets-the-selection-committee-uses-to-compare-ncaa-tournament-resumes/))
 
 
 
