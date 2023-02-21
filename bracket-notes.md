@@ -19,19 +19,33 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 #### NET
 -An opaque combination of metrics. Seems to lean predictive rather than resume-based. 
 - Started in 2021
+- Release date: Late November or early December (12/5/22)
+- [LINK](https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings)
 
 #### ESPN's BPI
 - Predictive
+- Release date: Early November, a couple days before season's first games
+- [LINK](https://www.espn.com/mens-college-basketball/bpi)
 
-#### ESPN's SOR - Resume
-- KPI - Resume
+#### ESPN's SOR
+- Resume
+- Release date: *same as BPI above*
+- [LINK](https://www.espn.com/mens-college-basketball/bpi)
+
+#### KPI
+- Resume
+- Release date: Early December (12/5/22)
+- [LINK](https://faktorsports.com/)
 
 #### Kenpom
 - Predictive
 - Records back to 2002
+- [LINK](https://kenpom.com/)
 
 #### Sagarin
 - Predictive
+- Release date: First week of November
+- [LINK](http://sagarin.com/sports/cbsend.htm)
 
 
 ## Sources
