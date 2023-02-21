@@ -27,6 +27,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - Injury adjustments
     -- Could base on Sports Reference Win Shares ([#](https://www.sports-reference.com/cbb/about/ws.html))
 
+
 ## Team Sheet basics
 
 *NCAA Selection committee has six metrics on the team sheets used to compare teams in the runup to Selection Sunday*
