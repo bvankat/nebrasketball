@@ -7,7 +7,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - Question: "Who should get a bid?" Answer: Use *results-based* metrics - KPI and SOR. 
 - Question: "What seed will they get? Who wins head-to-head?" Answer: Use *predictive* metrics.
 - Approx. 500 at-large bids from 2008-2022. Only five at-large teams with NET over 70: All 10 or 11 seeds. 20 at large bids with NET/RPI above 60 
-- NET rank in the 60s = Not good enough. Only one at large bid in 2021 or 2022. ([#](https://twitter.com/JohnGasaway/status/1620824438974418952))
+- NET rank in the 60s/70s = Not good enough. Only two at large bids above 60 in 2021 or 2022. MSU had NET 70 in 2021. Miami was a 10-seed in 2022, NET 62. ([#](https://twitter.com/JohnGasaway/status/1620824438974418952))
 - Highest NET ranking to get bid: 77 in 2022, Highest RPI: 74 in 1999
 - 2022 Last 4 In: Wyoming (NET 50), Rutgers (77), Indiana (38), Notre Dame (53)
 - 2022 First 4 Out: Dayton (NET 58), SMU (NET 45), Texas A&M (NET 43) 
