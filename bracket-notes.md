@@ -22,7 +22,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 
 #### NET
 - NCAA's proprietary combination of metrics. Seems to lean predictive rather than resume-based.
-- Started in 2021
+- Started in 2018, replacing the RPI. Rankings (but not precise formula) made public in 2021. ([#](https://www.ncaa.com/news/basketball-men/article/2022-12-05/college-basketballs-net-rankings-explained))
 - Release date: Late November or early December (12/5/22), but recreated and available early on other sites
 - [LINK](https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings)
 
@@ -53,6 +53,17 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - [LINK](http://sagarin.com/sports/cbsend.htm)
 
 
+## Quadrants
+
+*"Using the quadrant system the quality of wins and losses will be organized based on game location and the opponent's NET ranking. The number of Quadrant 1 wins and Quadrant 3/4 losses will be incredibly important when it comes time for NCAA tournament selection and seeding." ([#](https://www.ncaa.com/news/basketball-men/article/2022-12-05/college-basketballs-net-rankings-explained))
+
+- Quadrant 1: Home 1-30, Neutral 1-50, Away 1-75
+- Quadrant 2: Home 31-75, Neutral 51-100, Away 76-135
+- Quadrant 3: Home 76-160, Neutral 101-200, Away 135-240
+- Quadrant 4: Home 161-353, Neutral 201-353, Away 241-353
+
+
+
 ## Sources
 
 - https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/
@@ -60,7 +71,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - http://www.kpisports.net/2017/03/14/comparing-advanced-metrics-to-ncaa-1-68-seed-list-2017-edition/
 - https://www.cbssports.com/college-basketball/news/bracketolgy-ncaa-tournament-rpi-numbers-to-know-through-the-years/
 - https://www.sbnation.com/college-basketball/2019/3/18/18270907/ncaa-tournament-2019-bracket-march-madness-selection-net-rpi-analytics-kenpom
-- https://fivethirtyeight.com/methodology/how-our-march-madness-predictions-work-2
+- [538 Touranment Predictions model](https://fivethirtyeight.com/methodology/how-our-march-madness-predictions-work-2)
 - https://twitter.com/KevinPauga/status/1207300776781066240
 - https://twitter.com/KevinPauga/status/1364564183853973506?s=20
 - https://twitter.com/KevinPauga/status/1234524830063448064?s=20
