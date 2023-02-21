@@ -64,7 +64,6 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - https://twitter.com/KevinPauga/status/1207300776781066240
 - https://twitter.com/KevinPauga/status/1364564183853973506?s=20
 - https://twitter.com/KevinPauga/status/1234524830063448064?s=20
-- https://twitter.com/KevinPauga/status/1207300776781066240?s=20
 - https://barttorvik.com/resume-compare-all.php
 - https://heatcheckcbb.com/bracketology-analyzing-impact-of-metrics-in-ncaa-tournament-selection-seeding
 
