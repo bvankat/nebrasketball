@@ -17,9 +17,9 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 *NCAA Selection committee has six metrics on the team sheets used to compare teams in the runup to Selection Sunday*
 
 #### NET
--An opaque combination of metrics. Seems to lean predictive rather than resume-based. 
+- Opaque combination of metrics. Seems to lean predictive rather than resume-based.
 - Started in 2021
-- Release date: Late November or early December (12/5/22)
+- Release date: Late November or early December (12/5/22), but recreated and available early on other sites
 - [LINK](https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings)
 
 #### ESPN's BPI
