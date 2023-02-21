@@ -21,11 +21,11 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 *Probably should incorporate these at some point*
 
 - Bonus/penalty for Quad 1 wins and Quad 3/4 losses. 
-    -- 3-4 Q1 wins seems like the high end for 2022 bubble teams. 
-    -- Teams with 3 Q3 losses are very bubbly. 
-    -- Only one team in NET top 70 has more than 1 Q4 loss
+    - 3-4 Q1 wins seems like the high end for 2022 bubble teams. 
+    - Teams with 3 Q3 losses are very bubbly. 
+    - Only one team in NET top 70 has more than 1 Q4 loss
 - Injury adjustments
-    -- Could base on Sports Reference Win Shares ([#](https://www.sports-reference.com/cbb/about/ws.html))
+    - Could base on Sports Reference Win Shares ([#](https://www.sports-reference.com/cbb/about/ws.html))
 
 
 ## Team Sheet basics
