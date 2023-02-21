@@ -1,6 +1,6 @@
 # Bracketology calculations, reminders and helpers
 
-A collection of links and notes to demystify the NCAA basketball tournament selection process. These ideas help form the algorithm for the [Nebrasketball NCAA Tournament Odds Machine](https://nebrasketball.info). Email bvankat [ at ] gmail with additions and corrections.
+A collection of links and notes to demystify the NCAA basketball tournament selection committee decisions. These ideas help form the algorithm for the [Nebrasketball NCAA Tournament Odds Machine](https://nebrasketball.info). Email bvankat [ at ] gmail with additions, corrections and feedback.
 
 ## Notes
 
