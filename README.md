@@ -1,4 +1,4 @@
-# Nebrasketball NCAA odds machine
+# Nebrasketball NCAA Tournament odds machine
 Tracking tournament odds for the Nebraska basketball team
 
 ## Process
