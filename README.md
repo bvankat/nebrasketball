@@ -2,7 +2,7 @@
 *Tracking tournament odds for the Nebraska men's basketball team*
 
 ## Process
-1. Scrapes data sources for rankings and record projections. (Done offline in Python with Requests, Selenium, BeautifulSoup)
+1. Scrapes data sources for rankings and record projections. (Done offline in Python with Requests, Selenium, BeautifulSoup, Undetected Chromedriver)
 2. Loads data from uploaded JSON file 
 	- `const response = await fetch('/data/data.js');`
 3. Calculates chance of making the tournament, assigns score based on each rating.
