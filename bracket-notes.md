@@ -74,15 +74,15 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 
 ## Sources
 
-- https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/
+- [538 SOR explainer](https://fivethirtyeight.com/features/on-the-ncaa-bubble-heres-the-number-to-watch/)
 - http://thesportsdaily.com/ncaa/analyzing-the-rpi-for-at-large-teams-2/
-- http://www.kpisports.net/2017/03/14/comparing-advanced-metrics-to-ncaa-1-68-seed-list-2017-edition/
-- https://www.cbssports.com/college-basketball/news/bracketolgy-ncaa-tournament-rpi-numbers-to-know-through-the-years/
+- [KPI - Comparing metrics to seed list 2017](http://www.kpisports.net/2017/03/14/comparing-advanced-metrics-to-ncaa-1-68-seed-list-2017-edition/)
+- [Jerry Palm - RPI numbers through the years](https://www.cbssports.com/college-basketball/news/bracketolgy-ncaa-tournament-rpi-numbers-to-know-through-the-years/)
 - https://www.sbnation.com/college-basketball/2019/3/18/18270907/ncaa-tournament-2019-bracket-march-madness-selection-net-rpi-analytics-kenpom
 - [538 Touranment Predictions model](https://fivethirtyeight.com/methodology/how-our-march-madness-predictions-work-2)
 - https://twitter.com/KevinPauga/status/1207300776781066240
 - https://twitter.com/KevinPauga/status/1364564183853973506?s=20
 - https://twitter.com/KevinPauga/status/1234524830063448064?s=20
-- https://barttorvik.com/resume-compare-all.php
+- [Bark Torvik Resume Comparison Tool](https://barttorvik.com/resume-compare-all.php)
 - https://heatcheckcbb.com/bracketology-analyzing-impact-of-metrics-in-ncaa-tournament-selection-seeding
 
