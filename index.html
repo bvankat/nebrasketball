@@ -389,7 +389,7 @@
 
 
 
-			function FindScore(data) { // Calculate percentage chance based on RPI-like ranking system
+			function FindScore(data) { // Calculate percentage chance based on previous at-large bids
 				 var score;
 				 if (data <= 30){ score = 99; } 
 				 if (data > 30 && data <= 40) { score = 92; } 
@@ -445,11 +445,7 @@
 			
 			// Idea: Add an adjustment for Quad 1 wins and Quad 3/4 losses. 3-4 Q1 wins seems like the high end for 2022 bubble teams. Teams with 3 Q3 losses are very bubbly. Only one team in NET top 70 has more than 1 Q4 loss 
 			
-			total_score = ((net_score * .12) + (espn_sor * .14) + (kpi_score * .14) + (teamrankings_score * .10) + (rpi_score * .10) + (kenpom_score * .10) + (espn_bpi * .10) +  (sagarin_score * .09) + (torvik_score * .09) + intangibles);
-
-			
-			
-						 
+			total_score = ((net_score * .12) + (espn_sor * .14) + (kpi_score * .14) + (teamrankings_score * .10) + (rpi_score * .10) + (kenpom_score * .10) + (espn_bpi * .10) +  (sagarin_score * .09) + (torvik_score * .09) + intangibles);		 
 			
 			 // next three lines keep gauge score > 3 in the really sad times, uncomment during season
 			 if (total_score <= 2) {
@@ -458,7 +454,7 @@
 			 }
 			  
 			 
-			 // Manual status updates in offseason			 
+			 // Manual status updates in offseason
 			function StatusCheck(data) {
 				 var status_message;
 				 if (data < 20) { status_message = "Nope. Not happening." }
@@ -469,6 +465,8 @@
 				 return status_message;	 
 			 }
 			 
+			 	// Three lines below can automate the status updates based on the total_score. Uncomment to automate. Otherwise, manual status updates are required.
+				 
 			 	// message = StatusCheck(total_score);
 			 	// console.log(message);
 			 	// $('#message').text(message);
