@@ -13,7 +13,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - Highest NET ranking to get bid: 77 in 2022, Highest RPI: 74 in 1999
 - 2022: Last 4 In: Wyoming (NET 50), Rutgers (77), Indiana (38), Notre Dame (53)
 - 2022: First 4 Out: Dayton (NET 58), SMU (NET 45), Texas A&M (NET 43) 
-- 2019: Lowest ranked at-large team in each metric: NET: 73, SOR: 55, KPI: 62, BPI: 72, KenPom: 78, Sagarin: 68 ([#](https://twitter.com/KevinPauga/status/1364564183853973506?s=20))
+- 2019: Highest ranked at-large team in each metric: NET: 73, SOR: 55, KPI: 62, BPI: 72, KenPom: 78, Sagarin: 68 ([#](https://twitter.com/KevinPauga/status/1364564183853973506?s=20))
 - "The committee’s approach can be assessed — at least to some extent — using a model that projects NCAA Tournament seeds by averaging each team’s resume and quality metrics and weighting them evenly." ([#](https://heatcheckcbb.com/bracketology-analyzing-impact-of-metrics-in-ncaa-tournament-selection-seeding/))
 
 
@@ -35,6 +35,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 #### ESPN's SOR
 - Resume
 - Release date: *same as BPI above*
+- Preaseason SOR for team is 1. So this metric takes a couple weeks to develop some reliability.
 - [LINK](https://www.espn.com/mens-college-basketball/bpi)
 
 #### KPI
