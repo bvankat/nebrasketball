@@ -15,8 +15,8 @@
         "proj_win_loss_conf": "8.4-11.6",
         "proj_win_loss_overall": "15.4-15.6",
         "seven_day_change": "7th",
-        "sor": "59th",
-        "sos": "7th"
+        "sor": 59.0,
+        "sos": 7.0
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -62,7 +62,7 @@
         "rank": "93"
     },
     "time": {
-        "time": "Feb. 23, 2023 at 3:29 PM"
+        "time": "Feb. 23, 2023 at 3:32 PM"
     },
     "trank": {
         "trank": "109",
