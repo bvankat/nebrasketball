@@ -8,12 +8,13 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": "109th",
+        "bpi": 109.0,
         "chance_round_32": "0.0%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "8.4-11.6",
         "proj_win_loss_overall": "15.4-15.6",
+        "projected_tournament_order": 80.0,
         "seven_day_change": "Tied-1st",
         "sor": 61.0,
         "sos": 8.0
@@ -62,7 +63,7 @@
         "rank": "95"
     },
     "time": {
-        "time": "Feb. 27, 2023 at 9:55 AM"
+        "time": "Feb. 27, 2023 at 10:03 AM"
     },
     "trank": {
         "trank": "108",
