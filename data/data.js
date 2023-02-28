@@ -2,22 +2,22 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "89"
+        "total_brackets": "97"
     },
     "cbs": {
         "cbs_rank": "NR"
     },
     "espn": {
         "bpi": 109.0,
-        "chance_round_32": "0.0%",
+        "chance_round_32": "0.1%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "8.4-11.6",
+        "proj_win_loss_conf": "8.5-11.5",
         "proj_win_loss_overall": "15.4-15.6",
         "projected_tournament_order": 80.0,
         "seven_day_change": "Tied-1st",
         "sor": 61.0,
-        "sos": 8.0
+        "sos": 9.0
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -39,7 +39,7 @@
         "kpi_ranking": 69
     },
     "massey_composite": {
-        "massey_rank": "91"
+        "massey_rank": "88"
     },
     "ncaa": {
         "net_rank": "92"
@@ -63,11 +63,11 @@
         "rank": "95"
     },
     "time": {
-        "time": "Feb. 27, 2023 at 10:03 AM"
+        "time": "Feb. 28, 2023 at 12:52 AM"
     },
     "trank": {
         "trank": "108",
-        "trank_make_tourney": "0.3",
+        "trank_make_tourney": "0.2",
         "trank_proj_record": "16-15 (9-11)",
         "trank_seed": "NR",
         "wab_rank": "78",
@@ -75,7 +75,7 @@
     },
     "warrennolan": {
         "current_conf_record": "8-10",
-        "elo": "77",
+        "elo": "76",
         "nolan_net": "92",
         "quadrant_1": "3-10",
         "quadrant_2": "4-4",
