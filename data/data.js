@@ -39,7 +39,7 @@
         "kpi_ranking": 69
     },
     "massey_composite": {
-        "massey_rank": "88"
+        "massey_rank": "90"
     },
     "ncaa": {
         "net_rank": "92"
@@ -55,7 +55,7 @@
         "sq_ranking": 78
     },
     "teamrankings": {
-        "make_tournament": "2.0%",
+        "make_tournament": "1.6%",
         "most_likely_seed": "12",
         "proj_conf_record": "8.5-11.5",
         "projected_losses": "15.5",
@@ -63,7 +63,7 @@
         "rank": "95"
     },
     "time": {
-        "time": "Feb. 28, 2023 at 12:52 AM"
+        "time": "Feb. 28, 2023 at 10:30 AM"
     },
     "trank": {
         "trank": "108",
