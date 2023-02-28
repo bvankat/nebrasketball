@@ -52,7 +52,7 @@
         "sagarin_rate": "89"
     },
     "shot_quality": {
-        "sq_ranking": 78
+        "sq_ranking": 73
     },
     "teamrankings": {
         "make_tournament": "1.6%",
@@ -63,7 +63,7 @@
         "rank": "95"
     },
     "time": {
-        "time": "Feb. 28, 2023 at 10:30 AM"
+        "time": "Feb. 28, 2023 at 1:32 PM"
     },
     "trank": {
         "trank": "108",
