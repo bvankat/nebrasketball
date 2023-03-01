@@ -26,7 +26,7 @@
         "miya_rating": "131"
     },
     "haslametrics": {
-        "haslam_rating": "108"
+        "haslam_rating": "112"
     },
     "kenpom": {
         "conference_record": "8-12",
@@ -36,34 +36,34 @@
         "sos": "12"
     },
     "kpi_sports": {
-        "kpi_ranking": 69
+        "kpi_ranking": 72
     },
     "massey_composite": {
         "massey_rank": "90"
     },
     "ncaa": {
-        "net_rank": "92"
+        "net_rank": "94"
     },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "89"
+        "sagarin_rate": "90"
     },
     "shot_quality": {
-        "sq_ranking": 78
+        "sq_ranking": 73
     },
     "teamrankings": {
-        "make_tournament": "1.6%",
+        "make_tournament": "0.4%",
         "most_likely_seed": "12",
-        "proj_conf_record": "8.5-11.5",
-        "projected_losses": "15.5",
-        "projected_wins": "15.5",
-        "rank": "95"
+        "proj_conf_record": "8.1-11.9",
+        "projected_losses": "15.9",
+        "projected_wins": "15.1",
+        "rank": "94"
     },
     "time": {
-        "time": "Mar. 1, 2023 at 12:18 AM"
+        "time": "Mar. 1, 2023 at 10:41 AM"
     },
     "trank": {
         "trank": "108",
@@ -76,12 +76,12 @@
     "warrennolan": {
         "current_conf_record": "8-11",
         "elo": "92",
-        "nolan_net": "92",
+        "nolan_net": "94",
         "quadrant_1": "3-10",
         "quadrant_2": "4-5",
-        "quadrant_3": "1-0",
-        "quadrant_4": "7-0",
-        "record": "92",
+        "quadrant_3": "2-0",
+        "quadrant_4": "6-0",
+        "record": "94",
         "rpi": "107"
     }
 }
