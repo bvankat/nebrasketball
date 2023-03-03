@@ -445,6 +445,8 @@
 			
 			// Idea: Add an adjustment for Quad 1 wins and Quad 3/4 losses. 3-4 Q1 wins seems like the high end for 2022 bubble teams. Teams with 3 Q3 losses are very bubbly. Only one team in NET top 70 has more than 1 Q4 loss 
 			
+			// Consider: Adjust for victory/defeat margin within Q1/Q2 games. Nebraska didn't play many good teams close in 2023, lots of blowouts. The predictive metrics did *not* like that. SOR/KPI gave them credit for playing good teams, so there was a 50+ rank difference between the resume and predictive metrics. 
+			
 			total_score = ((net_score * .12) + (espn_sor * .14) + (kpi_score * .14) + (teamrankings_score * .10) + (rpi_score * .10) + (kenpom_score * .10) + (espn_bpi * .10) +  (sagarin_score * .09) + (torvik_score * .09) + intangibles);		 
 			
 			 // next three lines keep gauge score > 3 in the really sad times, uncomment during season
