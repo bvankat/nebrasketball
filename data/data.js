@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "62"
+        "total_brackets": "68"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -29,11 +29,11 @@
         "haslam_rating": "116"
     },
     "kenpom": {
-        "conference_record": "8-12",
-        "overall_record": "15-16",
-        "rating": "98",
-        "record": "15-15",
-        "sos": "12"
+        "conference_record": "9-11",
+        "overall_record": "16-15",
+        "rating": "94",
+        "record": "16-15",
+        "sos": "10"
     },
     "kpi_sports": {
         "kpi_ranking": 72
@@ -63,19 +63,19 @@
         "rank": "95"
     },
     "time": {
-        "time": "Mar. 5, 2023 at 3:08 PM"
+        "time": "Mar. 5, 2023 at 10:02 PM"
     },
     "trank": {
-        "trank": "107",
+        "trank": "104",
         "trank_make_tourney": "0.2",
-        "trank_proj_record": "15-16 (8-12)",
+        "trank_proj_record": "17-15 (9-11)",
         "trank_seed": "NR",
-        "wab_rank": "85",
-        "wab_score": "-2"
+        "wab_rank": "73",
+        "wab_score": "-1.3"
     },
     "warrennolan": {
         "current_conf_record": "9-11",
-        "elo": "73",
+        "elo": "75",
         "nolan_net": "94",
         "quadrant_1": "4-10",
         "quadrant_2": "3-5",
