@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "94"
+        "total_brackets": "107"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -31,7 +31,7 @@
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "16-15",
-        "rating": "94",
+        "rating": "93",
         "record": "16-15",
         "sos": "10"
     },
@@ -63,14 +63,14 @@
         "rank": "88"
     },
     "time": {
-        "time": "Mar. 6, 2023 at 5:44 PM"
+        "time": "Mar. 7, 2023 at 1:20 AM"
     },
     "trank": {
-        "trank": "104",
+        "trank": "103",
         "trank_make_tourney": "0.4",
         "trank_proj_record": "17-15 (9-11)",
         "trank_seed": "NR",
-        "wab_rank": "73",
+        "wab_rank": "71",
         "wab_score": "-1.3"
     },
     "warrennolan": {
@@ -82,6 +82,6 @@
         "quadrant_3": "2-0",
         "quadrant_4": "7-0",
         "record": "92",
-        "rpi": "95"
+        "rpi": "96"
     }
 }
