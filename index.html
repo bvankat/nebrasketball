@@ -34,11 +34,15 @@
 <!-- <script type="text/javascript" src="/data/updates-2023.js"></script> -->
 
 	<style>
+		:root {
+			--red: #eb132f;
+		}
+		
 	    body { font-family: sans-serif; }
 		.container { max-width: 720px; }
  	    h1 { font-family: "factoria", serif; font-weight: 500; text-align: center; }
  	    h2 { font-size: 1.5rem; }
-	    div.jumbotron { color: #fff; background-color: #eb132f; border-radius: 0; padding: 4em 0; margin-bottom: 4em; }
+	    div.jumbotron { color: #fff; background-color: var(--red); border-radius: 0; padding: 4em 0; margin-bottom: 4em; }
 	    .gray {color: #eee; }
 	    th { text-align: left; }
 		.table>:not(caption)>*>* { padding: 0.8rem 0; }
@@ -48,7 +52,9 @@
 			.chart { display: none; }
 		}
 		
-		.footer { background: #fefefe; }
+		div.jumbotron.footer { background: #f5f5f5; margin-bottom: 0; font-size: 14px; color: #ccc; }
+		a { color: #888; }
+		a:hover { color: var(--red); }
 	</style>
 
 
@@ -254,13 +260,18 @@
 	    	
 	    </div>
   	</div>
+	  
+		</div>
   	
-	  <div class="row footer">
+  	<div class="jumbotron footer">
+	  <div class="container">
+	  <div class="row">
   		<p class="small text-muted">Last update: <span id="time"></span></p>
 	  		
   		<p class="small text-muted">Created by <a href="https://twitter.com/bvankat">Ben Vankat</a> / Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / <a href="https://github.com/bvankat/nebrasketball/blob/master/bracket-notes.md">Calculations help</a> / Shout out: <a href="http://brianhelge.com">Brian H.</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a></p>
   		
-  		<p class="small text-muted">Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN 1</a>, <a href="http://www.espn.com/mens-college-basketball/bracketology">ESPN 2</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2023/schedule/Nebraska">Warren Nolan</a>, <a href="http://barttorvik.com/team.php?team=Nebraska">Bart Torvik</a>, <a href="https://faktorsports.com/">KPI</a>, <a href="http://sagarin.com/sports/cbsend.htm">Sagarin</a>, <a href="http://bracketmatrix.com">Bracket Project</a>, <a href="https://www.cbssports.com/college-basketball/bracketology/">CBS Sports</a>, <a href="https://haslametrics.com/ratings.php" target="_blank">Haslametrics</a>, <a href="https://evanmiya.com" target="_blank">Evan Miyakawa</a>, <a href="https://shotquality.com/team-standings" target="_blank">Shot Quality</a>,<a href="https://masseyratings.com/cb/compare.htm" target="_blank">Massey Composite</a></p>		
+  		<p class="small text-muted">Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN 1</a>, <a href="http://www.espn.com/mens-college-basketball/bracketology">ESPN 2</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2023/schedule/Nebraska">Warren Nolan</a>, <a href="http://barttorvik.com/team.php?team=Nebraska">Bart Torvik</a>, <a href="https://faktorsports.com/">KPI</a>, <a href="http://sagarin.com/sports/cbsend.htm">Sagarin</a>, <a href="http://bracketmatrix.com">Bracket Project</a>, <a href="https://www.cbssports.com/college-basketball/bracketology/">CBS Sports</a>, <a href="https://haslametrics.com/ratings.php" target="_blank">Haslametrics</a>, <a href="https://evanmiya.com" target="_blank">Evan Miyakawa</a>, <a href="https://shotquality.com/team-standings" target="_blank">Shot Quality</a>, <a href="https://masseyratings.com/cb/compare.htm" target="_blank">Massey Composite</a></p>	
+	  </div>	
 	  </div>
   	</div>
   	
