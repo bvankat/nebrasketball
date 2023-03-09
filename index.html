@@ -79,7 +79,7 @@
 		  	  
 		  		<div id="chart_div" style="width: 370px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
-		  		<p class="col-sm-12 text-center">Status: <span id="message">Sad Hawkeyes. One win from NIT. Good day.</span></p>
+		  		<p class="col-sm-12 text-center">Status: <span id="message">The one true Nebrasketball outcome.</span></p>
 		  		
 
     
@@ -435,7 +435,7 @@
 			 // TOTAL SCORE FORMULA
 			 
 			 // Manual total during preseason before rankings released
-			 // total_score = 3;
+			 total_score = 0;
 
 			//Current formula, multipliers should add to .98 to keep the gauge happy
 			
@@ -515,10 +515,10 @@
 	
 
 			// NEEDLE BOUNCE DISABLED IN OFFSEASON
-	    	setInterval(function() {
-	          data.setValue(0, 1, total_score-1 + Math.round(1 * Math.random()));
-	          chart.draw(data, options);
-	        }, 300);
+	    	// setInterval(function() {
+	        //  data.setValue(0, 1, total_score-1 + Math.round(1 * Math.random()));
+	        //  chart.draw(data, options);
+	        //}, 300);
 	     
 	     
       	};  // end drawChart()
