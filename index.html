@@ -447,25 +447,25 @@
 			
 			// Consider: Adjust for victory/defeat margin within Q1/Q2 games. Nebraska didn't play many good teams close in 2023, lots of blowouts. The predictive metrics did *not* like that. SOR/KPI gave them credit for playing good teams, so there was a 50+ rank difference between the resume and predictive metrics. 
 			
-			total_score = ((net_score * .12) + (espn_sor * .14) + (kpi_score * .14) + (teamrankings_score * .10) + (rpi_score * .10) + (kenpom_score * .10) + (espn_bpi * .10) +  (sagarin_score * .09) + (torvik_score * .09) + intangibles);		 
+			//total_score = ((net_score * .12) + (espn_sor * .14) + (kpi_score * .14) + (teamrankings_score * .10) + (rpi_score * .10) + (kenpom_score * .10) + (espn_bpi * .10) +  (sagarin_score * .09) + (torvik_score * .09) + intangibles);		 
 			
 			 // next three lines keep gauge score > 3 in the really sad times, uncomment during season
-			 if (total_score <= 2) {
-			 	total_score = 2;
-			 	console.log("Note: Minimum total_score applied");
-			 }
+			 //if (total_score <= 2) {
+			 //	total_score = 2;
+			 //	console.log("Note: Minimum total_score applied");
+			 //}
 			  
 			 
 			 // Manual status updates in offseason
-			function StatusCheck(data) {
-				 var status_message;
-				 if (data < 20) { status_message = "Nope. Not happening." }
-				 if (data >= 20 && data < 45) { status_message = "It's been a minute since the odds were even this high." }
-				 if (data >= 45 && data < 75) { status_message = "These aren't uncharted waters. But they're very lightly charted." }
-				 if (data >= 75) { status_message = "Believe it when we see it." }
-				 
-				 return status_message;	 
-			 }
+			//function StatusCheck(data) {
+			//	 var status_message;
+			//	 if (data < 20) { status_message = "Nope. Not happening." }
+			//	 if (data >= 20 && data < 45) { status_message = "It's been a minute since the odds were even this high." }
+			//	 if (data >= 45 && data < 75) { status_message = "These aren't uncharted waters. But they're very lightly charted." }
+			//	 if (data >= 75) { status_message = "Believe it when we see it." }
+			//	 
+			//	 return status_message;	 
+			// }
 			 
 			 	// Three lines below can automate the status updates based on the total_score. Uncomment to automate. Otherwise, manual status updates are required.
 				 
