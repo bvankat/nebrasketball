@@ -19,4 +19,4 @@ The odds machine calculates the *current* odds of getting an at-large selection.
 
 [Here's a collection](bracket-notes.md) of notes and links related to the selection committee's process and trends. These ideas are the basis for the odds machine's algorithm. 
 
-(And that list is also probably the best roundup of the publicly available analysis on how the committee has made decisions in recent years. The internet has plenty of "Which bracketologist got more picks correct?" recaps, but not much for grading  whether "bubble teams" actually got picked.)
+That list is also probably the best roundup of the analysis on how the NCAA selection committee has made decisions in recent years. The internet has plenty of "Which bracketologist got more picks correct?" recaps, but not much for grading whether the "bubble teams" actually got picked.
