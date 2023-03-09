@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "94"
+        "total_brackets": "99"
     },
     "cbs": {
         "cbs_rank": "NR"
@@ -23,20 +23,20 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "101"
+        "miya_rating": "105"
     },
     "haslametrics": {
-        "haslam_rating": "106"
+        "haslam_rating": "111"
     },
     "kenpom": {
         "conference_record": "9-11",
-        "overall_record": "16-15",
+        "overall_record": "16-16",
         "rating": "95",
         "record": "16-16",
         "sos": "12"
     },
     "kpi_sports": {
-        "kpi_ranking": 67
+        "kpi_ranking": 74
     },
     "massey_composite": {
         "massey_rank": "89"
@@ -49,25 +49,25 @@
         "coaches_rank": "NR"
     },
     "sagarin": {
-        "sagarin_rate": "88"
+        "sagarin_rate": "89"
     },
     "shot_quality": {
         "sq_ranking": 74
     },
     "teamrankings": {
-        "make_tournament": "1.5%",
-        "most_likely_seed": "12",
+        "make_tournament": "0.0%",
+        "most_likely_seed": "NR",
         "proj_conf_record": "9.0-11.0",
-        "projected_losses": "15.0",
+        "projected_losses": "16.0",
         "projected_wins": "16.0",
-        "rank": "88"
+        "rank": "91"
     },
     "time": {
-        "time": "Mar. 8, 2023 at 11:35 PM"
+        "time": "Mar. 9, 2023 at 9:44 AM"
     },
     "trank": {
         "trank": "105",
-        "trank_make_tourney": "0.4",
+        "trank_make_tourney": "0",
         "trank_proj_record": "16-16 (9-11)",
         "trank_seed": "NR",
         "wab_rank": "87",
