@@ -63,15 +63,15 @@
         "rank": "88"
     },
     "time": {
-        "time": "Mar. 8, 2023 at 10:57 PM"
+        "time": "Mar. 8, 2023 at 11:35 PM"
     },
     "trank": {
-        "trank": "103",
+        "trank": "105",
         "trank_make_tourney": "0.4",
-        "trank_proj_record": "17-15 (9-11)",
+        "trank_proj_record": "16-16 (9-11)",
         "trank_seed": "NR",
-        "wab_rank": "71",
-        "wab_score": "-1.4"
+        "wab_rank": "87",
+        "wab_score": "-2.3"
     },
     "warrennolan": {
         "current_conf_record": "9-11",
