@@ -14328,6 +14328,93 @@
             "time": {
                 "time": "Mar. 9, 2023 at 9:44 AM"
             }
+        },
+        {
+            "kenpom": {
+                "rating": "95",
+                "record": "16-16",
+                "sos": "16",
+                "overall_record": "16-16",
+                "conference_record": "9-11"
+            },
+            "evanmiya": {
+                "miya_rating": "105"
+            },
+            "ncaa": {
+                "net_rank": "93"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "teamrankings": {
+                "make_tournament": "0.0%",
+                "most_likely_seed": "NR",
+                "rank": "93",
+                "projected_wins": "16.0",
+                "projected_losses": "16.0",
+                "proj_conf_record": "9.0-11.0"
+            },
+            "espn": {
+                "bpi": 109.0,
+                "seven_day_change": "3rd",
+                "proj_tourney_seed": "NR",
+                "proj_win_loss_overall": "16.0-16.0",
+                "proj_win_loss_conf": "9.0-11.0",
+                "sor": 66.0,
+                "sos": 13.0,
+                "chance_sweet_16": "0.0%",
+                "chance_round_32": "0.0%",
+                "projected_tournament_order": 83.0
+            },
+            "espn_bracketology": {
+                "seed": "NR"
+            },
+            "warrennolan": {
+                "record": "93",
+                "current_conf_record": "9-11",
+                "rpi": "117",
+                "elo": "97",
+                "quadrant_1": "4-10",
+                "quadrant_2": "3-5",
+                "quadrant_3": "2-0",
+                "quadrant_4": "7-1",
+                "nolan_net": "93"
+            },
+            "trank": {
+                "trank": "105",
+                "trank_proj_record": "16-16 (9-11)",
+                "trank_seed": "NR",
+                "trank_make_tourney": "0",
+                "wab_score": "-2.3",
+                "wab_rank": "83"
+            },
+            "cbs": {
+                "cbs_rank": "NR"
+            },
+            "sagarin": {
+                "sagarin_rate": "89"
+            },
+            "haslametrics": {
+                "haslam_rating": "111"
+            },
+            "kpi_sports": {
+                "kpi_ranking": 75
+            },
+            "shot_quality": {
+                "sq_ranking": 73
+            },
+            "bracketproject": {
+                "matrix_count": 0,
+                "total_brackets": "118",
+                "matrix_seed": "NR"
+            },
+            "massey_composite": {
+                "massey_rank": "89"
+            },
+            "time": {
+                "time": "Mar. 11, 2023 at 6:53 PM"
+            }
         }
     ]
 }
