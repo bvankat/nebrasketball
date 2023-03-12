@@ -2,22 +2,22 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "NR",
-        "total_brackets": "118"
+        "total_brackets": "112"
     },
     "cbs": {
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": 109.0,
-        "chance_round_32": "0.0%",
+        "bpi": 106.0,
+        "chance_round_32": "0.1%",
         "chance_sweet_16": "0.0%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "9.0-11.0",
         "proj_win_loss_overall": "16.0-16.0",
-        "projected_tournament_order": 83.0,
-        "seven_day_change": "3rd",
-        "sor": 66.0,
-        "sos": 13.0
+        "projected_tournament_order": 82.0,
+        "seven_day_change": "7th",
+        "sor": 65.0,
+        "sos": 14.0
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -33,7 +33,7 @@
         "overall_record": "16-16",
         "rating": "95",
         "record": "16-16",
-        "sos": "16"
+        "sos": "15"
     },
     "kpi_sports": {
         "kpi_ranking": 75
@@ -42,7 +42,7 @@
         "massey_rank": "89"
     },
     "ncaa": {
-        "net_rank": "93"
+        "net_rank": "92"
     },
     "polls": {
         "ap_rank": "NR",
@@ -52,7 +52,7 @@
         "sagarin_rate": "89"
     },
     "shot_quality": {
-        "sq_ranking": 73
+        "sq_ranking": 74
     },
     "teamrankings": {
         "make_tournament": "0.0%",
@@ -60,10 +60,10 @@
         "proj_conf_record": "9.0-11.0",
         "projected_losses": "16.0",
         "projected_wins": "16.0",
-        "rank": "93"
+        "rank": "92"
     },
     "time": {
-        "time": "Mar. 11, 2023 at 6:53 PM"
+        "time": "Mar. 12, 2023 at 1:47 PM"
     },
     "trank": {
         "trank": "105",
@@ -71,17 +71,17 @@
         "trank_proj_record": "16-16 (9-11)",
         "trank_seed": "NR",
         "wab_rank": "83",
-        "wab_score": "-2.3"
+        "wab_score": "-2.2"
     },
     "warrennolan": {
         "current_conf_record": "9-11",
-        "elo": "97",
-        "nolan_net": "93",
-        "quadrant_1": "4-10",
-        "quadrant_2": "3-5",
+        "elo": "96",
+        "nolan_net": "92",
+        "quadrant_1": "3-10",
+        "quadrant_2": "4-5",
         "quadrant_3": "2-0",
         "quadrant_4": "7-1",
-        "record": "93",
+        "record": "92",
         "rpi": "117"
     }
 }
