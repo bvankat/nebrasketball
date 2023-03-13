@@ -32,7 +32,6 @@
             "type": "image/png"
         }
     ],
-    "background_color": "#eb132f",
     "display": "minimal-ui",
     "orientation": "portrait"
 }
