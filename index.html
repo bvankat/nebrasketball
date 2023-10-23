@@ -422,15 +422,17 @@
 			 // 20 at large bids with NET/RPI above 60 
 
 			 
-			 kenpom_score = FindScore(data.kenpom.rating);
-			 if( data.ncaa ) {  net_score = FindScore(data.ncaa.net_rank); }
-			 espn_sor = FindScore(parseInt(data.espn.sor)); // SOR is stronger predictor than BPI. Note: Preseason SOR is 1. That skews the gauge.
-			 espn_bpi = FindScore(parseInt(data.espn.bpi)); 
-			 teamrankings_score = parseInt(data.teamrankings.make_tournament); // This one's already a % score
-			 sagarin_score = FindScore(data.sagarin.sagarin_rate);
-			 torvik_score = parseInt(data.trank.trank_make_tourney);
-			 kpi_score = FindScore(data.kpi_sports.kpi_ranking);
-			 rpi_score = FindScore(data.warrennolan.rpi);
+			 if( data.kenpom) { kenpom_score = FindScore(data.kenpom.rating); }
+			 if( data.ncaa ) { net_score = FindScore(data.ncaa.net_rank); }
+			 if( data.espn ) { 
+				 espn_sor = FindScore(parseInt(data.espn.sor));  // SOR is stronger predictor than BPI. Note: Preseason SOR is 1. That skews the gauge.
+			 	espn_bpi = FindScore(parseInt(data.espn.bpi)); 
+			}
+			 if(data.teamrankings ) { teamrankings_score = parseInt(data.teamrankings.make_tournament); } // This one's already a % score
+			 if( data.sagarin ) { sagarin_score = FindScore(data.sagarin.sagarin_rate); }
+			 if( data.trank ) { torvik_score = parseInt(data.trank.trank_make_tourney); }
+			 if( data.kpi_sports ) { kpi_score = FindScore(data.kpi_sports.kpi_ranking); }
+			 if (data.warrennolan ) { rpi_score = FindScore(data.warrennolan.rpi); }
 			 
 			 
 			 // Intangibles: Don't think any of the systems has a way to value injuries and/or hype, so we need to add it. Check out sports-reference Win Shares, perhaps, for injuries data points. 
