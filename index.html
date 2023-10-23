@@ -441,7 +441,7 @@
 			 // TOTAL SCORE FORMULA
 			 
 			 // Manual total during preseason before rankings released
-			 total_score = 0;
+			 total_score = 6;
 
 			//Current formula, multipliers should add to .98 to keep the gauge happy
 			
@@ -456,10 +456,10 @@
 			//total_score = ((net_score * .12) + (espn_sor * .14) + (kpi_score * .14) + (teamrankings_score * .10) + (rpi_score * .10) + (kenpom_score * .10) + (espn_bpi * .10) +  (sagarin_score * .09) + (torvik_score * .09) + intangibles);		 
 			
 			 // next three lines keep gauge score > 3 in the really sad times, uncomment during season
-			 //if (total_score <= 2) {
-			 //	total_score = 2;
-			 //	console.log("Note: Minimum total_score applied");
-			 //}
+			 if (total_score <= 2) {
+			 	total_score = 2;
+			 	console.log("Note: Minimum total_score applied");
+			 }
 			  
 			 
 			 // Manual status updates in offseason
@@ -521,10 +521,10 @@
 	
 
 			// NEEDLE BOUNCE DISABLED IN OFFSEASON
-	    	// setInterval(function() {
-	        //  data.setValue(0, 1, total_score-1 + Math.round(1 * Math.random()));
-	        //  chart.draw(data, options);
-	        //}, 300);
+	    	 setInterval(function() {
+	          data.setValue(0, 1, total_score-1 + Math.round(1 * Math.random()));
+	          chart.draw(data, options);
+	          }, 300);
 	     
 	     
       	};  // end drawChart()
