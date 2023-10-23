@@ -423,7 +423,7 @@
 
 			 
 			 kenpom_score = FindScore(data.kenpom.rating);
-			 net_score = FindScore(data.ncaa.net_rank);
+			 if( data.ncaa ) {  net_score = FindScore(data.ncaa.net_rank); }
 			 espn_sor = FindScore(parseInt(data.espn.sor)); // SOR is stronger predictor than BPI. Note: Preseason SOR is 1. That skews the gauge.
 			 espn_bpi = FindScore(parseInt(data.espn.bpi)); 
 			 teamrankings_score = parseInt(data.teamrankings.make_tournament); // This one's already a % score
