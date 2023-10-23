@@ -7,7 +7,7 @@
     },
     "kenpom": {
         "conference_record": "9-11",
-        "overall_record": "16-16",
+        "overall_record": "17-14",
         "rating": "58",
         "record": "0-0",
         "sos": "1"
@@ -17,14 +17,14 @@
         "coaches_rank": "NR"
     },
     "time": {
-        "time": "Oct. 23, 2023 at 9:35 AM"
+        "time": "Oct. 23, 2023 at 10:31 AM"
     },
     "trank": {
-        "trank": "94",
+        "trank": "47",
         "trank_make_tourney": "46.6",
-        "trank_proj_record": "16-16 (9-11)",
+        "trank_proj_record": "19-12 (10-10)",
         "trank_seed": "11",
-        "wab_rank": "340",
-        "wab_score": "43.6"
+        "wab_rank": "NA",
+        "wab_score": "NA"
     }
 }
