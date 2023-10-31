@@ -25,7 +25,7 @@
         "ranking": "199"
     },
     "time": {
-        "time": "Oct. 31, 2023 at 2:12 AM"
+        "time": "Oct. 31, 2023 at 2:15 AM"
     },
     "trank": {
         "trank": "47",
