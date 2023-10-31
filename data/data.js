@@ -19,8 +19,12 @@
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
+    "seven_overtimes": {
+        "projected_conf_record": "10-10",
+        "projected_record": "16-15"
+    },
     "time": {
-        "time": "Oct. 30, 2023 at 11:36 PM"
+        "time": "Oct. 31, 2023 at 12:39 AM"
     },
     "trank": {
         "trank": "47",
