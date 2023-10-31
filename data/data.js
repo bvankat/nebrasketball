@@ -3,7 +3,7 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "65"
+        "miya_rating": "66"
     },
     "haslametrics": {
         "haslam_rating": "78"
@@ -20,7 +20,7 @@
         "coaches_rank": "NR"
     },
     "time": {
-        "time": "Oct. 30, 2023 at 1:00 PM"
+        "time": "Oct. 30, 2023 at 11:32 PM"
     },
     "trank": {
         "trank": "47",
