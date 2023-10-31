@@ -21,10 +21,11 @@
     },
     "seven_overtimes": {
         "projected_conf_record": "10-10",
-        "projected_record": "16-15"
+        "projected_record": "16-15",
+        "ranking": "199"
     },
     "time": {
-        "time": "Oct. 31, 2023 at 12:39 AM"
+        "time": "Oct. 31, 2023 at 12:40 AM"
     },
     "trank": {
         "trank": "47",
