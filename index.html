@@ -136,7 +136,7 @@
 			    	
 			    	<tr><td>RPI</td><td id="nolan-rpi" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>ELO rank</td><td id="nolan-elo" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>Massey Composite</td><td id="massey-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>Massey Rating</td><td id="massey-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
 		    	
 					<tr><td>TeamRankings.com</td><td id="teamrankings-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
 					<tr><td>Wins Above Bubble</td><td class="text-end"><span id="wab-score" class="small text-muted"> </span><span id="wab-rank"></span></td></tr>
@@ -397,8 +397,8 @@
 				document.getElementById('cbs-bracket').innerHTML = data.cbs.cbs_rank;
 			}
 			
-			if ( data.massey_composite ) {
-				document.getElementById('massey-rank').innerHTML = data.massey_composite.massey_rank;
+			if ( data.massey_ratings ) {
+				document.getElementById('massey-rank').innerHTML = data.massey_ratings.massey_rank;
 			}
 			
 			document.getElementById('time').innerHTML = data.time.time;
