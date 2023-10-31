@@ -144,6 +144,8 @@
 			    	<tr><td>Evan Miyakawa</td><td id="miya-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>Shot Quality</td><td id="sq-ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
 					<tr>
+			    	<tr><td>Seven Overtimes</td><td id="7ot-ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					<tr>
 						<td>AP Poll</td>
 						<td class="text-end"><span id="ap-rank"><span class="small text-muted">NA</span></span></td>
 					</tr>
@@ -245,6 +247,8 @@
 					
 					<tr><td>Kenpom</td><td class="text-end"><span id="kenpom-overall"></span> (<span id="kenpom-conference"></span>)</td><td class="text-end"><span class="small text-muted">NA</span></td></tr>
 				    
+					<tr><td>Seven Overtimes</td><td class="text-end"><span id="7ot-overall"></span> (<span id="7ot-conference"></span>)</td><td class="text-end"><span class="small text-muted">NA</span></td></tr>
+				    
 				    <tr><td>ESPN - Lunardi Bracketology</td><td class="text-end small text-muted">NA</td><td class="text-end"><span id="espn-bracketology-seed"><span class="small text-muted">NA</span></span></td></tr>
 					
 					<tr><td>CBS Sports - Jerry Palm Bracketology</td><td class="text-end small text-muted">NA</td><td class="text-end"><span id="cbs-bracket"><span class="small text-muted">NA</span></span></td></tr>
@@ -270,7 +274,7 @@
 	  		
   		<p class="small text-muted">Created by <a href="https://twitter.com/bvankat">Ben Vankat</a> / Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / <a href="https://github.com/bvankat/nebrasketball/blob/master/bracket-notes.md">Calculations help</a> / Shout out: <a href="http://brianhelge.com">Brian H.</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a></p>
   		
-  		<p class="small text-muted">Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN BPI/SOR</a>, <a href="https://www.espn.com/espn/feature/story/_/page/bracketology/ncaa-bracketology-2024-march-madness-men-field-predictions">ESPN Bracketology</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2023/schedule/Nebraska">Warren Nolan</a>, <a href="http://barttorvik.com/team.php?team=Nebraska">Bart Torvik</a>, <a href="https://faktorsports.com/">KPI</a>, <a href="http://sagarin.com/sports/cbsend.htm">Sagarin</a>, <a href="http://bracketmatrix.com">Bracket Project</a>, <a href="https://www.cbssports.com/college-basketball/bracketology/">CBS Sports</a>, <a href="https://haslametrics.com/ratings.php" target="_blank">Haslametrics</a>, <a href="https://evanmiya.com" target="_blank">Evan Miyakawa</a>, <a href="https://shotquality.com/team-standings" target="_blank">Shot Quality</a>, <a href="https://masseyratings.com/cb/ncaa-d1/ratings" target="_blank">Massey Composite</a></p>	
+  		<p class="small text-muted">Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN BPI/SOR</a>, <a href="https://www.espn.com/espn/feature/story/_/page/bracketology/ncaa-bracketology-2024-march-madness-men-field-predictions">ESPN Bracketology</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2023/schedule/Nebraska">Warren Nolan</a>, <a href="http://barttorvik.com/team.php?team=Nebraska">Bart Torvik</a>, <a href="https://faktorsports.com/">KPI</a>, <a href="http://sagarin.com/sports/cbsend.htm">Sagarin</a>, <a href="http://bracketmatrix.com">Bracket Project</a>, <a href="https://www.cbssports.com/college-basketball/bracketology/">CBS Sports</a>, <a href="https://haslametrics.com/ratings.php" target="_blank">Haslametrics</a>, <a href="https://evanmiya.com" target="_blank">Evan Miyakawa</a>, <a href="https://shotquality.com/team-standings" target="_blank">Shot Quality</a>, <a href="https://masseyratings.com/cb/ncaa-d1/ratings" target="_blank">Massey Ratings</a>, <a href="http://sevenovertimes.com/teamsummary.php?teamid=158&season=2024" target="_blank">Seven Overtimes</a></p>	
 	  </div>	
 	  </div>
   	</div>
@@ -360,6 +364,12 @@
 			
 			if ( data.shot_quality ) {
 				document.getElementById('sq-ranking').innerHTML = data.shot_quality.sq_ranking;
+			}
+			
+			if ( data.seven_overtimes ) {
+				document.getElementById('7ot-ranking').innerHTML = data.seven_overtimes.ranking;
+				document.getElementById('7ot-overall').innerHTML = data.seven_overtimes.projected_record;
+				document.getElementById('7ot-conference').innerHTML = data.seven_overtimes.projected_conf_record;
 			}
 			
 			document.getElementById('trank-make-tourney').innerHTML = trank_tourney_pct;
