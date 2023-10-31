@@ -15,9 +15,6 @@
         "record": "0-0",
         "sos": "1"
     },
-    "massey_ratings": {
-        "massey_rank": "84"
-    },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
@@ -28,7 +25,7 @@
         "ranking": "199"
     },
     "time": {
-        "time": "Oct. 31, 2023 at 1:12 AM"
+        "time": "Oct. 31, 2023 at 2:12 AM"
     },
     "trank": {
         "trank": "47",
