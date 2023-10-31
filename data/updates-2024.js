@@ -204,6 +204,50 @@
             "time": {
                 "time": "Oct. 30, 2023 at 11:32 PM"
             }
+        },
+        {
+            "kenpom": {
+                "rating": "58",
+                "record": "0-0",
+                "sos": "1",
+                "overall_record": "17-14",
+                "conference_record": "9-11"
+            },
+            "evanmiya": {
+                "miya_rating": "66"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "espn_bracketology": {
+                "seed": "NR"
+            },
+            "warrennolan": {
+                "record": "92",
+                "current_conf_record": "0-0",
+                "rpi": "1",
+                "elo": "99",
+                "quadrant_1": "0-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "0-0",
+                "nolan_net": "92"
+            },
+            "trank": {
+                "trank": "47",
+                "trank_proj_record": "19-12 (10-10)",
+                "trank_seed": "11",
+                "trank_make_tourney": "47.6",
+                "wab_score": "NA",
+                "wab_rank": "NA"
+            },
+            "haslametrics": {
+                "haslam_rating": "78"
+            },
+            "time": {
+                "time": "Oct. 30, 2023 at 11:36 PM"
+            }
         }
     ]
 }

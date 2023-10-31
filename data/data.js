@@ -20,7 +20,7 @@
         "coaches_rank": "NR"
     },
     "time": {
-        "time": "Oct. 30, 2023 at 11:32 PM"
+        "time": "Oct. 30, 2023 at 11:36 PM"
     },
     "trank": {
         "trank": "47",
