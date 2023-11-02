@@ -3,7 +3,7 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "66"
+        "miya_rating": "67"
     },
     "haslametrics": {
         "haslam_rating": "78"
@@ -15,21 +15,19 @@
         "record": "0-0",
         "sos": "1"
     },
+    "massey_ratings": {
+        "massey_rank": "80"
+    },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
-    "seven_overtimes": {
-        "projected_conf_record": "10-10",
-        "projected_record": "16-15",
-        "ranking": "199"
-    },
     "time": {
-        "time": "Oct. 31, 2023 at 2:27 AM"
+        "time": "Nov. 2, 2023 at 11:17 AM"
     },
     "trank": {
         "trank": "47",
-        "trank_make_tourney": "47.6",
+        "trank_make_tourney": "49",
         "trank_proj_record": "19-12 (10-10)",
         "trank_seed": "11",
         "wab_rank": "NA",
