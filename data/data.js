@@ -1,4 +1,16 @@
 {
+    "espn": {
+        "bpi": 53.0,
+        "chance_round_32": "10.4%",
+        "chance_sweet_16": "4.4%",
+        "proj_tourney_seed": "NR",
+        "proj_win_loss_conf": "9.5-10.5",
+        "proj_win_loss_overall": "18.3-12.7",
+        "projected_tournament_order": "",
+        "seven_day_change": "",
+        "sor": 1.0,
+        "sos": 1.0
+    },
     "espn_bracketology": {
         "seed": "NR"
     },
@@ -23,7 +35,7 @@
         "coaches_rank": "NR"
     },
     "time": {
-        "time": "Nov. 2, 2023 at 11:17 AM"
+        "time": "Nov. 2, 2023 at 5:02 PM"
     },
     "trank": {
         "trank": "47",
