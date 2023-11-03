@@ -1,4 +1,7 @@
 {
+    "cbs": {
+        "cbs_rank": "NR"
+    },
     "espn": {
         "bpi": 53.0,
         "chance_round_32": "10.4%",
@@ -43,7 +46,7 @@
         "rank": "67"
     },
     "time": {
-        "time": "Nov. 3, 2023 at 10:07 AM"
+        "time": "Nov. 3, 2023 at 10:21 AM"
     },
     "trank": {
         "torvik_NET": "52",
