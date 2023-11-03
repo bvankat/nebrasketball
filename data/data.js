@@ -37,6 +37,11 @@
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
+    "seven_overtimes": {
+        "projected_conf_record": "10-10",
+        "projected_record": "16-15",
+        "ranking": "199"
+    },
     "teamrankings": {
         "make_tournament": "22.8%",
         "most_likely_seed": "10",
@@ -46,7 +51,7 @@
         "rank": "67"
     },
     "time": {
-        "time": "Nov. 3, 2023 at 10:21 AM"
+        "time": "Nov. 3, 2023 at 5:03 PM"
     },
     "trank": {
         "torvik_NET": "52",
