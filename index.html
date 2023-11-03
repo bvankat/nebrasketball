@@ -113,15 +113,14 @@
 		    	</thead>
 		    	
 		    	<tbody>
-			    	<tr><td>NCAA NET</td><td class="chart" id="net-chart"></td><td id="ncaa-net" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>NCAA NET <span style="font-size: 10px;"><a href="#footnotes">[1]</a></span></td><td class="chart" id="net-chart"></td><td id="ncaa-net" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>KPI</td><td class="chart" id="kpi-chart"></td><td id="kpi_ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>ESPN SOR</td><td class="chart" id="sor-chart"></td><td id="espn-sor" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>ESPN BPI</td><td class="chart" id="bpi-chart"></td><td id="espn-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>Kenpom</i></td><td class="chart" id="kenpom-chart"></td><td id="kenpom-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>Sagarin</td><td class="chart" id="sagarin-chart"></td><td id="sagarin" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	</tbody>
-	    	</table>
-	    	
+	    	</table>	    	
 	    	
 	    				<br /><br />
 			
@@ -273,6 +272,9 @@
   		<p class="small text-muted">Last update: <span id="time"></span></p>
 	  		
   		<p class="small text-muted">Created by <a href="https://twitter.com/bvankat">Ben Vankat</a> / Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / <a href="https://github.com/bvankat/nebrasketball/blob/master/bracket-notes.md">Calculations help</a> / Shout out: <a href="http://brianhelge.com">Brian H.</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a></p>
+		  
+		 <p class="small text-muted"><a name="footnotes"></a>Footnotes [1] Using Torvik projected NET rating until early December</p>
+
   		
   		<p class="small text-muted">Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN BPI/SOR</a>, <a href="https://www.espn.com/espn/feature/story/_/page/bracketology/ncaa-bracketology-2024-march-madness-men-field-predictions">ESPN Bracketology</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2023/schedule/Nebraska">Warren Nolan</a>, <a href="http://barttorvik.com/team.php?team=Nebraska">Bart Torvik</a>, <a href="https://faktorsports.com/">KPI</a>, <a href="http://sagarin.com/sports/cbsend.htm">Sagarin</a>, <a href="http://bracketmatrix.com">Bracket Project</a>, <a href="https://www.cbssports.com/college-basketball/bracketology/">CBS Sports</a>, <a href="https://haslametrics.com/ratings.php" target="_blank">Haslametrics</a>, <a href="https://evanmiya.com" target="_blank">Evan Miyakawa</a>, <a href="https://shotquality.com/team-standings" target="_blank">Shot Quality</a>, <a href="https://masseyratings.com/ranks?s=cb" target="_blank">Massey Composite Ratings</a>, <a href="http://sevenovertimes.com/teamsummary.php?teamid=158&season=2024" target="_blank">Seven Overtimes</a></p>	
 	  </div>	
@@ -294,9 +296,10 @@
 			
 			// replace this with NCAA when real NET is released. Nolan is approxiation, but calculated earlier in season
 			// Nolan NET might be sketchy? As of Dec. 5, 2022, doesn't seem like it's getting updates. Review for next year.
-			if ( data.ncaa ) {  
-				document.getElementById('ncaa-net').innerHTML = data.ncaa.net_rank; 
-				document.getElementById('ncaa-net2').innerHTML = data.ncaa.net_rank; 
+			// Using Torvik NET Forecast as of Nov. 2023 - https://barttorvik.com/net4cast.php
+			if ( data.trank ) {  
+				document.getElementById('ncaa-net').innerHTML = data.trank.torvik_NET; 
+				document.getElementById('ncaa-net2').innerHTML = data.trank.torvik_NET; 
 			}	
 			
 			if ( data.kenpom ) {
