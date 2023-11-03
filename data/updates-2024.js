@@ -761,6 +761,73 @@
             "time": {
                 "time": "Nov. 3, 2023 at 9:31 AM"
             }
+        },
+        {
+            "kenpom": {
+                "rating": "58",
+                "record": "0-0",
+                "sos": "1",
+                "overall_record": "17-14",
+                "conference_record": "9-11"
+            },
+            "evanmiya": {
+                "miya_rating": "66"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "teamrankings": {
+                "make_tournament": "22.8%",
+                "most_likely_seed": "10",
+                "rank": "67",
+                "projected_wins": "16",
+                "projected_losses": "16",
+                "proj_conf_record": "8.1-11.9"
+            },
+            "espn": {
+                "bpi": 53.0,
+                "seven_day_change": "",
+                "proj_tourney_seed": "NR",
+                "proj_win_loss_overall": "18.3-12.7",
+                "proj_win_loss_conf": "9.5-10.5",
+                "sor": 1.0,
+                "sos": 1.0,
+                "chance_sweet_16": "4.4%",
+                "chance_round_32": "10.4%",
+                "projected_tournament_order": ""
+            },
+            "espn_bracketology": {
+                "seed": "NR"
+            },
+            "warrennolan": {
+                "record": "92",
+                "current_conf_record": "0-0",
+                "rpi": "1",
+                "elo": "99",
+                "quadrant_1": "0-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "0-0",
+                "nolan_net": "92"
+            },
+            "trank": {
+                "trank": "47",
+                "trank_proj_record": "19-12 (10-10)",
+                "trank_seed": "11",
+                "trank_make_tourney": "49.4",
+                "wab_score": "NA",
+                "wab_rank": "NA"
+            },
+            "haslametrics": {
+                "haslam_rating": "78"
+            },
+            "massey_ratings": {
+                "massey_rank": "80"
+            },
+            "time": {
+                "time": "Nov. 3, 2023 at 9:32 AM"
+            }
         }
     ]
 }

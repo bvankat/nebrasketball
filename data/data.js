@@ -34,8 +34,16 @@
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
+    "teamrankings": {
+        "make_tournament": "22.8%",
+        "most_likely_seed": "10",
+        "proj_conf_record": "8.1-11.9",
+        "projected_losses": "16",
+        "projected_wins": "16",
+        "rank": "67"
+    },
     "time": {
-        "time": "Nov. 3, 2023 at 9:31 AM"
+        "time": "Nov. 3, 2023 at 9:32 AM"
     },
     "trank": {
         "trank": "47",
