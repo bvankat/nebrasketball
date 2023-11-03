@@ -43,10 +43,11 @@
         "rank": "67"
     },
     "time": {
-        "time": "Nov. 3, 2023 at 9:34 AM"
+        "time": "Nov. 3, 2023 at 10:07 AM"
     },
     "trank": {
-        "trank": "47",
+        "torvik_NET": "52",
+        "trank": "45",
         "trank_make_tourney": "49.4",
         "trank_proj_record": "19-12 (10-10)",
         "trank_seed": "11",
