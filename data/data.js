@@ -15,7 +15,7 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "67"
+        "miya_rating": "66"
     },
     "haslametrics": {
         "haslam_rating": "78"
@@ -35,11 +35,11 @@
         "coaches_rank": "NR"
     },
     "time": {
-        "time": "Nov. 2, 2023 at 5:02 PM"
+        "time": "Nov. 3, 2023 at 9:31 AM"
     },
     "trank": {
         "trank": "47",
-        "trank_make_tourney": "49",
+        "trank_make_tourney": "49.4",
         "trank_proj_record": "19-12 (10-10)",
         "trank_seed": "11",
         "wab_rank": "NA",
