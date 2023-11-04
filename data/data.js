@@ -43,15 +43,15 @@
         "ranking": "199"
     },
     "teamrankings": {
-        "make_tournament": "22.8%",
-        "most_likely_seed": "10",
-        "proj_conf_record": "8.1-11.9",
-        "projected_losses": "14.3",
-        "projected_wins": "16.7",
+        "make_tournament": "20.1%",
+        "most_likely_seed": "9",
+        "proj_conf_record": "8.0-12.0",
+        "projected_losses": "14.4",
+        "projected_wins": "16.6",
         "rank": "67"
     },
     "time": {
-        "time": "Nov. 3, 2023 at 5:03 PM"
+        "time": "Nov. 3, 2023 at 9:56 PM"
     },
     "trank": {
         "torvik_NET": "52",
