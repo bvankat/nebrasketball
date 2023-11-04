@@ -503,17 +503,17 @@
 			
 			 // Note from KPI: Selections have trended toward using results-based metrics - "Who's resume is better?". Predictive metrics help more with seeding - "Who would win between these two?".
 			 
-			 console.log("NCAA NET: " + net_score);
-			 console.log("ESPN SOR score (results-based): " + espn_sor);
-			 // console.log("KPI score (results-based): " + kpi_score );
-			 console.log("TeamRankings (results-based): " + teamrankings_score);
-			 console.log("RPI score (results-based): " + rpi_score);
-			 console.log("ESPN BPI score (predictive): " + espn_bpi);
-			 console.log("Kenpom score (predictive): " + espn_bpi);
-			 // console.log("Sagarin score (predictive): " + sagarin_score);
-			 console.log("Torvik score (predictive): " + torvik_score);
-			 console.log("Intangibles: " + intangibles + " (" + intangibles_msg + ")");
-			 console.log("Total score: " + total_score);
+			if (net_score) { console.log("NCAA NET: " + net_score); }
+			if (espn_sor) { console.log("ESPN SOR score (results-based): " + espn_sor); }
+			if (kpi_score) { console.log("KPI score (results-based): " + kpi_score ); }
+			if (teamrankings_score) { console.log("TeamRankings (results-based): " + teamrankings_score); }
+			if (rpi_score) { console.log("RPI score (results-based): " + rpi_score); }
+			if (espn_bpi) { console.log("ESPN BPI score (predictive): " + espn_bpi); }
+			if (kenpom_score) { console.log("Kenpom score (predictive): " + kenpom_score); }
+			if (sagarin_score) { console.log("Sagarin score (predictive): " + sagarin_score); }
+			if (torvik_score) { console.log("Torvik score (predictive): " + torvik_score); }
+			console.log("Intangibles: " + intangibles + " (" + intangibles_msg + ")");
+			console.log("Total score: " + total_score);
 
 	
 		google.charts.load('current', {'packages':['gauge']});
