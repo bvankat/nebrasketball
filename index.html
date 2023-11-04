@@ -436,7 +436,11 @@
 
 			 
 			 if( data.kenpom) { kenpom_score = FindScore(data.kenpom.rating); }
-			 if( data.ncaa ) { net_score = FindScore(data.ncaa.net_rank); }
+			 if( data.ncaa ) { 
+				 net_score = FindScore(data.ncaa.net_rank); 
+			 } else if ( data.trank.torvik_NET ) {
+				 net_score = FindScore(data.trank.torvik_NET); 
+			 }
 			 if( data.espn ) { 
 				 espn_sor = FindScore(parseInt(data.espn.sor));  // SOR is stronger predictor than BPI. Note: Preseason SOR is 1. That skews the gauge.
 			 	espn_bpi = FindScore(parseInt(data.espn.bpi)); 
@@ -477,7 +481,7 @@
 			 }
 			  
 			 
-			 // Manual status updates in offseason
+			// Manual status updates in offseason
 			//function StatusCheck(data) {
 			//	 var status_message;
 			//	 if (data < 20) { status_message = "Nope. Not happening." }
@@ -497,15 +501,15 @@
 			
 			 // Note from KPI: Selections have trended toward using results-based metrics - "Who's resume is better?". Predictive metrics help more with seeding - "Who would win between these two?".
 			 
-			 // console.log("NCAA NET: " + net_score + "    (14%)");
-			 // console.log("ESPN SOR score (results-based): " + espn_sor + "    (14%)");
+			 console.log("NCAA NET: " + net_score + "    (14%)");
+			 console.log("ESPN SOR score (results-based): " + espn_sor + "    (14%)");
 			 // console.log("KPI score (results-based): " + kpi_score + "    (14%)");
-			 // console.log("TeamRankings (results-based): " + teamrankings_score + "    (12%)");
-			 // console.log("RPI score (results-based): " + rpi_score + "    (10%)");
-			 // console.log("ESPN BPI score (predictive): " + espn_bpi + "    (08%)");
-			 // console.log("Kenpom score (predictive): " + espn_bpi + "    (08%)");
+			 console.log("TeamRankings (results-based): " + teamrankings_score + "    (12%)");
+			 console.log("RPI score (results-based): " + rpi_score + "    (10%)");
+			 console.log("ESPN BPI score (predictive): " + espn_bpi + "    (08%)");
+			 console.log("Kenpom score (predictive): " + espn_bpi + "    (08%)");
 			 // console.log("Sagarin score (predictive): " + sagarin_score + "    (08%)");
-			 // console.log("Torvik score (predictive): " + torvik_score + "    (8%)");
+			 console.log("Torvik score (predictive): " + torvik_score + "    (8%)");
 			 console.log("Intangibles: " + intangibles + " (" + intangibles_msg + ")");
 			 console.log("Total score: " + total_score);
 
@@ -535,9 +539,9 @@
 	        chart.draw(data, options);
 	
 
-			// NEEDLE BOUNCE DISABLED IN OFFSEASON
+			// Comment out these lines to disable needle bounce in offseason
 	    	 setInterval(function() {
-	          data.setValue(0, 1, total_score-1 + Math.round(1 * Math.random()));
+	          data.setValue(0, 1, total_score-3 + Math.round(10 * Math.random()));
 	          chart.draw(data, options);
 	          }, 300);
 	     
