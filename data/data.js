@@ -28,7 +28,7 @@
         "overall_record": "18-13",
         "rating": "55",
         "record": "1-0",
-        "sos": "182"
+        "sos": "194"
     },
     "massey_ratings": {
         "massey_rank": "77"
@@ -46,7 +46,7 @@
         "rank": "67"
     },
     "time": {
-        "time": "Nov. 7, 2023 at 12:09 AM"
+        "time": "Nov. 7, 2023 at 12:16 AM"
     },
     "trank": {
         "torvik_NET": "48",
