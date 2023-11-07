@@ -28,7 +28,7 @@
         "overall_record": "18-13",
         "rating": "55",
         "record": "1-0",
-        "sos": "176"
+        "sos": "182"
     },
     "massey_ratings": {
         "massey_rank": "77"
@@ -46,26 +46,26 @@
         "rank": "67"
     },
     "time": {
-        "time": "Nov. 6, 2023 at 11:52 PM"
+        "time": "Nov. 7, 2023 at 12:09 AM"
     },
     "trank": {
-        "torvik_NET": "49",
-        "trank": "43",
+        "torvik_NET": "48",
+        "trank": "44",
         "trank_make_tourney": "51.7",
         "trank_proj_record": "19-12 (10-10)",
         "trank_seed": "11",
-        "wab_rank": "85",
+        "wab_rank": "89",
         "wab_score": "0"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "98",
+        "elo": "99",
         "nolan_net": "92",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "1-0",
-        "record": "92",
+        "record": "1-0",
         "rpi": "1"
     }
 }
