@@ -23,10 +23,10 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "53"
+        "miya_rating": "56"
     },
     "haslametrics": {
-        "haslam_rating": "78"
+        "haslam_rating": "67"
     },
     "kenpom": {
         "conference_record": "9-11",
@@ -43,20 +43,20 @@
         "coaches_rank": "NR"
     },
     "teamrankings": {
-        "make_tournament": "16.9%",
-        "most_likely_seed": "7",
-        "proj_conf_record": "8.8-11.2",
-        "projected_losses": "13.3",
-        "projected_wins": "17.7",
+        "make_tournament": "17.0%",
+        "most_likely_seed": "8",
+        "proj_conf_record": "8.9-11.1",
+        "projected_losses": "13.2",
+        "projected_wins": "17.8",
         "rank": "61"
     },
     "time": {
-        "time": "Nov. 7, 2023 at 3:19 AM"
+        "time": "Nov. 7, 2023 at 10:20 AM"
     },
     "trank": {
-        "torvik_NET": "47",
+        "torvik_NET": "46",
         "trank": "42",
-        "trank_make_tourney": "51.7",
+        "trank_make_tourney": "56",
         "trank_proj_record": "19-12 (10-10)",
         "trank_seed": "11",
         "wab_rank": "96",
