@@ -26,9 +26,9 @@
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "18-13",
-        "rating": "57",
+        "rating": "56",
         "record": "1-0",
-        "sos": "159"
+        "sos": "169"
     },
     "massey_ratings": {
         "massey_rank": "77"
@@ -46,16 +46,16 @@
         "rank": "67"
     },
     "time": {
-        "time": "Nov. 6, 2023 at 11:36 PM"
+        "time": "Nov. 6, 2023 at 11:46 PM"
     },
     "trank": {
         "torvik_NET": "49",
-        "trank": "45",
+        "trank": "44",
         "trank_make_tourney": "51.7",
         "trank_proj_record": "19-12 (10-10)",
         "trank_seed": "11",
-        "wab_rank": "NA",
-        "wab_score": "NA"
+        "wab_rank": "175",
+        "wab_score": "23.5"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
