@@ -1,4 +1,9 @@
 {
+    "bracketproject": {
+        "matrix_count": "3",
+        "matrix_seed": "NR",
+        "total_brackets": "44"
+    },
     "cbs": {
         "cbs_rank": "NR"
     },
@@ -18,7 +23,7 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "66"
+        "miya_rating": "53"
     },
     "haslametrics": {
         "haslam_rating": "78"
@@ -28,7 +33,7 @@
         "overall_record": "18-13",
         "rating": "55",
         "record": "1-0",
-        "sos": "194"
+        "sos": "220"
     },
     "massey_ratings": {
         "massey_rank": "77"
@@ -38,23 +43,23 @@
         "coaches_rank": "NR"
     },
     "teamrankings": {
-        "make_tournament": "18.2%",
-        "most_likely_seed": "9",
-        "proj_conf_record": "8.1-11.9",
-        "projected_losses": "14.3",
-        "projected_wins": "16.7",
-        "rank": "67"
+        "make_tournament": "16.9%",
+        "most_likely_seed": "7",
+        "proj_conf_record": "8.8-11.2",
+        "projected_losses": "13.3",
+        "projected_wins": "17.7",
+        "rank": "61"
     },
     "time": {
-        "time": "Nov. 7, 2023 at 12:16 AM"
+        "time": "Nov. 7, 2023 at 3:19 AM"
     },
     "trank": {
-        "torvik_NET": "48",
-        "trank": "44",
+        "torvik_NET": "47",
+        "trank": "42",
         "trank_make_tourney": "51.7",
         "trank_proj_record": "19-12 (10-10)",
         "trank_seed": "11",
-        "wab_rank": "89",
+        "wab_rank": "96",
         "wab_score": "0"
     },
     "warrennolan": {
