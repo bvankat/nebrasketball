@@ -8,16 +8,16 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": 52.0,
-        "chance_round_32": "9.1%",
-        "chance_sweet_16": "3.7%",
+        "bpi": 51.0,
+        "chance_round_32": "8.4%",
+        "chance_sweet_16": "3.9%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "9.5-10.5",
-        "proj_win_loss_overall": "18.4-12.6",
-        "projected_tournament_order": "130",
+        "proj_win_loss_conf": "9.6-10.4",
+        "proj_win_loss_overall": "18.5-12.5",
+        "projected_tournament_order": "120",
         "seven_day_change": "",
-        "sor": 130.0,
-        "sos": 260.0
+        "sor": 119.0,
+        "sos": 286.0
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -42,6 +42,14 @@
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
+    "seven_overtimes": {
+        "projected_conf_record": "12-8",
+        "projected_record": "21-10",
+        "ranking": "16"
+    },
+    "shot_quality": {
+        "sq_ranking": 188
+    },
     "teamrankings": {
         "make_tournament": "13.1%",
         "most_likely_seed": "7",
@@ -51,7 +59,7 @@
         "rank": "60"
     },
     "time": {
-        "time": "Nov. 10, 2023 at 10:57 AM"
+        "time": "Nov. 10, 2023 at 12:23 PM"
     },
     "trank": {
         "torvik_NET": "44",
