@@ -474,7 +474,7 @@
 			
 				//Current formula, multipliers should add to .98 to keep the gauge happy
 				// In season, use these scores to calculate total: ESPN SOR, ESPN BPI, KPI, Kenpom, NCAA NET, Team Rankings, Sagarin, Torvik 
-				total_score = ((net_score * .16) + (espn_sor * .16) + (teamrankings_score * .14) + (rpi_score * .10) + (kenpom_score * .16) + (espn_bpi * .12) +  (torvik_score * .14) + intangibles);		 
+				total_score = ((net_score * .14) + (espn_sor * .20) + (teamrankings_score * .20) + (rpi_score * .20) + (kenpom_score * .08) + (espn_bpi * .08) +  (torvik_score * .08) + intangibles);		 
 			
 			 // next three lines keep gauge score > 3 in the really sad times, uncomment during season
 			 if (total_score <= 2) {
