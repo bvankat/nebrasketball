@@ -42,8 +42,13 @@
 		.container { max-width: 720px; }
  	    h1 { font-family: "factoria", serif; font-weight: 500; text-align: center; }
  	    h2 { font-size: 1.5rem; }
+		h3 { font-family: "factoria", serif; }
+		h4 { text-transform: uppercase; font-family: "factoria", serif; color: #ccc; font-size: 18px;  }
 	    div.jumbotron { color: #fff; background-color: var(--red); border-radius: 0; padding: 4em 0; margin-bottom: 4em; }
 		div.jumbotron.footer { background: #f5f5f5; margin-bottom: 0; font-size: 14px; color: #ccc; }
+		
+		div#social-share { height: 600px; display: flex; align-content: center; background: rgb(235,19,47); background: radial-gradient(circle, rgba(235,19,47,1) 0%, rgba(190,4,29,1) 100%); }
+		
 		a { color: #888; }
 		a:hover { color: var(--red); }
 	    .gray {color: #eee; }
@@ -265,6 +270,17 @@
   	</div>
 	  
 		</div>
+		
+		<div class="jumbotron" id="social-share" style="background-color: var(--red); display: none;">
+			<div class="container" style="display: flex; flex-direction: row; gap: 30px; align-items: center;">
+				<div id="chart_div_2" style="width: 200px; height: 200px; margin: 0; clear: both;"></div>	
+				<div id="social-share-text">
+					<h4>Nebraska basketball</h4>
+					<h3>Current NCAA tournament odds</h3>
+					<p style="font-size: 12px; font-family: 'factoria', serif; color: #ccc; ">nebrasketball.info</p>
+				</div>
+			</div>
+		</div>
   	
   	<div class="jumbotron footer">
 	  <div class="container">
@@ -310,7 +326,11 @@
 			}
 
 			if ( data.kpi_sports ) {
+				if (data.kpi_sports.kpi_ranking == "None") {
+					document.getElementById('kpi_ranking').innerHTML = "NA";
+				} else {
 				document.getElementById('kpi_ranking').innerHTML = data.kpi_sports.kpi_ranking;
+			}
 			}
 
 			if ( data.espn ) {
@@ -535,10 +555,19 @@
 	          yellowFrom:50, yellowTo: 75,
 	          minorTicks: 10
 	        };
+	        
+			var options_2 = {
+	          width: 200, height: 200,
+	          redFrom: 75, redTo: 100,
+	          yellowFrom:50, yellowTo: 75,
+	          minorTicks: 10
+	        };
 	
 	        var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
+	        var chart_2 = new google.visualization.Gauge(document.getElementById('chart_div_2'));
 	
 	        chart.draw(data, options);
+	        chart_2.draw(data, options_2);
 	
 
 			// Comment out these lines to disable needle bounce in offseason
@@ -553,6 +582,7 @@
 	} // end loadData async function
 			
     loadData(); // MAKES THE MAGIC HAPPEN
+	
 </script>
 
   
