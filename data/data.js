@@ -35,6 +35,9 @@
         "record": "2-0",
         "sos": "284"
     },
+    "kpi_sports": {
+        "kpi_ranking": null
+    },
     "massey_ratings": {
         "massey_rank": "77"
     },
@@ -59,7 +62,7 @@
         "rank": "60"
     },
     "time": {
-        "time": "Nov. 10, 2023 at 12:23 PM"
+        "time": "Nov. 10, 2023 at 12:30 PM"
     },
     "trank": {
         "torvik_NET": "44",
