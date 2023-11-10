@@ -326,7 +326,7 @@
 			}
 
 			if ( data.kpi_sports ) {
-				if (data.kpi_sports.kpi_ranking == "None") {
+				if (data.kpi_sports.kpi_ranking == "") {
 					document.getElementById('kpi_ranking').innerHTML = "NA";
 				} else {
 				document.getElementById('kpi_ranking').innerHTML = data.kpi_sports.kpi_ranking;
