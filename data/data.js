@@ -26,32 +26,32 @@
         "miya_rating": "51"
     },
     "haslametrics": {
-        "haslam_rating": "75"
+        "haslam_rating": "70"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "18-13",
-        "rating": "53",
-        "record": "2-0",
-        "sos": "348"
+        "rating": "55",
+        "record": "3-0",
+        "sos": "342"
     },
     "kpi_sports": {
         "kpi_ranking": null
     },
     "massey_ratings": {
-        "massey_rank": "72"
+        "massey_rank": "76"
     },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
     "seven_overtimes": {
-        "projected_conf_record": "12-8",
-        "projected_record": "21-10",
-        "ranking": "57"
+        "projected_conf_record": "11-9",
+        "projected_record": "21-11",
+        "ranking": "83"
     },
     "shot_quality": {
-        "sq_ranking": 215
+        "sq_ranking": 213
     },
     "teamrankings": {
         "make_tournament": "14.2%",
@@ -62,26 +62,26 @@
         "rank": "60"
     },
     "time": {
-        "time": "Nov. 13, 2023 at 11:57 AM"
+        "time": "Nov. 13, 2023 at 11:56 PM"
     },
     "trank": {
-        "torvik_NET": "43",
-        "trank": "41",
+        "torvik_NET": "44",
+        "trank": "43",
         "trank_make_tourney": "56.8",
         "trank_proj_record": "19-12 (10-10)",
         "trank_seed": "10",
-        "wab_rank": "106",
+        "wab_rank": "66",
         "wab_score": "0.1"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "96",
+        "elo": "82",
         "nolan_net": "92",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
-        "quadrant_4": "2-0",
-        "record": "2-0",
-        "rpi": "127"
+        "quadrant_4": "3-0",
+        "record": "3-0",
+        "rpi": "134"
     }
 }
