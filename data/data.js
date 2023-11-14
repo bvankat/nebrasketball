@@ -8,22 +8,22 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": 50.0,
-        "chance_round_32": "8.5%",
-        "chance_sweet_16": "2.9%",
+        "bpi": 52.0,
+        "chance_round_32": "7.6%",
+        "chance_sweet_16": "2.5%",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "9.7-10.3",
+        "proj_win_loss_conf": "9.6-10.4",
         "proj_win_loss_overall": "18.6-12.4",
-        "projected_tournament_order": "148",
-        "seven_day_change": "",
-        "sor": 148.0,
-        "sos": 349.0
+        "projected_tournament_order": "100",
+        "seven_day_change": "Tied-1st",
+        "sor": 94.0,
+        "sos": 332.0
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "51"
+        "miya_rating": "52"
     },
     "haslametrics": {
         "haslam_rating": "68"
@@ -46,28 +46,28 @@
         "coaches_rank": "NR"
     },
     "seven_overtimes": {
-        "projected_conf_record": "11-9",
-        "projected_record": "21-11",
-        "ranking": "83"
+        "projected_conf_record": "12-8",
+        "projected_record": "20-11",
+        "ranking": "85"
     },
     "shot_quality": {
-        "sq_ranking": 213
+        "sq_ranking": 176
     },
     "teamrankings": {
-        "make_tournament": "15.7%",
-        "most_likely_seed": "8",
-        "proj_conf_record": "8.9-11.1",
-        "projected_losses": "13.2",
-        "projected_wins": "17.8",
+        "make_tournament": "14.4%",
+        "most_likely_seed": "9",
+        "proj_conf_record": "8.6-11.4",
+        "projected_losses": "13.6",
+        "projected_wins": "17.4",
         "rank": "62"
     },
     "time": {
-        "time": "Nov. 14, 2023 at 1:07 AM"
+        "time": "Nov. 14, 2023 at 9:55 AM"
     },
     "trank": {
         "torvik_NET": "44",
         "trank": "43",
-        "trank_make_tourney": "56.8",
+        "trank_make_tourney": "58.9",
         "trank_proj_record": "19-12 (10-10)",
         "trank_seed": "10",
         "wab_rank": "66",
