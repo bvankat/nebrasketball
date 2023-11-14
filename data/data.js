@@ -26,7 +26,7 @@
         "miya_rating": "51"
     },
     "haslametrics": {
-        "haslam_rating": "70"
+        "haslam_rating": "68"
     },
     "kenpom": {
         "conference_record": "9-11",
@@ -54,15 +54,15 @@
         "sq_ranking": 213
     },
     "teamrankings": {
-        "make_tournament": "14.2%",
-        "most_likely_seed": "7",
-        "proj_conf_record": "8.8-11.2",
-        "projected_losses": "13.4",
-        "projected_wins": "17.6",
-        "rank": "60"
+        "make_tournament": "15.7%",
+        "most_likely_seed": "8",
+        "proj_conf_record": "8.9-11.1",
+        "projected_losses": "13.2",
+        "projected_wins": "17.8",
+        "rank": "62"
     },
     "time": {
-        "time": "Nov. 13, 2023 at 11:56 PM"
+        "time": "Nov. 14, 2023 at 1:07 AM"
     },
     "trank": {
         "torvik_NET": "44",
