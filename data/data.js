@@ -62,7 +62,7 @@
         "rank": "58"
     },
     "time": {
-        "time": "Nov. 16, 2023 at 2:52 PM"
+        "time": "Nov. 16, 2023 at 2:56 PM"
     },
     "trank": {
         "torvik_NET": "40",
@@ -82,6 +82,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "4-0",
         "record": "4-0",
-        "rpi": "201"
+        "rpi": "192"
     }
 }
