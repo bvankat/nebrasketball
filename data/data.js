@@ -62,7 +62,7 @@
         "rank": "57"
     },
     "time": {
-        "time": "Nov. 17, 2023 at 9:34 AM"
+        "time": "Nov. 17, 2023 at 10:09 AM"
     },
     "trank": {
         "torvik_NET": "41",
