@@ -3190,6 +3190,93 @@
             "time": {
                 "time": "Nov. 17, 2023 at 10:09 AM"
             }
+        },
+        {
+            "kenpom": {
+                "rating": "45",
+                "record": "5-0",
+                "sos": "348",
+                "overall_record": "20-11",
+                "conference_record": "10-10"
+            },
+            "evanmiya": {
+                "miya_rating": "44"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "teamrankings": {
+                "make_tournament": "18.8%",
+                "most_likely_seed": "7",
+                "rank": "51",
+                "projected_wins": "19.2",
+                "projected_losses": "11.8",
+                "proj_conf_record": "9.9-10.1"
+            },
+            "espn": {
+                "bpi": 45.0,
+                "seven_day_change": "6th",
+                "proj_tourney_seed": "14",
+                "proj_win_loss_overall": "19.6-11.4",
+                "proj_win_loss_conf": "10.2-9.8",
+                "sor": 54.0,
+                "sos": 343.0,
+                "chance_sweet_16": "7.1%",
+                "chance_round_32": "17.9%",
+                "projected_tournament_order": "54"
+            },
+            "espn_bracketology": {
+                "seed": "NR"
+            },
+            "warrennolan": {
+                "record": "5-0",
+                "current_conf_record": "0-0",
+                "rpi": "108",
+                "elo": "72",
+                "quadrant_1": "0-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "5-0",
+                "nolan_net": "92"
+            },
+            "trank": {
+                "trank": "34",
+                "trank_proj_record": "20-11 (11-9)",
+                "trank_seed": "9",
+                "trank_make_tourney": "75.5",
+                "wab_score": "0.4",
+                "wab_rank": "36",
+                "torvik_NET": "34"
+            },
+            "cbs": {
+                "cbs_rank": "NR"
+            },
+            "haslametrics": {
+                "haslam_rating": "56"
+            },
+            "kpi_sports": {
+                "kpi_ranking": null
+            },
+            "shot_quality": {
+                "sq_ranking": 127
+            },
+            "bracketproject": {
+                "matrix_count": "3",
+                "total_brackets": "44",
+                "matrix_seed": "NR"
+            },
+            "massey_ratings": {
+                "massey_rank": "74"
+            },
+            "seven_overtimes": {
+                "ranking": "46",
+                "projected_record": "21-10",
+                "projected_conf_record": "11-9"
+            },
+            "time": {
+                "time": "Nov. 19, 2023 at 10:03 AM"
+            }
         }
     ]
 }
