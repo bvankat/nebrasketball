@@ -53,6 +53,9 @@
     "shot_quality": {
         "sq_ranking": 108
     },
+    "sports_reference": {
+        "SRS_rank": "47"
+    },
     "teamrankings": {
         "make_tournament": "22.1%",
         "most_likely_seed": "6",
@@ -62,7 +65,7 @@
         "rank": "49"
     },
     "time": {
-        "time": "Nov. 21, 2023 at 10:04 AM"
+        "time": "Nov. 21, 2023 at 10:32 AM"
     },
     "trank": {
         "torvik_NET": "33",
