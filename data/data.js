@@ -51,7 +51,7 @@
         "ranking": "38"
     },
     "shot_quality": {
-        "sq_ranking": 85
+        "sq_ranking": 79
     },
     "sports_reference": {
         "SRS_rank": "30"
@@ -65,7 +65,7 @@
         "rank": "47"
     },
     "time": {
-        "time": "Nov. 22, 2023 at 7:32 AM"
+        "time": "Nov. 22, 2023 at 2:27 PM"
     },
     "trank": {
         "torvik_NET": "33",
@@ -73,7 +73,7 @@
         "trank_make_tourney": "77.8",
         "trank_proj_record": "20-11 (11-9)",
         "trank_seed": "9",
-        "wab_rank": "30",
+        "wab_rank": "31",
         "wab_score": "0.4"
     },
     "warrennolan": {
@@ -85,6 +85,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "5-0",
         "record": "5-0",
-        "rpi": "65"
+        "rpi": "63"
     }
 }
