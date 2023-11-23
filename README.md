@@ -10,7 +10,8 @@
 4. Assigns weighted average to scores.
     - Resume metrics worth slightly more than predictive ones
 5. Powers a needle gauge, a la #nytneedle from Election Night 2016. (Google Charts)
-6. Captures gauge screenshots with Selenium, resizes them, uploads to /icons
+6. D3 dot plot to show the range of rankings. (Shout out to ChatGPT for the code cleanup.)
+7. Captures gauge screenshots with Selenium, resizes them, uploads to /icons
 	- `element = browser.find_element('id', 'chart_div')`
 	- `element.screenshot('app-icon.png')`
 
