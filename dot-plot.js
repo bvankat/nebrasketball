@@ -12,23 +12,23 @@ const height = 40;
 
 // New data with a dictionary
 const data = {
-	Kenpom: ratings_data.kenpom.rating,
+	Kenpom: parseInt(ratings_data.kenpom.rating),
 //	KPI: ratings_data.kpi_sports.kpi_ranking,
-    NET: ratings_data.trank.torvik_NET,
-    SOR: ratings_data.espn.sor,
-    BPI: ratings_data.espn.bpi,
+    NET: parseInt(ratings_data.trank.torvik_NET),
+    SOR: parseInt(ratings_data.espn.sor),
+    BPI: parseInt(ratings_data.espn.bpi),
 //    Sagarin: ratings_data.sagarin.sagarin_rate,
-    Torvik: ratings_data.trank.trank,
-    RPI: ratings_data.warrennolan.rpi,
-    ELO: ratings_data.warrennolan.elo,
-    Massey: ratings_data.massey_ratings.massey_rank,
-    'Team Rankings': ratings_data.teamrankings.rank,
-    WAB:  ratings_data.trank.wab_rank,
-    SRS: ratings_data.sports_reference.SRS_rank,
-    Haslametrics: ratings_data.haslametrics.haslam_rating,
-    Miyakawa: ratings_data.evanmiya.miya_rating,
-    'Shot Quality': ratings_data.shot_quality.sq_ranking,
-    'Seven 0T': ratings_data.seven_overtimes.ranking, 
+    Torvik: parseInt(ratings_data.trank.trank),
+    RPI: parseInt(ratings_data.warrennolan.rpi),
+    ELO: parseInt(ratings_data.warrennolan.elo),
+    Massey: parseInt(ratings_data.massey_ratings.massey_rank),
+    'Team Rankings': parseInt(ratings_data.teamrankings.rank),
+    WAB:  parseInt(ratings_data.trank.wab_rank),
+    SRS: parseInt(ratings_data.sports_reference.SRS_rank),
+    Haslametrics: parseInt(ratings_data.haslametrics.haslam_rating),
+    Miyakawa: parseInt(ratings_data.evanmiya.miya_rating),
+    'Shot Quality': parseInt(ratings_data.shot_quality.sq_ranking),
+    'Seven 0T': parseInt(ratings_data.seven_overtimes.ranking), 
 }
 
 // Determine the highest data point
