@@ -51,7 +51,7 @@
         "ranking": "35"
     },
     "shot_quality": {
-        "sq_ranking": 55
+        "sq_ranking": 54
     },
     "sports_reference": {
         "SRS_rank": "22"
@@ -65,7 +65,7 @@
         "rank": "47"
     },
     "time": {
-        "time": "Nov. 23, 2023 at 11:39 AM"
+        "time": "Nov. 23, 2023 at 5:58 PM"
     },
     "trank": {
         "torvik_NET": "33",
@@ -78,13 +78,13 @@
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "58",
+        "elo": "59",
         "nolan_net": "92",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "1-0",
         "quadrant_4": "5-0",
         "record": "6-0",
-        "rpi": "58"
+        "rpi": "56"
     }
 }
