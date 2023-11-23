@@ -29,10 +29,11 @@
   <link rel="preload" href="/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/bootstrap.min.css"></noscript>
 
   <link rel="stylesheet" href="/css/adobe-fonts.css">
-
+  
+  <!-- D3 for the dot plot -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="/dot-plot.js"></script>
    	
-<!-- <script type="text/javascript" src="/data/updates-2023.js"></script> -->
-
 	<style>
 		:root {
 			--red: #eb132f;
@@ -56,9 +57,11 @@
 		.table>:not(caption)>*>* { padding: 0.8rem 0; }
 	    .alert { margin-bottom: 0; }
 		
-		@media screen and ( max-width: 787px ) {
-			.chart { display: none; }
-		}
+		#dot-plot-container { max-width: 680px; margin: 20px 0; }
+		#dot-plot-container text { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }		
+		.endpoint-label { fill: #aaa; }
+		.tick { stroke: #ccc; }
+		.dot-label { text-anchor: middle; }
 		
 	</style>
 
@@ -106,34 +109,38 @@
 		  <div class="row">
 			  
 		  <div class="col-sm-12">
+			
+			<h2>Rankings</h2>
+			
+			<div id="dot-plot-container"></div>
 			    	   
-			<h2>NCAA team-sheet metrics</h2>
 	    	<table class="table">
 		    	<thead>
 			    	<tr>
-				    	<th>Service</th>
-						<th class="chart"></th>
-				    	<th class="text-end">Current rating</th>
+				    	<th>Team-sheet metrics</th>
+				    	<th class="text-end">Rank</th>
 			    	</tr>
 		    	</thead>
 		    	
 		    	<tbody>
-			    	<tr><td>NCAA NET <span style="font-size: 10px;"><a href="#footnotes">[1]</a></span></td><td class="chart" id="net-chart"></td><td id="ncaa-net" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>KPI <span style="font-size: 10px;"><a href="#footnotes">[2]</a></span></td><td class="chart" id="kpi-chart"></td><td id="kpi_ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>ESPN SOR</td><td class="chart" id="sor-chart"></td><td id="espn-sor" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>ESPN BPI</td><td class="chart" id="bpi-chart"></td><td id="espn-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>Kenpom</i></td><td class="chart" id="kenpom-chart"></td><td id="kenpom-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>Sagarin</td><td class="chart" id="sagarin-chart"></td><td id="sagarin" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>NCAA NET <span style="font-size: 10px;"><a href="#footnotes">[1]</a></span></td><td id="ncaa-net" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>KPI <span style="font-size: 10px;"><a href="#footnotes">[2]</a></span></td><td id="kpi_ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>ESPN SOR</td><td id="espn-sor" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>ESPN BPI</td><td id="espn-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>Kenpom</i></td><td id="kenpom-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>Sagarin</td><td id="sagarin" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	</tbody>
 	    	</table>	    	
 	    	
-	    				<br /><br />
+	    	<br />
 			
-		
+
+	    	<br />
 			
-			
-			<h2>Other notable rankings</h2>
 			<table class="table">
+				<thead>
+					<tr><th>Other notable rankings</th><th></th></tr>
+				</thead>
 				<tbody>
 					<tr><td>Bart Torvik</td><td id="trank-trank" class="text-end"><span class="small text-muted">NA</span></td></tr>
 					
@@ -315,6 +322,8 @@
 			  const response = await fetch('/data/data.js');
 			  const data = await response.json();
 			  console.log(data); 
+			  
+			  var dotPlotData = {};
 			
 			// replace this with NCAA when real NET is released. Nolan is approxiation, but calculated earlier in season
 			// Nolan NET might be sketchy? As of Dec. 5, 2022, doesn't seem like it's getting updates. Review for next year.
@@ -341,6 +350,7 @@
 
 			if ( data.espn ) {
 				document.getElementById('espn-rating').innerHTML = data.espn.bpi;
+				dotPlotData['BPI'] = data.espn.bpi;
 				document.getElementById('espn-proj-tourney-seed').innerHTML = data.espn.proj_tourney_seed;
 				document.getElementById('espn-wl').innerHTML = data.espn.proj_win_loss_overall;
 				document.getElementById('espn-cwl').innerHTML = data.espn.proj_win_loss_conf;
@@ -593,6 +603,7 @@
 	} // end loadData async function
 			
     loadData(); // MAKES THE MAGIC HAPPEN
+    dotPlot(); // MAKES THE MAGIC HAPPEN
 	
 </script>
 
