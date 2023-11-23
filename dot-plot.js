@@ -77,6 +77,9 @@ svg.selectAll(".tick")
 const dotRadius = 9;
 const dotStrokeColor = "#333";
 
+// Track labeled values
+const labeledValues = new Set();
+
 const minValue = d3.min(Object.values(data));
 const maxValue = d3.max(Object.values(data));
 const medianValue = d3.median(Object.values(data));
@@ -98,6 +101,8 @@ Object.entries(data).forEach(([key, value]) => {
 	.attr("stroke", dotStrokeColor);
 
   if (value === minValue || value === maxValue || (closestPoint.key && key === closestPoint.key)) {
+    // Check if the value has already been labeled
+    if (!labeledValues.has(value)) {
 	svg.append("text")
 	  .attr("class", "dot-label")
 	  .attr("x", xScale(value))
@@ -105,6 +110,10 @@ Object.entries(data).forEach(([key, value]) => {
 	  .attr("font-family", "Arial, sans-serif")
 	  .attr("font-size", 10) // Adjusted dot label font size to 10px
 	  .text(key);
+    
+    // Add the value to the set of labeled values
+      labeledValues.add(value);
+    }
 }
 	// Title for each dot with key and value
 	dot.append("title").text(`${key}: ${value}`);
