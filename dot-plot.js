@@ -6,7 +6,7 @@ async function dotPlot() {
 // Set up the chart dimensions
 const margin = { top: 20, right: 10, bottom: 20, left: 0 };
 
-const containerWidth = Math.min(700, window.innerWidth - 10);
+const containerWidth = Math.min(700, window.innerWidth - 15);
 const width = containerWidth - margin.left - margin.right;
 const height = 40;
 
@@ -122,7 +122,7 @@ Object.entries(data).forEach(([key, value]) => {
 
 // Label the chart endpoints close to the chart axis
 svg.append("text")
-  .attr("x", xScale(highestEndpoint))
+  .attr("x", xScale(highestEndpoint)+5)
   .attr("y", height / 2 + 15) // Moved closer to the chart axis
   .attr("text-anchor", "middle")
   .attr("font-family", "Arial, sans-serif")
