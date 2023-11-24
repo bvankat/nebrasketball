@@ -8,32 +8,32 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": 46.0,
-        "chance_round_32": "13.5%",
-        "chance_sweet_16": "5.9%",
+        "bpi": 47.0,
+        "chance_round_32": "13.2%",
+        "chance_sweet_16": "5.6%",
         "proj_tourney_seed": "10",
-        "proj_win_loss_conf": "10.2-9.8",
+        "proj_win_loss_conf": "10.1-9.9",
         "proj_win_loss_overall": "19.7-11.3",
-        "projected_tournament_order": "37",
-        "seven_day_change": "5th",
-        "sor": 37.0,
-        "sos": 341.0
+        "projected_tournament_order": "40",
+        "seven_day_change": "3rd",
+        "sor": 40.0,
+        "sos": 347.0
     },
     "espn_bracketology": {
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "43"
+        "miya_rating": "44"
     },
     "haslametrics": {
-        "haslam_rating": "38"
+        "haslam_rating": "39"
     },
     "kenpom": {
         "conference_record": "11-9",
         "overall_record": "20-11",
         "rating": "43",
         "record": "6-0",
-        "sos": "334"
+        "sos": "339"
     },
     "kpi_sports": {
         "kpi_ranking": null
@@ -47,30 +47,30 @@
     },
     "seven_overtimes": {
         "projected_conf_record": "12-8",
-        "projected_record": "21-10",
+        "projected_record": "22-9",
         "ranking": "35"
     },
     "shot_quality": {
-        "sq_ranking": 54
+        "sq_ranking": 62
     },
     "sports_reference": {
-        "SRS_rank": "22"
+        "SRS_rank": "27"
     },
     "teamrankings": {
-        "make_tournament": "24.9%",
+        "make_tournament": "23.0%",
         "most_likely_seed": "6",
         "proj_conf_record": "10.1-9.9",
-        "projected_losses": "11.3",
-        "projected_wins": "19.7",
-        "rank": "47"
+        "projected_losses": "11.2",
+        "projected_wins": "19.8",
+        "rank": "48"
     },
     "time": {
-        "time": "Nov. 23, 2023 at 5:58 PM"
+        "time": "Nov. 24, 2023 at 3:07 PM"
     },
     "trank": {
         "torvik_NET": "33",
         "trank": "32",
-        "trank_make_tourney": "85",
+        "trank_make_tourney": "82.5",
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "8",
         "wab_rank": "22",
@@ -78,7 +78,7 @@
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "59",
+        "elo": "58",
         "nolan_net": "92",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
