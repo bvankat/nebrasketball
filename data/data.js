@@ -31,9 +31,9 @@
     "kenpom": {
         "conference_record": "10-10",
         "overall_record": "20-11",
-        "rating": "48",
+        "rating": "45",
         "record": "7-0",
-        "sos": "342"
+        "sos": "343"
     },
     "kpi_sports": {
         "kpi_ranking": null
@@ -51,7 +51,7 @@
         "ranking": "33"
     },
     "shot_quality": {
-        "sq_ranking": 67
+        "sq_ranking": 68
     },
     "sports_reference": {
         "SRS_rank": "31"
@@ -65,26 +65,26 @@
         "rank": "50"
     },
     "time": {
-        "time": "Nov. 26, 2023 at 3:51 PM"
+        "time": "Nov. 26, 2023 at 10:04 PM"
     },
     "trank": {
-        "torvik_NET": "31",
+        "torvik_NET": "29",
         "trank": "31",
         "trank_make_tourney": "80.2",
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "7",
-        "wab_rank": "23",
+        "wab_rank": "24",
         "wab_score": "0.9"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "53",
+        "elo": "52",
         "nolan_net": "92",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "2-0",
         "quadrant_4": "5-0",
         "record": "7-0",
-        "rpi": "70"
+        "rpi": "72"
     }
 }
