@@ -26,12 +26,12 @@
         "miya_rating": "46"
     },
     "haslametrics": {
-        "haslam_rating": "40"
+        "haslam_rating": "42"
     },
     "kenpom": {
         "conference_record": "10-10",
         "overall_record": "20-11",
-        "rating": "45",
+        "rating": "46",
         "record": "7-0",
         "sos": "343"
     },
@@ -65,10 +65,10 @@
         "rank": "50"
     },
     "time": {
-        "time": "Nov. 26, 2023 at 10:04 PM"
+        "time": "Nov. 26, 2023 at 10:51 PM"
     },
     "trank": {
-        "torvik_NET": "29",
+        "torvik_NET": "30",
         "trank": "31",
         "trank_make_tourney": "80.2",
         "trank_proj_record": "21-10 (11-9)",
