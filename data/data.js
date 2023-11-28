@@ -33,13 +33,13 @@
         "overall_record": "20-11",
         "rating": "46",
         "record": "7-0",
-        "sos": "343"
+        "sos": "344"
     },
     "kpi_sports": {
         "kpi_ranking": null
     },
     "massey_ratings": {
-        "massey_rank": "51"
+        "massey_rank": "46"
     },
     "polls": {
         "ap_rank": "NR",
@@ -51,10 +51,10 @@
         "ranking": "34"
     },
     "shot_quality": {
-        "sq_ranking": 62
+        "sq_ranking": 57
     },
     "sports_reference": {
-        "SRS_rank": "31"
+        "SRS_rank": "39"
     },
     "teamrankings": {
         "make_tournament": "18.8%",
@@ -65,7 +65,7 @@
         "rank": "55"
     },
     "time": {
-        "time": "Nov. 27, 2023 at 10:40 AM"
+        "time": "Nov. 27, 2023 at 9:52 PM"
     },
     "trank": {
         "torvik_NET": "30",
@@ -78,13 +78,13 @@
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "52",
+        "elo": "51",
         "nolan_net": "92",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "2-0",
         "quadrant_4": "5-0",
         "record": "7-0",
-        "rpi": "72"
+        "rpi": "80"
     }
 }
