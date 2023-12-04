@@ -10,7 +10,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - Question: "What seed will they get? Who wins head-to-head?" Answer: Use *predictive* metrics.
 - Approx. 500 at-large bids from 2008-2022. Only five at-large teams with NET over 70: All 10 or 11 seeds. 20 at large bids with NET/RPI above 60 
 - NET rank in the 60s/70s = Not good enough. Only two at large bids above 60 in 2021 or 2022. MSU had NET 70 in 2021. Miami was a 10-seed in 2022, NET 62. ([#](https://twitter.com/JohnGasaway/status/1620824438974418952))
-- Highest NET ranking to get bid: 77 in 2022, Highest RPI: 74 in 1999
+- Highest NET ranking to get bid: 77 in 2022 (Rutgers), Highest RPI: 74 in 1999
 - 2022: Last 4 In: Wyoming (NET 50), Rutgers (77), Indiana (38), Notre Dame (53)
 - 2022: First 4 Out: Dayton (NET 58), SMU (NET 45), Texas A&M (NET 43) 
 - "The committee’s approach can be assessed — at least to some extent — using a model that projects NCAA Tournament seeds by averaging each team’s resume and quality metrics and weighting them evenly." ([#](https://heatcheckcbb.com/bracketology-analyzing-impact-of-metrics-in-ncaa-tournament-selection-seeding/))
@@ -19,6 +19,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
     - __2020__ — No tournament
     - __2021__ — NET: 72, SOR: 66, KPI: 64, BPI: 97, KenPom: 74, Sagarin: 70 ([#](https://barttorvik.com/teamsheets.php?year=2021))
     - __2022__ — NET: 77, SOR: 52, KPI: 64, BPI: 74, KenPom: 74, Sagarin: 64 ([#](https://barttorvik.com/teamsheets.php?year=2022))
+    - __2023__ — NET: 67, SOR: 54, KPI: 66, BPI: 72, KenPom: 77, Sagarin: 84 ([#](https://barttorvik.com/teamsheets.php?year=2023))
 
 
 ## Team Sheet basics
@@ -28,7 +29,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 #### NET
 - NCAA's proprietary combination of metrics. Seems to lean predictive rather than resume-based.
 - Started in 2018, replacing the RPI. Rankings (but not precise formula) made public in 2021. ([#](https://www.ncaa.com/news/basketball-men/article/2022-12-05/college-basketballs-net-rankings-explained))
-- Release date: Late November or early December (12/5/22), but recreated and available early on other sites
+- Release date: Late November or early December (12/5/22 and 12/4/23), but recreated and available early on other sites
 - [LINK](https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings)
 
 #### ESPN's BPI
@@ -61,7 +62,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 
 ## Quadrants
 
-> Using the quadrant system the quality of wins and losses will be organized based on game location and the opponent's NET ranking. The number of Quadrant 1 wins and Quadrant 3/4 losses will be incredibly important when it comes time for NCAA tournament selection and seeding." ([#](https://www.ncaa.com/news/basketball-men/article/2022-12-05/college-basketballs-net-rankings-explained))
+> "Using the quadrant system, the quality of wins and losses will be organized based on game location and the opponent's NET ranking. The number of Quadrant 1 wins and Quadrant 3/4 losses will be incredibly important when it comes time for NCAA tournament selection and seeding." ([#](https://www.ncaa.com/news/basketball-men/article/2022-12-05/college-basketballs-net-rankings-explained))
 
 - Quadrant 1: Home 1-30, Neutral 1-50, Away 1-75
 - Quadrant 2: Home 31-75, Neutral 51-100, Away 76-135
@@ -69,6 +70,8 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - Quadrant 4: Home 161-353, Neutral 201-353, Away 241-353
 
 > "The NET is designed to define the quadrants, not to choose or seed teams. It's not a tiebreaker or anything like that. Teams are not compared by NET or other computer rankings." ([#](https://www.cbssports.com/college-basketball/news/bracketology-explaining-the-team-sheets-the-selection-committee-uses-to-compare-ncaa-tournament-resumes/))
+
+> "Generally speaking, if that team went 2-1 (in Quad 1 games) compared to a team that went 5-10, that’s going to be looked at more favorably by the committee than just looking at the total number of Quad 1 wins." ([#](https://theathletic.com/5096436/2023/12/01/net-ncaa-basketball-tournament-rankings-selection/))
 
 
 
