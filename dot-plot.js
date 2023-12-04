@@ -122,7 +122,7 @@ Object.entries(data).forEach(([key, value]) => {
 
 // Label the chart endpoints close to the chart axis
 svg.append("text")
-  .attr("x", xScale(highestEndpoint)+5)
+  .attr("x", xScale(highestEndpoint)+10)
   .attr("y", height / 2 + 15) // Moved closer to the chart axis
   .attr("text-anchor", "middle")
   .attr("font-family", "Arial, sans-serif")
