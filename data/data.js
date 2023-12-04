@@ -38,6 +38,9 @@
     "kpi_sports": {
         "kpi_ranking": 59
     },
+    "massey_ratings": {
+        "massey_rank": "60"
+    },
     "ncaa": {
         "net_rank": "76"
     },
@@ -65,7 +68,7 @@
         "rank": "67"
     },
     "time": {
-        "time": "Dec. 4, 2023 at 9:24 AM"
+        "time": "Dec. 4, 2023 at 9:47 AM"
     },
     "trank": {
         "torvik_NET": "56",
