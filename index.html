@@ -331,9 +331,9 @@
 			// replace this with NCAA when real NET is released. Nolan is approxiation, but calculated earlier in season
 			// Nolan NET might be sketchy? As of Dec. 5, 2022, doesn't seem like it's getting updates. Review for next year.
 			// Using Torvik NET Forecast as of Nov. 2023 - https://barttorvik.com/net4cast.php
-			if ( data.trank ) {  
-				document.getElementById('ncaa-net').innerHTML = data.trank.torvik_NET; 
-				document.getElementById('ncaa-net2').innerHTML = data.trank.torvik_NET; 
+			if ( data.ncaa ) {  
+				document.getElementById('ncaa-net').innerHTML = data.ncaa.net_rank; 
+				document.getElementById('ncaa-net2').innerHTML = data.trank.net_rank; 
 			}	
 			
 			if ( data.kenpom ) {
@@ -549,7 +549,7 @@
 			 
 			if (net_score) { console.log("NCAA NET: " + net_score); }
 			if (espn_sor) { console.log("ESPN SOR score (results-based): " + espn_sor); }
-			// if (kpi_score) { console.log("KPI score (results-based): " + kpi_score ); }
+			if (kpi_score) { console.log("KPI score (results-based): " + kpi_score ); }
 			if (teamrankings_score) { console.log("TeamRankings (results-based): " + teamrankings_score); }
 			if (rpi_score) { console.log("RPI score (results-based): " + rpi_score); }
 			if (espn_bpi) { console.log("ESPN BPI score (predictive): " + espn_bpi); }
