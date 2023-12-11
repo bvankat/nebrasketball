@@ -54,7 +54,7 @@
         "ranking": "27"
     },
     "shot_quality": {
-        "sq_ranking": 65
+        "sq_ranking": 66
     },
     "sports_reference": {
         "SRS_rank": "59"
@@ -68,12 +68,12 @@
         "rank": "66"
     },
     "time": {
-        "time": "Dec. 11, 2023 at 9:38 AM"
+        "time": "Dec. 11, 2023 at 1:57 PM"
     },
     "trank": {
         "torvik_NET": "61",
         "trank": "42",
-        "trank_make_tourney": "38",
+        "trank_make_tourney": "34.4",
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "NR",
         "wab_rank": "41",
