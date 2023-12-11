@@ -329,8 +329,9 @@
 			  var dotPlotData = {};
 			
 			// replace this with NCAA when real NET is released. Nolan is approxiation, but calculated earlier in season
-			// Nolan NET might be sketchy? As of Dec. 5, 2022, doesn't seem like it's getting updates. Review for next year.
 			// Using Torvik NET Forecast as of Nov. 2023 - https://barttorvik.com/net4cast.php
+			// Nolan NET matches NCAA NET on Dec. 11, 2023. Torvik NET is off by 7 spots (NCAA, Nolan: 68; Torvik 61)
+			
 			if ( data.ncaa ) {  
 				document.getElementById('ncaa-net').innerHTML = data.ncaa.net_rank; 
 				document.getElementById('ncaa-net2').innerHTML = data.trank.net_rank; 
