@@ -13,7 +13,7 @@ const height = 40;
 // New data with a dictionary
 const data = {
 	Kenpom: parseInt(ratings_data.kenpom.rating),
-//	KPI: ratings_data.kpi_sports.kpi_ranking,
+    KPI: ratings_data.kpi_sports.kpi_ranking,
     NET: parseInt(ratings_data.trank.torvik_NET),
     SOR: parseInt(ratings_data.espn.sor),
     BPI: parseInt(ratings_data.espn.bpi),
@@ -28,7 +28,7 @@ const data = {
     Haslametrics: parseInt(ratings_data.haslametrics.haslam_rating),
     Miyakawa: parseInt(ratings_data.evanmiya.miya_rating),
     'Shot Quality': parseInt(ratings_data.shot_quality.sq_ranking),
-    'Seven 0T': parseInt(ratings_data.seven_overtimes.ranking), 
+    'Seven OT': parseInt(ratings_data.seven_overtimes.ranking), 
 }
 
 // Determine the highest data point
