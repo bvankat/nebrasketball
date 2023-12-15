@@ -1,21 +1,21 @@
 {
     "bracketproject": {
-        "matrix_count": "3",
+        "matrix_count": "2",
         "matrix_seed": "NR",
-        "total_brackets": "20"
+        "total_brackets": "23"
     },
     "cbs": {
         "cbs_rank": "NR"
     },
     "espn": {
         "bpi": 68.0,
-        "chance_round_32": "1.2%",
-        "chance_sweet_16": "0.4%",
+        "chance_round_32": "0.9%",
+        "chance_sweet_16": "0.3%",
         "proj_tourney_seed": "NR",
         "proj_win_loss_conf": "8.8-11.2",
         "proj_win_loss_overall": "18.0-13.0",
         "projected_tournament_order": "72",
-        "seven_day_change": "1st",
+        "seven_day_change": "Tied-2nd",
         "sor": 60.0,
         "sos": 240.0
     },
@@ -26,7 +26,7 @@
         "miya_rating": "76"
     },
     "haslametrics": {
-        "haslam_rating": "63"
+        "haslam_rating": "61"
     },
     "kenpom": {
         "conference_record": "9-11",
@@ -57,23 +57,23 @@
         "sq_ranking": 69
     },
     "sports_reference": {
-        "SRS_rank": "61"
+        "SRS_rank": "60"
     },
     "teamrankings": {
-        "make_tournament": "7.3%",
-        "most_likely_seed": "8",
+        "make_tournament": "7.0%",
+        "most_likely_seed": "7",
         "proj_conf_record": "8.6-11.4",
-        "projected_losses": "13.2",
-        "projected_wins": "17.8",
+        "projected_losses": "13.1",
+        "projected_wins": "17.9",
         "rank": "66"
     },
     "time": {
-        "time": "Dec. 14, 2023 at 4:05 PM"
+        "time": "Dec. 15, 2023 at 1:40 PM"
     },
     "trank": {
         "torvik_NET": "59",
         "trank": "42",
-        "trank_make_tourney": "35",
+        "trank_make_tourney": "34.4",
         "trank_proj_record": "20-11 (11-9)",
         "trank_seed": "NR",
         "wab_rank": "42",
@@ -88,6 +88,6 @@
         "quadrant_3": "2-0",
         "quadrant_4": "5-0",
         "record": "8-2",
-        "rpi": "61"
+        "rpi": "67"
     }
 }
