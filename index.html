@@ -128,8 +128,7 @@
 			    	<tr><td>ESPN SOR</td><td id="espn-sor" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>ESPN BPI</td><td id="espn-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>Kenpom</i></td><td id="kenpom-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>Sagarin</td><td id="sagarin" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	</tbody>
+			    	
 	    	</table>
 			
 	    	<br />
@@ -308,7 +307,7 @@
 		 <p class="small text-muted"><a name="footnotes"></a>Footnotes: <!--[1] Using Torvik projected NET rating until early December. [2] First KPI release in early December. -->[1] Wins Above Bubble current total: <span id="wab-score"></span></p>
 
   		
-  		<p class="small text-muted">Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN BPI/SOR</a>, <a href="https://www.espn.com/espn/feature/story/_/page/bracketology/ncaa-bracketology-2024-march-madness-men-field-predictions">ESPN Bracketology</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2024/schedule/Nebraska">Warren Nolan</a>, <a href="http://barttorvik.com/team.php?team=Nebraska">Bart Torvik</a>, <a href="https://faktorsports.com/">KPI</a>, <a href="http://sagarin.com/sports/cbsend.htm">Sagarin</a>, <a href="http://bracketmatrix.com">Bracket Matrix</a>, <a href="https://www.cbssports.com/college-basketball/bracketology/">CBS Sports</a>, <a href="https://haslametrics.com/ratings.php" target="_blank">Haslametrics</a>, <a href="https://evanmiya.com" target="_blank">Evan Miyakawa</a>, <a href="https://shotquality.com/team-standings" target="_blank">Shot Quality</a>, <a href="https://masseyratings.com/ranks?s=cb" target="_blank">Massey Composite Ratings</a>, <a href="http://sevenovertimes.com/teamsummary.php?teamid=158&season=2024" target="_blank">Seven Overtimes</a>, <a href="https://www.sports-reference.com/cbb/seasons/men/2024-ratings.html" target="_blank">Sports Reference</a></p>	
+  		<p class="small text-muted">Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN BPI/SOR</a>, <a href="https://www.espn.com/espn/feature/story/_/page/bracketology/ncaa-bracketology-2024-march-madness-men-field-predictions">ESPN Bracketology</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2024/schedule/Nebraska">Warren Nolan</a>, <a href="http://barttorvik.com/team.php?team=Nebraska">Bart Torvik</a>, <a href="https://faktorsports.com/">KPI</a>, <a href="http://bracketmatrix.com">Bracket Matrix</a>, <a href="https://www.cbssports.com/college-basketball/bracketology/">CBS Sports</a>, <a href="https://haslametrics.com/ratings.php" target="_blank">Haslametrics</a>, <a href="https://evanmiya.com" target="_blank">Evan Miyakawa</a>, <a href="https://shotquality.com/team-standings" target="_blank">Shot Quality</a>, <a href="https://masseyratings.com/ranks?s=cb" target="_blank">Massey Composite Ratings</a>, <a href="http://sevenovertimes.com/teamsummary.php?teamid=158&season=2024" target="_blank">Seven Overtimes</a>, <a href="https://www.sports-reference.com/cbb/seasons/men/2024-ratings.html" target="_blank">Sports Reference</a></p>	
 	  </div>	
 	  </div>
   	</div>
@@ -421,9 +420,6 @@
 			
 			document.getElementById('trank-make-tourney').innerHTML = trank_tourney_pct;
 			
-			if ( data.sagarin ) {
-				document.getElementById('sagarin').innerHTML = data.sagarin.sagarin_rate;
-			}
 
 			if ( data.teamrankings ) {
 				document.getElementById('teamrankings-seed').innerHTML = data.teamrankings.most_likely_seed;
@@ -491,7 +487,6 @@
 			 	espn_bpi = FindScore(parseInt(data.espn.bpi)); 
 			}
 			 if(data.teamrankings ) { teamrankings_score = parseInt(data.teamrankings.make_tournament); } // This one's already a % score
-			 if( data.sagarin ) { sagarin_score = FindScore(data.sagarin.sagarin_rate); }
 			 if( data.trank ) { torvik_score = parseInt(data.trank.trank_make_tourney); }
 			 if( data.kpi_sports ) { kpi_score = FindScore(data.kpi_sports.kpi_ranking); }
 			 if (data.warrennolan ) { rpi_score = FindScore(data.warrennolan.rpi); }
@@ -518,8 +513,8 @@
 			
 			
 				//Current formula, multipliers should add to .98 to keep the gauge happy
-				// In season, use these scores to calculate total: ESPN SOR, ESPN BPI, KPI, Kenpom, NCAA NET, Team Rankings, Sagarin, Torvik 
-				total_score = ((net_score * .14) + (espn_sor * .20) + (teamrankings_score * .20) + (rpi_score * .20) + (kenpom_score * .08) + (espn_bpi * .08) +  (torvik_score * .08) + intangibles);		 
+				// In season, use these scores to calculate total: ESPN SOR, ESPN BPI, KPI, Kenpom, NCAA NET, Team Rankings, Torvik 
+				total_score = ((net_score * .16) + (kpi_score * .14) + (espn_sor * .14) + (teamrankings_score * .11) + (rpi_score * .10) + (kenpom_score * .11) + (espn_bpi * .11) +  (torvik_score * .11) + intangibles);		 
 			
 			 // next three lines keep gauge score > 3 in the really sad times, uncomment during season
 			 if (total_score <= 2) {
@@ -555,7 +550,6 @@
 			if (rpi_score) { console.log("RPI score (results-based): " + rpi_score); }
 			if (espn_bpi) { console.log("ESPN BPI score (predictive): " + espn_bpi); }
 			if (kenpom_score) { console.log("Kenpom score (predictive): " + kenpom_score); }
-			// if (sagarin_score) { console.log("Sagarin score (predictive): " + sagarin_score); }
 			if (torvik_score) { console.log("Torvik score (predictive): " + torvik_score); }
 			console.log("Intangibles: " + intangibles + " (" + intangibles_msg + ")");
 			console.log("Total score: " + total_score);
