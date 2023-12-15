@@ -58,6 +58,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - Predictive
 - Release date: First week of November
 - [LINK](http://sagarin.com/sports/cbsend.htm)
+- Note: Not in use for 2023-24. Sagarin stopped doing CBB ratings. Likely dumped from the team sheets, but no announcement as of 12/15/23.
 
 
 ## Quadrants
