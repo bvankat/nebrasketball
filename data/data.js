@@ -33,7 +33,7 @@
         "overall_record": "18-13",
         "rating": "63",
         "record": "8-2",
-        "sos": "270"
+        "sos": "268"
     },
     "kpi_sports": {
         "kpi_ranking": 50
@@ -57,7 +57,7 @@
         "sq_ranking": 71
     },
     "sports_reference": {
-        "SRS_rank": "60"
+        "SRS_rank": "61"
     },
     "teamrankings": {
         "make_tournament": "7.2%",
@@ -68,7 +68,7 @@
         "rank": "66"
     },
     "time": {
-        "time": "Dec. 16, 2023 at 12:47 PM"
+        "time": "Dec. 16, 2023 at 2:46 PM"
     },
     "trank": {
         "torvik_NET": "60",
@@ -88,6 +88,6 @@
         "quadrant_3": "2-0",
         "quadrant_4": "5-0",
         "record": "8-2",
-        "rpi": "60"
+        "rpi": "59"
     }
 }
