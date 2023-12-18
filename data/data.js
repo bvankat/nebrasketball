@@ -68,7 +68,7 @@
         "rank": "56"
     },
     "time": {
-        "time": "Dec. 18, 2023 at 9:30 AM"
+        "time": "Dec. 18, 2023 at 9:41 AM"
     },
     "trank": {
         "torvik_NET": "46",
