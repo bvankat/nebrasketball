@@ -23,7 +23,7 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "78"
+        "miya_rating": "56"
     },
     "haslametrics": {
         "haslam_rating": "48"
@@ -36,13 +36,13 @@
         "sos": "219"
     },
     "kpi_sports": {
-        "kpi_ranking": 44
+        "kpi_ranking": 25
     },
     "massey_ratings": {
-        "massey_rank": "60"
+        "massey_rank": "57"
     },
     "ncaa": {
-        "net_rank": "72"
+        "net_rank": "51"
     },
     "polls": {
         "ap_rank": "NR",
@@ -50,30 +50,30 @@
     },
     "seven_overtimes": {
         "projected_conf_record": "12-8",
-        "projected_record": "21-10",
-        "ranking": "34"
+        "projected_record": "22-9",
+        "ranking": "32"
     },
     "shot_quality": {
         "sq_ranking": 74
     },
     "sports_reference": {
-        "SRS_rank": "60"
+        "SRS_rank": "50"
     },
     "teamrankings": {
-        "make_tournament": "11.0%",
-        "most_likely_seed": "8",
-        "proj_conf_record": "8.7-11.3",
-        "projected_losses": "12.4",
-        "projected_wins": "18.6",
-        "rank": "66"
+        "make_tournament": "15.3%",
+        "most_likely_seed": "7",
+        "proj_conf_record": "9.3-10.7",
+        "projected_losses": "11.8",
+        "projected_wins": "19.2",
+        "rank": "56"
     },
     "time": {
-        "time": "Dec. 18, 2023 at 12:23 AM"
+        "time": "Dec. 18, 2023 at 9:30 AM"
     },
     "trank": {
-        "torvik_NET": "56",
+        "torvik_NET": "46",
         "trank": "38",
-        "trank_make_tourney": "36.2",
+        "trank_make_tourney": "54",
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "10",
         "wab_rank": "32",
@@ -82,7 +82,7 @@
     "warrennolan": {
         "current_conf_record": "1-1",
         "elo": "52",
-        "nolan_net": "72",
+        "nolan_net": "51",
         "quadrant_1": "0-1",
         "quadrant_2": "3-1",
         "quadrant_3": "1-0",
