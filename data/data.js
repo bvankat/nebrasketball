@@ -26,7 +26,7 @@
         "miya_rating": "78"
     },
     "haslametrics": {
-        "haslam_rating": "65"
+        "haslam_rating": "48"
     },
     "kenpom": {
         "conference_record": "10-10",
@@ -60,15 +60,15 @@
         "SRS_rank": "60"
     },
     "teamrankings": {
-        "make_tournament": "8.7%",
+        "make_tournament": "11.0%",
         "most_likely_seed": "8",
         "proj_conf_record": "8.7-11.3",
-        "projected_losses": "13.1",
-        "projected_wins": "17.9",
+        "projected_losses": "12.4",
+        "projected_wins": "18.6",
         "rank": "66"
     },
     "time": {
-        "time": "Dec. 17, 2023 at 10:36 PM"
+        "time": "Dec. 18, 2023 at 12:23 AM"
     },
     "trank": {
         "torvik_NET": "56",
@@ -76,18 +76,18 @@
         "trank_make_tourney": "36.2",
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "10",
-        "wab_rank": "31",
+        "wab_rank": "32",
         "wab_score": "1"
     },
     "warrennolan": {
         "current_conf_record": "1-1",
-        "elo": "51",
+        "elo": "52",
         "nolan_net": "72",
         "quadrant_1": "0-1",
         "quadrant_2": "3-1",
         "quadrant_3": "1-0",
         "quadrant_4": "5-0",
         "record": "9-2",
-        "rpi": "34"
+        "rpi": "35"
     }
 }

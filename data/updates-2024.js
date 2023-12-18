@@ -6553,6 +6553,99 @@
             "time": {
                 "time": "Dec. 17, 2023 at 10:36 PM"
             }
+        },
+        {
+            "kenpom": {
+                "rating": "42",
+                "record": "9-2",
+                "sos": "219",
+                "overall_record": "20-11",
+                "conference_record": "10-10"
+            },
+            "evanmiya": {
+                "miya_rating": "78"
+            },
+            "ncaa": {
+                "net_rank": "72"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "teamrankings": {
+                "make_tournament": "11.0%",
+                "most_likely_seed": "8",
+                "rank": "66",
+                "projected_wins": "18.6",
+                "projected_losses": "12.4",
+                "proj_conf_record": "8.7-11.3"
+            },
+            "espn": {
+                "bpi": 69.0,
+                "seven_day_change": "",
+                "proj_tourney_seed": "NR",
+                "proj_win_loss_overall": "17.9-13.1",
+                "proj_win_loss_conf": "8.7-11.3",
+                "sor": 59.0,
+                "sos": 236.0,
+                "chance_sweet_16": "0.3%",
+                "chance_round_32": "1.1%",
+                "projected_tournament_order": "74"
+            },
+            "espn_bracketology": {
+                "seed": "NR"
+            },
+            "warrennolan": {
+                "record": "9-2",
+                "current_conf_record": "1-1",
+                "rpi": "35",
+                "elo": "52",
+                "quadrant_1": "0-1",
+                "quadrant_2": "3-1",
+                "quadrant_3": "1-0",
+                "quadrant_4": "5-0",
+                "nolan_net": "72"
+            },
+            "trank": {
+                "trank": "38",
+                "trank_proj_record": "21-10 (11-9)",
+                "trank_seed": "10",
+                "trank_make_tourney": "36.2",
+                "wab_score": "1",
+                "wab_rank": "32",
+                "torvik_NET": "56"
+            },
+            "cbs": {
+                "cbs_rank": "NR"
+            },
+            "haslametrics": {
+                "haslam_rating": "48"
+            },
+            "kpi_sports": {
+                "kpi_ranking": 44
+            },
+            "shot_quality": {
+                "sq_ranking": 74
+            },
+            "bracketproject": {
+                "matrix_count": "2",
+                "total_brackets": "23",
+                "matrix_seed": "NR"
+            },
+            "massey_ratings": {
+                "massey_rank": "60"
+            },
+            "seven_overtimes": {
+                "ranking": "34",
+                "projected_record": "21-10",
+                "projected_conf_record": "12-8"
+            },
+            "sports_reference": {
+                "SRS_rank": "60"
+            },
+            "time": {
+                "time": "Dec. 18, 2023 at 12:23 AM"
+            }
         }
     ]
 }
