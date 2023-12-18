@@ -8,16 +8,16 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": 69.0,
-        "chance_round_32": "1.1%",
-        "chance_sweet_16": "0.3%",
-        "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "8.7-11.3",
-        "proj_win_loss_overall": "17.9-13.1",
-        "projected_tournament_order": "74",
-        "seven_day_change": "",
-        "sor": 59.0,
-        "sos": 236.0
+        "bpi": 62.0,
+        "chance_round_32": "4.1%",
+        "chance_sweet_16": "1.3%",
+        "proj_tourney_seed": "9",
+        "proj_win_loss_conf": "9.1-10.9",
+        "proj_win_loss_overall": "19.1-11.9",
+        "projected_tournament_order": "34",
+        "seven_day_change": "5th",
+        "sor": 34.0,
+        "sos": 143.0
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -68,7 +68,7 @@
         "rank": "56"
     },
     "time": {
-        "time": "Dec. 18, 2023 at 9:41 AM"
+        "time": "Dec. 18, 2023 at 9:45 AM"
     },
     "trank": {
         "torvik_NET": "46",
