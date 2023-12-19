@@ -33,7 +33,7 @@
         "overall_record": "20-11",
         "rating": "43",
         "record": "9-2",
-        "sos": "219"
+        "sos": "220"
     },
     "kpi_sports": {
         "kpi_ranking": 23
@@ -68,7 +68,7 @@
         "rank": "56"
     },
     "time": {
-        "time": "Dec. 19, 2023 at 11:14 AM"
+        "time": "Dec. 19, 2023 at 5:55 PM"
     },
     "trank": {
         "torvik_NET": "46",
