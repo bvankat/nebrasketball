@@ -23,26 +23,26 @@
         "seed": "11"
     },
     "evanmiya": {
-        "miya_rating": "59"
+        "miya_rating": "62"
     },
     "haslametrics": {
-        "haslam_rating": "48"
+        "haslam_rating": "65"
     },
     "kenpom": {
-        "conference_record": "10-10",
-        "overall_record": "20-11",
-        "rating": "50",
+        "conference_record": "9-11",
+        "overall_record": "19-12",
+        "rating": "53",
         "record": "10-2",
         "sos": "245"
     },
     "kpi_sports": {
-        "kpi_ranking": 21
+        "kpi_ranking": 25
     },
     "massey_ratings": {
         "massey_rank": "46"
     },
     "ncaa": {
-        "net_rank": "49"
+        "net_rank": "60"
     },
     "polls": {
         "ap_rank": "NR",
@@ -51,29 +51,29 @@
     "seven_overtimes": {
         "projected_conf_record": "12-8",
         "projected_record": "22-9",
-        "ranking": "32"
+        "ranking": "34"
     },
     "shot_quality": {
-        "sq_ranking": 64
+        "sq_ranking": 75
     },
     "sports_reference": {
-        "SRS_rank": "53"
+        "SRS_rank": "63"
     },
     "teamrankings": {
-        "make_tournament": "15.3%",
-        "most_likely_seed": "7",
-        "proj_conf_record": "9.4-10.6",
-        "projected_losses": "11.7",
-        "projected_wins": "19.3",
-        "rank": "57"
+        "make_tournament": "12.0%",
+        "most_likely_seed": "8",
+        "proj_conf_record": "8.9-11.1",
+        "projected_losses": "12.1",
+        "projected_wins": "18.9",
+        "rank": "60"
     },
     "time": {
-        "time": "Dec. 20, 2023 at 9:34 PM"
+        "time": "Dec. 21, 2023 at 11:37 AM"
     },
     "trank": {
-        "torvik_NET": "52",
-        "trank": "47",
-        "trank_make_tourney": "61.1",
+        "torvik_NET": "60",
+        "trank": "48",
+        "trank_make_tourney": "41.4",
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "11",
         "wab_rank": "33",
@@ -81,13 +81,13 @@
     },
     "warrennolan": {
         "current_conf_record": "1-1",
-        "elo": "51",
-        "nolan_net": "49",
+        "elo": "50",
+        "nolan_net": "60",
         "quadrant_1": "0-1",
         "quadrant_2": "3-1",
         "quadrant_3": "0-0",
         "quadrant_4": "7-0",
         "record": "10-2",
-        "rpi": "29"
+        "rpi": "28"
     }
 }
