@@ -54,7 +54,7 @@
         "ranking": "37"
     },
     "shot_quality": {
-        "sq_ranking": 68
+        "sq_ranking": 67
     },
     "sports_reference": {
         "SRS_rank": "60"
@@ -68,7 +68,7 @@
         "rank": "60"
     },
     "time": {
-        "time": "Dec. 24, 2023 at 12:52 AM"
+        "time": "Dec. 24, 2023 at 1:08 AM"
     },
     "trank": {
         "torvik_NET": "60",
