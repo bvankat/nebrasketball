@@ -29,11 +29,11 @@
         "haslam_rating": "44"
     },
     "kenpom": {
-        "conference_record": "9-11",
-        "overall_record": "19-12",
-        "rating": "57",
+        "conference_record": "10-10",
+        "overall_record": "20-11",
+        "rating": "51",
         "record": "11-2",
-        "sos": "305"
+        "sos": "296"
     },
     "kpi_sports": {
         "kpi_ranking": 34
@@ -60,34 +60,34 @@
         "SRS_rank": "60"
     },
     "teamrankings": {
-        "make_tournament": "8.5%",
+        "make_tournament": "9.5%",
         "most_likely_seed": "7",
-        "proj_conf_record": "9.0-11.0",
-        "projected_losses": "12.0",
-        "projected_wins": "19.0",
-        "rank": "61"
+        "proj_conf_record": "9.1-10.9",
+        "projected_losses": "11.9",
+        "projected_wins": "19.1",
+        "rank": "60"
     },
     "time": {
-        "time": "Dec. 30, 2023 at 1:56 PM"
+        "time": "Dec. 31, 2023 at 3:18 AM"
     },
     "trank": {
-        "torvik_NET": "66",
-        "trank": "50",
+        "torvik_NET": "64",
+        "trank": "48",
         "trank_make_tourney": "36.9",
         "trank_proj_record": "20-11 (10-10)",
-        "trank_seed": "12",
-        "wab_rank": "36",
-        "wab_score": "0.9"
+        "trank_seed": "11",
+        "wab_rank": "33",
+        "wab_score": "1"
     },
     "warrennolan": {
         "current_conf_record": "1-1",
-        "elo": "57",
+        "elo": "58",
         "nolan_net": "64",
         "quadrant_1": "0-1",
         "quadrant_2": "2-1",
         "quadrant_3": "1-0",
         "quadrant_4": "8-0",
         "record": "11-2",
-        "rpi": "40"
+        "rpi": "39"
     }
 }
