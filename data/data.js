@@ -33,7 +33,7 @@
         "overall_record": "20-11",
         "rating": "53",
         "record": "11-2",
-        "sos": "297"
+        "sos": "301"
     },
     "kpi_sports": {
         "kpi_ranking": 32
@@ -54,7 +54,7 @@
         "ranking": "41"
     },
     "shot_quality": {
-        "sq_ranking": 73
+        "sq_ranking": 72
     },
     "sports_reference": {
         "SRS_rank": "59"
@@ -68,26 +68,26 @@
         "rank": "60"
     },
     "time": {
-        "time": "Jan. 2, 2024 at 1:05 PM"
+        "time": "Jan. 2, 2024 at 11:31 PM"
     },
     "trank": {
         "torvik_NET": "63",
-        "trank": "50",
+        "trank": "52",
         "trank_make_tourney": "32.3",
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "12",
-        "wab_rank": "34",
+        "wab_rank": "36",
         "wab_score": "0.9"
     },
     "warrennolan": {
         "current_conf_record": "1-1",
-        "elo": "57",
+        "elo": "56",
         "nolan_net": "63",
         "quadrant_1": "1-1",
         "quadrant_2": "1-1",
         "quadrant_3": "2-0",
         "quadrant_4": "7-0",
         "record": "11-2",
-        "rpi": "43"
+        "rpi": "42"
     }
 }
