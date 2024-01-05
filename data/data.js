@@ -1,11 +1,11 @@
 {
     "bracketproject": {
-        "matrix_count": "31",
+        "matrix_count": "37",
         "matrix_seed": "12",
-        "total_brackets": "41"
+        "total_brackets": "44"
     },
     "cbs": {
-        "cbs_rank": "NR"
+        "cbs_rank": "10"
     },
     "espn": {
         "bpi": 65.0,
@@ -54,7 +54,7 @@
         "ranking": "33"
     },
     "shot_quality": {
-        "sq_ranking": 64
+        "sq_ranking": 62
     },
     "sports_reference": {
         "SRS_rank": "54"
@@ -68,12 +68,12 @@
         "rank": "55"
     },
     "time": {
-        "time": "Jan. 5, 2024 at 9:58 AM"
+        "time": "Jan. 5, 2024 at 3:44 PM"
     },
     "trank": {
         "torvik_NET": "58",
         "trank": "48",
-        "trank_make_tourney": "46.4",
+        "trank_make_tourney": "43.3",
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "11",
         "wab_rank": "30",
