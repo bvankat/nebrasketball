@@ -38,7 +38,7 @@ const highestEndpoint = highestDataPoint + 15;
 
 // Color scale for dots
 const colorScale = d3.scaleLinear()
-  .domain([highestEndpoint, 40, 10])
+  .domain([highestEndpoint, 40, 20])
   .range(['#ffffcc', '#fea849', '#e42320']);
 
 // Create an SVG container
