@@ -230,6 +230,7 @@
 					<tr>
 						<td id="ncaa-net2"><span class="small text-muted">NA</span></td>
 						<td id="quadrants-sos"><span class="small text-muted">NA</span></td>
+						<td id="quadrants-non-con-sos"><span class="small text-muted">NA</span></td>
 						<td id="warrennolan-group1" class="text-end"><span class="small text-muted">NA</span></td>
 						<td id="warrennolan-group2" class="text-end"><span class="small text-muted">NA</span></td>
 						<td id="warrennolan-group3" class="text-end"><span class="small text-muted">NA</span></td>
@@ -363,6 +364,7 @@
 				document.getElementById('espn-sor-s-curve').innerHTML = data.espn.projected_tournament_order;
 				document.getElementById('espn-bracketology-seed').innerHTML = data.espn_bracketology.seed;
 				document.getElementById('quadrants-sos').innerHTML = data.espn.sos;
+				document.getElementById('quadrants-non-con-sos').innerHTML = data.espn.non_con_sos;
 			}
 
 			if ( data.warrennolan ) {
