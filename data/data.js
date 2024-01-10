@@ -27,14 +27,14 @@
         "miya_rating": "69"
     },
     "haslametrics": {
-        "haslam_rating": "43"
+        "haslam_rating": "27"
     },
     "kenpom": {
         "conference_record": "11-9",
         "overall_record": "21-10",
-        "rating": "42",
+        "rating": "41",
         "record": "13-3",
-        "sos": "148"
+        "sos": "150"
     },
     "kpi_sports": {
         "kpi_ranking": 35
@@ -66,19 +66,19 @@
         "proj_conf_record": "10.1-9.9",
         "projected_losses": "10.9",
         "projected_wins": "20.1",
-        "rank": "59"
+        "rank": "49"
     },
     "time": {
-        "time": "Jan. 10, 2024 at 12:07 AM"
+        "time": "Jan. 10, 2024 at 1:23 AM"
     },
     "trank": {
         "torvik_NET": "51",
-        "trank": "43",
+        "trank": "42",
         "trank_make_tourney": "24.5",
         "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "10",
-        "wab_rank": "26",
-        "wab_score": "1.4"
+        "wab_rank": "24",
+        "wab_score": "1.5"
     },
     "warrennolan": {
         "current_conf_record": "3-2",
