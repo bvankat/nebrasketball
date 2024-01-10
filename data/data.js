@@ -69,16 +69,16 @@
         "rank": "59"
     },
     "time": {
-        "time": "Jan. 9, 2024 at 10:51 PM"
+        "time": "Jan. 9, 2024 at 10:54 PM"
     },
     "trank": {
         "torvik_NET": "51",
-        "trank": "53",
+        "trank": "41",
         "trank_make_tourney": "24.5",
         "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "10",
-        "wab_rank": "37",
-        "wab_score": "0.6"
+        "wab_rank": "25",
+        "wab_score": "1.4"
     },
     "warrennolan": {
         "current_conf_record": "3-2",
