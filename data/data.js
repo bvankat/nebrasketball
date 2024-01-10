@@ -55,21 +55,21 @@
         "ranking": "49"
     },
     "shot_quality": {
-        "sq_ranking": 63
+        "sq_ranking": 62
     },
     "sports_reference": {
         "SRS_rank": "55"
     },
     "teamrankings": {
-        "make_tournament": "14.6%",
+        "make_tournament": "19.6%",
         "most_likely_seed": "7",
-        "proj_conf_record": "10.1-9.9",
-        "projected_losses": "10.9",
-        "projected_wins": "20.1",
+        "proj_conf_record": "10.8-9.2",
+        "projected_losses": "10.2",
+        "projected_wins": "20.8",
         "rank": "49"
     },
     "time": {
-        "time": "Jan. 10, 2024 at 1:23 AM"
+        "time": "Jan. 10, 2024 at 2:30 AM"
     },
     "trank": {
         "torvik_NET": "51",
