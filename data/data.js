@@ -69,16 +69,16 @@
         "rank": "59"
     },
     "time": {
-        "time": "Jan. 9, 2024 at 10:29 PM"
+        "time": "Jan. 9, 2024 at 10:51 PM"
     },
     "trank": {
-        "torvik_NET": "62",
-        "trank": "54",
+        "torvik_NET": "51",
+        "trank": "53",
         "trank_make_tourney": "24.5",
-        "trank_proj_record": "20-11 (10-10)",
-        "trank_seed": "NR",
-        "wab_rank": "38",
-        "wab_score": "0.7"
+        "trank_proj_record": "22-9 (12-8)",
+        "trank_seed": "10",
+        "wab_rank": "37",
+        "wab_score": "0.6"
     },
     "warrennolan": {
         "current_conf_record": "3-2",
@@ -89,6 +89,6 @@
         "quadrant_3": "3-0",
         "quadrant_4": "7-0",
         "record": "13-3",
-        "rpi": "31"
+        "rpi": "30"
     }
 }
