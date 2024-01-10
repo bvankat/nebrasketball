@@ -30,11 +30,11 @@
         "haslam_rating": "43"
     },
     "kenpom": {
-        "conference_record": "10-10",
-        "overall_record": "20-11",
-        "rating": "53",
-        "record": "12-3",
-        "sos": "230"
+        "conference_record": "11-9",
+        "overall_record": "21-10",
+        "rating": "42",
+        "record": "13-3",
+        "sos": "148"
     },
     "kpi_sports": {
         "kpi_ranking": 35
@@ -69,7 +69,7 @@
         "rank": "59"
     },
     "time": {
-        "time": "Jan. 9, 2024 at 10:19 PM"
+        "time": "Jan. 9, 2024 at 10:29 PM"
     },
     "trank": {
         "torvik_NET": "62",
