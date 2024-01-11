@@ -27,7 +27,8 @@
         "miya_rating": "41"
     },
     "haslametrics": {
-        "haslam_rating": "25"
+        "haslam_rating": "25",
+        "seed": "4"
     },
     "kenpom": {
         "conference_record": "11-9",
@@ -55,7 +56,7 @@
         "ranking": "41"
     },
     "shot_quality": {
-        "sq_ranking": 43
+        "sq_ranking": 44
     },
     "sports_reference": {
         "SRS_rank": "45"
@@ -69,7 +70,7 @@
         "rank": "48"
     },
     "time": {
-        "time": "Jan. 11, 2024 at 10:53 AM"
+        "time": "Jan. 11, 2024 at 12:26 PM"
     },
     "trank": {
         "torvik_NET": "43",
