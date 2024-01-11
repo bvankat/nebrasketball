@@ -8,17 +8,17 @@
         "cbs_rank": "10"
     },
     "espn": {
-        "bpi": 57.0,
-        "chance_round_32": "8.4%",
-        "chance_sweet_16": "2.5%",
-        "non_con_sos": 299.0,
-        "proj_tourney_seed": "8",
+        "bpi": 54.0,
+        "chance_round_32": "8.2%",
+        "chance_sweet_16": "2.0%",
+        "non_con_sos": 301.0,
+        "proj_tourney_seed": "7",
         "proj_win_loss_conf": "10.4-9.6",
         "proj_win_loss_overall": "20.4-10.6",
-        "projected_tournament_order": "29",
-        "seven_day_change": "14th",
-        "sor": 29.0,
-        "sos": 71.0
+        "projected_tournament_order": "27",
+        "seven_day_change": "13th",
+        "sor": 27.0,
+        "sos": 69.0
     },
     "espn_bracketology": {
         "seed": "First Four Out"
@@ -43,7 +43,7 @@
         "massey_rank": "53"
     },
     "ncaa": {
-        "net_rank": "46"
+        "net_rank": "41"
     },
     "polls": {
         "ap_rank": "NR",
@@ -69,12 +69,12 @@
         "rank": "48"
     },
     "time": {
-        "time": "Jan. 11, 2024 at 5:28 AM"
+        "time": "Jan. 11, 2024 at 10:53 AM"
     },
     "trank": {
-        "torvik_NET": "44",
+        "torvik_NET": "43",
         "trank": "39",
-        "trank_make_tourney": "75.1",
+        "trank_make_tourney": "77.3",
         "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "9",
         "wab_rank": "22",
@@ -83,7 +83,7 @@
     "warrennolan": {
         "current_conf_record": "3-2",
         "elo": "34",
-        "nolan_net": "46",
+        "nolan_net": "41",
         "quadrant_1": "3-2",
         "quadrant_2": "0-1",
         "quadrant_3": "3-0",
