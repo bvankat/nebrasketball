@@ -276,6 +276,8 @@
 					
 					<tr><td>Bracket Matrix</td><td class="text-end"><span class="small text-muted">NA</span></td><td class="text-end" id="bracketproject-seed"><span class="small text-muted">NA</span></td></tr>
 					
+					<tr><td>Haslametrics Bracketology "Deserves"</td><td class="text-end"><span class="small text-muted">NA</span></td><td class="text-end" id="haslametrics-seed"><span class="small text-muted">NA</span></td></tr>
+					
 			    </tbody>
 			</table>
 			
@@ -401,6 +403,7 @@
 
 			if ( data.haslametrics ) {
 				document.getElementById('haslam-rating').innerHTML = data.haslametrics.haslam_rating;
+				document.getElementById('haslametrics-seed').innerHTML = data.haslametrics.seed;
 			}
 			
 			if ( data.evanmiya ) {
