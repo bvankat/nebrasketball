@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": "36",
-        "matrix_seed": "12",
-        "total_brackets": "54"
+        "matrix_count": "42",
+        "matrix_seed": "11",
+        "total_brackets": "56"
     },
     "cbs": {
         "cbs_rank": "10"
@@ -32,9 +32,9 @@
     "kenpom": {
         "conference_record": "11-9",
         "overall_record": "21-10",
-        "rating": "41",
+        "rating": "39",
         "record": "13-3",
-        "sos": "150"
+        "sos": "152"
     },
     "kpi_sports": {
         "kpi_ranking": 16
@@ -55,13 +55,13 @@
         "ranking": "41"
     },
     "shot_quality": {
-        "sq_ranking": 62
+        "sq_ranking": 41
     },
     "sports_reference": {
         "SRS_rank": "47"
     },
     "teamrankings": {
-        "make_tournament": "19.6%",
+        "make_tournament": "20.6%",
         "most_likely_seed": "7",
         "proj_conf_record": "10.8-9.2",
         "projected_losses": "10.2",
@@ -69,26 +69,26 @@
         "rank": "49"
     },
     "time": {
-        "time": "Jan. 10, 2024 at 10:55 AM"
+        "time": "Jan. 11, 2024 at 12:04 AM"
     },
     "trank": {
-        "torvik_NET": "48",
-        "trank": "42",
+        "torvik_NET": "45",
+        "trank": "40",
         "trank_make_tourney": "70.5",
         "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "9",
-        "wab_rank": "24",
+        "wab_rank": "22",
         "wab_score": "1.5"
     },
     "warrennolan": {
         "current_conf_record": "3-2",
-        "elo": "35",
+        "elo": "34",
         "nolan_net": "46",
         "quadrant_1": "3-2",
         "quadrant_2": "0-1",
         "quadrant_3": "3-0",
         "quadrant_4": "7-0",
         "record": "13-3",
-        "rpi": "30"
+        "rpi": "29"
     }
 }
