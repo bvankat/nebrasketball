@@ -5,7 +5,7 @@
         "total_brackets": "57"
     },
     "cbs": {
-        "cbs_rank": "10"
+        "cbs_rank": "8"
     },
     "espn": {
         "bpi": 55.0,
@@ -70,7 +70,7 @@
         "rank": "49"
     },
     "time": {
-        "time": "Jan. 12, 2024 at 10:42 AM"
+        "time": "Jan. 12, 2024 at 2:31 PM"
     },
     "trank": {
         "torvik_NET": "43",
