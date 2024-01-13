@@ -30,9 +30,9 @@
     "kenpom": {
         "conference_record": "11-9",
         "overall_record": "21-10",
-        "rating": "48",
+        "rating": "47",
         "record": "13-4",
-        "sos": "108"
+        "sos": "113"
     },
     "kpi_sports": {
         "kpi_ranking": 26
@@ -67,11 +67,11 @@
         "rank": "52"
     },
     "time": {
-        "time": "Jan. 13, 2024 at 11:37 AM"
+        "time": "Jan. 13, 2024 at 5:49 PM"
     },
     "trank": {
-        "torvik_NET": "52",
-        "trank": "49",
+        "torvik_NET": "54",
+        "trank": "47",
         "trank_make_tourney": "55.8",
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "10",
@@ -87,6 +87,6 @@
         "quadrant_3": "3-0",
         "quadrant_4": "7-0",
         "record": "13-4",
-        "rpi": "41"
+        "rpi": "42"
     }
 }
