@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": "44",
-        "matrix_seed": "11",
-        "total_brackets": "57"
+        "matrix_count": "47",
+        "matrix_seed": "9",
+        "total_brackets": "58"
     },
     "cbs": {
         "cbs_rank": "8"
@@ -56,7 +56,7 @@
         "ranking": "39"
     },
     "shot_quality": {
-        "sq_ranking": 52
+        "sq_ranking": 51
     },
     "sports_reference": {
         "SRS_rank": "48"
@@ -70,7 +70,7 @@
         "rank": "49"
     },
     "time": {
-        "time": "Jan. 12, 2024 at 2:31 PM"
+        "time": "Jan. 12, 2024 at 7:40 PM"
     },
     "trank": {
         "torvik_NET": "43",
