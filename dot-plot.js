@@ -21,13 +21,13 @@ const data = {
     RPI: parseInt(ratings_data.warrennolan.rpi),
     ELO: parseInt(ratings_data.warrennolan.elo),
     Massey: parseInt(ratings_data.massey_ratings.massey_rank),
-    'Team Rankings': parseInt(ratings_data.teamrankings.rank),
+    TR: parseInt(ratings_data.teamrankings.rank),
     WAB:  parseInt(ratings_data.trank.wab_rank),
     SRS: parseInt(ratings_data.sports_reference.SRS_rank),
     Haslametrics: parseInt(ratings_data.haslametrics.haslam_rating),
     Miyakawa: parseInt(ratings_data.evanmiya.miya_rating),
-    'Shot Quality': parseInt(ratings_data.shot_quality.sq_ranking),
-    'Seven OT': parseInt(ratings_data.seven_overtimes.ranking), 
+    SQ: parseInt(ratings_data.shot_quality.sq_ranking),
+    '7OT': parseInt(ratings_data.seven_overtimes.ranking), 
 }
 
 // Determine the highest data point
