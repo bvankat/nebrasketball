@@ -44,7 +44,7 @@
         "massey_rank": "53"
     },
     "ncaa": {
-        "net_rank": "54"
+        "net_rank": "53"
     },
     "polls": {
         "ap_rank": "NR",
@@ -56,26 +56,26 @@
         "ranking": "64"
     },
     "shot_quality": {
-        "sq_ranking": 52
+        "sq_ranking": 51
     },
     "sports_reference": {
         "SRS_rank": "54"
     },
     "teamrankings": {
-        "make_tournament": "10.5%",
-        "most_likely_seed": "8",
+        "make_tournament": "11.0%",
+        "most_likely_seed": "7",
         "proj_conf_record": "10.1-9.9",
         "projected_losses": "10.9",
         "projected_wins": "20.1",
-        "rank": "52"
+        "rank": "53"
     },
     "time": {
-        "time": "Jan. 13, 2024 at 10:46 PM"
+        "time": "Jan. 14, 2024 at 5:22 AM"
     },
     "trank": {
-        "torvik_NET": "56",
+        "torvik_NET": "53",
         "trank": "49",
-        "trank_make_tourney": "55.8",
+        "trank_make_tourney": "54.8",
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "10",
         "wab_rank": "38",
@@ -83,8 +83,8 @@
     },
     "warrennolan": {
         "current_conf_record": "3-3",
-        "elo": "47",
-        "nolan_net": "54",
+        "elo": "48",
+        "nolan_net": "53",
         "quadrant_1": "2-3",
         "quadrant_2": "1-1",
         "quadrant_3": "3-0",
