@@ -9,25 +9,25 @@
     },
     "espn": {
         "bpi": 61.0,
-        "chance_round_32": "6.8%",
-        "chance_sweet_16": "1.5%",
-        "non_con_sos": 289.0,
+        "chance_round_32": "5.3%",
+        "chance_sweet_16": "1.1%",
+        "non_con_sos": 291.0,
         "proj_tourney_seed": "8",
-        "proj_win_loss_conf": "9.8-10.2",
+        "proj_win_loss_conf": "9.9-10.1",
         "proj_win_loss_overall": "19.9-11.1",
-        "projected_tournament_order": "32",
-        "seven_day_change": "5th",
+        "projected_tournament_order": "31",
+        "seven_day_change": "7th",
         "sor": 32.0,
-        "sos": 50.0
+        "sos": 55.0
     },
     "espn_bracketology": {
         "seed": "9"
     },
     "evanmiya": {
-        "miya_rating": "56"
+        "miya_rating": "55"
     },
     "haslametrics": {
-        "haslam_rating": "37",
+        "haslam_rating": "40",
         "seed": "8"
     },
     "kenpom": {
@@ -38,7 +38,7 @@
         "sos": "113"
     },
     "kpi_sports": {
-        "kpi_ranking": 26
+        "kpi_ranking": 28
     },
     "massey_ratings": {
         "massey_rank": "53"
@@ -53,10 +53,10 @@
     "seven_overtimes": {
         "projected_conf_record": "10-10",
         "projected_record": "20-11",
-        "ranking": "64"
+        "ranking": "62"
     },
     "shot_quality": {
-        "sq_ranking": 51
+        "sq_ranking": 53
     },
     "sports_reference": {
         "SRS_rank": "54"
@@ -70,12 +70,12 @@
         "rank": "53"
     },
     "time": {
-        "time": "Jan. 14, 2024 at 5:22 AM"
+        "time": "Jan. 14, 2024 at 12:53 PM"
     },
     "trank": {
         "torvik_NET": "53",
         "trank": "49",
-        "trank_make_tourney": "54.8",
+        "trank_make_tourney": "55.9",
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "10",
         "wab_rank": "38",
