@@ -23,6 +23,9 @@
     "espn_bracketology": {
         "seed": "9"
     },
+    "evanmiya": {
+        "miya_rating": "56"
+    },
     "haslametrics": {
         "haslam_rating": "37",
         "seed": "8"
@@ -67,7 +70,7 @@
         "rank": "52"
     },
     "time": {
-        "time": "Jan. 13, 2024 at 10:37 PM"
+        "time": "Jan. 13, 2024 at 10:46 PM"
     },
     "trank": {
         "torvik_NET": "56",
