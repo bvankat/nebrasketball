@@ -5,20 +5,20 @@
         "total_brackets": "58"
     },
     "cbs": {
-        "cbs_rank": "8"
+        "cbs_rank": "10"
     },
     "espn": {
-        "bpi": 61.0,
-        "chance_round_32": "5.3%",
-        "chance_sweet_16": "1.1%",
+        "bpi": 62.0,
+        "chance_round_32": "5.5%",
+        "chance_sweet_16": "1.3%",
         "non_con_sos": 291.0,
         "proj_tourney_seed": "8",
         "proj_win_loss_conf": "9.9-10.1",
         "proj_win_loss_overall": "19.9-11.1",
-        "projected_tournament_order": "31",
-        "seven_day_change": "7th",
-        "sor": 32.0,
-        "sos": 55.0
+        "projected_tournament_order": "30",
+        "seven_day_change": "6th",
+        "sor": 31.0,
+        "sos": 54.0
     },
     "espn_bracketology": {
         "seed": "9"
@@ -41,7 +41,7 @@
         "kpi_ranking": 28
     },
     "massey_ratings": {
-        "massey_rank": "53"
+        "massey_rank": "46"
     },
     "ncaa": {
         "net_rank": "53"
@@ -53,16 +53,16 @@
     "seven_overtimes": {
         "projected_conf_record": "10-10",
         "projected_record": "20-11",
-        "ranking": "62"
+        "ranking": "61"
     },
     "shot_quality": {
-        "sq_ranking": 53
+        "sq_ranking": 52
     },
     "sports_reference": {
         "SRS_rank": "54"
     },
     "teamrankings": {
-        "make_tournament": "10.6%",
+        "make_tournament": "10.8%",
         "most_likely_seed": "8",
         "proj_conf_record": "10.1-9.9",
         "projected_losses": "10.9",
@@ -70,12 +70,12 @@
         "rank": "53"
     },
     "time": {
-        "time": "Jan. 15, 2024 at 5:47 AM"
+        "time": "Jan. 15, 2024 at 12:29 PM"
     },
     "trank": {
         "torvik_NET": "53",
         "trank": "49",
-        "trank_make_tourney": "56.5",
+        "trank_make_tourney": "58.5",
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "10",
         "wab_rank": "37",
