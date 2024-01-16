@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": "47",
+        "matrix_count": "58",
         "matrix_seed": "9",
-        "total_brackets": "58"
+        "total_brackets": "61"
     },
     "cbs": {
         "cbs_rank": "10"
@@ -35,13 +35,13 @@
         "overall_record": "21-10",
         "rating": "49",
         "record": "13-4",
-        "sos": "114"
+        "sos": "115"
     },
     "kpi_sports": {
         "kpi_ranking": 28
     },
     "massey_ratings": {
-        "massey_rank": "46"
+        "massey_rank": "44"
     },
     "ncaa": {
         "net_rank": "53"
@@ -70,7 +70,7 @@
         "rank": "53"
     },
     "time": {
-        "time": "Jan. 15, 2024 at 12:29 PM"
+        "time": "Jan. 15, 2024 at 10:52 PM"
     },
     "trank": {
         "torvik_NET": "53",
@@ -83,13 +83,13 @@
     },
     "warrennolan": {
         "current_conf_record": "3-3",
-        "elo": "51",
+        "elo": "50",
         "nolan_net": "53",
         "quadrant_1": "2-3",
         "quadrant_2": "1-1",
         "quadrant_3": "3-0",
         "quadrant_4": "7-0",
         "record": "13-4",
-        "rpi": "42"
+        "rpi": "45"
     }
 }
