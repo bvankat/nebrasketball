@@ -27,15 +27,15 @@
         "miya_rating": "56"
     },
     "haslametrics": {
-        "haslam_rating": "40",
-        "seed": "9"
+        "haslam_rating": "41",
+        "seed": "8"
     },
     "kenpom": {
         "conference_record": "11-9",
         "overall_record": "21-10",
         "rating": "49",
         "record": "13-4",
-        "sos": "115"
+        "sos": "116"
     },
     "kpi_sports": {
         "kpi_ranking": 28
@@ -48,7 +48,7 @@
     },
     "polls": {
         "ap_rank": "NR",
-        "coaches_rank": "NR"
+        "coaches_rank": 42
     },
     "seven_overtimes": {
         "projected_conf_record": "10-10",
@@ -62,15 +62,15 @@
         "SRS_rank": "54"
     },
     "teamrankings": {
-        "make_tournament": "10.8%",
+        "make_tournament": "9.9%",
         "most_likely_seed": "8",
         "proj_conf_record": "10.1-9.9",
         "projected_losses": "10.9",
         "projected_wins": "20.1",
-        "rank": "53"
+        "rank": "54"
     },
     "time": {
-        "time": "Jan. 15, 2024 at 10:52 PM"
+        "time": "Jan. 16, 2024 at 2:42 AM"
     },
     "trank": {
         "torvik_NET": "53",
