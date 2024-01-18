@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": "67",
-        "matrix_seed": "10",
-        "total_brackets": "68"
+        "matrix_count": "69",
+        "matrix_seed": "9",
+        "total_brackets": "70"
     },
     "cbs": {
         "cbs_rank": "10"
@@ -27,15 +27,15 @@
         "miya_rating": "58"
     },
     "haslametrics": {
-        "haslam_rating": "38",
-        "seed": "7"
+        "haslam_rating": "46",
+        "seed": "PI11"
     },
     "kenpom": {
-        "conference_record": "11-9",
-        "overall_record": "21-10",
-        "rating": "49",
-        "record": "13-4",
-        "sos": "116"
+        "conference_record": "10-10",
+        "overall_record": "20-11",
+        "rating": "51",
+        "record": "13-5",
+        "sos": "99"
     },
     "kpi_sports": {
         "kpi_ranking": 29
@@ -62,34 +62,34 @@
         "SRS_rank": "53"
     },
     "teamrankings": {
-        "make_tournament": "10.5%",
+        "make_tournament": "7.4%",
         "most_likely_seed": "7",
-        "proj_conf_record": "10.1-9.9",
-        "projected_losses": "10.9",
-        "projected_wins": "20.1",
+        "proj_conf_record": "9.6-10.4",
+        "projected_losses": "11.4",
+        "projected_wins": "19.6",
         "rank": "53"
     },
     "time": {
-        "time": "Jan. 17, 2024 at 12:00 PM"
+        "time": "Jan. 18, 2024 at 1:24 AM"
     },
     "trank": {
-        "torvik_NET": "52",
-        "trank": "48",
+        "torvik_NET": "54",
+        "trank": "49",
         "trank_make_tourney": "54.3",
-        "trank_proj_record": "21-10 (11-9)",
-        "trank_seed": "10",
-        "wab_rank": "34",
-        "wab_score": "1.2"
+        "trank_proj_record": "20-11 (10-10)",
+        "trank_seed": "11",
+        "wab_rank": "49",
+        "wab_score": "0.7"
     },
     "warrennolan": {
-        "current_conf_record": "3-3",
-        "elo": "53",
+        "current_conf_record": "3-4",
+        "elo": "66",
         "nolan_net": "53",
         "quadrant_1": "3-3",
-        "quadrant_2": "0-1",
+        "quadrant_2": "0-2",
         "quadrant_3": "3-0",
         "quadrant_4": "7-0",
-        "record": "13-4",
-        "rpi": "48"
+        "record": "13-5",
+        "rpi": "53"
     }
 }
