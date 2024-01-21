@@ -33,9 +33,9 @@
     "kenpom": {
         "conference_record": "10-10",
         "overall_record": "20-11",
-        "rating": "52",
-        "record": "13-5",
-        "sos": "99"
+        "rating": "50",
+        "record": "14-5",
+        "sos": "90"
     },
     "kpi_sports": {
         "kpi_ranking": 42
@@ -70,26 +70,26 @@
         "rank": "56"
     },
     "time": {
-        "time": "Jan. 20, 2024 at 12:21 PM"
+        "time": "Jan. 20, 2024 at 11:39 PM"
     },
     "trank": {
-        "torvik_NET": "56",
-        "trank": "49",
+        "torvik_NET": "52",
+        "trank": "47",
         "trank_make_tourney": "43",
         "trank_proj_record": "20-11 (10-10)",
-        "trank_seed": "11",
-        "wab_rank": "49",
-        "wab_score": "0.7"
+        "trank_seed": "10",
+        "wab_rank": "39",
+        "wab_score": "0.9"
     },
     "warrennolan": {
-        "current_conf_record": "3-4",
-        "elo": "68",
+        "current_conf_record": "4-4",
+        "elo": "50",
         "nolan_net": "58",
         "quadrant_1": "3-3",
-        "quadrant_2": "0-2",
+        "quadrant_2": "1-2",
         "quadrant_3": "3-0",
         "quadrant_4": "7-0",
-        "record": "13-5",
-        "rpi": "57"
+        "record": "14-5",
+        "rpi": "45"
     }
 }
