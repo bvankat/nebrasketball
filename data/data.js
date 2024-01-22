@@ -48,7 +48,7 @@
     },
     "polls": {
         "ap_rank": "NR",
-        "coaches_rank": 42
+        "coaches_rank": "NR"
     },
     "seven_overtimes": {
         "projected_conf_record": "11-9",
@@ -70,12 +70,12 @@
         "rank": "56"
     },
     "time": {
-        "time": "Jan. 22, 2024 at 9:54 AM"
+        "time": "Jan. 22, 2024 at 2:15 PM"
     },
     "trank": {
         "torvik_NET": "54",
         "trank": "47",
-        "trank_make_tourney": "48.5",
+        "trank_make_tourney": "46.7",
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "11",
         "wab_rank": "38",
