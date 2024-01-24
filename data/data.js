@@ -70,7 +70,7 @@
         "rank": "51"
     },
     "time": {
-        "time": "Jan. 24, 2024 at 10:18 AM"
+        "time": "Jan. 24, 2024 at 10:33 AM"
     },
     "trank": {
         "torvik_NET": "47",
