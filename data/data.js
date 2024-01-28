@@ -31,11 +31,11 @@
         "seed": "8"
     },
     "kenpom": {
-        "conference_record": "11-9",
-        "overall_record": "21-10",
-        "rating": "45",
-        "record": "15-5",
-        "sos": "76"
+        "conference_record": "10-10",
+        "overall_record": "20-11",
+        "rating": "53",
+        "record": "15-6",
+        "sos": "61"
     },
     "kpi_sports": {
         "kpi_ranking": 21
@@ -56,40 +56,40 @@
         "ranking": "38"
     },
     "shot_quality": {
-        "sq_ranking": 61
+        "sq_ranking": 63
     },
     "sports_reference": {
         "SRS_rank": "50"
     },
     "teamrankings": {
-        "make_tournament": "13.9%",
+        "make_tournament": "10.4%",
         "most_likely_seed": "7",
-        "proj_conf_record": "10.7-9.3",
-        "projected_losses": "10.3",
-        "projected_wins": "20.7",
-        "rank": "51"
+        "proj_conf_record": "10.3-9.7",
+        "projected_losses": "10.7",
+        "projected_wins": "20.3",
+        "rank": "62"
     },
     "time": {
-        "time": "Jan. 27, 2024 at 10:58 AM"
+        "time": "Jan. 28, 2024 at 12:46 AM"
     },
     "trank": {
-        "torvik_NET": "48",
-        "trank": "39",
+        "torvik_NET": "49",
+        "trank": "54",
         "trank_make_tourney": "66",
-        "trank_proj_record": "21-10 (11-9)",
-        "trank_seed": "10",
-        "wab_rank": "33",
-        "wab_score": "1.3"
+        "trank_proj_record": "20-11 (10-10)",
+        "trank_seed": "11",
+        "wab_rank": "39",
+        "wab_score": "0.9"
     },
     "warrennolan": {
-        "current_conf_record": "5-4",
-        "elo": "40",
+        "current_conf_record": "5-5",
+        "elo": "52",
         "nolan_net": "47",
         "quadrant_1": "3-3",
-        "quadrant_2": "2-2",
+        "quadrant_2": "2-3",
         "quadrant_3": "3-0",
         "quadrant_4": "7-0",
-        "record": "15-5",
-        "rpi": "38"
+        "record": "15-6",
+        "rpi": "43"
     }
 }
