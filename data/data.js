@@ -24,11 +24,11 @@
         "seed": "9"
     },
     "evanmiya": {
-        "miya_rating": "53"
+        "miya_rating": "63"
     },
     "haslametrics": {
-        "haslam_rating": "38",
-        "seed": "8"
+        "haslam_rating": "49",
+        "seed": "11"
     },
     "kenpom": {
         "conference_record": "10-10",
@@ -38,44 +38,44 @@
         "sos": "61"
     },
     "kpi_sports": {
-        "kpi_ranking": 21
+        "kpi_ranking": 27
     },
     "massey_ratings": {
         "massey_rank": "44"
     },
     "ncaa": {
-        "net_rank": "47"
+        "net_rank": "62"
     },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
     "seven_overtimes": {
-        "projected_conf_record": "12-8",
-        "projected_record": "22-9",
-        "ranking": "38"
+        "projected_conf_record": "11-9",
+        "projected_record": "21-10",
+        "ranking": "49"
     },
     "shot_quality": {
-        "sq_ranking": 63
+        "sq_ranking": 70
     },
     "sports_reference": {
-        "SRS_rank": "50"
+        "SRS_rank": "56"
     },
     "teamrankings": {
-        "make_tournament": "10.4%",
-        "most_likely_seed": "7",
-        "proj_conf_record": "10.3-9.7",
-        "projected_losses": "10.7",
-        "projected_wins": "20.3",
+        "make_tournament": "9.3%",
+        "most_likely_seed": "8",
+        "proj_conf_record": "10.1-9.9",
+        "projected_losses": "10.9",
+        "projected_wins": "20.1",
         "rank": "62"
     },
     "time": {
-        "time": "Jan. 28, 2024 at 12:46 AM"
+        "time": "Jan. 28, 2024 at 10:33 AM"
     },
     "trank": {
-        "torvik_NET": "49",
+        "torvik_NET": "60",
         "trank": "54",
-        "trank_make_tourney": "66",
+        "trank_make_tourney": "35.2",
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "11",
         "wab_rank": "39",
@@ -84,12 +84,12 @@
     "warrennolan": {
         "current_conf_record": "5-5",
         "elo": "52",
-        "nolan_net": "47",
+        "nolan_net": "62",
         "quadrant_1": "3-3",
         "quadrant_2": "2-3",
         "quadrant_3": "3-0",
         "quadrant_4": "7-0",
         "record": "15-6",
-        "rpi": "43"
+        "rpi": "42"
     }
 }
