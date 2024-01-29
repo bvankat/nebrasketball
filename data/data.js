@@ -5,7 +5,7 @@
         "total_brackets": "80"
     },
     "cbs": {
-        "cbs_rank": "8"
+        "cbs_rank": "9"
     },
     "espn": {
         "bpi": 66.0,
@@ -70,12 +70,12 @@
         "rank": "59"
     },
     "time": {
-        "time": "Jan. 29, 2024 at 9:40 AM"
+        "time": "Jan. 29, 2024 at 3:15 PM"
     },
     "trank": {
         "torvik_NET": "57",
         "trank": "54",
-        "trank_make_tourney": "36.7",
+        "trank_make_tourney": "37.5",
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "12",
         "wab_rank": "39",
