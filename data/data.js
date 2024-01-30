@@ -9,16 +9,16 @@
     },
     "espn": {
         "bpi": 66.0,
-        "chance_round_32": "7.8%",
-        "chance_sweet_16": "1.8%",
+        "chance_round_32": "7.7%",
+        "chance_sweet_16": "1.9%",
         "non_con_sos": 289.0,
-        "proj_tourney_seed": "10",
-        "proj_win_loss_conf": "10.0-10.0",
+        "proj_tourney_seed": "9",
+        "proj_win_loss_conf": "10.1-9.9",
         "proj_win_loss_overall": "20.0-11.0",
-        "projected_tournament_order": "37",
-        "seven_day_change": "Tied-6th",
-        "sor": 38.0,
-        "sos": 47.0
+        "projected_tournament_order": "36",
+        "seven_day_change": "Tied-2nd",
+        "sor": 37.0,
+        "sos": 48.0
     },
     "espn_bracketology": {
         "seed": "11"
@@ -70,12 +70,12 @@
         "rank": "59"
     },
     "time": {
-        "time": "Jan. 30, 2024 at 9:23 AM"
+        "time": "Jan. 30, 2024 at 2:37 PM"
     },
     "trank": {
         "torvik_NET": "52",
         "trank": "51",
-        "trank_make_tourney": "39.5",
+        "trank_make_tourney": "39.8",
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "11",
         "wab_rank": "39",
