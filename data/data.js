@@ -56,7 +56,7 @@
         "ranking": "46"
     },
     "shot_quality": {
-        "sq_ranking": 68
+        "sq_ranking": 67
     },
     "sports_reference": {
         "SRS_rank": "54"
@@ -70,7 +70,7 @@
         "rank": "60"
     },
     "time": {
-        "time": "Jan. 31, 2024 at 10:32 AM"
+        "time": "Jan. 31, 2024 at 4:49 PM"
     },
     "trank": {
         "torvik_NET": "54",
