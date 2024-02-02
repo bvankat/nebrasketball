@@ -8,17 +8,17 @@
         "cbs_rank": "9"
     },
     "espn": {
-        "bpi": 67.0,
-        "chance_round_32": "8.9%",
-        "chance_sweet_16": "2.0%",
-        "non_con_sos": 294.0,
+        "bpi": 65.0,
+        "chance_round_32": "8.3%",
+        "chance_sweet_16": "1.8%",
+        "non_con_sos": 295.0,
         "proj_tourney_seed": "9",
         "proj_win_loss_conf": "10.1-9.9",
         "proj_win_loss_overall": "20.1-10.9",
-        "projected_tournament_order": "35",
-        "seven_day_change": "Tied-9th",
+        "projected_tournament_order": "36",
+        "seven_day_change": "Tied-7th",
         "sor": 36.0,
-        "sos": 53.0
+        "sos": 54.0
     },
     "espn_bracketology": {
         "seed": "11"
@@ -27,8 +27,8 @@
         "miya_rating": "60"
     },
     "haslametrics": {
-        "haslam_rating": "49",
-        "seed": "PI11"
+        "haslam_rating": "47",
+        "seed": "9"
     },
     "kenpom": {
         "conference_record": "11-9",
@@ -62,22 +62,22 @@
         "SRS_rank": "56"
     },
     "teamrankings": {
-        "make_tournament": "9.9%",
-        "most_likely_seed": "8",
-        "proj_conf_record": "10.1-9.9",
-        "projected_losses": "10.9",
-        "projected_wins": "20.1",
+        "make_tournament": "20.4%",
+        "most_likely_seed": "7",
+        "proj_conf_record": "10.8-9.2",
+        "projected_losses": "10.2",
+        "projected_wins": "20.8",
         "rank": "52"
     },
     "time": {
-        "time": "Feb. 1, 2024 at 11:54 PM"
+        "time": "Feb. 2, 2024 at 1:09 AM"
     },
     "trank": {
-        "torvik_NET": "57",
+        "torvik_NET": "55",
         "trank": "51",
         "trank_make_tourney": "33.1",
         "trank_proj_record": "21-10 (11-9)",
-        "trank_seed": "10",
+        "trank_seed": "11",
         "wab_rank": "34",
         "wab_score": "1.4"
     },
