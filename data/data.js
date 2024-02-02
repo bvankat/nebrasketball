@@ -21,7 +21,7 @@
         "sos": 54.0
     },
     "espn_bracketology": {
-        "seed": "11"
+        "seed": "10"
     },
     "evanmiya": {
         "miya_rating": "60"
@@ -70,12 +70,12 @@
         "rank": "52"
     },
     "time": {
-        "time": "Feb. 2, 2024 at 9:18 AM"
+        "time": "Feb. 2, 2024 at 10:29 AM"
     },
     "trank": {
         "torvik_NET": "51",
         "trank": "51",
-        "trank_make_tourney": "55.9",
+        "trank_make_tourney": "56.4",
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "11",
         "wab_rank": "34",
