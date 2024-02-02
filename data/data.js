@@ -67,13 +67,13 @@
         "proj_conf_record": "10.1-9.9",
         "projected_losses": "10.9",
         "projected_wins": "20.1",
-        "rank": "58"
+        "rank": "52"
     },
     "time": {
-        "time": "Feb. 1, 2024 at 11:21 PM"
+        "time": "Feb. 1, 2024 at 11:54 PM"
     },
     "trank": {
-        "torvik_NET": "54",
+        "torvik_NET": "57",
         "trank": "51",
         "trank_make_tourney": "33.1",
         "trank_proj_record": "21-10 (11-9)",
@@ -90,6 +90,6 @@
         "quadrant_3": "3-0",
         "quadrant_4": "7-0",
         "record": "16-6",
-        "rpi": "33"
+        "rpi": "34"
     }
 }
