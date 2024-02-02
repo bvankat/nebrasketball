@@ -56,7 +56,7 @@
         "ranking": "50"
     },
     "shot_quality": {
-        "sq_ranking": 67
+        "sq_ranking": 63
     },
     "sports_reference": {
         "SRS_rank": "50"
@@ -70,7 +70,7 @@
         "rank": "52"
     },
     "time": {
-        "time": "Feb. 2, 2024 at 1:22 PM"
+        "time": "Feb. 2, 2024 at 2:48 PM"
     },
     "trank": {
         "torvik_NET": "51",
