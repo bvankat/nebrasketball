@@ -1,15 +1,15 @@
 {
     "bracketproject": {
-        "matrix_count": "80",
+        "matrix_count": "78",
         "matrix_seed": "10",
-        "total_brackets": "86"
+        "total_brackets": "84"
     },
     "cbs": {
         "cbs_rank": "9"
     },
     "espn": {
-        "bpi": 65.0,
-        "chance_round_32": "8.5%",
+        "bpi": 67.0,
+        "chance_round_32": "8.9%",
         "chance_sweet_16": "2.0%",
         "non_con_sos": 294.0,
         "proj_tourney_seed": "9",
@@ -18,7 +18,7 @@
         "projected_tournament_order": "35",
         "seven_day_change": "Tied-9th",
         "sor": 36.0,
-        "sos": 51.0
+        "sos": 53.0
     },
     "espn_bracketology": {
         "seed": "11"
@@ -31,11 +31,11 @@
         "seed": "PI11"
     },
     "kenpom": {
-        "conference_record": "10-10",
-        "overall_record": "20-11",
-        "rating": "55",
-        "record": "15-6",
-        "sos": "66"
+        "conference_record": "11-9",
+        "overall_record": "21-10",
+        "rating": "50",
+        "record": "16-6",
+        "sos": "52"
     },
     "kpi_sports": {
         "kpi_ranking": 28
@@ -70,26 +70,26 @@
         "rank": "58"
     },
     "time": {
-        "time": "Feb. 1, 2024 at 4:22 PM"
+        "time": "Feb. 1, 2024 at 11:21 PM"
     },
     "trank": {
-        "torvik_NET": "62",
-        "trank": "55",
+        "torvik_NET": "54",
+        "trank": "51",
         "trank_make_tourney": "33.1",
-        "trank_proj_record": "20-11 (10-10)",
-        "trank_seed": "12",
-        "wab_rank": "39",
-        "wab_score": "0.9"
+        "trank_proj_record": "21-10 (11-9)",
+        "trank_seed": "10",
+        "wab_rank": "34",
+        "wab_score": "1.4"
     },
     "warrennolan": {
-        "current_conf_record": "5-5",
-        "elo": "48",
+        "current_conf_record": "6-5",
+        "elo": "36",
         "nolan_net": "60",
-        "quadrant_1": "2-3",
+        "quadrant_1": "3-3",
         "quadrant_2": "3-3",
         "quadrant_3": "3-0",
         "quadrant_4": "7-0",
-        "record": "15-6",
-        "rpi": "41"
+        "record": "16-6",
+        "rpi": "33"
     }
 }
