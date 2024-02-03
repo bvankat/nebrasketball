@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": "78",
+        "matrix_count": "82",
         "matrix_seed": "10",
-        "total_brackets": "84"
+        "total_brackets": "85"
     },
     "cbs": {
         "cbs_rank": "9"
@@ -27,24 +27,24 @@
         "miya_rating": "60"
     },
     "haslametrics": {
-        "haslam_rating": "47",
-        "seed": "9"
+        "haslam_rating": "49",
+        "seed": "8"
     },
     "kenpom": {
         "conference_record": "11-9",
         "overall_record": "21-10",
-        "rating": "50",
+        "rating": "51",
         "record": "16-6",
-        "sos": "52"
+        "sos": "53"
     },
     "kpi_sports": {
-        "kpi_ranking": 20
+        "kpi_ranking": 21
     },
     "massey_ratings": {
         "massey_rank": "47"
     },
     "ncaa": {
-        "net_rank": "55"
+        "net_rank": "57"
     },
     "polls": {
         "ap_rank": "NR",
@@ -59,10 +59,10 @@
         "sq_ranking": 63
     },
     "sports_reference": {
-        "SRS_rank": "50"
+        "SRS_rank": "49"
     },
     "teamrankings": {
-        "make_tournament": "18.6%",
+        "make_tournament": "18.0%",
         "most_likely_seed": "7",
         "proj_conf_record": "10.8-9.2",
         "projected_losses": "10.2",
@@ -70,12 +70,12 @@
         "rank": "52"
     },
     "time": {
-        "time": "Feb. 2, 2024 at 2:48 PM"
+        "time": "Feb. 3, 2024 at 10:03 AM"
     },
     "trank": {
-        "torvik_NET": "51",
-        "trank": "51",
-        "trank_make_tourney": "56.4",
+        "torvik_NET": "56",
+        "trank": "50",
+        "trank_make_tourney": "53.9",
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "11",
         "wab_rank": "34",
@@ -84,12 +84,12 @@
     "warrennolan": {
         "current_conf_record": "6-5",
         "elo": "36",
-        "nolan_net": "55",
+        "nolan_net": "57",
         "quadrant_1": "3-3",
         "quadrant_2": "3-3",
         "quadrant_3": "3-0",
         "quadrant_4": "7-0",
         "record": "16-6",
-        "rpi": "34"
+        "rpi": "33"
     }
 }
