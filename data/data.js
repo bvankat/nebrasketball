@@ -1,24 +1,24 @@
 {
     "bracketproject": {
-        "matrix_count": "88",
+        "matrix_count": "86",
         "matrix_seed": "10",
-        "total_brackets": "88"
+        "total_brackets": "86"
     },
     "cbs": {
         "cbs_rank": "10"
     },
     "espn": {
-        "bpi": 53.0,
-        "chance_round_32": "26.5%",
-        "chance_sweet_16": "6.5%",
-        "non_con_sos": 296.0,
+        "bpi": 52.0,
+        "chance_round_32": "26.1%",
+        "chance_sweet_16": "6.7%",
+        "non_con_sos": 295.0,
         "proj_tourney_seed": "8",
         "proj_win_loss_conf": "10.9-9.1",
         "proj_win_loss_overall": "20.9-10.1",
-        "projected_tournament_order": "30",
-        "seven_day_change": "13th",
-        "sor": 30.0,
-        "sos": 35.0
+        "projected_tournament_order": "31",
+        "seven_day_change": "14th",
+        "sor": 31.0,
+        "sos": 36.0
     },
     "espn_bracketology": {
         "seed": "9"
@@ -70,7 +70,7 @@
         "rank": "50"
     },
     "time": {
-        "time": "Feb. 6, 2024 at 10:25 AM"
+        "time": "Feb. 6, 2024 at 1:51 PM"
     },
     "trank": {
         "torvik_NET": "52",
