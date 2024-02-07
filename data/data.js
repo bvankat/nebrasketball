@@ -35,7 +35,7 @@
         "overall_record": "21-10",
         "rating": "46",
         "record": "16-7",
-        "sos": "47"
+        "sos": "46"
     },
     "kpi_sports": {
         "kpi_ranking": 28
@@ -70,7 +70,7 @@
         "rank": "50"
     },
     "time": {
-        "time": "Feb. 6, 2024 at 1:51 PM"
+        "time": "Feb. 6, 2024 at 8:02 PM"
     },
     "trank": {
         "torvik_NET": "52",
@@ -83,7 +83,7 @@
     },
     "warrennolan": {
         "current_conf_record": "6-6",
-        "elo": "40",
+        "elo": "39",
         "nolan_net": "52",
         "quadrant_1": "3-4",
         "quadrant_2": "3-3",
