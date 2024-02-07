@@ -20,6 +20,8 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
     - __2021__ — NET: 72, SOR: 66, KPI: 64, BPI: 97, KenPom: 74, Sagarin: 70 ([#](https://barttorvik.com/teamsheets.php?year=2021))
     - __2022__ — NET: 77, SOR: 52, KPI: 64, BPI: 74, KenPom: 74, Sagarin: 64 ([#](https://barttorvik.com/teamsheets.php?year=2022))
     - __2023__ — NET: 67, SOR: 54, KPI: 66, BPI: 72, KenPom: 77, Sagarin: 84 ([#](https://barttorvik.com/teamsheets.php?year=2023))
+- Since 2018 when NET started: Worst SOR/KPI average to get at-large bid was 57.5 (2022 Rutgers)
+
 
 
 ## Team Sheet basics
