@@ -5,7 +5,7 @@
         "total_brackets": "96"
     },
     "cbs": {
-        "cbs_rank": "10"
+        "cbs_rank": "11"
     },
     "espn": {
         "bpi": 55.0,
@@ -21,10 +21,10 @@
         "sos": 32.0
     },
     "espn_bracketology": {
-        "seed": "9"
+        "seed": "11"
     },
     "evanmiya": {
-        "miya_rating": "61"
+        "miya_rating": "60"
     },
     "haslametrics": {
         "haslam_rating": "51",
@@ -56,7 +56,7 @@
         "ranking": "84"
     },
     "shot_quality": {
-        "sq_ranking": 64
+        "sq_ranking": 62
     },
     "sports_reference": {
         "SRS_rank": "54"
@@ -70,12 +70,12 @@
         "rank": "53"
     },
     "time": {
-        "time": "Feb. 9, 2024 at 9:23 AM"
+        "time": "Feb. 9, 2024 at 2:02 PM"
     },
     "trank": {
         "torvik_NET": "55",
         "trank": "55",
-        "trank_make_tourney": "30.2",
+        "trank_make_tourney": "33.7",
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "NR",
         "wab_rank": "44",
