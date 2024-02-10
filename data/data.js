@@ -1,15 +1,15 @@
 {
     "bracketproject": {
-        "matrix_count": "94",
-        "matrix_seed": "9",
-        "total_brackets": "96"
+        "matrix_count": "92",
+        "matrix_seed": "10",
+        "total_brackets": "94"
     },
     "cbs": {
         "cbs_rank": "11"
     },
     "espn": {
         "bpi": 55.0,
-        "chance_round_32": "18.3%",
+        "chance_round_32": "18.2%",
         "chance_sweet_16": "4.0%",
         "non_con_sos": 297.0,
         "proj_tourney_seed": "10",
@@ -24,21 +24,21 @@
         "seed": "11"
     },
     "evanmiya": {
-        "miya_rating": "60"
+        "miya_rating": "61"
     },
     "haslametrics": {
         "haslam_rating": "51",
-        "seed": "OUT"
+        "seed": "11"
     },
     "kenpom": {
         "conference_record": "10-10",
         "overall_record": "20-11",
         "rating": "52",
         "record": "16-8",
-        "sos": "40"
+        "sos": "39"
     },
     "kpi_sports": {
-        "kpi_ranking": 34
+        "kpi_ranking": 35
     },
     "massey_ratings": {
         "massey_rank": "43"
@@ -53,7 +53,7 @@
     "seven_overtimes": {
         "projected_conf_record": "10-10",
         "projected_record": "20-11",
-        "ranking": "84"
+        "ranking": "83"
     },
     "shot_quality": {
         "sq_ranking": 62
@@ -62,20 +62,20 @@
         "SRS_rank": "54"
     },
     "teamrankings": {
-        "make_tournament": "9.7%",
-        "most_likely_seed": "8",
+        "make_tournament": "41.5%",
+        "most_likely_seed": "10",
         "proj_conf_record": "10.2-9.8",
         "projected_losses": "10.8",
         "projected_wins": "20.2",
         "rank": "53"
     },
     "time": {
-        "time": "Feb. 9, 2024 at 2:02 PM"
+        "time": "Feb. 10, 2024 at 12:34 PM"
     },
     "trank": {
         "torvik_NET": "55",
         "trank": "55",
-        "trank_make_tourney": "33.7",
+        "trank_make_tourney": "31.9",
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "NR",
         "wab_rank": "44",
@@ -83,13 +83,13 @@
     },
     "warrennolan": {
         "current_conf_record": "6-7",
-        "elo": "57",
+        "elo": "58",
         "nolan_net": "57",
         "quadrant_1": "3-5",
         "quadrant_2": "3-3",
         "quadrant_3": "3-0",
         "quadrant_4": "7-0",
         "record": "16-8",
-        "rpi": "47"
+        "rpi": "46"
     }
 }
