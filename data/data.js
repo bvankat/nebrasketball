@@ -8,20 +8,20 @@
         "cbs_rank": "11"
     },
     "espn": {
-        "bpi": 50.0,
-        "chance_round_32": "17.2%",
-        "chance_sweet_16": "4.2%",
+        "bpi": 52.0,
+        "chance_round_32": "15.8%",
+        "chance_sweet_16": "3.7%",
         "non_con_sos": 296.0,
         "proj_tourney_seed": "10",
-        "proj_win_loss_conf": "10.8-9.2",
-        "proj_win_loss_overall": "20.8-10.2",
+        "proj_win_loss_conf": "10.7-9.3",
+        "proj_win_loss_overall": "20.7-10.3",
         "projected_tournament_order": "38",
-        "seven_day_change": "3rd",
+        "seven_day_change": "",
         "sor": 38.0,
-        "sos": 45.0
+        "sos": 43.0
     },
     "espn_bracketology": {
-        "seed": "11"
+        "seed": "10"
     },
     "evanmiya": {
         "miya_rating": "48"
@@ -38,10 +38,10 @@
         "sos": "52"
     },
     "kpi_sports": {
-        "kpi_ranking": 37
+        "kpi_ranking": 39
     },
     "massey_ratings": {
-        "massey_rank": "47"
+        "massey_rank": "48"
     },
     "ncaa": {
         "net_rank": "53"
@@ -70,12 +70,12 @@
         "rank": "51"
     },
     "time": {
-        "time": "Feb. 13, 2024 at 1:34 AM"
+        "time": "Feb. 13, 2024 at 12:31 PM"
     },
     "trank": {
         "torvik_NET": "51",
         "trank": "48",
-        "trank_make_tourney": "38.5",
+        "trank_make_tourney": "37.1",
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "NR",
         "wab_rank": "42",
