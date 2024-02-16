@@ -9,22 +9,22 @@
     },
     "espn": {
         "bpi": 51.0,
-        "chance_round_32": "17.3%",
-        "chance_sweet_16": "4.0%",
-        "non_con_sos": 296.0,
+        "chance_round_32": "18.2%",
+        "chance_sweet_16": "3.9%",
+        "non_con_sos": 298.0,
         "proj_tourney_seed": "10",
         "proj_win_loss_conf": "10.8-9.2",
         "proj_win_loss_overall": "20.8-10.2",
         "projected_tournament_order": "37",
-        "seven_day_change": "1st",
+        "seven_day_change": "5th",
         "sor": 37.0,
-        "sos": 48.0
+        "sos": 45.0
     },
     "espn_bracketology": {
         "seed": "10"
     },
     "evanmiya": {
-        "miya_rating": "47"
+        "miya_rating": "45"
     },
     "haslametrics": {
         "haslam_rating": "46",
@@ -44,7 +44,7 @@
         "massey_rank": "48"
     },
     "ncaa": {
-        "net_rank": "54"
+        "net_rank": "53"
     },
     "polls": {
         "ap_rank": "NR",
@@ -62,31 +62,31 @@
         "SRS_rank": "51"
     },
     "teamrankings": {
-        "make_tournament": "46.0%",
-        "most_likely_seed": "11",
+        "make_tournament": "51.6%",
+        "most_likely_seed": "10",
         "proj_conf_record": "10.6-9.4",
         "projected_losses": "10.4",
         "projected_wins": "20.6",
         "rank": "50"
     },
     "time": {
-        "time": "Feb. 14, 2024 at 10:53 PM"
+        "time": "Feb. 15, 2024 at 6:25 PM"
     },
     "trank": {
         "torvik_NET": "51",
-        "trank": "45",
-        "trank_make_tourney": "42",
+        "trank": "44",
+        "trank_make_tourney": "45.5",
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "11",
         "wab_rank": "43",
-        "wab_score": "0.9"
+        "wab_score": "1"
     },
     "warrennolan": {
         "current_conf_record": "7-7",
         "elo": "52",
-        "nolan_net": "54",
-        "quadrant_1": "3-5",
-        "quadrant_2": "3-3",
+        "nolan_net": "53",
+        "quadrant_1": "3-6",
+        "quadrant_2": "3-2",
         "quadrant_3": "4-0",
         "quadrant_4": "7-0",
         "record": "17-8",
