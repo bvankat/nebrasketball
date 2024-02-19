@@ -24,7 +24,7 @@
         "seed": "11"
     },
     "evanmiya": {
-        "miya_rating": "44"
+        "miya_rating": "45"
     },
     "haslametrics": {
         "haslam_rating": "42",
@@ -41,7 +41,7 @@
         "kpi_ranking": 38
     },
     "massey_ratings": {
-        "massey_rank": "42"
+        "massey_rank": "39"
     },
     "ncaa": {
         "net_rank": "49"
@@ -56,7 +56,7 @@
         "ranking": "49"
     },
     "shot_quality": {
-        "sq_ranking": 60
+        "sq_ranking": 61
     },
     "sports_reference": {
         "SRS_rank": "44"
@@ -70,7 +70,7 @@
         "rank": "45"
     },
     "time": {
-        "time": "Feb. 19, 2024 at 10:28 AM"
+        "time": "Feb. 19, 2024 at 1:03 PM"
     },
     "trank": {
         "torvik_NET": "48",
