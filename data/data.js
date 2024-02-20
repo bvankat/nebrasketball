@@ -70,14 +70,14 @@
         "rank": "44"
     },
     "time": {
-        "time": "Feb. 20, 2024 at 9:37 AM"
+        "time": "Feb. 20, 2024 at 3:11 PM"
     },
     "trank": {
         "torvik_NET": "44",
         "trank": "39",
-        "trank_make_tourney": "69.2",
+        "trank_make_tourney": "69.3",
         "trank_proj_record": "21-10 (11-9)",
-        "trank_seed": "10",
+        "trank_seed": "NA",
         "wab_rank": "41",
         "wab_score": "1.4"
     },
