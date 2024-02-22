@@ -35,7 +35,7 @@
         "overall_record": "21-10",
         "rating": "41",
         "record": "18-8",
-        "sos": "62"
+        "sos": "63"
     },
     "kpi_sports": {
         "kpi_ranking": 38
@@ -70,26 +70,26 @@
         "rank": "44"
     },
     "time": {
-        "time": "Feb. 21, 2024 at 8:36 PM"
+        "time": "Feb. 21, 2024 at 10:08 PM"
     },
     "trank": {
-        "torvik_NET": "45",
+        "torvik_NET": "44",
         "trank": "39",
         "trank_make_tourney": "67.7",
-        "trank_proj_record": "21-10 (11-9)",
-        "trank_seed": "11",
+        "trank_proj_record": "22-9 (12-8)",
+        "trank_seed": "10",
         "wab_rank": "39",
         "wab_score": "1.3"
     },
     "warrennolan": {
-        "current_conf_record": "8-7",
-        "elo": "46",
+        "current_conf_record": "9-7",
+        "elo": "36",
         "nolan_net": "47",
         "quadrant_1": "3-6",
-        "quadrant_2": "3-2",
+        "quadrant_2": "4-2",
         "quadrant_3": "5-0",
         "quadrant_4": "7-0",
-        "record": "18-8",
-        "rpi": "48"
+        "record": "19-8",
+        "rpi": "42"
     }
 }
