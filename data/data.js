@@ -59,7 +59,7 @@
         "sq_ranking": 60
     },
     "sports_reference": {
-        "SRS_rank": "44"
+        "SRS_rank": "42"
     },
     "teamrankings": {
         "make_tournament": "77.3%",
@@ -70,12 +70,12 @@
         "rank": "41"
     },
     "time": {
-        "time": "Feb. 22, 2024 at 9:37 AM"
+        "time": "Feb. 22, 2024 at 4:55 PM"
     },
     "trank": {
         "torvik_NET": "43",
         "trank": "34",
-        "trank_make_tourney": "84.2",
+        "trank_make_tourney": "86.8",
         "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "10",
         "wab_rank": "33",
