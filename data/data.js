@@ -27,8 +27,8 @@
         "miya_rating": "45"
     },
     "haslametrics": {
-        "haslam_rating": "42",
-        "seed": "9"
+        "haslam_rating": "38",
+        "seed": "8"
     },
     "kenpom": {
         "conference_record": "12-8",
@@ -62,15 +62,15 @@
         "SRS_rank": "44"
     },
     "teamrankings": {
-        "make_tournament": "82.5%",
+        "make_tournament": "76.9%",
         "most_likely_seed": "10",
         "proj_conf_record": "11.4-8.6",
         "projected_losses": "9.6",
         "projected_wins": "21.4",
-        "rank": "44"
+        "rank": "41"
     },
     "time": {
-        "time": "Feb. 21, 2024 at 11:44 PM"
+        "time": "Feb. 22, 2024 at 3:57 AM"
     },
     "trank": {
         "torvik_NET": "42",
@@ -78,7 +78,7 @@
         "trank_make_tourney": "67.7",
         "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "10",
-        "wab_rank": "32",
+        "wab_rank": "33",
         "wab_score": "1.8"
     },
     "warrennolan": {
