@@ -10,23 +10,37 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - Question: "What seed will they get? Who wins head-to-head?" Answer: Use *predictive* metrics.
 - Approx. 500 at-large bids from 2008-2022. Only five at-large teams with NET over 70: All 10 or 11 seeds. 20 at large bids with NET/RPI above 60 
 - NET rank in the 60s/70s = Not good enough. Only two at large bids above 60 in 2021 or 2022. MSU had NET 70 in 2021. Miami was a 10-seed in 2022, NET 62. ([#](https://twitter.com/JohnGasaway/status/1620824438974418952))
-- Highest NET ranking to get bid: 77 in 2022 (Rutgers), Highest RPI: 74 in 1999
-- 2022: Last 4 In: Wyoming (NET 50), Rutgers (77), Indiana (38), Notre Dame (53)
-- 2022: First 4 Out: Dayton (NET 58), SMU (NET 45), Texas A&M (NET 43) 
 - "The committee’s approach can be assessed — at least to some extent — using a model that projects NCAA Tournament seeds by averaging each team’s resume and quality metrics and weighting them evenly." ([#](https://heatcheckcbb.com/bracketology-analyzing-impact-of-metrics-in-ncaa-tournament-selection-seeding/))
-- Highest ranked at-large team in each metric 
+- No Power Six conference 24-win team has missed tournament. Only three 23-win teams have missed out: Florida (2009), Mississippi State, Virginia Tech (2010), Arizona (2012)
+
+
+### Worst teams to get in
+
+- Lowest-ranked at-large team in each metric 
     - __2019__ — NET: 73, SOR: 55, KPI: 62, BPI: 72, KenPom: 78, Sagarin: 68 ([#](https://twitter.com/KevinPauga/status/1364564183853973506?s=20))
     - __2020__ — No tournament
     - __2021__ — NET: 72, SOR: 66, KPI: 64, BPI: 97, KenPom: 74, Sagarin: 70 ([#](https://barttorvik.com/teamsheets.php?year=2021))
     - __2022__ — NET: 77, SOR: 52, KPI: 64, BPI: 74, KenPom: 74, Sagarin: 64 ([#](https://barttorvik.com/teamsheets.php?year=2022))
     - __2023__ — NET: 67, SOR: 54, KPI: 66, BPI: 72, KenPom: 77, Sagarin: 84 ([#](https://barttorvik.com/teamsheets.php?year=2023))
 - Since 2018 when NET started: Worst SOR/KPI average to get at-large bid was 57.5 (2022 Rutgers)
+- Lowest NET ranking to get bid: 77 in 2022 (Rutgers), Lowest RPI: 74 in 1999
+- 2022: Last 4 In: Wyoming (NET 50), Rutgers (77), Indiana (38), Notre Dame (53)
 
+### Best Teams Left Out
 
+*Compiling some data on teams that didn't make the tournament*
+
+#### By Year
+- __2021__ — Kenpom: Highest-ranked teams left out: 33 Duke, 35 Penn State, 38 Memphis, 43 Arizona, 46 Indiana ([#](https://twitter.com/TomFornelli/status/1371231719278456838))
+- __2022__ — First Four Out, according to NCAA: Dayton (NET 58), Oklahoma (NET 40), SMU (NET 44 or 45?), Texas A&M (NET 43)
+- __2023__ — First Four Out, according to NCAA: Oklahoma State, Rutgers, North Carolina Clemson
+
+#### By Metric
+- __RPI__ — 49 - Missouri (2014) highest in 68-team tournament era ([#](https://www.cbssports.com/college-basketball/news/bracketolgy-ncaa-tournament-rpi-numbers-to-know-through-the-years/))
 
 ## Team Sheet basics
 
-*NCAA Selection committee has six metrics on the team sheets used to compare teams in the runup to Selection Sunday*
+*NCAA Selection committee has five metrics on the team sheets used to compare teams in the runup to Selection Sunday*
 
 #### NET
 - NCAA's proprietary combination of metrics. Seems to lean predictive rather than resume-based.
