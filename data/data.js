@@ -27,8 +27,8 @@
         "miya_rating": "38"
     },
     "haslametrics": {
-        "haslam_rating": "38",
-        "seed": "8"
+        "haslam_rating": "35",
+        "seed": "9"
     },
     "kenpom": {
         "conference_record": "12-8",
@@ -38,10 +38,10 @@
         "sos": "60"
     },
     "kpi_sports": {
-        "kpi_ranking": 31
+        "kpi_ranking": 32
     },
     "massey_ratings": {
-        "massey_rank": "42"
+        "massey_rank": "41"
     },
     "ncaa": {
         "net_rank": "43"
@@ -53,31 +53,31 @@
     "seven_overtimes": {
         "projected_conf_record": "12-8",
         "projected_record": "22-9",
-        "ranking": "50"
+        "ranking": "49"
     },
     "shot_quality": {
-        "sq_ranking": 48
+        "sq_ranking": 46
     },
     "sports_reference": {
         "SRS_rank": "42"
     },
     "teamrankings": {
-        "make_tournament": "77.1%",
+        "make_tournament": "76.1%",
         "most_likely_seed": "10",
-        "proj_conf_record": "11.4-8.6",
-        "projected_losses": "9.6",
-        "projected_wins": "21.4",
+        "proj_conf_record": "11.5-8.5",
+        "projected_losses": "9.5",
+        "projected_wins": "21.5",
         "rank": "41"
     },
     "time": {
-        "time": "Feb. 23, 2024 at 12:17 AM"
+        "time": "Feb. 23, 2024 at 9:48 AM"
     },
     "trank": {
         "torvik_NET": "41",
-        "trank": "34",
-        "trank_make_tourney": "86.8",
+        "trank": "35",
+        "trank_make_tourney": "85.9",
         "trank_proj_record": "22-9 (12-8)",
-        "trank_seed": "10",
+        "trank_seed": "9",
         "wab_rank": "32",
         "wab_score": "1.8"
     },

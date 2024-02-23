@@ -19013,6 +19013,101 @@
             "time": {
                 "time": "Feb. 23, 2024 at 12:17 AM"
             }
+        },
+        {
+            "kenpom": {
+                "rating": "38",
+                "record": "19-8",
+                "sos": "60",
+                "overall_record": "22-9",
+                "conference_record": "12-8"
+            },
+            "evanmiya": {
+                "miya_rating": "38"
+            },
+            "ncaa": {
+                "net_rank": "43"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "teamrankings": {
+                "make_tournament": "76.1%",
+                "most_likely_seed": "10",
+                "rank": "41",
+                "projected_wins": "21.5",
+                "projected_losses": "9.5",
+                "proj_conf_record": "11.5-8.5"
+            },
+            "espn": {
+                "bpi": 41.0,
+                "seven_day_change": "10th",
+                "proj_tourney_seed": "8",
+                "proj_win_loss_overall": "21.5-9.5",
+                "proj_win_loss_conf": "11.5-8.5",
+                "sor": 29.0,
+                "sos": 53.0,
+                "non_con_sos": 293.0,
+                "chance_sweet_16": "10.7%",
+                "chance_round_32": "39.0%",
+                "projected_tournament_order": "29"
+            },
+            "espn_bracketology": {
+                "seed": "10"
+            },
+            "warrennolan": {
+                "record": "19-8",
+                "current_conf_record": "9-7",
+                "rpi": "43",
+                "elo": "37",
+                "quadrant_1": "3-7",
+                "quadrant_2": "4-1",
+                "quadrant_3": "5-0",
+                "quadrant_4": "7-0",
+                "nolan_net": "43"
+            },
+            "trank": {
+                "trank": "35",
+                "trank_proj_record": "22-9 (12-8)",
+                "trank_seed": "9",
+                "trank_make_tourney": "85.9",
+                "wab_score": "1.8",
+                "wab_rank": "32",
+                "torvik_NET": "41"
+            },
+            "cbs": {
+                "cbs_rank": "10"
+            },
+            "haslametrics": {
+                "haslam_rating": "35",
+                "seed": "9"
+            },
+            "kpi_sports": {
+                "kpi_ranking": 32
+            },
+            "shot_quality": {
+                "sq_ranking": 46
+            },
+            "bracketproject": {
+                "matrix_count": "104",
+                "total_brackets": "105",
+                "matrix_seed": "10"
+            },
+            "massey_ratings": {
+                "massey_rank": "41"
+            },
+            "seven_overtimes": {
+                "ranking": "49",
+                "projected_record": "22-9",
+                "projected_conf_record": "12-8"
+            },
+            "sports_reference": {
+                "SRS_rank": "42"
+            },
+            "time": {
+                "time": "Feb. 23, 2024 at 9:48 AM"
+            }
         }
     ]
 }
