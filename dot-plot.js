@@ -27,7 +27,6 @@ const data = {
     Haslametrics: parseInt(ratings_data.haslametrics.haslam_rating),
     Miyakawa: parseInt(ratings_data.evanmiya.miya_rating),
     SQ: parseInt(ratings_data.shot_quality.sq_ranking),
-    '7OT': parseInt(ratings_data.seven_overtimes.ranking), 
 }
 
 // Determine the highest data point
