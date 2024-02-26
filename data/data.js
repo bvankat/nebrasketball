@@ -50,11 +50,6 @@
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
-    "seven_overtimes": {
-        "projected_conf_record": "12-8",
-        "projected_record": "22-9",
-        "ranking": "47"
-    },
     "shot_quality": {
         "sq_ranking": 47
     },
@@ -62,7 +57,7 @@
         "SRS_rank": "41"
     },
     "teamrankings": {
-        "make_tournament": "91.1%",
+        "make_tournament": "91.2%",
         "most_likely_seed": "9",
         "proj_conf_record": "11.8-8.2",
         "projected_losses": "9.2",
@@ -70,11 +65,11 @@
         "rank": "38"
     },
     "time": {
-        "time": "Feb. 26, 2024 at 12:21 AM"
+        "time": "Feb. 26, 2024 at 1:28 AM"
     },
     "trank": {
         "torvik_NET": "38",
-        "trank": "29",
+        "trank": "30",
         "trank_make_tourney": "86.6",
         "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "9",
