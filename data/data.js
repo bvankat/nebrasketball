@@ -65,7 +65,7 @@
         "rank": "38"
     },
     "time": {
-        "time": "Feb. 26, 2024 at 1:28 AM"
+        "time": "Feb. 26, 2024 at 2:22 AM"
     },
     "trank": {
         "torvik_NET": "38",
