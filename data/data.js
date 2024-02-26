@@ -62,15 +62,15 @@
         "SRS_rank": "41"
     },
     "teamrankings": {
-        "make_tournament": "78.5%",
-        "most_likely_seed": "10",
-        "proj_conf_record": "11.5-8.5",
-        "projected_losses": "9.5",
-        "projected_wins": "21.5",
-        "rank": "40"
+        "make_tournament": "91.1%",
+        "most_likely_seed": "9",
+        "proj_conf_record": "11.8-8.2",
+        "projected_losses": "9.2",
+        "projected_wins": "21.8",
+        "rank": "38"
     },
     "time": {
-        "time": "Feb. 25, 2024 at 10:42 PM"
+        "time": "Feb. 26, 2024 at 12:21 AM"
     },
     "trank": {
         "torvik_NET": "38",
