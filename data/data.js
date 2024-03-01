@@ -35,23 +35,23 @@
         "sos": "61"
     },
     "kpi_sports": {
-        "kpi_ranking": 29
+        "kpi_ranking": 31
     },
     "ncaa": {
-        "net_rank": "41"
+        "net_rank": "43"
     },
     "polls": {
         "ap_rank": 38,
         "coaches_rank": 36
     },
     "shot_quality": {
-        "sq_ranking": 40
+        "sq_ranking": 48
     },
     "sports_reference": {
-        "SRS_rank": "36"
+        "SRS_rank": "41"
     },
     "teamrankings": {
-        "make_tournament": "86.7%",
+        "make_tournament": "86.4%",
         "most_likely_seed": "9",
         "proj_conf_record": "11.3-8.7",
         "projected_losses": "9.7",
@@ -59,24 +59,24 @@
         "rank": "39"
     },
     "time": {
-        "time": "Mar. 1, 2024 at 2:17 AM"
+        "time": "Mar. 1, 2024 at 9:20 AM"
     },
     "trank": {
-        "torvik_NET": "46",
+        "torvik_NET": "42",
         "trank": "32",
-        "trank_make_tourney": "92.1",
+        "trank_make_tourney": "80.6",
         "trank_proj_record": "21-10 (11-9)",
-        "trank_seed": "10",
+        "trank_seed": "9",
         "wab_rank": "30",
         "wab_score": "2"
     },
     "warrennolan": {
         "current_conf_record": "10-8",
         "elo": "39",
-        "nolan_net": "41",
-        "quadrant_1": "4-8",
-        "quadrant_2": "4-1",
-        "quadrant_3": "5-0",
+        "nolan_net": "43",
+        "quadrant_1": "4-7",
+        "quadrant_2": "3-2",
+        "quadrant_3": "6-0",
         "quadrant_4": "7-0",
         "record": "20-9",
         "rpi": "41"
