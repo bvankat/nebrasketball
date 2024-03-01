@@ -8,17 +8,17 @@
         "cbs_rank": "10"
     },
     "espn": {
-        "bpi": 38.0,
-        "chance_round_32": "41.0%",
-        "chance_sweet_16": "11.0%",
-        "non_con_sos": 294.0,
-        "proj_tourney_seed": "7",
-        "proj_win_loss_conf": "11.8-8.2",
-        "proj_win_loss_overall": "21.8-9.2",
-        "projected_tournament_order": "26",
-        "seven_day_change": "",
-        "sor": 26.0,
-        "sos": 63.0
+        "bpi": 39.0,
+        "chance_round_32": "37.7%",
+        "chance_sweet_16": "9.9%",
+        "non_con_sos": 291.0,
+        "proj_tourney_seed": "8",
+        "proj_win_loss_conf": "11.4-8.6",
+        "proj_win_loss_overall": "21.5-9.5",
+        "projected_tournament_order": "31",
+        "seven_day_change": "3rd",
+        "sor": 31.0,
+        "sos": 59.0
     },
     "espn_bracketology": {
         "seed": "9"
@@ -62,14 +62,14 @@
         "rank": "39"
     },
     "time": {
-        "time": "Mar. 1, 2024 at 10:38 AM"
+        "time": "Mar. 1, 2024 at 4:29 PM"
     },
     "trank": {
-        "torvik_NET": "42",
+        "torvik_NET": "43",
         "trank": "32",
         "trank_make_tourney": "88.4",
         "trank_proj_record": "21-10 (11-9)",
-        "trank_seed": "9",
+        "trank_seed": "10",
         "wab_rank": "30",
         "wab_score": "2"
     },
