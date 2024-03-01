@@ -37,6 +37,9 @@
     "kpi_sports": {
         "kpi_ranking": 31
     },
+    "massey_ratings": {
+        "massey_rank": "32"
+    },
     "ncaa": {
         "net_rank": "43"
     },
@@ -59,12 +62,12 @@
         "rank": "39"
     },
     "time": {
-        "time": "Mar. 1, 2024 at 9:20 AM"
+        "time": "Mar. 1, 2024 at 10:38 AM"
     },
     "trank": {
         "torvik_NET": "42",
         "trank": "32",
-        "trank_make_tourney": "80.6",
+        "trank_make_tourney": "88.4",
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "9",
         "wab_rank": "30",
