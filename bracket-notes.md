@@ -12,6 +12,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - NET rank in the 60s/70s = Not good enough. Only two at large bids above 60 in 2021 or 2022. MSU had NET 70 in 2021. Miami was a 10-seed in 2022, NET 62. ([#](https://twitter.com/JohnGasaway/status/1620824438974418952))
 - "The committee’s approach can be assessed — at least to some extent — using a model that projects NCAA Tournament seeds by averaging each team’s resume and quality metrics and weighting them evenly." ([#](https://heatcheckcbb.com/bracketology-analyzing-impact-of-metrics-in-ncaa-tournament-selection-seeding/))
 - No Power Six conference 24-win team has missed tournament. Only three 23-win teams have missed out: Florida (2009), Mississippi State, Virginia Tech (2010), Arizona (2012)
+- Gotta have two Quad 1 wins - Only four teams have gotten at-large bids with 1 Q1 victory ([#](https://twitter.com/madeformarch/status/1761845837355688317?s=51))
 
 
 ### Worst teams to get in
