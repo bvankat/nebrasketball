@@ -40,6 +40,9 @@
     "kpi_sports": {
         "kpi_ranking": 27
     },
+    "massey_ratings": {
+        "massey_rank": "29"
+    },
     "ncaa": {
         "net_rank": "43"
     },
@@ -62,7 +65,7 @@
         "rank": "39"
     },
     "time": {
-        "time": "Mar. 4, 2024 at 2:13 PM"
+        "time": "Mar. 4, 2024 at 3:52 PM"
     },
     "trank": {
         "torvik_NET": "44",
