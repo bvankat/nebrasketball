@@ -20,7 +20,7 @@ const data = {
     Torvik: parseInt(ratings_data.trank.trank),
     RPI: parseInt(ratings_data.warrennolan.rpi),
     ELO: parseInt(ratings_data.warrennolan.elo),
-    if(ratings_data.massey_ratings) { Massey: parseInt(ratings_data.massey_ratings.massey_rank), }
+    Massey: parseInt(ratings_data.massey_ratings.massey_rank),
     TR: parseInt(ratings_data.teamrankings.rank),
     WAB:  parseInt(ratings_data.trank.wab_rank),
     SRS: parseInt(ratings_data.sports_reference.SRS_rank),
