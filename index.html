@@ -491,7 +491,7 @@
 			 
 			 // Intangibles: Don't think any of the systems has a way to value injuries and/or hype, so we need to add it. Check out sports-reference Win Shares, perhaps, for injuries data points. 
 			 
-			 intangibles = 0;
+			 intangibles = 5;
 			 intangibles_msg = "";
 			 
 			 // TOTAL SCORE FORMULA
@@ -558,8 +558,7 @@
 			 
 	   function drawChart() {
 	   		
-	   		// total_score = parseInt(total_score);
-	   		total_score = 100;
+	   		total_score = parseInt(total_score);
 
 	        var data = google.visualization.arrayToDataTable([
 	          ['Label', 'Value'],
@@ -588,10 +587,10 @@
 	
 
 			// Comment out these lines to disable needle bounce in offseason
-	    	// setInterval(function() {
-	        //  data.setValue(0, 1, total_score-3 + Math.round(3 * Math.random()));
-	        //  chart.draw(data, options);
-	        //  }, 300);
+	    	 setInterval(function() {
+	          data.setValue(0, 1, total_score-3 + Math.round(3 * Math.random()));
+	          chart.draw(data, options);
+	          }, 300);
 	     
 	     
       	};  // end drawChart()
