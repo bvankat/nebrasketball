@@ -41,7 +41,7 @@
         "kpi_ranking": 27
     },
     "massey_ratings": {
-        "massey_rank": "29"
+        "massey_rank": "30"
     },
     "ncaa": {
         "net_rank": "43"
@@ -54,10 +54,10 @@
         "sq_ranking": 47
     },
     "sports_reference": {
-        "SRS_rank": "37"
+        "SRS_rank": "38"
     },
     "teamrankings": {
-        "make_tournament": "95.3%",
+        "make_tournament": "95.1%",
         "most_likely_seed": "8",
         "proj_conf_record": "11.6-8.4",
         "projected_losses": "9.4",
@@ -65,12 +65,12 @@
         "rank": "39"
     },
     "time": {
-        "time": "Mar. 5, 2024 at 12:10 AM"
+        "time": "Mar. 5, 2024 at 9:39 AM"
     },
     "trank": {
         "torvik_NET": "44",
         "trank": "28",
-        "trank_make_tourney": "88.4",
+        "trank_make_tourney": "88.8",
         "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "10",
         "wab_rank": "30",
