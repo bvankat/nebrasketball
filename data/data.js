@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": "93",
+        "matrix_count": "104",
         "matrix_seed": "10",
-        "total_brackets": "93"
+        "total_brackets": "104"
     },
     "cbs": {
         "cbs_rank": "10"
@@ -57,7 +57,7 @@
         "SRS_rank": "37"
     },
     "teamrankings": {
-        "make_tournament": "95.2%",
+        "make_tournament": "95.3%",
         "most_likely_seed": "8",
         "proj_conf_record": "11.6-8.4",
         "projected_losses": "9.4",
@@ -65,7 +65,7 @@
         "rank": "39"
     },
     "time": {
-        "time": "Mar. 4, 2024 at 3:52 PM"
+        "time": "Mar. 5, 2024 at 12:10 AM"
     },
     "trank": {
         "torvik_NET": "44",
@@ -78,7 +78,7 @@
     },
     "warrennolan": {
         "current_conf_record": "11-8",
-        "elo": "32",
+        "elo": "31",
         "nolan_net": "43",
         "quadrant_1": "4-7",
         "quadrant_2": "3-2",
