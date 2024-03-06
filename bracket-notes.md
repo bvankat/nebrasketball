@@ -26,10 +26,13 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - Since 2018 when NET started: Worst SOR/KPI average to get at-large bid was 57.5 (2022 Rutgers)
 - Lowest NET ranking to get bid: 77 in 2022 (Rutgers), Lowest RPI: 74 in 1999
 - 2022: Last 4 In: Wyoming (NET 50), Rutgers (77), Indiana (38), Notre Dame (53)
+- Worst SOR to get in was 66 (2021 Utah State)
 
 ### Best Teams Left Out
 
 *Compiling some data on teams that didn't make the tournament*
+
+- No team with 6+ Q1 wins and < 15 losses has been left out ([#](https://x.com/kerrancejames/status/1765372030629622000?s=20))
 
 #### By Year
 - __2021__ — Kenpom: Highest-ranked teams left out: 33 Duke, 35 Penn State, 38 Memphis, 43 Arizona, 46 Indiana ([#](https://twitter.com/TomFornelli/status/1371231719278456838))
