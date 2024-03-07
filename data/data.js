@@ -27,8 +27,8 @@
         "miya_rating": "37"
     },
     "haslametrics": {
-        "haslam_rating": "32",
-        "seed": "8"
+        "haslam_rating": "31",
+        "seed": "9"
     },
     "kenpom": {
         "conference_record": "12-8",
@@ -51,26 +51,26 @@
         "coaches_rank": 38
     },
     "shot_quality": {
-        "sq_ranking": 47
+        "sq_ranking": 46
     },
     "sports_reference": {
-        "SRS_rank": "38"
+        "SRS_rank": "37"
     },
     "teamrankings": {
-        "make_tournament": "95.9%",
-        "most_likely_seed": "9",
+        "make_tournament": "95.6%",
+        "most_likely_seed": "8",
         "proj_conf_record": "11.6-8.4",
         "projected_losses": "9.4",
         "projected_wins": "21.6",
         "rank": "39"
     },
     "time": {
-        "time": "Mar. 6, 2024 at 11:17 PM"
+        "time": "Mar. 7, 2024 at 7:46 AM"
     },
     "trank": {
-        "torvik_NET": "43",
+        "torvik_NET": "42",
         "trank": "28",
-        "trank_make_tourney": "91.4",
+        "trank_make_tourney": "89.3",
         "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "10",
         "wab_rank": "30",
