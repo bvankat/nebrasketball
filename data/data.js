@@ -24,7 +24,7 @@
         "seed": "9"
     },
     "evanmiya": {
-        "miya_rating": "37"
+        "miya_rating": "35"
     },
     "haslametrics": {
         "haslam_rating": "31",
@@ -65,14 +65,14 @@
         "rank": "39"
     },
     "time": {
-        "time": "Mar. 7, 2024 at 7:46 AM"
+        "time": "Mar. 7, 2024 at 9:18 AM"
     },
     "trank": {
         "torvik_NET": "42",
         "trank": "28",
         "trank_make_tourney": "89.3",
         "trank_proj_record": "22-9 (12-8)",
-        "trank_seed": "10",
+        "trank_seed": "9",
         "wab_rank": "30",
         "wab_score": "+1.9"
     },
