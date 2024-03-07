@@ -13,6 +13,8 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - "The committee’s approach can be assessed — at least to some extent — using a model that projects NCAA Tournament seeds by averaging each team’s resume and quality metrics and weighting them evenly." ([#](https://heatcheckcbb.com/bracketology-analyzing-impact-of-metrics-in-ncaa-tournament-selection-seeding/))
 - No Power Six conference 24-win team has missed tournament. Only three 23-win teams have missed out: Florida (2009), Mississippi State, Virginia Tech (2010), Arizona (2012)
 - Gotta have two Quad 1 wins - Only four teams have gotten at-large bids with 1 Q1 victory ([#](https://twitter.com/madeformarch/status/1761845837355688317?s=51))
+- A bunch of NET bests/worsts that haven't been analyzed [here](https://x.com/JBRBracketology/status/1765459221171056988?s=20)
+
 
 
 ### Worst teams to get in
