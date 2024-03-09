@@ -1,30 +1,30 @@
 {
     "bracketproject": {
-        "matrix_count": "105",
+        "matrix_count": "103",
         "matrix_seed": "10",
-        "total_brackets": "105"
+        "total_brackets": "103"
     },
     "cbs": {
         "cbs_rank": "10"
     },
     "espn": {
         "bpi": 37.0,
-        "chance_round_32": "48.7%",
-        "chance_sweet_16": "13.7%",
-        "non_con_sos": 265.0,
-        "proj_tourney_seed": "7",
+        "chance_round_32": "47.1%",
+        "chance_sweet_16": "13.5%",
+        "non_con_sos": 275.0,
+        "proj_tourney_seed": "8",
         "proj_win_loss_conf": "11.7-8.3",
         "proj_win_loss_overall": "21.7-9.3",
-        "projected_tournament_order": "27",
-        "seven_day_change": "2nd",
-        "sor": 27.0,
-        "sos": 60.0
+        "projected_tournament_order": "30",
+        "seven_day_change": "1st",
+        "sor": 30.0,
+        "sos": 62.0
     },
     "espn_bracketology": {
         "seed": "9"
     },
     "evanmiya": {
-        "miya_rating": "35"
+        "miya_rating": "36"
     },
     "haslametrics": {
         "haslam_rating": "32",
@@ -35,10 +35,10 @@
         "overall_record": "22-9",
         "rating": "34",
         "record": "21-9",
-        "sos": "68"
+        "sos": "69"
     },
     "kpi_sports": {
-        "kpi_ranking": 26
+        "kpi_ranking": 27
     },
     "massey_ratings": {
         "massey_rank": "29"
@@ -51,13 +51,13 @@
         "coaches_rank": 38
     },
     "shot_quality": {
-        "sq_ranking": 47
+        "sq_ranking": 46
     },
     "sports_reference": {
         "SRS_rank": "37"
     },
     "teamrankings": {
-        "make_tournament": "96.2%",
+        "make_tournament": "95.6%",
         "most_likely_seed": "8",
         "proj_conf_record": "11.6-8.4",
         "projected_losses": "9.4",
@@ -65,14 +65,14 @@
         "rank": "38"
     },
     "time": {
-        "time": "Mar. 8, 2024 at 11:10 PM"
+        "time": "Mar. 9, 2024 at 12:31 PM"
     },
     "trank": {
-        "torvik_NET": "44",
+        "torvik_NET": "45",
         "trank": "26",
-        "trank_make_tourney": "92.2",
+        "trank_make_tourney": "93.4",
         "trank_proj_record": "22-9 (12-8)",
-        "trank_seed": "9",
+        "trank_seed": "10",
         "wab_rank": "31",
         "wab_score": "+2.1"
     },
