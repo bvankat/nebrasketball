@@ -1,24 +1,24 @@
 {
     "bracketproject": {
-        "matrix_count": "90",
+        "matrix_count": "105",
         "matrix_seed": "10",
-        "total_brackets": "90"
+        "total_brackets": "105"
     },
     "cbs": {
         "cbs_rank": "10"
     },
     "espn": {
         "bpi": 37.0,
-        "chance_round_32": "46.4%",
-        "chance_sweet_16": "12.3%",
-        "non_con_sos": 271.0,
-        "proj_tourney_seed": "8",
+        "chance_round_32": "48.7%",
+        "chance_sweet_16": "13.7%",
+        "non_con_sos": 265.0,
+        "proj_tourney_seed": "7",
         "proj_win_loss_conf": "11.7-8.3",
         "proj_win_loss_overall": "21.7-9.3",
-        "projected_tournament_order": "29",
+        "projected_tournament_order": "27",
         "seven_day_change": "2nd",
-        "sor": 29.0,
-        "sos": 63.0
+        "sor": 27.0,
+        "sos": 60.0
     },
     "espn_bracketology": {
         "seed": "9"
@@ -65,12 +65,12 @@
         "rank": "38"
     },
     "time": {
-        "time": "Mar. 8, 2024 at 9:39 AM"
+        "time": "Mar. 8, 2024 at 11:10 PM"
     },
     "trank": {
         "torvik_NET": "44",
         "trank": "26",
-        "trank_make_tourney": "92.6",
+        "trank_make_tourney": "92.2",
         "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "9",
         "wab_rank": "31",
@@ -78,13 +78,13 @@
     },
     "warrennolan": {
         "current_conf_record": "11-8",
-        "elo": "32",
+        "elo": "33",
         "nolan_net": "42",
         "quadrant_1": "3-7",
         "quadrant_2": "4-2",
         "quadrant_3": "7-0",
         "quadrant_4": "7-0",
         "record": "21-9",
-        "rpi": "35"
+        "rpi": "36"
     }
 }
