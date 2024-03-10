@@ -95,7 +95,7 @@
 		  	  
 		  		<div id="chart_div" style="width: 370px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
-		  		<p class="col-sm-12 text-center"><strong>Status: </strong><span id="message">That's it. The needle needs no more convincing.</p>
+		  		<p class="col-sm-12 text-center"><strong>Status: </strong><span id="message">The needle is off. They've done it.</p>
 		  		
 
     
@@ -499,7 +499,7 @@
 				var total_score;
 			
 				// Manual total during preseason before rankings released
-	   		 	// total_score = 27;
+	   		 	total_score = 100;
 
 			
 				// one idea to make life easy early in the season: weight all these the same and then count by the number of available ratings and add em up. (rather than commenting out the empty ones every time.) 
@@ -587,10 +587,10 @@
 	
 
 			// Comment out these lines to disable needle bounce in offseason
-	    	 setInterval(function() {
-	          data.setValue(0, 1, total_score-3 + Math.round(3 * Math.random()));
-	          chart.draw(data, options);
-	          }, 300);
+	    	// setInterval(function() {
+	        //  data.setValue(0, 1, total_score-3 + Math.round(3 * Math.random()));
+	        //  chart.draw(data, options);
+	        //  }, 300);
 	     
 	     
       	};  // end drawChart()
