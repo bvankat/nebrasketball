@@ -1,17 +1,17 @@
 {
     "bracketproject": {
-        "matrix_count": "114",
+        "matrix_count": "123",
         "matrix_seed": "9",
-        "total_brackets": "114"
+        "total_brackets": "123"
     },
     "cbs": {
         "cbs_rank": "10"
     },
     "espn": {
         "bpi": 38.0,
-        "chance_round_32": "54.2%",
-        "chance_sweet_16": "16.7%",
-        "non_con_sos": 277.0,
+        "chance_round_32": "53.7%",
+        "chance_sweet_16": "15.9%",
+        "non_con_sos": 276.0,
         "proj_tourney_seed": "6",
         "proj_win_loss_conf": "12.0-8.0",
         "proj_win_loss_overall": "22.0-9.0",
@@ -30,15 +30,15 @@
     "kenpom": {
         "conference_record": "12-8",
         "overall_record": "22-9",
-        "rating": "31",
+        "rating": "32",
         "record": "22-9",
         "sos": "70"
     },
     "kpi_sports": {
-        "kpi_ranking": 27
+        "kpi_ranking": 25
     },
     "massey_ratings": {
-        "massey_rank": "32"
+        "massey_rank": "31"
     },
     "ncaa": {
         "net_rank": "37"
@@ -48,7 +48,7 @@
         "coaches_rank": 32
     },
     "shot_quality": {
-        "sq_ranking": 43
+        "sq_ranking": 42
     },
     "sports_reference": {
         "SRS_rank": "36"
@@ -62,16 +62,16 @@
         "rank": "36"
     },
     "time": {
-        "time": "Mar. 12, 2024 at 1:09 AM"
+        "time": "Mar. 13, 2024 at 12:14 AM"
     },
     "trank": {
-        "torvik_NET": "38",
+        "torvik_NET": "34",
         "trank": "24",
         "trank_make_tourney": "99.9",
         "trank_proj_record": "22-9 (12-8)",
-        "trank_seed": "9",
+        "trank_seed": "8",
         "wab_rank": "24",
-        "wab_score": "+2.2"
+        "wab_score": "+2.3"
     },
     "warrennolan": {
         "current_conf_record": "12-8",
@@ -82,6 +82,6 @@
         "quadrant_3": "7-0",
         "quadrant_4": "7-0",
         "record": "22-9",
-        "rpi": "38"
+        "rpi": "37"
     }
 }
