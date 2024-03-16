@@ -23,9 +23,12 @@
     "espn_bracketology": {
         "seed": "8"
     },
+    "evanmiya": {
+        "miya_rating": "Nebraska \ud83d\udd25"
+    },
     "haslametrics": {
         "haslam_rating": "21",
-        "seed": "7"
+        "seed": "NR"
     },
     "kenpom": {
         "conference_record": "12-8",
@@ -62,12 +65,12 @@
         "rank": "33"
     },
     "time": {
-        "time": "Mar. 16, 2024 at 3:46 AM"
+        "time": "Mar. 16, 2024 at 4:18 AM"
     },
     "trank": {
         "torvik_NET": "32",
         "trank": "22",
-        "trank_make_tourney": "99.2",
+        "trank_make_tourney": "100",
         "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "7",
         "wab_rank": "24",
