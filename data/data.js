@@ -24,11 +24,11 @@
         "seed": "8"
     },
     "evanmiya": {
-        "miya_rating": "Nebraska \ud83d\udd25"
+        "miya_rating": "26"
     },
     "haslametrics": {
         "haslam_rating": "21",
-        "seed": "NR"
+        "seed": "7"
     },
     "kenpom": {
         "conference_record": "12-8",
@@ -65,7 +65,7 @@
         "rank": "33"
     },
     "time": {
-        "time": "Mar. 16, 2024 at 4:18 AM"
+        "time": "Mar. 16, 2024 at 4:46 AM"
     },
     "trank": {
         "torvik_NET": "32",
