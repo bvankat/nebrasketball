@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": "115",
+        "matrix_count": "120",
         "matrix_seed": "9",
-        "total_brackets": "115"
+        "total_brackets": "120"
     },
     "cbs": {
         "cbs_rank": "9"
@@ -21,10 +21,10 @@
         "sos": 67.0
     },
     "espn_bracketology": {
-        "seed": "8"
+        "seed": "7"
     },
     "evanmiya": {
-        "miya_rating": "26"
+        "miya_rating": "25"
     },
     "haslametrics": {
         "haslam_rating": "21",
@@ -33,7 +33,7 @@
     "kenpom": {
         "conference_record": "12-8",
         "overall_record": "22-9",
-        "rating": "29",
+        "rating": "28",
         "record": "23-9",
         "sos": "75"
     },
@@ -51,13 +51,13 @@
         "coaches_rank": 32
     },
     "shot_quality": {
-        "sq_ranking": 60
+        "sq_ranking": 59
     },
     "sports_reference": {
-        "SRS_rank": "37"
+        "SRS_rank": "31"
     },
     "teamrankings": {
-        "make_tournament": "99.7%",
+        "make_tournament": "99.6%",
         "most_likely_seed": "7",
         "proj_conf_record": "12.0-8.0",
         "projected_losses": "9.0",
@@ -65,11 +65,11 @@
         "rank": "33"
     },
     "time": {
-        "time": "Mar. 16, 2024 at 4:46 AM"
+        "time": "Mar. 16, 2024 at 3:57 PM"
     },
     "trank": {
-        "torvik_NET": "32",
-        "trank": "22",
+        "torvik_NET": "30",
+        "trank": "23",
         "trank_make_tourney": "100",
         "trank_proj_record": "22-9 (12-8)",
         "trank_seed": "7",
@@ -85,6 +85,6 @@
         "quadrant_3": "7-0",
         "quadrant_4": "7-0",
         "record": "23-9",
-        "rpi": "31"
+        "rpi": "32"
     }
 }
