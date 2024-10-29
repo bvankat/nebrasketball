@@ -121,8 +121,8 @@
 		    	</thead>
 		    	
 		    	<tbody>
-			    	<tr><td>NCAA NET <span style="font-size: 10px;"><!--<a href="#footnotes">[1]</a>--></span></td><td id="ncaa-net" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>KPI <span style="font-size: 10px;"><!--<a href="#footnotes">[2]</a>--></span></td><td id="kpi_ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>NCAA NET <span style="font-size: 10px;"><a href="#footnotes">[1]</a></span></td><td id="ncaa-net" class="text-end"><span class="small text-muted">NA</span></td></tr>
+			    	<tr><td>KPI <span style="font-size: 10px;"><a href="#footnotes">[2]</a></span></td><td id="kpi_ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>ESPN SOR</td><td id="espn-sor" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>ESPN BPI</td><td id="espn-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>Kenpom</i></td><td id="kenpom-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
@@ -147,7 +147,7 @@
 			    	<tr><td>Massey Composite</td><td id="massey-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
 		    	
 					<tr><td>TeamRankings.com</td><td id="teamrankings-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
-					<tr><td>Wins Above Bubble <span style="font-size: 10px;"><a href="#footnotes">[1]</a></span></td><td class="text-end"><span id="wab-rank"></span></td></tr>
+					<tr><td>Wins Above Bubble <span style="font-size: 10px;"><a href="#footnotes">[3]</a></span></td><td id="wab-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>Sports Reference SRS</td><td id="sports-reference-srs" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>Haslametrics</td><td id="haslam-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
 			    	<tr><td>Evan Miyakawa</td><td id="miya-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
@@ -303,7 +303,7 @@
 	  		
   		<p class="small text-muted">Created by <a href="https://twitter.com/bvankat">Ben Vankat</a> / Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / <a href="https://github.com/bvankat/nebrasketball/blob/master/bracket-notes.md">Calculations help</a> / Shout out: <a href="http://brianhelge.com">Brian H.</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a></p>
 		  
-		 <p class="small text-muted"><a name="footnotes"></a>Footnotes: <!--[1] Using Torvik projected NET rating until early December. [2] First KPI release in early December. -->[1] Wins Above Bubble current total: <span id="wab-score"></span></p>
+		 <p class="small text-muted"><a name="footnotes"></a>Footnotes: [1] Using Torvik projected NET rating until early December. [2] First KPI release in early December. [3] Wins Above Bubble current total: <span id="wab-score"></span></p>
 
   		
   		<p class="small text-muted">Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN BPI/SOR</a>, <a href="https://www.espn.com/espn/feature/story/_/page/bracketology/ncaa-bracketology-2024-march-madness-men-field-predictions">ESPN Bracketology</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2024/schedule/Nebraska">Warren Nolan</a>, <a href="http://barttorvik.com/team.php?team=Nebraska">Bart Torvik</a>, <a href="https://faktorsports.com/">KPI</a>, <a href="http://bracketmatrix.com">Bracket Matrix</a>, <a href="https://www.cbssports.com/college-basketball/bracketology/">CBS Sports</a>, <a href="https://haslametrics.com/ratings.php" target="_blank">Haslametrics</a>, <a href="https://evanmiya.com" target="_blank">Evan Miyakawa</a>, <a href="https://shotquality.com/team-standings" target="_blank">Shot Quality</a>, <a href="https://masseyratings.com/ranks?s=cb" target="_blank">Massey Composite Ratings</a>, <a href="https://www.sports-reference.com/cbb/seasons/men/2024-ratings.html" target="_blank">Sports Reference</a></p>	
@@ -333,7 +333,11 @@
 			if ( data.ncaa ) {  
 				document.getElementById('ncaa-net').innerHTML = data.ncaa.net_rank; 
 				document.getElementById('ncaa-net2').innerHTML = data.ncaa.net_rank; 
-			}	
+			} else if (data.trank) {
+				document.getElementById('ncaa-net').innerHTML = data.trank.torvik_NET; 
+				document.getElementById('ncaa-net2').innerHTML = data.trank.torvik_NET; 
+				
+			}
 			
 			if ( data.kenpom ) {
 				document.getElementById('kenpom-rating').innerHTML = data.kenpom.rating;
@@ -489,27 +493,54 @@
 			 
 			 // Intangibles: Don't think any of the systems has a way to value injuries and/or hype, so we need to add it. Check out sports-reference Win Shares, perhaps, for injuries data points. 
 			 
-			 intangibles = 0;
-			 intangibles_msg = "";
+			 intangibles = -15;
+			 intangibles_msg = "Early season penalty for too few data points. RPI and SOR is 1 for everyone until games are played.";
 			 
 			 // TOTAL SCORE FORMULA
 			 
 				var total_score;
 			
-				// Manual total during preseason before rankings released
+				// MANUAL TOTAL - Uncomment to override formulas below  
 	   		 	// total_score = 100;
 
-			
-				// one idea to make life easy early in the season: weight all these the same and then count by the number of available ratings and add em up. (rather than commenting out the empty ones every time.) 
+				// PURE AVERAGE FORMULA - Debut 2024-24 season
+				// To make life easy early in the season: Just average the available metrics. This is less precise than the WEIGHTED AVERAGE formula below. Comment out one or the other. 
 				
+				// Initialize an object to hold only defined variables
+				let gauge_scores = {};
+				
+				// Conditionally add variables to the object if they are defined
+				if (typeof net_score !== 'undefined') gauge_scores.NET = net_score;
+				if (typeof kpi_score !== 'undefined') gauge_scores.KPI = kpi_score;
+				if (typeof espn_sor !== 'undefined') gauge_scores["ESPN SOR"] = espn_sor;
+				if (typeof teamrankings_score !== 'undefined') gauge_scores["Team Rankings"] = teamrankings_score;
+				if (typeof rpi_score !== 'undefined') gauge_scores.RPI = rpi_score;
+				if (typeof kenpom_score !== 'undefined') gauge_scores.Kenpom = kenpom_score;
+				if (typeof torvik_score !== 'undefined') gauge_scores.Torvik = torvik_score;
+				
+				// Initialize an array to hold the values that exist
+				let rankings_used = [];
+				
+				// Collect variable names and values
+				for (let [name, value] of Object.entries(gauge_scores)) {
+					rankings_used.push(value);
+				}				
+				
+				console.log("Rankings used: ", gauge_scores);
+
+				// Calculate the sum of the values in the array
+				let rankings_sum = rankings_used.reduce((acc, val) => acc + val, 0);
+				
+				// Calculate the average
+				total_score = rankings_used.length > 0 ? rankings_sum / rankings_used.length + intangibles : 0;								
 				// Idea: Add an adjustment for Quad 1 wins and Quad 3/4 losses. 3-4 Q1 wins seems like the high end for 2022 bubble teams. Teams with 3 Q3 losses are very bubbly. Only one team in NET top 70 has more than 1 Q4 loss 
 				
 				// Consider: Adjust for victory/defeat margin within Q1/Q2 games. Nebraska didn't play many good teams close in 2023, lots of blowouts. The predictive metrics did *not* like that. SOR/KPI gave them credit for playing good teams, so there was a 50+ rank difference between the resume and predictive metrics.
 			
-			
+				// WEIGHTED AVERAGE - Choose this or the PURE AVERAGE formula above
 				//Current formula, multipliers should add to .98 to keep the gauge happy
 				// In season, use these scores to calculate total: ESPN SOR, ESPN BPI, KPI, Kenpom, NCAA NET, Team Rankings, Torvik 
-				total_score = ((net_score * .16) + (kpi_score * .14) + (espn_sor * .14) + (teamrankings_score * .11) + (rpi_score * .10) + (kenpom_score * .11) + (espn_bpi * .11) +  (torvik_score * .11) + intangibles);		 
+				//total_score = ((net_score * .16) + (kpi_score * .14) + (espn_sor * .14) + (teamrankings_score * .11) + (rpi_score * .10) + (kenpom_score * .11) + (espn_bpi * .11) +  (torvik_score * .11) + intangibles);		 
 			
 			 // next three lines keep gauge score > 3 in the really sad times, uncomment during season
 			 if (total_score <= 2) {
@@ -539,11 +570,11 @@
 			 // Note from KPI: Selections have trended toward using results-based metrics - "Who's resume is better?". Predictive metrics help more with seeding - "Who would win between these two?".
 			 
 			if (net_score) { console.log("NCAA NET: " + net_score); }
-			if (espn_sor) { console.log("ESPN SOR score (results-based): " + espn_sor); }
-			if (kpi_score) { console.log("KPI score (results-based): " + kpi_score ); }
-			if (teamrankings_score) { console.log("TeamRankings (results-based): " + teamrankings_score); }
+			if (data.espn) { console.log("ESPN SOR score (results-based): " + espn_sor); }
+			if (data.kpi_sports) { console.log("KPI score (results-based): " + kpi_score ); }
+			if (data.teamrankings) { console.log("TeamRankings (results-based): " + teamrankings_score); }
 			if (rpi_score) { console.log("RPI score (results-based): " + rpi_score); }
-			if (espn_bpi) { console.log("ESPN BPI score (predictive): " + espn_bpi); }
+			if (data.espn) { console.log("ESPN BPI score (predictive): " + espn_bpi); }
 			if (kenpom_score) { console.log("Kenpom score (predictive): " + kenpom_score); }
 			if (torvik_score) { console.log("Torvik score (predictive): " + torvik_score); }
 			console.log("Intangibles: " + intangibles + " (" + intangibles_msg + ")");
