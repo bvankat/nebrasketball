@@ -30,7 +30,7 @@
         "SRS_rank": "194"
     },
     "time": {
-        "time": "Oct. 29, 2024 at 1:21 AM"
+        "time": "Oct. 29, 2024 at 3:07 AM"
     },
     "trank": {
         "torvik_NET": "51",
