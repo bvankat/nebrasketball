@@ -2,19 +2,6 @@
     "cbs": {
         "cbs_rank": "NR"
     },
-    "espn": {
-        "bpi": 37.0,
-        "chance_round_32": "0.0%",
-        "chance_sweet_16": "0.0%",
-        "non_con_sos": 122.0,
-        "proj_tourney_seed": "8",
-        "proj_win_loss_conf": "12.0-8.0",
-        "proj_win_loss_overall": "23.0-11.0",
-        "projected_tournament_order": "31",
-        "seven_day_change": "",
-        "sor": 31.0,
-        "sos": 59.0
-    },
     "espn_bracketology": {
         "seed": "NR"
     },
@@ -43,7 +30,7 @@
         "SRS_rank": "194"
     },
     "time": {
-        "time": "Oct. 29, 2024 at 3:10 AM"
+        "time": "Oct. 29, 2024 at 3:14 AM"
     },
     "trank": {
         "torvik_NET": "51",
