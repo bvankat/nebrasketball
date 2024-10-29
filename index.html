@@ -69,8 +69,8 @@
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
-	
 	  gtag('config', 'G-8ZYZZJV2K2');
+	  
 	</script>
 	
     
@@ -91,7 +91,7 @@
 		  	  
 		  		<div id="chart_div" style="width: 370px; height: 350px; margin: 0 auto 40px auto; clear: both;"></div>
 		  		
-		  		<p class="col-sm-12 text-center"><strong>Status: </strong><span id="message">Just about time to get this party started again.</p>
+		  		<p class="col-sm-12 text-center"><strong>Status: </strong><span id="message">Needle is back on for 2025. Working out the kinks for next couple days.</p>
 		  		
 
     
@@ -210,7 +210,7 @@
 	    	
 			</div>
 
-			<div class="bg-white rounded-3  my-5 p-4">
+			<div class="bg-white rounded-3 my-5 p-4">
 
 	    	
 	    	<h2>Quadrants</h2>
@@ -326,7 +326,7 @@
 			  
 			  var dotPlotData = {};
 			
-			// replace this with NCAA when real NET is released. Nolan is approxiation, but calculated earlier in season
+			// replace this with NCAA when real NET is released. Nolan is approximation, but calculated earlier in season
 			// Using Torvik NET Forecast as of Nov. 2023 - https://barttorvik.com/net4cast.php
 			// Nolan NET matches NCAA NET on Dec. 11, 2023. Torvik NET is off by 7 spots (NCAA, Nolan: 68; Torvik 61)
 			
@@ -497,19 +497,19 @@
 				var total_score;
 			
 				// Manual total during preseason before rankings released
-	   		 	total_score = 100;
+	   		 	// total_score = 100;
 
 			
 				// one idea to make life easy early in the season: weight all these the same and then count by the number of available ratings and add em up. (rather than commenting out the empty ones every time.) 
 				
 				// Idea: Add an adjustment for Quad 1 wins and Quad 3/4 losses. 3-4 Q1 wins seems like the high end for 2022 bubble teams. Teams with 3 Q3 losses are very bubbly. Only one team in NET top 70 has more than 1 Q4 loss 
 				
-				// Consider: Adjust for victory/defeat margin within Q1/Q2 games. Nebraska didn't play many good teams close in 2023, lots of blowouts. The predictive metrics did *not* like that. SOR/KPI gave them credit for playing good teams, so there was a 50+ rank difference between the resume and predictive metrics. 
+				// Consider: Adjust for victory/defeat margin within Q1/Q2 games. Nebraska didn't play many good teams close in 2023, lots of blowouts. The predictive metrics did *not* like that. SOR/KPI gave them credit for playing good teams, so there was a 50+ rank difference between the resume and predictive metrics.
 			
 			
 				//Current formula, multipliers should add to .98 to keep the gauge happy
 				// In season, use these scores to calculate total: ESPN SOR, ESPN BPI, KPI, Kenpom, NCAA NET, Team Rankings, Torvik 
-				//total_score = ((net_score * .16) + (kpi_score * .14) + (espn_sor * .14) + (teamrankings_score * .11) + (rpi_score * .10) + (kenpom_score * .11) + (espn_bpi * .11) +  (torvik_score * .11) + intangibles);		 
+				total_score = ((net_score * .16) + (kpi_score * .14) + (espn_sor * .14) + (teamrankings_score * .11) + (rpi_score * .10) + (kenpom_score * .11) + (espn_bpi * .11) +  (torvik_score * .11) + intangibles);		 
 			
 			 // next three lines keep gauge score > 3 in the really sad times, uncomment during season
 			 if (total_score <= 2) {
@@ -585,10 +585,10 @@
 	
 
 			// Comment out these lines to disable needle bounce in offseason
-	    	// setInterval(function() {
-	        //  data.setValue(0, 1, total_score-3 + Math.round(3 * Math.random()));
-	        //  chart.draw(data, options);
-	        //  }, 300);
+	    	setInterval(function() {
+	          data.setValue(0, 1, total_score-3 + Math.round(3 * Math.random()));
+	          chart.draw(data, options);
+	          }, 300);
 	     
 	     
       	};  // end drawChart()
