@@ -6,7 +6,7 @@
         "seed": "NR"
     },
     "evanmiya": {
-        "miya_rating": "Nebraska"
+        "miya_rating": "51"
     },
     "haslametrics": {
         "haslam_rating": "55",
@@ -30,10 +30,10 @@
         "SRS_rank": "194"
     },
     "time": {
-        "time": "Oct. 28, 2024 at 11:38 PM"
+        "time": "Oct. 29, 2024 at 1:21 AM"
     },
     "trank": {
-        "torvik_NET": "49",
+        "torvik_NET": "51",
         "trank": 45,
         "trank_make_tourney": "49.4",
         "trank_proj_record": "17-12 (10-10)",
