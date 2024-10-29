@@ -37,11 +37,11 @@
 			--red: #eb132f;
 		}
 		
-	    body { font-family: sans-serif; }
+	    body { font-family: sans-serif; background: #fafafa; }
 		.container { max-width: 720px; }
  	    h1 { font-family: font-weight: 500; text-align: center; }
  	    h2 { font-size: 1.5rem; }
-	    div.jumbotron { color: #fff; background-color: var(--red); background: radial-gradient(circle, rgba(235,19,47,1) 0%, rgba(190,4,29,1) 100%); border-radius: 0; padding: 4em 0; margin-bottom: 4em; }
+	    div.jumbotron { color: #fff; background-color: var(--red); background: radial-gradient(circle, rgba(235,19,47,1) 0%, rgba(190,4,29,1) 100%); }
 		div.jumbotron.footer { background: #f5f5f5; margin-bottom: 0; font-size: 14px; color: #ccc; }
 		
 		div#social_share { height: 600px !important; display: flex; align-content: center; background: rgb(235,19,47); background: radial-gradient(circle, rgba(235,19,47,1) 0%, rgba(190,4,29,1) 100%); }
@@ -53,7 +53,7 @@
 		.table>:not(caption)>*>* { padding: 0.8rem 0; }
 	    .alert { margin-bottom: 0; }
 		
-		#dot-plot-container { max-width: 680px; margin: 20px 0; }
+		#dot-plot-container { max-width: 660px; margin: 20px 0; }
 		#dot-plot-container text { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }		
 		.endpoint-label { fill: #aaa; }
 		.tick { stroke: #ccc; }
@@ -80,7 +80,7 @@
 	<!-- <div class="alert small alert-warning text-center"><strong></strong></div>-->
 
 	  	  
-	  	<div class="jumbotron">
+	  	<div class="jumbotron p-5">
 	  	<div class="container">
 	  	
 	  
@@ -106,6 +106,8 @@
 			  
 		  <div class="col-sm-12">
 			
+			
+			<div class="bg-white rounded-3 my-5 p-4">
 			<h2>Rankings</h2>
 			
 			<div id="dot-plot-container"></div>
@@ -166,8 +168,9 @@
 				</tbody>
 			</table>
 	    	
-	    	
-	    	<br /><br />
+	    	</div>
+			
+			<div class="bg-white rounded-3 my-5 p-4">
 	    	
 	    	<h2 style="margin-bottom: 20px;">Bracket chances</h2>
 			
@@ -205,7 +208,9 @@
 		    	</tbody>
 	    	</table>
 	    	
-	    	<br /><br />
+			</div>
+
+			<div class="bg-white rounded-3  my-5 p-4">
 
 	    	
 	    	<h2>Quadrants</h2>
@@ -237,11 +242,9 @@
 			</div>				
 			
 			
-			<br /><br />
-			
-			
 
-
+			</div>
+			<div class="bg-white rounded-3 my-5 p-4">
 	    	
 	    	<h2>Projections</h2>
 	    	<p class="text-muted">(Current record: <span id="kenpom-record">0-0</span>, <span id="current_conf_record">0-0</span> Big Ten)</p>
@@ -249,8 +252,8 @@
 		    	<thead>
 			    	<tr>
 				    	<th>Service</th>
-						<th class="text-end">Projected W-L</th>
-						<th class="text-end">Projected seed</th>
+						<th class="text-end">Record</th>
+						<th class="text-end">Seed</th>
 			    	</tr>
 		    	</thead>
 		    	<tbody>
@@ -276,8 +279,7 @@
 			
 
 			
-			<br /><br />
-	    	
+			</div>	    	
 	    </div>
   	</div>
 	  
@@ -294,7 +296,7 @@
 			</div>
 		</div>
   	
-  	<div class="jumbotron footer">
+  	<div class="jumbotron footer py-5">
 	  <div class="container">
 	  <div class="row">
   		<p class="small text-muted" style="font-weight: bold;">Last update: <span id="time"></span></p>
