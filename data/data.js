@@ -30,10 +30,10 @@
         "SRS_rank": "194"
     },
     "time": {
-        "time": "Oct. 29, 2024 at 3:14 AM"
+        "time": "Oct. 30, 2024 at 12:55 PM"
     },
     "trank": {
-        "torvik_NET": "51",
+        "torvik_NET": "50",
         "trank": 45,
         "trank_make_tourney": "49.4",
         "trank_proj_record": "17-12 (10-10)",
