@@ -432,7 +432,7 @@
 				 var score;
 				 if (data <= 30){ score = 99; } 
 				 if (data > 30 && data <= 40) { score = 92; } 
-				  if (data > 40 && data <= 43) { score = 80; } 
+				 if (data > 40 && data <= 43) { score = 80; } 
 				 if (data > 43 && data <= 45) { score = 70; }
 				 if (data > 45 && data <= 47) { score = 55; }
 				 if (data > 47 && data <= 51) { score = 35; }
@@ -494,6 +494,7 @@
 				if (typeof net_score !== 'undefined') gauge_scores.NET = net_score;
 				if (typeof kpi_score !== 'undefined') gauge_scores.KPI = kpi_score;
 				if (typeof espn_sor !== 'undefined') gauge_scores["ESPN SOR"] = espn_sor;
+				if (typeof espn_bpi !== 'undefined') gauge_scores["ESPN BPI"] = espn_bpi;
 				if (typeof teamrankings_score !== 'undefined') gauge_scores["Team Rankings"] = teamrankings_score;
 				if (typeof rpi_score !== 'undefined') gauge_scores.RPI = rpi_score;
 				if (typeof kenpom_score !== 'undefined') gauge_scores.Kenpom = kenpom_score;
