@@ -2,6 +2,19 @@
     "cbs": {
         "cbs_rank": "NR"
     },
+    "espn": {
+        "bpi": 26.0,
+        "chance_round_32": "",
+        "chance_sweet_16": "",
+        "non_con_sos": "NR",
+        "proj_tourney_seed": "NR",
+        "proj_win_loss_conf": "11.0-9.0",
+        "proj_win_loss_overall": "18.4-10.6",
+        "projected_tournament_order": "",
+        "seven_day_change": "",
+        "sor": "NR",
+        "sos": ""
+    },
     "espn_bracketology": {
         "seed": "NR"
     },
@@ -9,7 +22,7 @@
         "miya_rating": "51"
     },
     "haslametrics": {
-        "haslam_rating": "55",
+        "haslam_rating": "54",
         "seed": "NR"
     },
     "kenpom": {
@@ -20,7 +33,7 @@
         "sos": "1"
     },
     "massey_ratings": {
-        "massey_rank": "46"
+        "massey_rank": "48"
     },
     "polls": {
         "ap_rank": "NR",
@@ -30,7 +43,7 @@
         "SRS_rank": "194"
     },
     "time": {
-        "time": "Oct. 30, 2024 at 12:55 PM"
+        "time": "Nov. 4, 2024 at 10:06 AM"
     },
     "trank": {
         "torvik_NET": "50",
