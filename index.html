@@ -3,7 +3,7 @@
   <head>
    
   <meta charset="utf-8"> 
-    
+	
   <title>Nebraska basketball NCAA tournament odds</title> 
   <meta name="description" content="A machine that calculates how close #Nebrasketball is to the Big Dance. Updated daily during the season."/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,27 +31,27 @@
   <!-- D3 for the dot plot -->
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="/dot-plot.js"></script>
-   	
+	   
 	<style>
 		:root {
 			--red: #eb132f;
 		}
 		
-	    body { font-family: sans-serif; }
+		body { font-family: sans-serif; }
 		.container { max-width: 720px; }
- 	    h1 { font-family: font-weight: 500; text-align: center; }
- 	    h2 { font-size: 1.5rem; }
-	    div.jumbotron { color: #fff; background-color: var(--red); background: radial-gradient(circle, rgba(235,19,47,1) 0%, rgba(190,4,29,1) 100%); margin-bottom: 4em; }
+		 h1 { font-family: font-weight: 500; text-align: center; }
+		 h2 { font-size: 1.5rem; }
+		div.jumbotron { color: #fff; background-color: var(--red); background: radial-gradient(circle, rgba(235,19,47,1) 0%, rgba(190,4,29,1) 100%); margin-bottom: 4em; }
 		div.jumbotron.footer { background: #f5f5f5; margin-bottom: 0; font-size: 14px; color: #ccc; }
 		
 		div#social_share { height: 600px !important; display: flex; align-content: center; background: rgb(235,19,47); background: radial-gradient(circle, rgba(235,19,47,1) 0%, rgba(190,4,29,1) 100%); }
 		
 		a { color: #888; }
 		a:hover { color: var(--red); }
-	    .gray {color: #eee; }
-	    th { text-align: left; }
+		.gray {color: #eee; }
+		th { text-align: left; }
 		.table>:not(caption)>*>* { padding: 0.8rem 0; }
-	    .alert { margin-bottom: 0; }
+		.alert { margin-bottom: 0; }
 		
 		#dot-plot-container { max-width: 680px; margin: 20px 0; }
 		#dot-plot-container text { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }		
@@ -73,32 +73,32 @@
 	  
 	</script>
 	
-    
+	
   </head>
   <body>
 	  
 	<!-- <div class="alert small alert-warning text-center"><strong></strong></div>-->
 
-	  	  
-	  	<div class="jumbotron pt-5 pb-5 px-2 py-2">
-	  	<div class="container">
-	  	
+			
+		  <div class="jumbotron pt-5 pb-5 px-2 py-2">
+		  <div class="container">
+		  
 	  
 	  <h1>Nebraska basketball NCAA tournament odds</h1>
 	  <p class="col-sm-12 text-center" style="margin-bottom: 30px; font-size: 14px; color: #ccc;">Updated daily during the season</p>
 
 	  <div class="row">
-		  	  
-		  		<div id="chart_div" style="width: 380px; height: 320px; margin: 0 auto 40px auto; clear: both;"></div>
-		  		
-		  		<p class="col-sm-12 text-center"><strong>Status: </strong><span id="message">Needle is back on for 2025. Very bouncy early.</p>
-		  		
+				
+				  <div id="chart_div" style="width: 380px; height: 320px; margin: 0 auto 40px auto; clear: both;"></div>
+				  
+				  <p class="col-sm-12 text-center"><strong>Status: </strong><span id="message">Needle is back on for 2025. Very bouncy early.</p>
+				  
 
-    
+	
 		  </div>
 
-  	</div>
-	  	</div>
+	  </div>
+		  </div>
 		
 		<div class="container">  
 		  
@@ -110,23 +110,23 @@
 			<h2>Rankings</h2>
 			
 			<div id="dot-plot-container"></div>
-			    	   
-	    	<table class="table mb-5">
-		    	<thead>
-			    	<tr>
-				    	<th>Team-sheet metrics</th>
-				    	<th class="text-end">Rank</th>
-			    	</tr>
-		    	</thead>
-		    	
-		    	<tbody>
-			    	<tr><td>NCAA NET <span style="font-size: 10px;"><a href="#footnotes">[1]</a></span></td><td id="ncaa-net" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>KPI <span style="font-size: 10px;"><a href="#footnotes">[2]</a></span></td><td id="kpi_ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>ESPN SOR</td><td id="espn-sor" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>ESPN BPI</td><td id="espn-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>Kenpom</i></td><td id="kenpom-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	
-	    	</table>
+					   
+			<table class="table mb-5">
+				<thead>
+					<tr>
+						<th>Team-sheet metrics</th>
+						<th class="text-end">Rank</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr><td>NCAA NET <span style="font-size: 10px;"><a href="#footnotes">[1]</a></span></td><td id="ncaa-net" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					<tr><td>KPI <span style="font-size: 10px;"><a href="#footnotes">[2]</a></span></td><td id="kpi_ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					<tr><td>ESPN SOR</td><td id="espn-sor" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					<tr><td>ESPN BPI</td><td id="espn-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					<tr><td>Kenpom</i></td><td id="kenpom-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					
+			</table>
 			
 			<table class="table mb-5">
 				<thead>
@@ -135,19 +135,19 @@
 				<tbody>
 					<tr><td>Bart Torvik</td><td id="trank-trank" class="text-end"><span class="small text-muted">NA</span></td></tr>
 					
-			    	
-			    	<tr><td>RPI</td><td id="nolan-rpi" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>ELO rank</td><td id="nolan-elo" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>Massey Composite</td><td id="massey-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
-		    	
+					
+					<tr><td>RPI</td><td id="nolan-rpi" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					<tr><td>ELO rank</td><td id="nolan-elo" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					<tr><td>Massey Composite</td><td id="massey-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
+				
 					<tr><td>TeamRankings.com</td><td id="teamrankings-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
 					<tr><td>Wins Above Bubble <span style="font-size: 10px;"><a href="#footnotes">[3]</a></span></td><td id="wab-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>Sports Reference SRS</td><td id="sports-reference-srs" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>Haslametrics</td><td id="haslam-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>Evan Miyakawa</td><td id="miya-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			    	<tr><td>Shot Quality</td><td id="sq-ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					<tr><td>Sports Reference SRS</td><td id="sports-reference-srs" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					<tr><td>Haslametrics</td><td id="haslam-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					<tr><td>Evan Miyakawa</td><td id="miya-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					<tr><td>Shot Quality</td><td id="sq-ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
 					<tr>
-			    	<tr>
+					<tr>
 						<td>AP Poll</td>
 						<td class="text-end"><span id="ap-rank"><span class="small text-muted">NA</span></span></td>
 					</tr>
@@ -161,46 +161,46 @@
 					
 				</tbody>
 			</table>
-	    	
-	    	
-	    	<h2 style="margin-bottom: 20px;">Bracket chances</h2>
 			
-	    	<table class="table mb-5">
+			
+			<h2 style="margin-bottom: 20px;">Bracket chances</h2>
+			
+			<table class="table mb-5">
 				<thead>
 					<tr></tr>
-		    	<tbody>
-			    	
-			    	<tr>
+				<tbody>
+					
+					<tr>
 						<td>Torvik T-Ranketology</td>
 						<td id="trank-make-tourney" class="text-end"><span class="small text-muted">NA</span></td>
 					</tr>
 					
-			    	<tr>
+					<tr>
 						<td>TeamRankings.com</td>
 						<td id="teamrankings-rating" class="text-end"><span class="small text-muted">NA</span></td>
 					</tr>
 					
-			    	<tr>
+					<tr>
 						<td>ESPN - SOR S-Curve position</td>
 						<td class="text-end"><span id="espn-sor-s-curve"><span class="small text-muted">NA</span></span></td>
 					</tr>
 					
-			    	<tr>
+					<tr>
 						<td>ESPN - NCAA Round of 32 chances</td>
 						<td class="text-end"><span id="espn-round-32"><span class="small text-muted">NA</span></span></td>
 					</tr>
 					
-			    	
-			    	<tr>
+					
+					<tr>
 						<td>Bracket Matrix: How many brackets have NU?</td>
 						<td class="text-end"><span id="bracketproject-count"></span>/<span id="bracketproject-totalbrackets"></span></td>
 					</tr>
 					
-		    	</tbody>
-	    	</table>
-	    	
-	    	
-	    	<h2>Quadrants</h2>
+				</tbody>
+			</table>
+			
+			
+			<h2>Quadrants</h2>
 			<div class="table-responsive mb-5">
 			<table class="table">
 				<thead class="small">
@@ -227,28 +227,28 @@
 				</tbody>
 			</table>	
 			</div>				
-	    	
-	    	<h2>Projections</h2>
-	    	<p class="text-muted">(Current record: <span id="kenpom-record">0-0</span>, <span id="current_conf_record">0-0</span> Big Ten)</p>
-	    	<table class="table mb-5">
-		    	<thead>
-			    	<tr>
-				    	<th>Service</th>
+			
+			<h2>Projections</h2>
+			<p class="text-muted">(Current record: <span id="kenpom-record">0-0</span>, <span id="current_conf_record">0-0</span> Big Ten)</p>
+			<table class="table mb-5">
+				<thead>
+					<tr>
+						<th>Service</th>
 						<th class="text-end">Record</th>
 						<th class="text-end">Seed</th>
-			    	</tr>
-		    	</thead>
-		    	<tbody>
-			    	
-			    	<tr><td>ESPN</td><td class="text-end"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td><td class="text-end"><span id="espn-proj-tourney-seed"></span></tr>
-			    	
-			    	<tr><td>Bart Torvik</td><td id="trank-proj" class="text-end"></td><td class="text-end"><span id="trank-seed"></span></td></tr>
-				    
-				    <tr><td>TeamRankings.com</td><td class="text-end"><span id="teamrankings_wl"></span> (<span id="teamrankings-conf-wl"></span>)</td><td class="text-end"><span id="teamrankings-seed"><span class="small text-muted">NA</span></span></td></tr>
+					</tr>
+				</thead>
+				<tbody>
+					
+					<tr><td>ESPN</td><td class="text-end"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td><td class="text-end"><span id="espn-proj-tourney-seed"></span></tr>
+					
+					<tr><td>Bart Torvik</td><td id="trank-proj" class="text-end"></td><td class="text-end"><span id="trank-seed"></span></td></tr>
+					
+					<tr><td>TeamRankings.com</td><td class="text-end"><span id="teamrankings_wl"></span> (<span id="teamrankings-conf-wl"></span>)</td><td class="text-end"><span id="teamrankings-seed"><span class="small text-muted">NA</span></span></td></tr>
 					
 					<tr><td>Kenpom</td><td class="text-end"><span id="kenpom-overall"></span> (<span id="kenpom-conference"></span>)</td><td class="text-end"><span class="small text-muted">NA</span></td></tr>
-				    
-				    <tr><td>ESPN - Lunardi Bracketology</td><td class="text-end small text-muted">NA</td><td class="text-end"><span id="espn-bracketology-seed"><span class="small text-muted">NA</span></span></td></tr>
+					
+					<tr><td>ESPN - Lunardi Bracketology</td><td class="text-end small text-muted">NA</td><td class="text-end"><span id="espn-bracketology-seed"><span class="small text-muted">NA</span></span></td></tr>
 					
 					<tr><td>CBS Sports - Jerry Palm Bracketology</td><td class="text-end small text-muted">NA</td><td class="text-end"><span id="cbs-bracket"><span class="small text-muted">NA</span></span></td></tr>
 					
@@ -256,13 +256,13 @@
 					
 					<tr><td>Haslametrics Bracketology "Deserves"</td><td class="text-end"><span class="small text-muted">NA</span></td><td class="text-end" id="haslametrics-seed"><span class="small text-muted">NA</span></td></tr>
 					
-			    </tbody>
+				</tbody>
 			</table>
 			
 
 			
-	    </div>
-  	</div>
+		</div>
+	  </div>
 	  
 		</div>
 		
@@ -276,31 +276,31 @@
 				</div>
 			</div>
 		</div>
-  	
-  	<div class="jumbotron footer py-5">
+	  
+	  <div class="jumbotron footer py-5">
 	  <div class="container">
 	  <div class="row">
-  		<p class="small text-muted" style="font-weight: bold;">Last update: <span id="time"></span></p>
-	  		
-  		<p class="small text-muted">Created by <a href="https://twitter.com/bvankat">Ben Vankat</a> / Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / <a href="https://github.com/bvankat/nebrasketball/blob/master/bracket-notes.md">Calculations help</a> / Shout out: <a href="http://brianhelge.com">Brian H.</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a></p>
+		  <p class="small text-muted" style="font-weight: bold;">Last update: <span id="time"></span></p>
+			  
+		  <p class="small text-muted">Created by <a href="https://twitter.com/bvankat">Ben Vankat</a> / Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / <a href="https://github.com/bvankat/nebrasketball/blob/master/bracket-notes.md">Calculations help</a> / Shout out: <a href="http://brianhelge.com">Brian H.</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#nytneedle</a></p>
 		  
 		 <p class="small text-muted"><a name="footnotes"></a>Footnotes: [1] Using Torvik projected NET rating until early December. [2] First KPI release in early December. [3] Wins Above Bubble current total: <span id="wab-score"></span></p>
 
-  		
-  		<p class="small text-muted">Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN BPI/SOR</a>, <a href="https://www.espn.com/espn/feature/story/_/page/bracketology/">ESPN Bracketology</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2025/schedule/Nebraska">Warren Nolan</a>, <a href="http://barttorvik.com/team.php?team=Nebraska">Bart Torvik</a>, <a href="https://faktorsports.com/">KPI</a>, <a href="http://bracketmatrix.com">Bracket Matrix</a>, <a href="https://www.cbssports.com/college-basketball/bracketology/">CBS Sports</a>, <a href="https://haslametrics.com/ratings.php" target="_blank">Haslametrics</a>, <a href="https://evanmiya.com" target="_blank">Evan Miyakawa</a>, <a href="https://shotquality.com/team-standings" target="_blank">Shot Quality</a>, <a href="https://masseyratings.com/ranks?s=cb" target="_blank">Massey Composite Ratings</a>, <a href="https://www.sports-reference.com/cbb/seasons/men/2025-ratings.html" target="_blank">Sports Reference</a></p>	
+		  
+		  <p class="small text-muted">Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN BPI/SOR</a>, <a href="https://www.espn.com/espn/feature/story/_/page/bracketology/">ESPN Bracketology</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2025/schedule/Nebraska">Warren Nolan</a>, <a href="http://barttorvik.com/team.php?team=Nebraska">Bart Torvik</a>, <a href="https://faktorsports.com/">KPI</a>, <a href="http://bracketmatrix.com">Bracket Matrix</a>, <a href="https://www.cbssports.com/college-basketball/bracketology/">CBS Sports</a>, <a href="https://haslametrics.com/ratings.php" target="_blank">Haslametrics</a>, <a href="https://evanmiya.com" target="_blank">Evan Miyakawa</a>, <a href="https://shotquality.com/team-standings" target="_blank">Shot Quality</a>, <a href="https://masseyratings.com/ranks?s=cb" target="_blank">Massey Composite Ratings</a>, <a href="https://www.sports-reference.com/cbb/seasons/men/2025-ratings.html" target="_blank">Sports Reference</a></p>	
 	  </div>	
 	  </div>
-  	</div>
-  	
-  	</body>
-  	
-  		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	  </div>
+	  
+	  </body>
+	  
+		  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
  
  
-      <script type="text/javascript">
-	      
-	      async function loadData() {
+	  <script type="text/javascript">
+		  
+		  async function loadData() {
 			  const response = await fetch('/data/data.js');
 			  const data = await response.json();
 			  console.log(data); 
@@ -432,7 +432,7 @@
 				 var score;
 				 if (data <= 30){ score = 99; } 
 				 if (data > 30 && data <= 40) { score = 92; } 
- 				 if (data > 40 && data <= 43) { score = 80; } 
+				  if (data > 40 && data <= 43) { score = 80; } 
 				 if (data > 43 && data <= 45) { score = 70; }
 				 if (data > 45 && data <= 47) { score = 55; }
 				 if (data > 47 && data <= 51) { score = 35; }
@@ -464,7 +464,7 @@
 			 
 			 if( data.espn ) { 
 				 espn_sor = FindScore(parseInt(data.espn.sor));  // SOR is stronger predictor than BPI. Note: Preseason SOR is 1. That skews the gauge.
-			 	espn_bpi = FindScore(parseInt(data.espn.bpi)); 
+				 espn_bpi = FindScore(parseInt(data.espn.bpi)); 
 			}
 			 if(data.teamrankings ) { teamrankings_score = parseInt(data.teamrankings.make_tournament); } // This one's already a % score
 			 if( data.trank ) { torvik_score = parseInt(data.trank.trank_make_tourney); }
@@ -482,7 +482,7 @@
 				var total_score;
 			
 				// MANUAL TOTAL - Uncomment to override formulas below  
-	   		 	// total_score = 100;
+					// total_score = 100;
 
 				// PURE AVERAGE FORMULA - Debut 2024-24 season
 				// To make life easy early in the season: Just average the available metrics. This is less precise than the WEIGHTED AVERAGE formula below. Comment out one or the other. 
@@ -525,8 +525,8 @@
 			
 			 // next three lines keep gauge score > 3 in the really sad times, uncomment during season
 			 if (total_score <= 2) {
-			 	total_score = 2;
-			 	console.log("Note: Minimum total_score applied");
+				 total_score = 2;
+				 console.log("Note: Minimum total_score applied");
 			 }
 			  
 			 
@@ -541,11 +541,11 @@
 			//	 return status_message;	 
 			// }
 			 
-			 	// Three lines below can automate the status updates based on the total_score. Uncomment to automate. Otherwise, manual status updates are required.
+				 // Three lines below can automate the status updates based on the total_score. Uncomment to automate. Otherwise, manual status updates are required.
 				 
-			 	// message = StatusCheck(total_score);
-			 	// console.log(message);
-			 	// $('#message').text(message);
+				 // message = StatusCheck(total_score);
+				 // console.log(message);
+				 // $('#message').text(message);
 			
 			
 			 // Note from KPI: Selections have trended toward using results-based metrics - "Who's resume is better?". Predictive metrics help more with seeding - "Who would win between these two?".
@@ -567,49 +567,49 @@
 		
 			 
 	   function drawChart() {
-	   		
-	   		total_score = parseInt(total_score);
+			   
+			   total_score = parseInt(total_score);
 
-	        var data = google.visualization.arrayToDataTable([
-	          ['Label', 'Value'],
-	          ['', total_score],
-	        ]);
+			var data = google.visualization.arrayToDataTable([
+			  ['Label', 'Value'],
+			  ['', total_score],
+			]);
 	
-	        var options = {
-	          width: 320, height: 320,
-	          redFrom: 75, redTo: 100,
-	          yellowFrom:50, yellowTo: 75,
-	          minorTicks: 10
-		    };
-	        
+			var options = {
+			  width: 320, height: 320,
+			  redFrom: 75, redTo: 100,
+			  yellowFrom:50, yellowTo: 75,
+			  minorTicks: 10
+			};
+			
 			var options_2 = {
-	          width: 200, height: 200,
-	          redFrom: 75, redTo: 100,
-	          yellowFrom:50, yellowTo: 75,
-	          minorTicks: 10
-	        };
+			  width: 200, height: 200,
+			  redFrom: 75, redTo: 100,
+			  yellowFrom:50, yellowTo: 75,
+			  minorTicks: 10
+			};
 	
-	        var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
-	        var chart_2 = new google.visualization.Gauge(document.getElementById('chart_div_2'));
+			var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
+			var chart_2 = new google.visualization.Gauge(document.getElementById('chart_div_2'));
 	
-	        chart.draw(data, options);
-	        chart_2.draw(data, options_2);
+			chart.draw(data, options);
+			chart_2.draw(data, options_2);
 	
 
 			// Comment out these lines to disable needle bounce in offseason
 			// Increase the multiplier applied to Math.random to increase bounciness. It basically equates to the range of values to bounce between.
-	    	setInterval(function() {
-	          data.setValue(0, 1, total_score-3 + Math.round(10 * Math.random()));
-	          chart.draw(data, options);
-	          }, 300);
-	     
-	     
-      	};  // end drawChart()
+			setInterval(function() {
+			  data.setValue(0, 1, total_score-3 + Math.round(10 * Math.random()));
+			  chart.draw(data, options);
+			  }, 300);
+		 
+		 
+		  };  // end drawChart()
 		  
 	} // end loadData async function
 			
-    loadData(); // MAKES THE MAGIC HAPPEN
-    dotPlot(); // Makes some other magic happen
+	loadData(); // MAKES THE MAGIC HAPPEN
+	dotPlot(); // Makes some other magic happen
 	
 </script>
 
