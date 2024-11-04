@@ -6,7 +6,7 @@ async function dotPlot() {
 // Set up the chart dimensions
 const margin = { top: 20, right: 10, bottom: 20, left: 0 };
 
-const containerWidth = Math.min(700, window.innerWidth - 48);
+const containerWidth = Math.min(700, window.innerWidth - 20);
 const width = containerWidth - margin.left - margin.right;
 const height = 40;
 
