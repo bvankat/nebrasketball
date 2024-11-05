@@ -135,29 +135,27 @@
 				<tbody>
 					<tr><td>Bart Torvik</td><td id="trank-trank" class="text-end"><span class="small text-muted">NA</span></td></tr>
 					
+					<tr><td>Wins Above Bubble <span style="font-size: 10px;"><a href="#footnotes">[3]</a></span></td><td id="wab-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
 					
 					<tr><td>RPI</td><td id="nolan-rpi" class="text-end"><span class="small text-muted">NA</span></td></tr>
-					<tr><td>ELO rank</td><td id="nolan-elo" class="text-end"><span class="small text-muted">NA</span></td></tr>
-					<tr><td>Massey Composite</td><td id="massey-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-					<tr><td>TeamRankings.com</td><td id="teamrankings-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
-					<tr><td>Wins Above Bubble <span style="font-size: 10px;"><a href="#footnotes">[3]</a></span></td><td id="wab-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
-					<tr><td>Sports Reference SRS</td><td id="sports-reference-srs" class="text-end"><span class="small text-muted">NA</span></td></tr>
-					<tr><td>Haslametrics</td><td id="haslam-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					
 					<tr><td>Evan Miyakawa</td><td id="miya-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					
+					<tr><td>Massey Composite</td><td id="massey-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					
+					<tr><td>ELO rank</td><td id="nolan-elo" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					
+					<tr><td>TeamRankings.com</td><td id="teamrankings-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					
+					<tr><td>Sports Reference SRS</td><td id="sports-reference-srs" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					
+					<tr><td>Haslametrics</td><td id="haslam-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
+					
 					<tr><td>Shot Quality</td><td id="sq-ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
-					<tr>
-					<tr>
-						<td>AP Poll</td>
-						<td class="text-end"><span id="ap-rank"><span class="small text-muted">NA</span></span></td>
-					</tr>
 					
-					<tr>
-						<td>Coaches Poll</td>
-						<td class="text-end"><span id="coaches-rank"><span class="small text-muted">NA</span></span></td>
-					</tr>
+					<tr><td>AP Poll</td><td class="text-end"><span id="ap-rank"><span class="small text-muted">NA</span></span></td></tr>
 					
-					
+					<tr><td>Coaches Poll</td><td class="text-end"><span id="coaches-rank"><span class="small text-muted">NA</span></span></td></tr>
 					
 				</tbody>
 			</table>
@@ -205,7 +203,7 @@
 			<table class="table">
 				<thead class="small">
 					<tr>
-						<th>NET</th>
+						<th>NET <span style="font-size: 10px; font-weight: normal;"><a href="#footnotes">[1]</a></span></th>
 						<th>SOS</th>
 						<th>NC SOS</th>
 						<th class="text-end">Quad 1</th>
@@ -471,7 +469,7 @@
 			 
 			 if( data.trank ) { 
 				 torvik_score = parseInt(data.trank.trank_make_tourney); 
-			 	 wab_score = parseInt(data.trank.wab_score); 
+			 	 wab_score = FindScore(data.trank.wab_rank); 
 			 }
 			 
 			 if( data.kpi_sports ) { kpi_score = FindScore(data.kpi_sports.kpi_ranking); }
@@ -481,7 +479,7 @@
 			 // Intangibles: Don't think any of the systems has a way to value injuries and/or hype, so we need to add it. Check out sports-reference Win Shares, perhaps, for injuries data points. 
 			 
 			 intangibles = 0;
-			 intangibles_msg = "Early season penalty for too few data points. RPI and SOR is 1 for everyone until games are played.";
+			 intangibles_msg = "";
 			 
 			 // TOTAL SCORE FORMULA
 			 
@@ -557,15 +555,16 @@
 			
 			
 			 // Note from KPI: Selections have trended toward using results-based metrics - "Who's resume is better?". Predictive metrics help more with seeding - "Who would win between these two?".
-			 
-			if (net_score) { console.log("NCAA NET: " + net_score); }
-			if (data.espn) { console.log("ESPN SOR score (results-based): " + espn_sor); }
-			if (data.kpi_sports) { console.log("KPI score (results-based): " + kpi_score ); }
-			if (data.teamrankings) { console.log("TeamRankings (results-based): " + teamrankings_score); }
-			if (rpi_score) { console.log("RPI score (results-based): " + rpi_score); }
-			if (data.espn) { console.log("ESPN BPI score (predictive): " + espn_bpi); }
-			if (kenpom_score) { console.log("Kenpom score (predictive): " + kenpom_score); }
-			if (torvik_score) { console.log("Torvik score (predictive): " + torvik_score); }
+			console.log("What percentage odds?");
+			if (net_score) { console.log("NET: " + net_score + "%"); }
+			if (data.espn) { console.log("SOR (results-based): " + espn_sor + "%"); }
+			if (data.kpi_sports) { console.log("KPI (results-based): " + kpi_score + "%"); }
+			if (data.teamrankings) { console.log("TeamRankings (results-based): " + teamrankings_score + "%"); }
+			if (rpi_score) { console.log("RPI (results-based): " + rpi_score + "%"); }
+			if (data.espn) { console.log("BPI (predictive): " + espn_bpi + "%"); }
+			if (kenpom_score) { console.log("Kenpom (predictive): " + kenpom_score + "%"); }
+			if (torvik_score) { console.log("Torvik (predictive): " + torvik_score + "%"); }
+			if (wab_score) { console.log("WAB (??): " + wab_score + "%"); }
 			console.log("Intangibles: " + intangibles + " (" + intangibles_msg + ")");
 			console.log("Total score: " + total_score);
 
