@@ -56,7 +56,7 @@
         "rank": "62"
     },
     "time": {
-        "time": "Nov. 5, 2024 at 11:29 AM"
+        "time": "Nov. 5, 2024 at 11:40 AM"
     },
     "trank": {
         "torvik_NET": "49",
