@@ -1,18 +1,18 @@
 {
     "bracketproject": {
         "matrix_count": "3",
-        "matrix_seed": "NR",
+        "matrix_seed": "OUT",
         "total_brackets": "47"
     },
     "cbs": {
-        "cbs_rank": "NR"
+        "cbs_rank": "OUT"
     },
     "espn": {
         "bpi": 50.0,
         "chance_round_32": "",
         "chance_sweet_16": "",
         "non_con_sos": "NR",
-        "proj_tourney_seed": "NR",
+        "proj_tourney_seed": "OUT",
         "proj_win_loss_conf": "9.4-10.6",
         "proj_win_loss_overall": "16.4-12.6",
         "projected_tournament_order": "",
@@ -21,7 +21,7 @@
         "sos": 176.0
     },
     "espn_bracketology": {
-        "seed": "NR"
+        "seed": "OUT"
     },
     "evanmiya": {
         "miya_rating": "51"
@@ -56,7 +56,7 @@
         "rank": "62"
     },
     "time": {
-        "time": "Nov. 5, 2024 at 11:02 AM"
+        "time": "Nov. 5, 2024 at 11:29 AM"
     },
     "trank": {
         "torvik_NET": "49",
