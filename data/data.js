@@ -1,4 +1,9 @@
 {
+    "bracketproject": {
+        "matrix_count": "3",
+        "matrix_seed": "NR",
+        "total_brackets": "47"
+    },
     "cbs": {
         "cbs_rank": "NR"
     },
@@ -28,9 +33,9 @@
     "kenpom": {
         "conference_record": "8-12",
         "overall_record": "15-14",
-        "rating": "60",
+        "rating": "59",
         "record": "1-0",
-        "sos": "175"
+        "sos": "184"
     },
     "massey_ratings": {
         "massey_rank": "48"
@@ -51,14 +56,14 @@
         "rank": "54"
     },
     "time": {
-        "time": "Nov. 4, 2024 at 11:50 PM"
+        "time": "Nov. 4, 2024 at 11:59 PM"
     },
     "trank": {
         "torvik_NET": "50",
         "trank": 45,
         "trank_make_tourney": "49.4",
         "trank_proj_record": "17-12 (9-11)",
-        "trank_seed": "NR",
+        "trank_seed": "11",
         "wab_rank": "NA",
         "wab_score": "NA"
     },
