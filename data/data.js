@@ -56,16 +56,16 @@
         "rank": "54"
     },
     "time": {
-        "time": "Nov. 4, 2024 at 11:59 PM"
+        "time": "Nov. 5, 2024 at 12:03 AM"
     },
     "trank": {
         "torvik_NET": "50",
-        "trank": 45,
+        "trank": "46",
         "trank_make_tourney": "49.4",
         "trank_proj_record": "17-12 (9-11)",
         "trank_seed": "11",
-        "wab_rank": "NA",
-        "wab_score": "NA"
+        "wab_rank": "43",
+        "wab_score": "+0.06"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
