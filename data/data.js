@@ -17,8 +17,8 @@
         "proj_win_loss_overall": "16.4-12.6",
         "projected_tournament_order": "",
         "seven_day_change": "",
-        "sor": "78th",
-        "sos": "176th"
+        "sor": 78.0,
+        "sos": 176.0
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -56,7 +56,7 @@
         "rank": "62"
     },
     "time": {
-        "time": "Nov. 5, 2024 at 10:53 AM"
+        "time": "Nov. 5, 2024 at 11:02 AM"
     },
     "trank": {
         "torvik_NET": "49",
