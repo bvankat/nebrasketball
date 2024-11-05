@@ -14,7 +14,7 @@ const height = 40;
 const data = {
 	Kenpom: parseInt(ratings_data.kenpom.rating),
 //    KPI: ratings_data.kpi_sports.kpi_ranking,
-    NET: parseInt(ratings_data.trank.torvik_NET), // or use trank.torvik_NET
+    NET: parseInt(ratings_data.trank.torvik_NET), // use trank.torvik_NET or ncaa.net_rank
     SOR: parseInt(ratings_data.espn.sor),
     BPI: parseInt(ratings_data.espn.bpi),
     Torvik: parseInt(ratings_data.trank.trank),
