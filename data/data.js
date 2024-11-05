@@ -8,17 +8,17 @@
         "cbs_rank": "NR"
     },
     "espn": {
-        "bpi": 26.0,
+        "bpi": 50.0,
         "chance_round_32": "",
         "chance_sweet_16": "",
         "non_con_sos": "NR",
         "proj_tourney_seed": "NR",
-        "proj_win_loss_conf": "11.0-9.0",
-        "proj_win_loss_overall": "18.4-10.6",
+        "proj_win_loss_conf": "9.4-10.6",
+        "proj_win_loss_overall": "16.4-12.6",
         "projected_tournament_order": "",
         "seven_day_change": "",
-        "sor": "NR",
-        "sos": ""
+        "sor": "78th",
+        "sos": "176th"
     },
     "espn_bracketology": {
         "seed": "NR"
@@ -27,15 +27,15 @@
         "miya_rating": "51"
     },
     "haslametrics": {
-        "haslam_rating": "54",
-        "seed": "NR"
+        "haslam_rating": "60",
+        "seed": "OUT"
     },
     "kenpom": {
         "conference_record": "8-12",
         "overall_record": "15-14",
         "rating": "59",
         "record": "1-0",
-        "sos": "184"
+        "sos": "196"
     },
     "massey_ratings": {
         "massey_rank": "48"
@@ -45,26 +45,26 @@
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": "194"
+        "SRS_rank": "125"
     },
     "teamrankings": {
-        "make_tournament": "40.7%",
-        "most_likely_seed": "10",
-        "proj_conf_record": "8.8-11.2",
-        "projected_losses": "13.1",
-        "projected_wins": "15.9",
-        "rank": "54"
+        "make_tournament": "37.7%",
+        "most_likely_seed": "11",
+        "proj_conf_record": "8.2-11.8",
+        "projected_losses": "13.7",
+        "projected_wins": "15.3",
+        "rank": "62"
     },
     "time": {
-        "time": "Nov. 5, 2024 at 12:03 AM"
+        "time": "Nov. 5, 2024 at 10:53 AM"
     },
     "trank": {
-        "torvik_NET": "50",
-        "trank": "46",
-        "trank_make_tourney": "49.4",
+        "torvik_NET": "49",
+        "trank": "45",
+        "trank_make_tourney": "47.9",
         "trank_proj_record": "17-12 (9-11)",
         "trank_seed": "11",
-        "wab_rank": "43",
+        "wab_rank": "44",
         "wab_score": "+0.06"
     },
     "warrennolan": {
