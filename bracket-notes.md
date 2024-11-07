@@ -46,7 +46,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 
 ## Team Sheet basics
 
-*NCAA Selection committee has five metrics on the team sheets used to compare teams in the runup to Selection Sunday*
+*NCAA Selection committee has six metrics on the team sheets used to compare teams in the runup to Selection Sunday*
 
 #### NET
 - NCAA's proprietary combination of metrics. Seems to lean predictive rather than resume-based.
