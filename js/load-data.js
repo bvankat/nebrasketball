@@ -257,16 +257,58 @@
 	
 	 // Note from KPI: Selections have trended toward using results-based metrics - "Who's resume is better?". Predictive metrics help more with seeding - "Who would win between these two?".
 	console.group('What percentage odds?');
-	if (net_score) { console.log("NET: " + net_score + "%"); }
-	if (data.espn) { console.log("SOR (results-based): " + espn_sor + "%"); }
-	if (data.kpi_sports) { console.log("KPI (results-based): " + kpi_score + "%"); }
-	if (data.teamrankings) { console.log("TeamRankings (results-based): " + teamrankings_score + "%"); }
-	if (rpi_score) { console.log("RPI (results-based): " + rpi_score + "%"); }
-	if (data.espn) { console.log("BPI (predictive): " + espn_bpi + "%"); }
-	if (kenpom_score) { console.log("Kenpom (predictive): " + kenpom_score + "%"); }
-	if (torvik_score) { console.log("Torvik (predictive): " + torvik_score + "%"); }
-	if (wab_score) { console.log("WAB (??): " + wab_score + "%"); }
+		
+		let percentages = {};
+		
+		if (net_score) { 
+			const NET_pct = { metric: "NET", type: "combo", pct: net_score };
+			percentages.NET = NET_pct;
+		}
+		
+		if (data.espn) { 
+			const SOR_pct = { metric: "SOR", type: "results-based", pct: espn_sor };
+			percentages.SOR = SOR_pct;
+		}
+		
+		if (data.kpi_sports) { 
+			const KPI_pct = { metric: "KPI", type: "results-based", pct: kpi_score };
+			percentages.KPI = KPI_pct;
+		}
+	
+		if (data.teamrankings) { 
+			const TeamRankings_pct = { metric: "TeamRankings", type: "results-based", pct: teamrankings_score };
+			percentages.TeamRankings = TeamRankings_pct;
+		}
+		
+		if (rpi_score) { 
+			const RPI_pct = { metric: "RPI", type: "results-based", pct: rpi_score };
+			percentages.RPI = RPI_pct;
+		}
+	
+		if (data.espn) { 
+			const BPI_pct = { metric: "BPI", type: "predictive", pct: espn_bpi };
+			percentages.BPI = BPI_pct;
+		}
+	
+		if (kenpom_score) { 
+			const Kenpom_pct = { metric: "Kenpom", type: "predictive", pct: kenpom_score };
+			percentages.Kenpom = Kenpom_pct;
+		}
+
+		if (torvik_score) { 
+			const Torvik_pct = { metric: "Torvik", type: "predictive", pct: torvik_score };
+			percentages.Torvik = Torvik_pct;
+		}
+		
+		if (wab_score) { 
+			const WAB_pct = { metric: "WAB", type: "??", pct: wab_score };
+			percentages.WAB = WAB_pct;
+		}
+	
+		console.table(percentages, ["type","pct"]);
+	
 	console.groupEnd();
+	
 	console.log("Intangibles: " + intangibles + " (" + intangibles_msg + ")");
 	
 	console.group("Total Score");
