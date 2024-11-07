@@ -28,14 +28,14 @@
     },
     "haslametrics": {
         "haslam_rating": "58",
-        "seed": "NR"
+        "seed": "OUT"
     },
     "kenpom": {
         "conference_record": "8-12",
         "overall_record": "15-14",
         "rating": "58",
         "record": "1-0",
-        "sos": "210"
+        "sos": "211"
     },
     "massey_ratings": {
         "massey_rank": "48"
@@ -56,7 +56,7 @@
         "rank": "61"
     },
     "time": {
-        "time": "Nov. 6, 2024 at 11:53 PM"
+        "time": "Nov. 7, 2024 at 12:50 AM"
     },
     "trank": {
         "torvik_NET": "51",
@@ -64,7 +64,7 @@
         "trank_make_tourney": "50.1",
         "trank_proj_record": "17-12 (9-11)",
         "trank_seed": "11",
-        "wab_rank": "45",
+        "wab_rank": "46",
         "wab_score": "+0.06"
     },
     "warrennolan": {
@@ -76,6 +76,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "1-0",
         "record": "1-0",
-        "rpi": "3"
+        "rpi": "20"
     }
 }
