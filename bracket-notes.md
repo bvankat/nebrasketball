@@ -1,6 +1,6 @@
 # Bracketology calculations, reminders and helpers
 
-A collection of links and notes to demystify the NCAA basketball tournament selection committee decisions for at-large teams. These ideas help form the algorithm for the [Nebrasketball NCAA Tournament Odds Machine](https://nebrasketball.info). Email bvankat [ at ] gmail with additions, corrections and feedback.
+A collection of links and notes to demystify the NCAA basketball tournament selection committee decisions for at-large teams. These ideas help inform the algorithm for the [Nebrasketball NCAA Tournament Odds Machine](https://nebrasketball.info). Email bvankat [ at ] gmail with additions, corrections and feedback.
 
 ## Calculations Notes
 
@@ -78,6 +78,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 
 #### Bart Torvik
 - Predictive
+- How's it different from Kenpom? T-Rank has a wider spread between the top and bottom teams, partly because Kenpom caps margin of victory. T-Rank excludes garbage time by no longer adjusting the game efficiency scores when the outcome is assured. T-Rank has a slight recency bias and slightly discounts blowouts in extreme mismatches. ([Explainer](https://adamcwisports.blogspot.com/p/every-possession-counts.html))
 - Added to team sheets for 2024-25 season to replace Sagarin ratings. (Sagarin retired after 2023 season)
 - [LINK](https://barttorvik.com/)
 
