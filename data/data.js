@@ -24,10 +24,10 @@
         "seed": "OUT"
     },
     "evanmiya": {
-        "miya_rating": 54
+        "miya_rating": 55
     },
     "haslametrics": {
-        "haslam_rating": 58,
+        "haslam_rating": 56,
         "seed": "OUT"
     },
     "kenpom": {
@@ -45,23 +45,23 @@
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": 134
+        "SRS_rank": 17
     },
     "teamrankings": {
-        "make_tournament": "39.1%",
+        "make_tournament": "40.2%",
         "most_likely_seed": "11",
-        "proj_conf_record": "8.2-11.8",
-        "projected_losses": "13.7",
-        "projected_wins": "15.3",
+        "proj_conf_record": "8.4-11.6",
+        "projected_losses": "13.5",
+        "projected_wins": "15.5",
         "rank": "61"
     },
     "time": {
-        "time": "Nov. 7, 2024 at 1:52 AM"
+        "time": "Nov. 7, 2024 at 11:24 AM"
     },
     "trank": {
         "torvik_NET": "51",
         "trank": 45,
-        "trank_make_tourney": 50.1,
+        "trank_make_tourney": 50.3,
         "trank_proj_record": "17-12 (9-11)",
         "trank_seed": "11",
         "wab_rank": 46,
