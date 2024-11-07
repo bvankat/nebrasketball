@@ -221,15 +221,13 @@
 		let rankings_sum = rankings_used.reduce((acc, val) => acc + val, 0);
 		
 		// Calculate the average
-		total_score = rankings_used.length > 0 ? rankings_sum / rankings_used.length + intangibles : 0;								
-		// Idea: Add an adjustment for Quad 1 wins and Quad 3/4 losses. 3-4 Q1 wins seems like the high end for 2022 bubble teams. Teams with 3 Q3 losses are very bubbly. Only one team in NET top 70 has more than 1 Q4 loss 
-		
-		// Consider: Adjust for victory/defeat margin within Q1/Q2 games. Nebraska didn't play many good teams close in 2023, lots of blowouts. The predictive metrics did *not* like that. SOR/KPI gave them credit for playing good teams, so there was a 50+ rank difference between the resume and predictive metrics.
-	
+		total_score = rankings_used.length > 0 ? rankings_sum / rankings_used.length + intangibles : 0;		
+											
 		// WEIGHTED AVERAGE - Choose this or the PURE AVERAGE formula above
 		//Current formula, multipliers should add to .98 to keep the gauge happy
 		// In season, use these scores to calculate total: ESPN SOR, ESPN BPI, KPI, Kenpom, NCAA NET, Team Rankings, Torvik 
-		//total_score = ((net_score * .16) + (kpi_score * .14) + (espn_sor * .14) + (teamrankings_score * .11) + (rpi_score * .10) + (kenpom_score * .11) + (espn_bpi * .11) +  (torvik_score * .11) + intangibles);		 
+			
+			//total_score = ((net_score * .16) + (kpi_score * .14) + (espn_sor * .14) + (teamrankings_score * .11) + (rpi_score * .10) + (kenpom_score * .11) + (espn_bpi * .11) +  (torvik_score * .11) + intangibles);		 
 	
 	 // next three lines keep gauge score > 3 in the really sad times, uncomment during season
 	 if (total_score <= 2) {
@@ -238,16 +236,17 @@
 	 }
 	  
 	 
-	// Manual status updates in offseason
-	//function StatusCheck(data) {
-	//	 var status_message;
-	//	 if (data < 20) { status_message = "Nope. Not happening." }
-	//	 if (data >= 20 && data < 45) { status_message = "It's been a minute since the odds were even this high." }
-	//	 if (data >= 45 && data < 75) { status_message = "These aren't uncharted waters. But they're very lightly charted." }
-	//	 if (data >= 75) { status_message = "Believe it when we see it." }
-	//	 
-	//	 return status_message;	 
-	// }
+		// AUTOMATED STATUS UPDATES
+		
+		//function StatusCheck(data) {
+		//	 var status_message;
+		//	 if (data < 20) { status_message = "Nope. Not happening." }
+		//	 if (data >= 20 && data < 45) { status_message = "It's been a minute since the odds were even this high." }
+		//	 if (data >= 45 && data < 75) { status_message = "These aren't uncharted waters. But they're very lightly charted." }
+		//	 if (data >= 75) { status_message = "Believe it when we see it." }
+		//	 
+		//	 return status_message;	 
+		// }
 	 
 		 // Three lines below can automate the status updates based on the total_score. Uncomment to automate. Otherwise, manual status updates are required.
 		 
