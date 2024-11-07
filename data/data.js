@@ -2,7 +2,7 @@
     "bracketproject": {
         "matrix_count": 3,
         "matrix_seed": "OUT",
-        "total_brackets": "47"
+        "total_brackets": 47
     },
     "cbs": {
         "cbs_rank": "OUT"
@@ -27,25 +27,25 @@
         "miya_rating": 54
     },
     "haslametrics": {
-        "haslam_rating": "58",
+        "haslam_rating": 58,
         "seed": "OUT"
     },
     "kenpom": {
         "conference_record": "8-12",
         "overall_record": "15-14",
-        "rating": "58",
+        "rating": 58,
         "record": "1-0",
-        "sos": "211"
+        "sos": 211
     },
     "massey_ratings": {
-        "massey_rank": "48"
+        "massey_rank": 48
     },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": "134"
+        "SRS_rank": 134
     },
     "teamrankings": {
         "make_tournament": "39.1%",
@@ -56,15 +56,15 @@
         "rank": "61"
     },
     "time": {
-        "time": "Nov. 7, 2024 at 1:45 AM"
+        "time": "Nov. 7, 2024 at 1:52 AM"
     },
     "trank": {
         "torvik_NET": "51",
-        "trank": "45",
-        "trank_make_tourney": "50.1",
+        "trank": 45,
+        "trank_make_tourney": 50.1,
         "trank_proj_record": "17-12 (9-11)",
         "trank_seed": "11",
-        "wab_rank": "46",
+        "wab_rank": 46,
         "wab_score": "+0.06"
     },
     "warrennolan": {
