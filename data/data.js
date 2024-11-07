@@ -1,6 +1,6 @@
 {
     "bracketproject": {
-        "matrix_count": "3",
+        "matrix_count": 3,
         "matrix_seed": "OUT",
         "total_brackets": "47"
     },
@@ -24,7 +24,7 @@
         "seed": "OUT"
     },
     "evanmiya": {
-        "miya_rating": "54"
+        "miya_rating": 54
     },
     "haslametrics": {
         "haslam_rating": "58",
@@ -56,7 +56,7 @@
         "rank": "61"
     },
     "time": {
-        "time": "Nov. 7, 2024 at 1:40 AM"
+        "time": "Nov. 7, 2024 at 1:45 AM"
     },
     "trank": {
         "torvik_NET": "51",
