@@ -60,13 +60,13 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - [LINK](https://www.espn.com/mens-college-basketball/bpi)
 
 #### ESPN's SOR
-- Resume
+- Results-based, resume metric
 - Release date: *same as BPI above*
 - Preaseason SOR for team is 1. So this metric takes a couple weeks to develop some reliability.
 - [LINK](https://www.espn.com/mens-college-basketball/bpi)
 
 #### KPI
-- Resume
+- Results-based, resume metric
 - Release date: Early December (12/5/22)
 - [LINK](https://faktorsports.com/)
 
@@ -76,11 +76,17 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - Records back to 2002
 - [LINK](https://kenpom.com/)
 
-#### Sagarin
+#### Bart Torvik
 - Predictive
-- Release date: First week of November
-- [LINK](http://sagarin.com/sports/cbsend.htm)
-- Note: Not in use for 2023-24. Sagarin stopped doing CBB ratings. Likely dumped from the team sheets, but no announcement as of 12/15/23.
+- Added to team sheets for 2024-25 season to replace Sagarin ratings. (Sagarin retired after 2023 season)
+- [LINK](https://barttorvik.com/)
+
+#### Wins Above Bubble
+- Results-based, resume metric
+- "How much better is this team than an average bubble team?"
+- Example: Team A wins a game at the best team in the country. The expected wins (i.e., win probability) in that matchup for an average bubble team on the road might be 20%. So take that actual 1.0 wins, subtract 0.20 expected wins, and get +0.80 Wins Above Bubble. Add up the number for all games to calculate WAB.
+- Added to team sheets for 2024-25 season
+- [LINK](https://barttorvik.com/)
 
 
 ## Quadrants
