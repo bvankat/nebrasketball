@@ -11,11 +11,11 @@
         "bpi": 37.0,
         "chance_round_32": "",
         "chance_sweet_16": "",
-        "non_con_sos": "189th",
-        "proj_tourney_seed": "15",
+        "non_con_sos": 189.0,
+        "proj_tourney_seed": 15.0,
         "proj_win_loss_conf": "10.3-9.7",
         "proj_win_loss_overall": "17.8-11.2",
-        "projected_tournament_order": "80",
+        "projected_tournament_order": 80.0,
         "seven_day_change": "",
         "sor": 62.0,
         "sos": 189.0
@@ -56,7 +56,7 @@
         "rank": "61"
     },
     "time": {
-        "time": "Nov. 7, 2024 at 1:33 AM"
+        "time": "Nov. 7, 2024 at 1:40 AM"
     },
     "trank": {
         "torvik_NET": "51",
