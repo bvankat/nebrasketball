@@ -48,15 +48,15 @@
         "SRS_rank": "134"
     },
     "teamrankings": {
-        "make_tournament": "38.0%",
+        "make_tournament": "39.1%",
         "most_likely_seed": "11",
-        "proj_conf_record": "8.3-11.7",
-        "projected_losses": "13.6",
-        "projected_wins": "15.4",
+        "proj_conf_record": "8.2-11.8",
+        "projected_losses": "13.7",
+        "projected_wins": "15.3",
         "rank": "61"
     },
     "time": {
-        "time": "Nov. 7, 2024 at 12:50 AM"
+        "time": "Nov. 7, 2024 at 1:27 AM"
     },
     "trank": {
         "torvik_NET": "51",
