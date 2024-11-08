@@ -8,34 +8,34 @@
         "cbs_rank": "OUT"
     },
     "espn": {
-        "bpi": 37.0,
-        "chance_round_32": "",
-        "chance_sweet_16": "",
-        "non_con_sos": 189.0,
-        "proj_tourney_seed": 15.0,
-        "proj_win_loss_conf": "10.3-9.7",
-        "proj_win_loss_overall": "17.8-11.2",
-        "projected_tournament_order": 80.0,
+        "bpi": 35.0,
+        "chance_round_32": "33.1%",
+        "chance_sweet_16": "13.6%",
+        "non_con_sos": 196.0,
+        "proj_tourney_seed": 16.0,
+        "proj_win_loss_conf": "10.5-9.5",
+        "proj_win_loss_overall": "17.9-11.1",
+        "projected_tournament_order": 86.0,
         "seven_day_change": "",
-        "sor": 62.0,
-        "sos": 189.0
+        "sor": 67.0,
+        "sos": 196.0
     },
     "espn_bracketology": {
         "seed": "OUT"
     },
     "evanmiya": {
-        "miya_rating": 55
+        "miya_rating": 54
     },
     "haslametrics": {
-        "haslam_rating": 56,
+        "haslam_rating": 57,
         "seed": "OUT"
     },
     "kenpom": {
         "conference_record": "8-12",
-        "overall_record": "15-14",
+        "overall_record": "16-13",
         "rating": 58,
         "record": "1-0",
-        "sos": 211
+        "sos": 222
     },
     "massey_ratings": {
         "massey_rank": 48
@@ -45,27 +45,27 @@
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": 17
+        "SRS_rank": 34
     },
     "teamrankings": {
-        "make_tournament": "40.2%",
+        "make_tournament": "41.8%",
         "most_likely_seed": "11",
         "proj_conf_record": "8.4-11.6",
         "projected_losses": "13.5",
         "projected_wins": "15.5",
-        "rank": "61"
+        "rank": "59"
     },
     "time": {
-        "time": "Nov. 7, 2024 at 11:24 AM"
+        "time": "Nov. 8, 2024 at 9:23 AM"
     },
     "trank": {
-        "torvik_NET": "51",
-        "trank": 45,
+        "torvik_NET": "48",
+        "trank": 44,
         "trank_make_tourney": 50.3,
         "trank_proj_record": "17-12 (9-11)",
         "trank_seed": "11",
-        "wab_rank": 46,
-        "wab_score": "+0.06"
+        "wab_rank": 51,
+        "wab_score": "+0.07"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
@@ -76,6 +76,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "1-0",
         "record": "1-0",
-        "rpi": "20"
+        "rpi": "68"
     }
 }
