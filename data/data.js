@@ -56,14 +56,14 @@
         "rank": "66"
     },
     "time": {
-        "time": "Nov. 10, 2024 at 12:19 AM"
+        "time": "Nov. 10, 2024 at 12:21 AM"
     },
     "trank": {
         "torvik_NET": "54",
         "trank": 50,
         "trank_make_tourney": 50.3,
         "trank_proj_record": "16-13 (9-11)",
-        "trank_seed": "NR",
+        "trank_seed": "OUT",
         "wab_rank": 60,
         "wab_score": "+0.11"
     },
