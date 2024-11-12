@@ -187,8 +187,8 @@
 	 
 	 // Penalty for a Nonconference SOS above 250. New for 2025.
 	 if ( data.espn.non_con_sos >= 250 ) {
-		 intangibles-5;
-		 intengibles_msg += "Intangibles: Penalty applied for having non-con SOS above 250."
+		 intangibles = intangibles-5;
+		 intangibles_msg += "Intangibles: Penalty applied for having non-con SOS above 250."
 	 }
 	 
 	 
