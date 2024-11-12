@@ -185,6 +185,13 @@
 	 intangibles = 0;
 	 intangibles_msg = "";
 	 
+	 // Penalty for a Nonconference SOS above 250. New for 2025.
+	 if ( data.espn.non_con_sos >= 250 ) {
+		 intangibles-5;
+		 intengibles_msg += "Intangibles: Penalty applied for having non-con SOS above 250."
+	 }
+	 
+	 
 	 // TOTAL SCORE FORMULA
 	 
 		var total_score;
@@ -336,7 +343,7 @@ function drawChart() {
 	  width: 340, height: 340,
 	  redFrom: 75, redTo: 100,
 	  yellowFrom:50, yellowTo: 75,
-	  minorTicks: 10
+	  minorTicks: 12
 	};
 	
 	var options_2 = {
