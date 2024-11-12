@@ -100,7 +100,11 @@
 	
 
 	if ( data.teamrankings ) {
-		document.getElementById('teamrankings-seed').innerHTML = data.teamrankings.most_likely_seed;
+		if (data.teamrankings.rank >= 60) {
+			document.getElementById('teamrankings-seed').innerHTML = "OUT";
+		} else {
+			document.getElementById('teamrankings-seed').innerHTML = data.teamrankings.most_likely_seed;
+		}
 		document.getElementById('teamrankings-rating').innerHTML = data.teamrankings.make_tournament;
 		document.getElementById('teamrankings-rank').innerHTML = data.teamrankings.rank;
 		document.getElementById('teamrankings-conf-wl').innerHTML = data.teamrankings.proj_conf_record;
