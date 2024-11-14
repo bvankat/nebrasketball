@@ -2182,6 +2182,87 @@
             "time": {
                 "time": "Nov. 13, 2024 at 11:09 AM"
             }
+        },
+        {
+            "kenpom": {
+                "rating": 71,
+                "record": "3-0",
+                "sos": 345,
+                "overall_record": "14-15",
+                "conference_record": "7-13"
+            },
+            "evanmiya": {
+                "miya_rating": 58
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "espn": {
+                "bpi": 46.0,
+                "seven_day_change": "",
+                "proj_tourney_seed": "OUT",
+                "proj_win_loss_overall": "16.6-12.4",
+                "proj_win_loss_conf": "9.3-10.7",
+                "sor": 76.0,
+                "sos": 315.0,
+                "non_con_sos": 315.0,
+                "chance_sweet_16": "6.2%",
+                "chance_round_32": "19.8%",
+                "projected_tournament_order": 95.0
+            },
+            "espn_bracketology": {
+                "seed": "OUT"
+            },
+            "teamrankings": {
+                "make_tournament": "28.0%",
+                "most_likely_seed": "11",
+                "rank": "68",
+                "projected_wins": "14.3",
+                "projected_losses": "14.7",
+                "proj_conf_record": "7.3-12.7"
+            },
+            "warrennolan": {
+                "record": "3-0",
+                "current_conf_record": "0-0",
+                "rpi": "206",
+                "elo": "66",
+                "quadrant_1": "0-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "3-0",
+                "nolan_net": "33"
+            },
+            "trank": {
+                "trank": 52,
+                "trank_proj_record": "16-13 (9-11)",
+                "trank_seed": "OUT",
+                "trank_make_tourney": 37.6,
+                "wab_score": "+0.13",
+                "wab_rank": 66,
+                "torvik_NET": "56"
+            },
+            "cbs": {
+                "cbs_rank": "OUT"
+            },
+            "haslametrics": {
+                "haslam_rating": 55,
+                "seed": "OUT"
+            },
+            "bracketproject": {
+                "matrix_count": 3,
+                "total_brackets": 47,
+                "matrix_seed": "OUT"
+            },
+            "massey_ratings": {
+                "massey_rank": 62
+            },
+            "sports_reference": {
+                "SRS_rank": 137
+            },
+            "time": {
+                "time": "Nov. 14, 2024 at 11:26 AM"
+            }
         }
     ]
 }
