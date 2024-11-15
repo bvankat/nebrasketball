@@ -8,26 +8,26 @@
         "cbs_rank": "OUT"
     },
     "espn": {
-        "bpi": 46.0,
-        "chance_round_32": "19.8%",
-        "chance_sweet_16": "6.2%",
-        "non_con_sos": 315.0,
+        "bpi": 47.0,
+        "chance_round_32": "18.8%",
+        "chance_sweet_16": "5.6%",
+        "non_con_sos": 318.0,
         "proj_tourney_seed": "OUT",
         "proj_win_loss_conf": "9.3-10.7",
         "proj_win_loss_overall": "16.6-12.4",
-        "projected_tournament_order": 95.0,
+        "projected_tournament_order": 96.0,
         "seven_day_change": "",
-        "sor": 76.0,
-        "sos": 315.0
+        "sor": 75.0,
+        "sos": 318.0
     },
     "espn_bracketology": {
         "seed": "OUT"
     },
     "evanmiya": {
-        "miya_rating": 58
+        "miya_rating": 59
     },
     "haslametrics": {
-        "haslam_rating": 55,
+        "haslam_rating": 58,
         "seed": "OUT"
     },
     "kenpom": {
@@ -45,18 +45,18 @@
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": 137
+        "SRS_rank": 129
     },
     "teamrankings": {
-        "make_tournament": "28.0%",
+        "make_tournament": "28.3%",
         "most_likely_seed": "11",
-        "proj_conf_record": "7.3-12.7",
-        "projected_losses": "14.7",
-        "projected_wins": "14.3",
-        "rank": "68"
+        "proj_conf_record": "7.4-12.6",
+        "projected_losses": "14.6",
+        "projected_wins": "14.4",
+        "rank": "69"
     },
     "time": {
-        "time": "Nov. 14, 2024 at 11:26 AM"
+        "time": "Nov. 15, 2024 at 9:24 AM"
     },
     "trank": {
         "torvik_NET": "56",
@@ -76,6 +76,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "3-0",
-        "rpi": "206"
+        "rpi": "202"
     }
 }
