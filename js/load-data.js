@@ -312,7 +312,7 @@
 		}
 		
 		if (wab_score) { 
-			const WAB_pct = { metric: "WAB", type: "??", pct: wab_score };
+			const WAB_pct = { metric: "WAB", type: "results-based", pct: wab_score };
 			percentages.WAB = WAB_pct;
 		}
 	
