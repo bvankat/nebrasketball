@@ -38,7 +38,7 @@
         "sos": 303
     },
     "massey_ratings": {
-        "massey_rank": 56
+        "massey_rank": 60
     },
     "polls": {
         "ap_rank": "NR",
@@ -56,7 +56,7 @@
         "rank": "65"
     },
     "time": {
-        "time": "Nov. 18, 2024 at 10:18 AM"
+        "time": "Nov. 18, 2024 at 5:17 PM"
     },
     "trank": {
         "torvik_NET": "56",
