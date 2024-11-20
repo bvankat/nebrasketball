@@ -45,18 +45,18 @@
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": 84
+        "SRS_rank": 82
     },
     "teamrankings": {
-        "make_tournament": "26.7%",
+        "make_tournament": "26.5%",
         "most_likely_seed": "11",
-        "proj_conf_record": "7.6-12.4",
-        "projected_losses": "14.9",
-        "projected_wins": "14.1",
+        "proj_conf_record": "7.5-12.5",
+        "projected_losses": "15.0",
+        "projected_wins": "14.0",
         "rank": "66"
     },
     "time": {
-        "time": "Nov. 20, 2024 at 12:41 AM"
+        "time": "Nov. 20, 2024 at 5:09 AM"
     },
     "trank": {
         "torvik_NET": "58",
