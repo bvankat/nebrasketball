@@ -35,7 +35,7 @@
         "overall_record": "14-15",
         "rating": 64,
         "record": "3-1",
-        "sos": 295
+        "sos": 297
     },
     "massey_ratings": {
         "massey_rank": 60
@@ -56,15 +56,15 @@
         "rank": "65"
     },
     "time": {
-        "time": "Nov. 21, 2024 at 9:46 AM"
+        "time": "Nov. 21, 2024 at 2:55 PM"
     },
     "trank": {
         "torvik_NET": "56",
         "trank": 52,
-        "trank_make_tourney": 26.3,
+        "trank_make_tourney": 26.2,
         "trank_proj_record": "16-13 (9-11)",
         "trank_seed": "OUT",
-        "wab_rank": 113,
+        "wab_rank": 111,
         "wab_score": "-0.31"
     },
     "warrennolan": {
@@ -76,6 +76,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "3-1",
-        "rpi": "106"
+        "rpi": "109"
     }
 }
