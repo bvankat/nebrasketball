@@ -56,26 +56,26 @@
         "rank": "65"
     },
     "time": {
-        "time": "Nov. 22, 2024 at 9:48 AM"
+        "time": "Nov. 22, 2024 at 1:47 PM"
     },
     "trank": {
         "torvik_NET": "57",
         "trank": 52,
-        "trank_make_tourney": 27.4,
+        "trank_make_tourney": 28.3,
         "trank_proj_record": "16-13 (9-11)",
         "trank_seed": "OUT",
-        "wab_rank": 107,
+        "wab_rank": 106,
         "wab_score": "-0.32"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "79",
+        "elo": "77",
         "nolan_net": "33",
         "quadrant_1": "0-1",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "3-1",
-        "rpi": "104"
+        "rpi": "106"
     }
 }
