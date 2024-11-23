@@ -33,9 +33,9 @@
     "kenpom": {
         "conference_record": "8-12",
         "overall_record": "14-15",
-        "rating": 64,
+        "rating": 62,
         "record": "3-1",
-        "sos": 304
+        "sos": 306
     },
     "massey_ratings": {
         "massey_rank": 60
@@ -56,26 +56,26 @@
         "rank": "65"
     },
     "time": {
-        "time": "Nov. 22, 2024 at 1:47 PM"
+        "time": "Nov. 22, 2024 at 9:08 PM"
     },
     "trank": {
-        "torvik_NET": "57",
-        "trank": 52,
+        "torvik_NET": "59",
+        "trank": 53,
         "trank_make_tourney": 28.3,
         "trank_proj_record": "16-13 (9-11)",
         "trank_seed": "OUT",
-        "wab_rank": 106,
-        "wab_score": "-0.32"
+        "wab_rank": 109,
+        "wab_score": "-0.31"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "77",
+        "elo": "74",
         "nolan_net": "33",
         "quadrant_1": "0-1",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "3-1",
-        "rpi": "106"
+        "rpi": "93"
     }
 }
