@@ -24,18 +24,18 @@
         "seed": "OUT"
     },
     "evanmiya": {
-        "miya_rating": 59
+        "miya_rating": 43
     },
     "haslametrics": {
-        "haslam_rating": 55,
-        "seed": "OUT"
+        "haslam_rating": 45,
+        "seed": "5"
     },
     "kenpom": {
-        "conference_record": "8-12",
-        "overall_record": "14-15",
-        "rating": 62,
-        "record": "3-1",
-        "sos": 306
+        "conference_record": "9-11",
+        "overall_record": "17-12",
+        "rating": 49,
+        "record": "4-1",
+        "sos": 220
     },
     "massey_ratings": {
         "massey_rank": 60
@@ -45,37 +45,37 @@
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": 84
+        "SRS_rank": 66
     },
     "teamrankings": {
-        "make_tournament": "27.1%",
+        "make_tournament": "48.0%",
         "most_likely_seed": "11",
-        "proj_conf_record": "7.5-12.5",
-        "projected_losses": "15.0",
-        "projected_wins": "14.0",
-        "rank": "65"
+        "proj_conf_record": "8.6-11.4",
+        "projected_losses": "13.0",
+        "projected_wins": "16.0",
+        "rank": "51"
     },
     "time": {
-        "time": "Nov. 22, 2024 at 9:08 PM"
+        "time": "Nov. 23, 2024 at 10:54 AM"
     },
     "trank": {
-        "torvik_NET": "59",
-        "trank": 53,
-        "trank_make_tourney": 28.3,
-        "trank_proj_record": "16-13 (9-11)",
-        "trank_seed": "OUT",
-        "wab_rank": 109,
-        "wab_score": "-0.31"
+        "torvik_NET": "44",
+        "trank": 42,
+        "trank_make_tourney": 60.5,
+        "trank_proj_record": "17-12 (10-10)",
+        "trank_seed": "9",
+        "wab_rank": 37,
+        "wab_score": "+0.42"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "74",
+        "elo": "58",
         "nolan_net": "33",
-        "quadrant_1": "0-1",
+        "quadrant_1": "1-1",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
-        "record": "3-1",
-        "rpi": "93"
+        "record": "4-1",
+        "rpi": "46"
     }
 }
