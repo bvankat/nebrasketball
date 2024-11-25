@@ -35,14 +35,14 @@
         "overall_record": "17-12",
         "rating": 50,
         "record": "4-1",
-        "sos": 218
+        "sos": 217
     },
     "massey_ratings": {
         "massey_rank": 41
     },
     "polls": {
-        "ap_rank": "NR",
-        "coaches_rank": "NR"
+        "ap_rank": 35,
+        "coaches_rank": 36
     },
     "sports_reference": {
         "SRS_rank": 61
@@ -56,12 +56,12 @@
         "rank": "53"
     },
     "time": {
-        "time": "Nov. 25, 2024 at 9:28 AM"
+        "time": "Nov. 25, 2024 at 1:49 PM"
     },
     "trank": {
         "torvik_NET": "42",
         "trank": 42,
-        "trank_make_tourney": 61.7,
+        "trank_make_tourney": 61.0,
         "trank_proj_record": "17-12 (10-10)",
         "trank_seed": "9",
         "wab_rank": 41,
@@ -76,6 +76,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "4-1",
-        "rpi": "39"
+        "rpi": "40"
     }
 }
