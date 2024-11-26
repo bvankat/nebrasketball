@@ -27,15 +27,15 @@
         "miya_rating": 42
     },
     "haslametrics": {
-        "haslam_rating": 41,
-        "seed": "5"
+        "haslam_rating": 43,
+        "seed": "6"
     },
     "kenpom": {
         "conference_record": "9-11",
-        "overall_record": "17-12",
+        "overall_record": "16-13",
         "rating": 50,
         "record": "4-1",
-        "sos": 217
+        "sos": 209
     },
     "massey_ratings": {
         "massey_rank": 41
@@ -48,34 +48,34 @@
         "SRS_rank": 61
     },
     "teamrankings": {
-        "make_tournament": "46.4%",
+        "make_tournament": "46.9%",
         "most_likely_seed": "11",
-        "proj_conf_record": "8.5-11.5",
+        "proj_conf_record": "8.6-11.4",
         "projected_losses": "13.0",
         "projected_wins": "16.0",
-        "rank": "53"
+        "rank": "52"
     },
     "time": {
-        "time": "Nov. 25, 2024 at 1:49 PM"
+        "time": "Nov. 26, 2024 at 1:57 AM"
     },
     "trank": {
-        "torvik_NET": "42",
-        "trank": 42,
+        "torvik_NET": "46",
+        "trank": 43,
         "trank_make_tourney": 61.0,
         "trank_proj_record": "17-12 (10-10)",
-        "trank_seed": "9",
-        "wab_rank": 41,
-        "wab_score": "+0.42"
+        "trank_seed": "10",
+        "wab_rank": 42,
+        "wab_score": "+0.41"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "60",
+        "elo": "61",
         "nolan_net": "33",
         "quadrant_1": "1-1",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "4-1",
-        "rpi": "40"
+        "rpi": "28"
     }
 }
