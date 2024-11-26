@@ -21,7 +21,10 @@
         "sos": 111.0
     },
     "espn_bracketology": {
-        "seed": "OUT"
+        "seed": "11"
+    },
+    "evanmiya": {
+        "miya_rating": 44
     },
     "haslametrics": {
         "haslam_rating": 43,
@@ -35,7 +38,7 @@
         "sos": 209
     },
     "massey_ratings": {
-        "massey_rank": 41
+        "massey_rank": 42
     },
     "next_game": {
         "away_team": "South Dakota",
@@ -52,20 +55,20 @@
         "SRS_rank": 61
     },
     "teamrankings": {
-        "make_tournament": "46.9%",
+        "make_tournament": "46.2%",
         "most_likely_seed": "11",
-        "proj_conf_record": "8.6-11.4",
-        "projected_losses": "13.0",
-        "projected_wins": "16.0",
+        "proj_conf_record": "8.4-11.6",
+        "projected_losses": "13.1",
+        "projected_wins": "15.9",
         "rank": "52"
     },
     "time": {
-        "time": "Nov. 26, 2024 at 2:40 AM"
+        "time": "Nov. 26, 2024 at 9:51 AM"
     },
     "trank": {
         "torvik_NET": "46",
         "trank": 43,
-        "trank_make_tourney": 61.0,
+        "trank_make_tourney": 59.1,
         "trank_proj_record": "17-12 (10-10)",
         "trank_seed": "10",
         "wab_rank": 42,
