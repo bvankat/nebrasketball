@@ -23,9 +23,6 @@
     "espn_bracketology": {
         "seed": "OUT"
     },
-    "evanmiya": {
-        "miya_rating": 42
-    },
     "haslametrics": {
         "haslam_rating": 43,
         "seed": "6"
@@ -39,6 +36,13 @@
     },
     "massey_ratings": {
         "massey_rank": 41
+    },
+    "next_game": {
+        "away_team": "South Dakota",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png",
+        "date_time": "11/27 - 6:30 PM EST",
+        "home_team": "Nebraska",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
         "ap_rank": 35,
@@ -56,7 +60,7 @@
         "rank": "52"
     },
     "time": {
-        "time": "Nov. 26, 2024 at 1:57 AM"
+        "time": "Nov. 26, 2024 at 2:40 AM"
     },
     "trank": {
         "torvik_NET": "46",
