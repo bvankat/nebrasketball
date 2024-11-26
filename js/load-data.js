@@ -49,7 +49,8 @@
 	}
 	
 	if (data.next_game) {
-		document.getElementById('nextGame-details').innerHTML = "<img src='" + data.next_game.away_team_logo + "' class='team-logo' > <strong>" + data.next_game.away_team + "</strong> at <img src='" + data.next_game.home_team_logo + "' class='team-logo' > <strong>" + data.next_game.home_team + "</strong>, <span class='text-muted'>" + data.next_game.date_time + "</span>";
+		document.getElementById('nextGame-teams').innerHTML = "<img src='" + data.next_game.away_team_logo + "' class='team-logo' > <strong>" + data.next_game.away_team + "</strong> at <img src='" + data.next_game.home_team_logo + "' class='team-logo' > <strong>" + data.next_game.home_team + "</strong>";
+		document.getElementById('nextGame-details').innerHTML = data.next_game.date_time;
 	}
 
 	if ( data.warrennolan ) {
