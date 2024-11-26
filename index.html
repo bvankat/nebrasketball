@@ -47,7 +47,7 @@
 		 h2 { font-size: 1.5rem; }
 		div.jumbotron { color: #fff; background-color: var(--red); background: radial-gradient(circle, rgba(235,19,47,1) 0%, rgba(190,4,29,1) 100%); margin-bottom: 4em; }
 		
-		div#nextGame { border: 1px solid #eee; border-radius: 20px; text-align: center; font-size: 13px; }
+		div#nextGame { display: flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap; border: 1px solid #eee; border-radius: 30px; text-align: center; font-size: 13px; }
 		img.team-logo { width: 18px; }
 		div.jumbotron.footer { background: #f5f5f5; margin-bottom: 0; font-size: 14px; color: #ccc; }
 		
@@ -105,7 +105,7 @@
 	<div class="container">  
 		
 		<div class="row">
-			<div id="nextGame" class="px-2 py-2 mb-5 small text-muted">Next game: <span id="nextGame-details">NA</span></div>
+			<div id="nextGame" class="px-4 py-3 mb-5 small"><strong>NEXT GAME</strong><br/><span id="nextGame-details">NA</span></div>
 		</div>
 	  
 	  <div class="row">
