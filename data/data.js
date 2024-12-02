@@ -8,17 +8,17 @@
         "cbs_rank": "OUT"
     },
     "espn": {
-        "bpi": 41.0,
-        "chance_round_32": "26.6%",
-        "chance_sweet_16": "8.6%",
-        "non_con_sos": 180.0,
+        "bpi": 37.0,
+        "chance_round_32": "33.3%",
+        "chance_sweet_16": "10.9%",
+        "non_con_sos": 213.0,
         "proj_tourney_seed": 10.0,
-        "proj_win_loss_conf": "9.9-10.1",
-        "proj_win_loss_overall": "17.5-11.5",
-        "projected_tournament_order": 40.0,
-        "seven_day_change": "Tied-5th",
-        "sor": 40.0,
-        "sos": 180.0
+        "proj_win_loss_conf": "10.3-9.7",
+        "proj_win_loss_overall": "18.0-11.0",
+        "projected_tournament_order": 39.0,
+        "seven_day_change": "Tied-1st",
+        "sor": 39.0,
+        "sos": 213.0
     },
     "espn_bracketology": {
         "seed": "11"
@@ -63,7 +63,7 @@
         "rank": "47"
     },
     "time": {
-        "time": "Dec. 2, 2024 at 2:46 AM"
+        "time": "Dec. 2, 2024 at 3:55 AM"
     },
     "trank": {
         "torvik_NET": "41",
