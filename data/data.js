@@ -37,8 +37,14 @@
         "record": "6-1",
         "sos": 286
     },
+    "kpi_sports": {
+        "kpi_ranking": 27
+    },
     "massey_ratings": {
         "massey_rank": 41
+    },
+    "ncaa": {
+        "net_rank": "44"
     },
     "next_game": {
         "away_team": "North Florida",
@@ -50,6 +56,11 @@
     "polls": {
         "ap_rank": 35,
         "coaches_rank": 36
+    },
+    "seven_overtimes": {
+        "projected_conf_record": "9-7",
+        "projected_record": "19-10",
+        "ranking": "26"
     },
     "sports_reference": {
         "SRS_rank": 59
@@ -63,7 +74,7 @@
         "rank": "47"
     },
     "time": {
-        "time": "Dec. 2, 2024 at 9:42 AM"
+        "time": "Dec. 2, 2024 at 9:46 AM"
     },
     "trank": {
         "torvik_NET": "41",
