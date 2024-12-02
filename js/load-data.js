@@ -15,7 +15,6 @@
 	} else if (data.trank) {
 		document.getElementById('ncaa-net').innerHTML = data.trank.torvik_NET; 
 		document.getElementById('ncaa-net2').innerHTML = data.trank.torvik_NET; 
-		
 	}
 	
 	if ( data.kenpom ) {
@@ -30,7 +29,7 @@
 			document.getElementById('kpi_ranking').innerHTML = "<span class='small text-muted'>NA</span>";
 		} else {
 		document.getElementById('kpi_ranking').innerHTML = data.kpi_sports.kpi_ranking;
-	}
+		}
 	}
 
 	if ( data.espn ) {
@@ -129,6 +128,12 @@
 	
 	if ( data.massey_ratings ) {
 		document.getElementById('massey-rank').innerHTML = data.massey_ratings.massey_rank;
+	}
+	
+	if ( data.seven_overtimes ) {
+		document.getElementById('7OT-ranking').innerHTML = data.seven_overtimes.ranking;
+		document.getElementById('7OT-record').innerHTML = data.seven_overtimes.projected_record;
+		document.getElementById('7OT-conference-record').innerHTML = data.seven_overtimes.projected_conf_record;
 	}
 	
 	document.getElementById('time').innerHTML = data.time.time;
