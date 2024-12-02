@@ -13,7 +13,7 @@ const height = 40;
 // New data with a dictionary
 const data = {
 	Kenpom: parseInt(ratings_data.kenpom.rating),
-//    KPI: ratings_data.kpi_sports.kpi_ranking,
+    KPI: ratings_data.kpi_sports.kpi_ranking,
     NET: parseInt(ratings_data.trank.torvik_NET), // use trank.torvik_NET or ncaa.net_rank
     SOR: parseInt(ratings_data.espn.sor),
     BPI: parseInt(ratings_data.espn.bpi),
