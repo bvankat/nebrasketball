@@ -24,7 +24,7 @@
         "seed": "11"
     },
     "evanmiya": {
-        "miya_rating": 37
+        "miya_rating": 38
     },
     "haslametrics": {
         "haslam_rating": 46,
@@ -38,7 +38,7 @@
         "sos": 286
     },
     "massey_ratings": {
-        "massey_rank": 44
+        "massey_rank": 41
     },
     "next_game": {
         "away_team": "North Florida",
@@ -55,7 +55,7 @@
         "SRS_rank": 59
     },
     "teamrankings": {
-        "make_tournament": "56.7%",
+        "make_tournament": "57.3%",
         "most_likely_seed": "11",
         "proj_conf_record": "9.1-10.9",
         "projected_losses": "12.3",
@@ -63,12 +63,12 @@
         "rank": "47"
     },
     "time": {
-        "time": "Dec. 2, 2024 at 3:55 AM"
+        "time": "Dec. 2, 2024 at 9:17 AM"
     },
     "trank": {
         "torvik_NET": "41",
         "trank": 41,
-        "trank_make_tourney": 56.3,
+        "trank_make_tourney": 65.6,
         "trank_proj_record": "18-11 (10-10)",
         "trank_seed": "9",
         "wab_rank": 39,
@@ -77,11 +77,11 @@
     "warrennolan": {
         "current_conf_record": "0-0",
         "elo": "56",
-        "nolan_net": "33",
-        "quadrant_1": "1-1",
-        "quadrant_2": "0-0",
-        "quadrant_3": "0-0",
-        "quadrant_4": "5-0",
+        "nolan_net": "44",
+        "quadrant_1": "0-1",
+        "quadrant_2": "1-0",
+        "quadrant_3": "2-0",
+        "quadrant_4": "3-0",
         "record": "6-1",
         "rpi": "41"
     }
