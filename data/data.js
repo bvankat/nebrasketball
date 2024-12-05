@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": 3,
-        "matrix_seed": "OUT",
-        "total_brackets": 47
+        "matrix_count": 21,
+        "matrix_seed": 11,
+        "total_brackets": 31
     },
     "cbs": {
         "cbs_rank": "OUT"
@@ -27,24 +27,24 @@
         "miya_rating": 38
     },
     "haslametrics": {
-        "haslam_rating": 53,
-        "seed": "10"
+        "haslam_rating": 47,
+        "seed": "8"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "17-12",
         "rating": 44,
         "record": "6-1",
-        "sos": 281
+        "sos": 282
     },
     "kpi_sports": {
-        "kpi_ranking": 30
+        "kpi_ranking": 24
     },
     "massey_ratings": {
         "massey_rank": 37
     },
     "ncaa": {
-        "net_rank": "43"
+        "net_rank": "35"
     },
     "next_game": {
         "away_team": "Nebraska",
@@ -60,40 +60,40 @@
     "seven_overtimes": {
         "projected_conf_record": "9-7",
         "projected_record": "19-10",
-        "ranking": "25"
+        "ranking": "20"
     },
     "sports_reference": {
-        "SRS_rank": 46
+        "SRS_rank": 39
     },
     "teamrankings": {
-        "make_tournament": "56.3%",
+        "make_tournament": "58.6%",
         "most_likely_seed": "11",
-        "proj_conf_record": "9.0-11.0",
-        "projected_losses": "12.4",
-        "projected_wins": "16.6",
+        "proj_conf_record": "9.1-10.9",
+        "projected_losses": "12.2",
+        "projected_wins": "16.8",
         "rank": "46"
     },
     "time": {
-        "time": "Dec. 4, 2024 at 10:40 PM"
+        "time": "Dec. 5, 2024 at 12:38 PM"
     },
     "trank": {
-        "torvik_NET": "44",
+        "torvik_NET": "45",
         "trank": 41,
-        "trank_make_tourney": 63.9,
+        "trank_make_tourney": 68.1,
         "trank_proj_record": "18-11 (10-10)",
         "trank_seed": "9",
-        "wab_rank": 39,
+        "wab_rank": 42,
         "wab_score": "+0.6"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
         "elo": "57",
-        "nolan_net": "43",
-        "quadrant_1": "0-1",
-        "quadrant_2": "1-0",
-        "quadrant_3": "2-0",
-        "quadrant_4": "3-0",
+        "nolan_net": "35",
+        "quadrant_1": "1-1",
+        "quadrant_2": "0-0",
+        "quadrant_3": "3-0",
+        "quadrant_4": "2-0",
         "record": "6-1",
-        "rpi": "35"
+        "rpi": "36"
     }
 }
