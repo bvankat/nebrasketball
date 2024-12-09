@@ -38,10 +38,10 @@
         "sos": 217
     },
     "kpi_sports": {
-        "kpi_ranking": 48
+        "kpi_ranking": 46
     },
     "massey_ratings": {
-        "massey_rank": 37
+        "massey_rank": 48
     },
     "ncaa": {
         "net_rank": "71"
@@ -63,26 +63,26 @@
         "ranking": "50"
     },
     "shot_quality": {
-        "sq_ranking": 40
+        "sq_ranking": 43
     },
     "sports_reference": {
         "SRS_rank": 69
     },
     "teamrankings": {
-        "make_tournament": "31.9%",
+        "make_tournament": "32.2%",
         "most_likely_seed": "11",
         "proj_conf_record": "7.5-12.5",
-        "projected_losses": "13.9",
-        "projected_wins": "15.1",
+        "projected_losses": "14.0",
+        "projected_wins": "15.0",
         "rank": "60"
     },
     "time": {
-        "time": "Dec. 9, 2024 at 2:12 AM"
+        "time": "Dec. 9, 2024 at 9:30 AM"
     },
     "trank": {
         "torvik_NET": "67",
         "trank": 51,
-        "trank_make_tourney": 31.3,
+        "trank_make_tourney": 30.1,
         "trank_proj_record": "16-13 (9-11)",
         "trank_seed": "OUT",
         "wab_rank": 52,
@@ -91,7 +91,7 @@
     "warrennolan": {
         "current_conf_record": "0-1",
         "elo": "65",
-        "nolan_net": "69",
+        "nolan_net": "71",
         "quadrant_1": "1-2",
         "quadrant_2": "0-0",
         "quadrant_3": "1-0",
