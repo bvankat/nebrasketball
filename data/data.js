@@ -8,92 +8,92 @@
         "cbs_rank": "OUT"
     },
     "espn": {
-        "bpi": 40.0,
-        "chance_round_32": "31.9%",
-        "chance_sweet_16": "10.4%",
-        "non_con_sos": 213.0,
-        "proj_tourney_seed": 11.0,
-        "proj_win_loss_conf": "10.2-9.8",
-        "proj_win_loss_overall": "18.0-11.0",
-        "projected_tournament_order": 41.0,
-        "seven_day_change": "Tied-3rd",
-        "sor": 41.0,
-        "sos": 213.0
+        "bpi": 49.0,
+        "chance_round_32": "16.4%",
+        "chance_sweet_16": "4.2%",
+        "non_con_sos": 233.0,
+        "proj_tourney_seed": 12.0,
+        "proj_win_loss_conf": "8.8-11.2",
+        "proj_win_loss_overall": "16.4-12.6",
+        "projected_tournament_order": 72.0,
+        "seven_day_change": "Tied-8th",
+        "sor": 48.0,
+        "sos": 128.0
     },
     "espn_bracketology": {
         "seed": "First Four Out"
     },
     "evanmiya": {
-        "miya_rating": 38
+        "miya_rating": 59
     },
     "haslametrics": {
-        "haslam_rating": 47,
-        "seed": "8"
+        "haslam_rating": 76,
+        "seed": "PI12"
     },
     "kenpom": {
-        "conference_record": "9-11",
-        "overall_record": "17-12",
-        "rating": 44,
-        "record": "6-1",
-        "sos": 282
+        "conference_record": "8-12",
+        "overall_record": "15-14",
+        "rating": 61,
+        "record": "6-2",
+        "sos": 217
     },
     "kpi_sports": {
-        "kpi_ranking": 24
+        "kpi_ranking": 48
     },
     "massey_ratings": {
         "massey_rank": 37
     },
     "ncaa": {
-        "net_rank": "35"
+        "net_rank": "71"
     },
     "next_game": {
-        "away_team": "Nebraska",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "12/7 - 12:00 PM EST",
-        "home_team": "Michigan St",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png"
+        "away_team": "Indiana",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+        "date_time": "12/13 - 8:00 PM EST",
+        "home_team": "Nebraska",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
         "ap_rank": 41,
         "coaches_rank": 42
     },
     "seven_overtimes": {
-        "projected_conf_record": "9-7",
-        "projected_record": "19-10",
-        "ranking": "20"
+        "projected_conf_record": "8-8",
+        "projected_record": "18-11",
+        "ranking": "50"
     },
     "sports_reference": {
-        "SRS_rank": 39
+        "SRS_rank": 69
     },
     "teamrankings": {
-        "make_tournament": "58.6%",
+        "make_tournament": "32.5%",
         "most_likely_seed": "11",
-        "proj_conf_record": "9.1-10.9",
-        "projected_losses": "12.2",
-        "projected_wins": "16.8",
-        "rank": "46"
+        "proj_conf_record": "7.5-12.5",
+        "projected_losses": "13.9",
+        "projected_wins": "15.1",
+        "rank": "60"
     },
     "time": {
-        "time": "Dec. 5, 2024 at 12:38 PM"
+        "time": "Dec. 8, 2024 at 11:08 PM"
     },
     "trank": {
-        "torvik_NET": "45",
-        "trank": 41,
-        "trank_make_tourney": 68.1,
-        "trank_proj_record": "18-11 (10-10)",
-        "trank_seed": "9",
-        "wab_rank": 42,
-        "wab_score": "+0.6"
+        "torvik_NET": "67",
+        "trank": 51,
+        "trank_make_tourney": 31.3,
+        "trank_proj_record": "16-13 (9-11)",
+        "trank_seed": "OUT",
+        "wab_rank": 52,
+        "wab_score": "+0.31"
     },
     "warrennolan": {
-        "current_conf_record": "0-0",
-        "elo": "57",
-        "nolan_net": "35",
-        "quadrant_1": "1-1",
+        "current_conf_record": "0-1",
+        "elo": "65",
+        "nolan_net": "69",
+        "quadrant_1": "1-2",
         "quadrant_2": "0-0",
-        "quadrant_3": "3-0",
-        "quadrant_4": "2-0",
-        "record": "6-1",
-        "rpi": "36"
+        "quadrant_3": "1-0",
+        "quadrant_4": "4-0",
+        "record": "6-2",
+        "rpi": "45"
     }
 }
