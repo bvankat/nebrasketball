@@ -54,8 +54,8 @@
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
-        "ap_rank": 41,
-        "coaches_rank": 42
+        "ap_rank": "NR",
+        "coaches_rank": "NR"
     },
     "seven_overtimes": {
         "projected_conf_record": "8-8",
@@ -77,12 +77,12 @@
         "rank": "60"
     },
     "time": {
-        "time": "Dec. 9, 2024 at 9:30 AM"
+        "time": "Dec. 9, 2024 at 1:15 PM"
     },
     "trank": {
         "torvik_NET": "67",
         "trank": 51,
-        "trank_make_tourney": 30.1,
+        "trank_make_tourney": 29.5,
         "trank_proj_record": "16-13 (9-11)",
         "trank_seed": "OUT",
         "wab_rank": 52,
