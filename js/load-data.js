@@ -209,7 +209,7 @@
 		// MANUAL TOTAL - Uncomment to override formulas below  
 			// total_score = 100;
 
-		// PURE AVERAGE FORMULA - Debut 2024-24 season
+		// PURE AVERAGE FORMULA - Debut 2024-25 season
 		// To make life easy early in the season: Just average the available metrics. This is less precise than the WEIGHTED AVERAGE formula below. Comment out one or the other. 
 		
 		// Initialize an object to hold only defined variables
