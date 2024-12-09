@@ -62,11 +62,14 @@
         "projected_record": "18-11",
         "ranking": "50"
     },
+    "shot_quality": {
+        "sq_ranking": 40
+    },
     "sports_reference": {
         "SRS_rank": 69
     },
     "teamrankings": {
-        "make_tournament": "32.5%",
+        "make_tournament": "31.9%",
         "most_likely_seed": "11",
         "proj_conf_record": "7.5-12.5",
         "projected_losses": "13.9",
@@ -74,7 +77,7 @@
         "rank": "60"
     },
     "time": {
-        "time": "Dec. 8, 2024 at 11:08 PM"
+        "time": "Dec. 9, 2024 at 2:12 AM"
     },
     "trank": {
         "torvik_NET": "67",
