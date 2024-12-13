@@ -5757,6 +5757,108 @@
             "time": {
                 "time": "Dec. 10, 2024 at 12:26 PM"
             }
+        },
+        {
+            "kenpom": {
+                "rating": 62,
+                "record": "6-2",
+                "sos": 222,
+                "overall_record": "15-14",
+                "conference_record": "8-12"
+            },
+            "evanmiya": {
+                "miya_rating": 60
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "espn": {
+                "bpi": 49.0,
+                "seven_day_change": "Tied-9th",
+                "proj_tourney_seed": 12.0,
+                "proj_win_loss_overall": "16.4-12.6",
+                "proj_win_loss_conf": "8.8-11.2",
+                "sor": 50.0,
+                "sos": 124.0,
+                "non_con_sos": 235.0,
+                "chance_sweet_16": "4.1%",
+                "chance_round_32": "16.3%",
+                "projected_tournament_order": 73.0
+            },
+            "next_game": {
+                "home_team": "Nebraska",
+                "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+                "away_team": "Indiana",
+                "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+                "date_time": "12/13 - 8:00 PM EST"
+            },
+            "espn_bracketology": {
+                "seed": "First Four Out"
+            },
+            "ncaa": {
+                "net_rank": "67"
+            },
+            "teamrankings": {
+                "make_tournament": "31.7%",
+                "most_likely_seed": "11",
+                "rank": "59",
+                "projected_wins": "15.1",
+                "projected_losses": "13.9",
+                "proj_conf_record": "7.5-12.5"
+            },
+            "warrennolan": {
+                "record": "6-2",
+                "current_conf_record": "0-1",
+                "rpi": "43",
+                "elo": "65",
+                "quadrant_1": "1-2",
+                "quadrant_2": "0-0",
+                "quadrant_3": "1-0",
+                "quadrant_4": "4-0",
+                "nolan_net": "67"
+            },
+            "trank": {
+                "trank": 49,
+                "trank_proj_record": "16-13 (9-11)",
+                "trank_seed": "OUT",
+                "trank_make_tourney": 28.8,
+                "wab_score": "+0.31",
+                "wab_rank": 51,
+                "torvik_NET": "65"
+            },
+            "cbs": {
+                "cbs_rank": "OUT"
+            },
+            "haslametrics": {
+                "haslam_rating": 77,
+                "seed": "PI12"
+            },
+            "kpi_sports": {
+                "kpi_ranking": 46
+            },
+            "shot_quality": {
+                "sq_ranking": 47
+            },
+            "bracketproject": {
+                "matrix_count": 21,
+                "total_brackets": 31,
+                "matrix_seed": 11
+            },
+            "massey_ratings": {
+                "massey_rank": 55
+            },
+            "seven_overtimes": {
+                "ranking": "50",
+                "projected_record": "18-11",
+                "projected_conf_record": "8-8"
+            },
+            "sports_reference": {
+                "SRS_rank": 67
+            },
+            "time": {
+                "time": "Dec. 13, 2024 at 1:01 PM"
+            }
         }
     ]
 }
