@@ -1,50 +1,50 @@
 {
     "bracketproject": {
-        "matrix_count": 21,
-        "matrix_seed": 11,
-        "total_brackets": 31
+        "matrix_count": 9,
+        "matrix_seed": "OUT",
+        "total_brackets": 29
     },
     "cbs": {
         "cbs_rank": "OUT"
     },
     "espn": {
         "bpi": 45.0,
-        "chance_round_32": "21.2%",
-        "chance_sweet_16": "5.9%",
-        "non_con_sos": 234.0,
-        "proj_tourney_seed": 11.0,
-        "proj_win_loss_conf": "9.6-10.4",
-        "proj_win_loss_overall": "17.3-11.7",
-        "projected_tournament_order": 41.0,
-        "seven_day_change": "Tied-5th",
-        "sor": 41.0,
+        "chance_round_32": "21.6%",
+        "chance_sweet_16": "6.2%",
+        "non_con_sos": 229.0,
+        "proj_tourney_seed": 10.0,
+        "proj_win_loss_conf": "9.8-10.2",
+        "proj_win_loss_overall": "17.4-11.6",
+        "projected_tournament_order": 39.0,
+        "seven_day_change": "4th",
+        "sor": 39.0,
         "sos": 90.0
     },
     "espn_bracketology": {
         "seed": "First Four Out"
     },
     "evanmiya": {
-        "miya_rating": 52
+        "miya_rating": 55
     },
     "haslametrics": {
-        "haslam_rating": 66,
+        "haslam_rating": 62,
         "seed": "10"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "17-12",
-        "rating": 55,
+        "rating": 53,
         "record": "7-2",
-        "sos": 143
+        "sos": 139
     },
     "kpi_sports": {
-        "kpi_ranking": 27
+        "kpi_ranking": 25
     },
     "massey_ratings": {
         "massey_rank": 55
     },
     "ncaa": {
-        "net_rank": "60"
+        "net_rank": "56"
     },
     "next_game": {
         "away_team": "Nebraska",
@@ -60,43 +60,43 @@
     "seven_overtimes": {
         "projected_conf_record": "9-7",
         "projected_record": "19-10",
-        "ranking": "46"
+        "ranking": "43"
     },
     "shot_quality": {
-        "sq_ranking": 47
+        "sq_ranking": 43
     },
     "sports_reference": {
         "SRS_rank": 56
     },
     "teamrankings": {
-        "make_tournament": "52.1%",
+        "make_tournament": "51.1%",
         "most_likely_seed": "11",
-        "proj_conf_record": "8.8-11.2",
-        "projected_losses": "12.6",
-        "projected_wins": "16.4",
-        "rank": "54"
+        "proj_conf_record": "8.9-11.1",
+        "projected_losses": "12.5",
+        "projected_wins": "16.5",
+        "rank": "53"
     },
     "time": {
-        "time": "Dec. 14, 2024 at 10:25 AM"
+        "time": "Dec. 15, 2024 at 12:19 PM"
     },
     "trank": {
-        "torvik_NET": "59",
+        "torvik_NET": "53",
         "trank": 46,
-        "trank_make_tourney": 43.1,
-        "trank_proj_record": "17-12 (9-11)",
-        "trank_seed": "OUT",
-        "wab_rank": 38,
-        "wab_score": "+0.7"
+        "trank_make_tourney": 48.2,
+        "trank_proj_record": "17-12 (10-10)",
+        "trank_seed": "11",
+        "wab_rank": 40,
+        "wab_score": "+0.6"
     },
     "warrennolan": {
         "current_conf_record": "1-1",
-        "elo": "49",
-        "nolan_net": "60",
+        "elo": "52",
+        "nolan_net": "56",
         "quadrant_1": "1-2",
         "quadrant_2": "1-0",
         "quadrant_3": "1-0",
         "quadrant_4": "4-0",
         "record": "7-2",
-        "rpi": "28"
+        "rpi": "30"
     }
 }
