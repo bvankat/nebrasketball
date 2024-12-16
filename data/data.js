@@ -63,7 +63,7 @@
         "ranking": "43"
     },
     "shot_quality": {
-        "sq_ranking": 42
+        "sq_ranking": 40
     },
     "sports_reference": {
         "SRS_rank": 56
@@ -77,12 +77,12 @@
         "rank": "54"
     },
     "time": {
-        "time": "Dec. 16, 2024 at 10:09 AM"
+        "time": "Dec. 16, 2024 at 2:25 PM"
     },
     "trank": {
         "torvik_NET": "56",
         "trank": 46,
-        "trank_make_tourney": 45.8,
+        "trank_make_tourney": 47.0,
         "trank_proj_record": "17-12 (10-10)",
         "trank_seed": "11",
         "wab_rank": 40,
