@@ -28,20 +28,20 @@
     },
     "haslametrics": {
         "haslam_rating": 63,
-        "seed": "11"
+        "seed": "10"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "17-12",
         "rating": 54,
         "record": "7-2",
-        "sos": 139
+        "sos": 136
     },
     "kpi_sports": {
         "kpi_ranking": 25
     },
     "massey_ratings": {
-        "massey_rank": 39
+        "massey_rank": 45
     },
     "ncaa": {
         "net_rank": "57"
@@ -69,7 +69,7 @@
         "SRS_rank": 56
     },
     "teamrankings": {
-        "make_tournament": "50.2%",
+        "make_tournament": "50.4%",
         "most_likely_seed": "11",
         "proj_conf_record": "8.8-11.2",
         "projected_losses": "12.6",
@@ -77,12 +77,12 @@
         "rank": "54"
     },
     "time": {
-        "time": "Dec. 16, 2024 at 2:25 PM"
+        "time": "Dec. 17, 2024 at 9:46 AM"
     },
     "trank": {
-        "torvik_NET": "56",
+        "torvik_NET": "57",
         "trank": 46,
-        "trank_make_tourney": 47.0,
+        "trank_make_tourney": 45.6,
         "trank_proj_record": "17-12 (10-10)",
         "trank_seed": "11",
         "wab_rank": 40,
@@ -97,6 +97,6 @@
         "quadrant_3": "1-0",
         "quadrant_4": "4-0",
         "record": "7-2",
-        "rpi": "29"
+        "rpi": "28"
     }
 }
