@@ -41,10 +41,10 @@
         "kpi_ranking": 25
     },
     "massey_ratings": {
-        "massey_rank": 45
+        "massey_rank": 44
     },
     "ncaa": {
-        "net_rank": "57"
+        "net_rank": "60"
     },
     "next_game": {
         "away_team": "Nebraska",
@@ -60,29 +60,29 @@
     "seven_overtimes": {
         "projected_conf_record": "9-7",
         "projected_record": "19-10",
-        "ranking": "43"
+        "ranking": "45"
     },
     "shot_quality": {
-        "sq_ranking": 41
+        "sq_ranking": 44
     },
     "sports_reference": {
-        "SRS_rank": 56
+        "SRS_rank": 58
     },
     "teamrankings": {
-        "make_tournament": "50.4%",
+        "make_tournament": "49.0%",
         "most_likely_seed": "11",
-        "proj_conf_record": "8.8-11.2",
-        "projected_losses": "12.6",
-        "projected_wins": "16.4",
-        "rank": "54"
+        "proj_conf_record": "8.7-11.3",
+        "projected_losses": "12.7",
+        "projected_wins": "16.3",
+        "rank": "56"
     },
     "time": {
-        "time": "Dec. 17, 2024 at 11:45 PM"
+        "time": "Dec. 18, 2024 at 10:23 AM"
     },
     "trank": {
-        "torvik_NET": "57",
+        "torvik_NET": "60",
         "trank": 46,
-        "trank_make_tourney": 46.1,
+        "trank_make_tourney": 46.3,
         "trank_proj_record": "17-12 (10-10)",
         "trank_seed": "11",
         "wab_rank": 42,
@@ -91,7 +91,7 @@
     "warrennolan": {
         "current_conf_record": "1-1",
         "elo": "53",
-        "nolan_net": "57",
+        "nolan_net": "60",
         "quadrant_1": "1-2",
         "quadrant_2": "1-0",
         "quadrant_3": "1-0",
