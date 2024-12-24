@@ -1,30 +1,30 @@
 {
     "bracketproject": {
-        "matrix_count": 9,
-        "matrix_seed": "OUT",
-        "total_brackets": 29
+        "matrix_count": 24,
+        "matrix_seed": 12,
+        "total_brackets": 33
     },
     "cbs": {
-        "cbs_rank": "OUT"
+        "cbs_rank": "10"
     },
     "espn": {
-        "bpi": 46.0,
-        "chance_round_32": "21.8%",
+        "bpi": 41.0,
+        "chance_round_32": "22.5%",
         "chance_sweet_16": "6.6%",
-        "non_con_sos": 229.0,
+        "non_con_sos": 184.0,
         "proj_tourney_seed": 10.0,
         "proj_win_loss_conf": "9.6-10.4",
-        "proj_win_loss_overall": "17.3-11.7",
-        "projected_tournament_order": 38.0,
-        "seven_day_change": "3rd",
-        "sor": 38.0,
-        "sos": 82.0
+        "proj_win_loss_overall": "18.5-11.5",
+        "projected_tournament_order": 39.0,
+        "seven_day_change": "4th",
+        "sor": 39.0,
+        "sos": 77.0
     },
     "espn_bracketology": {
         "seed": "First Four Out"
     },
     "evanmiya": {
-        "miya_rating": 56
+        "miya_rating": 50
     },
     "haslametrics": {
         "haslam_rating": 72,
@@ -32,26 +32,26 @@
     },
     "kenpom": {
         "conference_record": "9-11",
-        "overall_record": "17-12",
-        "rating": 52,
-        "record": "7-2",
-        "sos": 130
+        "overall_record": "19-12",
+        "rating": 45,
+        "record": "9-2",
+        "sos": 117
     },
     "kpi_sports": {
-        "kpi_ranking": 23
+        "kpi_ranking": 24
     },
     "massey_ratings": {
-        "massey_rank": 44
+        "massey_rank": 46
     },
     "ncaa": {
-        "net_rank": "60"
+        "net_rank": "57"
     },
     "next_game": {
         "away_team": "Nebraska",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "12/22 - 9:00 PM EST",
-        "home_team": "Murray St",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/93.png"
+        "date_time": "Final",
+        "home_team": "Hawai'i",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png"
     },
     "polls": {
         "ap_rank": "NR",
@@ -59,44 +59,44 @@
     },
     "seven_overtimes": {
         "projected_conf_record": "9-7",
-        "projected_record": "19-10",
-        "ranking": "45"
+        "projected_record": "20-10",
+        "ranking": "34"
     },
     "shot_quality": {
-        "sq_ranking": 47
+        "sq_ranking": 56
     },
     "sports_reference": {
-        "SRS_rank": 58
+        "SRS_rank": 54
     },
     "teamrankings": {
-        "make_tournament": "48.3%",
+        "make_tournament": "52.5%",
         "most_likely_seed": "11",
         "proj_conf_record": "8.6-11.4",
-        "projected_losses": "12.7",
-        "projected_wins": "16.3",
-        "rank": "55"
+        "projected_losses": "12.6",
+        "projected_wins": "17.4",
+        "rank": "49"
     },
     "time": {
-        "time": "Dec. 19, 2024 at 10:21 AM"
+        "time": "Dec. 24, 2024 at 12:44 AM"
     },
     "trank": {
-        "torvik_NET": "59",
-        "trank": 44,
-        "trank_make_tourney": 47.3,
-        "trank_proj_record": "17-12 (10-10)",
-        "trank_seed": "11",
-        "wab_rank": 42,
-        "wab_score": "+0.6"
+        "torvik_NET": "49",
+        "trank": 39,
+        "trank_make_tourney": 52.9,
+        "trank_proj_record": "19-12 (10-10)",
+        "trank_seed": "10",
+        "wab_rank": 34,
+        "wab_score": "+0.9"
     },
     "warrennolan": {
         "current_conf_record": "1-1",
-        "elo": "51",
-        "nolan_net": "60",
-        "quadrant_1": "0-2",
-        "quadrant_2": "2-0",
-        "quadrant_3": "1-0",
-        "quadrant_4": "4-0",
-        "record": "7-2",
-        "rpi": "27"
+        "elo": "43",
+        "nolan_net": "57",
+        "quadrant_1": "1-1",
+        "quadrant_2": "1-1",
+        "quadrant_3": "2-0",
+        "quadrant_4": "5-0",
+        "record": "9-2",
+        "rpi": "24"
     }
 }
