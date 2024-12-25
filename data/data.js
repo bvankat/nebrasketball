@@ -8,17 +8,17 @@
         "cbs_rank": "10"
     },
     "espn": {
-        "bpi": 39.0,
-        "chance_round_32": "24.6%",
-        "chance_sweet_16": "7.5%",
-        "non_con_sos": 203.0,
+        "bpi": 40.0,
+        "chance_round_32": "24.5%",
+        "chance_sweet_16": "7.1%",
+        "non_con_sos": 204.0,
         "proj_tourney_seed": 10.0,
         "proj_win_loss_conf": "9.8-10.2",
         "proj_win_loss_overall": "19.4-11.6",
         "projected_tournament_order": 38.0,
-        "seven_day_change": "6th",
+        "seven_day_change": "5th",
         "sor": 38.0,
-        "sos": 91.0
+        "sos": 92.0
     },
     "espn_bracketology": {
         "seed": "First Four Out"
@@ -35,7 +35,7 @@
         "overall_record": "19-12",
         "rating": 45,
         "record": "9-2",
-        "sos": 121
+        "sos": 120
     },
     "kpi_sports": {
         "kpi_ranking": 20
@@ -77,12 +77,12 @@
         "rank": "49"
     },
     "time": {
-        "time": "Dec. 25, 2024 at 9:19 AM"
+        "time": "Dec. 25, 2024 at 4:00 PM"
     },
     "trank": {
         "torvik_NET": "48",
         "trank": 39,
-        "trank_make_tourney": 60.4,
+        "trank_make_tourney": 60.2,
         "trank_proj_record": "19-12 (10-10)",
         "trank_seed": "11",
         "wab_rank": 34,
@@ -97,6 +97,6 @@
         "quadrant_3": "2-0",
         "quadrant_4": "5-0",
         "record": "9-2",
-        "rpi": "25"
+        "rpi": "24"
     }
 }
