@@ -38,7 +38,7 @@
         "sos": 86
     },
     "kpi_sports": {
-        "kpi_ranking": 20
+        "kpi_ranking": 14
     },
     "massey_ratings": {
         "massey_rank": 47
@@ -47,9 +47,9 @@
         "net_rank": "44"
     },
     "next_game": {
-        "away_team": "Oregon St",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
-        "date_time": "Final",
+        "away_team": "Southern",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png",
+        "date_time": "12/30 - 9:00 PM EST",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -60,40 +60,40 @@
     "seven_overtimes": {
         "projected_conf_record": "9-7",
         "projected_record": "21-10",
-        "ranking": "34"
+        "ranking": "24"
     },
     "shot_quality": {
-        "sq_ranking": 54
+        "sq_ranking": 48
     },
     "sports_reference": {
-        "SRS_rank": 54
+        "SRS_rank": 50
     },
     "teamrankings": {
-        "make_tournament": "58.4%",
+        "make_tournament": "67.2%",
         "most_likely_seed": "11",
-        "proj_conf_record": "8.8-11.2",
-        "projected_losses": "12.6",
-        "projected_wins": "18.4",
+        "proj_conf_record": "9.1-10.9",
+        "projected_losses": "11.9",
+        "projected_wins": "19.1",
         "rank": "42"
     },
     "time": {
-        "time": "Dec. 26, 2024 at 12:40 AM"
+        "time": "Dec. 26, 2024 at 3:32 PM"
     },
     "trank": {
         "torvik_NET": "43",
         "trank": 34,
-        "trank_make_tourney": 60.2,
+        "trank_make_tourney": 72.3,
         "trank_proj_record": "20-11 (10-10)",
-        "trank_seed": "9",
+        "trank_seed": "10",
         "wab_rank": 22,
         "wab_score": "+1.4"
     },
     "warrennolan": {
         "current_conf_record": "1-1",
         "elo": "33",
-        "nolan_net": "52",
-        "quadrant_1": "2-1",
-        "quadrant_2": "1-1",
+        "nolan_net": "44",
+        "quadrant_1": "1-1",
+        "quadrant_2": "2-1",
         "quadrant_3": "2-0",
         "quadrant_4": "5-0",
         "record": "10-2",
