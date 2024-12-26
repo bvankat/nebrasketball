@@ -27,15 +27,15 @@
         "miya_rating": 48
     },
     "haslametrics": {
-        "haslam_rating": 65,
-        "seed": "OUT"
+        "haslam_rating": 54,
+        "seed": "PI12"
     },
     "kenpom": {
-        "conference_record": "9-11",
-        "overall_record": "19-12",
-        "rating": 45,
-        "record": "9-2",
-        "sos": 120
+        "conference_record": "10-10",
+        "overall_record": "20-11",
+        "rating": 39,
+        "record": "10-2",
+        "sos": 86
     },
     "kpi_sports": {
         "kpi_ranking": 20
@@ -44,12 +44,12 @@
         "massey_rank": 47
     },
     "ncaa": {
-        "net_rank": "52"
+        "net_rank": "44"
     },
     "next_game": {
         "away_team": "Oregon St",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
-        "date_time": "12/25 - 9:00 PM EST",
+        "date_time": "Final",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -74,29 +74,29 @@
         "proj_conf_record": "8.8-11.2",
         "projected_losses": "12.6",
         "projected_wins": "18.4",
-        "rank": "49"
+        "rank": "42"
     },
     "time": {
-        "time": "Dec. 25, 2024 at 4:00 PM"
+        "time": "Dec. 26, 2024 at 12:40 AM"
     },
     "trank": {
-        "torvik_NET": "48",
-        "trank": 39,
+        "torvik_NET": "43",
+        "trank": 34,
         "trank_make_tourney": 60.2,
-        "trank_proj_record": "19-12 (10-10)",
-        "trank_seed": "11",
-        "wab_rank": 34,
-        "wab_score": "+0.9"
+        "trank_proj_record": "20-11 (10-10)",
+        "trank_seed": "9",
+        "wab_rank": 22,
+        "wab_score": "+1.4"
     },
     "warrennolan": {
         "current_conf_record": "1-1",
-        "elo": "43",
+        "elo": "33",
         "nolan_net": "52",
-        "quadrant_1": "1-1",
+        "quadrant_1": "2-1",
         "quadrant_2": "1-1",
         "quadrant_3": "2-0",
         "quadrant_4": "5-0",
-        "record": "9-2",
-        "rpi": "24"
+        "record": "10-2",
+        "rpi": "16"
     }
 }
