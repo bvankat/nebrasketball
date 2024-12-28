@@ -1,30 +1,30 @@
 {
     "bracketproject": {
-        "matrix_count": 24,
-        "matrix_seed": 12,
-        "total_brackets": 33
+        "matrix_count": 25,
+        "matrix_seed": 11,
+        "total_brackets": 32
     },
     "cbs": {
         "cbs_rank": "10"
     },
     "espn": {
-        "bpi": 40.0,
-        "chance_round_32": "24.5%",
-        "chance_sweet_16": "7.1%",
-        "non_con_sos": 204.0,
-        "proj_tourney_seed": 10.0,
-        "proj_win_loss_conf": "9.8-10.2",
-        "proj_win_loss_overall": "19.4-11.6",
-        "projected_tournament_order": 38.0,
-        "seven_day_change": "5th",
-        "sor": 38.0,
-        "sos": 92.0
+        "bpi": 38.0,
+        "chance_round_32": "26.9%",
+        "chance_sweet_16": "8.2%",
+        "non_con_sos": 135.0,
+        "proj_tourney_seed": 8.0,
+        "proj_win_loss_conf": "9.9-10.1",
+        "proj_win_loss_overall": "19.9-11.1",
+        "projected_tournament_order": 32.0,
+        "seven_day_change": "8th",
+        "sor": 32.0,
+        "sos": 68.0
     },
     "espn_bracketology": {
         "seed": "First Four Out"
     },
     "evanmiya": {
-        "miya_rating": 48
+        "miya_rating": 49
     },
     "haslametrics": {
         "haslam_rating": 54,
@@ -72,17 +72,17 @@
         "make_tournament": "67.2%",
         "most_likely_seed": "11",
         "proj_conf_record": "9.1-10.9",
-        "projected_losses": "11.9",
-        "projected_wins": "19.1",
+        "projected_losses": "12.0",
+        "projected_wins": "19.0",
         "rank": "42"
     },
     "time": {
-        "time": "Dec. 26, 2024 at 3:32 PM"
+        "time": "Dec. 28, 2024 at 1:02 AM"
     },
     "trank": {
         "torvik_NET": "43",
         "trank": 34,
-        "trank_make_tourney": 72.3,
+        "trank_make_tourney": 71.6,
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "10",
         "wab_rank": 22,
