@@ -27,21 +27,21 @@
         "miya_rating": 50
     },
     "haslametrics": {
-        "haslam_rating": 53,
-        "seed": "PI12"
+        "haslam_rating": 51,
+        "seed": "OUT"
     },
     "kenpom": {
         "conference_record": "10-10",
         "overall_record": "20-11",
-        "rating": 38,
-        "record": "10-2",
-        "sos": 87
+        "rating": 37,
+        "record": "11-2",
+        "sos": 124
     },
     "kpi_sports": {
         "kpi_ranking": 15
     },
     "massey_ratings": {
-        "massey_rank": 33
+        "massey_rank": 34
     },
     "ncaa": {
         "net_rank": "46"
@@ -49,12 +49,12 @@
     "next_game": {
         "away_team": "Southern",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png",
-        "date_time": "12/30 - 9:00 PM EST",
+        "date_time": "Final",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
-        "ap_rank": "NR",
+        "ap_rank": 46,
         "coaches_rank": "NR"
     },
     "seven_overtimes": {
@@ -69,23 +69,23 @@
         "SRS_rank": 49
     },
     "teamrankings": {
-        "make_tournament": "66.4%",
+        "make_tournament": "66.0%",
         "most_likely_seed": "11",
-        "proj_conf_record": "9.0-11.0",
+        "proj_conf_record": "8.9-11.1",
         "projected_losses": "12.1",
         "projected_wins": "18.9",
-        "rank": "44"
+        "rank": "40"
     },
     "time": {
-        "time": "Dec. 30, 2024 at 11:36 AM"
+        "time": "Dec. 31, 2024 at 1:03 AM"
     },
     "trank": {
-        "torvik_NET": "44",
-        "trank": 34,
+        "torvik_NET": "38",
+        "trank": 28,
         "trank_make_tourney": 73.4,
         "trank_proj_record": "20-11 (10-10)",
-        "trank_seed": "10",
-        "wab_rank": 23,
+        "trank_seed": "9",
+        "wab_rank": 24,
         "wab_score": "+1.3"
     },
     "warrennolan": {
@@ -95,8 +95,8 @@
         "quadrant_1": "1-1",
         "quadrant_2": "2-1",
         "quadrant_3": "2-0",
-        "quadrant_4": "5-0",
-        "record": "10-2",
-        "rpi": "17"
+        "quadrant_4": "6-0",
+        "record": "11-2",
+        "rpi": "20"
     }
 }
