@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": 25,
-        "matrix_seed": 11,
-        "total_brackets": 32
+        "matrix_count": 28,
+        "matrix_seed": 10,
+        "total_brackets": 31
     },
     "cbs": {
         "cbs_rank": "10"
@@ -24,10 +24,10 @@
         "seed": "11"
     },
     "evanmiya": {
-        "miya_rating": 44
+        "miya_rating": 46
     },
     "haslametrics": {
-        "haslam_rating": 51,
+        "haslam_rating": 50,
         "seed": "OUT"
     },
     "kenpom": {
@@ -35,16 +35,16 @@
         "overall_record": "20-11",
         "rating": 37,
         "record": "11-2",
-        "sos": 124
+        "sos": 129
     },
     "kpi_sports": {
         "kpi_ranking": 16
     },
     "massey_ratings": {
-        "massey_rank": 34
+        "massey_rank": 31
     },
     "ncaa": {
-        "net_rank": "38"
+        "net_rank": "40"
     },
     "next_game": {
         "away_team": "UCLA",
@@ -63,13 +63,13 @@
         "ranking": "28"
     },
     "shot_quality": {
-        "sq_ranking": 56
+        "sq_ranking": 54
     },
     "sports_reference": {
         "SRS_rank": 47
     },
     "teamrankings": {
-        "make_tournament": "72.6%",
+        "make_tournament": "71.8%",
         "most_likely_seed": "11",
         "proj_conf_record": "9.4-10.6",
         "projected_losses": "11.6",
@@ -77,26 +77,26 @@
         "rank": "40"
     },
     "time": {
-        "time": "Dec. 31, 2024 at 11:52 AM"
+        "time": "Jan. 2, 2025 at 1:43 AM"
     },
     "trank": {
-        "torvik_NET": "34",
-        "trank": 28,
-        "trank_make_tourney": 84.7,
+        "torvik_NET": "39",
+        "trank": 31,
+        "trank_make_tourney": 82.5,
         "trank_proj_record": "20-11 (10-10)",
-        "trank_seed": "8",
+        "trank_seed": "9",
         "wab_rank": 24,
         "wab_score": "+1.3"
     },
     "warrennolan": {
         "current_conf_record": "1-1",
-        "elo": "35",
-        "nolan_net": "38",
+        "elo": "34",
+        "nolan_net": "41",
         "quadrant_1": "1-1",
         "quadrant_2": "2-1",
         "quadrant_3": "2-0",
         "quadrant_4": "6-0",
         "record": "11-2",
-        "rpi": "20"
+        "rpi": "18"
     }
 }
