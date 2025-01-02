@@ -8,17 +8,17 @@
         "cbs_rank": "10"
     },
     "espn": {
-        "bpi": 36.0,
-        "chance_round_32": "32.6%",
-        "chance_sweet_16": "11.7%",
-        "non_con_sos": 165.0,
+        "bpi": 37.0,
+        "chance_round_32": "32.1%",
+        "chance_sweet_16": "10.7%",
+        "non_con_sos": 168.0,
         "proj_tourney_seed": 8.0,
         "proj_win_loss_conf": "10.2-9.8",
         "proj_win_loss_overall": "20.2-10.8",
-        "projected_tournament_order": 29.0,
+        "projected_tournament_order": 30.0,
         "seven_day_change": "3rd",
-        "sor": 29.0,
-        "sos": 81.0
+        "sor": 30.0,
+        "sos": 85.0
     },
     "espn_bracketology": {
         "seed": "11"
@@ -60,27 +60,27 @@
     "seven_overtimes": {
         "projected_conf_record": "9-7",
         "projected_record": "21-10",
-        "ranking": "28"
+        "ranking": "30"
     },
     "shot_quality": {
-        "sq_ranking": 54
+        "sq_ranking": 53
     },
     "sports_reference": {
-        "SRS_rank": 47
+        "SRS_rank": 48
     },
     "teamrankings": {
-        "make_tournament": "71.8%",
+        "make_tournament": "71.3%",
         "most_likely_seed": "11",
-        "proj_conf_record": "9.4-10.6",
-        "projected_losses": "11.6",
-        "projected_wins": "19.4",
+        "proj_conf_record": "9.3-10.7",
+        "projected_losses": "11.7",
+        "projected_wins": "19.3",
         "rank": "40"
     },
     "time": {
-        "time": "Jan. 2, 2025 at 1:43 AM"
+        "time": "Jan. 2, 2025 at 7:22 AM"
     },
     "trank": {
-        "torvik_NET": "39",
+        "torvik_NET": "40",
         "trank": 31,
         "trank_make_tourney": 82.5,
         "trank_proj_record": "20-11 (10-10)",
@@ -91,7 +91,7 @@
     "warrennolan": {
         "current_conf_record": "1-1",
         "elo": "34",
-        "nolan_net": "41",
+        "nolan_net": "40",
         "quadrant_1": "1-1",
         "quadrant_2": "2-1",
         "quadrant_3": "2-0",
