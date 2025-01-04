@@ -35,7 +35,7 @@
         "overall_record": "21-10",
         "rating": 33,
         "record": "12-2",
-        "sos": 108
+        "sos": 109
     },
     "kpi_sports": {
         "kpi_ranking": 24
@@ -77,7 +77,7 @@
         "rank": "40"
     },
     "time": {
-        "time": "Jan. 4, 2025 at 4:17 PM"
+        "time": "Jan. 4, 2025 at 4:22 PM"
     },
     "trank": {
         "torvik_NET": "37",
