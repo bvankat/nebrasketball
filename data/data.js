@@ -24,32 +24,32 @@
         "seed": "10"
     },
     "evanmiya": {
-        "miya_rating": 47
+        "miya_rating": 46
     },
     "haslametrics": {
-        "haslam_rating": 52,
-        "seed": "10"
+        "haslam_rating": 53,
+        "seed": "PI12"
     },
     "kenpom": {
-        "conference_record": "10-10",
-        "overall_record": "20-11",
-        "rating": 39,
-        "record": "11-2",
-        "sos": 142
+        "conference_record": "11-9",
+        "overall_record": "21-10",
+        "rating": 33,
+        "record": "12-2",
+        "sos": 108
     },
     "kpi_sports": {
-        "kpi_ranking": 22
+        "kpi_ranking": 24
     },
     "massey_ratings": {
         "massey_rank": 31
     },
     "ncaa": {
-        "net_rank": "44"
+        "net_rank": "43"
     },
     "next_game": {
         "away_team": "UCLA",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-        "date_time": "1/4 - 2:00 PM EST",
+        "date_time": "Final",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -60,43 +60,43 @@
     "seven_overtimes": {
         "projected_conf_record": "9-7",
         "projected_record": "22-9",
-        "ranking": "31"
+        "ranking": "33"
     },
     "shot_quality": {
         "sq_ranking": 57
     },
     "sports_reference": {
-        "SRS_rank": 49
+        "SRS_rank": 48
     },
     "teamrankings": {
-        "make_tournament": "68.6%",
+        "make_tournament": "68.3%",
         "most_likely_seed": "11",
-        "proj_conf_record": "9.2-10.8",
-        "projected_losses": "11.8",
-        "projected_wins": "19.2",
-        "rank": "41"
+        "proj_conf_record": "9.3-10.7",
+        "projected_losses": "11.7",
+        "projected_wins": "19.3",
+        "rank": "40"
     },
     "time": {
-        "time": "Jan. 3, 2025 at 4:35 PM"
+        "time": "Jan. 4, 2025 at 4:17 PM"
     },
     "trank": {
-        "torvik_NET": "41",
-        "trank": 32,
-        "trank_make_tourney": 79.1,
-        "trank_proj_record": "20-11 (10-10)",
-        "trank_seed": "9",
-        "wab_rank": 26,
+        "torvik_NET": "37",
+        "trank": 29,
+        "trank_make_tourney": 79.2,
+        "trank_proj_record": "21-10 (11-9)",
+        "trank_seed": "8",
+        "wab_rank": 27,
         "wab_score": "+1.2"
     },
     "warrennolan": {
-        "current_conf_record": "1-1",
-        "elo": "34",
-        "nolan_net": "44",
-        "quadrant_1": "1-2",
+        "current_conf_record": "2-1",
+        "elo": "30",
+        "nolan_net": "43",
+        "quadrant_1": "2-2",
         "quadrant_2": "2-0",
         "quadrant_3": "2-0",
         "quadrant_4": "6-0",
-        "record": "11-2",
-        "rpi": "24"
+        "record": "12-2",
+        "rpi": "21"
     }
 }
