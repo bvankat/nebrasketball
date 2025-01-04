@@ -77,7 +77,7 @@
         "rank": "40"
     },
     "time": {
-        "time": "Jan. 4, 2025 at 4:23 PM"
+        "time": "Jan. 4, 2025 at 4:25 PM"
     },
     "trank": {
         "torvik_NET": "37",
@@ -85,8 +85,8 @@
         "trank_make_tourney": 79.2,
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "8",
-        "wab_rank": 27,
-        "wab_score": "+1.2"
+        "wab_rank": 19,
+        "wab_score": "+1.7"
     },
     "warrennolan": {
         "current_conf_record": "2-1",
