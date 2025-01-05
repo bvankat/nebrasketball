@@ -28,14 +28,14 @@
     },
     "haslametrics": {
         "haslam_rating": 48,
-        "seed": "OUT"
+        "seed": "6"
     },
     "kenpom": {
         "conference_record": "11-9",
         "overall_record": "21-10",
         "rating": 33,
         "record": "12-2",
-        "sos": 99
+        "sos": 93
     },
     "kpi_sports": {
         "kpi_ranking": 19
@@ -63,7 +63,7 @@
         "ranking": "21"
     },
     "shot_quality": {
-        "sq_ranking": 48
+        "sq_ranking": 49
     },
     "sports_reference": {
         "SRS_rank": 41
@@ -77,14 +77,14 @@
         "rank": "38"
     },
     "time": {
-        "time": "Jan. 5, 2025 at 11:03 AM"
+        "time": "Jan. 5, 2025 at 2:29 PM"
     },
     "trank": {
-        "torvik_NET": "33",
-        "trank": 29,
+        "torvik_NET": "32",
+        "trank": 28,
         "trank_make_tourney": 90.4,
         "trank_proj_record": "21-10 (11-9)",
-        "trank_seed": "7",
+        "trank_seed": "8",
         "wab_rank": 20,
         "wab_score": "+1.8"
     },
@@ -97,6 +97,6 @@
         "quadrant_3": "3-0",
         "quadrant_4": "5-0",
         "record": "12-2",
-        "rpi": "16"
+        "rpi": "14"
     }
 }
