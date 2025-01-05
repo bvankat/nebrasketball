@@ -40,7 +40,7 @@
 		document.getElementById('espn-cwl').innerHTML = data.espn.proj_win_loss_conf;
 		document.getElementById('espn-sor').innerHTML = data.espn.sor;
 		// document.getElementById('espn-sweet16').innerHTML = data.espn.chance_sweet_16;
-		document.getElementById('espn-round-32').innerHTML = data.espn.chance_round_32;
+		// document.getElementById('espn-round-32').innerHTML = data.espn.chance_round_32;
 		document.getElementById('espn-sor-s-curve').innerHTML = data.espn.projected_tournament_order;
 		document.getElementById('espn-bracketology-seed').innerHTML = data.espn_bracketology.seed;
 		document.getElementById('quadrants-sos').innerHTML = data.espn.sos;
