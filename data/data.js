@@ -24,7 +24,7 @@
         "seed": "8"
     },
     "evanmiya": {
-        "miya_rating": 42
+        "miya_rating": 41
     },
     "haslametrics": {
         "haslam_rating": 37,
@@ -38,13 +38,13 @@
         "sos": 70
     },
     "kpi_sports": {
-        "kpi_ranking": 19
+        "kpi_ranking": 23
     },
     "massey_ratings": {
-        "massey_rank": 24
+        "massey_rank": 25
     },
     "ncaa": {
-        "net_rank": "33"
+        "net_rank": "36"
     },
     "next_game": {
         "away_team": "Nebraska",
@@ -58,31 +58,31 @@
         "coaches_rank": 34
     },
     "seven_overtimes": {
-        "projected_conf_record": "10-6",
-        "projected_record": "23-8",
-        "ranking": "19"
+        "projected_conf_record": "9-7",
+        "projected_record": "22-9",
+        "ranking": "24"
     },
     "shot_quality": {
-        "sq_ranking": 51
+        "sq_ranking": 49
     },
     "sports_reference": {
-        "SRS_rank": 40
+        "SRS_rank": 44
     },
     "teamrankings": {
-        "make_tournament": "79.2%",
+        "make_tournament": "77.9%",
         "most_likely_seed": "10",
-        "proj_conf_record": "9.7-10.3",
-        "projected_losses": "11.3",
-        "projected_wins": "19.7",
+        "proj_conf_record": "9.6-10.4",
+        "projected_losses": "11.4",
+        "projected_wins": "19.6",
         "rank": "39"
     },
     "time": {
-        "time": "Jan. 8, 2025 at 2:51 AM"
+        "time": "Jan. 8, 2025 at 9:33 AM"
     },
     "trank": {
         "torvik_NET": "33",
         "trank": 28,
-        "trank_make_tourney": 94.2,
+        "trank_make_tourney": 90.6,
         "trank_proj_record": "21-10 (11-9)",
         "trank_seed": "8",
         "wab_rank": 28,
@@ -91,7 +91,7 @@
     "warrennolan": {
         "current_conf_record": "2-2",
         "elo": "40",
-        "nolan_net": "33",
+        "nolan_net": "36",
         "quadrant_1": "2-3",
         "quadrant_2": "2-0",
         "quadrant_3": "2-0",
