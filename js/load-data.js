@@ -255,8 +255,12 @@
 		 total_score = 2;
 		 console.log("Note: Minimum total_score applied");
 	 }
-	  
 	 
+	 // Don't want the needle bounding over 100
+	 if (total_score >= 96) {
+		  total_score = 96;
+		  console.log("Note: Maximum total_score applied");
+	  }
 		// AUTOMATED STATUS UPDATES
 		
 		//function StatusCheck(data) {
@@ -373,7 +377,7 @@ function drawChart() {
 	// Comment out these lines to disable needle bounce in offseason
 	// Increase the multiplier applied to Math.random to increase bounciness. It basically equates to the range of values to bounce between.
 	setInterval(function() {
-	  data.setValue(0, 1, total_score-3 + Math.round(10 * Math.random()));
+	  data.setValue(0, 1, total_score-3 + Math.round(5 * Math.random()));
 	  chart.draw(data, options);
 	  }, 300);
  
