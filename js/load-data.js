@@ -213,29 +213,30 @@
 		// To make life easy early in the season: Just average the available metrics. This is less precise than the WEIGHTED AVERAGE formula below. Comment out one or the other. 
 		
 		// Initialize an object to hold only defined variables
-		let gauge_scores = {};
+		let raw_rankings = {};
 		
 		// Conditionally add variables to the object if they are defined
-		if (typeof net_score !== 'undefined') gauge_scores.NET = net_score;
-		if (typeof kpi_score !== 'undefined') gauge_scores.KPI = kpi_score;
-		if (typeof espn_sor !== 'undefined') gauge_scores["ESPN SOR"] = espn_sor;
-		if (typeof espn_bpi !== 'undefined') gauge_scores["ESPN BPI"] = espn_bpi;
-		if (typeof teamrankings_score !== 'undefined') gauge_scores["Team Rankings"] = teamrankings_score;
-		if (typeof rpi_score !== 'undefined') gauge_scores.RPI = rpi_score;
-		if (typeof kenpom_score !== 'undefined') gauge_scores.Kenpom = kenpom_score;
-		if (typeof torvik_score !== 'undefined') gauge_scores.Torvik = torvik_score;
-		if (typeof wab_score !== 'undefined') gauge_scores.WAB = wab_score;
+		if (typeof data.ncaa.net_rank !== 'undefined') raw_rankings.NET = data.ncaa.net_rank;
+		if (typeof data.kpi_sports.kpi_ranking !== 'undefined') raw_rankings.KPI = data.kpi_sports.kpi_ranking;
+		if (typeof data.espn.sor !== 'undefined') raw_rankings["ESPN SOR"] = data.espn.sor;
+		if (typeof data.espn.bpi !== 'undefined') raw_rankings["ESPN BPI"] = data.espn.bpi;
+		if (typeof data.teamrankings.rank !== 'undefined') raw_rankings["Team Rankings"] = data.teamrankings.rank;
+		if (typeof data.warrennolan.rpi !== 'undefined') raw_rankings.RPI = data.warrennolan.rpi;
+		if (typeof data.kenpom.rating !== 'undefined') raw_rankings.Kenpom = data.kenpom.rating;
+		if (typeof data.trank.trank !== 'undefined') raw_rankings.Torvik = data.trank.trank;
+		if (typeof data.trank.wab_rank !== 'undefined') raw_rankings.WAB = data.trank.wab_rank;
+		
 		
 		// Initialize an array to hold the values that exist
 		let rankings_used = [];
 		
 		// Collect variable names and values
-		for (let [name, value] of Object.entries(gauge_scores)) {
+		for (let [name, value] of Object.entries(raw_rankings)) {
 			rankings_used.push(value);
 		}				
 		
 		console.group("Rankings used");
-		console.table(gauge_scores);
+		console.table(raw_rankings);
 		console.groupEnd();
 		
 		// Calculate the sum of the values in the array
