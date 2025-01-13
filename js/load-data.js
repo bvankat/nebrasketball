@@ -179,7 +179,9 @@
 		 espn_bpi = FindScore(parseInt(data.espn.bpi)); 
 	}
 	 
-	 if(data.teamrankings ) { teamrankings_score = parseInt(data.teamrankings.make_tournament); } // This one's already a % score
+	 if(data.teamrankings ) { 
+		 teamrankings_score = parseInt(data.teamrankings.make_tournament); 
+	 } // This one's already a % score
 	 
 	 if( data.trank ) { 
 		 torvik_score = parseInt(data.trank.trank_make_tourney); 
@@ -216,12 +218,12 @@
 		let raw_rankings = {};
 		
 		// Conditionally add variables to the object if they are defined
-		if (typeof data.ncaa.net_rank !== 'undefined') raw_rankings.NET = data.ncaa.net_rank;
+		if (typeof data.ncaa.net_rank !== 'undefined') raw_rankings.NET = parseInt(data.ncaa.net_rank);
 		if (typeof data.kpi_sports.kpi_ranking !== 'undefined') raw_rankings.KPI = data.kpi_sports.kpi_ranking;
 		if (typeof data.espn.sor !== 'undefined') raw_rankings["ESPN SOR"] = data.espn.sor;
 		if (typeof data.espn.bpi !== 'undefined') raw_rankings["ESPN BPI"] = data.espn.bpi;
-		if (typeof data.teamrankings.rank !== 'undefined') raw_rankings["Team Rankings"] = data.teamrankings.rank;
-		if (typeof data.warrennolan.rpi !== 'undefined') raw_rankings.RPI = data.warrennolan.rpi;
+		if (typeof data.teamrankings.rank !== 'undefined') raw_rankings["Team Rankings"] = parseInt(data.teamrankings.rank);
+		if (typeof data.warrennolan.rpi !== 'undefined') raw_rankings.RPI = parseInt(data.warrennolan.rpi);
 		if (typeof data.kenpom.rating !== 'undefined') raw_rankings.Kenpom = data.kenpom.rating;
 		if (typeof data.trank.trank !== 'undefined') raw_rankings.Torvik = data.trank.trank;
 		if (typeof data.trank.wab_rank !== 'undefined') raw_rankings.WAB = data.trank.wab_rank;
@@ -237,49 +239,7 @@
 		
 		console.group("Rankings used");
 		console.table(raw_rankings);
-		console.groupEnd();
-		
-		// Calculate the sum of the values in the array
-		let rankings_sum = rankings_used.reduce((acc, val) => acc + val, 0);
-		
-		// Calculate the average
-		total_score = rankings_used.length > 0 ? rankings_sum / rankings_used.length + intangibles : 0;		
-											
-		// WEIGHTED AVERAGE - Choose this or the PURE AVERAGE formula above
-		//Current formula, multipliers should add to .98 to keep the gauge happy
-		// In season, use these scores to calculate total: ESPN SOR, ESPN BPI, KPI, Kenpom, NCAA NET, Team Rankings, Torvik 
-			
-			//total_score = ((net_score * .16) + (kpi_score * .14) + (espn_sor * .14) + (teamrankings_score * .11) + (rpi_score * .10) + (kenpom_score * .11) + (espn_bpi * .11) +  (torvik_score * .11) + intangibles);		 
-	
-	 // next three lines keep gauge score > 3 in the really sad times, uncomment during season
-	 if (total_score <= 2) {
-		 total_score = 2;
-		 console.log("Note: Minimum total_score applied");
-	 }
-	 
-	 // Don't want the needle bounding over 100
-	 if (total_score >= 96) {
-		  total_score = 96;
-		  console.log("Note: Maximum total_score applied");
-	  }
-		// AUTOMATED STATUS UPDATES
-		
-		//function StatusCheck(data) {
-		//	 var status_message;
-		//	 if (data < 20) { status_message = "Nope. Not happening." }
-		//	 if (data >= 20 && data < 45) { status_message = "It's been a minute since the odds were even this high." }
-		//	 if (data >= 45 && data < 75) { status_message = "These aren't uncharted waters. But they're very lightly charted." }
-		//	 if (data >= 75) { status_message = "Believe it when we see it." }
-		//	 
-		//	 return status_message;	 
-		// }
-	 
-		 // Three lines below can automate the status updates based on the total_score. Uncomment to automate. Otherwise, manual status updates are required.
-		 
-		 // message = StatusCheck(total_score);
-		 // console.log(message);
-		 // $('#message').text(message);
-	
+		console.groupEnd();	
 	
 	 // Note from KPI: Selections have trended toward using results-based metrics - "Who's resume is better?". Predictive metrics help more with seeding - "Who would win between these two?".
 	console.group('What percentage odds?');
@@ -330,16 +290,74 @@
 			const WAB_pct = { metric: "WAB", type: "results-based", pct: wab_score };
 			percentages.WAB = WAB_pct;
 		}
+		
+		
+		// Initialize an array to hold the values that exist
+		let percentages_used = [];
+
+		// Collect variable names and values
+		for (let [name, value] of Object.entries(percentages)) {
+			percentages_used.push(value["pct"]);
+		}	
+		
+		// Calculate the sum of the values in the array
+		let percentages_sum = percentages_used.reduce((acc, val) => acc + val, 0);
+
 	
 		console.table(percentages, ["type","pct"]);
 	
 	console.groupEnd();
 	
-	console.log("Intangibles: " + intangibles + " (" + intangibles_msg + ")");
 	
-	console.group("Total Score");
-	console.log(total_score);
-	console.groupEnd();
+	// Calculate the average
+		total_score = percentages_used.length > 0 ? percentages_sum / percentages_used.length : 0;	
+		console.log("Total Score before intangibles", total_score);
+		total_score = total_score + intangibles;	
+			
+											
+		// WEIGHTED AVERAGE - Choose this or the PURE AVERAGE formula above
+		//Current formula, multipliers should add to .98 to keep the gauge happy
+		// In season, use these scores to calculate total: ESPN SOR, ESPN BPI, KPI, Kenpom, NCAA NET, Team Rankings, Torvik 
+			
+			//total_score = ((net_score * .16) + (kpi_score * .14) + (espn_sor * .14) + (teamrankings_score * .11) + (rpi_score * .10) + (kenpom_score * .11) + (espn_bpi * .11) +  (torvik_score * .11) + intangibles);		 
+	
+	 // next three lines keep gauge score > 3 in the really sad times, uncomment during season
+	 if (total_score + intangibles <= 2) {
+		 total_score = 2;
+		 console.log("Note: Minimum total_score applied");
+	 }
+	 
+	 // Don't want the needle bounding over 100
+	 if (total_score + intangibles >= 96) {
+		  total_score = 96;
+		  console.log("Note: Maximum total_score applied");
+	  }
+	  
+		// AUTOMATED STATUS UPDATES
+		
+		//function StatusCheck(data) {
+		//	 var status_message;
+		//	 if (data < 20) { status_message = "Nope. Not happening." }
+		//	 if (data >= 20 && data < 45) { status_message = "It's been a minute since the odds were even this high." }
+		//	 if (data >= 45 && data < 75) { status_message = "These aren't uncharted waters. But they're very lightly charted." }
+		//	 if (data >= 75) { status_message = "Believe it when we see it." }
+		//	 
+		//	 return status_message;	 
+		// }
+	 
+		 // Three lines below can automate the status updates based on the total_score. Uncomment to automate. Otherwise, manual status updates are required.
+		 
+		 // message = StatusCheck(total_score);
+		 // console.log(message);
+		 // $('#message').text(message);
+	
+	// Debuggging
+	console.log("rankings_used: ", rankings_used);
+	console.log("rankings_used length: ", rankings_used.length);
+	console.log("percentages_used: ", percentages_used);
+	console.log("percentages_sum: ", percentages_sum);
+	console.log("Intangibles: " + intangibles + " (" + intangibles_msg + ")");
+	console.log("Total Score: ", total_score);
 
 google.charts.load('current', {'packages':['gauge']});
 google.charts.setOnLoadCallback(drawChart);
