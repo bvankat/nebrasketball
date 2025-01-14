@@ -21,7 +21,7 @@
         "sos": 48.0
     },
     "espn_bracketology": {
-        "seed": "8"
+        "seed": "10"
     },
     "evanmiya": {
         "miya_rating": 53
@@ -41,10 +41,10 @@
         "kpi_ranking": 27
     },
     "massey_ratings": {
-        "massey_rank": 38
+        "massey_rank": 35
     },
     "ncaa": {
-        "net_rank": "44"
+        "net_rank": "45"
     },
     "next_game": {
         "away_team": "Rutgers",
@@ -60,7 +60,7 @@
     "seven_overtimes": {
         "projected_conf_record": "11-9",
         "projected_record": "21-10",
-        "ranking": "37"
+        "ranking": "38"
     },
     "shot_quality": {
         "sq_ranking": 52
@@ -69,20 +69,20 @@
         "SRS_rank": 49
     },
     "teamrankings": {
-        "make_tournament": "71.8%",
+        "make_tournament": "70.4%",
         "most_likely_seed": "11",
         "proj_conf_record": "8.8-11.2",
         "projected_losses": "12.2",
         "projected_wins": "18.8",
-        "rank": "48"
+        "rank": "49"
     },
     "time": {
-        "time": "Jan. 14, 2025 at 12:04 AM"
+        "time": "Jan. 14, 2025 at 2:16 PM"
     },
     "trank": {
         "torvik_NET": "41",
         "trank": 35,
-        "trank_make_tourney": 79.1,
+        "trank_make_tourney": 79.4,
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "9",
         "wab_rank": 33,
@@ -91,7 +91,7 @@
     "warrennolan": {
         "current_conf_record": "2-3",
         "elo": "42",
-        "nolan_net": "44",
+        "nolan_net": "45",
         "quadrant_1": "1-4",
         "quadrant_2": "3-0",
         "quadrant_3": "2-0",
