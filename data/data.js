@@ -5,7 +5,7 @@
         "total_brackets": 59
     },
     "cbs": {
-        "cbs_rank": "9"
+        "cbs_rank": "11"
     },
     "espn": {
         "bpi": 46.0,
@@ -24,7 +24,7 @@
         "seed": "10"
     },
     "evanmiya": {
-        "miya_rating": 51
+        "miya_rating": 54
     },
     "haslametrics": {
         "haslam_rating": 57,
@@ -47,11 +47,11 @@
         "net_rank": "50"
     },
     "next_game": {
-        "away_team": "Rutgers",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
-        "date_time": "Final",
-        "home_team": "Nebraska",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
+        "away_team": "Nebraska",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+        "date_time": "1/19 - 12:00 PM EST",
+        "home_team": "Maryland",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png"
     },
     "polls": {
         "ap_rank": "NR",
@@ -63,7 +63,7 @@
         "ranking": "35"
     },
     "shot_quality": {
-        "sq_ranking": 50
+        "sq_ranking": 48
     },
     "sports_reference": {
         "SRS_rank": 53
@@ -77,12 +77,12 @@
         "rank": "51"
     },
     "time": {
-        "time": "Jan. 17, 2025 at 9:35 AM"
+        "time": "Jan. 17, 2025 at 1:21 PM"
     },
     "trank": {
         "torvik_NET": "52",
         "trank": 41,
-        "trank_make_tourney": 54.1,
+        "trank_make_tourney": 50.4,
         "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "11",
         "wab_rank": 44,
