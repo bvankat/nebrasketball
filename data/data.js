@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": 65,
-        "matrix_seed": 10,
-        "total_brackets": 68
+        "matrix_count": 60,
+        "matrix_seed": 11,
+        "total_brackets": 69
     },
     "cbs": {
         "cbs_rank": "11"
@@ -21,13 +21,13 @@
         "sos": 43.0
     },
     "espn_bracketology": {
-        "seed": "10"
+        "seed": "11"
     },
     "evanmiya": {
         "miya_rating": 48
     },
     "haslametrics": {
-        "haslam_rating": 53,
+        "haslam_rating": 54,
         "seed": "PI11"
     },
     "kenpom": {
@@ -35,10 +35,10 @@
         "overall_record": "18-13",
         "rating": 46,
         "record": "12-6",
-        "sos": 38
+        "sos": 36
     },
     "kpi_sports": {
-        "kpi_ranking": 37
+        "kpi_ranking": 35
     },
     "massey_ratings": {
         "massey_rank": 46
@@ -63,13 +63,13 @@
         "ranking": "38"
     },
     "shot_quality": {
-        "sq_ranking": 50
+        "sq_ranking": 51
     },
     "sports_reference": {
         "SRS_rank": 53
     },
     "teamrankings": {
-        "make_tournament": "49.6%",
+        "make_tournament": "50.8%",
         "most_likely_seed": "11",
         "proj_conf_record": "7.8-12.2",
         "projected_losses": "13.2",
@@ -77,12 +77,12 @@
         "rank": "51"
     },
     "time": {
-        "time": "Jan. 20, 2025 at 5:56 PM"
+        "time": "Jan. 21, 2025 at 11:48 AM"
     },
     "trank": {
-        "torvik_NET": "51",
+        "torvik_NET": "52",
         "trank": 39,
-        "trank_make_tourney": 47.3,
+        "trank_make_tourney": 47.8,
         "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "11",
         "wab_rank": 46,
@@ -97,6 +97,6 @@
         "quadrant_3": "2-1",
         "quadrant_4": "6-0",
         "record": "12-6",
-        "rpi": "34"
+        "rpi": "32"
     }
 }
