@@ -77,7 +77,7 @@
         "rank": "53"
     },
     "time": {
-        "time": "Jan. 23, 2025 at 10:00 AM"
+        "time": "Jan. 23, 2025 at 10:01 AM"
     },
     "trank": {
         "torvik_NET": "63",
