@@ -169,6 +169,7 @@
 
 	 
 	 if( data.kenpom) { kenpom_score = FindScore(data.kenpom.rating); }
+	 
 	 if( data.ncaa ) { 
 		 net_score = FindScore(data.ncaa.net_rank); 
 	 } else if ( data.trank.torvik_NET ) {
@@ -195,8 +196,8 @@
 	 
 	 // Intangibles: Don't think any of the systems has a way to value injuries and/or hype, so we need to add it. Check out sports-reference Win Shares, perhaps, for injuries data points. 
 	 
-	 intangibles = -30;
-	 intangibles_msg = "Two Quad 3 losses at home.";
+	 let intangibles = -30;
+	 let intangibles_msg = "Two Quad 3 losses at home.";
 	 
 	 // Penalty for a Nonconference SOS above 250. New for 2025.
 	 if ( data.espn.non_con_sos >= 250 ) {
@@ -313,8 +314,9 @@
 	// Calculate the average
 		total_score = percentages_used.length > 0 ? percentages_sum / percentages_used.length : 0;	
 		console.log("Total Score before intangibles", total_score);
-		total_score = total_score + intangibles;	
-			
+		console.log("intangibles_debug:", intangibles);
+		total_score = intangibles + total_score;
+		console.log("updated total_score:" , total_score);
 											
 		// WEIGHTED AVERAGE - Choose this or the PURE AVERAGE formula above
 		//Current formula, multipliers should add to .98 to keep the gauge happy
@@ -323,13 +325,13 @@
 			//total_score = ((net_score * .16) + (kpi_score * .14) + (espn_sor * .14) + (teamrankings_score * .11) + (rpi_score * .10) + (kenpom_score * .11) + (espn_bpi * .11) +  (torvik_score * .11) + intangibles);		 
 	
 	 // next three lines keep gauge score > 3 in the really sad times, uncomment during season
-	 if (total_score + intangibles <= 2) {
+	 if (total_score <= 2) {
 		 total_score = 2;
 		 console.log("Note: Minimum total_score applied");
 	 }
 	 
 	 // Don't want the needle bounding over 100
-	 if (total_score + intangibles >= 96) {
+	 if (total_score >= 96) {
 		  total_score = 96;
 		  console.log("Note: Maximum total_score applied");
 	  }
@@ -358,7 +360,7 @@
 	console.log("percentages_used: ", percentages_used);
 	console.log("percentages_sum: ", percentages_sum);
 	console.log("Intangibles: " + intangibles + " (" + intangibles_msg + ")");
-	console.log("Total Score: ", total_score);
+	console.log("Total Score at the bottom: ", total_score);
 
 google.charts.load('current', {'packages':['gauge']});
 google.charts.setOnLoadCallback(drawChart);
