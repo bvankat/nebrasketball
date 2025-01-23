@@ -195,7 +195,7 @@
 	 // Intangibles: Don't think any of the systems has a way to value injuries and/or hype, so we need to add it. Check out sports-reference Win Shares, perhaps, for injuries data points. 
 	 
 	 intangibles = -20;
-	 intangibles_msg = "Doesn't pass eye test against good teams.";
+	 intangibles_msg = "Two Quad 3 losses at home.";
 	 
 	 // Penalty for a Nonconference SOS above 250. New for 2025.
 	 if ( data.espn.non_con_sos >= 250 ) {
