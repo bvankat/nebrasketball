@@ -196,8 +196,13 @@
 	 
 	 // Intangibles: Don't think any of the systems has a way to value injuries and/or hype, so we need to add it. Check out sports-reference Win Shares, perhaps, for injuries data points. 
 	 
+	 // Quad 3 losses: -5 each
+	 // Quad 1 blowouts: -3 each?
+	 
 	 let intangibles = -10;
 	 let intangibles_msg = "Two Quad 3 losses at home. -5 for both.";
+	 
+	 
 	 
 	 // Penalty for a Nonconference SOS above 250. New for 2025.
 	 if ( data.espn.non_con_sos >= 250 ) {
