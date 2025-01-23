@@ -196,7 +196,7 @@
 	 
 	 // Intangibles: Don't think any of the systems has a way to value injuries and/or hype, so we need to add it. Check out sports-reference Win Shares, perhaps, for injuries data points. 
 	 
-	 let intangibles = -30;
+	 let intangibles = -20;
 	 let intangibles_msg = "Two Quad 3 losses at home.";
 	 
 	 // Penalty for a Nonconference SOS above 250. New for 2025.
