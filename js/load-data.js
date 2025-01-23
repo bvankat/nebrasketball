@@ -143,12 +143,13 @@
 	function FindScore(data) { // Calculate percentage chance based on previous at-large bids
 		 var score;
 		 if (data <= 30){ score = 99; } 
-		 if (data > 30 && data <= 40) { score = 92; } 
+		 if (data > 30 && data <= 35){ score = 95; } 
+		 if (data > 35 && data <= 40) { score = 90; } 
 		 if (data > 40 && data <= 43) { score = 80; } 
 		 if (data > 43 && data <= 45) { score = 70; }
 		 if (data > 45 && data <= 47) { score = 55; }
-		 if (data > 47 && data <= 51) { score = 35; }
-		 if (data > 51 && data <= 55) { score = 25; }
+		 if (data > 47 && data <= 51) { score = 30; }
+		 if (data > 51 && data <= 55) { score = 15; }
 		 if (data > 55 && data <= 60) { score = 10; }
 		 if (data > 60 && data <= 70) { score = 5; }
 		 if (data > 70 && data <= 80) { score = 2; } // Highest NET ranking to get bid: 77 in 2022, RPI 74 in 1999 
