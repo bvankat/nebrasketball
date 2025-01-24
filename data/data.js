@@ -5,7 +5,7 @@
         "total_brackets": 77
     },
     "cbs": {
-        "cbs_rank": "11"
+        "cbs_rank": "First Four Out"
     },
     "espn": {
         "bpi": 48.0,
@@ -63,7 +63,7 @@
         "ranking": "36"
     },
     "shot_quality": {
-        "sq_ranking": 56
+        "sq_ranking": 54
     },
     "sports_reference": {
         "SRS_rank": 55
@@ -77,12 +77,12 @@
         "rank": "52"
     },
     "time": {
-        "time": "Jan. 24, 2025 at 9:23 AM"
+        "time": "Jan. 24, 2025 at 12:19 PM"
     },
     "trank": {
         "torvik_NET": "59",
         "trank": 42,
-        "trank_make_tourney": 30.5,
+        "trank_make_tourney": 28.9,
         "trank_proj_record": "18-13 (8-12)",
         "trank_seed": "OUT",
         "wab_rank": 54,
