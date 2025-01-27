@@ -5,20 +5,20 @@
         "total_brackets": 80
     },
     "cbs": {
-        "cbs_rank": "First Four Out"
+        "cbs_rank": "OUT"
     },
     "espn": {
-        "bpi": 48.0,
-        "chance_round_32": "17.3%",
-        "chance_sweet_16": "4.3%",
-        "non_con_sos": 168.0,
+        "bpi": 52.0,
+        "chance_round_32": "12.1%",
+        "chance_sweet_16": "2.9%",
+        "non_con_sos": 169.0,
         "proj_tourney_seed": 15.0,
-        "proj_win_loss_conf": "7.5-12.5",
-        "proj_win_loss_overall": "17.5-13.5",
-        "projected_tournament_order": 81.0,
-        "seven_day_change": "Tied-3rd",
-        "sor": 60.0,
-        "sos": 53.0
+        "proj_win_loss_conf": "6.9-13.1",
+        "proj_win_loss_overall": "16.9-14.1",
+        "projected_tournament_order": 83.0,
+        "seven_day_change": "Tied-7th",
+        "sor": 62.0,
+        "sos": 42.0
     },
     "espn_bracketology": {
         "seed": "First Four Out"
@@ -41,17 +41,17 @@
         "kpi_ranking": 51
     },
     "massey_ratings": {
-        "massey_rank": 49
+        "massey_rank": 54
     },
     "ncaa": {
         "net_rank": "63"
     },
     "next_game": {
-        "away_team": "Nebraska",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "Final",
-        "home_team": "Wisconsin",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png"
+        "away_team": "Illinois",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+        "date_time": "1/30 - 8:30 PM EST",
+        "home_team": "Nebraska",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
         "ap_rank": "NR",
@@ -77,7 +77,7 @@
         "rank": "58"
     },
     "time": {
-        "time": "Jan. 27, 2025 at 10:01 AM"
+        "time": "Jan. 27, 2025 at 2:17 PM"
     },
     "trank": {
         "torvik_NET": "67",
