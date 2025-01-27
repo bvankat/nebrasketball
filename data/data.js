@@ -24,27 +24,27 @@
         "seed": "First Four Out"
     },
     "evanmiya": {
-        "miya_rating": 51
+        "miya_rating": 61
     },
     "haslametrics": {
-        "haslam_rating": 58,
+        "haslam_rating": 63,
         "seed": "OUT"
     },
     "kenpom": {
         "conference_record": "7-13",
         "overall_record": "17-14",
-        "rating": 51,
+        "rating": 52,
         "record": "12-8",
         "sos": 30
     },
     "kpi_sports": {
-        "kpi_ranking": 48
+        "kpi_ranking": 51
     },
     "massey_ratings": {
-        "massey_rank": 46
+        "massey_rank": 49
     },
     "ncaa": {
-        "net_rank": "57"
+        "net_rank": "63"
     },
     "next_game": {
         "away_team": "Nebraska",
@@ -58,40 +58,40 @@
         "coaches_rank": "NR"
     },
     "seven_overtimes": {
-        "projected_conf_record": "8-12",
-        "projected_record": "18-13",
-        "ranking": "35"
+        "projected_conf_record": "7-13",
+        "projected_record": "17-14",
+        "ranking": "41"
     },
     "shot_quality": {
-        "sq_ranking": 55
+        "sq_ranking": 58
     },
     "sports_reference": {
-        "SRS_rank": 56
+        "SRS_rank": 62
     },
     "teamrankings": {
-        "make_tournament": "32.8%",
+        "make_tournament": "23.1%",
         "most_likely_seed": "11",
-        "proj_conf_record": "6.9-13.1",
-        "projected_losses": "14.1",
-        "projected_wins": "16.9",
-        "rank": "54"
+        "proj_conf_record": "6.4-13.6",
+        "projected_losses": "14.6",
+        "projected_wins": "16.4",
+        "rank": "58"
     },
     "time": {
-        "time": "Jan. 26, 2025 at 3:10 PM"
+        "time": "Jan. 27, 2025 at 10:01 AM"
     },
     "trank": {
         "torvik_NET": "67",
         "trank": 50,
-        "trank_make_tourney": 27.1,
+        "trank_make_tourney": 13.4,
         "trank_proj_record": "17-14 (7-13)",
         "trank_seed": "OUT",
         "wab_rank": 57,
-        "wab_score": "-0.33"
+        "wab_score": "-0.32"
     },
     "warrennolan": {
         "current_conf_record": "2-7",
         "elo": "86",
-        "nolan_net": "57",
+        "nolan_net": "63",
         "quadrant_1": "1-6",
         "quadrant_2": "3-1",
         "quadrant_3": "2-1",
