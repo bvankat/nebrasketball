@@ -29,6 +29,13 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - Lowest NET ranking to get bid: 77 in 2022 (Rutgers), Lowest RPI: 74 in 1999
 - 2022: Last 4 In: Wyoming (NET 50), Rutgers (77), Indiana (38), Notre Dame (53)
 - Worst SOR to get in was 66 (2021 Utah State)
+- Losing conference records: 
+    - __2024__ - Mississippi State (8-10)
+    - __2023__ - Arkansas, Mississippi State, West Virginia (7-11) had 6 Quad 1 wins, #24 NET.
+    - __2022__ - Iowa State (7-11) had 9 Quad 1 wins, #49 NET. Indiana (9-11)
+    - __2021__ - Georgetown (7-9). Maryland and Michigan State (9-11)
+    - __2019__ - Ohio State (8-12) had 4 Quad 1 wins and #55 NET; Oklahoma (7-11), St. Johns (8-10). 
+    - __2018__ - Oklahoma (7-11), Alabama (8-10)
 
 ### Best Teams Left Out
 
