@@ -1,55 +1,55 @@
 {
     "bracketproject": {
-        "matrix_count": 0,
+        "matrix_count": 4,
         "matrix_seed": "OUT",
-        "total_brackets": 88
+        "total_brackets": 91
     },
     "cbs": {
         "cbs_rank": "OUT"
     },
     "espn": {
-        "bpi": 51.0,
-        "chance_round_32": "14.0%",
-        "chance_sweet_16": "3.4%",
-        "non_con_sos": 172.0,
-        "proj_tourney_seed": 13.0,
-        "proj_win_loss_conf": "7.7-12.3",
-        "proj_win_loss_overall": "17.7-13.3",
-        "projected_tournament_order": 77.0,
-        "seven_day_change": "Tied-3rd",
-        "sor": 54.0,
-        "sos": 39.0
+        "bpi": 48.0,
+        "chance_round_32": "19.2%",
+        "chance_sweet_16": "4.8%",
+        "non_con_sos": 173.0,
+        "proj_tourney_seed": 12.0,
+        "proj_win_loss_conf": "8.5-11.5",
+        "proj_win_loss_overall": "18.5-12.5",
+        "projected_tournament_order": 71.0,
+        "seven_day_change": "4th",
+        "sor": 48.0,
+        "sos": 36.0
     },
     "espn_bracketology": {
         "seed": "Next Four Out"
     },
     "evanmiya": {
-        "miya_rating": 55
+        "miya_rating": 50
     },
     "haslametrics": {
-        "haslam_rating": 58,
-        "seed": "OUT"
+        "haslam_rating": 54,
+        "seed": "11"
     },
     "kenpom": {
-        "conference_record": "8-12",
-        "overall_record": "18-13",
-        "rating": 46,
-        "record": "13-8",
-        "sos": 26
+        "conference_record": "9-11",
+        "overall_record": "19-12",
+        "rating": 44,
+        "record": "14-8",
+        "sos": 21
     },
     "kpi_sports": {
-        "kpi_ranking": 44
+        "kpi_ranking": 33
     },
     "massey_ratings": {
-        "massey_rank": 56
+        "massey_rank": 47
     },
     "ncaa": {
-        "net_rank": "57"
+        "net_rank": "50"
     },
     "next_game": {
         "away_team": "Nebraska",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "2/2 - 7:30 PM EST",
+        "date_time": "Final",
         "home_team": "Oregon",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png"
     },
@@ -58,45 +58,45 @@
         "coaches_rank": "NR"
     },
     "seven_overtimes": {
-        "projected_conf_record": "8-12",
-        "projected_record": "18-13",
-        "ranking": "41"
+        "projected_conf_record": "9-11",
+        "projected_record": "19-12",
+        "ranking": "42"
     },
     "shot_quality": {
-        "sq_ranking": 61
+        "sq_ranking": 51
     },
     "sports_reference": {
-        "SRS_rank": 57
+        "SRS_rank": 53
     },
     "teamrankings": {
-        "make_tournament": "40.5%",
+        "make_tournament": "59.4%",
         "most_likely_seed": "11",
-        "proj_conf_record": "7.3-12.7",
-        "projected_losses": "13.7",
-        "projected_wins": "17.3",
-        "rank": "57"
+        "proj_conf_record": "8.1-11.9",
+        "projected_losses": "12.9",
+        "projected_wins": "18.1",
+        "rank": "52"
     },
     "time": {
-        "time": "Jan. 31, 2025 at 10:33 AM"
+        "time": "Feb. 3, 2025 at 9:50 AM"
     },
     "trank": {
-        "torvik_NET": "56",
-        "trank": 41,
-        "trank_make_tourney": 38.0,
-        "trank_proj_record": "18-13 (8-12)",
-        "trank_seed": "11",
-        "wab_rank": 52,
-        "wab_score": "+0.37"
+        "torvik_NET": "47",
+        "trank": 39,
+        "trank_make_tourney": 56.9,
+        "trank_proj_record": "19-12 (9-11)",
+        "trank_seed": "10",
+        "wab_rank": 44,
+        "wab_score": "+1.0"
     },
     "warrennolan": {
-        "current_conf_record": "3-7",
-        "elo": "70",
-        "nolan_net": "57",
-        "quadrant_1": "3-6",
+        "current_conf_record": "4-7",
+        "elo": "55",
+        "nolan_net": "50",
+        "quadrant_1": "4-6",
         "quadrant_2": "2-2",
         "quadrant_3": "2-0",
         "quadrant_4": "6-0",
-        "record": "13-8",
-        "rpi": "39"
+        "record": "14-8",
+        "rpi": "31"
     }
 }
