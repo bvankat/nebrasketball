@@ -199,8 +199,8 @@
 	 // Quad 3 losses: -5 each
 	 // Quad 1 blowouts: -3 each?
 	 
-	 let intangibles = -10;
-	 let intangibles_msg = "Two Quad 3 losses at home. -5 for both.";
+	 let intangibles = 0;
+	 let intangibles_msg = "";
 	 
 	 
 	 
