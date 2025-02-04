@@ -27,21 +27,21 @@
         "miya_rating": 50
     },
     "haslametrics": {
-        "haslam_rating": 54,
+        "haslam_rating": 57,
         "seed": "11"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "19-12",
-        "rating": 44,
+        "rating": 45,
         "record": "14-8",
-        "sos": 21
+        "sos": 23
     },
     "kpi_sports": {
         "kpi_ranking": 33
     },
     "massey_ratings": {
-        "massey_rank": 47
+        "massey_rank": 46
     },
     "ncaa": {
         "net_rank": "50"
@@ -49,9 +49,9 @@
     "next_game": {
         "away_team": "Nebraska",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "Final",
-        "home_team": "Oregon",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png"
+        "date_time": "2/5 - 10:30 PM EST",
+        "home_team": "Washington",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png"
     },
     "polls": {
         "ap_rank": "NR",
@@ -63,13 +63,13 @@
         "ranking": "42"
     },
     "shot_quality": {
-        "sq_ranking": 51
+        "sq_ranking": 52
     },
     "sports_reference": {
         "SRS_rank": 53
     },
     "teamrankings": {
-        "make_tournament": "59.4%",
+        "make_tournament": "59.3%",
         "most_likely_seed": "11",
         "proj_conf_record": "8.1-11.9",
         "projected_losses": "12.9",
@@ -77,12 +77,12 @@
         "rank": "52"
     },
     "time": {
-        "time": "Feb. 3, 2025 at 9:50 AM"
+        "time": "Feb. 4, 2025 at 9:34 AM"
     },
     "trank": {
-        "torvik_NET": "47",
-        "trank": 39,
-        "trank_make_tourney": 56.9,
+        "torvik_NET": "46",
+        "trank": 40,
+        "trank_make_tourney": 58.0,
         "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "10",
         "wab_rank": 44,
