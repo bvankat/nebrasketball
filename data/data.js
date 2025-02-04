@@ -10,18 +10,18 @@
     "espn": {
         "bpi": 48.0,
         "chance_round_32": "19.2%",
-        "chance_sweet_16": "4.8%",
-        "non_con_sos": 173.0,
+        "chance_sweet_16": "4.6%",
+        "non_con_sos": 174.0,
         "proj_tourney_seed": 12.0,
         "proj_win_loss_conf": "8.5-11.5",
         "proj_win_loss_overall": "18.5-12.5",
-        "projected_tournament_order": 71.0,
-        "seven_day_change": "4th",
-        "sor": 48.0,
-        "sos": 36.0
+        "projected_tournament_order": 70.0,
+        "seven_day_change": "5th",
+        "sor": 47.0,
+        "sos": 39.0
     },
     "espn_bracketology": {
-        "seed": "Next Four Out"
+        "seed": "11"
     },
     "evanmiya": {
         "miya_rating": 50
@@ -77,12 +77,12 @@
         "rank": "52"
     },
     "time": {
-        "time": "Feb. 4, 2025 at 9:34 AM"
+        "time": "Feb. 4, 2025 at 2:23 PM"
     },
     "trank": {
         "torvik_NET": "46",
         "trank": 40,
-        "trank_make_tourney": 58.0,
+        "trank_make_tourney": 60.4,
         "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "10",
         "wab_rank": 44,
