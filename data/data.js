@@ -27,24 +27,24 @@
         "miya_rating": 53
     },
     "haslametrics": {
-        "haslam_rating": 57,
-        "seed": "PI11"
+        "haslam_rating": 50,
+        "seed": "10"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "19-12",
         "rating": 41,
         "record": "15-8",
-        "sos": 23
+        "sos": 25
     },
     "kpi_sports": {
-        "kpi_ranking": 33
+        "kpi_ranking": 32
     },
     "massey_ratings": {
         "massey_rank": 46
     },
     "ncaa": {
-        "net_rank": "50"
+        "net_rank": "48"
     },
     "next_game": {
         "away_team": "Nebraska",
@@ -63,38 +63,38 @@
         "ranking": "39"
     },
     "shot_quality": {
-        "sq_ranking": 49
+        "sq_ranking": 48
     },
     "sports_reference": {
-        "SRS_rank": 53
+        "SRS_rank": 52
     },
     "teamrankings": {
-        "make_tournament": "58.5%",
+        "make_tournament": "70.2%",
         "most_likely_seed": "11",
-        "proj_conf_record": "8.1-11.9",
-        "projected_losses": "12.9",
-        "projected_wins": "18.1",
-        "rank": "51"
+        "proj_conf_record": "8.7-11.3",
+        "projected_losses": "12.3",
+        "projected_wins": "18.7",
+        "rank": "50"
     },
     "time": {
-        "time": "Feb. 6, 2025 at 12:28 AM"
+        "time": "Feb. 6, 2025 at 9:43 AM"
     },
     "trank": {
-        "torvik_NET": "49",
+        "torvik_NET": "46",
         "trank": 40,
-        "trank_make_tourney": 61.3,
+        "trank_make_tourney": 69.4,
         "trank_proj_record": "19-12 (9-11)",
-        "trank_seed": "11",
+        "trank_seed": "10",
         "wab_rank": 42,
         "wab_score": "+1.4"
     },
     "warrennolan": {
         "current_conf_record": "5-7",
         "elo": "49",
-        "nolan_net": "50",
+        "nolan_net": "48",
         "quadrant_1": "4-6",
-        "quadrant_2": "3-1",
-        "quadrant_3": "2-1",
+        "quadrant_2": "3-2",
+        "quadrant_3": "2-0",
         "quadrant_4": "6-0",
         "record": "15-8",
         "rpi": "29"
