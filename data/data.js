@@ -8,17 +8,17 @@
         "cbs_rank": "OUT"
     },
     "espn": {
-        "bpi": 48.0,
-        "chance_round_32": "19.3%",
-        "chance_sweet_16": "4.9%",
-        "non_con_sos": 174.0,
+        "bpi": 47.0,
+        "chance_round_32": "19.9%",
+        "chance_sweet_16": "5.0%",
+        "non_con_sos": 163.0,
         "proj_tourney_seed": 11.0,
-        "proj_win_loss_conf": "8.5-11.5",
-        "proj_win_loss_overall": "18.5-12.5",
-        "projected_tournament_order": 69.0,
-        "seven_day_change": "5th",
-        "sor": 46.0,
-        "sos": 39.0
+        "proj_win_loss_conf": "9.0-11.0",
+        "proj_win_loss_overall": "19.0-12.0",
+        "projected_tournament_order": 44.0,
+        "seven_day_change": "6th",
+        "sor": 44.0,
+        "sos": 34.0
     },
     "espn_bracketology": {
         "seed": "11"
@@ -47,11 +47,11 @@
         "net_rank": "48"
     },
     "next_game": {
-        "away_team": "Nebraska",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "Final",
-        "home_team": "Washington",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png"
+        "away_team": "Ohio State",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+        "date_time": "2/9 - 2:00 PM EST",
+        "home_team": "Nebraska",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
         "ap_rank": "NR",
@@ -60,7 +60,7 @@
     "seven_overtimes": {
         "projected_conf_record": "9-11",
         "projected_record": "19-12",
-        "ranking": "39"
+        "ranking": "43"
     },
     "shot_quality": {
         "sq_ranking": 48
@@ -77,12 +77,12 @@
         "rank": "50"
     },
     "time": {
-        "time": "Feb. 6, 2025 at 9:43 AM"
+        "time": "Feb. 6, 2025 at 4:23 PM"
     },
     "trank": {
         "torvik_NET": "46",
         "trank": 40,
-        "trank_make_tourney": 69.4,
+        "trank_make_tourney": 71.9,
         "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "10",
         "wab_rank": 42,
