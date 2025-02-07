@@ -1,8 +1,8 @@
 {
     "bracketproject": {
-        "matrix_count": 64,
+        "matrix_count": 69,
         "matrix_seed": 11,
-        "total_brackets": 92
+        "total_brackets": 93
     },
     "cbs": {
         "cbs_rank": "OUT"
@@ -24,11 +24,11 @@
         "seed": "11"
     },
     "evanmiya": {
-        "miya_rating": 53
+        "miya_rating": 46
     },
     "haslametrics": {
         "haslam_rating": 50,
-        "seed": "10"
+        "seed": "OUT"
     },
     "kenpom": {
         "conference_record": "9-11",
@@ -44,7 +44,7 @@
         "massey_rank": 46
     },
     "ncaa": {
-        "net_rank": "48"
+        "net_rank": "49"
     },
     "next_game": {
         "away_team": "Ohio State",
@@ -69,7 +69,7 @@
         "SRS_rank": 52
     },
     "teamrankings": {
-        "make_tournament": "70.2%",
+        "make_tournament": "69.0%",
         "most_likely_seed": "11",
         "proj_conf_record": "8.7-11.3",
         "projected_losses": "12.3",
@@ -77,26 +77,26 @@
         "rank": "50"
     },
     "time": {
-        "time": "Feb. 6, 2025 at 4:23 PM"
+        "time": "Feb. 7, 2025 at 9:24 AM"
     },
     "trank": {
         "torvik_NET": "46",
-        "trank": 40,
-        "trank_make_tourney": 71.9,
+        "trank": 41,
+        "trank_make_tourney": 70.1,
         "trank_proj_record": "19-12 (9-11)",
-        "trank_seed": "10",
+        "trank_seed": "11",
         "wab_rank": 42,
         "wab_score": "+1.4"
     },
     "warrennolan": {
         "current_conf_record": "5-7",
-        "elo": "49",
-        "nolan_net": "48",
+        "elo": "50",
+        "nolan_net": "49",
         "quadrant_1": "4-6",
         "quadrant_2": "3-2",
         "quadrant_3": "2-0",
         "quadrant_4": "6-0",
         "record": "15-8",
-        "rpi": "29"
+        "rpi": "30"
     }
 }
