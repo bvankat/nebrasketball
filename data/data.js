@@ -24,10 +24,10 @@
         "seed": "11"
     },
     "evanmiya": {
-        "miya_rating": 52
+        "miya_rating": 48
     },
     "haslametrics": {
-        "haslam_rating": 51,
+        "haslam_rating": 50,
         "seed": "10"
     },
     "kenpom": {
@@ -35,16 +35,16 @@
         "overall_record": "19-12",
         "rating": 40,
         "record": "15-8",
-        "sos": 26
+        "sos": 27
     },
     "kpi_sports": {
-        "kpi_ranking": 32
+        "kpi_ranking": 33
     },
     "massey_ratings": {
         "massey_rank": 46
     },
     "ncaa": {
-        "net_rank": "49"
+        "net_rank": "51"
     },
     "next_game": {
         "away_team": "Ohio State",
@@ -60,7 +60,7 @@
     "seven_overtimes": {
         "projected_conf_record": "9-11",
         "projected_record": "19-12",
-        "ranking": "41"
+        "ranking": "40"
     },
     "shot_quality": {
         "sq_ranking": 48
@@ -69,34 +69,34 @@
         "SRS_rank": 53
     },
     "teamrankings": {
-        "make_tournament": "69.2%",
+        "make_tournament": "75.6%",
         "most_likely_seed": "11",
         "proj_conf_record": "8.7-11.3",
         "projected_losses": "12.3",
         "projected_wins": "18.7",
-        "rank": "50"
+        "rank": "49"
     },
     "time": {
-        "time": "Feb. 8, 2025 at 6:23 PM"
+        "time": "Feb. 9, 2025 at 10:06 AM"
     },
     "trank": {
-        "torvik_NET": "46",
+        "torvik_NET": "48",
         "trank": 41,
-        "trank_make_tourney": 67.4,
+        "trank_make_tourney": 71.8,
         "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "10",
-        "wab_rank": 41,
+        "wab_rank": 39,
         "wab_score": "+1.6"
     },
     "warrennolan": {
         "current_conf_record": "5-7",
-        "elo": "51",
-        "nolan_net": "49",
+        "elo": "48",
+        "nolan_net": "51",
         "quadrant_1": "4-6",
         "quadrant_2": "3-2",
         "quadrant_3": "2-0",
         "quadrant_4": "6-0",
         "record": "15-8",
-        "rpi": "29"
+        "rpi": "30"
     }
 }
