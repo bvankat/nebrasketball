@@ -157,11 +157,13 @@
 	
 		// Loop through each game and create table rows
 		data.forEach(game => {
+			const resultClass = game.result === "W" ? "w" : game.result === "L" ? "l" : "";
+			
 			table += `<tr>
 						<td><span class="opponent-net">${game.opponent_NET}</span> ${game.opponent}</td>
 						<td>${game.location}</td>
 						<td class="text-end" style="padding-left: 10px;">${game.score}</td>
-						<td class="text-end" style="padding-left: 10px;">${game.result}</td>
+						<td class="text-end ${resultClass}" style="padding-left: 10px;">${game.result}</td>
 					  </tr>`;
 		});
 	
