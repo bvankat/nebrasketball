@@ -13101,6 +13101,105 @@
             "time": {
                 "time": "Feb. 9, 2025 at 5:06 PM"
             }
+        },
+        {
+            "kenpom": {
+                "rating": 39,
+                "record": "16-8",
+                "sos": 23,
+                "overall_record": "20-11",
+                "conference_record": "10-10"
+            },
+            "evanmiya": {
+                "miya_rating": 45,
+                "miya_resume_rank": 41,
+                "miya_resume_category": "Just In The Field"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "espn": {
+                "bpi": 43.0,
+                "seven_day_change": "5th",
+                "proj_tourney_seed": 10.0,
+                "proj_win_loss_overall": "19.6-11.4",
+                "proj_win_loss_conf": "9.6-10.4",
+                "sor": 40.0,
+                "sos": 32.0,
+                "non_con_sos": 162.0,
+                "chance_sweet_16": "5.4%",
+                "chance_round_32": "22.0%",
+                "projected_tournament_order": 40.0
+            },
+            "next_game": {
+                "home_team": "Nebraska",
+                "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+                "away_team": "Maryland",
+                "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+                "date_time": "2/13 - 8:30 PM EST"
+            },
+            "espn_bracketology": {
+                "seed": "11"
+            },
+            "ncaa": {
+                "net_rank": "49"
+            },
+            "teamrankings": {
+                "make_tournament": "88.7%",
+                "most_likely_seed": "10",
+                "rank": "47",
+                "projected_wins": "19.4",
+                "projected_losses": "11.6",
+                "proj_conf_record": "9.4-10.6"
+            },
+            "warrennolan": {
+                "record": "16-8",
+                "current_conf_record": "6-7",
+                "rpi": "25",
+                "elo": "40",
+                "quadrant_1": "5-6",
+                "quadrant_2": "3-2",
+                "quadrant_3": "2-0",
+                "quadrant_4": "6-0",
+                "nolan_net": "49"
+            },
+            "trank": {
+                "trank": 40,
+                "trank_proj_record": "20-11 (10-10)",
+                "trank_seed": "10",
+                "trank_make_tourney": 82.6,
+                "wab_score": "+2.0",
+                "wab_rank": 39,
+                "torvik_NET": "47"
+            },
+            "cbs": {
+                "cbs_rank": "10"
+            },
+            "haslametrics": {
+                "haslam_rating": 48,
+                "seed": "10"
+            },
+            "kpi_sports": {
+                "kpi_ranking": 31
+            },
+            "shot_quality": {
+                "sq_ranking": 46
+            },
+            "bracketproject": {
+                "matrix_count": 81,
+                "total_brackets": 86,
+                "matrix_seed": 11
+            },
+            "massey_ratings": {
+                "massey_rank": 40
+            },
+            "sports_reference": {
+                "SRS_rank": 45
+            },
+            "time": {
+                "time": "Feb. 10, 2025 at 10:25 AM"
+            }
         }
     ]
 }
