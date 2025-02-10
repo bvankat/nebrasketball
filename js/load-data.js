@@ -53,10 +53,10 @@
 	}
 
 	if ( data.warrennolan ) {
-		document.getElementById('warrennolan-group1').innerHTML = data.warrennolan.quadrant_1;
-		document.getElementById('warrennolan-group2').innerHTML = data.warrennolan.quadrant_2;
-		document.getElementById('warrennolan-group3').innerHTML = data.warrennolan.quadrant_3;
-		document.getElementById('warrennolan-group4').innerHTML = data.warrennolan.quadrant_4;
+	//	document.getElementById('warrennolan-group1').innerHTML = data.warrennolan.quadrant_1;
+	//	document.getElementById('warrennolan-group2').innerHTML = data.warrennolan.quadrant_2;
+	//	document.getElementById('warrennolan-group3').innerHTML = data.warrennolan.quadrant_3;
+	//	document.getElementById('warrennolan-group4').innerHTML = data.warrennolan.quadrant_4;
 		document.getElementById('nolan-rpi').innerHTML = data.warrennolan.rpi;
 		document.getElementById('nolan-elo').innerHTML = data.warrennolan.elo;
 		}
@@ -137,7 +137,44 @@
 		document.getElementById('7OT-conference-record').innerHTML = data.seven_overtimes.projected_conf_record;
 	}
 	
+	if ( data.bballnet_quadrants ) {
+		document.getElementById('NET_quadrants_Q1_record').innerHTML = data.bballnet_quadrants.quad1record;
+		document.getElementById('NET_quadrants_Q2_record').innerHTML = data.bballnet_quadrants.quad2record;
+		document.getElementById('NET_quadrants_Q3_record').innerHTML = data.bballnet_quadrants.quad3record;
+		document.getElementById('NET_quadrants_Q4_record').innerHTML = data.bballnet_quadrants.quad4record;
+		document.getElementById('NET_quadrants_quad1_games').innerHTML = data.bballnet_quadrants.quad1_games;
+		document.getElementById('NET_quadrants_quad2_games').innerHTML = data.bballnet_quadrants.quad2_games;
+		document.getElementById('NET_quadrants_quad3_games').innerHTML = data.bballnet_quadrants.quad3_games;
+		document.getElementById('NET_quadrants_quad4_games').innerHTML = data.bballnet_quadrants.quad4_games;
+	}
+	
 	document.getElementById('time').innerHTML = data.time.time;
+
+
+	function generateTable(data, containerId) {
+		let table = `<table class="quad-games">
+						<tbody>`;
+	
+		// Loop through each game and create table rows
+		data.forEach(game => {
+			table += `<tr>
+						<td><span class="opponent-net">${game.opponent_NET}</span> ${game.opponent}</td>
+						<td class="text-end" style="padding-left: 10px;">${game.score}</td>
+						<td class="text-end" style="padding-left: 10px;">${game.result}</td>
+					  </tr>`;
+		});
+	
+		table += `</tbody></table>`;
+	
+		// Insert table into the div
+		document.getElementById(containerId).innerHTML = table;
+	}
+	
+	// Call the function to render the table
+	generateTable(data.bballnet_quadrants.quad1_games, "NET_quadrants_quad1_games");
+	generateTable(data.bballnet_quadrants.quad2_games, "NET_quadrants_quad2_games");
+	generateTable(data.bballnet_quadrants.quad3_games, "NET_quadrants_quad3_games");
+	generateTable(data.bballnet_quadrants.quad4_games, "NET_quadrants_quad4_games");
 
 
 
