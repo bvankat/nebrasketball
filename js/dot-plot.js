@@ -26,7 +26,7 @@ const data = {
     SRS: parseInt(ratings_data.sports_reference.SRS_rank),
     Haslametrics: parseInt(ratings_data.haslametrics.haslam_rating),
     Miyakawa: parseInt(ratings_data.evanmiya.miya_rating),
-    "7OT": parseInt(ratings_data.seven_overtimes.ranking),
+//    "7OT": parseInt(ratings_data.seven_overtimes.ranking),
     SQ: parseInt(ratings_data.shot_quality.sq_ranking),
 }
 
