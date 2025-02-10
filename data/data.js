@@ -273,10 +273,10 @@
         "kpi_ranking": 31
     },
     "massey_ratings": {
-        "massey_rank": 40
+        "massey_rank": 39
     },
     "ncaa": {
-        "net_rank": "49"
+        "net_rank": "51"
     },
     "next_game": {
         "away_team": "Maryland",
@@ -304,7 +304,7 @@
         "rank": "47"
     },
     "time": {
-        "time": "Feb. 10, 2025 at 2:02 PM"
+        "time": "Feb. 10, 2025 at 3:09 PM"
     },
     "trank": {
         "torvik_NET": "47",
