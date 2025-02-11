@@ -131,12 +131,6 @@
 		document.getElementById('massey-rank').innerHTML = data.massey_ratings.massey_rank;
 	}
 	
-	if ( data.seven_overtimes ) {
-		document.getElementById('7OT-ranking').innerHTML = data.seven_overtimes.ranking;
-		document.getElementById('7OT-record').innerHTML = data.seven_overtimes.projected_record;
-		document.getElementById('7OT-conference-record').innerHTML = data.seven_overtimes.projected_conf_record;
-	}
-	
 	if ( data.bballnet_quadrants ) {
 		document.getElementById('NET_quadrants_Q1_record').innerHTML = data.bballnet_quadrants.quad1record;
 		document.getElementById('NET_quadrants_Q2_record').innerHTML = data.bballnet_quadrants.quad2record;
