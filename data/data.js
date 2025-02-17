@@ -299,13 +299,9 @@
     "next_game": {
         "away_team": "Nebraska",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "Final",
-        "home_team": "Northwestern",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png"
-    },
-    "polls": {
-        "ap_rank": "NR",
-        "coaches_rank": "NR"
+        "date_time": "2/19 - 6:30 PM EST",
+        "home_team": "Penn State",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png"
     },
     "shot_quality": {
         "sq_ranking": 48
@@ -322,12 +318,12 @@
         "rank": "46"
     },
     "time": {
-        "time": "Feb. 17, 2025 at 8:57 AM"
+        "time": "Feb. 17, 2025 at 12:24 PM"
     },
     "trank": {
         "torvik_NET": "41",
         "trank": 44,
-        "trank_make_tourney": 84.2,
+        "trank_make_tourney": 87.7,
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "10",
         "wab_rank": 35,
