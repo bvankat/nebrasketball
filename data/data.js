@@ -303,6 +303,10 @@
         "home_team": "Penn State",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png"
     },
+    "polls": {
+        "ap_rank": "NR",
+        "coaches_rank": "NR"
+    },
     "shot_quality": {
         "sq_ranking": 48
     },
@@ -318,7 +322,7 @@
         "rank": "46"
     },
     "time": {
-        "time": "Feb. 17, 2025 at 12:24 PM"
+        "time": "Feb. 17, 2025 at 2:51 PM"
     },
     "trank": {
         "torvik_NET": "41",
