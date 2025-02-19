@@ -248,9 +248,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 96,
-        "matrix_seed": 10,
-        "total_brackets": 97
+        "matrix_count": 104,
+        "matrix_seed": 9,
+        "total_brackets": 104
     },
     "cbs": {
         "cbs_rank": "9"
@@ -277,7 +277,7 @@
         "miya_resume_rank": 38
     },
     "haslametrics": {
-        "haslam_rating": 48,
+        "haslam_rating": 49,
         "seed": "9"
     },
     "kenpom": {
@@ -285,7 +285,7 @@
         "overall_record": "20-11",
         "rating": 37,
         "record": "17-9",
-        "sos": 24
+        "sos": 26
     },
     "kpi_sports": {
         "kpi_ranking": 32
@@ -308,13 +308,13 @@
         "coaches_rank": "NR"
     },
     "shot_quality": {
-        "sq_ranking": 50
+        "sq_ranking": 49
     },
     "sports_reference": {
         "SRS_rank": 45
     },
     "teamrankings": {
-        "make_tournament": "91.8%",
+        "make_tournament": "91.2%",
         "most_likely_seed": "10",
         "proj_conf_record": "9.6-10.4",
         "projected_losses": "11.4",
@@ -322,7 +322,7 @@
         "rank": "46"
     },
     "time": {
-        "time": "Feb. 18, 2025 at 11:14 AM"
+        "time": "Feb. 19, 2025 at 3:12 AM"
     },
     "trank": {
         "torvik_NET": "43",
@@ -331,7 +331,7 @@
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "10",
         "wab_rank": 35,
-        "wab_score": "+1.9"
+        "wab_score": "+1.8"
     },
     "warrennolan": {
         "current_conf_record": "7-8",
@@ -342,6 +342,6 @@
         "quadrant_3": "2-1",
         "quadrant_4": "6-0",
         "record": "17-9",
-        "rpi": "34"
+        "rpi": "33"
     }
 }
