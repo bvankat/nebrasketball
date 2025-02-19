@@ -93,6 +93,10 @@
 		document.getElementById('miya-resume-category').innerHTML = data.evanmiya.miya_resume_category;
 	}
 	
+	if ( data.bauertology ) {
+		document.getElementById('bauertology-BRCT').innerHTML = data.bauertology.BRCT_rank;
+	}
+	
 	if ( data.shot_quality ) {
 		document.getElementById('sq-ranking').innerHTML = data.shot_quality.sq_ranking;
 	}
@@ -227,6 +231,7 @@
 	 
 	 if( data.kpi_sports ) { kpi_score = FindScore(data.kpi_sports.kpi_ranking); }
 	 if (data.warrennolan ) { rpi_score = FindScore(data.warrennolan.rpi); }
+	 if (data.bauertology ) { bauertology_score = FindScore(data.bauertology.BRCT_rank); }
 	 
 	 
 	 // Intangibles: Don't think any of the systems has a way to value injuries and/or hype, so we need to add it. Check out sports-reference Win Shares, perhaps, for injuries data points. 
