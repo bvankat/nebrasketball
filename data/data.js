@@ -1,4 +1,7 @@
 {
+    "bauertology": {
+        "BRCT_rank": "42"
+    },
     "bballnet_quadrants": {
         "quad1_games": [
             {
@@ -248,25 +251,25 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 104,
+        "matrix_count": 103,
         "matrix_seed": 9,
-        "total_brackets": 104
+        "total_brackets": 103
     },
     "cbs": {
         "cbs_rank": "9"
     },
     "espn": {
         "bpi": 43.0,
-        "chance_round_32": "29.7%",
-        "chance_sweet_16": "8.1%",
+        "chance_round_32": "29.6%",
+        "chance_sweet_16": "7.6%",
         "non_con_sos": 167.0,
-        "proj_tourney_seed": 10.0,
+        "proj_tourney_seed": 9.0,
         "proj_win_loss_conf": "9.8-10.2",
         "proj_win_loss_overall": "19.8-11.2",
-        "projected_tournament_order": 37.0,
-        "seven_day_change": "1st",
-        "sor": 37.0,
-        "sos": 30.0
+        "projected_tournament_order": 36.0,
+        "seven_day_change": "",
+        "sor": 36.0,
+        "sos": 33.0
     },
     "espn_bracketology": {
         "seed": "10"
@@ -278,20 +281,17 @@
     },
     "haslametrics": {
         "haslam_rating": 49,
-        "seed": "OUT"
+        "seed": "PI11"
     },
     "kenpom": {
-        "conference_record": "10-10",
-        "overall_record": "20-11",
-        "rating": 37,
-        "record": "17-9",
+        "conference_record": "9-11",
+        "overall_record": "19-12",
+        "rating": 43,
+        "record": "17-10",
         "sos": 26
     },
     "kpi_sports": {
         "kpi_ranking": 32
-    },
-    "massey_ratings": {
-        "massey_rank": 40
     },
     "ncaa": {
         "net_rank": "46"
@@ -299,7 +299,7 @@
     "next_game": {
         "away_team": "Nebraska",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "2/19 - 6:30 PM EST",
+        "date_time": "Final",
         "home_team": "Penn State",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png"
     },
@@ -308,40 +308,40 @@
         "coaches_rank": "NR"
     },
     "shot_quality": {
-        "sq_ranking": 49
+        "sq_ranking": 48
     },
     "sports_reference": {
         "SRS_rank": 46
     },
     "teamrankings": {
-        "make_tournament": "90.2%",
+        "make_tournament": "85.4%",
         "most_likely_seed": "10",
-        "proj_conf_record": "9.6-10.4",
-        "projected_losses": "11.4",
-        "projected_wins": "19.6",
-        "rank": "46"
+        "proj_conf_record": "9.1-10.9",
+        "projected_losses": "11.9",
+        "projected_wins": "19.1",
+        "rank": "49"
     },
     "time": {
-        "time": "Feb. 19, 2025 at 10:47 AM"
+        "time": "Feb. 20, 2025 at 1:13 AM"
     },
     "trank": {
-        "torvik_NET": "43",
-        "trank": 44,
+        "torvik_NET": "46",
+        "trank": 54,
         "trank_make_tourney": 85.8,
-        "trank_proj_record": "20-11 (10-10)",
+        "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "10",
-        "wab_rank": 35,
-        "wab_score": "+1.8"
+        "wab_rank": 41,
+        "wab_score": "+1.3"
     },
     "warrennolan": {
-        "current_conf_record": "7-8",
-        "elo": "45",
+        "current_conf_record": "7-9",
+        "elo": "56",
         "nolan_net": "46",
         "quadrant_1": "6-7",
-        "quadrant_2": "3-1",
+        "quadrant_2": "3-2",
         "quadrant_3": "2-1",
         "quadrant_4": "6-0",
-        "record": "17-9",
-        "rpi": "33"
+        "record": "17-10",
+        "rpi": "35"
     }
 }
