@@ -274,6 +274,7 @@
 		if (typeof data.kenpom.rating !== 'undefined') raw_rankings.Kenpom = data.kenpom.rating;
 		if (typeof data.trank.trank !== 'undefined') raw_rankings.Torvik = data.trank.trank;
 		if (typeof data.trank.wab_rank !== 'undefined') raw_rankings.WAB = data.trank.wab_rank;
+		if (typeof data.bauertology.BRCT_rank !== 'undefined') raw_rankings.Bauer = parseInt(data.bauertology.BRCT_rank);
 		
 		
 		// Initialize an array to hold the values that exist
@@ -336,6 +337,11 @@
 		if (wab_score) { 
 			const WAB_pct = { metric: "WAB", type: "results-based", pct: wab_score };
 			percentages.WAB = WAB_pct;
+		}
+		
+		if (bauertology_score) { 
+			const Bauer_pct = { metric: "Bauertology BRCT", type: "combo", pct: bauertology_score };
+			percentages.Bauer = Bauer_pct;
 		}
 		
 		
