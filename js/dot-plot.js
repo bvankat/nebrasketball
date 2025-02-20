@@ -28,7 +28,7 @@ const data = {
     Miyakawa: parseInt(ratings_data.evanmiya.miya_rating),
 //    "7OT": parseInt(ratings_data.seven_overtimes.ranking),
     SQ: parseInt(ratings_data.shot_quality.sq_ranking),
-    Bauer: parseInt(ratings_data.bauertology.BRCT_rank),
+    Bauertology: parseInt(ratings_data.bauertology.BRCT_rank),
 }
 
 // Determine the highest data point
