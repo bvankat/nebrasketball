@@ -25,6 +25,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
     - __2021__ — NET: 72, SOR: 66, KPI: 64, BPI: 97, KenPom: 74, Sagarin: 70 ([#](https://barttorvik.com/teamsheets.php?year=2021))
     - __2022__ — NET: 77, SOR: 52, KPI: 64, BPI: 74, KenPom: 74, Sagarin: 64 ([#](https://barttorvik.com/teamsheets.php?year=2022))
     - __2023__ — NET: 67, SOR: 54, KPI: 66, BPI: 72, KenPom: 77, Sagarin: 84 ([#](https://barttorvik.com/teamsheets.php?year=2023))
+    - __2024__ — NET: 54, SOR: 61, KPI: 59, BPI: 71, KenPom: 54 ([#](https://barttorvik.com/teamsheets.php?year=2024))
 - Since 2018 when NET started: Worst SOR/KPI average to get at-large bid was 57.5 (2022 Rutgers)
 - Lowest NET ranking to get bid: 77 in 2022 (Rutgers), Lowest RPI: 74 in 1999
 - 2022: Last 4 In: Wyoming (NET 50), Rutgers (77), Indiana (38), Notre Dame (53)
@@ -41,7 +42,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 
 *Compiling some data on teams that didn't make the tournament*
 
-- No team with 6+ Q1 wins and < 15 losses has been left out ([#](https://x.com/kerrancejames/status/1765372030629622000?s=20))
+- Only 1 team with 6+ Q1 wins and < 15 losses has been left out — 2024 Providence. ([#](https://barttorvik.com/team.php?team=Providence&year=2024))([#](https://x.com/kerrancejames/status/1765372030629622000?s=20))
 
 #### By Year
 - __2021__ — Kenpom: Highest-ranked teams left out: 33 Duke, 35 Penn State, 38 Memphis, 43 Arizona, 46 Indiana ([#](https://twitter.com/TomFornelli/status/1371231719278456838))
