@@ -290,7 +290,7 @@
     },
     "haslametrics": {
         "haslam_rating": 55,
-        "seed": "OUT"
+        "seed": "11"
     },
     "kenpom": {
         "conference_record": "9-11",
@@ -320,7 +320,7 @@
         "coaches_rank": "NR"
     },
     "shot_quality": {
-        "sq_ranking": 51
+        "sq_ranking": 50
     },
     "sports_reference": {
         "SRS_rank": 51
@@ -334,7 +334,7 @@
         "rank": "50"
     },
     "time": {
-        "time": "Feb. 21, 2025 at 11:11 AM"
+        "time": "Feb. 21, 2025 at 2:26 PM"
     },
     "trank": {
         "torvik_NET": "50",
