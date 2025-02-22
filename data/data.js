@@ -260,9 +260,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 108,
-        "matrix_seed": 9,
-        "total_brackets": 108
+        "matrix_count": 113,
+        "matrix_seed": 10,
+        "total_brackets": 113
     },
     "cbs": {
         "cbs_rank": "10"
@@ -290,14 +290,14 @@
     },
     "haslametrics": {
         "haslam_rating": 55,
-        "seed": "11"
+        "seed": "OUT"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "19-12",
         "rating": 43,
         "record": "17-10",
-        "sos": 25
+        "sos": 26
     },
     "kpi_sports": {
         "kpi_ranking": 33
@@ -306,7 +306,7 @@
         "massey_rank": 40
     },
     "ncaa": {
-        "net_rank": "52"
+        "net_rank": "53"
     },
     "next_game": {
         "away_team": "Michigan",
@@ -320,13 +320,13 @@
         "coaches_rank": "NR"
     },
     "shot_quality": {
-        "sq_ranking": 50
+        "sq_ranking": 51
     },
     "sports_reference": {
         "SRS_rank": 51
     },
     "teamrankings": {
-        "make_tournament": "83.9%",
+        "make_tournament": "84.6%",
         "most_likely_seed": "10",
         "proj_conf_record": "9.1-10.9",
         "projected_losses": "11.9",
@@ -334,16 +334,16 @@
         "rank": "50"
     },
     "time": {
-        "time": "Feb. 21, 2025 at 2:26 PM"
+        "time": "Feb. 22, 2025 at 3:01 AM"
     },
     "trank": {
-        "torvik_NET": "50",
-        "trank": 54,
+        "torvik_NET": "55",
+        "trank": 55,
         "trank_make_tourney": 58.7,
         "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "11",
         "wab_rank": 41,
-        "wab_score": "+1.3"
+        "wab_score": "+1.2"
     },
     "warrennolan": {
         "current_conf_record": "7-9",
