@@ -95,6 +95,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - "How much better is this team than an average bubble team?"
 - Example: Team A wins a game at the best team in the country. The expected wins (i.e., win probability) in that matchup for an average bubble team on the road might be 20%. So take that actual 1.0 wins, subtract 0.20 expected wins, and get +0.80 Wins Above Bubble. Add up the number for all games to calculate WAB.
 - Added to team sheets for 2024-25 season
+- KPI, similarly, assigns a value to each game, not sure if the formula is public, though. Miyakawa added a similar metric for 25: Resume Quality.
 - [LINK](https://barttorvik.com/)
 
 
