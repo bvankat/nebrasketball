@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "43"
+        "BRCT_rank": "44"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -260,9 +260,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 105,
+        "matrix_count": 86,
         "matrix_seed": 10,
-        "total_brackets": 105
+        "total_brackets": 87
     },
     "cbs": {
         "cbs_rank": "10"
@@ -284,20 +284,20 @@
         "seed": "10"
     },
     "evanmiya": {
-        "miya_rating": 56,
+        "miya_rating": 55,
         "miya_resume_category": "Just Out Of The Field",
         "miya_resume_rank": 48
     },
     "haslametrics": {
-        "haslam_rating": 57,
-        "seed": "OUT"
+        "haslam_rating": 58,
+        "seed": "10"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "19-12",
-        "rating": 46,
+        "rating": 47,
         "record": "17-10",
-        "sos": 26
+        "sos": 25
     },
     "kpi_sports": {
         "kpi_ranking": 33
@@ -320,13 +320,13 @@
         "coaches_rank": "NR"
     },
     "shot_quality": {
-        "sq_ranking": 56
+        "sq_ranking": 54
     },
     "sports_reference": {
         "SRS_rank": 54
     },
     "teamrankings": {
-        "make_tournament": "86.6%",
+        "make_tournament": "86.2%",
         "most_likely_seed": "10",
         "proj_conf_record": "9.1-10.9",
         "projected_losses": "11.9",
@@ -334,12 +334,12 @@
         "rank": "50"
     },
     "time": {
-        "time": "Feb. 23, 2025 at 11:35 AM"
+        "time": "Feb. 23, 2025 at 11:57 PM"
     },
     "trank": {
-        "torvik_NET": "50",
-        "trank": 56,
-        "trank_make_tourney": 51.2,
+        "torvik_NET": "53",
+        "trank": 54,
+        "trank_make_tourney": 51.0,
         "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "11",
         "wab_rank": 42,
@@ -347,7 +347,7 @@
     },
     "warrennolan": {
         "current_conf_record": "7-9",
-        "elo": "54",
+        "elo": "55",
         "nolan_net": "54",
         "quadrant_1": "5-8",
         "quadrant_2": "4-1",
