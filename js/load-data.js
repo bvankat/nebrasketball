@@ -239,8 +239,8 @@
 	 // Quad 3 losses: -5 each
 	 // Quad 1 blowouts: -3 each?
 	 
-	 let intangibles = -5;
-	 let intangibles_msg = "Rutgers Q3 home loss";
+	 let intangibles = 0;
+	 let intangibles_msg = "";
 	 
 	 
 	 
