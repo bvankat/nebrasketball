@@ -334,16 +334,16 @@
         "rank": "50"
     },
     "time": {
-        "time": "Feb. 24, 2025 at 10:55 PM"
+        "time": "Feb. 24, 2025 at 11:34 PM"
     },
     "trank": {
-        "torvik_NET": "58",
+        "torvik_NET": "59",
         "trank": 54,
         "trank_make_tourney": 50.1,
         "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "12",
         "wab_rank": 46,
-        "wab_score": "+0.45"
+        "wab_score": "+0.44"
     },
     "warrennolan": {
         "current_conf_record": "7-10",
