@@ -269,8 +269,8 @@
     },
     "espn": {
         "bpi": 47.0,
-        "chance_round_32": "20.2%",
-        "chance_sweet_16": "4.6%",
+        "chance_round_32": "19.0%",
+        "chance_sweet_16": "5.1%",
         "non_con_sos": 169.0,
         "proj_tourney_seed": 11.0,
         "proj_win_loss_conf": "9.3-10.7",
@@ -334,7 +334,7 @@
         "rank": "50"
     },
     "time": {
-        "time": "Feb. 24, 2025 at 11:34 PM"
+        "time": "Feb. 25, 2025 at 12:07 AM"
     },
     "trank": {
         "torvik_NET": "59",
@@ -343,7 +343,7 @@
         "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "12",
         "wab_rank": 46,
-        "wab_score": "+0.44"
+        "wab_score": "+0.45"
     },
     "warrennolan": {
         "current_conf_record": "7-10",
