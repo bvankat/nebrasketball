@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "44"
+        "BRCT_rank": "46"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -44,7 +44,7 @@
                 "date": "01/07/2025",
                 "location": "Away",
                 "opponent": "Iowa",
-                "opponent_NET": "64",
+                "opponent_NET": "65",
                 "opponent_rank": null,
                 "result": "L",
                 "score": "87-97*"
@@ -120,9 +120,18 @@
                 "opponent_rank": null,
                 "result": "L",
                 "score": "72-89"
+            },
+            {
+                "date": "02/24/2025",
+                "location": "Home",
+                "opponent": "Michigan",
+                "opponent_NET": "21",
+                "opponent_rank": "15",
+                "result": "L",
+                "score": "46-49"
             }
         ],
-        "quad1record": "5-8",
+        "quad1record": "5-9",
         "quad2_games": [
             {
                 "date": "12/13/2024",
@@ -194,7 +203,7 @@
                 "date": "12/23/2024",
                 "location": "Away",
                 "opponent": "Hawaii",
-                "opponent_NET": "216",
+                "opponent_NET": "215",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "69-55"
@@ -206,7 +215,7 @@
                 "date": "11/04/2024",
                 "location": "Home",
                 "opponent": "UTRGV",
-                "opponent_NET": "238",
+                "opponent_NET": "247",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "87-67"
@@ -215,7 +224,7 @@
                 "date": "11/09/2024",
                 "location": "Home",
                 "opponent": "Bethune-Cookman",
-                "opponent_NET": "276",
+                "opponent_NET": "272",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "63-58"
@@ -224,7 +233,7 @@
                 "date": "11/13/2024",
                 "location": "Home",
                 "opponent": "FDU",
-                "opponent_NET": "310",
+                "opponent_NET": "309",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-60"
@@ -242,7 +251,7 @@
                 "date": "12/01/2024",
                 "location": "Home",
                 "opponent": "North Florida",
-                "opponent_NET": "241",
+                "opponent_NET": "240",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "103-72"
@@ -281,12 +290,12 @@
         "sos": 34.0
     },
     "espn_bracketology": {
-        "seed": "10"
+        "seed": "11"
     },
     "evanmiya": {
         "miya_rating": 54,
         "miya_resume_category": "Just In The Field",
-        "miya_resume_rank": 41
+        "miya_resume_rank": 45
     },
     "haslametrics": {
         "haslam_rating": 58,
@@ -300,10 +309,10 @@
         "sos": 23
     },
     "kpi_sports": {
-        "kpi_ranking": 34
+        "kpi_ranking": 35
     },
     "massey_ratings": {
-        "massey_rank": 47
+        "massey_rank": 46
     },
     "ncaa": {
         "net_rank": "54"
@@ -320,30 +329,30 @@
         "coaches_rank": "NR"
     },
     "shot_quality": {
-        "sq_ranking": 55
+        "sq_ranking": 56
     },
     "sports_reference": {
-        "SRS_rank": 56
+        "SRS_rank": 55
     },
     "teamrankings": {
-        "make_tournament": "86.3%",
-        "most_likely_seed": "10",
-        "proj_conf_record": "9.1-10.9",
-        "projected_losses": "11.9",
-        "projected_wins": "19.1",
+        "make_tournament": "78.2%",
+        "most_likely_seed": "11",
+        "proj_conf_record": "8.7-11.3",
+        "projected_losses": "12.3",
+        "projected_wins": "18.7",
         "rank": "50"
     },
     "time": {
-        "time": "Feb. 25, 2025 at 12:07 AM"
+        "time": "Feb. 25, 2025 at 9:28 AM"
     },
     "trank": {
-        "torvik_NET": "59",
+        "torvik_NET": "55",
         "trank": 54,
-        "trank_make_tourney": 50.1,
+        "trank_make_tourney": 35.8,
         "trank_proj_record": "19-12 (9-11)",
-        "trank_seed": "12",
+        "trank_seed": "11",
         "wab_rank": 46,
-        "wab_score": "+0.45"
+        "wab_score": "+0.44"
     },
     "warrennolan": {
         "current_conf_record": "7-10",
