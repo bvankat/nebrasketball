@@ -269,31 +269,31 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 103,
+        "matrix_count": 114,
         "matrix_seed": 10,
-        "total_brackets": 105
+        "total_brackets": 116
     },
     "cbs": {
         "cbs_rank": "10"
     },
     "espn": {
-        "bpi": 47.0,
-        "chance_round_32": "19.0%",
-        "chance_sweet_16": "5.1%",
-        "non_con_sos": 169.0,
-        "proj_tourney_seed": 11.0,
-        "proj_win_loss_conf": "9.3-10.7",
-        "proj_win_loss_overall": "19.3-11.7",
-        "projected_tournament_order": 42.0,
-        "seven_day_change": "Tied-5th",
-        "sor": 42.0,
-        "sos": 34.0
+        "bpi": 49.0,
+        "chance_round_32": "14.6%",
+        "chance_sweet_16": "3.6%",
+        "non_con_sos": 170.0,
+        "proj_tourney_seed": 12.0,
+        "proj_win_loss_conf": "8.7-11.3",
+        "proj_win_loss_overall": "18.7-12.3",
+        "projected_tournament_order": 70.0,
+        "seven_day_change": "Tied-6th",
+        "sor": 48.0,
+        "sos": 31.0
     },
     "espn_bracketology": {
         "seed": "11"
     },
     "evanmiya": {
-        "miya_rating": 54,
+        "miya_rating": 52,
         "miya_resume_category": "Just In The Field",
         "miya_resume_rank": 45
     },
@@ -318,9 +318,9 @@
         "net_rank": "54"
     },
     "next_game": {
-        "away_team": "Michigan",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
-        "date_time": "Final",
+        "away_team": "Minnesota",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+        "date_time": "3/1 - 2:00 PM EST",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -343,16 +343,16 @@
         "rank": "50"
     },
     "time": {
-        "time": "Feb. 25, 2025 at 9:28 AM"
+        "time": "Feb. 25, 2025 at 11:08 PM"
     },
     "trank": {
-        "torvik_NET": "55",
+        "torvik_NET": "56",
         "trank": 54,
         "trank_make_tourney": 35.8,
         "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "11",
-        "wab_rank": 46,
-        "wab_score": "+0.44"
+        "wab_rank": 47,
+        "wab_score": "+0.46"
     },
     "warrennolan": {
         "current_conf_record": "7-10",
@@ -363,6 +363,6 @@
         "quadrant_3": "2-0",
         "quadrant_4": "6-0",
         "record": "17-11",
-        "rpi": "39"
+        "rpi": "40"
     }
 }
