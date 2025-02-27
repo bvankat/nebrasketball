@@ -17,7 +17,7 @@
                 "date": "11/22/2024",
                 "location": "Away",
                 "opponent": "Creighton",
-                "opponent_NET": "34",
+                "opponent_NET": "37",
                 "opponent_rank": "14",
                 "result": "W",
                 "score": "74-63"
@@ -26,7 +26,7 @@
                 "date": "12/07/2024",
                 "location": "Away",
                 "opponent": "Michigan St.",
-                "opponent_NET": "15",
+                "opponent_NET": "13",
                 "opponent_rank": null,
                 "result": "L",
                 "score": "52-89"
@@ -35,7 +35,7 @@
                 "date": "01/04/2025",
                 "location": "Home",
                 "opponent": "UCLA",
-                "opponent_NET": "26",
+                "opponent_NET": "25",
                 "opponent_rank": "15",
                 "result": "W",
                 "score": "66-58"
@@ -44,7 +44,7 @@
                 "date": "01/07/2025",
                 "location": "Away",
                 "opponent": "Iowa",
-                "opponent_NET": "67",
+                "opponent_NET": "66",
                 "opponent_rank": null,
                 "result": "L",
                 "score": "87-97*"
@@ -53,7 +53,7 @@
                 "date": "01/12/2025",
                 "location": "Away",
                 "opponent": "Purdue",
-                "opponent_NET": "19",
+                "opponent_NET": "18",
                 "opponent_rank": "20",
                 "result": "L",
                 "score": "68-104"
@@ -62,7 +62,7 @@
                 "date": "01/19/2025",
                 "location": "Away",
                 "opponent": "Maryland",
-                "opponent_NET": "13",
+                "opponent_NET": "15",
                 "opponent_rank": null,
                 "result": "L",
                 "score": "66-69"
@@ -98,7 +98,7 @@
                 "date": "02/13/2025",
                 "location": "Home",
                 "opponent": "Maryland",
-                "opponent_NET": "13",
+                "opponent_NET": "15",
                 "opponent_rank": "25",
                 "result": "L",
                 "score": "75-83"
@@ -116,7 +116,7 @@
                 "date": "02/19/2025",
                 "location": "Away",
                 "opponent": "Penn St.",
-                "opponent_NET": "69",
+                "opponent_NET": "68",
                 "opponent_rank": null,
                 "result": "L",
                 "score": "72-89"
@@ -146,7 +146,7 @@
                 "date": "12/25/2024",
                 "location": "Neutral",
                 "opponent": "Oregon St.",
-                "opponent_NET": "79",
+                "opponent_NET": "81",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "78-66"
@@ -155,7 +155,7 @@
                 "date": "01/16/2025",
                 "location": "Home",
                 "opponent": "Rutgers",
-                "opponent_NET": "74",
+                "opponent_NET": "75",
                 "opponent_rank": null,
                 "result": "L",
                 "score": "82-85"
@@ -164,7 +164,7 @@
                 "date": "01/22/2025",
                 "location": "Home",
                 "opponent": "Southern California",
-                "opponent_NET": "72",
+                "opponent_NET": "73",
                 "opponent_rank": null,
                 "result": "L",
                 "score": "73-78"
@@ -173,7 +173,7 @@
                 "date": "02/05/2025",
                 "location": "Away",
                 "opponent": "Washington",
-                "opponent_NET": "99",
+                "opponent_NET": "100",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-72"
@@ -182,7 +182,7 @@
                 "date": "02/09/2025",
                 "location": "Home",
                 "opponent": "Ohio St.",
-                "opponent_NET": "35",
+                "opponent_NET": "33",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "79-71"
@@ -194,7 +194,7 @@
                 "date": "12/22/2024",
                 "location": "Neutral",
                 "opponent": "Murray St.",
-                "opponent_NET": "143",
+                "opponent_NET": "145",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "66-49"
@@ -203,7 +203,7 @@
                 "date": "12/23/2024",
                 "location": "Away",
                 "opponent": "Hawaii",
-                "opponent_NET": "216",
+                "opponent_NET": "217",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "69-55"
@@ -215,7 +215,7 @@
                 "date": "11/04/2024",
                 "location": "Home",
                 "opponent": "UTRGV",
-                "opponent_NET": "246",
+                "opponent_NET": "247",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "87-67"
@@ -233,7 +233,7 @@
                 "date": "11/13/2024",
                 "location": "Home",
                 "opponent": "FDU",
-                "opponent_NET": "309",
+                "opponent_NET": "308",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-60"
@@ -242,7 +242,7 @@
                 "date": "11/27/2024",
                 "location": "Home",
                 "opponent": "South Dakota",
-                "opponent_NET": "234",
+                "opponent_NET": "233",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "96-79"
@@ -251,7 +251,7 @@
                 "date": "12/01/2024",
                 "location": "Home",
                 "opponent": "North Florida",
-                "opponent_NET": "240",
+                "opponent_NET": "250",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "103-72"
@@ -260,7 +260,7 @@
                 "date": "12/30/2024",
                 "location": "Home",
                 "opponent": "Southern U.",
-                "opponent_NET": "211",
+                "opponent_NET": "213",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "77-43"
@@ -277,15 +277,15 @@
         "cbs_rank": "10"
     },
     "espn": {
-        "bpi": 51.0,
+        "bpi": 52.0,
         "chance_round_32": "14.0%",
         "chance_sweet_16": "3.8%",
-        "non_con_sos": 168.0,
+        "non_con_sos": 171.0,
         "proj_tourney_seed": 12.0,
         "proj_win_loss_conf": "8.8-11.2",
         "proj_win_loss_overall": "18.8-12.2",
         "projected_tournament_order": 70.0,
-        "seven_day_change": "Tied-8th",
+        "seven_day_change": "Tied-4th",
         "sor": 49.0,
         "sos": 33.0
     },
@@ -293,9 +293,9 @@
         "seed": "11"
     },
     "evanmiya": {
-        "miya_rating": 54,
-        "miya_resume_category": "Just In The Field",
-        "miya_resume_rank": 47
+        "miya_rating": 53,
+        "miya_resume_category": "Just Out Of The Field",
+        "miya_resume_rank": 48
     },
     "haslametrics": {
         "haslam_rating": 56,
@@ -311,11 +311,8 @@
     "kpi_sports": {
         "kpi_ranking": 37
     },
-    "massey_ratings": {
-        "massey_rank": 45
-    },
     "ncaa": {
-        "net_rank": "53"
+        "net_rank": "54"
     },
     "next_game": {
         "away_team": "Minnesota",
@@ -332,10 +329,10 @@
         "sq_ranking": 57
     },
     "sports_reference": {
-        "SRS_rank": 54
+        "SRS_rank": 53
     },
     "teamrankings": {
-        "make_tournament": "74.2%",
+        "make_tournament": "74.9%",
         "most_likely_seed": "11",
         "proj_conf_record": "8.7-11.3",
         "projected_losses": "12.3",
@@ -343,12 +340,12 @@
         "rank": "52"
     },
     "time": {
-        "time": "Feb. 27, 2025 at 2:46 AM"
+        "time": "Feb. 27, 2025 at 11:47 AM"
     },
     "trank": {
-        "torvik_NET": "51",
+        "torvik_NET": "53",
         "trank": 54,
-        "trank_make_tourney": 42.4,
+        "trank_make_tourney": 39.1,
         "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "11",
         "wab_rank": 49,
@@ -357,7 +354,7 @@
     "warrennolan": {
         "current_conf_record": "7-10",
         "elo": "62",
-        "nolan_net": "53",
+        "nolan_net": "54",
         "quadrant_1": "5-9",
         "quadrant_2": "4-2",
         "quadrant_3": "2-0",
