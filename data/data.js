@@ -278,9 +278,9 @@
     },
     "espn": {
         "bpi": 51.0,
-        "chance_round_32": "15.1%",
-        "chance_sweet_16": "3.9%",
-        "non_con_sos": 167.0,
+        "chance_round_32": "14.0%",
+        "chance_sweet_16": "3.8%",
+        "non_con_sos": 168.0,
         "proj_tourney_seed": 12.0,
         "proj_win_loss_conf": "8.8-11.2",
         "proj_win_loss_overall": "18.8-12.2",
@@ -311,6 +311,9 @@
     "kpi_sports": {
         "kpi_ranking": 37
     },
+    "massey_ratings": {
+        "massey_rank": 45
+    },
     "ncaa": {
         "net_rank": "53"
     },
@@ -332,7 +335,7 @@
         "SRS_rank": 54
     },
     "teamrankings": {
-        "make_tournament": "77.5%",
+        "make_tournament": "74.2%",
         "most_likely_seed": "11",
         "proj_conf_record": "8.7-11.3",
         "projected_losses": "12.3",
@@ -340,7 +343,7 @@
         "rank": "52"
     },
     "time": {
-        "time": "Feb. 27, 2025 at 2:20 AM"
+        "time": "Feb. 27, 2025 at 2:46 AM"
     },
     "trank": {
         "torvik_NET": "51",
