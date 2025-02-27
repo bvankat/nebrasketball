@@ -269,9 +269,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 114,
+        "matrix_count": 113,
         "matrix_seed": 10,
-        "total_brackets": 116
+        "total_brackets": 115
     },
     "cbs": {
         "cbs_rank": "10"
@@ -306,7 +306,7 @@
         "overall_record": "19-12",
         "rating": 47,
         "record": "17-11",
-        "sos": 23
+        "sos": 25
     },
     "kpi_sports": {
         "kpi_ranking": 37
@@ -340,7 +340,7 @@
         "rank": "51"
     },
     "time": {
-        "time": "Feb. 26, 2025 at 2:33 PM"
+        "time": "Feb. 27, 2025 at 12:20 AM"
     },
     "trank": {
         "torvik_NET": "51",
@@ -348,18 +348,18 @@
         "trank_make_tourney": 42.4,
         "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "11",
-        "wab_rank": 47,
-        "wab_score": "+0.45"
+        "wab_rank": 48,
+        "wab_score": "+0.5"
     },
     "warrennolan": {
         "current_conf_record": "7-10",
-        "elo": "61",
+        "elo": "62",
         "nolan_net": "53",
         "quadrant_1": "5-9",
         "quadrant_2": "4-2",
         "quadrant_3": "2-0",
         "quadrant_4": "6-0",
         "record": "17-11",
-        "rpi": "42"
+        "rpi": "45"
     }
 }
