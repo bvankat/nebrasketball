@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "47"
+        "BRCT_rank": "48"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -299,7 +299,7 @@
     },
     "haslametrics": {
         "haslam_rating": 56,
-        "seed": "PI11"
+        "seed": "11"
     },
     "kenpom": {
         "conference_record": "9-11",
@@ -326,21 +326,21 @@
         "coaches_rank": "NR"
     },
     "shot_quality": {
-        "sq_ranking": 55
+        "sq_ranking": 57
     },
     "sports_reference": {
         "SRS_rank": 54
     },
     "teamrankings": {
-        "make_tournament": "79.2%",
+        "make_tournament": "77.5%",
         "most_likely_seed": "11",
         "proj_conf_record": "8.7-11.3",
         "projected_losses": "12.3",
         "projected_wins": "18.7",
-        "rank": "51"
+        "rank": "52"
     },
     "time": {
-        "time": "Feb. 27, 2025 at 12:20 AM"
+        "time": "Feb. 27, 2025 at 2:20 AM"
     },
     "trank": {
         "torvik_NET": "51",
@@ -348,8 +348,8 @@
         "trank_make_tourney": 42.4,
         "trank_proj_record": "19-12 (9-11)",
         "trank_seed": "11",
-        "wab_rank": 48,
-        "wab_score": "+0.5"
+        "wab_rank": 49,
+        "wab_score": "+0.50"
     },
     "warrennolan": {
         "current_conf_record": "7-10",
