@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "52"
+        "BRCT_rank": "53"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -278,18 +278,18 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 73,
+        "matrix_count": 85,
         "matrix_seed": 11,
-        "total_brackets": 104
+        "total_brackets": 128
     },
     "cbs": {
         "cbs_rank": "First Four Out"
     },
     "espn": {
         "bpi": 55.0,
-        "chance_round_32": "8.1%",
-        "chance_sweet_16": "2.3%",
-        "non_con_sos": 174.0,
+        "chance_round_32": "8.5%",
+        "chance_sweet_16": "2.5%",
+        "non_con_sos": 173.0,
         "proj_tourney_seed": 14.0,
         "proj_win_loss_conf": "8.0-12.0",
         "proj_win_loss_overall": "18.0-13.0",
@@ -307,15 +307,15 @@
         "miya_resume_rank": 58
     },
     "haslametrics": {
-        "haslam_rating": 59,
-        "seed": "PI11"
+        "haslam_rating": 57,
+        "seed": "OUT"
     },
     "kenpom": {
         "conference_record": "8-12",
         "overall_record": "18-13",
         "rating": 52,
-        "record": "17-12",
-        "sos": 34
+        "record": "17-13",
+        "sos": 29
     },
     "kpi_sports": {
         "kpi_ranking": 42
@@ -326,7 +326,7 @@
     "next_game": {
         "away_team": "Nebraska",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "3/4 - 9:00 PM EST",
+        "date_time": "Final/2OT",
         "home_team": "Ohio State",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png"
     },
@@ -335,37 +335,37 @@
         "coaches_rank": "NR"
     },
     "shot_quality": {
-        "sq_ranking": 55
+        "sq_ranking": 56
     },
     "teamrankings": {
-        "make_tournament": "47.1%",
+        "make_tournament": "42.6%",
         "most_likely_seed": "11",
         "proj_conf_record": "7.9-12.1",
         "projected_losses": "13.1",
         "projected_wins": "17.9",
-        "rank": "55"
+        "rank": "53"
     },
     "time": {
-        "time": "Mar. 4, 2025 at 2:07 PM"
+        "time": "Mar. 5, 2025 at 1:11 AM"
     },
     "trank": {
-        "torvik_NET": "53",
+        "torvik_NET": "57",
         "trank": 60,
         "trank_make_tourney": 18.1,
         "trank_proj_record": "18-13 (8-12)",
         "trank_seed": "OUT",
-        "wab_rank": 58,
-        "wab_score": "-0.39"
+        "wab_rank": 59,
+        "wab_score": "-0.7"
     },
     "warrennolan": {
-        "current_conf_record": "7-11",
-        "elo": "76",
+        "current_conf_record": "7-12",
+        "elo": "85",
         "nolan_net": "56",
-        "quadrant_1": "5-9",
+        "quadrant_1": "5-10",
         "quadrant_2": "4-1",
         "quadrant_3": "2-2",
         "quadrant_4": "6-0",
-        "record": "17-12",
-        "rpi": "52"
+        "record": "17-13",
+        "rpi": "56"
     }
 }
