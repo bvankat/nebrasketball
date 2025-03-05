@@ -286,25 +286,25 @@
         "cbs_rank": "First Four Out"
     },
     "espn": {
-        "bpi": 55.0,
-        "chance_round_32": "8.5%",
-        "chance_sweet_16": "2.5%",
-        "non_con_sos": 173.0,
-        "proj_tourney_seed": 14.0,
-        "proj_win_loss_conf": "8.0-12.0",
-        "proj_win_loss_overall": "18.0-13.0",
-        "projected_tournament_order": 76.0,
-        "seven_day_change": "Tied-6th",
-        "sor": 56.0,
-        "sos": 40.0
+        "bpi": 53.0,
+        "chance_round_32": "6.3%",
+        "chance_sweet_16": "1.8%",
+        "non_con_sos": 172.0,
+        "proj_tourney_seed": 15.0,
+        "proj_win_loss_conf": "7.7-12.3",
+        "proj_win_loss_overall": "17.7-13.3",
+        "projected_tournament_order": 79.0,
+        "seven_day_change": "Tied-2nd",
+        "sor": 59.0,
+        "sos": 35.0
     },
     "espn_bracketology": {
         "seed": "12"
     },
     "evanmiya": {
         "miya_rating": 50,
-        "miya_resume_category": "Some Work To Do",
-        "miya_resume_rank": 58
+        "miya_resume_category": "Lots Of Work To Do",
+        "miya_resume_rank": 59
     },
     "haslametrics": {
         "haslam_rating": 57,
@@ -346,14 +346,14 @@
         "rank": "53"
     },
     "time": {
-        "time": "Mar. 5, 2025 at 10:34 AM"
+        "time": "Mar. 5, 2025 at 3:45 PM"
     },
     "trank": {
         "torvik_NET": "56",
         "trank": 60,
         "trank_make_tourney": 4.6,
         "trank_proj_record": "18-13 (8-12)",
-        "trank_seed": "OUT",
+        "trank_seed": "NA",
         "wab_rank": 59,
         "wab_score": "-0.7"
     },
