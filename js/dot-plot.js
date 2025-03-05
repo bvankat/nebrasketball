@@ -23,7 +23,7 @@ const data = {
 //    Massey: parseInt(ratings_data.massey_ratings.massey_rank),
     TR: parseInt(ratings_data.teamrankings.rank),
     WAB:  parseInt(ratings_data.trank.wab_rank),
-    SRS: parseInt(ratings_data.sports_reference.SRS_rank),
+//    SRS: parseInt(ratings_data.sports_reference.SRS_rank),
     Haslametrics: parseInt(ratings_data.haslametrics.haslam_rating),
     Miyakawa: parseInt(ratings_data.evanmiya.miya_rating),
 //    "7OT": parseInt(ratings_data.seven_overtimes.ranking),
