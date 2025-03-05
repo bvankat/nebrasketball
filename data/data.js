@@ -302,7 +302,7 @@
         "seed": "12"
     },
     "evanmiya": {
-        "miya_rating": 51,
+        "miya_rating": 50,
         "miya_resume_category": "Some Work To Do",
         "miya_resume_rank": 58
     },
@@ -318,40 +318,40 @@
         "sos": 29
     },
     "kpi_sports": {
-        "kpi_ranking": 42
+        "kpi_ranking": 46
     },
     "ncaa": {
-        "net_rank": "56"
+        "net_rank": "57"
     },
     "next_game": {
-        "away_team": "Nebraska",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "Final/2OT",
-        "home_team": "Ohio State",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png"
+        "away_team": "Iowa",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+        "date_time": "3/9 - 12:30 PM EDT",
+        "home_team": "Nebraska",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
         "ap_rank": "NR",
         "coaches_rank": "NR"
     },
     "shot_quality": {
-        "sq_ranking": 56
+        "sq_ranking": 54
     },
     "teamrankings": {
-        "make_tournament": "42.6%",
+        "make_tournament": "33.7%",
         "most_likely_seed": "11",
-        "proj_conf_record": "7.9-12.1",
-        "projected_losses": "13.1",
-        "projected_wins": "17.9",
+        "proj_conf_record": "7.7-12.3",
+        "projected_losses": "13.3",
+        "projected_wins": "17.7",
         "rank": "53"
     },
     "time": {
-        "time": "Mar. 5, 2025 at 1:11 AM"
+        "time": "Mar. 5, 2025 at 10:34 AM"
     },
     "trank": {
-        "torvik_NET": "57",
+        "torvik_NET": "56",
         "trank": 60,
-        "trank_make_tourney": 18.1,
+        "trank_make_tourney": 4.6,
         "trank_proj_record": "18-13 (8-12)",
         "trank_seed": "OUT",
         "wab_rank": 59,
@@ -360,7 +360,7 @@
     "warrennolan": {
         "current_conf_record": "7-12",
         "elo": "85",
-        "nolan_net": "56",
+        "nolan_net": "57",
         "quadrant_1": "5-10",
         "quadrant_2": "4-1",
         "quadrant_3": "2-2",
