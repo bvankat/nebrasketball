@@ -134,7 +134,7 @@
                 "date": "03/04/2025",
                 "location": "Away",
                 "opponent": "Ohio St.",
-                "opponent_NET": "36",
+                "opponent_NET": "35",
                 "opponent_rank": null,
                 "result": "L",
                 "score": "114-116*"
@@ -155,7 +155,7 @@
                 "date": "12/25/2024",
                 "location": "Neutral",
                 "opponent": "Oregon St.",
-                "opponent_NET": "81",
+                "opponent_NET": "80",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "78-66"
@@ -173,7 +173,7 @@
                 "date": "02/05/2025",
                 "location": "Away",
                 "opponent": "Washington",
-                "opponent_NET": "114",
+                "opponent_NET": "115",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-72"
@@ -182,7 +182,7 @@
                 "date": "02/09/2025",
                 "location": "Home",
                 "opponent": "Ohio St.",
-                "opponent_NET": "36",
+                "opponent_NET": "35",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "79-71"
@@ -194,7 +194,7 @@
                 "date": "12/22/2024",
                 "location": "Neutral",
                 "opponent": "Murray St.",
-                "opponent_NET": "148",
+                "opponent_NET": "142",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "66-49"
@@ -203,7 +203,7 @@
                 "date": "12/23/2024",
                 "location": "Away",
                 "opponent": "Hawaii",
-                "opponent_NET": "220",
+                "opponent_NET": "222",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "69-55"
@@ -221,7 +221,7 @@
                 "date": "03/01/2025",
                 "location": "Home",
                 "opponent": "Minnesota",
-                "opponent_NET": "92",
+                "opponent_NET": "94",
                 "opponent_rank": null,
                 "result": "L",
                 "score": "65-67"
@@ -233,7 +233,7 @@
                 "date": "11/04/2024",
                 "location": "Home",
                 "opponent": "UTRGV",
-                "opponent_NET": "250",
+                "opponent_NET": "248",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "87-67"
@@ -242,7 +242,7 @@
                 "date": "11/09/2024",
                 "location": "Home",
                 "opponent": "Bethune-Cookman",
-                "opponent_NET": "272",
+                "opponent_NET": "274",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "63-58"
@@ -251,7 +251,7 @@
                 "date": "11/13/2024",
                 "location": "Home",
                 "opponent": "FDU",
-                "opponent_NET": "305",
+                "opponent_NET": "304",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-60"
@@ -260,7 +260,7 @@
                 "date": "11/27/2024",
                 "location": "Home",
                 "opponent": "South Dakota",
-                "opponent_NET": "227",
+                "opponent_NET": "226",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "96-79"
@@ -269,7 +269,7 @@
                 "date": "12/01/2024",
                 "location": "Home",
                 "opponent": "North Florida",
-                "opponent_NET": "259",
+                "opponent_NET": "258",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "103-72"
@@ -278,7 +278,7 @@
                 "date": "12/30/2024",
                 "location": "Home",
                 "opponent": "Southern U.",
-                "opponent_NET": "216",
+                "opponent_NET": "220",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "77-43"
@@ -287,17 +287,17 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 59,
-        "matrix_seed": 11,
-        "total_brackets": 118
+        "matrix_count": 32,
+        "matrix_seed": "OUT",
+        "total_brackets": 92
     },
     "cbs": {
         "cbs_rank": "First Four Out"
     },
     "espn": {
         "bpi": 52.0,
-        "chance_round_32": "6.4%",
-        "chance_sweet_16": "1.9%",
+        "chance_round_32": "6.2%",
+        "chance_sweet_16": "1.8%",
         "non_con_sos": 172.0,
         "proj_tourney_seed": 15.0,
         "proj_win_loss_conf": "7.7-12.3",
@@ -308,11 +308,11 @@
         "sos": 36.0
     },
     "espn_bracketology": {
-        "seed": "12"
+        "seed": "\n"
     },
     "evanmiya": {
         "miya_rating": 51,
-        "miya_resume_category": "Lots Of Work To Do",
+        "miya_resume_category": "Not Close",
         "miya_resume_rank": 59
     },
     "haslametrics": {
@@ -347,24 +347,24 @@
         "sq_ranking": 55
     },
     "teamrankings": {
-        "make_tournament": "33.1%",
+        "make_tournament": "32.7%",
         "most_likely_seed": "11",
         "proj_conf_record": "7.7-12.3",
         "projected_losses": "13.3",
         "projected_wins": "17.7",
-        "rank": "53"
+        "rank": "52"
     },
     "time": {
-        "time": "Mar. 6, 2025 at 3:40 PM"
+        "time": "Mar. 7, 2025 at 1:51 PM"
     },
     "trank": {
-        "torvik_NET": "56",
-        "trank": 61,
-        "trank_make_tourney": 4.9,
+        "torvik_NET": "57",
+        "trank": 60,
+        "trank_make_tourney": 4.3,
         "trank_proj_record": "18-13 (8-12)",
         "trank_seed": "OUT",
         "wab_rank": 60,
-        "wab_score": "-0.7"
+        "wab_score": "-0.6"
     },
     "warrennolan": {
         "current_conf_record": "7-12",
@@ -375,6 +375,6 @@
         "quadrant_3": "2-2",
         "quadrant_4": "6-0",
         "record": "17-13",
-        "rpi": "57"
+        "rpi": "58"
     }
 }
