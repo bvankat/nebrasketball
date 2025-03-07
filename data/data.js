@@ -308,7 +308,7 @@
         "sos": 36.0
     },
     "espn_bracketology": {
-        "seed": "\n"
+        "seed": "First Four Out"
     },
     "evanmiya": {
         "miya_rating": 51,
@@ -355,7 +355,7 @@
         "rank": "52"
     },
     "time": {
-        "time": "Mar. 7, 2025 at 2:05 PM"
+        "time": "Mar. 7, 2025 at 2:13 PM"
     },
     "trank": {
         "torvik_NET": "57",
