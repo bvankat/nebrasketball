@@ -376,10 +376,10 @@
 			//total_score = ((net_score * .16) + (kpi_score * .14) + (espn_sor * .14) + (teamrankings_score * .11) + (rpi_score * .10) + (kenpom_score * .11) + (espn_bpi * .11) +  (torvik_score * .11) + intangibles);		 
 	
 	 // next three lines keep gauge score > 3 in the really sad times, uncomment during season
-	 if (total_score <= 2) {
-		 total_score = 2;
-		 console.log("Note: Minimum total_score applied");
-	 }
+	 // if (total_score <= 2) {
+	// 	 total_score = 2;
+	// 	 console.log("Note: Minimum total_score applied");
+	// }
 	 
 	 // Don't want the needle bounding over 100
 	 if (total_score >= 96) {
@@ -387,23 +387,7 @@
 		  console.log("Note: Maximum total_score applied");
 	  }
 	  
-		// AUTOMATED STATUS UPDATES
-		
-		//function StatusCheck(data) {
-		//	 var status_message;
-		//	 if (data < 20) { status_message = "Nope. Not happening." }
-		//	 if (data >= 20 && data < 45) { status_message = "It's been a minute since the odds were even this high." }
-		//	 if (data >= 45 && data < 75) { status_message = "These aren't uncharted waters. But they're very lightly charted." }
-		//	 if (data >= 75) { status_message = "Believe it when we see it." }
-		//	 
-		//	 return status_message;	 
-		// }
-	 
-		 // Three lines below can automate the status updates based on the total_score. Uncomment to automate. Otherwise, manual status updates are required.
-		 
-		 // message = StatusCheck(total_score);
-		 // console.log(message);
-		 // $('#message').text(message);
+	total_score = 0;
 	
 	// Debuggging
 	console.log("rankings_used: ", rankings_used);
@@ -449,10 +433,10 @@ function drawChart() {
 
 	// Comment out these lines to disable needle bounce in offseason
 	// Increase the multiplier applied to Math.random to increase bounciness. It basically equates to the range of values to bounce between.
-	setInterval(function() {
-	  data.setValue(0, 1, total_score-3 + Math.round(5 * Math.random()));
-	  chart.draw(data, options);
-	  }, 300);
+	//setInterval(function() {
+	//  data.setValue(0, 1, total_score-3 + Math.round(5 * Math.random()));
+	//  chart.draw(data, options);
+	//  }, 300);
  
  
   };  // end drawChart()
