@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "53"
+        "BRCT_rank": "54"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -287,17 +287,17 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 9,
+        "matrix_count": 7,
         "matrix_seed": "OUT",
-        "total_brackets": 92
+        "total_brackets": 103
     },
     "cbs": {
         "cbs_rank": "First Four Out"
     },
     "espn": {
         "bpi": 54.0,
-        "chance_round_32": "5.9%",
-        "chance_sweet_16": "1.5%",
+        "chance_round_32": "5.6%",
+        "chance_sweet_16": "1.7%",
         "non_con_sos": 174.0,
         "proj_tourney_seed": 14.0,
         "proj_win_loss_conf": "7.7-12.3",
@@ -308,7 +308,7 @@
         "sos": 39.0
     },
     "espn_bracketology": {
-        "seed": "First Four Out"
+        "seed": "Next Four Out"
     },
     "evanmiya": {
         "miya_rating": 53,
@@ -320,11 +320,11 @@
         "seed": "OUT"
     },
     "kenpom": {
-        "conference_record": "8-12",
-        "overall_record": "18-13",
-        "rating": 50,
-        "record": "17-13",
-        "sos": 34
+        "conference_record": "7-13",
+        "overall_record": "17-14",
+        "rating": 56,
+        "record": "17-14",
+        "sos": 35
     },
     "kpi_sports": {
         "kpi_ranking": 46
@@ -335,7 +335,7 @@
     "next_game": {
         "away_team": "Iowa",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-        "date_time": "11:38 - 2nd",
+        "date_time": "Final",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -355,26 +355,26 @@
         "rank": "53"
     },
     "time": {
-        "time": "Mar. 9, 2025 at 1:00 PM"
+        "time": "Mar. 9, 2025 at 10:37 PM"
     },
     "trank": {
-        "torvik_NET": "57",
-        "trank": 60,
+        "torvik_NET": "60",
+        "trank": 61,
         "trank_make_tourney": 3.7,
-        "trank_proj_record": "18-13 (8-12)",
-        "trank_seed": "NA",
-        "wab_rank": 58,
-        "wab_score": "-0.6"
+        "trank_proj_record": "17-14 (7-13)",
+        "trank_seed": "OUT",
+        "wab_rank": 36,
+        "wab_score": "+1.1"
     },
     "warrennolan": {
-        "current_conf_record": "7-12",
-        "elo": "83",
+        "current_conf_record": "7-13",
+        "elo": "98",
         "nolan_net": "57",
         "quadrant_1": "5-10",
-        "quadrant_2": "4-1",
+        "quadrant_2": "4-2",
         "quadrant_3": "2-2",
         "quadrant_4": "6-0",
-        "record": "17-13",
-        "rpi": "58"
+        "record": "17-14",
+        "rpi": "66"
     }
 }
