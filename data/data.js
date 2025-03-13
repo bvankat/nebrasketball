@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "59"
+        "BRCT_rank": "60"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -298,7 +298,7 @@
     "bracketproject": {
         "matrix_count": 0,
         "matrix_seed": "OUT",
-        "total_brackets": 100
+        "total_brackets": 94
     },
     "cbs": {
         "cbs_rank": "OUT"
@@ -320,7 +320,7 @@
         "seed": "OUT"
     },
     "evanmiya": {
-        "miya_rating": 56,
+        "miya_rating": 57,
         "miya_resume_category": "Not Close",
         "miya_resume_rank": 62
     },
@@ -364,7 +364,7 @@
         "rank": "57"
     },
     "time": {
-        "time": "Mar. 13, 2025 at 10:31 AM"
+        "time": "Mar. 13, 2025 at 12:37 PM"
     },
     "trank": {
         "torvik_NET": "60",
@@ -377,7 +377,7 @@
     },
     "warrennolan": {
         "current_conf_record": "7-13",
-        "elo": "96",
+        "elo": "97",
         "nolan_net": "59",
         "quadrant_1": "5-10",
         "quadrant_2": "4-2",
