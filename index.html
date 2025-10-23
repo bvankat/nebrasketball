@@ -88,30 +88,46 @@
 <body class="min-h-screen bg-white">
         
     <!-- Header -->
-    <header class="lg:p-0 lg:inline-flex text-center">
+    <header class="lg:inline-flex text-center px-8 pt-8 pb-16">
         
             
-            <div class="lg:w-1/2 bg-black/10 lg:flex lg:flex-col lg:flex-col-reverse lg:justify-between px-20 py-10 text-center lg:px-12 lg:py-28">
+            <div class="lg:w-1/2 lg:flex lg:flex-col lg:justify-between px-8 text-center lg:px-8">
                         
-                        <div class="flex justify-center lg:justify-start">
-                        <div id="updates-pill" class="flex inline-flex px-4 py-2 shadow-sm bg-black/10 rounded-full border border-white/15">
-                            <span class="relative pt-1 size-2">
-                                <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-200 opacity-80"></span>
-                                <span class="absolute inline-flex size-2 rounded-full bg-green-500"></span>
-                            </span>
-                            <p class="text-gray-200 text-xs tracking-wider pl-4 lg:inline-block geist-mono">UPDATING DAILY</p>
+                        <div id="topper" class="hidden lg:block flex flex-col gap-3">
+                            
+                            <div class="flex flex-row items-center gap-1">
+                                <button class="rounded-full p-2">
+                                    <a href="https://nebrasketball.info"><svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-dashboard "><path d="M12 13m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M13.45 11.55l2.05 -2.05"></path><path d="M6.4 20a9 9 0 1 1 11.2 0z"></path></svg></a>
+
+                                </button>
+                                <p class="font-medium geist-mono text-white/50 text-xs tracking-wide"><a href="https://nebrasketball.info">NEBRASKETBALL<span class="font-normal">.info</span></a></p>
+                            </div>
+                            
                         </div>
-                        </div>
-                        <div id="logo-text" class="flex flex-col lg:items-start">
-                            <h1 class="text-3xl text-white font-bold mt-4 mb-2 lg:pb-4 lg:text-left lg:text-4xl lg:border-b lg:border-b-white/15">Nebraska Basketball NCAA Tournament Odds</h1>
-                            <p class="text-white/70 leading-relaxed text-sm font-light text-center mt-2 lg:text-left lg:pb-20">Calculating how close <span class="font-medium">#Nebrasketball</span> is to the Big Dance</p>
+                     
+                        <div id="text" class="flex flex-col items-center lg:items-start gap-4 py-6">
+                            <div id="updates-pill" class="flex inline-flex px-4 py-2 shadow-sm bg-black/10 rounded-full border border-white/15">
+                                <span class="relative pt-1 size-2">
+                                    <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-200 opacity-80"></span>
+                                    <span class="absolute inline-flex size-2 rounded-full bg-green-500"></span>
+                                </span>
+                                <p class="text-gray-200 text-xs tracking-wider pl-4 lg:inline-block geist-mono">UPDATING DAILY</p>
+                            </div>
+                            
+                            <h1 class="text-3xl text-white font-extrabold lg:text-left lg:text-4xl">Nebraska Basketball NCAA Tournament Odds</h1>
+                            
+                            <p class="hidden lg:block text-white/70 leading-relaxed text-md font-light text-center lg:text-left">Will  <span class="font-medium">#Nebrasketball</span> make the Big Dance in 2026?</p>
+                            
+                          
                         </div>
 
                 </div>
            
-                <div class="lg:w-1/2 px-12 p-28">
+                <div class="lg:w-1/2 bg-none lg:bg-black/10 rounded-xl lg:shadow-md lg:px-20 lg:py-20">
                     <div id="chart_div" style="width: 340px; height: 340px; margin: 0 auto 40px auto; clear: both;"></div>
-                    <p class="text-center text-white text-sm inline-block"><span class="font-light text-xs uppercase opacity-60 mr-4 tracking-wider geist-mono">Status</span> All we need is 30 points per game from Rienk Mast. No sweat.</p>
+                    <p class="text-center text-white font-light text-xs uppercase opacity-60 tracking-wider geist-mono mb-2">Current status</p>
+                    <p class="text-center text-white text-sm inline-block">Just gonna need 30 points per game from Rienk Mast. No sweat.</p>
+        
                 </div>
         
         </div>
