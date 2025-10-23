@@ -34,61 +34,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">   
 
     <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/styles/tailwind.css"> 
     
-    <style>
-
-        /* Override Tailwind's default font stack with Geist */
-        body {
-            font-family: 'Geist', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        }
-        
-        .font-geist {
-            font-family: 'Geist', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        }
-
-        .geist-mono { font-family: "Geist Mono", monospace; font-optical-sizing: auto; font-style: normal; }
-        
-        /* Dot plot styles */
-        #dot-plot-container { max-width: 680px; }
-        #dot-plot-container text { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }
-        .endpoint-label { fill: #aaa; }
-        .tick { stroke: #ccc; }
-        .dot-label { text-anchor: middle; }
-        
-        /* Quadrant game table styles */
-        .quad-games { font-size: 12px; width: 100%; font-weight: 500; color: rgb(107 114 128); }
-        .quad-games td { padding: 4px; border-bottom: 1px solid #f3f3f3; }
-        .opponent-net { font-size: 9px; color: #999; margin-right: 3px; font-weight: 300; }
-        .quad-games td:nth-child(2) { font-weight: 400; color: var(--color-red-900); }
-        .w { color: #15803d; }
-        .l { color: #b91c1c; }
-        
-        /* Ranking indicator dots */
-        .ranking-indicator {
-            display: inline-block;
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            margin-left: 8px;
-            vertical-align: middle;
-        }
-        
-        header { background-color: var(--red); background: radial-gradient(circle, rgba(235,19,47,1) 0%, rgba(190,4,29,1) 100%); }
-        
-        #nextGame-teams img { max-width: 24px; }
-        
-        /* Color scale matching dot plot (red to yellow to light yellow) */
-        .rank-excellent { background-color: #e42320; }
-        .rank-good { background-color: #fea849; }
-        .rank-poor { background-color: #ffffcc; }
-    </style>
+    <!-- Random non-Tailwind CSS -->
+    <link rel="stylesheet" href="/styles/old-styles.css">    
+    
     
 </head>
 <body class="min-h-screen bg-white">
         
     <!-- Header -->
-    <header class="lg:inline-flex text-center px-8 pt-8 pb-16">
+    <header class="lg:inline-flex text-center px-4 pt-8 pb-16">
         
             
             <div class="lg:w-1/2 lg:flex lg:flex-col lg:justify-between px-8 text-center lg:px-8">
@@ -137,7 +93,7 @@
     </header>
 
     <!-- Dashboard Layout -->
-    <div class="flex min-h-screen m-6 rounded-lg lg:border lg:border-gray-200 ">
+    <div class="flex min-h-screen m-1 rounded-lg lg:border lg:border-gray-200 lg:m-6">
         <!-- Sidebar Navigation (25% width on large screens) -->
         <aside class="hidden lg:flex lg:flex-col lg:w-1/4 border-r bg-gray-50 border-gray-200">
             <!-- Navigation Section -->
@@ -198,12 +154,10 @@
         <!-- Main Content Area -->
         <main class="flex-1 space-y-8 max-w-full overflow-hidden">
             
-                    
-                    
-                    <div id="cards-container" class="p-0 my-6 mx-4 lg:py-8 lg:px-6 lg:my-0 space-y-8">
+            <div id="cards-container" class="p-0 my-6 mx-2 lg:py-8 lg:px-6 lg:my-0 space-y-8">
                         
-                    <div id="alert" class="text-sm border rounded-lg border-red-100 hover:border-red-200 bg-red-50 flex flex-row align-middle items-center justify-center text-gray-500 p-4 rounded-lg gap-2">
-                        <p class="font-medium geist-mono text-red-800 text-xs">NOTE</p>
+                    <div id="alert" class="text-sm border rounded-lg border-red-100 hover:border-red-200 bg-red-50 flex flex-row align-middle items-start justify-center text-gray-500 p-4 rounded-lg gap-3">
+                        <p class="font-medium geist-mono mt-1 text-red-800 text-xs">NOTE</p>
                         <p>Adding new rankings frequently this week as we get closer to the first games</p>
                     </div>
 
@@ -212,24 +166,24 @@
                 <div class="shadow-sm bg-white border rounded-lg border-gray-200 overflow-hidden">
                     
                     
-                    <div class="bg-white px-6 pt-5 pb-3">
+                    <div class="bg-white px-4 pt-5 pb-3">
                         <h2 class="text-md font-medium text-gray-800">At A Glance</h2>
                     </div>
                     
                     <!-- Rankings Section with Dot Plot -->
-                    <div class="px-6 pb-4">
+                    <div class="px-4 pb-4">
                         <div id="dot-plot-container"></div>
                     </div>
                     
-                    <div class="px-6 pt-4 pb-6">
-                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="px-4 pt-4 pb-6">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
                             <div class="border border-gray-200 p-4 rounded-lg">
-                                <p class="geist-mono uppercase text-xs text-gray-500 font-normal">Overall Record</p>
+                                <p class="geist-mono uppercase text-xs text-gray-500 font-normal">Overall</p>
                                 <p class="text-2xl font-semibold text-gray-800" id="kenpom-record">0-0</p>
                             </div>
                             
                             <div class="border border-gray-200 p-4 rounded-lg">
-                                <p class="geist-mono uppercase text-xs text-gray-500 font-normal">Big Ten Record</p>
+                                <p class="geist-mono uppercase text-xs text-gray-500 font-normal">Big Ten</p>
                                 <p class="text-2xl font-semibold text-gray-800" id="current_conf_record">0-0</p>
                             </div>
                             
@@ -257,7 +211,7 @@
                     </div>
                     
                     <div class="overflow-x-auto max-w-full">
-                        <table class="w-full min-w-max">
+                        <table class="ratings-table w-full min-w-max">
                             <thead class="bg-gray-50">
                                 <tr>
                                     <th class="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
@@ -270,43 +224,43 @@
                             </thead>
                             <tbody class="divide-y divide-gray-200">
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">NCAA NET</td>
-                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                    <td class="px-3 py-2 text-sm font-normal text-gray-600">NCAA NET</td>
+                                    <td class="px-3 py-2 text-sm font-medium text-gray-700 text-right">
                                         <span id="ncaa-net">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">KPI</td>
+                                    <td class="ratings-table">KPI</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="kpi_ranking">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">ESPN SOR</td>
+                                    <td class="ratings-table">ESPN SOR</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="espn-sor">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">ESPN BPI</td>
+                                    <td class="ratings-table">ESPN BPI</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="espn-rating">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Kenpom</td>
+                                    <td class="ratings-table">Kenpom</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="kenpom-rating">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Bart Torvik</td>
+                                    <td class="ratings-table">Bart Torvik</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="trank-trank">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Wins Above Bubble <span class="text-xs"><a href="#footnotes" class="text-gray-400 hover:text-gray-600">[1]</a></span></td>
+                                    <td class="ratings-table">Wins Above Bubble <span class="text-xs"><a href="#footnotes" class="text-gray-400 hover:text-gray-600">[1]</a></span></td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="wab-rank">NA</span>
                                     </td>
@@ -325,7 +279,7 @@
                     </div>
                     
                     <div class="overflow-x-auto max-w-full">
-                        <table class="w-full min-w-max">
+                        <table class="ratings-table w-full min-w-max">
                             <thead class="bg-gray-50">
                                 <tr>
                                     <th class="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
@@ -337,67 +291,67 @@
                             </thead>
                             <tbody class="divide-y divide-gray-200">
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Bauertology BRCT</td>
+                                    <td class="ratings-table">Bauertology BRCT</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="bauertology-BRCT">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Evan Miyakawa</td>
+                                    <td class="ratings-table">Evan Miyakawa</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="miya-rating">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Haslametrics</td>
+                                    <td class="ratings-table">Haslametrics</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="haslam-rating">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Shot Quality</td>
+                                    <td class="ratings-table">Shot Quality</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="sq-ranking">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">RPI</td>
+                                    <td class="ratings-table">RPI</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="nolan-rpi">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Massey Composite</td>
+                                    <td class="ratings-table">Massey Composite</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="massey-rank">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">ELO rank</td>
+                                    <td class="ratings-table">ELO rank</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="nolan-elo">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">TeamRankings.com</td>
+                                    <td class="ratings-table">TeamRankings.com</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="teamrankings-rank">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Sports Reference SRS</td>
+                                    <td class="ratings-table">Sports Reference SRS</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="sports-reference-srs">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">AP Poll</td>
+                                    <td class="ratings-table">AP Poll</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="ap-rank">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Coaches Poll</td>
+                                    <td class="ratings-table">Coaches Poll</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="coaches-rank">NA</span>
                                     </td>
@@ -416,25 +370,25 @@
                     </div>
                     
                     <div class="overflow-x-auto max-w-full">
-                        <table class="w-full min-w-max">
+                        <table class="ratings-table w-full min-w-max">
                             <tbody class="divide-y divide-gray-200">
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Torvik T-Ranketology</td>
+                                    <td class="ratings-table">Torvik T-Ranketology</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right"><span id="trank-make-tourney">NA</span></td>
                                     
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">TeamRankings.com</td>
+                                    <td class="ratings-table">TeamRankings.com</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right"><span id="teamrankings-rating">NA</span></td>
                                     
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">ESPN - SOR S-Curve position</td>
+                                    <td class="ratings-table">ESPN - SOR S-Curve position</td>
                                     <td id="espn-sor-s-curve" class="px-6 py-4 text-sm font-medium text-gray-700 text-right">NA</td>
                                     
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Bracket Matrix: How many brackets have NU?</td>
+                                    <td class="ratings-table">Bracket Matrix: How many brackets?</td>
                                         <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right"><span id="bracketproject-count"></span>/<span id="bracketproject-totalbrackets"></span></td>
                                     
                                 </tr>
@@ -515,7 +469,7 @@
                     </div>
                     
                     <div class="overflow-x-auto max-w-full">
-                        <table class="w-full min-w-max">
+                        <table class="ratings-table w-full min-w-max">
                             <thead class="bg-gray-50">
                                 <tr>
                                     <th class="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
@@ -531,63 +485,63 @@
                             </thead>
                             <tbody class="divide-y divide-gray-200">
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Bracket Matrix</td>
+                                    <td class="ratings-table">Bracket Matrix</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">NA</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="bracketproject-seed">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">ESPN - BPI</td>
+                                    <td class="ratings-table">ESPN - BPI</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="espn-proj-tourney-seed">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">ESPN - Lunardi</td>
+                                    <td class="ratings-table">ESPN - Lunardi</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">NA</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="espn-bracketology-seed">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Bart Torvik</td>
+                                    <td class="ratings-table">Bart Torvik</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right"><span id="trank-proj"></span></td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="trank-seed">NA</span></td>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">TeamRankings.com</td>
+                                    <td class="ratings-table">TeamRankings.com</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right"><span id="teamrankings_wl"></span> (<span id="teamrankings-conf-wl"></span>)</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="teamrankings-seed">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">CBS Sports - Jerry Palm</td>
+                                    <td class="ratings-table">CBS Sports - Jerry Palm</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">NA</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="cbs-bracket">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Kenpom</td>
+                                    <td class="ratings-table">Kenpom</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right"><span id="kenpom-overall"></span> (<span id="kenpom-conference"></span>)</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span>NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Haslametrics</td>
+                                    <td class="ratings-table">Haslametrics</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">NA</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="haslametrics-seed">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Miyakawa resume</td>
+                                    <td class="ratings-table">Miyakawa resume</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">NA</td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="miya-resume-category">NA</span></td>
@@ -638,7 +592,7 @@
     
     </div>
         
-        <div id="credits" class="flex flex-row items-center p-8 lg:p-4 space-x-3 text-sm text-gray-700 font-medium align-middle justify-center bg-gray-50 lg:bg-white">
+        <div id="credits" class="flex flex-row items-center p-8 lg:p-4 space-x-3 text-xs text-gray-700 font-medium align-middle justify-center bg-gray-50 lg:bg-white">
             <div class="flex items-center space-x-3">
                 <div class="w-7 h-7 bg-gray-100 rounded-full flex items-center justify-center">
                     <a href="https://www.benvankat.com" target="_blank"><img src="https://benvankat.com/images/ben-vankat-headshot-2022-square.jpg" class="rounded-full"></a>
