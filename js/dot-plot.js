@@ -6,7 +6,9 @@ async function dotPlot() {
 // Set up the chart dimensions
 const margin = { top: 20, right: 10, bottom: 20, left: 0 };
 
-const containerWidth = Math.min(700, window.innerWidth - 20);
+// Get the parent container's width instead of window width
+const container = d3.select("#dot-plot-container").node();
+const containerWidth = container ? container.getBoundingClientRect().width : 700;
 const width = containerWidth - margin.left - margin.right;
 const height = 40;
 
@@ -45,10 +47,12 @@ const colorScale = d3.scaleLinear()
 // Create an SVG container
 const svg = d3.select("#dot-plot-container")
   .append("svg")
-  .attr("width", containerWidth)
+  .attr("width", "100%") // Make SVG responsive
   .attr("height", height + margin.top + margin.bottom)
+  .attr("viewBox", `0 0 ${containerWidth} ${height + margin.top + margin.bottom}`) // Add viewBox for scaling
   .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
 
 // Create a horizontal scale with swapped endpoints
 const xScale = d3.scaleLinear()
