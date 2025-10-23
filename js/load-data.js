@@ -387,7 +387,7 @@
 		  console.log("Note: Maximum total_score applied");
 	  }
 	  
-	total_score = 0;
+	total_score = 25;
 	
 	// Debuggging
 	console.log("rankings_used: ", rankings_used);
@@ -425,23 +425,25 @@ function drawChart() {
 	};
 
 	var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
-	var chart_2 = new google.visualization.Gauge(document.getElementById('chart_div_2'));
+//	var chart_2 = new google.visualization.Gauge(document.getElementById('chart_div_2'));
 
 	chart.draw(data, options);
-	chart_2.draw(data, options_2);
+//	chart_2.draw(data, options_2);
 
 
 	// Comment out these lines to disable needle bounce in offseason
 	// Increase the multiplier applied to Math.random to increase bounciness. It basically equates to the range of values to bounce between.
-	//setInterval(function() {
-	//  data.setValue(0, 1, total_score-3 + Math.round(5 * Math.random()));
-	//  chart.draw(data, options);
-	//  }, 300);
+	setInterval(function() {
+	  data.setValue(0, 1, total_score-3 + Math.round(5 * Math.random()));
+	  chart.draw(data, options);
+	  }, 300);
  
  
   };  // end drawChart()
   
 } // end loadData async function
 	
-loadData(); // MAKES THE MAGIC HAPPEN
-dotPlot(); // Makes some other magic happen
+document.addEventListener('DOMContentLoaded', function() {
+    loadData(); // MAKES THE MAGIC HAPPEN
+	dotPlot(); // Makes some other magic happen
+});
