@@ -1,329 +1,650 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	
 <head>
-	
-	<meta charset="utf-8"> 
-	
-	<title>Nebraska basketball NCAA tournament odds</title> 
-	<meta name="description" content="A machine that calculates how close #Nebrasketball is to the Big Dance. Updated daily during the season."/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	
-	<meta property=”og:type” content=”website” />
-	<meta property="og:url" content="http://nebrasketball.info" />
-	<meta property="og:title" content="Nebraska basketball NCAA tournament odds" />
-	<meta property="og:description" content="A machine that calculates how close #Nebrasketball is to the Big Dance. Updated  daily during the season." />
-	<meta property="og:image" content="/icons/tourney-gauge.png" /> 
-	<meta name="theme-color" content="#eb132f" />
-	
-	
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:creator" content="@bvankat" />
-	
-	<link rel="shortcut icon" href="/icons/favicon.ico">
-	<link rel="icon" type="image/png" href="/icons/favicon-192x192.png" sizes="192x192">
-	<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
-	
-	<link rel="manifest" href="/js/site.webmanifest">
-	
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  	
-	<!-- D3 for the dot plot -->
-	<script src="https://d3js.org/d3.v5.min.js"></script>
-	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebraska Basketball - NCAA Tournament Odds</title>
+    
+    <meta name="description" content="A machine that calculates how close #Nebrasketball is to the Big Dance. Updated daily during the season."/>
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://nebrasketball.info" />
+    <meta property="og:title" content="Nebraska basketball NCAA tournament odds" />
+    <meta property="og:description" content="A machine that calculates how close #Nebrasketball is to the Big Dance. Updated daily during the season." />
+    <meta property="og:image" content="/icons/tourney-gauge.png" /> 
+    <meta name="theme-color" content="#eb132f" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@bvankat" />
+    
+    <link rel="shortcut icon" href="/icons/favicon.ico">
+    <link rel="icon" type="image/png" href="/icons/favicon-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    
+    <link rel="manifest" href="/js/site.webmanifest">
+    
+    <!-- Google Fonts - Geist -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!-- Google Fonts - Geist Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">   
 
-	<script src="/js/dot-plot.js"></script>
-	<script src="/js/load-data.js"></script>
-	   
-	<style>
-		:root {
-			--red: #eb132f;
-			
-		}
-		
-		body { font-family: system-ui, sans-serif; }
-		.container { max-width: 720px; }
-		 h1 { font-weight: 700; text-align: center; }
-		 h2 { font-size: 1.5rem; }
-		div.jumbotron { color: #fff; background-color: var(--red); background: radial-gradient(circle, rgba(235,19,47,1) 0%, rgba(190,4,29,1) 100%); margin-bottom: 4em; }
-		
-		div#nextGame { gap: 10px; text-align: center }
-		div#nextGame p { margin: 0; }
-		img.team-logo { width: 18px; }
-		div.jumbotron.footer { background: #f5f5f5; margin-bottom: 0; font-size: 14px; color: #ccc; }
-		
-		div#social_share { height: 600px !important; display: flex; align-content: center; background: rgb(235,19,47); background: radial-gradient(circle, rgba(235,19,47,1) 0%, rgba(190,4,29,1) 100%); }
-		
-		a { color: #888; }
-		a:hover { color: var(--red); }
-		.gray {color: #eee; }
-		.light-gray { background: #f4f4f4; }
-		th { text-align: left; }
-		.table>:not(caption)>*>* { padding: 0.8rem 0; }
-		.alert { margin-bottom: 0; }
-		
-		#dot-plot-container { max-width: 680px; margin: 20px 0; }
-		#dot-plot-container text { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }		
-		.endpoint-label { fill: #aaa; }
-		.tick { stroke: #ccc; }
-		.dot-label { text-anchor: middle; }
-		
-		div#quads { display: flex; gap: 50px; flex-wrap: wrap; }
-		div.quad { flex: 1; min-width: 300px;}
-		p.quad-label { display: flex; justify-content: space-between; border-bottom: 1px solid var(--bs-border-color); padding-bottom: 5px; font-weight: 600; }
-		table.quad-games { font-size: 12px; width: 100%; }
-		table.quad-games td { padding: 4px; border-bottom: 1px solid #f3f3f3}
-		span.opponent-net { font-size: 9px; font-style: italic; color: #aaa; }
-		p.quad-definition { font-size: 11px; color: #aaa; margin-top: 10px; }
-		.w { color: #15803d; }
-		.l { color: #b91c1c; }
-				
-	</style>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
 
+        /* Override Tailwind's default font stack with Geist */
+        body {
+            font-family: 'Geist', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        
+        .font-geist {
+            font-family: 'Geist', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
 
-	
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8ZYZZJV2K2"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'G-8ZYZZJV2K2');
-	  
-	</script>
-	
-	
+        .geist-mono { font-family: "Geist Mono", monospace; font-optical-sizing: auto; font-style: normal; }
+        
+        /* Dot plot styles */
+        #dot-plot-container { max-width: 680px; }
+        #dot-plot-container text { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }
+        .endpoint-label { fill: #aaa; }
+        .tick { stroke: #ccc; }
+        .dot-label { text-anchor: middle; }
+        
+        /* Quadrant game table styles */
+        .quad-games { font-size: 12px; width: 100%; font-weight: 500; color: rgb(107 114 128); }
+        .quad-games td { padding: 4px; border-bottom: 1px solid #f3f3f3; }
+        .opponent-net { font-size: 9px; color: #999; margin-right: 3px; font-weight: 300; }
+        .quad-games td:nth-child(2) { font-weight: 400; color: var(--color-red-900); }
+        .w { color: #15803d; }
+        .l { color: #b91c1c; }
+        
+        /* Ranking indicator dots */
+        .ranking-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+        
+        header { background-color: var(--red); background: radial-gradient(circle, rgba(235,19,47,1) 0%, rgba(190,4,29,1) 100%); }
+        
+        #nextGame-teams img { max-width: 24px; }
+        
+        /* Color scale matching dot plot (red to yellow to light yellow) */
+        .rank-excellent { background-color: #e42320; }
+        .rank-good { background-color: #fea849; }
+        .rank-poor { background-color: #ffffcc; }
+    </style>
+    
 </head>
-<body>
-	  
-	<!-- <div class="alert small alert-warning text-center"><strong></strong></div>-->
+<body class="min-h-screen bg-white">
+        
+    <!-- Header -->
+    <header class="lg:p-0 lg:inline-flex text-center">
+        
+            
+            <div class="lg:w-1/2 bg-black/10 lg:flex lg:flex-col lg:flex-col-reverse lg:justify-between px-20 py-10 text-center lg:px-12 lg:py-20">
 
-	<div class="jumbotron pt-5 pb-5 px-2">
-	<div class="container">
-	
-		<h1 class="px-5">Nebraska basketball NCAA tournament odds</h1>
-		<p class="col-sm-12 text-center" style="margin-bottom: 30px; font-size: 14px; color: #ddd;">Updated daily during the season</p>
+                        <div id="updates-pill" class="flex inline-flex px-4 py-2 shadow-sm bg-black/10 rounded-full">
+                            <span class="relative pt-1 size-2">
+                                <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-200 opacity-80"></span>
+                                <span class="absolute inline-flex size-2 rounded-full bg-green-500"></span>
+                            </span>
+                            <p class="text-gray-200 text-xs tracking-wider pl-4 lg:inline-block geist-mono">UPDATING DAILY</p>
+                        </div>
+                        <div id="logo-text" class="flex flex-col lg:items-start">
+                            <h1 class="text-3xl text-white font-bold mt-4 mb-2 lg:pb-4 lg:text-left lg:text-4xl lg:border-b lg:border-b-white/15">Nebraska Basketball NCAA Tournament Odds</h1>
+                            <p class="text-gray-200 mt-3 text-sm font-light text-center lg:text-left lg:pb-20">Calculating how close <span class="font-medium">#Nebrasketball</span> is to the Big Dance</p>
+                        </div>
 
-			<div class="row">
-				<div id="chart_div" style="width: 380px; height: 340px; margin: 0 auto 40px auto; clear: both;"></div>
-	
-				<p class="col-sm-12 text-center px-5"><strong>Status: </strong><span id="message">A brutal demise — The one true Nebrasketball outcome.</p>
-			
-			</div>
+                    </div>
+           
+                <div class="lg:w-1/2 px-12 pb-20 pt-10">
+                    <div id="chart_div" style="width: 340px; height: 340px; margin: 0 auto 40px auto; clear: both;"></div>
+                    <p class="text-center text-white text-sm inline-block"><span class="font-light text-xs uppercase opacity-60 mr-4 tracking-wider geist-mono">Status</span> All we need is 30 points per game from Reink. No sweat.</p>
+                </div>
+        
+        </div>
+        
+    </header>
 
-	</div>
-	</div>
-		
-	<div class="container">  
-		
-		<div class="row mb-5">
-			<div class="col light-gray">
-				<div id="nextGame" class="row justify-content-between px-4 py-3 small">
-				<p class="col-sm-2 small text-sm-start"><strong>NEXT GAME</strong></p>
-				<p class="col-sm-4 small" id="nextGame-teams">NA</p>
-				<p class="col-sm-3 small text-sm-end" id="nextGame-details"></p>
-				</div>
-			</div>
-		</div>
-	  
-	  <div class="row">
-		  
-	  <div class="col-sm-12">
-		
-		
-		<h2>Rankings</h2>
-		
-		<div id="dot-plot-container"></div>
-				   
-		<table class="table mb-5">
-			<thead>
-				<tr>
-					<th>Team-sheet metrics</th>
-					<th class="text-end">Rank</th>
-				</tr>
-			</thead>
-			
-			<tbody>
-				<tr><td>NCAA NET</td><td id="ncaa-net" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>KPI</td><td id="kpi_ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>ESPN SOR</td><td id="espn-sor" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>ESPN BPI</td><td id="espn-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>Kenpom</i></td><td id="kenpom-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>Bart Torvik</td><td id="trank-trank" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>Wins Above Bubble <span style="font-size: 10px;"><a href="#footnotes">[1]</a></span></td><td id="wab-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
-			</tbody>
-				
-		</table>
-		
-		<table class="table mb-5">
-			<thead>
-				<tr><th>Other notable rankings</th><th></th></tr>
-			</thead>
-			<tbody>
-				
-				
-				<tr><td>Bauertology BRCT</td><td id="bauertology-BRCT" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>Evan Miyakawa</td><td id="miya-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>Haslametrics</td><td id="haslam-rating" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>Shot Quality</td><td id="sq-ranking" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>RPI</td><td id="nolan-rpi" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>Massey Composite</td><td id="massey-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>ELO rank</td><td id="nolan-elo" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>TeamRankings.com</td><td id="teamrankings-rank" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>Sports Reference SRS</td><td id="sports-reference-srs" class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>AP Poll</td><td class="text-end"><span id="ap-rank"><span class="small text-muted">NA</span></span></td></tr>
-				
-				<tr><td>Coaches Poll</td><td class="text-end"><span id="coaches-rank"><span class="small text-muted">NA</span></span></td></tr>
-				
-			</tbody>
-		</table>
-		
-		
-		<h2 style="margin-bottom: 20px;">Bracket chances</h2>
-		
-		<table class="table mb-5">
-			<thead>
-				<tr></tr>
-			<tbody>
-				
-				<tr>
-					<td>Torvik T-Ranketology</td>
-					<td id="trank-make-tourney" class="text-end"><span class="small text-muted">NA</span></td>
-				</tr>
-				
-				<tr>
-					<td>TeamRankings.com</td>
-					<td id="teamrankings-rating" class="text-end"><span class="small text-muted">NA</span></td>
-				</tr>
-				
-				<tr>
-					<td>ESPN - SOR S-Curve position</td>
-					<td class="text-end"><span id="espn-sor-s-curve"><span class="small text-muted">NA</span></span></td>
-				</tr>
+    <!-- Dashboard Layout -->
+    <div class="flex min-h-screen m-6 rounded-lg lg:border lg:border-gray-200 ">
+        <!-- Sidebar Navigation (25% width on large screens) -->
+        <aside class="hidden lg:flex lg:flex-col lg:w-1/4 border-r bg-gray-50 border-gray-200">
+            <!-- Navigation Section -->
+            <div class="flex-1">
+                
+                <nav class="py-6 px-2 sticky top-0">
+                    <p class="text-gray-500 text-xs font-light tracking-wider pb-2 px-3 geist-mono">METRICS</p>
 
-				<tr>
-					<td>Bracket Matrix: How many brackets have NU?</td>
-					<td class="text-end"><span id="bracketproject-count"></span>/<span id="bracketproject-totalbrackets"></span></td>
-				</tr>
-				
-			</tbody>
-		</table>
-		
-		
-		<h2>Quadrants</h2>
-		<p class="text-muted small mb-4">Current NET: <span id="ncaa-net2"></span> / Strength of schedule: <span id="quadrants-sos"></span> / Non-con SOS: <span id="quadrants-non-con-sos"></span></p>	
+                    <a href="#glance" class="flex items-center px-3 py-2 text-sm font-normal text-gray-700 rounded-lg hover:bg-gray-100 hover:text-red-700  transition-colors duration-200">
+                        <svg class="hover:stroke-red-700 w-4 h-4 mr-3 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-dashboard "><path d="M12 13m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M13.45 11.55l2.05 -2.05"></path><path d="M6.4 20a9 9 0 1 1 11.2 0z"></path></svg>
+                        At A Glance
+                    </a>
+                    <a href="#team-metrics" class="flex items-center px-3 py-2 text-sm font-normal text-gray-700 rounded-lg hover:bg-gray-100 hover:text-red-700  transition-colors duration-200">
+                        <svg class="hover:stroke-red-700 w-4 h-4 mr-3 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                        </svg>
+                        Team Sheet Ranks
+                    </a>
+                    <a href="#notable-rankings" class="flex items-center px-3 py-2 text-sm font-normal text-gray-700 rounded-lg hover:bg-gray-100 hover:text-red-700  transition-colors duration-200">
+                        <svg class="hover:stroke-red-700 w-4 h-4 mr-3 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5" />
+                          </svg>
+                          
+                        Notable Rankings
+                    </a>
+                    <a href="#bracket-chances" class="flex items-center px-3 py-2 text-sm font-normal text-gray-700 rounded-lg hover:bg-gray-100 hover:text-red-700  transition-colors duration-200">
+                        <svg class="hover:stroke-red-700 w-4 h-4 mr-3 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V13.5Zm0 2.25h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V18Zm2.498-6.75h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V13.5Zm0 2.25h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V18Zm2.504-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5Zm0 2.25h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V18Zm2.498-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5ZM8.25 6h7.5v2.25h-7.5V6ZM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 0 0 2.25 2.25h10.5a2.25 2.25 0 0 0 2.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0 0 12 2.25Z" />
+                          </svg>
+                                                  Bracket Chances
+                    </a>
+                    <a href="#quadrants" class="flex items-center px-3 py-2 text-sm font-normal text-gray-700 rounded-lg hover:bg-gray-100 hover:text-red-700  transition-colors duration-200">
+                        <svg class="hover:stroke-red-700 w-4 h-4 mr-3 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z" />
+                          </svg>
+                        Quadrants
+                    </a>
+                    <a href="#projections" class="flex items-center px-3 py-2 text-sm font-normal text-gray-700 rounded-lg hover:bg-gray-100 hover:text-red-700 transition-colors duration-200">
+                        <svg class="hover:stroke-red-700 w-4 h-4 mr-3 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605" />
+                          </svg>
+                          
+                        Projections
+                    </a>
+    
+                    <p class="text-gray-500 text-xs font-medium border-t border-gray-200 pt-4 mt-8 mx-4">
+                        Latest update<br /><span id="time" class="font-normal"></span>
+                    </p>
 
-		<div id="quads" class="mb-5">
-			<div class="quad-1 quad">
-				<p class="quad-label small"><span>Quad 1</span><span id="NET_quadrants_Q1_record" class="text-muted"></span></p>
-				<div id="NET_quadrants_quad1_games"></div>
-				<p class="quad-definition"><strong>Quad 1</strong>: Home 1-30, Neutral 1-50, Away 1-75</p>
-			</div>
-			
-			<div class="quad-2 quad">
-				<p class="quad-label small"><span>Quad 2</span><span id="NET_quadrants_Q2_record" class="text-muted"></span></p>
-				<div id="NET_quadrants_quad2_games"></div>
-				<p class="quad-definition"><strong>Quad 2</strong>: Home 31-75, Neutral 51-100, Away 76-135</p>
-			</div>
+                </nav>
+                
 
-			<div class="quad-3 quad">
-				<p class="quad-label small"><span>Quad 3</span><span id="NET_quadrants_Q3_record" class="text-muted"></span></p>
-				<div id="NET_quadrants_quad3_games"></div>
-				<p class="quad-definition"><strong>Quad 3</strong>: Home 76-160, Neutral 101-200, Away 135-240</p>
-			</div>
-			<div class="quad-4 quad">
-				<p class="quad-label small"><span>Quad 4</span><span id="NET_quadrants_Q4_record" class="text-muted"></span></p>
-				<div id="NET_quadrants_quad4_games"></div>
-				<p class="quad-definition"><strong>Quad 4</strong>: Home 161-353, Neutral 201-353, Away 241-353</p>
-			</div>
-			
-		</div>
-		
-		<hr />
-		
-		
-		<h2 class="mt-5">Projections</h2>
-		<p class="text-muted">Current record: <span id="kenpom-record">0-0</span>, <span id="current_conf_record">0-0</span> Big Ten</p>
-		<table class="table mb-5">
-			<thead>
-				<tr>
-					<th>Service</th>
-					<th class="text-end">Record</th>
-					<th class="text-end">Seed</th>
-				</tr>
-			</thead>
-			<tbody>
-				
-				<tr><td>Bracket Matrix</td><td class="text-end"><span class="small text-muted">NA</span></td><td class="text-end" id="bracketproject-seed"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>ESPN - BPI</td><td class="text-end"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td><td class="text-end"><span id="espn-proj-tourney-seed"></span></tr>
-				
-				<tr><td>ESPN - Lunardi</td><td class="text-end small text-muted">NA</td><td class="text-end"><span id="espn-bracketology-seed"><span class="small text-muted">NA</span></span></td></tr>
-				
-				<tr><td>Bart Torvik</td><td id="trank-proj" class="text-end"></td><td class="text-end"><span id="trank-seed"></span></td></tr>
-				
-				<tr><td>TeamRankings.com</td><td class="text-end"><span id="teamrankings_wl"></span> (<span id="teamrankings-conf-wl"></span>)</td><td class="text-end"><span id="teamrankings-seed"><span class="small text-muted">NA</span></span></td></tr>
-				
-				<tr><td>CBS Sports - Jerry Palm</td><td class="text-end small text-muted">NA</td><td class="text-end"><span id="cbs-bracket"><span class="small text-muted">NA</span></span></td></tr>
-				
-				<tr><td>Haslametrics</td><td class="text-end"><span class="small text-muted">NA</span></td><td class="text-end" id="haslametrics-seed"><span class="small text-muted">NA</span></td></tr>
-				
-				<tr><td>Miyakawa resume</td><td class="text-end"><span class="small text-muted">NA</span></td><td class="text-end" id="miya-resume-category"><span class="small text-muted">NA</span></td></tr>			
-				
-				<tr><td>Kenpom</td><td class="text-end"><span id="kenpom-overall"></span> (<span id="kenpom-conference"></span>)</td><td class="text-end"><span class="small text-muted">NA</span></td></tr>
-				
-			</tbody>
-		</table>
-		
+                
+            </div>
+            
+            <!-- Footer Section -->
+            
+            <div class="px-6 py-6 border-t border-gray-200">
+                
+                <div class="text-xs text-gray-400 leading-relaxed">
+                <p>
+                    <strong>Sources:</strong> 
+                    <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7" class="hover:text-gray-600 transition-colors">ESPN BPI/SOR</a>, 
+                    <a href="https://www.espn.com/espn/feature/story/_/page/bracketology/" class="hover:text-gray-600 transition-colors">ESPN Bracketology</a>, 
+                    <a href="https://kenpom.com/" class="hover:text-gray-600 transition-colors">Kenpom</a>, 
+                    <a href="https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings" class="hover:text-gray-600 transition-colors">NCAA</a>, 
+                    <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology" class="hover:text-gray-600 transition-colors">TeamRankings</a>, 
+                    <a href="http://warrennolan.com/basketball/2025/schedule/Nebraska" class="hover:text-gray-600 transition-colors">Warren Nolan</a>, 
+                    <a href="http://barttorvik.com/team.php?team=Nebraska" class="hover:text-gray-600 transition-colors">Bart Torvik</a>, 
+                    <a href="https://faktorsports.com/" class="hover:text-gray-600 transition-colors">KPI</a>, 
+                    <a href="http://bracketmatrix.com" class="hover:text-gray-600 transition-colors">Bracket Matrix</a>, 
+                    <a href="https://www.cbssports.com/college-basketball/bracketology/" class="hover:text-gray-600 transition-colors">CBS Sports</a>, 
+                    <a href="https://haslametrics.com/ratings.php" class="hover:text-gray-600 transition-colors">Haslametrics</a>, 
+                    <a href="https://bballnet.com/teams/nebraska" class="hover:text-gray-600 transition-colors">BBall NET</a>, 
+                    <a href="https://evanmiya.com" class="hover:text-gray-600 transition-colors">Evan Miyakawa</a>, 
+                    <a href="https://bauertology.com/brct/" class="hover:text-gray-600 transition-colors">Bauertology</a>, 
+                    <a href="https://shotquality.com/team-standings" class="hover:text-gray-600 transition-colors">Shot Quality</a>, 
+                    <a href="https://masseyratings.com/ranks?s=cb" class="hover:text-gray-600 transition-colors">Massey Composite Ratings</a>, 
+                    <a href="https://www.sports-reference.com/cbb/seasons/men/2025-ratings.html" class="hover:text-gray-600 transition-colors">Sports Reference</a>
+                </p>
+                
+                <p><strong>Inspiration:</strong> 
+                    <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html" class="hover:text-gray-600 transition-colors">#NYTNeedle</a> 
+                    <a href="https://www.nytimes.com/article/election-2024-results-needle.html" class="hover:text-gray-600 transition-colors">2024</a></p>
+                <p><strong>Shout out:</strong> <a href="http://brianhelge.com" class="hover:text-gray-600 transition-colors">Brian H.</a></p>
+            </div>
+        </aside>
 
-		
-	</div>
-  </div>
-  
-	</div>
-		
-		<div class="jumbotron" id="social_share" style="background-color: var(--red); display: none;">
-			<div class="container" style="display: flex; flex-direction: row; gap: 30px; align-items: center;">
-				<div id="chart_div_2" style="width: 200px; height: 200px; margin: 0; clear: both;"></div>	
-				<div id="social-share-text">
-					<h4>Nebraska basketball</h4>
-					<h3>Current NCAA tournament odds</h3>
-					<p style="font-size: 12px; font-family: 'factoria', serif; color: #ccc; ">nebrasketball.info</p>
-				</div>
-			</div>
-		</div>
-	  
-	<div class="jumbotron footer py-5">
-	<div class="container">
-	<div class="row">
-		<p class="text-muted" style="font-weight: bold;">Latest update: <span id="time"></span></p>
-	
-		<p class="small text-muted">Created by <a href="https://twitter.com/bvankat">Ben Vankat</a> / Details: <a href="http://github.com/bvankat/nebrasketball">Github</a> / <a href="https://github.com/bvankat/nebrasketball/blob/master/bracket-notes.md">Calculations help</a> / Shout out: <a href="http://brianhelge.com">Brian H.</a> / Inspiration: <a href="https://www.nytimes.com/2017/12/14/reader-center/nyt-needle-election.html">#NYTNeedle</a> (<a href="https://www.nytimes.com/article/election-2024-results-needle.html" target="_blank">2024</a>)</p>
+        <!-- Main Content Area -->
+        <main class="flex-1 space-y-8 max-w-full overflow-hidden">
+            
+                    
+                    
+                    <div id="cards-container" class="p-0 my-6 mx-4 lg:py-8 lg:px-6 lg:my-0 space-y-8">
 
-		<p class="small text-muted"><a name="footnotes"></a>Footnotes: [1] Wins Above Bubble current total: <span id="wab-score"></span></p>
-		
-		<p class="small text-muted">Sources: <a href="http://www.espn.com/mens-college-basketball/bpi/_/view/resume/group/7">ESPN BPI/SOR</a>, <a href="https://www.espn.com/espn/feature/story/_/page/bracketology/">ESPN Bracketology</a>, <a href="https://kenpom.com/">Kenpom</a>, <a href="https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings">NCAA</a>, <a href="https://www.teamrankings.com/ncaa-basketball/team/nebraska-cornhuskers/bracketology">TeamRankings</a>, <a href="http://warrennolan.com/basketball/2025/schedule/Nebraska">Warren Nolan</a>, <a href="http://barttorvik.com/team.php?team=Nebraska">Bart Torvik</a>, <a href="https://faktorsports.com/">KPI</a>, <a href="http://bracketmatrix.com">Bracket Matrix</a>, <a href="https://www.cbssports.com/college-basketball/bracketology/">CBS Sports</a>, <a href="https://haslametrics.com/ratings.php" target="_blank">Haslametrics</a>, <a href="https://bballnet.com/teams/nebraska" target="_blank">BBall NET</a>, <a href="https://evanmiya.com" target="_blank">Evan Miyakawa</a>, <a href="https://bauertology.com/brct/" target="_blank">Bauertology</a>, <a href="https://shotquality.com/team-standings" target="_blank">Shot Quality</a>, <a href="https://masseyratings.com/ranks?s=cb" target="_blank">Massey Composite Ratings</a>, <a href="https://www.sports-reference.com/cbb/seasons/men/2025-ratings.html" target="_blank">Sports Reference</a></p>	
-	</div>	
-	</div>
-	</div>
-	  	
+            <!-- At A Glance Card -->
+            <section id="glance">
+                <div class="shadow-sm bg-white border rounded-lg border-gray-200 overflow-hidden">
+                    
+                    
+                    <div class="bg-white px-6 pt-5 pb-3">
+                        <h2 class="text-md font-medium text-gray-800">At A Glance</h2>
+                    </div>
+                    
+                    <!-- Rankings Section with Dot Plot -->
+                    <div class="px-6 pb-4">
+                        <div id="dot-plot-container"></div>
+                    </div>
+                    
+                    <div class="px-6 pt-4 pb-6">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                            <div class="border border-gray-200 p-4 rounded-lg">
+                                <p class="text-sm text-gray-500 font-normal">Overall Record</p>
+                                <p class="text-2xl font-semibold text-gray-800" id="kenpom-record">0-0</p>
+                            </div>
+                            
+                            <div class="border border-gray-200 p-4 rounded-lg">
+                                <p class="text-sm text-gray-500 font-normal">Big Ten Record</p>
+                                <p class="text-2xl font-semibold text-gray-800" id="current_conf_record">0-0</p>
+                            </div>
+                            
+                            <div class="col-span-2 border border-gray-200 p-4 rounded-lg">
+                                <p class="text-sm text-gray-500 font-normal">Next Game</p>
+                                <div class="flex gap-3 items-center justify-between">
+                                    <p class="text-md flex gap-2 font-medium text-gray-800 mt-1" id="nextGame-teams">TBD</p>
+                                    <p class="text-sm text-gray-500 font-normal" id="nextGame-details"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                
+                
+            </section>
+
+
+
+            <!-- Team Sheet Metrics Card -->
+            <section id="team-metrics">
+                <div class="shadow-sm bg-white border rounded-lg border-gray-200 overflow-hidden">
+                    <div class="bg-white px-6 py-5">
+                        <h2 class="text-md font-medium text-gray-800">Team Sheet Ranks</h2>
+                    </div>
+                    
+                    <div class="overflow-x-auto max-w-full">
+                        <table class="w-full min-w-max">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        
+                                    </th>
+                                    <th class="px-6 py-3 text-right text-xs font-medium text-gray-400 uppercase tracking-wider">
+                                        Rank
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200">
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">NCAA NET</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="ncaa-net">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">KPI</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="kpi_ranking">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">ESPN SOR</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="espn-sor">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">ESPN BPI</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="espn-rating">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Kenpom</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="kenpom-rating">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Bart Torvik</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="trank-trank">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Wins Above Bubble <span class="text-xs"><a href="#footnotes" class="text-gray-400 hover:text-gray-600">[1]</a></span></td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="wab-rank">NA</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Notable Rankings Table -->
+            <section id="notable-rankings">
+                <div class="shadow-sm bg-white border rounded-lg border-gray-200 overflow-hidden">
+                    <div class="bg-white px-6 py-5">
+                        <h2 class="text-md font-medium text-gray-800">Notable Rankings</h2>
+                    </div>
+                    
+                    <div class="overflow-x-auto max-w-full">
+                        <table class="w-full min-w-max">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    </th>
+                                    <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Rank
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200">
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Bauertology BRCT</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="bauertology-BRCT">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Evan Miyakawa</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="miya-rating">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Haslametrics</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="haslam-rating">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Shot Quality</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="sq-ranking">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">RPI</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="nolan-rpi">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Massey Composite</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="massey-rank">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">ELO rank</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="nolan-elo">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">TeamRankings.com</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="teamrankings-rank">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Sports Reference SRS</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="sports-reference-srs">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">AP Poll</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="ap-rank">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Coaches Poll</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="coaches-rank">NA</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bracket Chances Section -->
+            <section id="bracket-chances">
+                <div class="shadow-sm bg-white border rounded-lg border-gray-200 overflow-hidden">
+                    <div class="bg-white px-6 py-5">
+                        <h2 class="text-md font-medium text-gray-800">Bracket Chances</h2>
+                    </div>
+                    
+                    <div class="overflow-x-auto max-w-full">
+                        <table class="w-full min-w-max">
+                            <tbody class="divide-y divide-gray-200">
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Torvik T-Ranketology</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right"><span id="trank-make-tourney">NA</span></td>
+                                    
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">TeamRankings.com</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right"><span id="teamrankings-rating">NA</span></td>
+                                    
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">ESPN - SOR S-Curve position</td>
+                                    <td id="espn-sor-s-curve" class="px-6 py-4 text-sm font-medium text-gray-700 text-right">NA</td>
+                                    
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Bracket Matrix: How many brackets have NU?</td>
+                                        <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right"><span id="bracketproject-count"></span>/<span id="bracketproject-totalbrackets"></span></td>
+                                    
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quadrants Section -->
+            <section id="quadrants">
+                <div class="shadow-wm bg-white border rounded-lg border-gray-200 overflow-hidden">
+                    <div class="bg-white px-6 py-5">
+                        <h2 class="text-md font-medium text-gray-800">Quadrants</h2>
+                        <p class="text-sm text-gray-500">Current NET: <span id="ncaa-net2"></span> / Strength of schedule: <span id="quadrants-sos"></span> / Non-con SOS: <span id="quadrants-non-con-sos"></span></p>
+                    </div>      
+                    
+                    <!-- Horizontal Scrollable Cards -->
+                    <div class="overflow-x-auto pb-4">
+                        <div class="flex space-x-4 overflow-x-scroll snap-x snap-mandatory scroll-pl-6 p-6">
+                            
+                            <!-- Quad 1 Card -->
+                            <div class="snap-start rounded-lg p-4 border border-gray-200 flex-shrink-0" style="width: 350px;">
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="text-md font-medium text-gray-800">Quad 1</h3>
+                                    <span id="NET_quadrants_Q1_record" class="text-md font-semibold text-gray-700">0-0</span>
+                                </div>
+                                <div id="NET_quadrants_quad1_games" class="space-y-2 text-sm">
+                                </div>
+                                <p class="text-xs text-gray-400 mt-3">Home 1-30, Neutral 1-50, Away 1-75</p>
+                            </div>
+
+                            <!-- Quad 2 Card -->
+                            <div class="snap-start rounded-lg p-4 border border-gray-200 flex-shrink-0" style="width: 350px;">
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="text-md font-medium text-gray-800">Quad 2</h3>
+                                    <span id="NET_quadrants_Q2_record" class="text-md font-semibold text-gray-700">0-0</span>
+                                </div>
+                                <div id="NET_quadrants_quad2_games" class="space-y-2 text-sm">
+                                </div>
+                                <p class="text-xs text-gray-400 mt-3">Home 31-75, Neutral 51-100, Away 76-135</p>
+                            </div>
+
+                            <!-- Quad 3 Card -->
+                            <div class="snap-start rounded-lg p-4 border border-gray-200 flex-shrink-0" style="width: 350px;">
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="text-md font-medium text-gray-800">Quad 3</h3>
+                                    <span id="NET_quadrants_Q3_record" class="text-md font-semibold text-gray-700">0-0</span>
+                                </div>
+                                <div id="NET_quadrants_quad3_games" class="space-y-2 text-sm">
+                                </div>
+                                <p class="text-xs text-gray-400 mt-3">Home 76-160, Neutral 101-200, Away 136-240</p>
+                            </div>
+
+                            <!-- Quad 4 Card -->
+                            <div class="snap-start rounded-lg p-4 border border-gray-200 flex-shrink-0" style="width: 350px;">
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="text-md font-medium text-gray-800">Quad 4</h3>
+                                    <span id="NET_quadrants_Q4_record" class="text-md font-semibold text-gray-700">0-0</span>
+                                </div>
+                                <div id="NET_quadrants_quad4_games" class="space-y-2 text-sm">
+                                </div>
+                                <p class="text-xs text-gray-400 mt-3">Home 161+, Neutral 201+, Away 241+</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projections Section -->
+            <section id="projections">
+                <div class="shadow-sm bg-white border rounded-lg border-gray-200 overflow-hidden">
+                    <div class="bg-white px-6 py-4">
+                        <h2 class="text-md font-medium text-gray-800">Projections</h2>
+                        <p class="text-sm text-gray-500">Current record: <span id="kenpom-overall">0-0</span>, <span id="kenpom-conference">0-0</span> Big Ten</p>
+                    </div>
+                    
+                    <div class="overflow-x-auto max-w-full">
+                        <table class="w-full min-w-max">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        
+                                    </th>
+                                    <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Record
+                                    </th>
+                                    <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Seed
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200">
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Bracket Matrix</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">NA</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="bracketproject-seed">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">ESPN - BPI</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right"><span id="espn-wl"></span> (<span id="espn-cwl"></span>)</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="espn-proj-tourney-seed">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">ESPN - Lunardi</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">NA</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="espn-bracketology-seed">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Bart Torvik</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right"><span id="trank-proj"></span></td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="trank-seed">NA</span></td>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">TeamRankings.com</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right"><span id="teamrankings_wl"></span> (<span id="teamrankings-conf-wl"></span>)</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="teamrankings-seed">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">CBS Sports - Jerry Palm</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">NA</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="cbs-bracket">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Kenpom</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right"><span id="kenpom-overall"></span> (<span id="kenpom-conference"></span>)</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span>NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Haslametrics</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">NA</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="haslametrics-seed">NA</span>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="px-6 py-4 text-sm font-normal text-gray-600">Miyakawa resume</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">NA</td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="miya-resume-category">NA</span></td>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            
+
+            <!-- Footnotes and Inspiration -->
+            <section id="footnotes" class="space-y-4 text-xs text-gray-500 py-4">
+                <p><strong>Footnotes:</strong> [1] Wins Above Bubble current total: <span id="wab-score"></span></p>
+            </section>
+            
+            </div><!-- cards-container -->
+        </main>
+    
+    </div>
+        
+        <div id="credits" class="flex flex-row items-center p-8 lg:p-4 space-x-3 text-xs text-gray-700 font-medium align-middle justify-center bg-gray-50 lg:bg-white">
+            <div class="flex items-center space-x-3">
+                <div class="w-7 h-7 bg-gray-100 rounded-full flex items-center justify-center">
+                    <a href="https://www.benvankat.com" target="_blank"><img src="https://benvankat.com/images/ben-vankat-headshot-2022-square.jpg" class="rounded-full"></a>
+                </div>
+                <span>Created by <a class="underline underline-offset-4 text-gray-500 font-normal" href="https://www.benvankat.com/" target="_blank">Ben Vankat</a></span>
+            </div>
+            <span>&bull;</span>
+            <p><a href="http://github.com/bvankat/nebrasketball" class="hover:text-gray-600 transition-colors underline underline-offset-4 text-gray-500 font-normal">Details and methodology</a></p>
+        
+        </div>
+        
+
+    <!-- D3 for the dot plot -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+    <script src="/js/dot-plot.js"></script>
+    <script src="/js/load-data.js"></script>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8ZYZZJV2K2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-8ZYZZJV2K2');
+    </script>
+    
 </body>
-	  
-  
 </html>
+
