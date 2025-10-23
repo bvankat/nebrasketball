@@ -1,0 +1,45 @@
+
+/* Override Tailwind's default font stack with Geist */
+body {
+	font-family: 'Geist', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-geist {
+	font-family: 'Geist', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.geist-mono { font-family: "Geist Mono", monospace; font-optical-sizing: auto; font-style: normal; }
+
+/* Dot plot styles */
+#dot-plot-container { max-width: 680px; }
+#dot-plot-container text { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }
+.endpoint-label { fill: #aaa; }
+.tick { stroke: #ccc; }
+.dot-label { text-anchor: middle; }
+
+/* Quadrant game table styles */
+.quad-games { font-size: 12px; width: 100%; font-weight: 500; color: rgb(107 114 128); }
+.quad-games td { padding: 4px; border-bottom: 1px solid #f3f3f3; }
+.opponent-net { font-size: 9px; color: #999; margin-right: 3px; font-weight: 300; }
+.quad-games td:nth-child(2) { font-weight: 400; color: var(--color-red-900); }
+.w { color: #15803d; }
+.l { color: #b91c1c; }
+
+/* Ranking indicator dots */
+.ranking-indicator {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	margin-left: 8px;
+	vertical-align: middle;
+}
+
+header { background-color: var(--red); background: radial-gradient(circle, rgba(235,19,47,1) 0%, rgba(190,4,29,1) 100%); }
+
+#nextGame-teams img { max-width: 24px; }
+
+/* Color scale matching dot plot (red to yellow to light yellow) */
+.rank-excellent { background-color: #e42320; }
+.rank-good { background-color: #fea849; }
+.rank-poor { background-color: #ffffcc; }
