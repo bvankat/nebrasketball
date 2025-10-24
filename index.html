@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -91,6 +91,31 @@
         </div>
         
     </header>
+    
+    <!-- Button Group for mobile nav -->
+    <div id="link-buttons" class="lg:hidden sticky top-0 z-10 bg-white no-scrollbar border border-b border-gray-300">
+        <div class="flex gap-2 overflow-x-auto text-xs font-medium p-4 no-scrollbar">
+          <a href="#glance" class="px-4 py-2 bg-white text-gray-900 hover:bg-gray-50 hover:text-red-800 focus:outline-none focus:ring-2 focus:ring-red-500 border border-gray-300 rounded-full whitespace-nowrap">
+            Glance
+          </a>
+          <a href="#team-metrics" class="px-4 py-2 bg-white text-gray-900 hover:bg-gray-50 hover:text-red-800 focus:outline-none focus:ring-2 focus:ring-red-500 border border-gray-300 rounded-full whitespace-nowrap">
+            Team Sheets
+          </a>
+          <a href="#notable-rankings" class="px-4 py-2 bg-white text-gray-900 hover:bg-gray-50 hover:text-red-800 focus:outline-none focus:ring-2 focus:ring-red-500 border border-gray-300 rounded-full whitespace-nowrap">
+            Notables
+          </a>
+          <a href="#bracket-chances" class="px-4 py-2 bg-white text-gray-900 hover:bg-gray-50 hover:text-red-800 focus:outline-none focus:ring-2 focus:ring-red-500 border border-gray-300 rounded-full whitespace-nowrap">
+            Brackets
+          </a>
+          <a href="#quadrants" class="px-4 py-2 bg-white text-gray-900 hover:bg-gray-50 hover:text-red-800 focus:outline-none focus:ring-2 focus:ring-red-500 border border-gray-300 rounded-full whitespace-nowrap">
+            Quadrants
+          </a>
+          <a href="#projections" class="px-4 py-2 bg-white text-gray-900 hover:bg-gray-50 hover:text-red-800 focus:outline-none focus:ring-2 focus:ring-red-500 border border-gray-300 rounded-full whitespace-nowrap">
+            Projections
+          </a>
+        </div>
+      </div>
+    
 
     <!-- Dashboard Layout -->
     <div class="flex min-h-screen m-1 rounded-lg lg:border lg:border-gray-200 lg:m-6">
@@ -151,19 +176,25 @@
                 
         </aside>
 
+        
+       
+        
         <!-- Main Content Area -->
         <main class="flex-1 space-y-8 max-w-full overflow-hidden">
             
-            <div id="cards-container" class="p-0 my-6 mx-2 lg:py-8 lg:px-6 lg:my-0 space-y-8">
-                        
-                    <div id="alert" class="text-sm border rounded-lg border-red-100 hover:border-red-200 bg-red-50 flex flex-row align-middle items-start justify-center text-gray-500 p-4 rounded-lg gap-3">
-                        <p class="font-medium geist-mono mt-1 text-red-800 text-xs">NOTE</p>
-                        <p>Adding new rankings frequently this week as we get closer to the first games</p>
-                    </div>
+            
+            <div id="cards-container" class="p-0 my-6 mx-2 lg:py-8 lg:px-6 lg:my-0 space-y-8 overflow-hidden">
+                
+            <!-- Alert -->
+                    
+                <div id="alert" class="text-sm border rounded-lg border-red-100 hover:border-red-200 bg-red-50 flex flex-row align-middle items-start justify-center text-gray-500 p-4 rounded-lg gap-3">
+                    <p class="font-medium geist-mono mt-1 text-red-800 text-xs">NOTE</p>
+                    <p>Adding new rankings frequently this week as we get closer to the first games</p>
+                </div>
 
             <!-- At A Glance Card -->
-            <section id="glance">
-                <div class="shadow-sm bg-white border rounded-lg border-gray-200 overflow-hidden">
+            <section id="glance" class="scroll-mt-20">
+                <div class="shadow-sm bg-white border rounded-lg border-gray-200 overflow-hidden ">
                     
                     
                     <div class="p-4 pb-3">
@@ -204,7 +235,7 @@
 
 
             <!-- Team Sheet Metrics Card -->
-            <section id="team-metrics">
+            <section id="team-metrics" class="scroll-mt-20">
                 <div class="shadow-sm bg-white border rounded-lg border-gray-200 overflow-hidden">
                     <div class="p-4">
                         <h2 class="text-md font-medium text-gray-800">Team Sheet Ranks</h2>
@@ -272,7 +303,7 @@
             </section>
 
             <!-- Notable Rankings Table -->
-            <section id="notable-rankings">
+            <section id="notable-rankings" class="scroll-mt-20">
                 <div class="shadow-sm bg-white border rounded-lg border-gray-200 overflow-hidden">
                     <div class="p-4">
                         <h2 class="text-md font-medium text-gray-800">Notable Rankings</h2>
@@ -363,7 +394,7 @@
             </section>
 
             <!-- Bracket Chances Section -->
-            <section id="bracket-chances">
+            <section id="bracket-chances" class="scroll-mt-20">
                 <div class="shadow-sm bg-white border rounded-lg border-gray-200 overflow-hidden">
                     <div class="p-4">
                         <h2 class="text-md font-medium text-gray-800">Bracket Chances</h2>
@@ -400,7 +431,7 @@
             </section>
 
             <!-- Quadrants Section -->
-            <section id="quadrants">
+            <section id="quadrants" class="scroll-mt-20">
                 <div class="shadow-wm bg-white border rounded-lg border-gray-200 overflow-hidden">
                     <div class="p-4">
                         <h2 class="text-md font-medium text-gray-800">Quadrants</h2>
@@ -461,7 +492,7 @@
             </section>
 
             <!-- Projections Section -->
-            <section id="projections">
+            <section id="projections" class="scroll-mt-20">
                 <div class="shadow-sm bg-white border rounded-lg border-gray-200 overflow-hidden">
                     <div class="p-4">
                         <h2 class="text-md font-medium text-gray-800">Projections</h2>
