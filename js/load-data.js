@@ -148,6 +148,7 @@
 	
 	document.getElementById('time').innerHTML = data.time.time;
 
+	if (data.bballnet_quadrants) {
 
 	function generateTable(data, containerId) {
 		let table = `<table class="quad-games">
@@ -177,7 +178,7 @@
 	generateTable(data.bballnet_quadrants.quad3_games, "NET_quadrants_quad3_games");
 	generateTable(data.bballnet_quadrants.quad4_games, "NET_quadrants_quad4_games");
 
-
+} // end Quadrants conditional
 
 	function FindScore(data) { // Calculate percentage chance based on previous at-large bids
 		 var score;
@@ -209,10 +210,12 @@
 	 
 	 if( data.kenpom) { kenpom_score = FindScore(data.kenpom.rating); }
 	 
-	 if( data.ncaa ) { 
+	 if (data.ncaa) { 
 		 net_score = FindScore(data.ncaa.net_rank); 
-	 } else if ( data.trank.torvik_NET ) {
+	 } else if (data.trank && data.trank.torvik_NET ) {
 		 net_score = FindScore(data.trank.torvik_NET); 
+	 } else {
+		 net_score = undefined;
 	 }
 	 
 	 if( data.espn ) { 
@@ -224,10 +227,16 @@
 		 teamrankings_score = parseInt(data.teamrankings.make_tournament); 
 	 } // This one's already a % score
 	 
+	 let torvik_score;
+	 let wab_score;
 	 if( data.trank ) { 
-		 torvik_score = parseInt(data.trank.trank_make_tourney); 
+	  	  torvik_score = parseInt(data.trank.trank_make_tourney); 
 		  wab_score = FindScore(data.trank.wab_rank); 
 	 }
+	 
+	 let kpi_score;
+	 let rpi_score;
+	 let bauertology_score;
 	 
 	 if( data.kpi_sports ) { kpi_score = FindScore(data.kpi_sports.kpi_ranking); }
 	 if (data.warrennolan ) { rpi_score = FindScore(data.warrennolan.rpi); }
@@ -265,16 +274,16 @@
 		let raw_rankings = {};
 		
 		// Conditionally add variables to the object if they are defined
-		if (typeof data.ncaa.net_rank !== 'undefined') raw_rankings.NET = parseInt(data.ncaa.net_rank);
-		if (typeof data.kpi_sports.kpi_ranking !== 'undefined') raw_rankings.KPI = data.kpi_sports.kpi_ranking;
-		if (typeof data.espn.sor !== 'undefined') raw_rankings["ESPN SOR"] = data.espn.sor;
-		if (typeof data.espn.bpi !== 'undefined') raw_rankings["ESPN BPI"] = data.espn.bpi;
-		if (typeof data.teamrankings.rank !== 'undefined') raw_rankings["Team Rankings"] = parseInt(data.teamrankings.rank);
-		if (typeof data.warrennolan.rpi !== 'undefined') raw_rankings.RPI = parseInt(data.warrennolan.rpi);
-		if (typeof data.kenpom.rating !== 'undefined') raw_rankings.Kenpom = data.kenpom.rating;
-		if (typeof data.trank.trank !== 'undefined') raw_rankings.Torvik = data.trank.trank;
-		if (typeof data.trank.wab_rank !== 'undefined') raw_rankings.WAB = data.trank.wab_rank;
-		if (typeof data.bauertology.BRCT_rank !== 'undefined') raw_rankings.Bauer = parseInt(data.bauertology.BRCT_rank);
+		if (data.ncaa && typeof data.ncaa.net_rank !== 'undefined') raw_rankings.NET = parseInt(data.ncaa.net_rank);
+		if (data.kpi_sports && typeof data.kpi_sports.kpi_ranking !== 'undefined') raw_rankings.KPI = data.kpi_sports.kpi_ranking;
+		if (data.espn && typeof data.espn.sor !== 'undefined') raw_rankings["ESPN SOR"] = data.espn.sor;
+		if (data.espn && typeof data.espn.bpi !== 'undefined') raw_rankings["ESPN BPI"] = data.espn.bpi;
+		if (data.teamrankings && typeof data.teamrankings.rank !== 'undefined') raw_rankings["Team Rankings"] = parseInt(data.teamrankings.rank);
+		if (data.warrennolan && typeof data.warrennolan.rpi !== 'undefined') raw_rankings.RPI = parseInt(data.warrennolan.rpi);
+		if (data.kenpom && typeof data.kenpom.rating !== 'undefined') raw_rankings.Kenpom = data.kenpom.rating;
+		if (data.trank && typeof data.trank.trank !== 'undefined') raw_rankings.Torvik = data.trank.trank;
+		if (data.trank && typeof data.trank.wab_rank !== 'undefined') raw_rankings.WAB = data.trank.wab_rank;
+		if (data.trank && typeof data.bauertology.BRCT_rank !== 'undefined') raw_rankings.Bauer = parseInt(data.bauertology.BRCT_rank);
 		
 		
 		// Initialize an array to hold the values that exist
