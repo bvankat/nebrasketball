@@ -41,13 +41,29 @@
     
     
 </head>
-<body class="min-h-screen bg-white">
+<body class="min-h-screen bg-white max-w-full ">
         
     <!-- Header -->
-    <header class="lg:inline-flex text-center px-4 pt-8 pb-16">
+    <header class="lg:inline-flex text-center p-16 max-w-full gap-20">
         
             
-            <div class="lg:w-1/2 lg:flex lg:flex-col lg:justify-between px-8 text-center lg:px-8">
+            <div class="lg:w-1/2 lg:flex lg:flex-col lg:justify-between text-center">
+                
+                <div id="text" class="flex flex-col items-center lg:items-start gap-4">
+                    <div id="updates-pill" class="flex inline-flex px-4 py-2 shadow-sm bg-black/10 rounded-full border border-white/15">
+                        <span class="relative pt-1 size-2">
+                            <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-200 opacity-80"></span>
+                            <span class="absolute inline-flex size-2 rounded-full bg-green-500"></span>
+                        </span>
+                        <p class="text-gray-200 text-xs font-light tracking-wider pl-4 lg:inline-block geist-mono"><span class="font-medium">PRESEASON</span> — UPDATING DAILY</p>
+                    </div>
+                    
+                    <h1 class="text-3xl text-white font-extrabold lg:text-left lg:text-4xl">Nebraska Basketball NCAA Tournament Odds</h1>
+                    
+                    <p class="hidden lg:block text-white/70 leading-relaxed text-md font-light text-center lg:text-left">Will <span class="font-medium">#Nebrasketball</span> make the Big Dance in 2026?</p>
+                    
+                  
+                </div>
                         
                         <div id="topper" class="hidden lg:block flex flex-col gap-3">
                             
@@ -61,25 +77,10 @@
                             
                         </div>
                      
-                        <div id="text" class="flex flex-col items-center lg:items-start gap-4 py-6">
-                            <div id="updates-pill" class="flex inline-flex px-4 py-2 shadow-sm bg-black/10 rounded-full border border-white/15">
-                                <span class="relative pt-1 size-2">
-                                    <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-200 opacity-80"></span>
-                                    <span class="absolute inline-flex size-2 rounded-full bg-green-500"></span>
-                                </span>
-                                <p class="text-gray-200 text-xs font-light tracking-wider pl-4 lg:inline-block geist-mono"><span class="font-medium">PRESEASON</span> — UPDATING DAILY</p>
-                            </div>
-                            
-                            <h1 class="text-3xl text-white font-extrabold lg:text-left lg:text-4xl">Nebraska Basketball NCAA Tournament Odds</h1>
-                            
-                            <p class="hidden lg:block text-white/70 leading-relaxed text-md font-light text-center lg:text-left">Will <span class="font-medium">#Nebrasketball</span> make the Big Dance in 2026?</p>
-                            
-                          
-                        </div>
 
                 </div>
            
-                <div class="p-2 lg:w-1/2 lg:bg-black/5 lg:border lg:border-white/10 lg:rounded-xl lg:shadow-sm">
+                <div class="lg:w-1/2 lg:bg-black/5 lg:border lg:border-white/10 lg:rounded-xl lg:shadow-sm">
                 <div class="bg-none lg:bg-black/10 rounded-lg lg:shadow-sm lg:px-20 lg:py-20">
                     <div id="chart_div" style="width: 340px; height: 340px; margin: 0 auto 40px auto; clear: both;"></div>
                     <p class="text-center text-white font-light text-xs uppercase opacity-60 tracking-wider geist-mono mb-2">Current status</p>
@@ -118,7 +119,7 @@
     
 
     <!-- Dashboard Layout -->
-    <div class="flex min-h-screen m-1 rounded-lg lg:border lg:border-gray-200 lg:m-6">
+    <div class="flex min-h-screen m-1 rounded-lg lg:border lg:border-gray-200 lg:m-6 max-w-screen-xl">
         <!-- Sidebar Navigation (25% width on large screens) -->
         <aside class="hidden lg:flex lg:flex-col lg:w-1/4 border-r bg-gray-50 border-gray-200">
             <!-- Navigation Section -->
@@ -180,7 +181,7 @@
        
         
         <!-- Main Content Area -->
-        <main class="flex-1 space-y-8 max-w-full overflow-hidden">
+        <main class="flex-1 space-y-8 overflow-hidden">
             
             
             <div id="cards-container" class="p-0 my-6 mx-2 lg:py-8 lg:px-6 lg:my-0 space-y-8 overflow-hidden">
