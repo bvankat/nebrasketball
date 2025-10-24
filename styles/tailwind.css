@@ -56,6 +56,7 @@
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --color-husker-red: #eb132f;
+    --husker-gradient: radial-gradient(circle, rgba(235,19,47,1) 0%, rgba(190,4,29,1) 100%);
   }
 }
 @layer base {
@@ -440,9 +441,6 @@
   .overflow-x-scroll {
     overflow-x: scroll;
   }
-  .rounded-3xl {
-    border-radius: var(--radius-3xl);
-  }
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
@@ -473,12 +471,6 @@
       border-color: color-mix(in oklab, var(--color-white) 15%, transparent);
     }
   }
-  .bg-black\/5 {
-    background-color: color-mix(in srgb, #000 5%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      background-color: color-mix(in oklab, var(--color-black) 5%, transparent);
-    }
-  }
   .bg-black\/10 {
     background-color: color-mix(in srgb, #000 10%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -503,23 +495,8 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-white\/5 {
-    background-color: color-mix(in srgb, #fff 5%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      background-color: color-mix(in oklab, var(--color-white) 5%, transparent);
-    }
-  }
-  .bg-\[image\:repeating-linear-gradient\(315deg\,_var\(--pattern-fg\)_0\,_var\(--pattern-fg\)_1px\,_transparent_0\,_transparent_50\%\)\] {
-    background-image: repeating-linear-gradient(315deg, var(--pattern-fg) 0, var(--pattern-fg) 1px, transparent 0, transparent 50%);
-  }
   .bg-none {
     background-image: none;
-  }
-  .bg-\[size\:10px_10px\] {
-    background-size: 10px 10px;
-  }
-  .bg-fixed {
-    background-attachment: fixed;
   }
   .p-0 {
     padding: calc(var(--spacing) * 0);
@@ -726,12 +703,6 @@
     --tw-duration: 200ms;
     transition-duration: 200ms;
   }
-  .\[--pattern-fg\:var\(--color-gray-950\)\]\/5 {
-    --pattern-fg: color-mix(in srgb, oklch(13% 0.028 261.692) 5%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      --pattern-fg: color-mix(in oklab, var(--color-gray-950) 5%, transparent);
-    }
-  }
   .hover\:border-red-200 {
     &:hover {
       @media (hover: hover) {
@@ -832,16 +803,6 @@
       justify-content: space-between;
     }
   }
-  .lg\:rounded-2xl {
-    @media (width >= 64rem) {
-      border-radius: var(--radius-2xl);
-    }
-  }
-  .lg\:rounded-4xl {
-    @media (width >= 64rem) {
-      border-radius: var(--radius-4xl);
-    }
-  }
   .lg\:rounded-xl {
     @media (width >= 64rem) {
       border-radius: var(--radius-xl);
@@ -872,79 +833,6 @@
       }
     }
   }
-  .lg\:border-white\/20 {
-    @media (width >= 64rem) {
-      border-color: color-mix(in srgb, #fff 20%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        border-color: color-mix(in oklab, var(--color-white) 20%, transparent);
-      }
-    }
-  }
-  .lg\:bg-\(--husker-gradient\) {
-    @media (width >= 64rem) {
-      background-color: var(--husker-gradient);
-    }
-  }
-  .lg\:bg-\(--husker-gradient\)\/5 {
-    @media (width >= 64rem) {
-      background-color: var(--husker-gradient);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--husker-gradient) 5%, transparent);
-      }
-    }
-  }
-  .lg\:bg-\(--husker-gradient\)\/95 {
-    @media (width >= 64rem) {
-      background-color: var(--husker-gradient);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--husker-gradient) 95%, transparent);
-      }
-    }
-  }
-  .lg\:bg-\(--husker-red\)\/5 {
-    @media (width >= 64rem) {
-      background-color: var(--husker-red);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--husker-red) 5%, transparent);
-      }
-    }
-  }
-  .lg\:bg-\[--husker-gradient\]\/5 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in oklab, --husker-gradient 5%, transparent);
-    }
-  }
-  .lg\:bg-\[--var-husker-gradient\] {
-    @media (width >= 64rem) {
-      background-color: --var-husker-gradient;
-    }
-  }
-  .lg\:bg-\[--var-husker-gradient\]\/70 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in oklab, --var-husker-gradient 70%, transparent);
-    }
-  }
-  .lg\:bg-\[--var-husker-gradient\]\/90 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in oklab, --var-husker-gradient 90%, transparent);
-    }
-  }
-  .lg\:bg-\[var\(--husker-gradient\)\]\/5 {
-    @media (width >= 64rem) {
-      background-color: var(--husker-gradient);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--husker-gradient) 5%, transparent);
-      }
-    }
-  }
-  .lg\:bg-\[var\(husker-gradient\)\]\/5 {
-    @media (width >= 64rem) {
-      background-color: var(husker-gradient);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(husker-gradient) 5%, transparent);
-      }
-    }
-  }
   .lg\:bg-black\/5 {
     @media (width >= 64rem) {
       background-color: color-mix(in srgb, #000 5%, transparent);
@@ -961,158 +849,9 @@
       }
     }
   }
-  .lg\:bg-black\/15 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #000 15%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-black) 15%, transparent);
-      }
-    }
-  }
-  .lg\:bg-black\/20 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #000 20%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-black) 20%, transparent);
-      }
-    }
-  }
-  .lg\:bg-black\/50 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #000 50%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
-      }
-    }
-  }
-  .lg\:bg-gray-500\/15 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, oklch(55.1% 0.027 264.364) 15%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-gray-500) 15%, transparent);
-      }
-    }
-  }
-  .lg\:bg-husker-red {
-    @media (width >= 64rem) {
-      background-color: var(--color-husker-red);
-    }
-  }
-  .lg\:bg-husker-red\/5 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #eb132f 5%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-husker-red) 5%, transparent);
-      }
-    }
-  }
-  .lg\:bg-husker-red\/20 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #eb132f 20%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-husker-red) 20%, transparent);
-      }
-    }
-  }
-  .lg\:bg-husker-red\/25 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #eb132f 25%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-husker-red) 25%, transparent);
-      }
-    }
-  }
-  .lg\:bg-husker-red\/35 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #eb132f 35%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-husker-red) 35%, transparent);
-      }
-    }
-  }
-  .lg\:bg-husker-red\/40 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #eb132f 40%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-husker-red) 40%, transparent);
-      }
-    }
-  }
-  .lg\:bg-husker-red\/45 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #eb132f 45%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-husker-red) 45%, transparent);
-      }
-    }
-  }
-  .lg\:bg-husker-red\/70 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #eb132f 70%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-husker-red) 70%, transparent);
-      }
-    }
-  }
-  .lg\:bg-husker-red\/90 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #eb132f 90%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-husker-red) 90%, transparent);
-      }
-    }
-  }
-  .lg\:bg-husker-red\/95 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #eb132f 95%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-husker-red) 95%, transparent);
-      }
-    }
-  }
   .lg\:bg-white {
     @media (width >= 64rem) {
       background-color: var(--color-white);
-    }
-  }
-  .lg\:bg-white\/5 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #fff 5%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-white) 5%, transparent);
-      }
-    }
-  }
-  .lg\:bg-white\/10 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #fff 10%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-white) 10%, transparent);
-      }
-    }
-  }
-  .lg\:bg-white\/15 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #fff 15%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-white) 15%, transparent);
-      }
-    }
-  }
-  .lg\:bg-white\/25 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #fff 25%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-white) 25%, transparent);
-      }
-    }
-  }
-  .lg\:bg-white\/40 {
-    @media (width >= 64rem) {
-      background-color: color-mix(in srgb, #fff 40%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        background-color: color-mix(in oklab, var(--color-white) 40%, transparent);
-      }
     }
   }
   .lg\:p-4 {
@@ -1170,7 +909,8 @@
 }
 .ratings-table td {
   padding-inline: calc(var(--spacing) * 6);
-  padding-block: calc(var(--spacing) * 4);
+  padding-block: calc(var(--spacing) * 3);
+  padding-left: calc(var(--spacing) * 4);
   font-size: var(--text-sm);
   line-height: var(--tw-leading, var(--text-sm--line-height));
   --tw-font-weight: var(--font-weight-normal);
