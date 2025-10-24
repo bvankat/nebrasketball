@@ -258,7 +258,7 @@
                             <tbody class="divide-y divide-gray-200">
                                 <tr class="transition-colors duration-200">
                                     <td class="px-3 py-2 text-sm font-normal text-gray-600">NCAA NET</td>
-                                    <td class="px-3 py-2 text-sm font-medium text-gray-700 text-right">
+                                    <td class="px-3 py-2 text-sm font-medium text-gray-700 text-right geist-mono">
                                         <span id="ncaa-net">NA</span>
                                     </td>
                                 </tr>
@@ -435,9 +435,17 @@
             <!-- Quadrants Section -->
             <section id="quadrants" class="scroll-mt-24">
                 <div class="shadow-wm bg-white border rounded-lg border-gray-200 overflow-hidden">
-                    <div class="p-4">
+                    <div class="p-4 flex flex-row justify-between">
                         <h2 class="text-md font-medium text-gray-800">Quadrants</h2>
-                        <p class="text-sm text-gray-500">Current NET: <span id="ncaa-net2"></span> / Strength of schedule: <span id="quadrants-sos"></span> / Non-con SOS: <span id="quadrants-non-con-sos"></span></p>
+                        
+                        <div id="quad-pills" class="text-gray-500">
+                            <span class="text-xs text-red-900 mr-2">Nebraska</span>
+                            <span data-slot="badge" class="inline-flex items-center justify-center rounded-full border border-gray-100 px-2 py-0.5 text-xs font-regular w-fit whitespace-nowrap shrink-0 gap-1 overflow-hidden">NET <span id="ncaa-net2" class="font-medium geist-mono text-gray-600"></span></span>
+                        
+                            <span data-slot="badge" class="inline-flex items-center justify-center rounded-full border border-gray-100 px-2 py-0.5 text-xs font-regular w-fit whitespace-nowrap shrink-0 gap-1 overflow-hidden">SOS <span id="quadrants-sos" class="font-medium geist-mono text-gray-600"></span></span></span>
+                        
+                            <span data-slot="badge" class="inline-flex items-center justify-center rounded-full border border-gray-100 px-2 py-0.5 text-xs font-regular w-fit whitespace-nowrap shrink-0 gap-1 overflow-hidden">NCSOS <span id="quadrants-non-con-sos" class="font-medium geist-mono text-gray-600"></span></span>
+                        </div>                    
                     </div>      
                     
                     <!-- Horizontal Scrollable Cards -->

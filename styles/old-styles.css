@@ -1,4 +1,8 @@
 
+:root {
+	--geist-mono: "Geist Mono", monospace; font-optical-sizing: auto; font-style: normal; 
+}
+
 /* Override Tailwind's default font stack with Geist */
 body {
 	font-family: 'Geist', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -7,6 +11,7 @@ body {
 .font-geist {
 	font-family: 'Geist', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
 
 .geist-mono { font-family: "Geist Mono", monospace; font-optical-sizing: auto; font-style: normal; }
 
@@ -17,11 +22,15 @@ body {
 .tick { stroke: #ccc; }
 .dot-label { text-anchor: middle; }
 
+/* .ratings-table styles */
+.ratings-table td:nth-child(2), .ratings-table td:last-child { font-family: var(--geist-mono); font-weight: 500; }
+
 /* Quadrant game table styles */
 .quad-games { font-size: 12px; width: 100%; font-weight: 500; color: rgb(107 114 128); }
 .quad-games td { padding: 4px; border-bottom: 1px solid #f3f3f3; }
 .opponent-net { font-size: 9px; color: #999; margin-right: 3px; font-weight: 300; }
-.quad-games td:nth-child(2) { font-weight: 400; color: var(--color-red-900); }
+.quad-games td:nth-child(2) { font-weight: 400; }
+.quad-games td:nth-child(3) { font-weight: 400; font-family: var(--geist-mono); text-align: left; }
 .w { color: #15803d; }
 .l { color: #b91c1c; }
 
