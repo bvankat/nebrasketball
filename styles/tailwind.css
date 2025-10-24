@@ -387,6 +387,9 @@
   .scroll-mt-20 {
     scroll-margin-top: calc(var(--spacing) * 20);
   }
+  .scroll-mt-24 {
+    scroll-margin-top: calc(var(--spacing) * 24);
+  }
   .scroll-pl-6 {
     scroll-padding-left: calc(var(--spacing) * 6);
   }
