@@ -445,5 +445,5 @@ function drawChart() {
 	
 document.addEventListener('DOMContentLoaded', function() {
     loadData(); // MAKES THE MAGIC HAPPEN
-	dotPlot(); // Makes some other magic happen
+	// dotPlot(); // Makes some other magic happen
 });
