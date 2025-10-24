@@ -254,6 +254,9 @@
   .mx-4 {
     margin-inline: calc(var(--spacing) * 4);
   }
+  .my-0 {
+    margin-block: calc(var(--spacing) * 0);
+  }
   .my-4 {
     margin-block: calc(var(--spacing) * 4);
   }
