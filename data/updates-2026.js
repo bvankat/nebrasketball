@@ -188,6 +188,17 @@
             "time": {
                 "time": "Oct. 25, 2025 at 4:40 PM"
             }
+        },
+        {
+            "trank": {
+                "trank": 44,
+                "trank_proj_record": "18-12 (9-11)",
+                "trank_seed": "NA",
+                "torvik_NET": "56"
+            },
+            "time": {
+                "time": "Oct. 25, 2025 at 5:02 PM"
+            }
         }
     ]
 }
