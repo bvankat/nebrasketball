@@ -68,6 +68,126 @@
             "time": {
                 "time": "Oct. 24, 2025 at 5:54 PM"
             }
+        },
+        {
+            "kenpom": {
+                "rating": 51,
+                "record": "0-0",
+                "sos": 1,
+                "overall_record": "17-13",
+                "conference_record": "8-12"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "espn": {
+                "bpi": 47.0,
+                "seven_day_change": "",
+                "proj_tourney_seed": 13.0,
+                "proj_win_loss_overall": "21.0-14.0",
+                "proj_win_loss_conf": "7.0-13.0",
+                "sor": 51.0,
+                "sos": 40.0,
+                "non_con_sos": 81.0,
+                "chance_sweet_16": "",
+                "chance_round_32": "",
+                "projected_tournament_order": 71.0
+            },
+            "next_game": {
+                "home_team": "Nebraska",
+                "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+                "away_team": "West Georgia",
+                "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+                "date_time": "11/3 - 8:00 PM EST"
+            },
+            "espn_bracketology": {
+                "seed": "OUT"
+            },
+            "warrennolan": {
+                "record": "0-0",
+                "current_conf_record": "0-0",
+                "rpi": "1",
+                "elo": "69",
+                "quadrant_1": "0-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "0-0",
+                "nolan_net": "54"
+            },
+            "haslametrics": {
+                "haslam_rating": "40",
+                "seed": "OUT"
+            },
+            "kpi_sports": {
+                "kpi_ranking": null
+            },
+            "massey_ratings": {
+                "massey_rank": 46
+            },
+            "time": {
+                "time": "Oct. 25, 2025 at 4:35 PM"
+            }
+        },
+        {
+            "kenpom": {
+                "rating": 51,
+                "record": "0-0",
+                "sos": 1,
+                "overall_record": "17-13",
+                "conference_record": "8-12"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "espn": {
+                "bpi": 47.0,
+                "seven_day_change": "",
+                "proj_tourney_seed": 13.0,
+                "proj_win_loss_overall": "21.0-14.0",
+                "proj_win_loss_conf": "7.0-13.0",
+                "sor": 51.0,
+                "sos": 40.0,
+                "non_con_sos": 81.0,
+                "chance_sweet_16": "",
+                "chance_round_32": "",
+                "projected_tournament_order": 71.0
+            },
+            "next_game": {
+                "home_team": "Nebraska",
+                "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+                "away_team": "West Georgia",
+                "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+                "date_time": "11/3 - 8:00 PM EST"
+            },
+            "espn_bracketology": {
+                "seed": "OUT"
+            },
+            "warrennolan": {
+                "record": "0-0",
+                "current_conf_record": "0-0",
+                "rpi": "1",
+                "elo": "69",
+                "quadrant_1": "0-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "0-0",
+                "nolan_net": "54"
+            },
+            "haslametrics": {
+                "haslam_rating": "40",
+                "seed": "PI11"
+            },
+            "kpi_sports": {
+                "kpi_ranking": null
+            },
+            "massey_ratings": {
+                "massey_rank": 46
+            },
+            "time": {
+                "time": "Oct. 25, 2025 at 4:40 PM"
+            }
         }
     ]
 }
