@@ -41,13 +41,15 @@
         "coaches_rank": "NR"
     },
     "time": {
-        "time": "Oct. 27, 2025 at 10:11 AM"
+        "time": "Oct. 27, 2025 at 12:52 PM"
     },
     "trank": {
         "torvik_NET": "56",
         "trank": 44,
         "trank_proj_record": "18-12 (9-11)",
-        "trank_seed": "NA"
+        "trank_seed": "NA",
+        "wab_rank": 1,
+        "wab_score": 0.0
     },
     "warrennolan": {
         "current_conf_record": "0-0",
