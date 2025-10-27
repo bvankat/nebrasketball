@@ -283,7 +283,7 @@
 		if (data.kenpom && typeof data.kenpom.rating !== 'undefined') raw_rankings.Kenpom = data.kenpom.rating;
 		if (data.trank && typeof data.trank.trank !== 'undefined') raw_rankings.Torvik = data.trank.trank;
 		if (data.trank && typeof data.trank.wab_rank !== 'undefined') raw_rankings.WAB = data.trank.wab_rank;
-		if (data.trank && typeof data.bauertology.BRCT_rank !== 'undefined') raw_rankings.Bauer = parseInt(data.bauertology.BRCT_rank);
+		if (data.bauertology && typeof data.bauertology.BRCT_rank !== 'undefined') raw_rankings.Bauer = parseInt(data.bauertology.BRCT_rank);
 		
 		
 		// Initialize an array to hold the values that exist
