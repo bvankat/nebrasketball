@@ -29,6 +29,9 @@
     "kpi_sports": {
         "kpi_ranking": null
     },
+    "massey_ratings": {
+        "massey_rank": 46
+    },
     "next_game": {
         "away_team": "West Georgia",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
@@ -41,7 +44,7 @@
         "coaches_rank": "NR"
     },
     "time": {
-        "time": "Oct. 27, 2025 at 12:52 PM"
+        "time": "Oct. 27, 2025 at 1:01 PM"
     },
     "trank": {
         "torvik_NET": "56",
