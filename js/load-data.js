@@ -21,6 +21,8 @@
 		document.getElementById('kenpom-rating').innerHTML = data.kenpom.rating;
 		document.getElementById('kenpom-overall').innerHTML = data.kenpom.overall_record;
 		document.getElementById('kenpom-conference').innerHTML = data.kenpom.conference_record;
+		document.getElementById('kenpom-overall-2').innerHTML = data.kenpom.overall_record;
+		document.getElementById('kenpom-conference-2').innerHTML = data.kenpom.conference_record;
 		document.getElementById('kenpom-record').innerHTML = data.kenpom.record;
 	}
 
