@@ -13,9 +13,6 @@
         "record": "0-0",
         "sos": 1
     },
-    "kpi_sports": {
-        "kpi_ranking": null
-    },
     "massey_ratings": {
         "massey_rank": 48
     },
@@ -31,7 +28,7 @@
         "coaches_rank": "NR"
     },
     "time": {
-        "time": "Oct. 29, 2025 at 12:53 PM"
+        "time": "Oct. 29, 2025 at 1:39 PM"
     },
     "trank": {
         "torvik_NET": "55",
