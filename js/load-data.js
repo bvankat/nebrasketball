@@ -14,13 +14,12 @@
 		document.getElementById('ncaa-net2').innerHTML = data.ncaa.net_rank; 
 	} else if (data.trank) {
 		document.getElementById('ncaa-net').innerHTML = data.trank.torvik_NET; 
+		document.getElementById('ncaa-net-note').innerHTML = "projected"; 
 		document.getElementById('ncaa-net2').innerHTML = data.trank.torvik_NET; 
 	}
 	
 	if ( data.kenpom ) {
 		document.getElementById('kenpom-rating').innerHTML = data.kenpom.rating;
-		document.getElementById('kenpom-overall').innerHTML = data.kenpom.overall_record;
-		document.getElementById('kenpom-conference').innerHTML = data.kenpom.conference_record;
 		document.getElementById('kenpom-overall-2').innerHTML = data.kenpom.overall_record;
 		document.getElementById('kenpom-conference-2').innerHTML = data.kenpom.conference_record;
 		document.getElementById('kenpom-record').innerHTML = data.kenpom.record;
@@ -61,18 +60,15 @@
 	//	document.getElementById('warrennolan-group4').innerHTML = data.warrennolan.quadrant_4;
 		document.getElementById('nolan-rpi').innerHTML = data.warrennolan.rpi;
 		document.getElementById('nolan-elo').innerHTML = data.warrennolan.elo;
+		document.getElementById('proj-conference-record').innerHTML = data.warrennolan.current_conf_record;
+		document.getElementById('proj-overall-record').innerHTML = data.warrennolan.record;
+		document.getElementById('current_conf_record').innerHTML = data.warrennolan.current_conf_record;
 		}
 
 	if ( data.polls ) {
 		document.getElementById('ap-rank').innerHTML = data.polls.ap_rank;
 		document.getElementById('coaches-rank').innerHTML = data.polls.coaches_rank;
 	}	
-	
-	
-	if ( data.warrennolan ) {
-		// document.getElementById('current_record').innerHTML = data.trank.current_record;
-		document.getElementById('current_conf_record').innerHTML = data.warrennolan.current_conf_record;
-	}
 	
 	if ( data.trank ) {
 		document.getElementById('trank-proj').innerHTML = data.trank.trank_proj_record;
@@ -83,6 +79,7 @@
 		document.getElementById('wab-rank').innerHTML = data.trank.wab_rank;
 	
 		var trank_tourney_pct = data.trank.trank_make_tourney + "%";
+		document.getElementById('trank-make-tourney').innerHTML = trank_tourney_pct;
 	}
 
 	if ( data.haslametrics ) {
@@ -107,7 +104,6 @@
 		document.getElementById('sports-reference-srs').innerHTML = data.sports_reference.SRS_rank;
 	}
 	
-	document.getElementById('trank-make-tourney').innerHTML = trank_tourney_pct;
 	
 
 	if ( data.teamrankings ) {
