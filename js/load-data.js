@@ -43,9 +43,12 @@
 		// document.getElementById('espn-sweet16').innerHTML = data.espn.chance_sweet_16;
 		// document.getElementById('espn-round-32').innerHTML = data.espn.chance_round_32;
 		document.getElementById('espn-sor-s-curve').innerHTML = data.espn.projected_tournament_order;
-		document.getElementById('espn-bracketology-seed').innerHTML = data.espn_bracketology.seed;
 		document.getElementById('quadrants-sos').innerHTML = data.espn.sos;
 		document.getElementById('quadrants-non-con-sos').innerHTML = data.espn.non_con_sos;
+	}
+	
+	if (data.espn_bracketology) {
+		document.getElementById('espn-bracketology-seed').innerHTML = data.espn_bracketology.seed;
 	}
 	
 	if (data.next_game) {
