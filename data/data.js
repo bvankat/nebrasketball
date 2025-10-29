@@ -30,7 +30,7 @@
         "kpi_ranking": null
     },
     "massey_ratings": {
-        "massey_rank": 46
+        "massey_rank": 48
     },
     "next_game": {
         "away_team": "West Georgia",
@@ -44,10 +44,10 @@
         "coaches_rank": "NR"
     },
     "time": {
-        "time": "Oct. 27, 2025 at 1:01 PM"
+        "time": "Oct. 29, 2025 at 9:11 AM"
     },
     "trank": {
-        "torvik_NET": "56",
+        "torvik_NET": "55",
         "trank": 44,
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "NA",
