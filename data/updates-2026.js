@@ -520,6 +520,61 @@
             "time": {
                 "time": "Oct. 29, 2025 at 9:11 AM"
             }
+        },
+        {
+            "kenpom": {
+                "rating": 51,
+                "record": "0-0",
+                "sos": 1,
+                "overall_record": "17-13",
+                "conference_record": "8-12"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "next_game": {
+                "home_team": "Nebraska",
+                "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+                "away_team": "West Georgia",
+                "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+                "date_time": "11/3 - 8:00 PM EST"
+            },
+            "espn_bracketology": {
+                "seed": "OUT"
+            },
+            "warrennolan": {
+                "record": "0-0",
+                "current_conf_record": "0-0",
+                "rpi": "1",
+                "elo": "69",
+                "quadrant_1": "0-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "0-0",
+                "nolan_net": "54"
+            },
+            "trank": {
+                "trank": 44,
+                "trank_proj_record": "18-12 (9-11)",
+                "trank_seed": "NA",
+                "wab_score": 0.0,
+                "wab_rank": 1,
+                "torvik_NET": "55"
+            },
+            "haslametrics": {
+                "haslam_rating": "40",
+                "seed": "OUT"
+            },
+            "kpi_sports": {
+                "kpi_ranking": null
+            },
+            "massey_ratings": {
+                "massey_rank": 48
+            },
+            "time": {
+                "time": "Oct. 29, 2025 at 12:22 PM"
+            }
         }
     ]
 }

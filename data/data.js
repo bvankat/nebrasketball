@@ -1,23 +1,10 @@
 {
-    "espn": {
-        "bpi": 47.0,
-        "chance_round_32": "",
-        "chance_sweet_16": "",
-        "non_con_sos": 81.0,
-        "proj_tourney_seed": 13.0,
-        "proj_win_loss_conf": "7.0-13.0",
-        "proj_win_loss_overall": "21.0-14.0",
-        "projected_tournament_order": 71.0,
-        "seven_day_change": "",
-        "sor": 51.0,
-        "sos": 40.0
-    },
     "espn_bracketology": {
         "seed": "OUT"
     },
     "haslametrics": {
         "haslam_rating": "40",
-        "seed": "PI11"
+        "seed": "OUT"
     },
     "kenpom": {
         "conference_record": "8-12",
@@ -44,7 +31,7 @@
         "coaches_rank": "NR"
     },
     "time": {
-        "time": "Oct. 29, 2025 at 9:11 AM"
+        "time": "Oct. 29, 2025 at 12:22 PM"
     },
     "trank": {
         "torvik_NET": "55",
