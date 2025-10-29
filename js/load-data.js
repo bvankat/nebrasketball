@@ -246,16 +246,16 @@
 	 // Quad 3 losses: -5 each
 	 // Quad 1 blowouts: -3 each?
 	 
-	 let intangibles = -10;
-	 let intangibles_msg = "Two Q3 home losses + losing streak";
+	 let intangibles = 0;
+	 let intangibles_msg = "";
 	 
 	 
 	 
 	 // Penalty for a Nonconference SOS above 250. New for 2025.
-	 if ( data.espn.non_con_sos >= 250 ) {
-		 intangibles = intangibles-5;
-		 intangibles_msg += "Intangibles: Penalty applied for having non-con SOS above 250."
-	 }
+	// if ( data.espn.non_con_sos >= 250 ) {
+	//	 intangibles = intangibles-5;
+	//	 intangibles_msg += "Intangibles: Penalty applied for having non-con SOS above 250."
+	// }
 	 
 	 
 	 // TOTAL SCORE FORMULA
@@ -394,7 +394,7 @@
 		  console.log("Note: Maximum total_score applied");
 	  }
 	  
-	total_score = 25;
+	total_score = 29;
 	
 	// Debuggging
 	console.log("rankings_used: ", rankings_used);
