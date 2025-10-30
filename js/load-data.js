@@ -128,10 +128,6 @@
 		document.getElementById('bracketproject-seed').innerHTML = data.bracketproject.matrix_seed;
 	}
 
-	if ( data.cbs ) {
-		document.getElementById('cbs-bracket').innerHTML = data.cbs.cbs_rank;
-	}
-	
 	if ( data.massey_ratings ) {
 		document.getElementById('massey-rank').innerHTML = data.massey_ratings.massey_rank;
 	}
