@@ -2,6 +2,9 @@
     "espn_bracketology": {
         "seed": "OUT"
     },
+    "evanmiya": {
+        "miya_rating": 51
+    },
     "haslametrics": {
         "haslam_rating": "39",
         "seed": "10"
@@ -28,7 +31,7 @@
         "coaches_rank": "NR"
     },
     "time": {
-        "time": "Oct. 31, 2025 at 10:13 AM"
+        "time": "Oct. 31, 2025 at 10:23 AM"
     },
     "trank": {
         "torvik_NET": "55",
