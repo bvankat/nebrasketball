@@ -3,8 +3,8 @@
         "seed": "OUT"
     },
     "haslametrics": {
-        "haslam_rating": "40",
-        "seed": "PI11"
+        "haslam_rating": "39",
+        "seed": "10"
     },
     "kenpom": {
         "conference_record": "8-12",
@@ -28,7 +28,7 @@
         "coaches_rank": "NR"
     },
     "time": {
-        "time": "Oct. 29, 2025 at 1:39 PM"
+        "time": "Oct. 31, 2025 at 10:13 AM"
     },
     "trank": {
         "torvik_NET": "55",
