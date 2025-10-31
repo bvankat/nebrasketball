@@ -46,7 +46,7 @@ body {
 
 header { background-color: var(--color-husker-red); background: radial-gradient(circle, rgba(235,19,47,1) 0%, rgba(190,4,29,1) 100%); }
 
-#nextGame-teams img { max-width: 24px; }
+#nextGame-teams img { max-width: 24px; max-height: 24px; }
 
 /* Color scale matching dot plot (red to yellow to light yellow) */
 .rank-excellent { background-color: #e42320; }
