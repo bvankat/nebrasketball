@@ -31,10 +31,10 @@
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": 51
+        "SRS_rank": 195
     },
     "time": {
-        "time": "Oct. 31, 2025 at 10:48 AM"
+        "time": "Oct. 31, 2025 at 12:19 PM"
     },
     "trank": {
         "torvik_NET": "55",
