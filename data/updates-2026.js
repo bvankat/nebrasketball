@@ -905,6 +905,131 @@
             "time": {
                 "time": "Oct. 31, 2025 at 12:19 PM"
             }
+        },
+        {
+            "kenpom": {
+                "rating": 51,
+                "record": "0-0",
+                "sos": 1,
+                "overall_record": "17-13",
+                "conference_record": "8-12"
+            },
+            "evanmiya": {
+                "miya_rating": 51
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "next_game": {
+                "home_team": "Nebraska",
+                "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+                "away_team": "West Georgia",
+                "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+                "date_time": "11/3 - 8:00 PM EST"
+            },
+            "espn_bracketology": {
+                "seed": "OUT"
+            },
+            "warrennolan": {
+                "record": "0-0",
+                "current_conf_record": "0-0",
+                "rpi": "1",
+                "elo": "69",
+                "quadrant_1": "0-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "0-0",
+                "nolan_net": "54"
+            },
+            "trank": {
+                "trank": 44,
+                "trank_proj_record": "18-12 (9-11)",
+                "trank_seed": "NA",
+                "wab_score": 0.0,
+                "wab_rank": 1,
+                "torvik_NET": "54"
+            },
+            "haslametrics": {
+                "haslam_rating": "39",
+                "seed": "10"
+            },
+            "massey_ratings": {
+                "massey_rank": 49
+            },
+            "sports_reference": {
+                "SRS_rank": 195
+            },
+            "time": {
+                "time": "Nov. 2, 2025 at 10:41 AM"
+            }
+        },
+        {
+            "kenpom": {
+                "rating": 51,
+                "record": "0-0",
+                "sos": 1,
+                "overall_record": "17-13",
+                "conference_record": "8-12"
+            },
+            "evanmiya": {
+                "miya_rating": 51
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "next_game": {
+                "home_team": "Nebraska",
+                "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+                "away_team": "West Georgia",
+                "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+                "date_time": "11/3 - 8:00 PM EST"
+            },
+            "espn_bracketology": {
+                "seed": "OUT"
+            },
+            "teamrankings": {
+                "make_tournament": "27.6%",
+                "most_likely_seed": "9",
+                "rank": "56",
+                "projected_wins": "16.6",
+                "projected_losses": "13.4",
+                "proj_conf_record": "8.3-11.7",
+                "projected_bid_pct": "27.6%"
+            },
+            "warrennolan": {
+                "record": "0-0",
+                "current_conf_record": "0-0",
+                "rpi": "1",
+                "elo": "69",
+                "quadrant_1": "0-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "0-0",
+                "nolan_net": "54"
+            },
+            "trank": {
+                "trank": 44,
+                "trank_proj_record": "18-12 (9-11)",
+                "trank_seed": "NA",
+                "wab_score": 0.0,
+                "wab_rank": 1,
+                "torvik_NET": "54"
+            },
+            "haslametrics": {
+                "haslam_rating": "39",
+                "seed": "10"
+            },
+            "massey_ratings": {
+                "massey_rank": 49
+            },
+            "sports_reference": {
+                "SRS_rank": 195
+            },
+            "time": {
+                "time": "Nov. 2, 2025 at 10:51 AM"
+            }
         }
     ]
 }

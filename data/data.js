@@ -17,7 +17,7 @@
         "sos": 1
     },
     "massey_ratings": {
-        "massey_rank": 48
+        "massey_rank": 49
     },
     "next_game": {
         "away_team": "West Georgia",
@@ -33,11 +33,20 @@
     "sports_reference": {
         "SRS_rank": 195
     },
+    "teamrankings": {
+        "make_tournament": "27.6%",
+        "most_likely_seed": "9",
+        "proj_conf_record": "8.3-11.7",
+        "projected_bid_pct": "27.6%",
+        "projected_losses": "13.4",
+        "projected_wins": "16.6",
+        "rank": "56"
+    },
     "time": {
-        "time": "Oct. 31, 2025 at 12:19 PM"
+        "time": "Nov. 2, 2025 at 10:51 AM"
     },
     "trank": {
-        "torvik_NET": "55",
+        "torvik_NET": "54",
         "trank": 44,
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "NA",
