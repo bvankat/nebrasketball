@@ -56,11 +56,12 @@
         "rank": "56"
     },
     "time": {
-        "time": "Nov. 2, 2025 at 10:59 AM"
+        "time": "Nov. 2, 2025 at 11:59 AM"
     },
     "trank": {
         "torvik_NET": "54",
-        "trank": 44,
+        "trank": 43,
+        "trank_make_tourney": "48.3",
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "NA",
         "wab_rank": 1,
