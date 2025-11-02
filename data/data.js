@@ -1,4 +1,17 @@
 {
+    "espn": {
+        "bpi": 47.0,
+        "chance_round_32": "",
+        "chance_sweet_16": "",
+        "non_con_sos": 81.0,
+        "proj_tourney_seed": 13.0,
+        "proj_win_loss_conf": "7.0-13.0",
+        "proj_win_loss_overall": "21.0-14.0",
+        "projected_tournament_order": 71.0,
+        "seven_day_change": "",
+        "sor": 51.0,
+        "sos": 40.0
+    },
     "espn_bracketology": {
         "seed": "OUT"
     },
@@ -43,7 +56,7 @@
         "rank": "56"
     },
     "time": {
-        "time": "Nov. 2, 2025 at 10:51 AM"
+        "time": "Nov. 2, 2025 at 10:59 AM"
     },
     "trank": {
         "torvik_NET": "54",
