@@ -96,10 +96,12 @@
     </header>
     
     <!-- Alert -->
-    <div id="alert" class="text-xs border-t border-red-100 hover:border-red-200 bg-red-50 flex flex-row align-middle items-start justify-center text-gray-500 p-4 gap-3">
+    <!-- 
+        <div id="alert" class="text-xs border-t border-red-100 hover:border-red-200 bg-red-50 flex flex-row align-middle items-start justify-center text-gray-500 p-4 gap-3">
         <p class="font-medium geist-mono text-red-800 text-xs">NOTE</p>
         <p>Adding new rankings frequently this week as we get closer to the first games</p>
     </div>
+    -->
         
     
     <!-- Button Group for mobile nav -->
@@ -260,13 +262,13 @@
                             </thead>
                             <tbody class="divide-y divide-gray-200">
                                 <tr class="transition-colors duration-200">
-                                    <td class="px-3 py-2 text-sm font-normal text-gray-600">NCAA NET <span id="ncaa-net-note" class="text-xs font-light text-gray-400"></span></td>
+                                    <td class="px-3 py-2 text-sm font-normal text-gray-600">NCAA NET <span class="text-xs font-light text-gray-400"><a href="#footnotes">[1]</a></span></td>
                                     <td class="px-3 py-2 text-sm font-medium text-gray-700 text-right geist-mono">
                                         <span id="ncaa-net">NA</span>
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="ratings-table">KPI</td>
+                                    <td class="ratings-table">KPI <span class="text-xs font-light text-gray-400"><a href="#footnotes">[2]</a></span></td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="kpi_ranking">NA</span>
                                     </td>
@@ -296,7 +298,7 @@
                                     </td>
                                 </tr>
                                 <tr class="transition-colors duration-200">
-                                    <td class="ratings-table">Wins Above Bubble <span class="text-xs"><a href="#footnotes" class="text-gray-400 hover:text-gray-600">[1]</a></span></td>
+                                    <td class="ratings-table">Wins Above Bubble <span class="text-xs"><a href="#footnotes" class="text-gray-400 hover:text-gray-600">[3]</a></span></td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="wab-rank">NA</span>
                                     </td>
@@ -593,7 +595,10 @@
 
             <!-- Footnotes and Inspiration -->
             <section id="footnotes" class="space-y-4 text-xs text-gray-600 leading-relaxed py-4">
-                <p><strong>Footnotes:</strong> [1] Wins Above Bubble current total: <span id="wab-score"></span></p>
+                <p><strong>Footnotes</strong></p>
+                <p>[1] NCAA version of NET relased in December.
+                <br />[2] KPI released in December.
+                <br />[3] Wins Above Bubble current total: <span id="wab-score"></span></p>
             </section>
             </div><!-- cards-container -->
             

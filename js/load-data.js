@@ -14,7 +14,7 @@
 		document.getElementById('ncaa-net2').innerHTML = data.ncaa.net_rank; 
 	} else if (data.trank) {
 		document.getElementById('ncaa-net').innerHTML = data.trank.torvik_NET; 
-		document.getElementById('ncaa-net-note').innerHTML = "projected"; 
+		// document.getElementById('ncaa-net-note').innerHTML = "projected"; 
 		document.getElementById('ncaa-net2').innerHTML = data.trank.torvik_NET; 
 	}
 	
