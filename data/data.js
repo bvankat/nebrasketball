@@ -27,10 +27,7 @@
         "overall_record": "17-13",
         "rating": 51,
         "record": "0-0",
-        "sos": 1
-    },
-    "massey_ratings": {
-        "massey_rank": 49
+        "sos": 3
     },
     "next_game": {
         "away_team": "West Georgia",
@@ -41,25 +38,22 @@
     },
     "polls": {
         "ap_rank": "NR",
-        "coaches_rank": "NR"
-    },
-    "sports_reference": {
-        "SRS_rank": 195
+        "coaches_rank": "NA"
     },
     "teamrankings": {
-        "make_tournament": "27.6%",
-        "most_likely_seed": "9",
+        "make_tournament": "28.3%",
+        "most_likely_seed": "10",
         "proj_conf_record": "8.3-11.7",
-        "projected_bid_pct": "27.6%",
-        "projected_losses": "13.4",
-        "projected_wins": "16.6",
+        "projected_bid_pct": "28.3%",
+        "projected_losses": "13.5",
+        "projected_wins": "16.5",
         "rank": "56"
     },
     "time": {
-        "time": "Nov. 2, 2025 at 11:59 AM"
+        "time": "Nov. 3, 2025 at 12:56 PM"
     },
     "trank": {
-        "torvik_NET": "54",
+        "torvik_NET": "55",
         "trank": 43,
         "trank_make_tourney": "48.3",
         "trank_proj_record": "18-12 (9-11)",
@@ -69,13 +63,13 @@
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "69",
+        "elo": "68",
         "nolan_net": "54",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "0-0",
         "record": "0-0",
-        "rpi": "1"
+        "rpi": "3"
     }
 }
