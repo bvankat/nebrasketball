@@ -251,10 +251,10 @@
 	 
 	 
 	 // Penalty for a Nonconference SOS above 250. New for 2025.
-	// if ( data.espn.non_con_sos >= 250 ) {
-	//	 intangibles = intangibles-5;
-	//	 intangibles_msg += "Intangibles: Penalty applied for having non-con SOS above 250."
-	// }
+	 if ( data.espn.non_con_sos >= 250 ) {
+		 intangibles = intangibles-5;
+		 intangibles_msg += "Intangibles: Penalty applied for having non-con SOS above 250."
+	 }
 	 
 	 
 	 // TOTAL SCORE FORMULA
@@ -382,10 +382,10 @@
 			//total_score = ((net_score * .16) + (kpi_score * .14) + (espn_sor * .14) + (teamrankings_score * .11) + (rpi_score * .10) + (kenpom_score * .11) + (espn_bpi * .11) +  (torvik_score * .11) + intangibles);		 
 	
 	 // next three lines keep gauge score > 3 in the really sad times, uncomment during season
-	 // if (total_score <= 2) {
-	// 	 total_score = 2;
-	// 	 console.log("Note: Minimum total_score applied");
-	// }
+	  if (total_score <= 2) {
+	 	 total_score = 2;
+	 	 console.log("Note: Minimum total_score applied");
+	  }
 	 
 	 // Don't want the needle bounding over 100
 	 if (total_score >= 96) {
@@ -431,16 +431,13 @@ function drawChart() {
 	};
 
 	var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
-//	var chart_2 = new google.visualization.Gauge(document.getElementById('chart_div_2'));
-
 	chart.draw(data, options);
-//	chart_2.draw(data, options_2);
 
 
 	// Comment out these lines to disable needle bounce in offseason
 	// Increase the multiplier applied to Math.random to increase bounciness. It basically equates to the range of values to bounce between.
 	setInterval(function() {
-	  data.setValue(0, 1, total_score-3 + Math.round(5 * Math.random()));
+	  data.setValue(0, 1, total_score-3 + Math.round(7 * Math.random()));
 	  chart.draw(data, options);
 	  }, 300);
  
