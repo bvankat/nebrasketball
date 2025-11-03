@@ -12,25 +12,37 @@ const containerWidth = container ? container.getBoundingClientRect().width : 700
 const width = containerWidth - margin.left - margin.right;
 const height = 40;
 
-// New data with a dictionary
-const data = {
-	Kenpom: parseInt(ratings_data.kenpom.rating),
-//    KPI: ratings_data.kpi_sports.kpi_ranking,
-    NET: parseInt(ratings_data.trank.torvik_NET), // use trank.torvik_NET or ncaa.net_rank
-    SOR: parseInt(ratings_data.espn.sor),
-    BPI: parseInt(ratings_data.espn.bpi),
-    Torvik: parseInt(ratings_data.trank.trank),
-    RPI: parseInt(ratings_data.warrennolan.rpi),
-    ELO: parseInt(ratings_data.warrennolan.elo),
-    Massey: parseInt(ratings_data.massey_ratings.massey_rank),
-    TR: parseInt(ratings_data.teamrankings.rank),
-    WAB:  parseInt(ratings_data.trank.wab_rank),
-    SRS: parseInt(ratings_data.sports_reference.SRS_rank),
-    Haslametrics: parseInt(ratings_data.haslametrics.haslam_rating),
-    Miyakawa: parseInt(ratings_data.evanmiya.miya_rating),
-//    "7OT": parseInt(ratings_data.seven_overtimes.ranking),
-//    SQ: parseInt(ratings_data.shot_quality.sq_ranking),
-//    Bauertology: parseInt(ratings_data.bauertology.BRCT_rank),
+// Build data dictionary defensively: include only present, numeric values
+const candidates = [
+	["Kenpom", ratings_data?.kenpom?.rating],
+	["KPI", ratings_data?.kpi_sports?.kpi_ranking],
+	["NET", ratings_data?.trank?.torvik_NET], // or ratings_data?.ncaa?.net_rank
+	["SOR", ratings_data?.espn?.sor],
+	["BPI", ratings_data?.espn?.bpi],
+	["Torvik", ratings_data?.trank?.trank],
+	["RPI", ratings_data?.warrennolan?.rpi],
+	["ELO", ratings_data?.warrennolan?.elo],
+	["Massey", ratings_data?.massey_ratings?.massey_rank],
+	["TR", ratings_data?.teamrankings?.rank],
+	["WAB", ratings_data?.trank?.wab_rank],
+	["SRS", ratings_data?.sports_reference?.SRS_rank],
+	["Haslametrics", ratings_data?.haslametrics?.haslam_rating],
+	["Miyakawa", ratings_data?.evanmiya?.miya_rating],
+	["7OT", ratings_data?.seven_overtimes?.ranking],
+	["SQ", ratings_data?.shot_quality?.sq_ranking],
+	["Bauertology", ratings_data?.bauertology?.BRCT_rank],
+];
+
+const dataEntries = candidates
+	.map(([k, v]) => [k, parseInt(v, 10)])
+	.filter(([, v]) => Number.isFinite(v));
+
+const data = Object.fromEntries(dataEntries);
+
+// If no valid data points, exit gracefully
+if (Object.keys(data).length === 0) {
+	console.warn("dotPlot: No valid data points available; skipping chart render.");
+	return;
 }
 
 // Determine the highest data point
