@@ -1576,6 +1576,86 @@
             "time": {
                 "time": "Nov. 4, 2025 at 10:43 AM"
             }
+        },
+        {
+            "kenpom": {
+                "rating": 50,
+                "record": "1-0",
+                "sos": 188,
+                "overall_record": "17-13",
+                "conference_record": "9-11"
+            },
+            "evanmiya": {
+                "miya_rating": 47
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NA"
+            },
+            "espn": {
+                "bpi": 34.0,
+                "seven_day_change": "",
+                "proj_tourney_seed": "OUT",
+                "proj_win_loss_overall": "20.0-10.0",
+                "proj_win_loss_conf": "11.1-8.9",
+                "sor": "",
+                "sos": "",
+                "non_con_sos": "NR",
+                "chance_sweet_16": "",
+                "chance_round_32": "",
+                "projected_tournament_order": ""
+            },
+            "next_game": {
+                "home_team": "Nebraska",
+                "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+                "away_team": "FIU",
+                "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+                "date_time": "11/8 - 1:00 PM EST"
+            },
+            "espn_bracketology": {
+                "seed": "OUT"
+            },
+            "teamrankings": {
+                "make_tournament": "38.3%",
+                "most_likely_seed": "9",
+                "rank": "50",
+                "projected_wins": "17.4",
+                "projected_losses": "12.6",
+                "proj_conf_record": "8.9-11.1",
+                "projected_bid_pct": "38.3%"
+            },
+            "warrennolan": {
+                "record": "1-0",
+                "current_conf_record": "0-0",
+                "rpi": "1",
+                "elo": "67",
+                "quadrant_1": "0-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "1-0",
+                "nolan_net": "54"
+            },
+            "trank": {
+                "trank": 44,
+                "trank_proj_record": "17-13 (9-11)",
+                "trank_seed": "OUT",
+                "trank_make_tourney": 45.5,
+                "wab_score": "+0.01",
+                "wab_rank": 103,
+                "torvik_NET": "55"
+            },
+            "haslametrics": {
+                "haslam_rating": "38",
+                "seed": "8"
+            },
+            "bracketproject": {
+                "matrix_count": 10,
+                "total_brackets": 68,
+                "matrix_seed": "OUT"
+            },
+            "time": {
+                "time": "Nov. 4, 2025 at 10:53 AM"
+            }
         }
     ]
 }

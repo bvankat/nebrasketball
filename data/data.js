@@ -14,7 +14,7 @@
         "proj_win_loss_overall": "20.0-10.0",
         "projected_tournament_order": "",
         "seven_day_change": "",
-        "sor": "NA",
+        "sor": "",
         "sos": ""
     },
     "espn_bracketology": {
@@ -55,7 +55,7 @@
         "rank": "50"
     },
     "time": {
-        "time": "Nov. 4, 2025 at 10:43 AM"
+        "time": "Nov. 4, 2025 at 10:53 AM"
     },
     "trank": {
         "torvik_NET": "55",
