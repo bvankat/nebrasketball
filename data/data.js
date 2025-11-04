@@ -35,9 +35,9 @@
         "sos": 188
     },
     "next_game": {
-        "away_team": "West Georgia",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
-        "date_time": "Final",
+        "away_team": "FIU",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+        "date_time": "11/8 - 1:00 PM EST",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -46,25 +46,25 @@
         "coaches_rank": "NA"
     },
     "teamrankings": {
-        "make_tournament": "37.9%",
+        "make_tournament": "38.3%",
         "most_likely_seed": "9",
         "proj_conf_record": "8.9-11.1",
-        "projected_bid_pct": "37.9%",
-        "projected_losses": "12.7",
-        "projected_wins": "17.3",
+        "projected_bid_pct": "38.3%",
+        "projected_losses": "12.6",
+        "projected_wins": "17.4",
         "rank": "50"
     },
     "time": {
-        "time": "Nov. 4, 2025 at 10:07 AM"
+        "time": "Nov. 4, 2025 at 10:43 AM"
     },
     "trank": {
         "torvik_NET": "55",
-        "trank": 43,
-        "trank_make_tourney": "48.3",
-        "trank_proj_record": "18-12 (9-11)",
-        "trank_seed": "NA",
-        "wab_rank": 1,
-        "wab_score": 0.0
+        "trank": 44,
+        "trank_make_tourney": 45.5,
+        "trank_proj_record": "17-13 (9-11)",
+        "trank_seed": "OUT",
+        "wab_rank": 103,
+        "wab_score": "+0.01"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
