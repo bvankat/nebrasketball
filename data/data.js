@@ -9,7 +9,7 @@
         "proj_win_loss_overall": "20.0-10.0",
         "projected_tournament_order": "",
         "seven_day_change": "",
-        "sor": "NR",
+        "sor": "NA",
         "sos": ""
     },
     "espn_bracketology": {
@@ -41,16 +41,16 @@
         "coaches_rank": "NA"
     },
     "teamrankings": {
-        "make_tournament": "37.5%",
+        "make_tournament": "37.9%",
         "most_likely_seed": "9",
         "proj_conf_record": "8.9-11.1",
-        "projected_bid_pct": "37.5%",
+        "projected_bid_pct": "37.9%",
         "projected_losses": "12.7",
         "projected_wins": "17.3",
         "rank": "50"
     },
     "time": {
-        "time": "Nov. 4, 2025 at 8:49 AM"
+        "time": "Nov. 4, 2025 at 9:57 AM"
     },
     "trank": {
         "torvik_NET": "55",
