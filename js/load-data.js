@@ -39,7 +39,12 @@
 		document.getElementById('espn-proj-tourney-seed').innerHTML = data.espn.proj_tourney_seed;
 		document.getElementById('espn-wl').innerHTML = data.espn.proj_win_loss_overall;
 		document.getElementById('espn-cwl').innerHTML = data.espn.proj_win_loss_conf;
-		document.getElementById('espn-sor').innerHTML = data.espn.sor;
+		
+		if (data.espn.sor == null) {
+			document.getElementById('espn-sor').innerHMTL = "NA";
+		} else {
+			document.getElementById('espn-sor').innerHTML = data.espn.sor;
+		}
 		// document.getElementById('espn-sweet16').innerHTML = data.espn.chance_sweet_16;
 		// document.getElementById('espn-round-32').innerHTML = data.espn.chance_round_32;
 		document.getElementById('espn-sor-s-curve').innerHTML = data.espn.projected_tournament_order;
@@ -216,7 +221,9 @@
 	 }
 	 
 	 if( data.espn ) { 
+		 if (data.espn.sor) {
 		 espn_sor = FindScore(parseInt(data.espn.sor));  // SOR is stronger predictor than BPI. Note: Preseason SOR is 1. That skews the gauge.
+	 	}
 		 espn_bpi = FindScore(parseInt(data.espn.bpi)); 
 	}
 	 
@@ -305,7 +312,7 @@
 			percentages.NET = NET_pct;
 		}
 		
-		if (data.espn) { 
+		if (data.espn && data.espn.sor ) { 
 			const SOR_pct = { metric: "SOR", type: "results-based", pct: espn_sor };
 			percentages.SOR = SOR_pct;
 		}
