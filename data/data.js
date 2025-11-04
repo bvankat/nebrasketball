@@ -1,4 +1,9 @@
 {
+    "bracketproject": {
+        "matrix_count": 10,
+        "matrix_seed": "OUT",
+        "total_brackets": 68
+    },
     "espn": {
         "bpi": 34.0,
         "chance_round_32": "",
@@ -50,7 +55,7 @@
         "rank": "50"
     },
     "time": {
-        "time": "Nov. 4, 2025 at 9:57 AM"
+        "time": "Nov. 4, 2025 at 10:07 AM"
     },
     "trank": {
         "torvik_NET": "55",
