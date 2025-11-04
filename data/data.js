@@ -1,38 +1,38 @@
 {
     "espn": {
-        "bpi": 47.0,
+        "bpi": 34.0,
         "chance_round_32": "",
         "chance_sweet_16": "",
-        "non_con_sos": 81.0,
-        "proj_tourney_seed": 13.0,
-        "proj_win_loss_conf": "7.0-13.0",
-        "proj_win_loss_overall": "21.0-14.0",
-        "projected_tournament_order": 71.0,
+        "non_con_sos": "NR",
+        "proj_tourney_seed": "OUT",
+        "proj_win_loss_conf": "11.1-8.9",
+        "proj_win_loss_overall": "20.0-10.0",
+        "projected_tournament_order": "",
         "seven_day_change": "",
-        "sor": 51.0,
-        "sos": 40.0
+        "sor": "NR",
+        "sos": ""
     },
     "espn_bracketology": {
         "seed": "OUT"
     },
     "evanmiya": {
-        "miya_rating": 51
+        "miya_rating": 47
     },
     "haslametrics": {
-        "haslam_rating": "39",
-        "seed": "10"
+        "haslam_rating": "38",
+        "seed": "8"
     },
     "kenpom": {
-        "conference_record": "8-12",
+        "conference_record": "9-11",
         "overall_record": "17-13",
-        "rating": 51,
-        "record": "0-0",
-        "sos": 3
+        "rating": 50,
+        "record": "1-0",
+        "sos": 188
     },
     "next_game": {
         "away_team": "West Georgia",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
-        "date_time": "11/3 - 8:00 PM EST",
+        "date_time": "Final",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -41,16 +41,16 @@
         "coaches_rank": "NA"
     },
     "teamrankings": {
-        "make_tournament": "28.3%",
-        "most_likely_seed": "10",
-        "proj_conf_record": "8.3-11.7",
-        "projected_bid_pct": "28.3%",
-        "projected_losses": "13.5",
-        "projected_wins": "16.5",
-        "rank": "56"
+        "make_tournament": "37.5%",
+        "most_likely_seed": "9",
+        "proj_conf_record": "8.9-11.1",
+        "projected_bid_pct": "37.5%",
+        "projected_losses": "12.7",
+        "projected_wins": "17.3",
+        "rank": "50"
     },
     "time": {
-        "time": "Nov. 3, 2025 at 12:56 PM"
+        "time": "Nov. 4, 2025 at 8:49 AM"
     },
     "trank": {
         "torvik_NET": "55",
@@ -63,13 +63,13 @@
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "68",
+        "elo": "67",
         "nolan_net": "54",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
-        "quadrant_4": "0-0",
-        "record": "0-0",
-        "rpi": "3"
+        "quadrant_4": "1-0",
+        "record": "1-0",
+        "rpi": "1"
     }
 }
