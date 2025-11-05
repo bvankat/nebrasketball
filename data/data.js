@@ -5,34 +5,34 @@
         "total_brackets": 68
     },
     "espn": {
-        "bpi": 34.0,
+        "bpi": 31.0,
         "chance_round_32": "",
         "chance_sweet_16": "",
-        "non_con_sos": "NR",
+        "non_con_sos": 241.0,
         "proj_tourney_seed": "OUT",
-        "proj_win_loss_conf": "11.1-8.9",
-        "proj_win_loss_overall": "20.0-10.0",
+        "proj_win_loss_conf": "11.3-8.7",
+        "proj_win_loss_overall": "20.2-9.8",
         "projected_tournament_order": "",
         "seven_day_change": "",
-        "sor": "",
-        "sos": ""
+        "sor": 113.0,
+        "sos": "241st"
     },
     "espn_bracketology": {
         "seed": "OUT"
     },
     "evanmiya": {
-        "miya_rating": 47
+        "miya_rating": 48
     },
     "haslametrics": {
-        "haslam_rating": "38",
-        "seed": "8"
+        "haslam_rating": "39",
+        "seed": "9"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "17-13",
         "rating": 50,
         "record": "1-0",
-        "sos": 188
+        "sos": 223
     },
     "next_game": {
         "away_team": "FIU",
@@ -46,29 +46,29 @@
         "coaches_rank": "NA"
     },
     "teamrankings": {
-        "make_tournament": "38.3%",
+        "make_tournament": "37.6%",
         "most_likely_seed": "9",
         "proj_conf_record": "8.9-11.1",
-        "projected_bid_pct": "38.3%",
-        "projected_losses": "12.6",
-        "projected_wins": "17.4",
+        "projected_bid_pct": "37.6%",
+        "projected_losses": "12.7",
+        "projected_wins": "17.3",
         "rank": "50"
     },
     "time": {
-        "time": "Nov. 4, 2025 at 10:53 AM"
+        "time": "Nov. 5, 2025 at 12:53 PM"
     },
     "trank": {
         "torvik_NET": "55",
-        "trank": 44,
-        "trank_make_tourney": 45.5,
+        "trank": 45,
+        "trank_make_tourney": 44.7,
         "trank_proj_record": "17-13 (9-11)",
         "trank_seed": "OUT",
-        "wab_rank": 103,
+        "wab_rank": 123,
         "wab_score": "+0.01"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "67",
+        "elo": "68",
         "nolan_net": "54",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
