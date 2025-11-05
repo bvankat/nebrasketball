@@ -16,8 +16,7 @@ body {
 .geist-mono { font-family: "Geist Mono", monospace; font-optical-sizing: auto; font-style: normal; }
 
 /* Dot plot styles */
-#dot-plot-container { max-width: 680px; }
-#dot-plot-container text { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }
+#dot-plot-container text { font-size: 10px; fill: #333; }
 .endpoint-label { fill: #aaa; }
 .tick { stroke: #ccc; }
 .dot-label { text-anchor: middle; }
