@@ -30,7 +30,7 @@
         "chance_sweet_16": "",
         "non_con_sos": 241.0,
         "proj_tourney_seed": "OUT",
-        "proj_win_loss_conf": "11.3-8.7",
+        "proj_win_loss_conf": "0.0-0.0",
         "proj_win_loss_overall": "20.2-9.8",
         "projected_tournament_order": "",
         "seven_day_change": "",
@@ -41,7 +41,9 @@
         "seed": "OUT"
     },
     "evanmiya": {
-        "miya_rating": 48
+        "miya_rating": 48,
+        "miya_resume_category": "Just In The Field",
+        "miya_resume_rank": 97
     },
     "haslametrics": {
         "haslam_rating": "39",
@@ -75,7 +77,7 @@
         "rank": "50"
     },
     "time": {
-        "time": "Nov. 5 at 1:45 PM"
+        "time": "Nov. 5 at 2:19 PM"
     },
     "trank": {
         "torvik_NET": "55",
