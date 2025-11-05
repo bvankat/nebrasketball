@@ -97,7 +97,11 @@
 	
 	if ( data.evanmiya ) {
 		document.getElementById('miya-rating').innerHTML = data.evanmiya.miya_rating;
-		document.getElementById('miya-resume-category').innerHTML = data.evanmiya.miya_resume_category;
+		if (data.evanmiya.miya_resume_category) {
+			document.getElementById('miya-resume-category').innerHTML = data.evanmiya.miya_resume_category;
+		} else {
+			document.getElementById('miya-resume-category').innerHTML = 'NA';
+		}
 	}
 	
 	if ( data.bauertology ) {
