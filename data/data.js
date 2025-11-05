@@ -1,4 +1,24 @@
 {
+    "bballnet_quadrants": {
+        "quad1_games": [],
+        "quad1record": "0-0",
+        "quad2_games": [],
+        "quad2record": "0-0",
+        "quad3_games": [],
+        "quad3record": "0-0",
+        "quad4_games": [
+            {
+                "date": "11/03/2025",
+                "location": "Home",
+                "opponent": "West Ga.",
+                "opponent_NET": "345",
+                "opponent_rank": null,
+                "result": "W",
+                "score": "86-53"
+            }
+        ],
+        "quad4record": "1-0"
+    },
     "bracketproject": {
         "matrix_count": 10,
         "matrix_seed": "OUT",
@@ -55,7 +75,7 @@
         "rank": "50"
     },
     "time": {
-        "time": "Nov. 5, 2025 at 12:53 PM"
+        "time": "Nov. 5, 2025 at 12:58 PM"
     },
     "trank": {
         "torvik_NET": "55",
