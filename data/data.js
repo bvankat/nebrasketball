@@ -67,6 +67,9 @@
         "ap_rank": "NR",
         "coaches_rank": "NA"
     },
+    "sports_reference": {
+        "SRS_rank": 139
+    },
     "teamrankings": {
         "make_tournament": "37.6%",
         "most_likely_seed": "9",
@@ -77,7 +80,7 @@
         "rank": "50"
     },
     "time": {
-        "time": "Nov. 5 at 2:19 PM"
+        "time": "Nov. 5 at 2:44 PM"
     },
     "trank": {
         "torvik_NET": "55",
