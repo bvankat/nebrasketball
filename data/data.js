@@ -75,26 +75,5 @@
         "rank": "50"
     },
     "time": {
-        "time": "Nov. 5, 2025 at 1:18 PM"
-    },
-    "trank": {
-        "torvik_NET": "55",
-        "trank": 45,
-        "trank_make_tourney": 44.7,
-        "trank_proj_record": "17-13 (9-11)",
-        "trank_seed": "OUT",
-        "wab_rank": 123,
-        "wab_score": "+0.01"
-    },
-    "warrennolan": {
-        "current_conf_record": "0-0",
-        "elo": "68",
-        "nolan_net": "54",
-        "quadrant_1": "0-0",
-        "quadrant_2": "0-0",
-        "quadrant_3": "0-0",
-        "quadrant_4": "1-0",
-        "record": "1-0",
-        "rpi": "1"
-    }
-}
+        "time": "Nov. 5 at 1:27 PM",
+        "update_time": 
