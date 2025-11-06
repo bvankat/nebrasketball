@@ -71,21 +71,21 @@
         "SRS_rank": 147
     },
     "teamrankings": {
-        "make_tournament": "36.6%",
+        "make_tournament": "36.2%",
         "most_likely_seed": "9",
         "proj_conf_record": "8.8-11.2",
-        "projected_bid_pct": "36.6%",
+        "projected_bid_pct": "36.2%",
         "projected_losses": "12.8",
         "projected_wins": "17.2",
         "rank": "49"
     },
     "time": {
-        "time": "Nov. 6 at 10:06 AM"
+        "time": "Nov. 6 at 11:24 AM"
     },
     "trank": {
         "torvik_NET": "54",
         "trank": 45,
-        "trank_make_tourney": 43.8,
+        "trank_make_tourney": 44.3,
         "trank_proj_record": "17-13 (9-11)",
         "trank_seed": "OUT",
         "wab_rank": 133,
