@@ -35,7 +35,7 @@
         "projected_tournament_order": "",
         "seven_day_change": "",
         "sor": 121.0,
-        "sos": "253rd"
+        "sos": 253.0
     },
     "espn_bracketology": {
         "seed": "OUT"
@@ -80,7 +80,7 @@
         "rank": "49"
     },
     "time": {
-        "time": "Nov. 6 at 11:27 AM"
+        "time": "Nov. 6 at 11:55 AM"
     },
     "trank": {
         "torvik_NET": "54",
