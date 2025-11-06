@@ -403,8 +403,10 @@
 		  total_score = 96;
 		  console.log("Note: Maximum total_score applied");
 	  }
-	  
-	total_score = 29;
+	
+	
+	// Here's where you can manually override the total_score. Use this early in the season before all the rankings are released.   
+	// total_score = 29;
 	
 	// Debuggging
 	console.log("rankings_used: ", rankings_used);
