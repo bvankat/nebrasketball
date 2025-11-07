@@ -28,14 +28,14 @@
         "bpi": 31.0,
         "chance_round_32": "",
         "chance_sweet_16": "",
-        "non_con_sos": 253.0,
+        "non_con_sos": 266.0,
         "proj_tourney_seed": "OUT",
         "proj_win_loss_conf": "11.2-8.8",
         "proj_win_loss_overall": "20.2-9.8",
         "projected_tournament_order": "",
         "seven_day_change": "",
-        "sor": 121.0,
-        "sos": 253.0
+        "sor": 129.0,
+        "sos": 266.0
     },
     "espn_bracketology": {
         "seed": "OUT"
@@ -43,7 +43,7 @@
     "evanmiya": {
         "miya_rating": 48,
         "miya_resume_category": "Just In The Field",
-        "miya_resume_rank": 99
+        "miya_resume_rank": 100
     },
     "haslametrics": {
         "haslam_rating": "41",
@@ -54,7 +54,7 @@
         "overall_record": "17-13",
         "rating": 48,
         "record": "1-0",
-        "sos": 246
+        "sos": 247
     },
     "next_game": {
         "away_team": "FIU",
@@ -68,27 +68,27 @@
         "coaches_rank": "NA"
     },
     "sports_reference": {
-        "SRS_rank": 147
+        "SRS_rank": 149
     },
     "teamrankings": {
-        "make_tournament": "36.8%",
+        "make_tournament": "36.1%",
         "most_likely_seed": "9",
         "proj_conf_record": "8.8-11.2",
-        "projected_bid_pct": "36.8%",
+        "projected_bid_pct": "36.1%",
         "projected_losses": "12.8",
         "projected_wins": "17.2",
         "rank": "49"
     },
     "time": {
-        "time": "Nov. 7 at 1:06 AM"
+        "time": "Nov. 7 at 2:27 PM"
     },
     "trank": {
         "torvik_NET": "54",
         "trank": 45,
-        "trank_make_tourney": 44.3,
+        "trank_make_tourney": 43.0,
         "trank_proj_record": "17-13 (9-11)",
         "trank_seed": "OUT",
-        "wab_rank": 135,
+        "wab_rank": 136,
         "wab_score": "+0.01"
     },
     "warrennolan": {
