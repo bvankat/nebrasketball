@@ -47,14 +47,14 @@
     },
     "haslametrics": {
         "haslam_rating": "41",
-        "seed": "10"
+        "seed": "11"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "17-13",
-        "rating": 50,
+        "rating": 48,
         "record": "1-0",
-        "sos": 234
+        "sos": 246
     },
     "next_game": {
         "away_team": "FIU",
@@ -71,16 +71,16 @@
         "SRS_rank": 147
     },
     "teamrankings": {
-        "make_tournament": "36.2%",
+        "make_tournament": "36.8%",
         "most_likely_seed": "9",
         "proj_conf_record": "8.8-11.2",
-        "projected_bid_pct": "36.2%",
+        "projected_bid_pct": "36.8%",
         "projected_losses": "12.8",
         "projected_wins": "17.2",
         "rank": "49"
     },
     "time": {
-        "time": "Nov. 6 at 11:55 AM"
+        "time": "Nov. 7 at 1:06 AM"
     },
     "trank": {
         "torvik_NET": "54",
@@ -88,7 +88,7 @@
         "trank_make_tourney": 44.3,
         "trank_proj_record": "17-13 (9-11)",
         "trank_seed": "OUT",
-        "wab_rank": 133,
+        "wab_rank": 135,
         "wab_score": "+0.01"
     },
     "warrennolan": {
@@ -100,6 +100,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "1-0",
         "record": "1-0",
-        "rpi": "9"
+        "rpi": "55"
     }
 }
