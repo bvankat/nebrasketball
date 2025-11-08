@@ -3286,6 +3286,111 @@
             "time": {
                 "time": "Nov. 7 at 2:27 PM"
             }
+        },
+        {
+            "kenpom": {
+                "rating": 46,
+                "record": "1-0",
+                "sos": 292,
+                "overall_record": "17-13",
+                "conference_record": "9-11"
+            },
+            "evanmiya": {
+                "miya_rating": 48,
+                "miya_resume_rank": "NA",
+                "miya_resume_category": "NA"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NA"
+            },
+            "espn": {
+                "bpi": 31.0,
+                "seven_day_change": "",
+                "proj_tourney_seed": "OUT",
+                "proj_win_loss_overall": "20.2-9.8",
+                "proj_win_loss_conf": "11.3-8.7",
+                "sor": 146.0,
+                "sos": 306.0,
+                "non_con_sos": 306.0,
+                "chance_sweet_16": "",
+                "chance_round_32": "",
+                "projected_tournament_order": ""
+            },
+            "next_game": {
+                "home_team": "Nebraska",
+                "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+                "away_team": "FIU",
+                "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+                "date_time": "11/8 - 1:00 PM EST"
+            },
+            "espn_bracketology": {
+                "seed": "OUT"
+            },
+            "teamrankings": {
+                "make_tournament": "38.4%",
+                "most_likely_seed": "9",
+                "rank": "47",
+                "projected_wins": "17.4",
+                "projected_losses": "12.6",
+                "proj_conf_record": "8.9-11.1",
+                "projected_bid_pct": "38.4%"
+            },
+            "warrennolan": {
+                "record": "1-0",
+                "current_conf_record": "0-0",
+                "rpi": "161",
+                "elo": "66",
+                "quadrant_1": "0-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "1-0",
+                "nolan_net": "54"
+            },
+            "trank": {
+                "trank": 44,
+                "trank_proj_record": "17-13 (9-11)",
+                "trank_seed": "OUT",
+                "trank_make_tourney": 43.6,
+                "wab_score": "+0.01",
+                "wab_rank": 139,
+                "torvik_NET": "53"
+            },
+            "haslametrics": {
+                "haslam_rating": "39",
+                "seed": "11"
+            },
+            "bracketproject": {
+                "matrix_count": 10,
+                "total_brackets": 68,
+                "matrix_seed": "OUT"
+            },
+            "sports_reference": {
+                "SRS_rank": 167
+            },
+            "bballnet_quadrants": {
+                "quad1record": "0-0",
+                "quad2record": "0-0",
+                "quad3record": "0-0",
+                "quad4record": "1-0",
+                "quad1_games": [],
+                "quad2_games": [],
+                "quad3_games": [],
+                "quad4_games": [
+                    {
+                        "result": "W",
+                        "score": "86-53",
+                        "date": "11/03/2025",
+                        "location": "Home",
+                        "opponent_NET": "345",
+                        "opponent": "West Ga.",
+                        "opponent_rank": null
+                    }
+                ]
+            },
+            "time": {
+                "time": "Nov. 8 at 11:32 AM"
+            }
         }
     ]
 }

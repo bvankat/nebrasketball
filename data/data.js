@@ -28,33 +28,33 @@
         "bpi": 31.0,
         "chance_round_32": "",
         "chance_sweet_16": "",
-        "non_con_sos": 266.0,
+        "non_con_sos": 306.0,
         "proj_tourney_seed": "OUT",
-        "proj_win_loss_conf": "11.2-8.8",
+        "proj_win_loss_conf": "11.3-8.7",
         "proj_win_loss_overall": "20.2-9.8",
         "projected_tournament_order": "",
         "seven_day_change": "",
-        "sor": 129.0,
-        "sos": 266.0
+        "sor": 146.0,
+        "sos": 306.0
     },
     "espn_bracketology": {
         "seed": "OUT"
     },
     "evanmiya": {
         "miya_rating": 48,
-        "miya_resume_category": "Just In The Field",
-        "miya_resume_rank": 100
+        "miya_resume_category": "NA",
+        "miya_resume_rank": "NA"
     },
     "haslametrics": {
-        "haslam_rating": "41",
+        "haslam_rating": "39",
         "seed": "11"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "17-13",
-        "rating": 48,
+        "rating": 46,
         "record": "1-0",
-        "sos": 247
+        "sos": 292
     },
     "next_game": {
         "away_team": "FIU",
@@ -68,38 +68,38 @@
         "coaches_rank": "NA"
     },
     "sports_reference": {
-        "SRS_rank": 149
+        "SRS_rank": 167
     },
     "teamrankings": {
-        "make_tournament": "36.1%",
+        "make_tournament": "38.4%",
         "most_likely_seed": "9",
-        "proj_conf_record": "8.8-11.2",
-        "projected_bid_pct": "36.1%",
-        "projected_losses": "12.8",
-        "projected_wins": "17.2",
-        "rank": "49"
+        "proj_conf_record": "8.9-11.1",
+        "projected_bid_pct": "38.4%",
+        "projected_losses": "12.6",
+        "projected_wins": "17.4",
+        "rank": "47"
     },
     "time": {
-        "time": "Nov. 7 at 2:27 PM"
+        "time": "Nov. 8 at 11:32 AM"
     },
     "trank": {
-        "torvik_NET": "54",
-        "trank": 45,
-        "trank_make_tourney": 43.0,
+        "torvik_NET": "53",
+        "trank": 44,
+        "trank_make_tourney": 43.6,
         "trank_proj_record": "17-13 (9-11)",
         "trank_seed": "OUT",
-        "wab_rank": 136,
+        "wab_rank": 139,
         "wab_score": "+0.01"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "68",
+        "elo": "66",
         "nolan_net": "54",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "1-0",
         "record": "1-0",
-        "rpi": "55"
+        "rpi": "161"
     }
 }
