@@ -77,24 +77,24 @@
         "coaches_rank": "NA"
     },
     "sports_reference": {
-        "SRS_rank": "NA"
+        "SRS_rank": 165
     },
     "teamrankings": {
-        "make_tournament": "48.7%",
+        "make_tournament": "48.5%",
         "most_likely_seed": "9",
         "proj_conf_record": "9.5-10.5",
-        "projected_bid_pct": "48.7%",
+        "projected_bid_pct": "48.5%",
         "projected_losses": "11.8",
         "projected_wins": "18.2",
         "rank": "39"
     },
     "time": {
-        "time": "Nov. 10 at 9:54 AM"
+        "time": "Nov. 10 at 11:44 AM"
     },
     "trank": {
         "torvik_NET": "51",
         "trank": 41,
-        "trank_make_tourney": 54.2,
+        "trank_make_tourney": 54.9,
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "11",
         "wab_rank": 82,
