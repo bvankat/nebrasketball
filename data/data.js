@@ -89,7 +89,7 @@
         "rank": "37"
     },
     "time": {
-        "time": "Nov. 11 at 4:56 PM"
+        "time": "Nov. 11 at 5:21 PM"
     },
     "trank": {
         "torvik_NET": "50",
