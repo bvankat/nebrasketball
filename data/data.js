@@ -47,23 +47,23 @@
         "sos": 326.0
     },
     "espn_bracketology": {
-        "seed": "OUT"
+        "seed": "First Four Out"
     },
     "evanmiya": {
-        "miya_rating": 44,
+        "miya_rating": 45,
         "miya_resume_category": "Just In The Field",
-        "miya_resume_rank": 88
+        "miya_resume_rank": 90
     },
     "haslametrics": {
-        "haslam_rating": "34",
+        "haslam_rating": "35",
         "seed": "10"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "18-12",
-        "rating": 43,
+        "rating": 42,
         "record": "2-0",
-        "sos": 310
+        "sos": 309
     },
     "next_game": {
         "away_team": "MD Eastern",
@@ -77,24 +77,24 @@
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": 165
+        "SRS_rank": 82
     },
     "teamrankings": {
-        "make_tournament": "48.5%",
+        "make_tournament": "49.2%",
         "most_likely_seed": "9",
-        "proj_conf_record": "9.5-10.5",
-        "projected_bid_pct": "48.5%",
-        "projected_losses": "11.8",
-        "projected_wins": "18.2",
-        "rank": "39"
+        "proj_conf_record": "9.4-10.6",
+        "projected_bid_pct": "49.2%",
+        "projected_losses": "11.9",
+        "projected_wins": "18.1",
+        "rank": "37"
     },
     "time": {
-        "time": "Nov. 10 at 10:47 PM"
+        "time": "Nov. 11 at 9:36 AM"
     },
     "trank": {
         "torvik_NET": "50",
         "trank": 40,
-        "trank_make_tourney": 54.9,
+        "trank_make_tourney": 54.7,
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "10",
         "wab_rank": 87,
@@ -109,6 +109,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "2-0",
         "record": "2-0",
-        "rpi": "111"
+        "rpi": "117"
     }
 }
