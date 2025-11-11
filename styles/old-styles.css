@@ -69,9 +69,10 @@ header { background-color: var(--color-husker-red); background: radial-gradient(
 
 .gauge-wrapper {
 	position: relative;
-	width: 350px;
-	height: 350px;
+	width: 340px;
+	height: 340px;
 	margin: 0 auto 30px;
+	overflow: hidden;
 }
 
 .gauge-background {
