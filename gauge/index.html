@@ -211,6 +211,74 @@ background: #790909;
             background: #333;
         }
 
+        .adjustment-panel {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .adjustment-panel h3 {
+            color: #ccc;
+            font-size: 14px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: 'Space Grotesk', monospace;
+        }
+
+        .adjustment-slider {
+            margin-bottom: 15px;
+        }
+
+        .adjustment-slider label {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+            color: #ccc;
+            font-size: 13px;
+            font-family: 'Space Grotesk', monospace;
+        }
+
+        .adjustment-slider input[type="range"] {
+            width: 100%;
+            height: 5px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+            outline: none;
+        }
+
+        .adjustment-slider input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #ff6b6b;
+            cursor: pointer;
+            box-shadow: 0 0 8px rgba(255, 107, 107, 0.5);
+        }
+
+        .adjustment-slider input[type="range"]::-moz-range-thumb {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #ff6b6b;
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 0 8px rgba(255, 107, 107, 0.5);
+        }
+
+        .adjustment-value {
+            color: #ff6b6b;
+            font-weight: 600;
+            font-family: 'Space Grotesk', monospace;
+        }
+
     </style>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -265,6 +333,55 @@ background: #790909;
             </div>
         </div>
 
+        <div class="adjustment-panel">
+            <h3>Bounce Adjustment</h3>
+
+            <div class="adjustment-slider">
+                <label for="smoothnessSlider">
+                    <span>Smoothness (ms)</span>
+                    <span class="adjustment-value" id="smoothnessValue">220</span>
+                </label>
+                <input 
+                    type="range" 
+                    id="smoothnessSlider" 
+                    min="50" 
+                    max="500" 
+                    value="220"
+                    step="10"
+                >
+            </div>
+
+            <div class="adjustment-slider">
+                <label for="intervalSlider">
+                    <span>Bounce Interval (ms)</span>
+                    <span class="adjustment-value" id="intervalValue">80</span>
+                </label>
+                <input 
+                    type="range" 
+                    id="intervalSlider" 
+                    min="50" 
+                    max="500" 
+                    value="80"
+                    step="10"
+                >
+            </div>
+
+            <div class="adjustment-slider">
+                <label for="amplitudeSlider">
+                    <span>Bounce Amplitude (±)</span>
+                    <span class="adjustment-value" id="amplitudeValue">2</span>
+                </label>
+                <input 
+                    type="range" 
+                    id="amplitudeSlider" 
+                    min="1" 
+                    max="10" 
+                    value="2"
+                    step="1"
+                >
+            </div>
+        </div>
+
     </div>
 
     <script>
@@ -282,26 +399,39 @@ background: #790909;
         const angleDisplay = document.getElementById('angleDisplay');
         const needleContainer = document.querySelector('.gauge-needle-container');
 
+        // Adjustment sliders
+        const smoothnessSlider = document.getElementById('smoothnessSlider');
+        const intervalSlider = document.getElementById('intervalSlider');
+        const amplitudeSlider = document.getElementById('amplitudeSlider');
+        const smoothnessValue = document.getElementById('smoothnessValue');
+        const intervalValue = document.getElementById('intervalValue');
+        const amplitudeValue = document.getElementById('amplitudeValue');
+
         // Smoothness config: change this number to make bounces smoother (ms)
         // Larger = slower, smoother; smaller = snappier.
-        const bounceSmoothMs = 220;
+        let bounceSmoothMs = 220;
         const bounceTimingFn = 'cubic-bezier(.22,1,.36,1)';
 
-        // Apply initial transition from JS so it can be adjusted dynamically
-        if (needleContainer) {
-            needleContainer.style.transition = `transform ${bounceSmoothMs}ms ${bounceTimingFn}`;
+        // Apply transition function
+        function applyTransition() {
+            if (needleContainer) {
+                needleContainer.style.transition = `transform ${bounceSmoothMs}ms ${bounceTimingFn}`;
+            }
         }
+        applyTransition();
 
         // State: baseValue is the user-selected target; bounce will wiggle around it.
         let baseValue = parseInt(speedSlider.value, 10) || 50;
         let isAnimating = false; // pause bounce while explicit animations run
 
         // Bounce configuration
-        const bounceAmplitude = 2; // +/- value
-        const bounceIntervalMs = 80;
+        let bounceAmplitude = 2; // +/- value
+        let bounceIntervalMs = 80;
+        let bounceIntervalId = null;
 
         // Initialize
         updateNeedle(baseValue);
+        startBounce();
 
         // Event Listeners
         speedSlider.addEventListener('input', (e) => {
@@ -373,16 +503,38 @@ background: #790909;
             }, 15);
         }
 
-        // Bounce timer: wiggle the needle slightly around baseValue
-        setInterval(() => {
-            if (isAnimating) return; // don't bounce while animating
+        // Bounce timer functions
+        function startBounce() {
+            if (bounceIntervalId) clearInterval(bounceIntervalId);
 
-            // Small integer jitter in range [-bounceAmplitude, bounceAmplitude]
-            const jitter = Math.round((Math.random() * (bounceAmplitude * 2)) - bounceAmplitude);
-            const bounced = Math.max(config.minValue, Math.min(config.maxValue, baseValue + jitter));
-            // Update needle but don't move the slider UI
-            updateNeedle(bounced, true);
-        }, 100);
+            bounceIntervalId = setInterval(() => {
+                if (isAnimating) return; // don't bounce while animating
+
+                // Small integer jitter in range [-bounceAmplitude, bounceAmplitude]
+                const jitter = Math.round((Math.random() * (bounceAmplitude * 2)) - bounceAmplitude);
+                const bounced = Math.max(config.minValue, Math.min(config.maxValue, baseValue + jitter));
+                // Update needle but don't move the slider UI
+                updateNeedle(bounced, true);
+            }, bounceIntervalMs);
+        }
+
+        // Adjustment slider event listeners
+        smoothnessSlider.addEventListener('input', (e) => {
+            bounceSmoothMs = parseInt(e.target.value, 10);
+            smoothnessValue.textContent = bounceSmoothMs;
+            applyTransition();
+        });
+
+        intervalSlider.addEventListener('input', (e) => {
+            bounceIntervalMs = parseInt(e.target.value, 10);
+            intervalValue.textContent = bounceIntervalMs;
+            startBounce(); // restart with new interval
+        });
+
+        amplitudeSlider.addEventListener('input', (e) => {
+            bounceAmplitude = parseInt(e.target.value, 10);
+            amplitudeValue.textContent = bounceAmplitude;
+        });
     </script>
 </body>
 </html>
