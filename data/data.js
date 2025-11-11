@@ -61,9 +61,9 @@
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "18-12",
-        "rating": 42,
+        "rating": 43,
         "record": "2-0",
-        "sos": 302
+        "sos": 310
     },
     "next_game": {
         "away_team": "MD Eastern",
@@ -74,7 +74,7 @@
     },
     "polls": {
         "ap_rank": "NR",
-        "coaches_rank": "NA"
+        "coaches_rank": "NR"
     },
     "sports_reference": {
         "SRS_rank": 165
@@ -89,26 +89,26 @@
         "rank": "39"
     },
     "time": {
-        "time": "Nov. 10 at 11:44 AM"
+        "time": "Nov. 10 at 10:47 PM"
     },
     "trank": {
-        "torvik_NET": "51",
-        "trank": 41,
+        "torvik_NET": "50",
+        "trank": 40,
         "trank_make_tourney": 54.9,
         "trank_proj_record": "18-12 (9-11)",
-        "trank_seed": "11",
-        "wab_rank": 82,
+        "trank_seed": "10",
+        "wab_rank": 87,
         "wab_score": "+0.08"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "62",
+        "elo": "63",
         "nolan_net": "54",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "2-0",
         "record": "2-0",
-        "rpi": "105"
+        "rpi": "111"
     }
 }
