@@ -25,12 +25,6 @@ background: #790909;
             text-align: center;
         }
 
-        h1 {
-            color: #333;
-            margin-bottom: 30px;
-            font-size: 28px;
-        }
-
         .gauge-wrapper {
             position: relative;
             width: 340px;
@@ -312,7 +306,7 @@ background: #790909;
 
         <div class="control-section">
             <div class="input-group">
-                <label for="speedSlider">Speed (0-100):</label>
+                <label for="speedSlider">Odds (0-100):</label>
                 <input 
                     type="range" 
                     id="speedSlider" 
@@ -339,14 +333,14 @@ background: #790909;
             <div class="adjustment-slider">
                 <label for="smoothnessSlider">
                     <span>Smoothness (ms)</span>
-                    <span class="adjustment-value" id="smoothnessValue">220</span>
+                    <span class="adjustment-value" id="smoothnessValue">500</span>
                 </label>
                 <input 
                     type="range" 
                     id="smoothnessSlider" 
                     min="50" 
                     max="500" 
-                    value="220"
+                    value="500"
                     step="10"
                 >
             </div>
@@ -354,14 +348,14 @@ background: #790909;
             <div class="adjustment-slider">
                 <label for="intervalSlider">
                     <span>Bounce Interval (ms)</span>
-                    <span class="adjustment-value" id="intervalValue">80</span>
+                    <span class="adjustment-value" id="intervalValue">160</span>
                 </label>
                 <input 
                     type="range" 
                     id="intervalSlider" 
                     min="50" 
                     max="500" 
-                    value="80"
+                    value="160"
                     step="10"
                 >
             </div>
@@ -409,7 +403,7 @@ background: #790909;
 
         // Smoothness config: change this number to make bounces smoother (ms)
         // Larger = slower, smoother; smaller = snappier.
-        let bounceSmoothMs = 220;
+        let bounceSmoothMs = 500;
         const bounceTimingFn = 'cubic-bezier(.22,1,.36,1)';
 
         // Apply transition function
@@ -426,7 +420,7 @@ background: #790909;
 
         // Bounce configuration
         let bounceAmplitude = 2; // +/- value
-        let bounceIntervalMs = 80;
+        let bounceIntervalMs = 160;
         let bounceIntervalId = null;
 
         // Initialize
