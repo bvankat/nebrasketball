@@ -435,13 +435,6 @@ function drawChart() {
 	  yellowFrom:50, yellowTo: 75,
 	  minorTicks: 12
 	};
-	
-	var options_2 = {
-	  width: 200, height: 200,
-	  redFrom: 75, redTo: 100,
-	  yellowFrom:50, yellowTo: 75,
-	  minorTicks: 10
-	};
 
 	var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
 	chart.draw(data, options);
