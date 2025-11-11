@@ -69,8 +69,8 @@ header { background-color: var(--color-husker-red); background: radial-gradient(
 
 .gauge-wrapper {
 	position: relative;
-	width: 340px;
-	height: 340px;
+	width: 400px;
+	height: 400px;
 	margin: 0 auto 30px;
 }
 
@@ -136,12 +136,12 @@ header { background-color: var(--color-husker-red); background: radial-gradient(
 .value-display.light {
 	color: black;
 	top: 78%;
-	font-size: 26px;
+	font-size: 30px;
 	width: 70px !important;
 	height: auto !important;
 	background: white;
 	clip-path: none !important;
-	padding: 10px 10px 0 10px;
+	padding: 10px 10px 5px 10px;
 	box-shadow: none !important;
 	border-radius: 10px;
 	border-top: 1px solid rgba(255,255,255,0.2);
