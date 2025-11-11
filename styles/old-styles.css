@@ -137,16 +137,16 @@ header { background-color: var(--color-husker-red); background: radial-gradient(
 	}
 .value-display.light {
 	color: black;
-	top: 79%;
+	top: 77%;
 	font-size: 34px;
 	width: 70px !important;
 	height: auto !important;
-	background: white;
+	background: none !important;
 	clip-path: none !important;
 	padding: 0px 10px 0px 10px;
 	box-shadow: none !important;
-	border-radius: 10px;
-	border-top: 1px solid rgba(255,255,255,0.2);
+	border-radius: 0;
+	border-top: none !important;
 	display: inline-block;
 	text-shadow: 1px 1px 5px rgba(255,255,255,0.7);
 	width: 120px;
