@@ -133,8 +133,28 @@
             text-shadow: 1px 1px 5px rgba(255,255,255,0.7);
             width: 120px;
             z-index: 10;
-            font-family: 'Geist Mono', monospace;
-        }
+            text-shadow: 
+                0 0 5px rgba(180, 0, 0, 0.6), /* Inner, brighter glow */
+                0 0 15px rgba(180,0,0,0.4), /* Medium glow */
+                0 0 30px rgba(180,0,0,0.2); /* Wider, softer glow */
+              font-family: 'Orbitron', monospace;
+              animation: dashboard-pulse 1s infinite alternate; /* Optional: adds a pulsing animation */
+            }
+            
+            @keyframes dashboard-pulse {
+              0% {
+                text-shadow: 
+                  0 0 5px rgba(180, 0, 0, 0.6), 
+                  0 0 15px rgba(180, 0, 0, 0.4), 
+                  0 0 30px rgba(180, 0, 0, 0.2);
+              }
+              100% {
+                text-shadow: 
+                  0 0 8px rgba(180,0,0, 0.8), 
+                  0 0 20px rgba(180,0,0, 0.6), 
+                  0 0 40px rgba(180,0,0, 0.3);
+              }
+            }
 
         .angle-display {
             font-size: 14px;
