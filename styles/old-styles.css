@@ -69,8 +69,11 @@ header { background-color: var(--color-husker-red); background: radial-gradient(
 
 .gauge-wrapper {
 	position: relative;
-	width: 400px;
-	height: 400px;
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	max-height: 400px;
+	aspect-ratio: 1/1;
 	margin: 0 auto 30px;
 }
 
@@ -104,7 +107,6 @@ header { background-color: var(--color-husker-red); background: radial-gradient(
 	transform: translate(-50%, -50%);
 	transform-origin: center center;
 }
-
 
 .value-display {
 	  --p: 20px; /* control the shape (can be percentage) */
