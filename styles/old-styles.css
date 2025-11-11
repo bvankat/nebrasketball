@@ -69,8 +69,8 @@ header { background-color: var(--color-husker-red); background: radial-gradient(
 
 .gauge-wrapper {
 	position: relative;
-	width: 380px;
-	height: 380px;
+	width: 350px;
+	height: 350px;
 	margin: 0 auto 30px;
 }
 
@@ -136,7 +136,7 @@ header { background-color: var(--color-husker-red); background: radial-gradient(
 .value-display.light {
 	color: black;
 	top: 77%;
-	font-size: 34px;
+	font-size: 32px;
 	width: 70px !important;
 	height: auto !important;
 	background: none !important;
@@ -151,7 +151,7 @@ header { background-color: var(--color-husker-red); background: radial-gradient(
 	z-index: 10;
 	text-shadow: none !important;
 	font-family: 'Geist Mono', monospace;
-	font-weight: 500;
+	font-weight: 400;
 	 
 	}
 	
