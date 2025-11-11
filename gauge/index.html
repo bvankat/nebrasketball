@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedometer Gauge</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: none;
+            font-family: system-ui, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .gauge-wrapper {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin: 0 auto 30px;
+        }
+
+        .gauge-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .gauge-needle-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            transform: translate(-50%, -50%);
+            transform-origin: center center;
+        }
+
+        .gauge-needle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            transform: translate(-50%, -50%);
+            transform-origin: center center;
+        }
+
+        .control-section {
+            margin-top: 30px;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: 600;
+            color: #333;
+            font-size: 14px;
+        }
+
+        input[type="range"] {
+            width: 200px;
+            height: 6px;
+            border-radius: 3px;
+            background: #ddd;
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: black;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: black;
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .value-display {
+              --p: 20px; /* control the shape (can be percentage) */
+              height: 70px;
+              clip-path: polygon(20% 0,80% 0,100% 80%,50% 100%,0% 80%);
+            font-size: 36px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            position: relative;
+            top: 220px;
+            background: #000000;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 1) 41%, rgba(0, 0, 0, 0.47) 89%);
+            padding: 10px 20px 20px 20px;
+            box-shadow: 0 -5px 20px rgba(0,0,0,0.8);
+            border-radius: 3px;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            display: inline-block;
+            text-shadow: 1px 1px 5px rgba(255,255,255,0.7);
+            width: 120px;
+            z-index: 10;
+            font-family: 'Geist Mono', monospace;
+        }
+
+        .angle-display {
+            font-size: 14px;
+            color: #444;
+            margin-top: 6px;
+            opacity: 0.9;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background: black;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #333;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="gauge-wrapper">
+            <div class="gauge-background">
+                <object 
+                    class="gauge-background" 
+                    data="SVG/gauge-dial.svg" 
+                    type="image/svg+xml"
+                    style="pointer-events: none;">
+                </object>
+            </div>
+            <div class="gauge-needle-container">
+                <object 
+                    class="gauge-needle" 
+                    id="needleSvg"
+                    data="SVG/needle.svg" 
+                    type="image/svg+xml"
+                    style="pointer-events: none;">
+                </object>
+            </div>
+            <div class="value-display" id="valueDisplay">50</div>
+        </div>
+
+        <div class="control-section">
+            <div class="input-group">
+                <label for="speedSlider">Speed (0-100):</label>
+                <input 
+                    type="range" 
+                    id="speedSlider" 
+                    min="0" 
+                    max="100" 
+                    value="50"
+                    step="1"
+                >
+            </div>
+
+            <div class="angle-display" id="angleDisplay">—°</div>
+
+            <div class="button-group">
+                <button onclick="setSpeed(0)">Reset (0)</button>
+                <button onclick="setSpeed(50)">Half (50)</button>
+                <button onclick="setSpeed(100)">Max (100)</button>
+                <button onclick="animateSpeed()">Animate</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Configuration
+        const config = {
+            minAngle: -215.2,  // Angle at value 0
+            maxAngle: 34.2,   // Angle at value 100
+            minValue: 0,
+            maxValue: 100
+        };
+
+        // DOM Elements
+    const speedSlider = document.getElementById('speedSlider');
+    const valueDisplay = document.getElementById('valueDisplay');
+    const angleDisplay = document.getElementById('angleDisplay');
+    const needleContainer = document.querySelector('.gauge-needle-container');
+
+        // Initialize
+        updateNeedle(50);
+
+        // Event Listeners
+        speedSlider.addEventListener('input', (e) => {
+            const value = parseInt(e.target.value);
+            updateNeedle(value);
+        });
+
+        // Functions
+        function updateNeedle(value) {
+            // Clamp value between min and max
+            value = Math.max(config.minValue, Math.min(config.maxValue, value));
+            
+            // Calculate angle
+            const angleRange = config.maxAngle - config.minAngle;
+            const valueRange = config.maxValue - config.minValue;
+            const normalizedValue = (value - config.minValue) / valueRange;
+            const angle = config.minAngle + (normalizedValue * angleRange);
+
+            // Update needle rotation
+            needleContainer.style.transform = `translate(-50%, -50%) rotate(${angle}deg)`;
+
+            // Update value display
+            valueDisplay.textContent = value;
+
+            // Update angle debug display (degrees)
+            if (angleDisplay) {
+                angleDisplay.textContent = `${angle.toFixed(1)}°`;
+            }
+
+            // Log for debugging
+            console.debug('updateNeedle:', { value, angle });
+
+            // Update slider if called externally
+            speedSlider.value = value;
+        }
+
+        function setSpeed(value) {
+            speedSlider.value = value;
+            updateNeedle(value);
+        }
+
+        function animateSpeed() {
+            let direction = 1;
+            let currentValue = parseInt(speedSlider.value);
+
+            const interval = setInterval(() => {
+                currentValue += direction * 2;
+
+                if (currentValue >= 100) {
+                    currentValue = 100;
+                    direction = -1;
+                } else if (currentValue <= 0) {
+                    currentValue = 0;
+                    direction = 1;
+                    clearInterval(interval);
+                }
+
+                updateNeedle(currentValue);
+            }, 15);
+        }
+    </script>
+</body>
+</html>
