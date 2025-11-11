@@ -32,6 +32,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">   
+    
+    <!-- Google Fonts - Space Grotesk -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet"> 
 
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="/styles/tailwind.css"> 
@@ -80,15 +85,36 @@
                      
 
                 </div>
+                
+                <div class="lg:w-1/2">
+                
+                    <div class="gauge-wrapper">
+                        <!-- swap dark/light svgs to change gauge -->
+                        <div class="gauge-background">
+                            <object 
+                                class="gauge-background" 
+                                data="gauge/svg/light/gauge-dial.svg" 
+                                type="image/svg+xml"
+                                style="pointer-events: none;">
+                            </object>
+                        </div>
+                        <div class="gauge-needle-container">
+                            <object 
+                                class="gauge-needle" 
+                                id="needleSvg"
+                                data="gauge/svg/light/needle.svg" 
+                                type="image/svg+xml"
+                                style="pointer-events: none;">
+                            </object>
+                        </div>
+                        <!-- remove 'light' for dark gauge -->
+                        <div class="value-display light" id="valueDisplay">20</div>
+                    </div>
            
-                <div class="lg:w-1/2 lg:bg-black/5 lg:border lg:border-white/10 lg:rounded-xl lg:shadow-sm">
-                <div class="bg-none lg:bg-black/10 rounded-lg lg:shadow-sm lg:px-20 lg:py-20">
-                    <div id="chart_div" style="width: 340px; height: 340px; margin: 0 auto 40px auto; clear: both;"></div>
                     <p class="text-center text-white font-light text-xs uppercase opacity-60 tracking-wider geist-mono mb-2">Current status</p>
                     <p class="text-center text-white text-sm inline-block">Nation's longest winning streak</p>
         
         
-                </div>
                 </div>
         
         </div><!-- end of max-w-screen-lg -->
@@ -646,6 +672,7 @@
             <p><a href="https://github.com/bvankat/nebrasketball" class="hover:text-gray-600 transition-colors underline underline-offset-4 text-gray-500 font-normal">Details and methodology</a></p>
         
         </div>
+        
         
 
     <!-- D3 for the dot plot -->

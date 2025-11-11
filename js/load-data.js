@@ -415,40 +415,111 @@
 	console.log("percentages_sum: ", percentages_sum);
 	console.log("Intangibles: " + intangibles + " (" + intangibles_msg + ")");
 	console.log("Total Score at the bottom: ", total_score);
+  
 
-google.charts.load('current', {'packages':['gauge']});
-google.charts.setOnLoadCallback(drawChart);
-
-	 
-function drawChart() {
-	   
-	   total_score = parseInt(total_score);
-
-	var data = google.visualization.arrayToDataTable([
-	  ['Label', 'Value'],
-	  ['', total_score],
-	]);
-
-	var options = {
-	  width: 340, height: 340,
-	  redFrom: 75, redTo: 100,
-	  yellowFrom:50, yellowTo: 75,
-	  minorTicks: 12
-	};
-
-	var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
-	chart.draw(data, options);
-
-
-	// Comment out these lines to disable needle bounce in offseason
-	// Increase the multiplier applied to Math.random to increase bounciness. It basically equates to the range of values to bounce between.
-	setInterval(function() {
-	  data.setValue(0, 1, total_score-3 + Math.round(7 * Math.random()));
-	  chart.draw(data, options);
-	  }, 300);
- 
- 
-  };  // end drawChart()
+  // NEW CHART 
+	  // Configuration
+	  const config = {
+		  minAngle: -215.2,  // Angle at value 0
+		  maxAngle: 34.2,   // Angle at value 100
+		  minValue: 0,
+		  maxValue: 100
+	  };
+  
+	  // DOM Elements
+	  const valueDisplay = document.getElementById('valueDisplay');
+	  const needleContainer = document.querySelector('.gauge-needle-container');
+  
+	  // Smoothness config: change this number to make bounces smoother (ms)
+	  // Larger = slower, smoother; smaller = snappier.
+	  let bounceSmoothMs = 500;
+	  const bounceTimingFn = 'cubic-bezier(.22,1,.36,1)';
+  
+	  // Apply transition function
+	  function applyTransition() {
+		  if (needleContainer) {
+			  needleContainer.style.transition = `transform ${bounceSmoothMs}ms ${bounceTimingFn}`;
+		  }
+	  }
+	  applyTransition();
+  
+	  // State: baseValue is the user-selected target; bounce will wiggle around it.
+	  let baseValue = parseInt(total_score, 10) || 50;
+	  let isAnimating = false; // pause bounce while explicit animations run
+  
+	  // Bounce configuration
+	  let bounceAmplitude = 2; // +/- value
+	  let bounceIntervalMs = 160;
+	  let bounceIntervalId = null;
+  
+	  // Initialize
+	  updateNeedle(baseValue);
+	  startBounce();
+    
+	  // Functions
+	  // updateNeedle(value, skipSlider=false)
+	  // - value: number 0..100
+	  // - skipSlider: if true, do not modify the slider UI (used by the bounce)
+	  function updateNeedle(value, skipSlider = true) {
+		  // Clamp value between min and max
+		  value = Math.max(config.minValue, Math.min(config.maxValue, value));
+		  
+		  // Calculate angle
+		  const angleRange = config.maxAngle - config.minAngle;
+		  const valueRange = config.maxValue - config.minValue;
+		  const normalizedValue = (value - config.minValue) / valueRange;
+		  const angle = config.minAngle + (normalizedValue * angleRange);
+  
+		  // Update needle rotation
+		  needleContainer.style.transform = `translate(-50%, -50%) rotate(${angle}deg)`;
+  
+		  // Update value display
+		  valueDisplay.textContent = value;
+	  }
+  
+	  function setSpeed(value) {
+		  baseValue = value;
+		  updateNeedle(value);
+	  }
+  
+	  function animateSpeed() {
+		  let direction = 1;
+		  let currentValue = parseInt(baseValue, 10) || 0;
+		  isAnimating = true; // pause bounce while animating
+  
+		  const interval = setInterval(() => {
+			  currentValue += direction * 2;
+  
+			  if (currentValue >= 100) {
+				  currentValue = 100;
+				  direction = -1;
+			  } else if (currentValue <= 0) {
+				  currentValue = 0;
+				  direction = 1;
+				  clearInterval(interval);
+				  isAnimating = false;
+				  return;
+			  }
+  
+			  updateNeedle(currentValue);
+		  }, 15);
+	  }
+  
+	  // Bounce timer functions
+	  function startBounce() {
+		  if (bounceIntervalId) clearInterval(bounceIntervalId);
+  
+		  bounceIntervalId = setInterval(() => {
+			  if (isAnimating) return; // don't bounce while animating
+  
+			  // Small integer jitter in range [-bounceAmplitude, bounceAmplitude]
+			  const jitter = Math.round((Math.random() * (bounceAmplitude * 2)) - bounceAmplitude);
+			  const bounced = Math.max(config.minValue, Math.min(config.maxValue, baseValue + jitter));
+			  // Update needle but don't move the slider UI
+			  updateNeedle(bounced, true);
+		  }, bounceIntervalMs);
+	  }
+  
   
 } // end loadData async function
 	

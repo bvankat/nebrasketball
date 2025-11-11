@@ -63,3 +63,116 @@ header { background-color: var(--color-husker-red); background: radial-gradient(
 	-ms-overflow-style: none;  /* IE and Edge */
 	scrollbar-width: none;  /* Firefox */
 }
+
+
+/* ********** GAUGE ********** */
+
+.gauge-wrapper {
+	position: relative;
+	width: 340px;
+	height: 340px;
+	margin: 0 auto 30px;
+}
+
+.gauge-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.gauge-needle-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 100%;
+	transform: translate(-50%, -50%);
+	transform-origin: center center;
+	/* Smooth rotations: tuned for small bounces */
+	transition: transform 500ms cubic-bezier(.22,1,.36,1);
+	will-change: transform;
+}
+
+.gauge-needle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 100%;
+	transform: translate(-50%, -50%);
+	transform-origin: center center;
+}
+
+
+.value-display {
+	  --p: 20px; /* control the shape (can be percentage) */
+	  height: 80px;
+	  clip-path: polygon(20% 0,80% 0,100% 80%,50% 100%,0% 80%);
+	font-size: 36px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 250px;
+	background: #000000;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 1) 41%, rgba(0, 0, 0, 0.47) 89%);
+	padding: 10px 20px 20px 20px;
+	box-shadow: 0 -5px 20px rgba(0,0,0,0.8);
+	border-radius: 3px;
+	border-top: 1px solid rgba(255,255,255,0.2);
+	display: inline-block;
+	text-shadow: 1px 1px 5px rgba(255,255,255,0.7);
+	width: 120px;
+	z-index: 10;
+	text-shadow: 
+		0 0 5px rgba(180, 0, 0, 0.6), /* Inner, brighter glow */
+		0 0 15px rgba(180,0,0,0.4), /* Medium glow */
+		0 0 30px rgba(180,0,0,0.2); /* Wider, softer glow */
+	  font-family: 'Space Grotesk', 'Geist Mono', monospace;
+	  animation: dashboard-pulse 1s infinite alternate; /* Optional: adds a pulsing animation */
+	}
+.value-display.light {
+	color: black;
+	top: 78%;
+	font-size: 26px;
+	width: 70px !important;
+	height: auto !important;
+	background: white;
+	clip-path: none !important;
+	padding: 10px 10px 0 10px;
+	box-shadow: none !important;
+	border-radius: 10px;
+	border-top: 1px solid rgba(255,255,255,0.2);
+	display: inline-block;
+	text-shadow: 1px 1px 5px rgba(255,255,255,0.7);
+	width: 120px;
+	z-index: 10;
+	text-shadow: none !important;
+	font-family: 'Space Grotesk', 'Geist Mono', monospace;
+	 
+	}
+	
+	@keyframes dashboard-pulse {
+	  0% {
+		text-shadow: 
+		  0 0 5px rgba(180, 0, 0, 0.6), 
+		  0 0 15px rgba(180, 0, 0, 0.4), 
+		  0 0 30px rgba(180, 0, 0, 0.2);
+	  }
+	  100% {
+		text-shadow: 
+		  0 0 8px rgba(180,0,0, 0.8), 
+		  0 0 20px rgba(180,0,0, 0.6), 
+		  0 0 40px rgba(180,0,0, 0.3);
+	  }
+	}
+
+.angle-display {
+	font-size: 12px;
+	color: #ccc;
+	margin: 20px 0;
+	opacity: 0.9;
+	font-family: 'Space Grotesk', monospace;
+}
