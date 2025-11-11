@@ -135,13 +135,13 @@ header { background-color: var(--color-husker-red); background: radial-gradient(
 	}
 .value-display.light {
 	color: black;
-	top: 78%;
-	font-size: 30px;
+	top: 79%;
+	font-size: 34px;
 	width: 70px !important;
 	height: auto !important;
 	background: white;
 	clip-path: none !important;
-	padding: 10px 10px 5px 10px;
+	padding: 0px 10px 0px 10px;
 	box-shadow: none !important;
 	border-radius: 10px;
 	border-top: 1px solid rgba(255,255,255,0.2);
