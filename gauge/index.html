@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Speedometer Gauge</title>
+    <title>Nebrasketball Odds Machine Gauge</title>
     <style>
         * {
             margin: 0;
@@ -18,7 +18,8 @@
             min-height: 100vh;
             background: none;
             font-family: system-ui, sans-serif;
-        }
+background: #790909;
+            background: linear-gradient(0deg, rgba(121, 9, 9, 1) 7%, rgba(255, 0, 0, 1) 100%);     }
 
         .container {
             text-align: center;
@@ -79,8 +80,9 @@
 
         label {
             font-weight: 600;
-            color: #333;
+            color: #ccc;
             font-size: 14px;
+            font-family: 'Space Grotesk', monospace;
         }
 
         input[type="range"] {
@@ -137,7 +139,7 @@
                 0 0 5px rgba(180, 0, 0, 0.6), /* Inner, brighter glow */
                 0 0 15px rgba(180,0,0,0.4), /* Medium glow */
                 0 0 30px rgba(180,0,0,0.2); /* Wider, softer glow */
-              font-family: 'Orbitron', monospace;
+              font-family: 'Space Grotesk', 'Geist Mono', monospace;
               animation: dashboard-pulse 1s infinite alternate; /* Optional: adds a pulsing animation */
             }
             
@@ -157,10 +159,11 @@
             }
 
         .angle-display {
-            font-size: 14px;
-            color: #444;
-            margin-top: 6px;
+            font-size: 12px;
+            color: #ccc;
+            margin: 20px 0;
             opacity: 0.9;
+            font-family: 'Space Grotesk', monospace;
         }
 
         .button-group {
@@ -186,6 +189,11 @@
         }
 
     </style>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">   
+    
 </head>
 <body>
     <div class="container">
@@ -224,7 +232,7 @@
                 >
             </div>
 
-            <div class="angle-display" id="angleDisplay">—°</div>
+            <div class="angle-display">Needle angle: <span id="angleDisplay">—°</span></div>
 
             <div class="button-group">
                 <button onclick="setSpeed(0)">Reset (0)</button>
