@@ -37,14 +37,14 @@
         "bpi": 32.0,
         "chance_round_32": "",
         "chance_sweet_16": "",
-        "non_con_sos": 326.0,
+        "non_con_sos": 327.0,
         "proj_tourney_seed": "OUT",
-        "proj_win_loss_conf": "11.1-8.9",
+        "proj_win_loss_conf": "11.0-9.0",
         "proj_win_loss_overall": "20.0-10.0",
         "projected_tournament_order": "",
-        "seven_day_change": "",
+        "seven_day_change": "2nd",
         "sor": 114.0,
-        "sos": 326.0
+        "sos": 327.0
     },
     "espn_bracketology": {
         "seed": "First Four Out"
@@ -80,24 +80,24 @@
         "SRS_rank": 82
     },
     "teamrankings": {
-        "make_tournament": "49.2%",
+        "make_tournament": "49.7%",
         "most_likely_seed": "9",
         "proj_conf_record": "9.4-10.6",
-        "projected_bid_pct": "49.2%",
+        "projected_bid_pct": "49.7%",
         "projected_losses": "11.9",
         "projected_wins": "18.1",
         "rank": "37"
     },
     "time": {
-        "time": "Nov. 11 at 9:36 AM"
+        "time": "Nov. 11 at 4:56 PM"
     },
     "trank": {
         "torvik_NET": "50",
         "trank": 40,
-        "trank_make_tourney": 54.7,
+        "trank_make_tourney": 55.3,
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "10",
-        "wab_rank": 87,
+        "wab_rank": 88,
         "wab_score": "+0.08"
     },
     "warrennolan": {
