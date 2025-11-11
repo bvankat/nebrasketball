@@ -142,6 +142,26 @@ background: #790909;
               font-family: 'Space Grotesk', 'Geist Mono', monospace;
               animation: dashboard-pulse 1s infinite alternate; /* Optional: adds a pulsing animation */
             }
+        .value-display.light {
+            color: black;
+            top: 265px;
+            font-size: 26px;
+            width: 70px !important;
+            height: auto !important;
+            background: white;
+            clip-path: none !important;
+            padding: 10px 10px 5px 10px;
+            box-shadow: none !important;
+            border-radius: 10px;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            display: inline-block;
+            text-shadow: 1px 1px 5px rgba(255,255,255,0.7);
+            width: 120px;
+            z-index: 10;
+            text-shadow: none !important;
+            font-family: 'Space Grotesk', 'Geist Mono', monospace;
+             
+            }
             
             @keyframes dashboard-pulse {
               0% {
@@ -202,7 +222,7 @@ background: #790909;
             <div class="gauge-background">
                 <object 
                     class="gauge-background" 
-                    data="SVG/gauge-dial.svg" 
+                    data="svg/light/gauge-dial.svg" 
                     type="image/svg+xml"
                     style="pointer-events: none;">
                 </object>
@@ -211,12 +231,12 @@ background: #790909;
                 <object 
                     class="gauge-needle" 
                     id="needleSvg"
-                    data="SVG/needle.svg" 
+                    data="svg/light/needle.svg" 
                     type="image/svg+xml"
                     style="pointer-events: none;">
                 </object>
             </div>
-            <div class="value-display" id="valueDisplay">50</div>
+            <div class="value-display light" id="valueDisplay">50</div>
         </div>
 
         <div class="control-section">
