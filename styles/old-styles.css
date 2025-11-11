@@ -130,7 +130,7 @@ header { background-color: var(--color-husker-red); background: radial-gradient(
 		0 0 5px rgba(180, 0, 0, 0.6), /* Inner, brighter glow */
 		0 0 15px rgba(180,0,0,0.4), /* Medium glow */
 		0 0 30px rgba(180,0,0,0.2); /* Wider, softer glow */
-	  font-family: 'Space Grotesk', 'Geist Mono', monospace;
+	  font-family: 'Geist Mono', monospace;
 	  animation: dashboard-pulse 1s infinite alternate; /* Optional: adds a pulsing animation */
 	}
 .value-display.light {
@@ -150,7 +150,8 @@ header { background-color: var(--color-husker-red); background: radial-gradient(
 	width: 120px;
 	z-index: 10;
 	text-shadow: none !important;
-	font-family: 'Space Grotesk', 'Geist Mono', monospace;
+	font-family: 'Geist Mono', monospace;
+	font-weight: 600;
 	 
 	}
 	
