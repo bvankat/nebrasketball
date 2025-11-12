@@ -50,20 +50,20 @@
         "seed": "First Four Out"
     },
     "evanmiya": {
-        "miya_rating": 45,
+        "miya_rating": 46,
         "miya_resume_category": "Just In The Field",
-        "miya_resume_rank": 90
+        "miya_resume_rank": 86
     },
     "haslametrics": {
-        "haslam_rating": "35",
-        "seed": "10"
+        "haslam_rating": "29",
+        "seed": "9"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "18-12",
-        "rating": 48,
+        "rating": 47,
         "record": "3-0",
-        "sos": 344
+        "sos": 345
     },
     "next_game": {
         "away_team": "MD Eastern",
@@ -77,28 +77,28 @@
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": "NA"
+        "SRS_rank": 148
     },
     "teamrankings": {
-        "make_tournament": "49.7%",
-        "most_likely_seed": "9",
-        "proj_conf_record": "9.4-10.6",
-        "projected_bid_pct": "49.7%",
-        "projected_losses": "11.9",
-        "projected_wins": "18.1",
-        "rank": "37"
+        "make_tournament": "40.5%",
+        "most_likely_seed": "10",
+        "proj_conf_record": "8.8-11.2",
+        "projected_bid_pct": "40.5%",
+        "projected_losses": "12.5",
+        "projected_wins": "17.5",
+        "rank": "44"
     },
     "time": {
-        "iso_time": "2025-11-11T22:46:30.380172",
-        "time": "Nov. 11 at 10:46 PM"
+        "iso_time": "2025-11-12T10:09:17.335680",
+        "time": "Nov. 12 at 10:09 AM"
     },
     "trank": {
         "torvik_NET": "49",
-        "trank": 40,
-        "trank_make_tourney": 55.3,
+        "trank": 41,
+        "trank_make_tourney": 53.4,
         "trank_proj_record": "18-12 (9-11)",
-        "trank_seed": "10",
-        "wab_rank": 80,
+        "trank_seed": "11",
+        "wab_rank": 81,
         "wab_score": "+0.09"
     },
     "warrennolan": {
@@ -110,6 +110,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "3-0",
-        "rpi": "145"
+        "rpi": "148"
     }
 }
