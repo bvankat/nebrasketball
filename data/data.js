@@ -61,14 +61,14 @@
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "18-12",
-        "rating": 42,
-        "record": "2-0",
-        "sos": 309
+        "rating": 48,
+        "record": "3-0",
+        "sos": 343
     },
     "next_game": {
         "away_team": "MD Eastern",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2379.png",
-        "date_time": "11/11 - 8:00 PM EST",
+        "date_time": "Final",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -89,26 +89,26 @@
         "rank": "37"
     },
     "time": {
-        "time": "Nov. 11 at 5:21 PM"
+        "time": "Nov. 11 at 10:15 PM"
     },
     "trank": {
-        "torvik_NET": "50",
+        "torvik_NET": "49",
         "trank": 40,
         "trank_make_tourney": 55.3,
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "10",
-        "wab_rank": 88,
-        "wab_score": "+0.08"
+        "wab_rank": 79,
+        "wab_score": "+0.09"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "63",
+        "elo": "62",
         "nolan_net": "54",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
-        "quadrant_4": "2-0",
-        "record": "2-0",
-        "rpi": "117"
+        "quadrant_4": "3-0",
+        "record": "3-0",
+        "rpi": "126"
     }
 }
