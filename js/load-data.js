@@ -520,6 +520,39 @@
 		  }, bounceIntervalMs);
 	  }
   
+  	function getRelativeTime(isoString) {
+		  const updateTime = new Date(isoString);
+		  const now = new Date();
+		  const diffMs = now - updateTime;
+		  const diffHours = diffMs / (1000 * 60 * 60);
+		  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+		  
+		  if (diffHours < 1) {
+			  return "Just now";
+		  } else if (diffHours < 2) {
+			  return "One hour ago";
+		  } else if (diffHours < 3) {
+			  return "Two hours ago";
+		  } else if (diffHours < 4) {
+			  return "Three hours ago";
+		  } else if (diffHours < 5) {
+			  return "Four hours ago";
+		  } else if (diffDays === 0) {
+			  return "Earlier today";
+		  } else if (diffDays === 1) {
+			  return "Yesterday";
+		  } else if (diffDays === 2) {
+			  return "Two days ago";
+		  } else {
+			  const monthNames = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June',
+								'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
+			  return `${monthNames[updateTime.getMonth()]} ${updateTime.getDate()}`;
+		  }
+	  }
+	  
+	  const relativeTime = getRelativeTime(data.time.iso_time);
+	  console.log("Update time: " + relativeTime);
+	  document.getElementById('update-relative-time').textContent = 'Updated ' + relativeTime;
   
 } // end loadData async function
 	
