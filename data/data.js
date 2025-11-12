@@ -34,17 +34,17 @@
         "total_brackets": 68
     },
     "espn": {
-        "bpi": 32.0,
+        "bpi": 35.0,
         "chance_round_32": "",
         "chance_sweet_16": "",
-        "non_con_sos": 327.0,
+        "non_con_sos": 344.0,
         "proj_tourney_seed": "OUT",
-        "proj_win_loss_conf": "11.0-9.0",
-        "proj_win_loss_overall": "20.0-10.0",
+        "proj_win_loss_conf": "10.5-9.5",
+        "proj_win_loss_overall": "19.4-10.6",
         "projected_tournament_order": "",
-        "seven_day_change": "2nd",
-        "sor": 114.0,
-        "sos": 327.0
+        "seven_day_change": "Tied-4th",
+        "sor": 104.0,
+        "sos": 344.0
     },
     "espn_bracketology": {
         "seed": "First Four Out"
@@ -52,7 +52,7 @@
     "evanmiya": {
         "miya_rating": 46,
         "miya_resume_category": "Just In The Field",
-        "miya_resume_rank": 86
+        "miya_resume_rank": 85
     },
     "haslametrics": {
         "haslam_rating": "29",
@@ -66,9 +66,9 @@
         "sos": 345
     },
     "next_game": {
-        "away_team": "MD Eastern",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2379.png",
-        "date_time": "Final",
+        "away_team": "Oklahoma",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+        "date_time": "11/15 - 7:00 PM EST",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -89,13 +89,13 @@
         "rank": "44"
     },
     "time": {
-        "iso_time": "2025-11-12T10:09:17.335680",
-        "time": "Nov. 12 at 10:09 AM"
+        "iso_time": "2025-11-12T14:48:42.019281",
+        "time": "Nov. 12 at 2:48 PM"
     },
     "trank": {
         "torvik_NET": "49",
         "trank": 41,
-        "trank_make_tourney": 53.4,
+        "trank_make_tourney": 55.1,
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "11",
         "wab_rank": 81,
