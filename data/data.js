@@ -63,7 +63,7 @@
         "overall_record": "18-12",
         "rating": 48,
         "record": "3-0",
-        "sos": 343
+        "sos": 344
     },
     "next_game": {
         "away_team": "MD Eastern",
@@ -77,7 +77,7 @@
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": 82
+        "SRS_rank": "NA"
     },
     "teamrankings": {
         "make_tournament": "49.7%",
@@ -89,8 +89,8 @@
         "rank": "37"
     },
     "time": {
-        "relative_time": "Just now",
-        "time": "Nov. 11 at 10:24 PM"
+        "iso_time": "2025-11-11T22:46:30.380172",
+        "time": "Nov. 11 at 10:46 PM"
     },
     "trank": {
         "torvik_NET": "49",
@@ -98,7 +98,7 @@
         "trank_make_tourney": 55.3,
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "10",
-        "wab_rank": 79,
+        "wab_rank": 80,
         "wab_score": "+0.09"
     },
     "warrennolan": {
@@ -110,6 +110,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "3-0",
-        "rpi": "126"
+        "rpi": "145"
     }
 }
