@@ -89,7 +89,8 @@
         "rank": "37"
     },
     "time": {
-        "time": "Nov. 11 at 10:15 PM"
+        "relative_time": "Just now",
+        "time": "Nov. 11 at 10:24 PM"
     },
     "trank": {
         "torvik_NET": "49",
