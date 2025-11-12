@@ -2,18 +2,18 @@
 *Tracking tournament odds for the Nebraska men's basketball team*
 
 ## Process
-1. Scrapes data sources for rankings and record projections. (Done offline in Python with Requests, Selenium, BeautifulSoup, Undetected Chromedriver)
+1. Scrapes data sources for rankings and record projections. (Done offline in Python with Requests, Selenium, BeautifulSoup)
 2. Loads data from uploaded JSON file 
 	- `const response = await fetch('/data/data.js');`
 3. Calculates chance of making the tournament, assigns score based on each rating.
 	- `function FindScore(data) {}`
 4. Assigns weighted average to scores.
     - Resume metrics worth slightly more than predictive ones
-5. Powers a needle gauge, a la #nytneedle from Election Night 2016. (Google Charts)
+5. Powers a custom SVG needle gauge, a la #nytneedle from Election Night 2016. ([Updated 2025](https://bvankat.github.io/javascript-gauge)
 6. D3 dot plot to show the range of rankings. (Shout out to ChatGPT for the code cleanup.)
 7. Captures gauge screenshots with Selenium, resizes them, uploads to /icons
-	- `element = browser.find_element('id', 'chart_div')`
-	- `element.screenshot('app-icon.png')`
+	- `element = wait.until(EC.presence_of_element_located((By.ID, "nebrasketball-gauge")))`
+	- `header_png = header.screenshot_as_png`
 
 ## Calculations
 
