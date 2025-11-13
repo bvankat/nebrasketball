@@ -24,9 +24,18 @@
                 "opponent_rank": null,
                 "result": "W",
                 "score": "96-66"
+            },
+            {
+                "date": "11/11/2025",
+                "location": "Home",
+                "opponent": "UMES",
+                "opponent_NET": "361",
+                "opponent_rank": null,
+                "result": "W",
+                "score": "69-50"
             }
         ],
-        "quad4record": "2-0"
+        "quad4record": "3-0"
     },
     "bracketproject": {
         "matrix_count": 10,
@@ -34,17 +43,17 @@
         "total_brackets": 68
     },
     "espn": {
-        "bpi": 35.0,
+        "bpi": 36.0,
         "chance_round_32": "",
         "chance_sweet_16": "",
-        "non_con_sos": 344.0,
+        "non_con_sos": 351.0,
         "proj_tourney_seed": "OUT",
-        "proj_win_loss_conf": "10.5-9.5",
-        "proj_win_loss_overall": "19.4-10.6",
+        "proj_win_loss_conf": "10.6-9.4",
+        "proj_win_loss_overall": "19.5-10.5",
         "projected_tournament_order": "",
-        "seven_day_change": "Tied-4th",
-        "sor": 104.0,
-        "sos": 344.0
+        "seven_day_change": "Tied-5th",
+        "sor": 102.0,
+        "sos": 351.0
     },
     "espn_bracketology": {
         "seed": "First Four Out"
@@ -55,15 +64,18 @@
         "miya_resume_rank": 85
     },
     "haslametrics": {
-        "haslam_rating": "29",
+        "haslam_rating": "25",
         "seed": "9"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "18-12",
-        "rating": 47,
+        "rating": 46,
         "record": "3-0",
-        "sos": 345
+        "sos": 347
+    },
+    "massey_ratings": {
+        "massey_rank": 42
     },
     "next_game": {
         "away_team": "Oklahoma",
@@ -80,22 +92,22 @@
         "SRS_rank": 148
     },
     "teamrankings": {
-        "make_tournament": "40.5%",
+        "make_tournament": "40.1%",
         "most_likely_seed": "10",
-        "proj_conf_record": "8.8-11.2",
-        "projected_bid_pct": "40.5%",
-        "projected_losses": "12.5",
-        "projected_wins": "17.5",
-        "rank": "44"
+        "proj_conf_record": "8.9-11.1",
+        "projected_bid_pct": "40.1%",
+        "projected_losses": "12.4",
+        "projected_wins": "17.6",
+        "rank": "45"
     },
     "time": {
-        "iso_time": "2025-11-12T14:48:42.019281",
-        "time": "Nov. 12 at 2:48 PM"
+        "iso_time": "2025-11-13T09:34:15.850106",
+        "time": "Nov. 13 at 9:34 AM"
     },
     "trank": {
         "torvik_NET": "49",
         "trank": 41,
-        "trank_make_tourney": 55.1,
+        "trank_make_tourney": 53.2,
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "11",
         "wab_rank": 81,
@@ -103,13 +115,13 @@
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "62",
+        "elo": "64",
         "nolan_net": "54",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "3-0",
-        "rpi": "148"
+        "rpi": "164"
     }
 }
