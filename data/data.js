@@ -61,21 +61,21 @@
     "evanmiya": {
         "miya_rating": 46,
         "miya_resume_category": "Just In The Field",
-        "miya_resume_rank": 85
+        "miya_resume_rank": 84
     },
     "haslametrics": {
-        "haslam_rating": "25",
-        "seed": "9"
+        "haslam_rating": "23",
+        "seed": "8"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "18-12",
         "rating": 46,
         "record": "3-0",
-        "sos": 347
+        "sos": 348
     },
     "massey_ratings": {
-        "massey_rank": 42
+        "massey_rank": "NA"
     },
     "next_game": {
         "away_team": "Oklahoma",
@@ -89,28 +89,28 @@
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": 148
+        "SRS_rank": 137
     },
     "teamrankings": {
-        "make_tournament": "40.1%",
+        "make_tournament": "40.5%",
         "most_likely_seed": "10",
-        "proj_conf_record": "8.9-11.1",
-        "projected_bid_pct": "40.1%",
-        "projected_losses": "12.4",
-        "projected_wins": "17.6",
-        "rank": "45"
+        "proj_conf_record": "8.8-11.2",
+        "projected_bid_pct": "40.5%",
+        "projected_losses": "12.5",
+        "projected_wins": "17.5",
+        "rank": "46"
     },
     "time": {
-        "iso_time": "2025-11-13T09:34:15.850106",
-        "time": "Nov. 13 at 9:34 AM"
+        "iso_time": "2025-11-14T01:37:38.334094",
+        "time": "Nov. 14 at 1:37 AM"
     },
     "trank": {
-        "torvik_NET": "49",
+        "torvik_NET": "50",
         "trank": 41,
-        "trank_make_tourney": 53.2,
+        "trank_make_tourney": 53.1,
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "11",
-        "wab_rank": 81,
+        "wab_rank": 82,
         "wab_score": "+0.09"
     },
     "warrennolan": {
@@ -122,6 +122,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "3-0",
-        "rpi": "164"
+        "rpi": "162"
     }
 }
