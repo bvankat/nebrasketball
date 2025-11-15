@@ -72,10 +72,10 @@
         "overall_record": "18-12",
         "rating": 46,
         "record": "3-0",
-        "sos": 347
+        "sos": 354
     },
     "massey_ratings": {
-        "massey_rank": 42
+        "massey_rank": "NA"
     },
     "next_game": {
         "away_team": "Oklahoma",
@@ -98,11 +98,11 @@
         "projected_bid_pct": "41.1%",
         "projected_losses": "12.4",
         "projected_wins": "17.6",
-        "rank": "46"
+        "rank": "47"
     },
     "time": {
-        "iso_time": "2025-11-14T17:17:50.732092",
-        "time": "Nov. 14 at 5:17 PM"
+        "iso_time": "2025-11-14T23:58:54.174672",
+        "time": "Nov. 14 at 11:58 PM"
     },
     "trank": {
         "torvik_NET": "50",
@@ -110,18 +110,18 @@
         "trank_make_tourney": 53.5,
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "11",
-        "wab_rank": 82,
+        "wab_rank": 80,
         "wab_score": "+0.09"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "64",
+        "elo": "63",
         "nolan_net": "54",
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "3-0",
-        "rpi": "162"
+        "rpi": "154"
     }
 }
