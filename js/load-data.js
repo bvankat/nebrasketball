@@ -526,7 +526,13 @@
 		  const diffMs = now - updateTime;
 		  const diffHours = diffMs / (1000 * 60 * 60);
 		  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-		  
+	  
+		  // Check if both dates are on the same calendar day
+		  const isSameDay = 
+			  updateTime.getFullYear() === now.getFullYear() &&
+			  updateTime.getMonth() === now.getMonth() &&
+			  updateTime.getDate() === now.getDate();
+	  
 		  if (diffHours < 1) {
 			  return "Just now";
 		  } else if (diffHours < 2) {
@@ -537,7 +543,7 @@
 			  return "Three hours ago";
 		  } else if (diffHours < 5) {
 			  return "Four hours ago";
-		  } else if (diffDays === 0) {
+		  } else if (isSameDay) {
 			  return "Earlier today";
 		  } else if (diffDays === 1) {
 			  return "Yesterday";
@@ -545,7 +551,7 @@
 			  return "Two days ago";
 		  } else {
 			  const monthNames = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June',
-								'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
+								  'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
 			  return `${monthNames[updateTime.getMonth()]} ${updateTime.getDate()}`;
 		  }
 	  }
