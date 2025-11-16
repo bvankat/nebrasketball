@@ -59,7 +59,7 @@
         "seed": "First Four Out"
     },
     "evanmiya": {
-        "miya_rating": 46,
+        "miya_rating": 45,
         "miya_resume_category": "Just In The Field",
         "miya_resume_rank": 85
     },
@@ -69,10 +69,10 @@
     },
     "kenpom": {
         "conference_record": "9-11",
-        "overall_record": "17-13",
-        "rating": 46,
-        "record": "3-0",
-        "sos": 359
+        "overall_record": "18-12",
+        "rating": 42,
+        "record": "4-0",
+        "sos": 319
     },
     "massey_ratings": {
         "massey_rank": 42
@@ -80,7 +80,7 @@
     "next_game": {
         "away_team": "Oklahoma",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
-        "date_time": "11/15 - 7:00 PM EST",
+        "date_time": "Final",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -89,7 +89,7 @@
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": 53
+        "SRS_rank": "NA"
     },
     "teamrankings": {
         "make_tournament": "40.9%",
@@ -101,27 +101,27 @@
         "rank": "47"
     },
     "time": {
-        "iso_time": "2025-11-15T16:31:31.956731",
-        "time": "Nov. 15 at 4:31 PM"
+        "iso_time": "2025-11-15T21:58:07.656245",
+        "time": "Nov. 15 at 9:58 PM"
     },
     "trank": {
-        "torvik_NET": "48",
-        "trank": 41,
+        "torvik_NET": "46",
+        "trank": 40,
         "trank_make_tourney": 53.4,
         "trank_proj_record": "18-12 (9-11)",
-        "trank_seed": "11",
-        "wab_rank": 81,
-        "wab_score": "+0.10"
+        "trank_seed": "10",
+        "wab_rank": 15,
+        "wab_score": "+0.6"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "63",
+        "elo": "49",
         "nolan_net": "54",
-        "quadrant_1": "0-0",
+        "quadrant_1": "1-0",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
-        "record": "3-0",
-        "rpi": "157"
+        "record": "4-0",
+        "rpi": "101"
     }
 }
