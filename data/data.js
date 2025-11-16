@@ -1,7 +1,17 @@
 {
     "bballnet_quadrants": {
-        "quad1_games": [],
-        "quad1record": "0-0",
+        "quad1_games": [
+            {
+                "date": "11/15/2025",
+                "location": "Neutral",
+                "opponent": "Oklahoma",
+                "opponent_NET": "43",
+                "opponent_rank": null,
+                "result": "W",
+                "score": "105-99"
+            }
+        ],
+        "quad1record": "1-0",
         "quad2_games": [],
         "quad2record": "0-0",
         "quad3_games": [],
@@ -43,44 +53,44 @@
         "total_brackets": 68
     },
     "espn": {
-        "bpi": 34.0,
+        "bpi": 37.0,
         "chance_round_32": "",
         "chance_sweet_16": "",
-        "non_con_sos": 354.0,
+        "non_con_sos": 273.0,
         "proj_tourney_seed": "OUT",
-        "proj_win_loss_conf": "10.5-9.5",
-        "proj_win_loss_overall": "19.4-10.6",
+        "proj_win_loss_conf": "10.1-9.9",
+        "proj_win_loss_overall": "19.5-10.5",
         "projected_tournament_order": "",
-        "seven_day_change": "Tied-3rd",
-        "sor": 105.0,
-        "sos": 354.0
+        "seven_day_change": "Tied-5th",
+        "sor": 10.0,
+        "sos": 273.0
     },
     "espn_bracketology": {
         "seed": "First Four Out"
     },
     "evanmiya": {
-        "miya_rating": 45,
-        "miya_resume_category": "Just In The Field",
-        "miya_resume_rank": 85
+        "miya_rating": 42,
+        "miya_resume_category": "3-5 Seed",
+        "miya_resume_rank": 15
     },
     "haslametrics": {
         "haslam_rating": "25",
-        "seed": "9"
+        "seed": "5"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "18-12",
         "rating": 42,
         "record": "4-0",
-        "sos": 321
+        "sos": 323
     },
     "massey_ratings": {
         "massey_rank": 42
     },
     "next_game": {
-        "away_team": "Oklahoma",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
-        "date_time": "Final",
+        "away_team": "New Mexico",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+        "date_time": "11/20 - 7:00 PM EST",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -92,22 +102,22 @@
         "SRS_rank": "NA"
     },
     "teamrankings": {
-        "make_tournament": "40.9%",
+        "make_tournament": "50.3%",
         "most_likely_seed": "10",
-        "proj_conf_record": "8.9-11.1",
-        "projected_bid_pct": "40.9%",
-        "projected_losses": "12.5",
-        "projected_wins": "17.5",
-        "rank": "47"
+        "proj_conf_record": "9.1-10.9",
+        "projected_bid_pct": "50.3%",
+        "projected_losses": "11.7",
+        "projected_wins": "18.3",
+        "rank": "41"
     },
     "time": {
-        "iso_time": "2025-11-15T23:18:40.283940",
-        "time": "Nov. 15 at 11:18 PM"
+        "iso_time": "2025-11-16T14:02:43.253676",
+        "time": "Nov. 16 at 2:02 PM"
     },
     "trank": {
         "torvik_NET": "46",
         "trank": 40,
-        "trank_make_tourney": 53.4,
+        "trank_make_tourney": 63.9,
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "10",
         "wab_rank": 15,
@@ -122,6 +132,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "4-0",
-        "rpi": "99"
+        "rpi": "98"
     }
 }
