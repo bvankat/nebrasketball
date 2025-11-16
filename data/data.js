@@ -72,7 +72,7 @@
         "overall_record": "18-12",
         "rating": 42,
         "record": "4-0",
-        "sos": 319
+        "sos": 321
     },
     "massey_ratings": {
         "massey_rank": 42
@@ -101,8 +101,8 @@
         "rank": "47"
     },
     "time": {
-        "iso_time": "2025-11-15T21:58:07.656245",
-        "time": "Nov. 15 at 9:58 PM"
+        "iso_time": "2025-11-15T23:18:40.283940",
+        "time": "Nov. 15 at 11:18 PM"
     },
     "trank": {
         "torvik_NET": "46",
@@ -115,13 +115,13 @@
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "49",
+        "elo": "48",
         "nolan_net": "54",
         "quadrant_1": "1-0",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "4-0",
-        "rpi": "101"
+        "rpi": "99"
     }
 }
