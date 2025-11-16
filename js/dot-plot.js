@@ -31,6 +31,8 @@ const candidates = [
 	["7OT", ratings_data?.seven_overtimes?.ranking],
 	["SQ", ratings_data?.shot_quality?.sq_ranking],
 	["Bauertology", ratings_data?.bauertology?.BRCT_rank],
+	["Coaches Poll", ratings_data?.polls?.coaches_rank],
+	["AP Poll", ratings_data?.polls?.ap_rank],
 ];
 
 const dataEntries = candidates
