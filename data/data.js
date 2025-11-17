@@ -85,7 +85,7 @@
         "sos": 325
     },
     "massey_ratings": {
-        "massey_rank": "NA"
+        "massey_rank": 37
     },
     "next_game": {
         "away_team": "New Mexico",
@@ -99,25 +99,25 @@
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": "NA"
+        "SRS_rank": 50
     },
     "teamrankings": {
-        "make_tournament": "50.5%",
+        "make_tournament": "51.7%",
         "most_likely_seed": "10",
-        "proj_conf_record": "9.1-10.9",
-        "projected_bid_pct": "50.5%",
+        "proj_conf_record": "9.2-10.8",
+        "projected_bid_pct": "51.7%",
         "projected_losses": "11.7",
         "projected_wins": "18.3",
         "rank": "41"
     },
     "time": {
-        "iso_time": "2025-11-17T00:44:13.759690",
-        "time": "Nov. 17 at 12:44 AM"
+        "iso_time": "2025-11-17T11:14:46.126621",
+        "time": "Nov. 17 at 11:14 AM"
     },
     "trank": {
         "torvik_NET": "46",
         "trank": 39,
-        "trank_make_tourney": 63.9,
+        "trank_make_tourney": 64.8,
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "10",
         "wab_rank": 18,
