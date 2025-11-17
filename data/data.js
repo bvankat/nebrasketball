@@ -71,21 +71,21 @@
     "evanmiya": {
         "miya_rating": 42,
         "miya_resume_category": "3-5 Seed",
-        "miya_resume_rank": 15
+        "miya_resume_rank": 17
     },
     "haslametrics": {
-        "haslam_rating": "25",
+        "haslam_rating": "23",
         "seed": "5"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "18-12",
-        "rating": 42,
+        "rating": 41,
         "record": "4-0",
-        "sos": 323
+        "sos": 325
     },
     "massey_ratings": {
-        "massey_rank": 42
+        "massey_rank": "NA"
     },
     "next_game": {
         "away_team": "New Mexico",
@@ -102,25 +102,25 @@
         "SRS_rank": "NA"
     },
     "teamrankings": {
-        "make_tournament": "50.3%",
+        "make_tournament": "50.5%",
         "most_likely_seed": "10",
         "proj_conf_record": "9.1-10.9",
-        "projected_bid_pct": "50.3%",
+        "projected_bid_pct": "50.5%",
         "projected_losses": "11.7",
         "projected_wins": "18.3",
         "rank": "41"
     },
     "time": {
-        "iso_time": "2025-11-16T14:02:43.253676",
-        "time": "Nov. 16 at 2:02 PM"
+        "iso_time": "2025-11-17T00:44:13.759690",
+        "time": "Nov. 17 at 12:44 AM"
     },
     "trank": {
         "torvik_NET": "46",
-        "trank": 40,
+        "trank": 39,
         "trank_make_tourney": 63.9,
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "10",
-        "wab_rank": 15,
+        "wab_rank": 18,
         "wab_score": "+0.6"
     },
     "warrennolan": {
