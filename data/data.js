@@ -56,14 +56,14 @@
         "bpi": 37.0,
         "chance_round_32": "",
         "chance_sweet_16": "",
-        "non_con_sos": 273.0,
+        "non_con_sos": 278.0,
         "proj_tourney_seed": "OUT",
-        "proj_win_loss_conf": "10.1-9.9",
+        "proj_win_loss_conf": "10.2-9.8",
         "proj_win_loss_overall": "19.5-10.5",
         "projected_tournament_order": "",
         "seven_day_change": "Tied-5th",
-        "sor": 10.0,
-        "sos": 273.0
+        "sor": 11.0,
+        "sos": 278.0
     },
     "espn_bracketology": {
         "seed": "First Four Out"
@@ -82,10 +82,10 @@
         "overall_record": "18-12",
         "rating": 41,
         "record": "4-0",
-        "sos": 325
+        "sos": 322
     },
     "massey_ratings": {
-        "massey_rank": 37
+        "massey_rank": "NA"
     },
     "next_game": {
         "away_team": "New Mexico",
@@ -111,8 +111,8 @@
         "rank": "41"
     },
     "time": {
-        "iso_time": "2025-11-17T11:14:46.126621",
-        "time": "Nov. 17 at 11:14 AM"
+        "iso_time": "2025-11-17T22:14:18.285146",
+        "time": "Nov. 17 at 10:14 PM"
     },
     "trank": {
         "torvik_NET": "46",
@@ -132,6 +132,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "4-0",
-        "rpi": "98"
+        "rpi": "86"
     }
 }
