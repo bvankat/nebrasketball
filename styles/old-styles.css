@@ -43,7 +43,7 @@ body {
 	vertical-align: middle;
 }
 
-header { background-color: var(--color-husker-red); background: radial-gradient(circle, rgba(208, 0, 0, 1) 0%, rgba(190,4,29,1) 100%); }
+header { background-color: var(--color-husker-red); background: radial-gradient(circle, rgba(208, 0, 0, 1) 30%, rgba(155, 6, 25, 1) 100%); }
 
 #nextGame-teams img { max-width: 24px; max-height: 24px; }
 
