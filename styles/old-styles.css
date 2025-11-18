@@ -178,3 +178,7 @@ header { background-color: var(--color-husker-red); background: radial-gradient(
 	opacity: 0.9;
 	font-family: 'Space Grotesk', monospace;
 }
+
+ .quad-btn.active {
+	color: #991b1b;
+}

@@ -38,8 +38,7 @@
     
     <!-- Random non-Tailwind CSS -->
     <link rel="stylesheet" href="/styles/old-styles.css">    
-    
-    
+        
 </head>
 <body class="min-h-screen bg-white max-w-full ">
         
@@ -465,22 +464,31 @@
                     <div class="p-4 flex flex-row sm:flex-col justify-between">
                         <h2 class="text-md font-medium text-gray-800">Quadrants</h2>
                         
-                        <div id="quad-pills" class="text-gray-500">
-                            <span class="text-xs text-red-900 mr-2">NEBRASKA</span>
-                            <span data-slot="badge" class="inline-flex items-center justify-center rounded-full border border-gray-100 px-2 py-0.5 text-xs font-regular w-fit whitespace-nowrap shrink-0 gap-1 overflow-hidden">NET <span id="ncaa-net2" class="font-medium geist-mono text-gray-600"></span></span>
-                        
-                            <span data-slot="badge" class="inline-flex items-center justify-center rounded-full border border-gray-100 px-2 py-0.5 text-xs font-regular w-fit whitespace-nowrap shrink-0 gap-1 overflow-hidden">SOS <span id="quadrants-sos" class="font-medium geist-mono text-gray-600"></span></span></span>
-                        
-                            <span data-slot="badge" class="inline-flex items-center justify-center rounded-full border border-gray-100 px-2 py-0.5 text-xs font-regular w-fit whitespace-nowrap shrink-0 gap-1 overflow-hidden">NCSOS <span id="quadrants-non-con-sos" class="font-medium geist-mono text-gray-600"></span></span>
-                        </div>                    
+                    <!-- Quad Navigation Buttons -->
+                    <div class="px-0 pb-4 xs:pl-0">
+                        <div class="inline-flex overflow-hidden">
+                            <button onclick="setActiveQuadButton(this); document.getElementById('quad1-card').scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' })" class="quad-btn flex-1 px-2 text-gray-500 hover:text-red-800 focus:outline-none border-r border-gray-300 text-xs font-medium transition-colors">
+                                Quad&nbsp;1
+                            </button>
+                            <button onclick="setActiveQuadButton(this); document.getElementById('quad2-card').scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' })" class="quad-btn flex-1 px-2 bg-white text-gray-500 hover:text-red-800 focus:outline-none border-r border-gray-300 text-xs font-medium transition-colors">
+                                Quad&nbsp;2
+                            </button>
+                            <button onclick="setActiveQuadButton(this); document.getElementById('quad3-card').scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' })" class="quad-btn flex-1 px-2 bg-white text-gray-500 hover:text-red-800 focus:outline-none border-r border-gray-300 text-xs font-medium transition-colors">
+                                Quad&nbsp;3
+                            </button>
+                            <button onclick="setActiveQuadButton(this); document.getElementById('quad4-card').scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' })" class="quad-btn flex-1 px-2 bg-white text-gray-500 hover:text-red-800 focus:outline-none text-xs font-medium transition-colors">
+                                Quad&nbsp;4
+                            </button>
+                        </div>
                     </div>      
+                 </div>
                     
                     <!-- Horizontal Scrollable Cards -->
-                    <div class="overflow-x-auto pb-4">
-                        <div class="flex space-x-4 overflow-x-scroll snap-x snap-mandatory scroll-pl-6 p-6">
+                    <div class="overflow-x-auto pb-4" id="scrolling-cards">
+                        <div class="flex space-x-4 overflow-x-scroll snap-x snap-mandatory scroll-pl-6 px-6">
                             
                             <!-- Quad 1 Card -->
-                            <div class="snap-start rounded-lg p-4 border border-gray-200 flex-shrink-0" style="width: 350px;">
+                            <div id="quad1-card" class="snap-start rounded-lg p-4 border border-gray-200 flex-shrink-0" style="width: 350px;">
                                 <div class="flex items-center justify-between mb-4">
                                     <h3 class="text-md font-medium text-gray-800">Quad 1</h3>
                                     <span id="NET_quadrants_Q1_record" class="text-md font-semibold text-gray-700">0-0</span>
@@ -491,7 +499,7 @@
                             </div>
 
                             <!-- Quad 2 Card -->
-                            <div class="snap-start rounded-lg p-4 border border-gray-200 flex-shrink-0" style="width: 350px;">
+                            <div id="quad2-card" class="snap-start rounded-lg p-4 border border-gray-200 flex-shrink-0" style="width: 350px;">
                                 <div class="flex items-center justify-between mb-4">
                                     <h3 class="text-md font-medium text-gray-800">Quad 2</h3>
                                     <span id="NET_quadrants_Q2_record" class="text-md font-semibold text-gray-700">0-0</span>
@@ -502,7 +510,7 @@
                             </div>
 
                             <!-- Quad 3 Card -->
-                            <div class="snap-start rounded-lg p-4 border border-gray-200 flex-shrink-0" style="width: 350px;">
+                            <div id="quad3-card" class="snap-start rounded-lg p-4 border border-gray-200 flex-shrink-0" style="width: 350px;">
                                 <div class="flex items-center justify-between mb-4">
                                     <h3 class="text-md font-medium text-gray-800">Quad 3</h3>
                                     <span id="NET_quadrants_Q3_record" class="text-md font-semibold text-gray-700">0-0</span>
@@ -513,7 +521,7 @@
                             </div>
 
                             <!-- Quad 4 Card -->
-                            <div class="snap-start rounded-lg p-4 border border-gray-200 flex-shrink-0" style="width: 350px;">
+                            <div id="quad4-card" class="snap-start rounded-lg p-4 border border-gray-200 flex-shrink-0" style="width: 350px;">
                                 <div class="flex items-center justify-between mb-4">
                                     <h3 class="text-md font-medium text-gray-800">Quad 4</h3>
                                     <span id="NET_quadrants_Q4_record" class="text-md font-semibold text-gray-700">0-0</span>
@@ -525,6 +533,7 @@
 
                         </div>
                     </div>
+                    
                 </div>
             </section>
 
@@ -677,6 +686,17 @@
     <!-- Easier to comment out dot-plot when few rankings exist early in season -->
     <script src="/js/dot-plot.js"></script>
     <script src="/js/load-data.js"></script>
+    
+    <script>
+        function setActiveQuadButton(clickedButton) {
+            // Remove active class from all quad buttons
+            document.querySelectorAll('.quad-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            // Add active class to clicked button
+            clickedButton.classList.add('active');
+        }
+    </script>
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8ZYZZJV2K2"></script>

@@ -11,11 +11,9 @@
 	
 	if ( data.ncaa ) {  
 		document.getElementById('ncaa-net').innerHTML = data.ncaa.net_rank; 
-		document.getElementById('ncaa-net2').innerHTML = data.ncaa.net_rank; 
 	} else if (data.trank) {
 		document.getElementById('ncaa-net').innerHTML = data.trank.torvik_NET; 
 		// document.getElementById('ncaa-net-note').innerHTML = "projected"; 
-		document.getElementById('ncaa-net2').innerHTML = data.trank.torvik_NET; 
 	}
 	
 	if ( data.kenpom ) {
@@ -48,8 +46,6 @@
 		// document.getElementById('espn-sweet16').innerHTML = data.espn.chance_sweet_16;
 		// document.getElementById('espn-round-32').innerHTML = data.espn.chance_round_32;
 		document.getElementById('espn-sor-s-curve').innerHTML = data.espn.projected_tournament_order;
-		document.getElementById('quadrants-sos').innerHTML = data.espn.sos;
-		document.getElementById('quadrants-non-con-sos').innerHTML = data.espn.non_con_sos;
 	}
 	
 	if (data.espn_bracketology) {
