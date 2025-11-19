@@ -53,36 +53,36 @@
         "total_brackets": 68
     },
     "espn": {
-        "bpi": 36.0,
+        "bpi": 38.0,
         "chance_round_32": "",
         "chance_sweet_16": "",
-        "non_con_sos": 274.0,
+        "non_con_sos": 278.0,
         "proj_tourney_seed": "OUT",
         "proj_win_loss_conf": "10.2-9.8",
-        "proj_win_loss_overall": "19.6-10.4",
+        "proj_win_loss_overall": "19.5-10.5",
         "projected_tournament_order": "",
-        "seven_day_change": "Tied-4th",
-        "sor": 11.0,
-        "sos": 274.0
+        "seven_day_change": "Tied-3rd",
+        "sor": 13.0,
+        "sos": 278.0
     },
     "espn_bracketology": {
         "seed": "11"
     },
     "evanmiya": {
-        "miya_rating": 42,
+        "miya_rating": 41,
         "miya_resume_category": "3-5 Seed",
-        "miya_resume_rank": 18
+        "miya_resume_rank": 16
     },
     "haslametrics": {
-        "haslam_rating": "21",
-        "seed": "4"
+        "haslam_rating": "23",
+        "seed": "5"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "18-12",
-        "rating": 41,
+        "rating": 40,
         "record": "4-0",
-        "sos": 322
+        "sos": 313
     },
     "massey_ratings": {
         "massey_rank": 37
@@ -99,28 +99,28 @@
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": 33
+        "SRS_rank": 27
     },
     "teamrankings": {
-        "make_tournament": "53.5%",
+        "make_tournament": "54.1%",
         "most_likely_seed": "10",
-        "proj_conf_record": "9.3-10.7",
-        "projected_bid_pct": "53.5%",
-        "projected_losses": "11.6",
-        "projected_wins": "18.4",
-        "rank": "42"
+        "proj_conf_record": "9.2-10.8",
+        "projected_bid_pct": "54.1%",
+        "projected_losses": "11.7",
+        "projected_wins": "18.3",
+        "rank": "41"
     },
     "time": {
-        "iso_time": "2025-11-18T14:54:14.956873",
-        "time": "Nov. 18 at 2:54 PM"
+        "iso_time": "2025-11-19T09:49:13.336348",
+        "time": "Nov. 19 at 9:49 AM"
     },
     "trank": {
-        "torvik_NET": "45",
+        "torvik_NET": "46",
         "trank": 40,
-        "trank_make_tourney": 64.6,
+        "trank_make_tourney": 66.2,
         "trank_proj_record": "18-12 (9-11)",
         "trank_seed": "10",
-        "wab_rank": 19,
+        "wab_rank": 18,
         "wab_score": "+0.6"
     },
     "warrennolan": {
@@ -132,6 +132,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "4-0",
-        "rpi": "86"
+        "rpi": "61"
     }
 }
