@@ -6602,6 +6602,143 @@
                 "time": "Nov. 19 at 9:49 AM",
                 "iso_time": "2025-11-19T09:49:13.336348"
             }
+        },
+        {
+            "kenpom": {
+                "rating": 42,
+                "record": "4-0",
+                "sos": 310,
+                "overall_record": "19-11",
+                "conference_record": "9-11"
+            },
+            "evanmiya": {
+                "miya_rating": 41,
+                "miya_resume_rank": 17,
+                "miya_resume_category": "3-5 Seed"
+            },
+            "polls": {
+                "ap_rank": "NR",
+                "coaches_rank": "NR"
+            },
+            "espn": {
+                "bpi": 37.0,
+                "seven_day_change": "Tied-1st",
+                "proj_tourney_seed": "OUT",
+                "proj_win_loss_overall": "19.6-10.4",
+                "proj_win_loss_conf": "10.3-9.7",
+                "sor": 12.0,
+                "sos": 280.0,
+                "non_con_sos": 280.0,
+                "chance_sweet_16": "",
+                "chance_round_32": "",
+                "projected_tournament_order": ""
+            },
+            "next_game": {
+                "home_team": "Nebraska",
+                "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+                "away_team": "New Mexico",
+                "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+                "date_time": "11/20 - 7:00 PM EST"
+            },
+            "espn_bracketology": {
+                "seed": "11"
+            },
+            "teamrankings": {
+                "make_tournament": "55.1%",
+                "most_likely_seed": "10",
+                "rank": "40",
+                "projected_wins": "18.4",
+                "projected_losses": "11.6",
+                "proj_conf_record": "9.2-10.8",
+                "projected_bid_pct": "55.1%"
+            },
+            "warrennolan": {
+                "record": "4-0",
+                "current_conf_record": "0-0",
+                "rpi": "45",
+                "elo": "50",
+                "quadrant_1": "1-0",
+                "quadrant_2": "0-0",
+                "quadrant_3": "0-0",
+                "quadrant_4": "3-0",
+                "nolan_net": "54"
+            },
+            "trank": {
+                "trank": 40,
+                "trank_proj_record": "18-12 (9-11)",
+                "trank_seed": "10",
+                "trank_make_tourney": 65.1,
+                "wab_score": "+0.6",
+                "wab_rank": 17,
+                "torvik_NET": "44"
+            },
+            "haslametrics": {
+                "haslam_rating": "22",
+                "seed": "5"
+            },
+            "bracketproject": {
+                "matrix_count": 10,
+                "total_brackets": 68,
+                "matrix_seed": "OUT"
+            },
+            "massey_ratings": {
+                "massey_rank": 37
+            },
+            "sports_reference": {
+                "SRS_rank": 29
+            },
+            "bballnet_quadrants": {
+                "quad1record": "1-0",
+                "quad2record": "0-0",
+                "quad3record": "0-0",
+                "quad4record": "3-0",
+                "quad1_games": [
+                    {
+                        "result": "W",
+                        "score": "105-99",
+                        "date": "11/15/2025",
+                        "location": "Neutral",
+                        "opponent_NET": "43",
+                        "opponent": "Oklahoma",
+                        "opponent_rank": null
+                    }
+                ],
+                "quad2_games": [],
+                "quad3_games": [],
+                "quad4_games": [
+                    {
+                        "result": "W",
+                        "score": "86-53",
+                        "date": "11/03/2025",
+                        "location": "Home",
+                        "opponent_NET": "345",
+                        "opponent": "West Ga.",
+                        "opponent_rank": null
+                    },
+                    {
+                        "result": "W",
+                        "score": "96-66",
+                        "date": "11/08/2025",
+                        "location": "Home",
+                        "opponent_NET": "260",
+                        "opponent": "FIU",
+                        "opponent_rank": null
+                    },
+                    {
+                        "result": "W",
+                        "score": "69-50",
+                        "date": "11/11/2025",
+                        "location": "Home",
+                        "opponent_NET": "361",
+                        "opponent": "UMES",
+                        "opponent_rank": null
+                    }
+                ]
+            },
+            "time": {
+                "time": "Nov. 20 at 9:28 AM",
+                "iso_time": "2025-11-20T09:28:08.029016"
+            }
         }
     ]
 }
