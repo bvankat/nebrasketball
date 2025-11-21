@@ -543,8 +543,6 @@
 			  return "Earlier today";
 		  } else if (diffDays === 0) {
 			  return "Yesterday";
-		  } else if (diffDays === 1) {
-			  return "Two days ago";
 		  } else {
 			  const monthNames = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June',
 								  'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
