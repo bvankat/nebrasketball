@@ -9,11 +9,30 @@
                 "opponent_rank": null,
                 "result": "W",
                 "score": "105-99"
+            },
+            {
+                "date": "11/20/2025",
+                "location": "Neutral",
+                "opponent": "New Mexico",
+                "opponent_NET": "42",
+                "opponent_rank": null,
+                "result": "W",
+                "score": "84-72"
             }
         ],
-        "quad1record": "1-0",
-        "quad2_games": [],
-        "quad2record": "0-0",
+        "quad1record": "2-0",
+        "quad2_games": [
+            {
+                "date": "11/21/2025",
+                "location": "Neutral",
+                "opponent": "Kansas St.",
+                "opponent_NET": "75",
+                "opponent_rank": null,
+                "result": "W",
+                "score": "86-85"
+            }
+        ],
+        "quad2record": "1-0",
         "quad3_games": [],
         "quad3record": "0-0",
         "quad4_games": [
@@ -53,36 +72,36 @@
         "total_brackets": 68
     },
     "espn": {
-        "bpi": 29.0,
+        "bpi": 33.0,
         "chance_round_32": "",
         "chance_sweet_16": "",
-        "non_con_sos": 212.0,
+        "non_con_sos": 122.0,
         "proj_tourney_seed": "OUT",
-        "proj_win_loss_conf": "10.6-9.4",
-        "proj_win_loss_overall": "20.8-10.2",
+        "proj_win_loss_conf": "10.4-9.6",
+        "proj_win_loss_overall": "21.0-10.0",
         "projected_tournament_order": "",
-        "seven_day_change": "6th",
-        "sor": 10.0,
-        "sos": 212.0
+        "seven_day_change": "1st",
+        "sor": 6.0,
+        "sos": 122.0
     },
     "espn_bracketology": {
         "seed": "11"
     },
     "evanmiya": {
         "miya_rating": 39,
-        "miya_resume_category": "3-5 Seed",
-        "miya_resume_rank": 11
+        "miya_resume_category": "1-2 Seed",
+        "miya_resume_rank": 7
     },
     "haslametrics": {
-        "haslam_rating": "21",
-        "seed": "OUT"
+        "haslam_rating": "24",
+        "seed": "2"
     },
     "kenpom": {
         "conference_record": "10-10",
         "overall_record": "20-11",
-        "rating": 40,
-        "record": "5-0",
-        "sos": 258
+        "rating": 41,
+        "record": "6-0",
+        "sos": 187
     },
     "massey_ratings": {
         "massey_rank": 37
@@ -90,7 +109,7 @@
     "next_game": {
         "away_team": "Kansas St",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
-        "date_time": "11/21 - 9:30 PM EST",
+        "date_time": "Final",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -99,39 +118,39 @@
         "coaches_rank": "NR"
     },
     "sports_reference": {
-        "SRS_rank": 29
+        "SRS_rank": 33
     },
     "teamrankings": {
-        "make_tournament": "61.5%",
+        "make_tournament": "65.4%",
         "most_likely_seed": "10",
-        "proj_conf_record": "9.5-10.5",
-        "projected_bid_pct": "61.5%",
-        "projected_losses": "11.0",
-        "projected_wins": "19.0",
-        "rank": "39"
+        "proj_conf_record": "9.6-10.4",
+        "projected_bid_pct": "65.4%",
+        "projected_losses": "10.9",
+        "projected_wins": "20.1",
+        "rank": "41"
     },
     "time": {
-        "iso_time": "2025-11-21T11:35:55.345605",
-        "time": "Nov. 21 at 11:35 AM"
+        "iso_time": "2025-11-22T09:46:11.682226",
+        "time": "Nov. 22 at 9:46 AM"
     },
     "trank": {
-        "torvik_NET": "39",
+        "torvik_NET": "38",
         "trank": 37,
-        "trank_make_tourney": 79.2,
+        "trank_make_tourney": 79.7,
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "9",
-        "wab_rank": 9,
-        "wab_score": "+0.9"
+        "wab_rank": 5,
+        "wab_score": "+1.3"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "40",
+        "elo": "26",
         "nolan_net": "54",
         "quadrant_1": "2-0",
-        "quadrant_2": "0-0",
+        "quadrant_2": "1-0",
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
-        "record": "5-0",
-        "rpi": "27"
+        "record": "6-0",
+        "rpi": "9"
     }
 }
