@@ -85,26 +85,26 @@
         "sos": 109.0
     },
     "espn_bracketology": {
-        "seed": "11"
+        "seed": "10"
     },
     "evanmiya": {
-        "miya_rating": 41,
-        "miya_resume_category": "1-2 Seed",
-        "miya_resume_rank": 7
+        "miya_rating": 43,
+        "miya_resume_category": "3-5 Seed",
+        "miya_resume_rank": 10
     },
     "haslametrics": {
-        "haslam_rating": "24",
-        "seed": "2"
+        "haslam_rating": "23",
+        "seed": "3"
     },
     "kenpom": {
         "conference_record": "10-10",
         "overall_record": "20-11",
-        "rating": 41,
+        "rating": 40,
         "record": "6-0",
-        "sos": 197
+        "sos": 199
     },
     "massey_ratings": {
-        "massey_rank": "NA"
+        "massey_rank": 30
     },
     "next_game": {
         "away_team": "Winthrop",
@@ -118,28 +118,28 @@
         "coaches_rank": 35
     },
     "sports_reference": {
-        "SRS_rank": 38
+        "SRS_rank": "NA"
     },
     "teamrankings": {
-        "make_tournament": "66.3%",
-        "most_likely_seed": "11",
-        "proj_conf_record": "9.7-10.3",
-        "projected_bid_pct": "66.3%",
-        "projected_losses": "10.8",
-        "projected_wins": "20.2",
-        "rank": "43"
+        "make_tournament": "65.3%",
+        "most_likely_seed": "10",
+        "proj_conf_record": "9.6-10.4",
+        "projected_bid_pct": "65.3%",
+        "projected_losses": "10.9",
+        "projected_wins": "20.1",
+        "rank": "42"
     },
     "time": {
-        "iso_time": "2025-11-24T22:36:46.346331",
-        "time": "Nov. 24 at 10:36 PM"
+        "iso_time": "2025-11-25T09:12:33.734805",
+        "time": "Nov. 25 at 9:12 AM"
     },
     "trank": {
         "torvik_NET": "37",
         "trank": 35,
-        "trank_make_tourney": 82.5,
+        "trank_make_tourney": 84.1,
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "8",
-        "wab_rank": 7,
+        "wab_rank": 8,
         "wab_score": "+1.3"
     },
     "warrennolan": {
@@ -151,6 +151,6 @@
         "quadrant_3": "0-0",
         "quadrant_4": "3-0",
         "record": "6-0",
-        "rpi": "10"
+        "rpi": "9"
     }
 }
