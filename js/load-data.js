@@ -522,6 +522,8 @@
 		  const diffMs = now - updateTime;
 		  const diffHours = diffMs / (1000 * 60 * 60);
 		  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+		  
+		  console.log("Now/M/H/D: " + now + " / " + diffMs + " / " + diffHours + " / " + diffDays);
 	  
 		  // Check if both dates are on the same calendar day
 		  const isSameDay = 
@@ -544,8 +546,7 @@
 		  } else if (diffDays === 0) {
 			  return "Yesterday";
 		  } else {
-			  const monthNames = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June',
-								  'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
+			  const monthNames = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
 			  return `${monthNames[updateTime.getMonth()]} ${updateTime.getDate()}`;
 		  }
 	  }
