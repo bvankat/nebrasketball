@@ -533,7 +533,14 @@
 			  
 			  console.log(updateTime.getDate());
 			  console.log(now.getDate());
-			  	  
+
+		 const isYesterday = 
+			  updateTime.getFullYear() === now.getFullYear() &&
+			  updateTime.getMonth() === now.getMonth() &&
+			  updateTime.getDate() === now.getDate() - 1;
+			  
+			  console.log("isYesterday: " + isYesterday + "(" + ( now.getDate()-1 ) + ")");
+			  			  	  
 		  if (diffHours < 1) {
 			  return "Just now";
 		  } else if (diffHours < 2) {
@@ -546,7 +553,7 @@
 			  return "Four hours ago";
 		  } else if (isSameDay) {
 			  return "Earlier today";
-		  } else if (diffDays === 1) {
+		  } else if (isYesterday) {
 			  return "Yesterday";
 		  } else {
 			  const monthNames = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
