@@ -82,13 +82,13 @@
     },
     "espn": {
         "bpi": 35.0,
-        "chance_round_32": "",
-        "chance_sweet_16": "",
+        "chance_round_32": "NA",
+        "chance_sweet_16": "NA",
         "non_con_sos": 136.0,
-        "proj_tourney_seed": "OUT",
+        "proj_tourney_seed": "NA",
         "proj_win_loss_conf": "10.1-9.9",
         "proj_win_loss_overall": "20.7-10.3",
-        "projected_tournament_order": "",
+        "projected_tournament_order": "NA",
         "seven_day_change": "3rd",
         "sor": 9.0,
         "sos": 136.0
@@ -139,8 +139,8 @@
         "rank": "43"
     },
     "time": {
-        "iso_time": "2025-11-26T12:28:41.839237",
-        "time": "Nov. 26 at 12:28 PM"
+        "iso_time": "2025-11-26T12:44:20.359042",
+        "time": "Nov. 26 at 12:44 PM"
     },
     "trank": {
         "torvik_NET": "34",
