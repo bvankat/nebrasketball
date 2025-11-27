@@ -97,7 +97,7 @@
         "seed": "10"
     },
     "evanmiya": {
-        "miya_rating": 41,
+        "miya_rating": 42,
         "miya_resume_category": "3-5 Seed",
         "miya_resume_rank": 9
     },
@@ -110,10 +110,13 @@
         "overall_record": "20-11",
         "rating": 41,
         "record": "7-0",
-        "sos": 182
+        "sos": 186
+    },
+    "kpi_sports": {
+        "kpi_ranking": 25
     },
     "massey_ratings": {
-        "massey_rank": 27
+        "massey_rank": 28
     },
     "next_game": {
         "away_team": "SC Upstate",
@@ -139,27 +142,27 @@
         "rank": "43"
     },
     "time": {
-        "iso_time": "2025-11-26T12:44:20.359042",
-        "time": "Nov. 26 at 12:44 PM"
+        "iso_time": "2025-11-27T00:28:44.744002",
+        "time": "Nov. 27 at 12:28 AM"
     },
     "trank": {
-        "torvik_NET": "34",
-        "trank": 34,
+        "torvik_NET": "37",
+        "trank": 35,
         "trank_make_tourney": 84.3,
         "trank_proj_record": "20-11 (10-10)",
         "trank_seed": "8",
-        "wab_rank": 6,
-        "wab_score": "+1.5"
+        "wab_rank": 8,
+        "wab_score": "+1.4"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "26",
+        "elo": "27",
         "nolan_net": "54",
         "quadrant_1": "2-0",
         "quadrant_2": "1-0",
         "quadrant_3": "0-0",
         "quadrant_4": "4-0",
         "record": "7-0",
-        "rpi": "10"
+        "rpi": "8"
     }
 }
