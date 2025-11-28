@@ -81,36 +81,36 @@
         "total_brackets": 68
     },
     "espn": {
-        "bpi": 35.0,
+        "bpi": 37.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 136.0,
+        "non_con_sos": 148.0,
         "proj_tourney_seed": "NA",
-        "proj_win_loss_conf": "10.1-9.9",
-        "proj_win_loss_overall": "20.7-10.3",
+        "proj_win_loss_conf": "10.0-10.0",
+        "proj_win_loss_overall": "20.6-10.4",
         "projected_tournament_order": "NA",
-        "seven_day_change": "3rd",
-        "sor": 9.0,
-        "sos": 136.0
+        "seven_day_change": "Tied-8th",
+        "sor": 10.0,
+        "sos": 148.0
     },
     "espn_bracketology": {
         "seed": "10"
     },
     "evanmiya": {
-        "miya_rating": 42,
+        "miya_rating": 43,
         "miya_resume_category": "3-5 Seed",
-        "miya_resume_rank": 9
+        "miya_resume_rank": 13
     },
     "haslametrics": {
-        "haslam_rating": "25",
-        "seed": "5"
+        "haslam_rating": "26",
+        "seed": "2"
     },
     "kenpom": {
-        "conference_record": "10-10",
+        "conference_record": "9-11",
         "overall_record": "20-11",
-        "rating": 41,
+        "rating": 40,
         "record": "7-0",
-        "sos": 186
+        "sos": 189
     },
     "kpi_sports": {
         "kpi_ranking": 25
@@ -130,29 +130,29 @@
         "coaches_rank": 35
     },
     "sports_reference": {
-        "SRS_rank": "NA"
+        "SRS_rank": 48
     },
     "teamrankings": {
-        "make_tournament": "64.6%",
+        "make_tournament": "65.8%",
         "most_likely_seed": "11",
-        "proj_conf_record": "9.4-10.6",
-        "projected_bid_pct": "64.6%",
-        "projected_losses": "11.0",
-        "projected_wins": "20.0",
-        "rank": "43"
+        "proj_conf_record": "9.3-10.7",
+        "projected_bid_pct": "65.8%",
+        "projected_losses": "11.1",
+        "projected_wins": "19.9",
+        "rank": "44"
     },
     "time": {
-        "iso_time": "2025-11-27T00:28:44.744002",
-        "time": "Nov. 27 at 12:28 AM"
+        "iso_time": "2025-11-28T10:18:42.765152",
+        "time": "Nov. 28 at 10:18 AM"
     },
     "trank": {
-        "torvik_NET": "37",
-        "trank": 35,
-        "trank_make_tourney": 84.3,
+        "torvik_NET": "40",
+        "trank": 36,
+        "trank_make_tourney": 83.3,
         "trank_proj_record": "20-11 (10-10)",
-        "trank_seed": "8",
-        "wab_rank": 8,
-        "wab_score": "+1.4"
+        "trank_seed": "9",
+        "wab_rank": 12,
+        "wab_score": "+1.5"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
