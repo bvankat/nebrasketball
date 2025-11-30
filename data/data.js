@@ -84,14 +84,14 @@
         "bpi": 37.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 148.0,
+        "non_con_sos": 154.0,
         "proj_tourney_seed": "NA",
-        "proj_win_loss_conf": "10.0-10.0",
-        "proj_win_loss_overall": "20.6-10.4",
+        "proj_win_loss_conf": "10.1-9.9",
+        "proj_win_loss_overall": "20.7-10.3",
         "projected_tournament_order": "NA",
-        "seven_day_change": "Tied-8th",
-        "sor": 10.0,
-        "sos": 148.0
+        "seven_day_change": "Tied-4th",
+        "sor": 12.0,
+        "sos": 154.0
     },
     "espn_bracketology": {
         "seed": "10"
@@ -99,18 +99,18 @@
     "evanmiya": {
         "miya_rating": 43,
         "miya_resume_category": "3-5 Seed",
-        "miya_resume_rank": 13
+        "miya_resume_rank": 15
     },
     "haslametrics": {
-        "haslam_rating": "26",
-        "seed": "2"
+        "haslam_rating": "29",
+        "seed": "4"
     },
     "kenpom": {
         "conference_record": "9-11",
         "overall_record": "20-11",
-        "rating": 40,
-        "record": "7-0",
-        "sos": 189
+        "rating": 49,
+        "record": "8-0",
+        "sos": 245
     },
     "kpi_sports": {
         "kpi_ranking": 25
@@ -121,7 +121,7 @@
     "next_game": {
         "away_team": "SC Upstate",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2908.png",
-        "date_time": "11/29 - 2:00 PM EST",
+        "date_time": "Final",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -130,39 +130,39 @@
         "coaches_rank": 35
     },
     "sports_reference": {
-        "SRS_rank": 48
+        "SRS_rank": 47
     },
     "teamrankings": {
-        "make_tournament": "65.8%",
+        "make_tournament": "60.8%",
         "most_likely_seed": "11",
-        "proj_conf_record": "9.3-10.7",
-        "projected_bid_pct": "65.8%",
-        "projected_losses": "11.1",
-        "projected_wins": "19.9",
-        "rank": "44"
+        "proj_conf_record": "9.4-10.6",
+        "projected_bid_pct": "60.8%",
+        "projected_losses": "10.9",
+        "projected_wins": "20.1",
+        "rank": "45"
     },
     "time": {
-        "iso_time": "2025-11-28T10:18:42.765152",
-        "time": "Nov. 28 at 10:18 AM"
+        "iso_time": "2025-11-30T00:33:38.464820",
+        "time": "Nov. 30 at 12:33 AM"
     },
     "trank": {
-        "torvik_NET": "40",
-        "trank": 36,
-        "trank_make_tourney": 83.3,
-        "trank_proj_record": "20-11 (10-10)",
-        "trank_seed": "9",
-        "wab_rank": 12,
-        "wab_score": "+1.5"
+        "torvik_NET": "49",
+        "trank": 44,
+        "trank_make_tourney": 79.8,
+        "trank_proj_record": "20-11 (9-11)",
+        "trank_seed": "10",
+        "wab_rank": 13,
+        "wab_score": "+1.4"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
-        "elo": "27",
+        "elo": "26",
         "nolan_net": "54",
         "quadrant_1": "2-0",
         "quadrant_2": "1-0",
         "quadrant_3": "0-0",
-        "quadrant_4": "4-0",
-        "record": "7-0",
-        "rpi": "8"
+        "quadrant_4": "5-0",
+        "record": "8-0",
+        "rpi": "6"
     }
 }
