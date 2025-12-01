@@ -106,7 +106,7 @@
         "seed": "10"
     },
     "evanmiya": {
-        "miya_rating": 45,
+        "miya_rating": 44,
         "miya_resume_category": "3-5 Seed",
         "miya_resume_rank": 15
     },
@@ -122,10 +122,13 @@
         "sos": 245
     },
     "kpi_sports": {
-        "kpi_ranking": 25
+        "kpi_ranking": 8
     },
     "massey_ratings": {
-        "massey_rank": 28
+        "massey_rank": 36
+    },
+    "ncaa": {
+        "net_rank": "28"
     },
     "next_game": {
         "away_team": "Creighton",
@@ -139,38 +142,38 @@
         "coaches_rank": 35
     },
     "sports_reference": {
-        "SRS_rank": 57
+        "SRS_rank": 56
     },
     "teamrankings": {
-        "make_tournament": "52.4%",
+        "make_tournament": "53.2%",
         "most_likely_seed": "11",
         "proj_conf_record": "8.9-11.1",
-        "projected_bid_pct": "52.4%",
+        "projected_bid_pct": "53.2%",
         "projected_losses": "11.5",
         "projected_wins": "19.5",
-        "rank": "47"
+        "rank": "48"
     },
     "time": {
-        "iso_time": "2025-11-30T22:58:38.143917",
-        "time": "Nov. 30 at 10:58 PM"
+        "iso_time": "2025-12-01T09:15:07.478236",
+        "time": "Dec. 1 at 9:15 AM"
     },
     "trank": {
-        "torvik_NET": "48",
+        "torvik_NET": "55",
         "trank": 44,
-        "trank_make_tourney": 66.7,
+        "trank_make_tourney": 65.9,
         "trank_proj_record": "20-11 (9-11)",
-        "trank_seed": "10",
+        "trank_seed": "11",
         "wab_rank": 13,
         "wab_score": "+1.4"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
         "elo": "26",
-        "nolan_net": "54",
-        "quadrant_1": "2-0",
-        "quadrant_2": "1-0",
-        "quadrant_3": "0-0",
-        "quadrant_4": "5-0",
+        "nolan_net": "28",
+        "quadrant_1": "1-0",
+        "quadrant_2": "2-0",
+        "quadrant_3": "1-0",
+        "quadrant_4": "4-0",
         "record": "8-0",
         "rpi": "5"
     }
