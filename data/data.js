@@ -1,46 +1,55 @@
 {
     "bballnet_quadrants": {
-        "quad1_games": [
+        "quad1_games": [],
+        "quad1record": "0-0",
+        "quad2_games": [
             {
                 "date": "11/15/2025",
                 "location": "Neutral",
                 "opponent": "Oklahoma",
-                "opponent_NET": "43",
+                "opponent_NET": "94",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "105-99"
             },
             {
+                "date": "11/21/2025",
+                "location": "Neutral",
+                "opponent": "Kansas St.",
+                "opponent_NET": "55",
+                "opponent_rank": null,
+                "result": "W",
+                "score": "86-85"
+            },
+            {
+                "date": "11/25/2025",
+                "location": "Home",
+                "opponent": "Winthrop",
+                "opponent_NET": "75",
+                "opponent_rank": null,
+                "result": "W",
+                "score": "80-73"
+            }
+        ],
+        "quad2record": "3-0",
+        "quad3_games": [
+            {
                 "date": "11/20/2025",
                 "location": "Neutral",
                 "opponent": "New Mexico",
-                "opponent_NET": "42",
+                "opponent_NET": "112",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "84-72"
             }
         ],
-        "quad1record": "2-0",
-        "quad2_games": [
-            {
-                "date": "11/21/2025",
-                "location": "Neutral",
-                "opponent": "Kansas St.",
-                "opponent_NET": "75",
-                "opponent_rank": null,
-                "result": "W",
-                "score": "86-85"
-            }
-        ],
-        "quad2record": "1-0",
-        "quad3_games": [],
-        "quad3record": "0-0",
+        "quad3record": "1-0",
         "quad4_games": [
             {
                 "date": "11/03/2025",
                 "location": "Home",
                 "opponent": "West Ga.",
-                "opponent_NET": "345",
+                "opponent_NET": "260",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-53"
@@ -49,7 +58,7 @@
                 "date": "11/08/2025",
                 "location": "Home",
                 "opponent": "FIU",
-                "opponent_NET": "260",
+                "opponent_NET": "251",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "96-66"
@@ -58,74 +67,65 @@
                 "date": "11/11/2025",
                 "location": "Home",
                 "opponent": "UMES",
-                "opponent_NET": "361",
+                "opponent_NET": "330",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "69-50"
             },
             {
-                "date": "11/25/2025",
-                "location": "Home",
-                "opponent": "Winthrop",
-                "opponent_NET": "163",
-                "opponent_rank": null,
-                "result": "W",
-                "score": "80-73"
-            },
-            {
                 "date": "11/29/2025",
                 "location": "Home",
                 "opponent": "USC Upstate",
-                "opponent_NET": "347",
+                "opponent_NET": "233",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "72-63"
             }
         ],
-        "quad4record": "5-0"
+        "quad4record": "4-0"
     },
     "bracketproject": {
-        "matrix_count": 10,
-        "matrix_seed": "OUT",
-        "total_brackets": 68
+        "matrix_count": 25,
+        "matrix_seed": 7,
+        "total_brackets": 27
     },
     "espn": {
         "bpi": 44.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 196.0,
+        "non_con_sos": 192.0,
         "proj_tourney_seed": "NA",
         "proj_win_loss_conf": "9.5-10.5",
         "proj_win_loss_overall": "20.1-10.9",
         "projected_tournament_order": "NA",
-        "seven_day_change": "Tied-11th",
+        "seven_day_change": "Tied-9th",
         "sor": 12.0,
-        "sos": 196.0
+        "sos": 192.0
     },
     "espn_bracketology": {
         "seed": "10"
     },
     "evanmiya": {
-        "miya_rating": 44,
+        "miya_rating": 48,
         "miya_resume_category": "3-5 Seed",
         "miya_resume_rank": 15
     },
     "haslametrics": {
-        "haslam_rating": "31",
+        "haslam_rating": "29",
         "seed": "5"
     },
     "kenpom": {
         "conference_record": "9-11",
-        "overall_record": "20-11",
-        "rating": 49,
+        "overall_record": "19-12",
+        "rating": 50,
         "record": "8-0",
-        "sos": 245
+        "sos": 246
     },
     "kpi_sports": {
         "kpi_ranking": 8
     },
     "massey_ratings": {
-        "massey_rank": 36
+        "massey_rank": 29
     },
     "ncaa": {
         "net_rank": "28"
@@ -138,32 +138,32 @@
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
-        "ap_rank": 31,
-        "coaches_rank": 35
+        "ap_rank": 28,
+        "coaches_rank": 28
     },
     "sports_reference": {
         "SRS_rank": 56
     },
     "teamrankings": {
-        "make_tournament": "53.2%",
+        "make_tournament": "52.2%",
         "most_likely_seed": "11",
-        "proj_conf_record": "8.9-11.1",
-        "projected_bid_pct": "53.2%",
+        "proj_conf_record": "8.8-11.2",
+        "projected_bid_pct": "52.2%",
         "projected_losses": "11.5",
         "projected_wins": "19.5",
         "rank": "48"
     },
     "time": {
-        "iso_time": "2025-12-01T09:15:07.478236",
-        "time": "Dec. 1 at 9:15 AM"
+        "iso_time": "2025-12-02T00:37:15.377339",
+        "time": "Dec. 2 at 12:37 AM"
     },
     "trank": {
-        "torvik_NET": "55",
-        "trank": 44,
-        "trank_make_tourney": 65.9,
+        "torvik_NET": "51",
+        "trank": 45,
+        "trank_make_tourney": 64.2,
         "trank_proj_record": "20-11 (9-11)",
         "trank_seed": "11",
-        "wab_rank": 13,
+        "wab_rank": 14,
         "wab_score": "+1.4"
     },
     "warrennolan": {
