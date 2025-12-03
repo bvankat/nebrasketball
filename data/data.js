@@ -134,7 +134,7 @@
         "away_team": "Creighton",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
         "date_time": "12/7 - 5:00 PM EST",
-        "home_team": "158",
+        "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {

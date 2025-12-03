@@ -9083,7 +9083,7 @@
                 "projected_tournament_order": "NA"
             },
             "next_game": {
-                "home_team": "158",
+                "home_team": "Nebraska",
                 "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
                 "away_team": "Creighton",
                 "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
