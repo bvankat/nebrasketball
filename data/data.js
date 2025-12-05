@@ -93,22 +93,22 @@
         "bpi": 45.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 198.0,
+        "non_con_sos": 199.0,
         "proj_tourney_seed": "NA",
         "proj_win_loss_conf": "9.5-10.5",
-        "proj_win_loss_overall": "20.2-10.8",
+        "proj_win_loss_overall": "20.1-10.9",
         "projected_tournament_order": "NA",
-        "seven_day_change": "Tied-7th",
+        "seven_day_change": "Tied-8th",
         "sor": 14.0,
-        "sos": 203.0
+        "sos": 204.0
     },
     "espn_bracketology": {
         "seed": "8"
     },
     "evanmiya": {
-        "miya_rating": 51,
-        "miya_resume_category": "3-5 Seed",
-        "miya_resume_rank": 16
+        "miya_rating": 49,
+        "miya_resume_category": "NA",
+        "miya_resume_rank": "NA"
     },
     "haslametrics": {
         "haslam_rating": "33",
@@ -119,13 +119,13 @@
         "overall_record": "20-11",
         "rating": 48,
         "record": "8-0",
-        "sos": 247
+        "sos": 244
     },
     "kpi_sports": {
         "kpi_ranking": 10
     },
     "massey_ratings": {
-        "massey_rank": 26
+        "massey_rank": "NA"
     },
     "ncaa": {
         "net_rank": "32"
@@ -145,24 +145,24 @@
         "SRS_rank": 50
     },
     "teamrankings": {
-        "make_tournament": "54.1%",
+        "make_tournament": "53.1%",
         "most_likely_seed": "11",
         "proj_conf_record": "9.0-11.0",
-        "projected_bid_pct": "54.1%",
+        "projected_bid_pct": "53.1%",
         "projected_losses": "11.4",
         "projected_wins": "19.6",
         "rank": "48"
     },
     "time": {
-        "iso_time": "2025-12-04T09:23:12.085312",
-        "time": "Dec. 4 at 9:23 AM"
+        "iso_time": "2025-12-05T03:53:44.696316",
+        "time": "Dec. 5 at 3:53 AM"
     },
     "trank": {
-        "torvik_NET": "49",
-        "trank": 43,
+        "torvik_NET": "50",
+        "trank": 42,
         "trank_make_tourney": 62.4,
         "trank_proj_record": "20-11 (9-11)",
-        "trank_seed": "11",
+        "trank_seed": "10",
         "wab_rank": 17,
         "wab_score": "+1.4"
     },
