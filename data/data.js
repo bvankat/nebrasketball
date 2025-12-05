@@ -7,7 +7,7 @@
                 "date": "11/15/2025",
                 "location": "Neutral",
                 "opponent": "Oklahoma",
-                "opponent_NET": "58",
+                "opponent_NET": "57",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "105-99"
@@ -25,7 +25,7 @@
                 "date": "11/25/2025",
                 "location": "Home",
                 "opponent": "Winthrop",
-                "opponent_NET": "73",
+                "opponent_NET": "74",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "80-73"
@@ -37,7 +37,7 @@
                 "date": "11/20/2025",
                 "location": "Neutral",
                 "opponent": "New Mexico",
-                "opponent_NET": "116",
+                "opponent_NET": "115",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "84-72"
@@ -49,7 +49,7 @@
                 "date": "11/03/2025",
                 "location": "Home",
                 "opponent": "West Ga.",
-                "opponent_NET": "204",
+                "opponent_NET": "199",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-53"
@@ -58,7 +58,7 @@
                 "date": "11/08/2025",
                 "location": "Home",
                 "opponent": "FIU",
-                "opponent_NET": "242",
+                "opponent_NET": "243",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "96-66"
@@ -76,7 +76,7 @@
                 "date": "11/29/2025",
                 "location": "Home",
                 "opponent": "USC Upstate",
-                "opponent_NET": "211",
+                "opponent_NET": "209",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "72-63"
@@ -106,13 +106,13 @@
         "seed": "8"
     },
     "evanmiya": {
-        "miya_rating": 49,
-        "miya_resume_category": "NA",
-        "miya_resume_rank": "NA"
+        "miya_rating": 48,
+        "miya_resume_category": "3-5 Seed",
+        "miya_resume_rank": 16
     },
     "haslametrics": {
         "haslam_rating": "33",
-        "seed": "4"
+        "seed": "OUT"
     },
     "kenpom": {
         "conference_record": "9-11",
@@ -125,7 +125,7 @@
         "kpi_ranking": 10
     },
     "massey_ratings": {
-        "massey_rank": "NA"
+        "massey_rank": 26
     },
     "ncaa": {
         "net_rank": "32"
@@ -142,23 +142,23 @@
         "coaches_rank": 28
     },
     "sports_reference": {
-        "SRS_rank": 50
+        "SRS_rank": "NA"
     },
     "teamrankings": {
-        "make_tournament": "53.1%",
+        "make_tournament": "54.7%",
         "most_likely_seed": "11",
         "proj_conf_record": "9.0-11.0",
-        "projected_bid_pct": "53.1%",
+        "projected_bid_pct": "54.7%",
         "projected_losses": "11.4",
         "projected_wins": "19.6",
         "rank": "48"
     },
     "time": {
-        "iso_time": "2025-12-05T03:53:44.696316",
-        "time": "Dec. 5 at 3:53 AM"
+        "iso_time": "2025-12-05T10:00:12.249586",
+        "time": "Dec. 5 at 10:00 AM"
     },
     "trank": {
-        "torvik_NET": "50",
+        "torvik_NET": "49",
         "trank": 42,
         "trank_make_tourney": 62.4,
         "trank_proj_record": "20-11 (9-11)",
