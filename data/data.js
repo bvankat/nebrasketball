@@ -106,13 +106,13 @@
         "seed": "8"
     },
     "evanmiya": {
-        "miya_rating": 49,
+        "miya_rating": 52,
         "miya_resume_category": "3-5 Seed",
-        "miya_resume_rank": 16
+        "miya_resume_rank": 19
     },
     "haslametrics": {
         "haslam_rating": "33",
-        "seed": "4"
+        "seed": "5"
     },
     "kenpom": {
         "conference_record": "9-11",
@@ -122,13 +122,13 @@
         "sos": 254
     },
     "kpi_sports": {
-        "kpi_ranking": 10
+        "kpi_ranking": 11
     },
     "massey_ratings": {
         "massey_rank": 26
     },
     "ncaa": {
-        "net_rank": "30"
+        "net_rank": "27"
     },
     "next_game": {
         "away_team": "Creighton",
@@ -142,37 +142,37 @@
         "coaches_rank": 28
     },
     "sports_reference": {
-        "SRS_rank": 50
+        "SRS_rank": "NA"
     },
     "teamrankings": {
-        "make_tournament": "52.6%",
+        "make_tournament": "51.3%",
         "most_likely_seed": "11",
-        "proj_conf_record": "9.0-11.0",
-        "projected_bid_pct": "52.6%",
-        "projected_losses": "11.4",
-        "projected_wins": "19.6",
+        "proj_conf_record": "8.9-11.1",
+        "projected_bid_pct": "51.3%",
+        "projected_losses": "11.5",
+        "projected_wins": "19.5",
         "rank": "47"
     },
     "time": {
-        "iso_time": "2025-12-07T01:33:09.827567",
-        "time": "Dec. 7 at 1:33 AM"
+        "iso_time": "2025-12-07T11:26:49.532900",
+        "time": "Dec. 7 at 11:26 AM"
     },
     "trank": {
-        "torvik_NET": "52",
+        "torvik_NET": "51",
         "trank": 41,
-        "trank_make_tourney": 63.1,
+        "trank_make_tourney": 66.4,
         "trank_proj_record": "20-11 (9-11)",
-        "trank_seed": "11",
+        "trank_seed": "10",
         "wab_rank": 17,
         "wab_score": "+1.4"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
         "elo": "27",
-        "nolan_net": "30",
+        "nolan_net": "27",
         "quadrant_1": "0-0",
-        "quadrant_2": "2-0",
-        "quadrant_3": "2-0",
+        "quadrant_2": "3-0",
+        "quadrant_3": "1-0",
         "quadrant_4": "4-0",
         "record": "8-0",
         "rpi": "5"
