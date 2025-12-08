@@ -115,7 +115,7 @@
         "seed": "8"
     },
     "evanmiya": {
-        "miya_rating": "NA",
+        "miya_rating": 40,
         "miya_resume_category": "3-5 Seed",
         "miya_resume_rank": 16
     },
@@ -147,8 +147,8 @@
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
-        "ap_rank": 28,
-        "coaches_rank": 28
+        "ap_rank": 23,
+        "coaches_rank": 22
     },
     "sports_reference": {
         "SRS_rank": "NA"
@@ -163,8 +163,8 @@
         "rank": "43"
     },
     "time": {
-        "iso_time": "2025-12-08T10:11:52.473077",
-        "time": "Dec. 8 at 10:11 AM"
+        "iso_time": "2025-12-08T13:00:12.951900",
+        "time": "Dec. 8 at 1:00 PM"
     },
     "trank": {
         "torvik_NET": "39",
