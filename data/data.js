@@ -145,17 +145,17 @@
         "SRS_rank": "NA"
     },
     "teamrankings": {
-        "make_tournament": "54.6%",
-        "most_likely_seed": "11",
-        "proj_conf_record": "8.9-11.1",
-        "projected_bid_pct": "54.6%",
-        "projected_losses": "11.1",
-        "projected_wins": "19.9",
+        "make_tournament": "64.1%",
+        "most_likely_seed": "10",
+        "proj_conf_record": "9.6-10.4",
+        "projected_bid_pct": "64.1%",
+        "projected_losses": "10.5",
+        "projected_wins": "20.5",
         "rank": "43"
     },
     "time": {
-        "iso_time": "2025-12-08T01:24:06.620564",
-        "time": "Dec. 8 at 1:24 AM"
+        "iso_time": "2025-12-08T01:28:11.757494",
+        "time": "Dec. 8 at 1:28 AM"
     },
     "trank": {
         "torvik_NET": "43",
