@@ -7,7 +7,7 @@
                 "date": "11/15/2025",
                 "location": "Neutral",
                 "opponent": "Oklahoma",
-                "opponent_NET": "78",
+                "opponent_NET": "79",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "105-99"
@@ -16,7 +16,7 @@
                 "date": "11/20/2025",
                 "location": "Neutral",
                 "opponent": "New Mexico",
-                "opponent_NET": "82",
+                "opponent_NET": "80",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "84-72"
@@ -25,7 +25,7 @@
                 "date": "11/21/2025",
                 "location": "Neutral",
                 "opponent": "Kansas St.",
-                "opponent_NET": "97",
+                "opponent_NET": "82",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-85"
@@ -46,7 +46,7 @@
                 "date": "12/07/2025",
                 "location": "Home",
                 "opponent": "Creighton",
-                "opponent_NET": "98",
+                "opponent_NET": "108",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "71-50"
@@ -58,7 +58,7 @@
                 "date": "11/03/2025",
                 "location": "Home",
                 "opponent": "West Ga.",
-                "opponent_NET": "265",
+                "opponent_NET": "264",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-53"
@@ -67,7 +67,7 @@
                 "date": "11/08/2025",
                 "location": "Home",
                 "opponent": "FIU",
-                "opponent_NET": "182",
+                "opponent_NET": "183",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "96-66"
@@ -76,7 +76,7 @@
                 "date": "11/11/2025",
                 "location": "Home",
                 "opponent": "UMES",
-                "opponent_NET": "335",
+                "opponent_NET": "338",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "69-50"
@@ -85,7 +85,7 @@
                 "date": "11/29/2025",
                 "location": "Home",
                 "opponent": "USC Upstate",
-                "opponent_NET": "200",
+                "opponent_NET": "197",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "72-63"
@@ -112,12 +112,12 @@
         "sos": 144.0
     },
     "espn_bracketology": {
-        "seed": "8"
+        "seed": "7"
     },
     "evanmiya": {
         "miya_rating": 40,
-        "miya_resume_category": "3-5 Seed",
-        "miya_resume_rank": 16
+        "miya_resume_category": "NA",
+        "miya_resume_rank": "NA"
     },
     "haslametrics": {
         "haslam_rating": "27",
@@ -131,10 +131,10 @@
         "sos": 218
     },
     "kpi_sports": {
-        "kpi_ranking": 9
+        "kpi_ranking": 10
     },
     "massey_ratings": {
-        "massey_rank": 24
+        "massey_rank": 22
     },
     "ncaa": {
         "net_rank": "23"
@@ -151,34 +151,34 @@
         "coaches_rank": 22
     },
     "sports_reference": {
-        "SRS_rank": "NA"
+        "SRS_rank": 40
     },
     "teamrankings": {
-        "make_tournament": "65.3%",
+        "make_tournament": "64.9%",
         "most_likely_seed": "10",
         "proj_conf_record": "9.6-10.4",
-        "projected_bid_pct": "65.3%",
+        "projected_bid_pct": "64.9%",
         "projected_losses": "10.4",
         "projected_wins": "20.6",
         "rank": "43"
     },
     "time": {
-        "iso_time": "2025-12-09T00:04:45.382399",
-        "time": "Dec. 9 at 12:04 AM"
+        "iso_time": "2025-12-09T09:14:34.443408",
+        "time": "Dec. 9 at 9:14 AM"
     },
     "trank": {
-        "torvik_NET": "39",
+        "torvik_NET": "37",
         "trank": 35,
-        "trank_make_tourney": 85.0,
+        "trank_make_tourney": 86.4,
         "trank_proj_record": "21-10 (10-10)",
-        "trank_seed": "9",
+        "trank_seed": "8",
         "wab_rank": 13,
-        "wab_score": "+1.8"
+        "wab_score": "+1.7"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
         "elo": "23",
-        "nolan_net": "24",
+        "nolan_net": "23",
         "quadrant_1": "0-0",
         "quadrant_2": "3-0",
         "quadrant_3": "2-0",
