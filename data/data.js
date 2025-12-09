@@ -95,11 +95,11 @@
     },
     "bracketproject": {
         "matrix_count": 31,
-        "matrix_seed": 6,
+        "matrix_seed": 7,
         "total_brackets": 31
     },
     "espn": {
-        "bpi": 39.0,
+        "bpi": 38.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
         "non_con_sos": 146.0,
@@ -107,15 +107,15 @@
         "proj_win_loss_conf": "10.0-10.0",
         "proj_win_loss_overall": "21.0-10.0",
         "projected_tournament_order": "NA",
-        "seven_day_change": "5th",
+        "seven_day_change": "7th",
         "sor": 12.0,
-        "sos": 144.0
+        "sos": 145.0
     },
     "espn_bracketology": {
         "seed": "7"
     },
     "evanmiya": {
-        "miya_rating": 40,
+        "miya_rating": "NA",
         "miya_resume_category": "NA",
         "miya_resume_rank": "NA"
     },
@@ -154,17 +154,17 @@
         "SRS_rank": 40
     },
     "teamrankings": {
-        "make_tournament": "64.9%",
+        "make_tournament": "65.9%",
         "most_likely_seed": "10",
         "proj_conf_record": "9.6-10.4",
-        "projected_bid_pct": "64.9%",
+        "projected_bid_pct": "65.9%",
         "projected_losses": "10.4",
         "projected_wins": "20.6",
         "rank": "43"
     },
     "time": {
-        "iso_time": "2025-12-09T09:14:34.443408",
-        "time": "Dec. 9 at 9:14 AM"
+        "iso_time": "2025-12-09T14:12:09.097305",
+        "time": "Dec. 9 at 2:12 PM"
     },
     "trank": {
         "torvik_NET": "37",
