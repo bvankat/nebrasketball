@@ -94,22 +94,22 @@
         "quad4record": "4-0"
     },
     "bracketproject": {
-        "matrix_count": 36,
-        "matrix_seed": 7,
-        "total_brackets": 38
+        "matrix_count": 31,
+        "matrix_seed": 6,
+        "total_brackets": 31
     },
     "espn": {
-        "bpi": 45.0,
+        "bpi": 39.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 203.0,
+        "non_con_sos": 146.0,
         "proj_tourney_seed": "NA",
-        "proj_win_loss_conf": "9.5-10.5",
-        "proj_win_loss_overall": "20.1-10.9",
+        "proj_win_loss_conf": "10.0-10.0",
+        "proj_win_loss_overall": "21.0-10.0",
         "projected_tournament_order": "NA",
-        "seven_day_change": "Tied-1st",
-        "sor": 14.0,
-        "sos": 208.0
+        "seven_day_change": "5th",
+        "sor": 12.0,
+        "sos": 144.0
     },
     "espn_bracketology": {
         "seed": "8"
@@ -128,16 +128,16 @@
         "overall_record": "21-10",
         "rating": 42,
         "record": "9-0",
-        "sos": 220
+        "sos": 218
     },
     "kpi_sports": {
         "kpi_ranking": 9
     },
     "massey_ratings": {
-        "massey_rank": 23
+        "massey_rank": 24
     },
     "ncaa": {
-        "net_rank": "24"
+        "net_rank": "23"
     },
     "next_game": {
         "away_team": "Wisconsin",
@@ -154,17 +154,17 @@
         "SRS_rank": "NA"
     },
     "teamrankings": {
-        "make_tournament": "64.1%",
-        "most_likely_seed": "9",
-        "proj_conf_record": "9.5-10.5",
-        "projected_bid_pct": "64.1%",
-        "projected_losses": "10.5",
-        "projected_wins": "20.5",
+        "make_tournament": "65.3%",
+        "most_likely_seed": "10",
+        "proj_conf_record": "9.6-10.4",
+        "projected_bid_pct": "65.3%",
+        "projected_losses": "10.4",
+        "projected_wins": "20.6",
         "rank": "43"
     },
     "time": {
-        "iso_time": "2025-12-08T13:00:12.951900",
-        "time": "Dec. 8 at 1:00 PM"
+        "iso_time": "2025-12-09T00:04:45.382399",
+        "time": "Dec. 9 at 12:04 AM"
     },
     "trank": {
         "torvik_NET": "39",
@@ -172,8 +172,8 @@
         "trank_make_tourney": 85.0,
         "trank_proj_record": "21-10 (10-10)",
         "trank_seed": "9",
-        "wab_rank": 15,
-        "wab_score": "+1.7"
+        "wab_rank": 13,
+        "wab_score": "+1.8"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
