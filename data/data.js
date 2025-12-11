@@ -137,14 +137,14 @@
         "massey_rank": 22
     },
     "ncaa": {
-        "net_rank": "23"
+        "net_rank": "14"
     },
     "next_game": {
-        "away_team": "Wisconsin",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
-        "date_time": "Final",
-        "home_team": "Nebraska",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
+        "away_team": "Nebraska",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+        "date_time": "12/13 - 4:00 PM EST",
+        "home_team": "Illinois",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png"
     },
     "polls": {
         "ap_rank": 23,
@@ -154,22 +154,22 @@
         "SRS_rank": "NA"
     },
     "teamrankings": {
-        "make_tournament": "86.5%",
+        "make_tournament": "86.7%",
         "most_likely_seed": "7",
-        "proj_conf_record": "11.0-9.0",
-        "projected_bid_pct": "86.5%",
-        "projected_losses": "9.0",
-        "projected_wins": "22.0",
+        "proj_conf_record": "11.1-8.9",
+        "projected_bid_pct": "86.7%",
+        "projected_losses": "8.9",
+        "projected_wins": "22.1",
         "rank": "31"
     },
     "time": {
-        "iso_time": "2025-12-11T09:44:49.625699",
-        "time": "Dec. 11 at 9:44 AM"
+        "iso_time": "2025-12-11T10:21:00.855740",
+        "time": "Dec. 11 at 10:21 AM"
     },
     "trank": {
         "torvik_NET": "27",
         "trank": 27,
-        "trank_make_tourney": 96.4,
+        "trank_make_tourney": 97.5,
         "trank_proj_record": "22-9 (11-9)",
         "trank_seed": "6",
         "wab_rank": 11,
