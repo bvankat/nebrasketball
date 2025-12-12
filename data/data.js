@@ -102,14 +102,14 @@
         "bpi": 27.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 135.0,
+        "non_con_sos": 136.0,
         "proj_tourney_seed": "NA",
-        "proj_win_loss_conf": "11.4-8.6",
+        "proj_win_loss_conf": "11.3-8.7",
         "proj_win_loss_overall": "22.3-8.7",
         "projected_tournament_order": "NA",
         "seven_day_change": "18th",
         "sor": 9.0,
-        "sos": 94.0
+        "sos": 95.0
     },
     "espn_bracketology": {
         "seed": "7"
@@ -154,22 +154,22 @@
         "SRS_rank": 37
     },
     "teamrankings": {
-        "make_tournament": "86.4%",
+        "make_tournament": "86.0%",
         "most_likely_seed": "7",
         "proj_conf_record": "11.0-9.0",
-        "projected_bid_pct": "86.4%",
+        "projected_bid_pct": "86.0%",
         "projected_losses": "9.0",
         "projected_wins": "22.0",
         "rank": "31"
     },
     "time": {
-        "iso_time": "2025-12-12T09:40:31.651279",
-        "time": "Dec. 12 at 9:40 AM"
+        "iso_time": "2025-12-12T16:23:58.673075",
+        "time": "Dec. 12 at 4:23 PM"
     },
     "trank": {
         "torvik_NET": "28",
         "trank": 27,
-        "trank_make_tourney": 97.3,
+        "trank_make_tourney": 97.6,
         "trank_proj_record": "22-9 (11-9)",
         "trank_seed": "6",
         "wab_rank": 11,
