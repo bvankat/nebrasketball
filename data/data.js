@@ -7,7 +7,7 @@
                 "date": "11/15/2025",
                 "location": "Neutral",
                 "opponent": "Oklahoma",
-                "opponent_NET": "70",
+                "opponent_NET": "71",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "105-99"
@@ -16,7 +16,7 @@
                 "date": "11/20/2025",
                 "location": "Neutral",
                 "opponent": "New Mexico",
-                "opponent_NET": "56",
+                "opponent_NET": "57",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "84-72"
@@ -25,7 +25,7 @@
                 "date": "11/21/2025",
                 "location": "Neutral",
                 "opponent": "Kansas St.",
-                "opponent_NET": "79",
+                "opponent_NET": "78",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-85"
@@ -46,7 +46,7 @@
                 "date": "12/07/2025",
                 "location": "Home",
                 "opponent": "Creighton",
-                "opponent_NET": "103",
+                "opponent_NET": "102",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "71-50"
@@ -58,7 +58,7 @@
                 "date": "11/03/2025",
                 "location": "Home",
                 "opponent": "West Ga.",
-                "opponent_NET": "264",
+                "opponent_NET": "260",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-53"
@@ -76,7 +76,7 @@
                 "date": "11/11/2025",
                 "location": "Home",
                 "opponent": "UMES",
-                "opponent_NET": "333",
+                "opponent_NET": "332",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "69-50"
@@ -131,7 +131,7 @@
         "sos": 156
     },
     "kpi_sports": {
-        "kpi_ranking": 6
+        "kpi_ranking": 8
     },
     "massey_ratings": {
         "massey_rank": 22
@@ -151,28 +151,28 @@
         "coaches_rank": 22
     },
     "shot_quality": {
-        "sq_ranking": 32
+        "sq_ranking": 34
     },
     "sports_reference": {
         "SRS_rank": 37
     },
     "teamrankings": {
-        "make_tournament": "86.7%",
+        "make_tournament": "86.2%",
         "most_likely_seed": "7",
-        "proj_conf_record": "11.0-9.0",
-        "projected_bid_pct": "86.7%",
-        "projected_losses": "9.0",
-        "projected_wins": "22.0",
+        "proj_conf_record": "11.1-8.9",
+        "projected_bid_pct": "86.2%",
+        "projected_losses": "8.9",
+        "projected_wins": "22.1",
         "rank": "31"
     },
     "time": {
-        "iso_time": "2025-12-13T01:44:02.073940",
-        "time": "Dec. 13 at 1:44 AM"
+        "iso_time": "2025-12-13T10:39:56.391579",
+        "time": "Dec. 13 at 10:39 AM"
     },
     "trank": {
         "torvik_NET": "28",
         "trank": 27,
-        "trank_make_tourney": 97.6,
+        "trank_make_tourney": 97.4,
         "trank_proj_record": "22-9 (11-9)",
         "trank_seed": "6",
         "wab_rank": 11,
