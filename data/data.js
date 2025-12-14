@@ -1,7 +1,17 @@
 {
     "bballnet_quadrants": {
-        "quad1_games": [],
-        "quad1record": "0-0",
+        "quad1_games": [
+            {
+                "date": "12/13/2025",
+                "location": "Away",
+                "opponent": "Illinois",
+                "opponent_NET": "12",
+                "opponent_rank": "13",
+                "result": "W",
+                "score": "83-80"
+            }
+        ],
+        "quad1record": "1-0",
         "quad2_games": [
             {
                 "date": "11/15/2025",
@@ -29,9 +39,18 @@
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-85"
+            },
+            {
+                "date": "12/10/2025",
+                "location": "Home",
+                "opponent": "Wisconsin",
+                "opponent_NET": "70",
+                "opponent_rank": null,
+                "result": "W",
+                "score": "90-60"
             }
         ],
-        "quad2record": "3-0",
+        "quad2record": "4-0",
         "quad3_games": [
             {
                 "date": "11/25/2025",
@@ -115,13 +134,13 @@
         "seed": "7"
     },
     "evanmiya": {
-        "miya_rating": 32,
-        "miya_resume_category": "3-5 Seed",
-        "miya_resume_rank": 12
+        "miya_rating": "NA",
+        "miya_resume_category": "NA",
+        "miya_resume_rank": "NA"
     },
     "haslametrics": {
-        "haslam_rating": "15",
-        "seed": "3"
+        "haslam_rating": "13",
+        "seed": "2"
     },
     "kenpom": {
         "conference_record": "13-7",
@@ -131,59 +150,59 @@
         "sos": 96
     },
     "kpi_sports": {
-        "kpi_ranking": 8
+        "kpi_ranking": 4
     },
     "massey_ratings": {
         "massey_rank": 22
     },
     "ncaa": {
-        "net_rank": "14"
+        "net_rank": "12"
     },
     "next_game": {
-        "away_team": "Nebraska",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "Final",
-        "home_team": "Illinois",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png"
+        "away_team": "North Dakota",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
+        "date_time": "12/21 - 8:00 PM EST",
+        "home_team": "Nebraska",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
         "ap_rank": 23,
         "coaches_rank": 22
     },
     "shot_quality": {
-        "sq_ranking": 28
+        "sq_ranking": 29
     },
     "sports_reference": {
-        "SRS_rank": 24
+        "SRS_rank": 22
     },
     "teamrankings": {
-        "make_tournament": "86.2%",
-        "most_likely_seed": "7",
-        "proj_conf_record": "11.1-8.9",
-        "projected_bid_pct": "86.2%",
-        "projected_losses": "8.9",
-        "projected_wins": "22.1",
-        "rank": "31"
+        "make_tournament": "94.8%",
+        "most_likely_seed": "5",
+        "proj_conf_record": "12.2-7.8",
+        "projected_bid_pct": "94.8%",
+        "projected_losses": "7.8",
+        "projected_wins": "23.2",
+        "rank": "28"
     },
     "time": {
-        "iso_time": "2025-12-13T22:50:45.630818",
-        "time": "Dec. 13 at 10:50 PM"
+        "iso_time": "2025-12-14T10:16:05.230582",
+        "time": "Dec. 14 at 10:16 AM"
     },
     "trank": {
-        "torvik_NET": "22",
+        "torvik_NET": "20",
         "trank": 22,
-        "trank_make_tourney": 97.4,
+        "trank_make_tourney": 99.8,
         "trank_proj_record": "24-7 (13-7)",
         "trank_seed": "5",
-        "wab_rank": 5,
+        "wab_rank": 7,
         "wab_score": "+3.1"
     },
     "warrennolan": {
         "current_conf_record": "2-0",
         "elo": "12",
-        "nolan_net": "14",
-        "quadrant_1": "1-0",
-        "quadrant_2": "4-0",
+        "nolan_net": "12",
+        "quadrant_1": "2-0",
+        "quadrant_2": "3-0",
         "quadrant_3": "2-0",
         "quadrant_4": "4-0",
         "record": "11-0",
