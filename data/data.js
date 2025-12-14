@@ -126,9 +126,9 @@
     "kenpom": {
         "conference_record": "13-7",
         "overall_record": "24-7",
-        "rating": 19,
+        "rating": 20,
         "record": "11-0",
-        "sos": 92
+        "sos": 96
     },
     "kpi_sports": {
         "kpi_ranking": 8
@@ -151,7 +151,7 @@
         "coaches_rank": 22
     },
     "shot_quality": {
-        "sq_ranking": 33
+        "sq_ranking": 28
     },
     "sports_reference": {
         "SRS_rank": 24
@@ -166,12 +166,12 @@
         "rank": "31"
     },
     "time": {
-        "iso_time": "2025-12-13T17:19:19.578247",
-        "time": "Dec. 13 at 5:19 PM"
+        "iso_time": "2025-12-13T22:50:45.630818",
+        "time": "Dec. 13 at 10:50 PM"
     },
     "trank": {
         "torvik_NET": "22",
-        "trank": 23,
+        "trank": 22,
         "trank_make_tourney": 97.4,
         "trank_proj_record": "24-7 (13-7)",
         "trank_seed": "5",
@@ -180,7 +180,7 @@
     },
     "warrennolan": {
         "current_conf_record": "2-0",
-        "elo": "13",
+        "elo": "12",
         "nolan_net": "14",
         "quadrant_1": "1-0",
         "quadrant_2": "4-0",
