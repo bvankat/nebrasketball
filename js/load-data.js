@@ -54,7 +54,25 @@
 	
 	if (data.next_game) {
 		document.getElementById('nextGame-teams').innerHTML = "<img src='" + data.next_game.away_team_logo + "' class='team-logo' > <strong>" + data.next_game.away_team + "</strong> at <img src='" + data.next_game.home_team_logo + "' class='team-logo' > <strong>" + data.next_game.home_team + "</strong>";
-		document.getElementById('nextGame-details').innerHTML = data.next_game.date_time;
+		
+		// Format the date/time to local time: "Wed, Dec 17 6:00 PM"
+		const gameDate = new Date(data.next_game.date_time);
+		const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+		const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+		
+		const dayName = dayNames[gameDate.getDay()];
+		const monthName = monthNames[gameDate.getMonth()];
+		const day = gameDate.getDate();
+		
+		let hours = gameDate.getHours();
+		const minutes = gameDate.getMinutes();
+		const ampm = hours >= 12 ? 'PM' : 'AM';
+		hours = hours % 12;
+		hours = hours ? hours : 12; // the hour '0' should be '12'
+		const minutesStr = minutes < 10 ? '0' + minutes : minutes;
+		
+		const formattedDateTime = `${dayName}, ${monthName} ${day} ${hours}:${minutesStr} ${ampm}`;
+		document.getElementById('nextGame-details').innerHTML = formattedDateTime;
 	}
 
 	if ( data.warrennolan ) {
