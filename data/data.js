@@ -133,11 +133,6 @@
     "espn_bracketology": {
         "seed": "7"
     },
-    "evanmiya": {
-        "miya_rating": 25,
-        "miya_resume_category": "1-2 Seed",
-        "miya_resume_rank": 7
-    },
     "haslametrics": {
         "haslam_rating": "12",
         "seed": "2"
@@ -161,7 +156,7 @@
     "next_game": {
         "away_team": "North Dakota",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
-        "date_time": "12/21 - 8:00 PM EST",
+        "date_time": "2025-12-22T01:00Z",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -185,8 +180,8 @@
         "rank": "28"
     },
     "time": {
-        "iso_time": "2025-12-15T12:38:54.291043",
-        "time": "Dec. 15 at 12:38 PM"
+        "iso_time": "2025-12-15T13:48:50.067856",
+        "time": "Dec. 15 at 1:48 PM"
     },
     "trank": {
         "torvik_NET": "21",
