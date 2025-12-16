@@ -35,7 +35,7 @@
                 "date": "11/21/2025",
                 "location": "Neutral",
                 "opponent": "Kansas St.",
-                "opponent_NET": "68",
+                "opponent_NET": "66",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-85"
@@ -44,7 +44,7 @@
                 "date": "12/10/2025",
                 "location": "Home",
                 "opponent": "Wisconsin",
-                "opponent_NET": "70",
+                "opponent_NET": "69",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "90-60"
@@ -77,7 +77,7 @@
                 "date": "11/03/2025",
                 "location": "Home",
                 "opponent": "West Ga.",
-                "opponent_NET": "269",
+                "opponent_NET": "270",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-53"
@@ -86,7 +86,7 @@
                 "date": "11/08/2025",
                 "location": "Home",
                 "opponent": "FIU",
-                "opponent_NET": "177",
+                "opponent_NET": "178",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "96-66"
@@ -113,25 +113,25 @@
         "quad4record": "4-0"
     },
     "bracketproject": {
-        "matrix_count": 33,
+        "matrix_count": 34,
         "matrix_seed": 5,
-        "total_brackets": 33
+        "total_brackets": 34
     },
     "espn": {
         "bpi": 27.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 136.0,
+        "non_con_sos": 133.0,
         "proj_tourney_seed": "NA",
         "proj_win_loss_conf": "12.2-7.8",
         "proj_win_loss_overall": "23.2-7.8",
         "projected_tournament_order": "NA",
-        "seven_day_change": "12th",
+        "seven_day_change": "11th",
         "sor": 6.0,
         "sos": 48.0
     },
     "espn_bracketology": {
-        "seed": "7"
+        "seed": "5"
     },
     "haslametrics": {
         "haslam_rating": "12",
@@ -142,13 +142,13 @@
         "overall_record": "24-7",
         "rating": 21,
         "record": "11-0",
-        "sos": 96
+        "sos": 93
     },
     "kpi_sports": {
-        "kpi_ranking": 4
+        "kpi_ranking": 3
     },
     "massey_ratings": {
-        "massey_rank": 14
+        "massey_rank": 13
     },
     "ncaa": {
         "net_rank": "12"
@@ -180,13 +180,13 @@
         "rank": "28"
     },
     "time": {
-        "iso_time": "2025-12-15T13:48:50.067856",
-        "time": "Dec. 15 at 1:48 PM"
+        "iso_time": "2025-12-16T09:10:46.133875",
+        "time": "Dec. 16 at 9:10 AM"
     },
     "trank": {
-        "torvik_NET": "21",
+        "torvik_NET": "20",
         "trank": 22,
-        "trank_make_tourney": 99.8,
+        "trank_make_tourney": 99.7,
         "trank_proj_record": "24-7 (13-7)",
         "trank_seed": "5",
         "wab_rank": 7,
