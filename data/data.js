@@ -113,9 +113,9 @@
         "quad4record": "4-0"
     },
     "bracketproject": {
-        "matrix_count": 34,
-        "matrix_seed": 5,
-        "total_brackets": 34
+        "matrix_count": 33,
+        "matrix_seed": 4,
+        "total_brackets": 33
     },
     "espn": {
         "bpi": 27.0,
@@ -134,7 +134,7 @@
         "seed": "5"
     },
     "evanmiya": {
-        "miya_rating": "NA",
+        "miya_rating": 25,
         "miya_resume_category": "1-2 Seed",
         "miya_resume_rank": 7
     },
@@ -147,7 +147,7 @@
         "overall_record": "24-7",
         "rating": 21,
         "record": "11-0",
-        "sos": 93
+        "sos": 91
     },
     "kpi_sports": {
         "kpi_ranking": 3
@@ -170,36 +170,36 @@
         "coaches_rank": 15
     },
     "shot_quality": {
-        "sq_ranking": 27
+        "sq_ranking": 28
     },
     "sports_reference": {
         "SRS_rank": 22
     },
     "teamrankings": {
-        "make_tournament": "94.7%",
+        "make_tournament": "94.9%",
         "most_likely_seed": "5",
         "proj_conf_record": "12.1-7.9",
-        "projected_bid_pct": "94.7%",
+        "projected_bid_pct": "94.9%",
         "projected_losses": "7.9",
         "projected_wins": "23.1",
         "rank": "28"
     },
     "time": {
-        "iso_time": "2025-12-16T09:40:03.086196",
-        "time": "Dec. 16 at 9:40 AM"
+        "iso_time": "2025-12-16T23:05:06.935890",
+        "time": "Dec. 16 at 11:05 PM"
     },
     "trank": {
-        "torvik_NET": "20",
+        "torvik_NET": "22",
         "trank": 22,
-        "trank_make_tourney": 99.7,
+        "trank_make_tourney": 99.8,
         "trank_proj_record": "24-7 (13-7)",
         "trank_seed": "5",
         "wab_rank": 7,
-        "wab_score": "+3.0"
+        "wab_score": "+3.1"
     },
     "warrennolan": {
         "current_conf_record": "2-0",
-        "elo": "12",
+        "elo": "13",
         "nolan_net": "12",
         "quadrant_1": "2-0",
         "quadrant_2": "3-0",
