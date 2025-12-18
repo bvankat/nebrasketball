@@ -118,28 +118,28 @@
         "total_brackets": 33
     },
     "espn": {
-        "bpi": 27.0,
+        "bpi": 26.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 133.0,
+        "non_con_sos": 132.0,
         "proj_tourney_seed": "NA",
-        "proj_win_loss_conf": "12.2-7.8",
+        "proj_win_loss_conf": "12.3-7.7",
         "proj_win_loss_overall": "23.2-7.8",
         "projected_tournament_order": "NA",
-        "seven_day_change": "11th",
+        "seven_day_change": "12th",
         "sor": 6.0,
-        "sos": 48.0
+        "sos": 47.0
     },
     "espn_bracketology": {
         "seed": "5"
     },
     "evanmiya": {
-        "miya_rating": 26,
+        "miya_rating": 27,
         "miya_resume_category": "1-2 Seed",
-        "miya_resume_rank": 8
+        "miya_resume_rank": 7
     },
     "haslametrics": {
-        "haslam_rating": "13",
+        "haslam_rating": "12",
         "seed": "2"
     },
     "kenpom": {
@@ -147,7 +147,7 @@
         "overall_record": "24-7",
         "rating": 21,
         "record": "11-0",
-        "sos": 91
+        "sos": 75
     },
     "kpi_sports": {
         "kpi_ranking": 4
@@ -170,13 +170,13 @@
         "coaches_rank": 15
     },
     "shot_quality": {
-        "sq_ranking": 27
+        "sq_ranking": 25
     },
     "sports_reference": {
         "SRS_rank": 24
     },
     "teamrankings": {
-        "make_tournament": "94.9%",
+        "make_tournament": "94.4%",
         "most_likely_seed": "5",
         "proj_conf_record": "12.1-7.9",
         "projected_bid_pct": "94.4%",
@@ -185,8 +185,8 @@
         "rank": "28"
     },
     "time": {
-        "iso_time": "2025-12-17T09:56:36.331281",
-        "time": "Dec. 17 at 9:56 AM"
+        "iso_time": "2025-12-17T23:22:57.085324",
+        "time": "Dec. 17 at 11:22 PM"
     },
     "trank": {
         "torvik_NET": "22",
@@ -195,11 +195,11 @@
         "trank_proj_record": "24-7 (13-7)",
         "trank_seed": "5",
         "wab_rank": 7,
-        "wab_score": "+3.0"
+        "wab_score": "+3.1"
     },
     "warrennolan": {
         "current_conf_record": "2-0",
-        "elo": "13",
+        "elo": "14",
         "nolan_net": "11",
         "quadrant_1": "1-0",
         "quadrant_2": "4-0",
