@@ -1,0 +1,728 @@
+{
+  "lastUpdated": "2025-12-18T01:15:09.702208",
+  "teams": {
+    "nebraska-cornhuskers": {
+      "espn_id": "158",
+      "team_name": "Nebraska Cornhuskers",
+      "schedule": [
+        {
+          "date": "2025-11-04T01:00Z",
+          "competitors": [
+            {
+              "winner": true,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": {
+                "value": 86.0,
+                "displayValue": "86"
+              },
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "2698",
+              "team_nickname": "West Georgia",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+              "score": {
+                "value": 53.0,
+                "displayValue": "53"
+              },
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2025-11-08T18:00Z",
+          "competitors": [
+            {
+              "winner": true,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": {
+                "value": 96.0,
+                "displayValue": "96"
+              },
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "2229",
+              "team_nickname": "FIU",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+              "score": {
+                "value": 66.0,
+                "displayValue": "66"
+              },
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2025-11-12T01:00Z",
+          "competitors": [
+            {
+              "winner": true,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": {
+                "value": 69.0,
+                "displayValue": "69"
+              },
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "2379",
+              "team_nickname": "MD Eastern",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2379.png",
+              "score": {
+                "value": 50.0,
+                "displayValue": "50"
+              },
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2025-11-16T00:00Z",
+          "competitors": [
+            {
+              "winner": true,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": {
+                "value": 105.0,
+                "displayValue": "105"
+              },
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "201",
+              "team_nickname": "Oklahoma",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+              "score": {
+                "value": 99.0,
+                "displayValue": "99"
+              },
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2025-11-21T00:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "167",
+              "team_nickname": "New Mexico",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+              "score": {
+                "value": 72.0,
+                "displayValue": "72"
+              },
+              "gameRank": 99
+            },
+            {
+              "winner": true,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": {
+                "value": 84.0,
+                "displayValue": "84"
+              },
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2025-11-22T02:30Z",
+          "competitors": [
+            {
+              "winner": true,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": {
+                "value": 86.0,
+                "displayValue": "86"
+              },
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "2306",
+              "team_nickname": "Kansas St",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+              "score": {
+                "value": 85.0,
+                "displayValue": "85"
+              },
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2025-11-26T01:30Z",
+          "competitors": [
+            {
+              "winner": true,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": {
+                "value": 80.0,
+                "displayValue": "80"
+              },
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "2737",
+              "team_nickname": "Winthrop",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2737.png",
+              "score": {
+                "value": 73.0,
+                "displayValue": "73"
+              },
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2025-11-29T19:00Z",
+          "competitors": [
+            {
+              "winner": true,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": {
+                "value": 72.0,
+                "displayValue": "72"
+              },
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "2908",
+              "team_nickname": "SC Upstate",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2908.png",
+              "score": {
+                "value": 63.0,
+                "displayValue": "63"
+              },
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2025-12-07T22:00Z",
+          "competitors": [
+            {
+              "winner": true,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": {
+                "value": 71.0,
+                "displayValue": "71"
+              },
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "156",
+              "team_nickname": "Creighton",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
+              "score": {
+                "value": 50.0,
+                "displayValue": "50"
+              },
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2025-12-11T02:00Z",
+          "competitors": [
+            {
+              "winner": true,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": {
+                "value": 90.0,
+                "displayValue": "90"
+              },
+              "gameRank": 23
+            },
+            {
+              "winner": false,
+              "team_id": "275",
+              "team_nickname": "Wisconsin",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+              "score": {
+                "value": 60.0,
+                "displayValue": "60"
+              },
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2025-12-13T21:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "356",
+              "team_nickname": "Illinois",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+              "score": {
+                "value": 80.0,
+                "displayValue": "80"
+              },
+              "gameRank": 13
+            },
+            {
+              "winner": true,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": {
+                "value": 83.0,
+                "displayValue": "83"
+              },
+              "gameRank": 23
+            }
+          ]
+        },
+        {
+          "date": "2025-12-22T01:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            },
+            {
+              "winner": false,
+              "team_id": "155",
+              "team_nickname": "North Dakota",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
+              "score": null,
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2025-12-31T02:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            },
+            {
+              "winner": false,
+              "team_id": "160",
+              "team_nickname": "New Hampshire",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
+              "score": null,
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2026-01-03T02:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            },
+            {
+              "winner": false,
+              "team_id": "127",
+              "team_nickname": "Michigan St",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+              "score": null,
+              "gameRank": 9
+            }
+          ]
+        },
+        {
+          "date": "2026-01-05T23:30Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "194",
+              "team_nickname": "Ohio State",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+              "score": null,
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-01-10T17:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "84",
+              "team_nickname": "Indiana",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+              "score": null,
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-01-14T02:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            },
+            {
+              "winner": false,
+              "team_id": "2483",
+              "team_nickname": "Oregon",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+              "score": null,
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2026-01-17T21:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "77",
+              "team_nickname": "Northwestern",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
+              "score": null,
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-01-22T02:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            },
+            {
+              "winner": false,
+              "team_id": "264",
+              "team_nickname": "Washington",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+              "score": null,
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2026-01-24T17:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "135",
+              "team_nickname": "Minnesota",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+              "score": null,
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-01-28T00:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "130",
+              "team_nickname": "Michigan",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+              "score": null,
+              "gameRank": 2
+            },
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-02-01T21:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            },
+            {
+              "winner": false,
+              "team_id": "356",
+              "team_nickname": "Illinois",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+              "score": null,
+              "gameRank": 18
+            }
+          ]
+        },
+        {
+          "date": "2026-02-07T17:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "164",
+              "team_nickname": "Rutgers",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
+              "score": null,
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-02-11T00:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            },
+            {
+              "winner": false,
+              "team_id": "2509",
+              "team_nickname": "Purdue",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
+              "score": null,
+              "gameRank": 6
+            }
+          ]
+        },
+        {
+          "date": "2026-02-14T18:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            },
+            {
+              "winner": false,
+              "team_id": "77",
+              "team_nickname": "Northwestern",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
+              "score": null,
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2026-02-18T02:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "2294",
+              "team_nickname": "Iowa",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+              "score": null,
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-02-21T19:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            },
+            {
+              "winner": false,
+              "team_id": "213",
+              "team_nickname": "Penn State",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
+              "score": null,
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2026-02-26T00:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            },
+            {
+              "winner": false,
+              "team_id": "120",
+              "team_nickname": "Maryland",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+              "score": null,
+              "gameRank": 99
+            }
+          ]
+        },
+        {
+          "date": "2026-02-28T21:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "30",
+              "team_nickname": "USC",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+              "score": null,
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-03-04T04:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "26",
+              "team_nickname": "UCLA",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+              "score": null,
+              "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-03-08T21:00Z",
+          "competitors": [
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 15
+            },
+            {
+              "winner": false,
+              "team_id": "2294",
+              "team_nickname": "Iowa",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+              "score": null,
+              "gameRank": 99
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

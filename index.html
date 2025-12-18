@@ -147,6 +147,9 @@
           <a href="#projections" class="px-4 py-2 bg-white text-gray-900 hover:bg-gray-50 hover:text-red-800 focus:outline-none focus:ring-2 focus:ring-red-500 border border-gray-300 rounded-full whitespace-nowrap">
             Projections
           </a>
+          <a href="#schedule" class="px-4 py-2 bg-white text-gray-900 hover:bg-gray-50 hover:text-red-800 focus:outline-none focus:ring-2 focus:ring-red-500 border border-gray-300 rounded-full whitespace-nowrap">
+            Schedule
+          </a>
         </div>
       </div>
     
@@ -195,6 +198,12 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605" />
                           </svg>
                           Projections
+                    </a>
+                    <a href="#schedule" class="flex items-center px-3 py-2 text-sm font-normal text-gray-700 rounded-lg hover:bg-gray-100 hover:text-red-700 transition-colors duration-200">
+                        <svg class="hover:stroke-red-700 w-4 h-4 mr-3 text-gray-500" xmlns="https://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                          </svg>
+                          Schedule
                     </a>
 
                 </nav>
@@ -641,6 +650,38 @@
                 </div>
             </section>
             
+            <!-- Schedule Section -->
+            <section id="schedule" class="scroll-mt-24">
+                <div class="shadow-sm bg-white border rounded-lg border-gray-200 overflow-hidden">
+                    <div class="p-4">
+                        <h2 class="flex items-center text-md font-medium text-gray-800">
+                        <svg class="hover:stroke-red-700 w-4 h-4 mr-2 text-gray-500" xmlns="https://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                          </svg>Schedule</h2>
+                    </div>
+                    
+                    <div class="overflow-x-auto max-w-full">
+                        <table class="ratings-table w-full min-w-max">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider geist-mono">
+                                        Opponent
+                                    </th> 
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider geist-mono">
+                                        Date
+                                    </th>
+                                    <th class="px-6 py-3 text-right text-xs font-medium text-gray-400 uppercase tracking-wider geist-mono">
+                                        Result
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="schedule-table-body" class="divide-y divide-gray-200">
+                                <!-- Games -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
 
             <!-- Footnotes and Inspiration -->
             <section id="footnotes" class="space-y-4 text-xs text-gray-600 leading-relaxed py-4">
@@ -695,6 +736,7 @@
     <!-- Easier to comment out dot-plot when few rankings exist early in season -->
     <script src="/js/dot-plot.js"></script>
     <script src="/js/load-data.js"></script>
+    <script src="/js/load-schedule.js"></script>
     
     <script>
         function setActiveQuadButton(clickedButton) {
@@ -705,6 +747,7 @@
             // Add active class to clicked button
             clickedButton.classList.add('active');
         }
+        
     </script>
     
     <!-- Google tag (gtag.js) -->
