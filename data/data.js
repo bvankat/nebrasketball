@@ -140,7 +140,14 @@
     },
     "haslametrics": {
         "haslam_rating": "12",
-        "seed": "2"
+        "seed": "OUT"
+    },
+    "kenpom": {
+        "conference_record": "13-7",
+        "overall_record": "24-7",
+        "rating": 21,
+        "record": "11-0",
+        "sos": 75
     },
     "kpi_sports": {
         "kpi_ranking": 4
@@ -178,8 +185,8 @@
         "rank": "28"
     },
     "time": {
-        "iso_time": "2025-12-18T00:29:45.850110",
-        "time": "Dec. 18 at 12:29 AM"
+        "iso_time": "2025-12-18T00:39:49.250220",
+        "time": "Dec. 18 at 12:39 AM"
     },
     "trank": {
         "torvik_NET": "22",
