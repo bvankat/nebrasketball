@@ -41,7 +41,7 @@ async function loadSchedule() {
 			
 			// Check if it's an away game (opponent is first in competitors array)
 			const isAway = game.competitors[0].team_id !== '158';
-			const locationPrefix = isAway ? 'at ' : '';
+			const locationPrefix = isAway ? '<span class="font-light text-xs text-gray-500">at</span> ' : '';
 			
 			// Determine result
 			let result = '—';
