@@ -185,8 +185,8 @@
         "rank": "28"
     },
     "time": {
-        "iso_time": "2025-12-17T23:22:57.085324",
-        "time": "Dec. 17 at 11:22 PM"
+        "iso_time": "2025-12-17T23:38:15.490413",
+        "time": "Dec. 17 at 11:38 PM"
     },
     "trank": {
         "torvik_NET": "22",
