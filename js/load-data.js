@@ -1,58 +1,121 @@
-  async function loadData() {
-	  const response = await fetch('/data/data.js');
-	  const data = await response.json();
-	  console.dir(data); 
+async function loadData() {
+	console.log('=== loadData function started ===');
+	const response = await fetch('/data/data.js');
+	const data = await response.json();
+	console.dir(data);
+	
+	// Load historical updates to calculate deltas
+	const updatesResponse = await fetch('/data/updates-2026.js');
+	const updatesData = await updatesResponse.json();
 	  
-	  var dotPlotData = {};
+  // Get yesterday's date and format it to match the updates file format
+  const today = new Date();
+  const yesterday = new Date(today);
+  yesterday.setDate(yesterday.getDate() - 1);
+  
+  // Format: "Dec. 17" or "Jan. 5", etc.
+  const monthNames = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'Jun.', 'Jul.', 'Aug.', 'Sep.', 'Oct.', 'Nov.', 'Dec.'];
+  const yesterdayStr = `${monthNames[yesterday.getMonth()]} ${yesterday.getDate()}`;
+  
+  console.log("Looking for updates from:", yesterdayStr);
+  
+  // Find the oldest (first) update from yesterday
+  let yesterdayData = null;
+  for (let i = 0; i < updatesData.updates.length; i++) {
+      const update = updatesData.updates[i];
+      if (update.time && update.time.time && update.time.time.startsWith(yesterdayStr)) {
+          yesterdayData = update;
+          console.log("Found yesterday's oldest data at index:", i);
+          break;
+      }
+  }
+  
+  console.log("Yesterday's data:", yesterdayData); 
+  
+  // Helper function to calculate and format delta
+  function getDeltaHTML(currentRank, yesterdayRank) {
+      if (!yesterdayRank || yesterdayRank === null || yesterdayRank === "NA" || yesterdayRank === "NR") {
+          return '';
+      }
+      
+      const current = parseInt(currentRank);
+      const yesterday = parseInt(yesterdayRank);
+      
+      if (isNaN(current) || isNaN(yesterday)) {
+          return '';
+      }
+      
+      const delta = yesterday - current; // Positive delta means improved (moved up in ranking)
+      
+      if (delta === 0) {
+          return '';
+      } else if (delta > 0) {
+          // Improved (moved up in ranking)
+          return `<span class="text-green-800/50 text-xs font-medium">↑${delta}</span>`;
+      } else {
+          // Declined (moved down in ranking)
+          return `<span class="text-red-800/50 text-xs font-medium">↓${Math.abs(delta)}</span>`;
+      }
+  }
+
+var dotPlotData = {};
 	
 	// replace this with NCAA when real NET is released. Nolan is approximation, but calculated earlier in season
 	// Using Torvik NET Forecast as of Nov. 2023 - https://barttorvik.com/net4cast.php
 	// Nolan NET matches NCAA NET on Dec. 11, 2023. Torvik NET is off by 7 spots (NCAA, Nolan: 68; Torvik 61)
 	
 	if ( data.ncaa ) {  
-		document.getElementById('ncaa-net').innerHTML = data.ncaa.net_rank; 
-	} else if (data.trank) {
-		document.getElementById('ncaa-net').innerHTML = data.trank.torvik_NET; 
-		// document.getElementById('ncaa-net-note').innerHTML = "projected"; 
-	}
-	
-	if ( data.kenpom ) {
-		document.getElementById('kenpom-rating').innerHTML = data.kenpom.rating;
-		document.getElementById('kenpom-overall-2').innerHTML = data.kenpom.overall_record;
-		document.getElementById('kenpom-conference-2').innerHTML = data.kenpom.conference_record;
-		document.getElementById('kenpom-record').innerHTML = data.kenpom.record;
-	}
+		const delta = yesterdayData && yesterdayData.ncaa ? getDeltaHTML(data.ncaa.net_rank, yesterdayData.ncaa.net_rank) : '';
+	console.log('NCAA NET delta:', delta, 'Current:', data.ncaa.net_rank, 'Yesterday:', yesterdayData?.ncaa?.net_rank);
+	document.getElementById('ncaa-net').innerHTML = delta + data.ncaa.net_rank; 
+} else if (data.trank) {
+	const delta = yesterdayData && yesterdayData.trank ? getDeltaHTML(data.trank.torvik_NET, yesterdayData.trank.torvik_NET) : '';
+	console.log('Torvik NET delta:', delta, 'Current:', data.trank.torvik_NET, 'Yesterday:', yesterdayData?.trank?.torvik_NET);
+	document.getElementById('ncaa-net').innerHTML = delta + data.trank.torvik_NET; 
+	// document.getElementById('ncaa-net-note').innerHTML = "projected"; 
+}
 
-	if ( data.kpi_sports ) {
-		if (data.kpi_sports.kpi_ranking == null) {
-			document.getElementById('kpi_ranking').innerHTML = "<span class='small text-muted'>NA</span>";
-		} else {
-		document.getElementById('kpi_ranking').innerHTML = data.kpi_sports.kpi_ranking;
-		}
+if ( data.kenpom ) {
+	const delta = yesterdayData && yesterdayData.kenpom ? getDeltaHTML(data.kenpom.rating, yesterdayData.kenpom.rating) : '';
+	console.log('Kenpom delta:', delta, 'Current:', data.kenpom.rating, 'Yesterday:', yesterdayData?.kenpom?.rating);
+	document.getElementById('kenpom-rating').innerHTML = delta + data.kenpom.rating;
+	document.getElementById('kenpom-overall-2').innerHTML = data.kenpom.overall_record;
+	document.getElementById('kenpom-conference-2').innerHTML = data.kenpom.conference_record;
+	document.getElementById('kenpom-record').innerHTML = data.kenpom.record;
+}
+
+if ( data.kpi_sports ) {
+	if (data.kpi_sports.kpi_ranking == null) {
+		document.getElementById('kpi_ranking').innerHTML = "<span class='small text-muted'>NA</span>";
+	} else {
+		const delta = yesterdayData && yesterdayData.kpi_sports ? getDeltaHTML(data.kpi_sports.kpi_ranking, yesterdayData.kpi_sports.kpi_ranking) : '';
+		console.log('KPI delta:', delta, 'Current:', data.kpi_sports.kpi_ranking, 'Yesterday:', yesterdayData?.kpi_sports?.kpi_ranking);
+		document.getElementById('kpi_ranking').innerHTML = delta + data.kpi_sports.kpi_ranking;
 	}
+}
 
 	if ( data.espn ) {
-		document.getElementById('espn-rating').innerHTML = data.espn.bpi;
-		dotPlotData['BPI'] = data.espn.bpi;
-		document.getElementById('espn-proj-tourney-seed').innerHTML = data.espn.proj_tourney_seed;
-		document.getElementById('espn-wl').innerHTML = data.espn.proj_win_loss_overall;
-		document.getElementById('espn-cwl').innerHTML = data.espn.proj_win_loss_conf;
-		
+		const bpiDelta = yesterdayData && yesterdayData.espn ? getDeltaHTML(data.espn.bpi, yesterdayData.espn.bpi) : '';
+	console.log('BPI delta:', bpiDelta, 'Current:', data.espn.bpi, 'Yesterday:', yesterdayData?.espn?.bpi);
+	document.getElementById('espn-rating').innerHTML = bpiDelta + data.espn.bpi;
+	dotPlotData['BPI'] = data.espn.bpi;
+	document.getElementById('espn-proj-tourney-seed').innerHTML = data.espn.proj_tourney_seed;
+	document.getElementById('espn-wl').innerHTML = data.espn.proj_win_loss_overall;
+	document.getElementById('espn-cwl').innerHTML = data.espn.proj_win_loss_conf;
+	
 		if (data.espn.sor == null) {
-			document.getElementById('espn-sor').innerHMTL = "NA";
+			document.getElementById('espn-sor').innerHTML = "NA";
 		} else {
-			document.getElementById('espn-sor').innerHTML = data.espn.sor;
-		}
-		// document.getElementById('espn-sweet16').innerHTML = data.espn.chance_sweet_16;
-		// document.getElementById('espn-round-32').innerHTML = data.espn.chance_round_32;
-		document.getElementById('espn-sor-s-curve').innerHTML = data.espn.projected_tournament_order;
+			const sorDelta = yesterdayData && yesterdayData.espn ? getDeltaHTML(data.espn.sor, yesterdayData.espn.sor) : '';
+			console.log('SOR delta:', sorDelta, 'Current:', data.espn.sor, 'Yesterday:', yesterdayData?.espn?.sor);
+		document.getElementById('espn-sor').innerHTML = sorDelta + data.espn.sor;
 	}
-	
-	if (data.espn_bracketology) {
-		document.getElementById('espn-bracketology-seed').innerHTML = data.espn_bracketology.seed;
+	// document.getElementById('espn-sweet16').innerHTML = data.espn.chance_sweet_16;
+	// document.getElementById('espn-round-32').innerHTML = data.espn.chance_round_32;
+	document.getElementById('espn-sor-s-curve').innerHTML = data.espn.projected_tournament_order;
 	}
-	
-	if (data.next_game) {
+		
+		if (data.next_game) {
 		document.getElementById('nextGame-teams').innerHTML = "<img src='" + data.next_game.away_team_logo + "' class='team-logo' > <strong>" + data.next_game.away_team + "</strong> at <img src='" + data.next_game.home_team_logo + "' class='team-logo' > <strong>" + data.next_game.home_team + "</strong>";
 		
 		// Format the date/time to local time: "Wed, Dec 17 6:00 PM"
@@ -95,14 +158,19 @@
 	if ( data.trank ) {
 		document.getElementById('trank-proj').innerHTML = data.trank.trank_proj_record;
 		document.getElementById('trank-seed').innerHTML = data.trank.trank_seed;
-		document.getElementById('trank-trank').innerHTML = data.trank.trank;
 		
-		document.getElementById('wab-score').innerHTML = data.trank.wab_score;
-		document.getElementById('wab-rank').innerHTML = data.trank.wab_rank;
+		const trankDelta = yesterdayData && yesterdayData.trank ? getDeltaHTML(data.trank.trank, yesterdayData.trank.trank) : '';
+		console.log('Torvik delta:', trankDelta, 'Current:', data.trank.trank, 'Yesterday:', yesterdayData?.trank?.trank);
+	document.getElementById('trank-trank').innerHTML = trankDelta + data.trank.trank;
 	
-		var trank_tourney_pct = data.trank.trank_make_tourney + "%";
-		document.getElementById('trank-make-tourney').innerHTML = trank_tourney_pct;
-	}
+	document.getElementById('wab-score').innerHTML = data.trank.wab_score;
+	const wabDelta = yesterdayData && yesterdayData.trank ? getDeltaHTML(data.trank.wab_rank, yesterdayData.trank.wab_rank) : '';
+	console.log('WAB delta:', wabDelta, 'Current:', data.trank.wab_rank, 'Yesterday:', yesterdayData?.trank?.wab_rank);
+	document.getElementById('wab-rank').innerHTML = wabDelta + data.trank.wab_rank;
+	
+	var trank_tourney_pct = data.trank.trank_make_tourney + "%";
+	document.getElementById('trank-make-tourney').innerHTML = trank_tourney_pct;
+}
 
 	if ( data.haslametrics ) {
 		document.getElementById('haslam-rating').innerHTML = data.haslametrics.haslam_rating;

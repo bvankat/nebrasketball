@@ -22,7 +22,7 @@ body {
 .dot-label { text-anchor: middle; }
 
 /* .ratings-table styles */
-.ratings-table td:nth-child(2), .ratings-table td:last-child { font-family: var(--geist-mono); font-weight: 500; }
+.ratings-table td:nth-child(2), .ratings-table td:last-child { font-family: var(--geist-mono); font-weight: 600; }
 
 /* Quadrant game table styles */
 .quad-games { font-size: 12px; width: 100%; font-weight: 500; color: rgb(107 114 128); }
