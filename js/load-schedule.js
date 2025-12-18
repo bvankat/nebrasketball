@@ -1,3 +1,23 @@
+// Helper function to get result color class
+function getResultColorClass(won) {
+	return won ? 'text-green-700' : 'text-red-700';
+}
+
+// Helper function to format time, removing :00 minutes
+function formatGameTime(hours, minutes) {
+	const ampm = hours >= 12 ? 'PM' : 'AM';
+	hours = hours % 12;
+	hours = hours ? hours : 12; // 0 should be 12
+	
+	// Only include minutes if they're not :00
+	if (minutes === 0) {
+		return `${hours} ${ampm}`;
+	} else {
+		const minutesStr = minutes < 10 ? '0' + minutes : minutes;
+		return `${hours}:${minutesStr} ${ampm}`;
+	}
+}
+
 // Load and display schedule data
 async function loadSchedule() {
 	try {
@@ -17,7 +37,7 @@ async function loadSchedule() {
 			// Format date
 			const gameDate = new Date(game.date);
 			const monthNames = ['Jan.', 'Feb.', 'March', 'Apr.', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
-			const formattedDate = monthNames[gameDate.getMonth()] + ' ' + gameDate.getDate();
+			let formattedDate = monthNames[gameDate.getMonth()] + ' ' + gameDate.getDate();
 			
 			// Check if it's an away game (opponent is first in competitors array)
 			const isAway = game.competitors[0].team_id !== '158';
@@ -29,7 +49,14 @@ async function loadSchedule() {
 				const nebScore = nebraska.score.displayValue;
 				const oppScore = opponent.score.displayValue;
 				const won = nebraska.winner;
-				result = `<span class="geist-mono">${nebScore}-${oppScore}</span> <span class="font-semibold text-green-700">${won ? 'W' : 'L'}</span>`;
+				const resultColorClass = getResultColorClass(won);
+				result = `<span class="geist-mono">${nebScore}-${oppScore}</span> <span class="font-semibold ${resultColorClass}">${won ? 'W' : 'L'}</span>`;
+			} else {
+				// For future games, add the time to the date
+				const hours = gameDate.getHours();
+				const minutes = gameDate.getMinutes();
+				const timeStr = formatGameTime(hours, minutes);
+				formattedDate += `  <span class="text-[10px] text-gray-400 ml-1">${timeStr}</span>`;
 			}
 			
 			row.innerHTML = `
