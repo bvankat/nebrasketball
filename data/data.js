@@ -142,13 +142,6 @@
         "haslam_rating": "12",
         "seed": "2"
     },
-    "kenpom": {
-        "conference_record": "13-7",
-        "overall_record": "24-7",
-        "rating": 21,
-        "record": "11-0",
-        "sos": 75
-    },
     "kpi_sports": {
         "kpi_ranking": 4
     },
@@ -176,17 +169,17 @@
         "SRS_rank": 24
     },
     "teamrankings": {
-        "make_tournament": "94.4%",
+        "make_tournament": "94.7%",
         "most_likely_seed": "5",
         "proj_conf_record": "12.1-7.9",
-        "projected_bid_pct": "94.4%",
+        "projected_bid_pct": "94.7%",
         "projected_losses": "7.9",
         "projected_wins": "23.1",
         "rank": "28"
     },
     "time": {
-        "iso_time": "2025-12-17T23:38:15.490413",
-        "time": "Dec. 17 at 11:38 PM"
+        "iso_time": "2025-12-18T00:29:45.850110",
+        "time": "Dec. 18 at 12:29 AM"
     },
     "trank": {
         "torvik_NET": "22",
