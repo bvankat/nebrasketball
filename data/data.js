@@ -121,36 +121,36 @@
         "bpi": 26.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 132.0,
+        "non_con_sos": 129.0,
         "proj_tourney_seed": "NA",
         "proj_win_loss_conf": "12.3-7.7",
         "proj_win_loss_overall": "23.2-7.8",
         "projected_tournament_order": "NA",
-        "seven_day_change": "12th",
+        "seven_day_change": "1st",
         "sor": 6.0,
-        "sos": 47.0
+        "sos": 41.0
     },
     "espn_bracketology": {
         "seed": "5"
     },
     "evanmiya": {
-        "miya_rating": "NA",
+        "miya_rating": 25,
         "miya_resume_category": "1-2 Seed",
         "miya_resume_rank": 7
     },
     "haslametrics": {
         "haslam_rating": "12",
-        "seed": "OUT"
+        "seed": "2"
     },
     "kenpom": {
         "conference_record": "13-7",
         "overall_record": "24-7",
         "rating": 21,
         "record": "11-0",
-        "sos": 75
+        "sos": 76
     },
     "kpi_sports": {
-        "kpi_ranking": 3
+        "kpi_ranking": 4
     },
     "massey_ratings": {
         "massey_rank": 13
@@ -170,23 +170,23 @@
         "coaches_rank": 15
     },
     "shot_quality": {
-        "sq_ranking": 25
+        "sq_ranking": 26
     },
     "sports_reference": {
-        "SRS_rank": 24
+        "SRS_rank": 23
     },
     "teamrankings": {
-        "make_tournament": "94.9%",
+        "make_tournament": "94.7%",
         "most_likely_seed": "5",
         "proj_conf_record": "12.1-7.9",
-        "projected_bid_pct": "94.9%",
+        "projected_bid_pct": "94.7%",
         "projected_losses": "7.9",
         "projected_wins": "23.1",
         "rank": "28"
     },
     "time": {
-        "iso_time": "2025-12-18T09:31:36.365738",
-        "time": "Dec. 18 at 9:31 AM"
+        "iso_time": "2025-12-19T09:37:21.248621",
+        "time": "Dec. 19 at 9:37 AM"
     },
     "trank": {
         "torvik_NET": "22",
