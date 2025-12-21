@@ -118,28 +118,28 @@
         "total_brackets": 35
     },
     "espn": {
-        "bpi": 26.0,
+        "bpi": 25.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 130.0,
+        "non_con_sos": 124.0,
         "proj_tourney_seed": "NA",
-        "proj_win_loss_conf": "12.3-7.7",
-        "proj_win_loss_overall": "23.3-7.7",
+        "proj_win_loss_conf": "12.2-7.8",
+        "proj_win_loss_overall": "23.2-7.8",
         "projected_tournament_order": "NA",
-        "seven_day_change": "1st",
-        "sor": 6.0,
-        "sos": 42.0
+        "seven_day_change": "2nd",
+        "sor": 5.0,
+        "sos": 43.0
     },
     "espn_bracketology": {
         "seed": "5"
     },
     "evanmiya": {
-        "miya_rating": 25,
+        "miya_rating": "NA",
         "miya_resume_category": "1-2 Seed",
-        "miya_resume_rank": 7
+        "miya_resume_rank": 8
     },
     "haslametrics": {
-        "haslam_rating": "11",
+        "haslam_rating": "12",
         "seed": "2"
     },
     "kenpom": {
@@ -150,7 +150,7 @@
         "sos": 80
     },
     "kpi_sports": {
-        "kpi_ranking": 5
+        "kpi_ranking": 4
     },
     "massey_ratings": {
         "massey_rank": 13
@@ -170,26 +170,26 @@
         "coaches_rank": 15
     },
     "shot_quality": {
-        "sq_ranking": 29
+        "sq_ranking": 28
     },
     "sports_reference": {
-        "SRS_rank": 24
+        "SRS_rank": 22
     },
     "teamrankings": {
-        "make_tournament": "94.0%",
+        "make_tournament": "95.2%",
         "most_likely_seed": "6",
         "proj_conf_record": "12.1-7.9",
-        "projected_bid_pct": "94.0%",
+        "projected_bid_pct": "95.2%",
         "projected_losses": "7.9",
         "projected_wins": "23.1",
-        "rank": "28"
+        "rank": "27"
     },
     "time": {
-        "iso_time": "2025-12-20T23:30:43.112671",
-        "time": "Dec. 20 at 11:30 PM"
+        "iso_time": "2025-12-21T11:52:01.066926",
+        "time": "Dec. 21 at 11:52 AM"
     },
     "trank": {
-        "torvik_NET": "22",
+        "torvik_NET": "20",
         "trank": 21,
         "trank_make_tourney": 99.8,
         "trank_proj_record": "24-7 (13-7)",
@@ -202,10 +202,10 @@
         "elo": "14",
         "nolan_net": "11",
         "quadrant_1": "1-0",
-        "quadrant_2": "4-0",
-        "quadrant_3": "2-0",
+        "quadrant_2": "5-0",
+        "quadrant_3": "1-0",
         "quadrant_4": "4-0",
         "record": "11-0",
-        "rpi": "3"
+        "rpi": "4"
     }
 }
