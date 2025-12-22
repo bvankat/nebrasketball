@@ -185,8 +185,17 @@
         "rank": "28"
     },
     "time": {
-        "iso_time": "2025-12-22T15:04:03.196425",
-        "time": "Dec. 22 at 3:04 PM"
+        "iso_time": "2025-12-22T15:22:18.989630",
+        "time": "Dec. 22 at 3:22 PM"
+    },
+    "trank": {
+        "torvik_NET": "22",
+        "trank": 24,
+        "trank_make_tourney": 99.9,
+        "trank_proj_record": "23-8 (13-7)",
+        "trank_seed": "5",
+        "wab_rank": 9,
+        "wab_score": "+3.1"
     },
     "warrennolan": {
         "current_conf_record": "2-0",
