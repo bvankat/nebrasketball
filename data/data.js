@@ -147,7 +147,7 @@
         "overall_record": "24-7",
         "rating": 21,
         "record": "12-0",
-        "sos": 134
+        "sos": 133
     },
     "kpi_sports": {
         "kpi_ranking": 6
@@ -166,8 +166,8 @@
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
-        "ap_rank": 15,
-        "coaches_rank": 15
+        "ap_rank": 13,
+        "coaches_rank": 13
     },
     "shot_quality": {
         "sq_ranking": 31
@@ -185,17 +185,8 @@
         "rank": "28"
     },
     "time": {
-        "iso_time": "2025-12-22T10:40:15.005560",
-        "time": "Dec. 22 at 10:40 AM"
-    },
-    "trank": {
-        "torvik_NET": "22",
-        "trank": 24,
-        "trank_make_tourney": 99.9,
-        "trank_proj_record": "23-8 (13-7)",
-        "trank_seed": "5",
-        "wab_rank": 9,
-        "wab_score": "+3.1"
+        "iso_time": "2025-12-22T15:04:03.196425",
+        "time": "Dec. 22 at 3:04 PM"
     },
     "warrennolan": {
         "current_conf_record": "2-0",
