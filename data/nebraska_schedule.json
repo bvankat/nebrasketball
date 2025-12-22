@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-21T11:48:58.135290",
+  "lastUpdated": "2025-12-22T10:26:24.317179",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -306,11 +306,14 @@
           "date": "2025-12-22T01:00Z",
           "competitors": [
             {
-              "winner": false,
+              "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-              "score": null,
+              "score": {
+                "value": 78.0,
+                "displayValue": "78"
+              },
               "gameRank": 15
             },
             {
@@ -318,7 +321,10 @@
               "team_id": "155",
               "team_nickname": "North Dakota",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
-              "score": null,
+              "score": {
+                "value": 55.0,
+                "displayValue": "55"
+              },
               "gameRank": 99
             }
           ]
