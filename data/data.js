@@ -142,9 +142,21 @@
     "espn_bracketology": {
         "seed": "4"
     },
+    "evanmiya": {
+        "miya_rating": 21,
+        "miya_resume_category": "1-2 Seed",
+        "miya_resume_rank": 8
+    },
     "haslametrics": {
         "haslam_rating": "17",
         "seed": "2"
+    },
+    "kenpom": {
+        "conference_record": "13-7",
+        "overall_record": "24-7",
+        "rating": 22,
+        "record": "12-0",
+        "sos": 131
     },
     "kpi_sports": {
         "kpi_ranking": 5
@@ -169,6 +181,9 @@
     "shot_quality": {
         "sq_ranking": 30
     },
+    "sports_reference": {
+        "SRS_rank": 27
+    },
     "teamrankings": {
         "make_tournament": "95.9%",
         "most_likely_seed": "6",
@@ -179,8 +194,8 @@
         "rank": "29"
     },
     "time": {
-        "iso_time": "2025-12-23T12:06:43.758668",
-        "time": "Dec. 23 at 12:06 PM"
+        "iso_time": "2025-12-23T12:09:56.190714",
+        "time": "Dec. 23 at 12:09 PM"
     },
     "trank": {
         "torvik_NET": "23",
