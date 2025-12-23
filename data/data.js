@@ -5,7 +5,7 @@
                 "date": "12/13/2025",
                 "location": "Away",
                 "opponent": "Illinois",
-                "opponent_NET": "13",
+                "opponent_NET": "10",
                 "opponent_rank": "13",
                 "result": "W",
                 "score": "83-80"
@@ -17,7 +17,7 @@
                 "date": "11/15/2025",
                 "location": "Neutral",
                 "opponent": "Oklahoma",
-                "opponent_NET": "61",
+                "opponent_NET": "52",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "105-99"
@@ -26,7 +26,7 @@
                 "date": "11/20/2025",
                 "location": "Neutral",
                 "opponent": "New Mexico",
-                "opponent_NET": "55",
+                "opponent_NET": "57",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "84-72"
@@ -35,7 +35,7 @@
                 "date": "11/21/2025",
                 "location": "Neutral",
                 "opponent": "Kansas St.",
-                "opponent_NET": "52",
+                "opponent_NET": "53",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-85"
@@ -53,7 +53,7 @@
                 "date": "12/10/2025",
                 "location": "Home",
                 "opponent": "Wisconsin",
-                "opponent_NET": "75",
+                "opponent_NET": "69",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "90-60"
@@ -65,7 +65,7 @@
                 "date": "11/25/2025",
                 "location": "Home",
                 "opponent": "Winthrop",
-                "opponent_NET": "129",
+                "opponent_NET": "126",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "80-73"
@@ -77,7 +77,7 @@
                 "date": "11/03/2025",
                 "location": "Home",
                 "opponent": "West Ga.",
-                "opponent_NET": "267",
+                "opponent_NET": "262",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-53"
@@ -95,7 +95,7 @@
                 "date": "11/11/2025",
                 "location": "Home",
                 "opponent": "UMES",
-                "opponent_NET": "335",
+                "opponent_NET": "332",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "69-50"
@@ -104,59 +104,56 @@
                 "date": "11/29/2025",
                 "location": "Home",
                 "opponent": "USC Upstate",
-                "opponent_NET": "212",
+                "opponent_NET": "211",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "72-63"
+            },
+            {
+                "date": "12/21/2025",
+                "location": "Home",
+                "opponent": "North Dakota",
+                "opponent_NET": "306",
+                "opponent_rank": null,
+                "result": "W",
+                "score": "78-55"
             }
         ],
-        "quad4record": "4-0"
+        "quad4record": "5-0"
     },
     "bracketproject": {
-        "matrix_count": 35,
+        "matrix_count": 32,
         "matrix_seed": 3,
-        "total_brackets": 35
+        "total_brackets": 32
     },
     "espn": {
-        "bpi": 27.0,
+        "bpi": 25.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 168.0,
+        "non_con_sos": 162.0,
         "proj_tourney_seed": "NA",
         "proj_win_loss_conf": "12.2-7.8",
         "proj_win_loss_overall": "23.2-7.8",
         "projected_tournament_order": "NA",
-        "seven_day_change": "",
-        "sor": 6.0,
-        "sos": 72.0
+        "seven_day_change": "2nd",
+        "sor": 5.0,
+        "sos": 65.0
     },
     "espn_bracketology": {
-        "seed": "5"
-    },
-    "evanmiya": {
-        "miya_rating": 20,
-        "miya_resume_category": "3-5 Seed",
-        "miya_resume_rank": 9
+        "seed": "4"
     },
     "haslametrics": {
-        "haslam_rating": "18",
+        "haslam_rating": "17",
         "seed": "2"
     },
-    "kenpom": {
-        "conference_record": "13-7",
-        "overall_record": "24-7",
-        "rating": 21,
-        "record": "12-0",
-        "sos": 133
-    },
     "kpi_sports": {
-        "kpi_ranking": 6
+        "kpi_ranking": 5
     },
     "massey_ratings": {
-        "massey_rank": 13
+        "massey_rank": 12
     },
     "ncaa": {
-        "net_rank": "12"
+        "net_rank": "11"
     },
     "next_game": {
         "away_team": "New Hampshire",
@@ -170,42 +167,39 @@
         "coaches_rank": 13
     },
     "shot_quality": {
-        "sq_ranking": 31
-    },
-    "sports_reference": {
-        "SRS_rank": 22
+        "sq_ranking": 30
     },
     "teamrankings": {
-        "make_tournament": "94.8%",
+        "make_tournament": "95.9%",
         "most_likely_seed": "6",
         "proj_conf_record": "12.0-8.0",
-        "projected_bid_pct": "94.8%",
+        "projected_bid_pct": "95.9%",
         "projected_losses": "8.0",
         "projected_wins": "23.0",
-        "rank": "28"
+        "rank": "29"
     },
     "time": {
-        "iso_time": "2025-12-22T15:22:18.989630",
-        "time": "Dec. 22 at 3:22 PM"
+        "iso_time": "2025-12-23T12:06:43.758668",
+        "time": "Dec. 23 at 12:06 PM"
     },
     "trank": {
-        "torvik_NET": "22",
-        "trank": 24,
-        "trank_make_tourney": 99.9,
-        "trank_proj_record": "23-8 (13-7)",
+        "torvik_NET": "23",
+        "trank": 23,
+        "trank_make_tourney": 99.8,
+        "trank_proj_record": "23-8 (12-8)",
         "trank_seed": "5",
-        "wab_rank": 9,
+        "wab_rank": 8,
         "wab_score": "+3.1"
     },
     "warrennolan": {
         "current_conf_record": "2-0",
         "elo": "14",
-        "nolan_net": "12",
+        "nolan_net": "11",
         "quadrant_1": "1-0",
         "quadrant_2": "5-0",
         "quadrant_3": "1-0",
         "quadrant_4": "5-0",
         "record": "12-0",
-        "rpi": "5"
+        "rpi": "3"
     }
 }
