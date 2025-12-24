@@ -53,7 +53,7 @@
                 "date": "12/10/2025",
                 "location": "Home",
                 "opponent": "Wisconsin",
-                "opponent_NET": "69",
+                "opponent_NET": "67",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "90-60"
@@ -65,7 +65,7 @@
                 "date": "11/25/2025",
                 "location": "Home",
                 "opponent": "Winthrop",
-                "opponent_NET": "126",
+                "opponent_NET": "125",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "80-73"
@@ -77,7 +77,7 @@
                 "date": "11/03/2025",
                 "location": "Home",
                 "opponent": "West Ga.",
-                "opponent_NET": "262",
+                "opponent_NET": "263",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-53"
@@ -104,7 +104,7 @@
                 "date": "11/29/2025",
                 "location": "Home",
                 "opponent": "USC Upstate",
-                "opponent_NET": "211",
+                "opponent_NET": "208",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "72-63"
@@ -122,20 +122,20 @@
         "quad4record": "5-0"
     },
     "bracketproject": {
-        "matrix_count": 32,
+        "matrix_count": 36,
         "matrix_seed": 3,
-        "total_brackets": 32
+        "total_brackets": 36
     },
     "espn": {
         "bpi": 25.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 162.0,
+        "non_con_sos": 164.0,
         "proj_tourney_seed": "NA",
         "proj_win_loss_conf": "12.2-7.8",
         "proj_win_loss_overall": "23.2-7.8",
         "projected_tournament_order": "NA",
-        "seven_day_change": "2nd",
+        "seven_day_change": "1st",
         "sor": 5.0,
         "sos": 65.0
     },
@@ -148,7 +148,7 @@
         "miya_resume_rank": 8
     },
     "haslametrics": {
-        "haslam_rating": "17",
+        "haslam_rating": "15",
         "seed": "2"
     },
     "kenpom": {
@@ -182,29 +182,29 @@
         "sq_ranking": 30
     },
     "sports_reference": {
-        "SRS_rank": 27
+        "SRS_rank": 26
     },
     "teamrankings": {
-        "make_tournament": "95.9%",
+        "make_tournament": "96.0%",
         "most_likely_seed": "6",
         "proj_conf_record": "12.0-8.0",
-        "projected_bid_pct": "95.9%",
+        "projected_bid_pct": "96.0%",
         "projected_losses": "8.0",
         "projected_wins": "23.0",
         "rank": "29"
     },
     "time": {
-        "iso_time": "2025-12-23T12:09:56.190714",
-        "time": "Dec. 23 at 12:09 PM"
+        "iso_time": "2025-12-24T12:57:16.736950",
+        "time": "Dec. 24 at 12:57 PM"
     },
     "trank": {
-        "torvik_NET": "23",
+        "torvik_NET": "22",
         "trank": 23,
-        "trank_make_tourney": 99.8,
-        "trank_proj_record": "23-8 (12-8)",
+        "trank_make_tourney": 99.9,
+        "trank_proj_record": "23-8 (13-7)",
         "trank_seed": "5",
         "wab_rank": 8,
-        "wab_score": "+3.1"
+        "wab_score": "+3.2"
     },
     "warrennolan": {
         "current_conf_record": "2-0",
