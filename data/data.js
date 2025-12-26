@@ -143,7 +143,7 @@
         "seed": "4"
     },
     "evanmiya": {
-        "miya_rating": "NA",
+        "miya_rating": 21,
         "miya_resume_category": "1-2 Seed",
         "miya_resume_rank": 8
     },
@@ -185,23 +185,23 @@
         "SRS_rank": 26
     },
     "teamrankings": {
-        "make_tournament": "96.1%",
+        "make_tournament": "96.0%",
         "most_likely_seed": "6",
         "proj_conf_record": "12.0-8.0",
-        "projected_bid_pct": "96.1%",
+        "projected_bid_pct": "96.0%",
         "projected_losses": "8.0",
         "projected_wins": "23.0",
         "rank": "29"
     },
     "time": {
-        "iso_time": "2025-12-25T11:36:39.486181",
-        "time": "Dec. 25 at 11:36 AM"
+        "iso_time": "2025-12-26T11:36:11.662135",
+        "time": "Dec. 26 at 11:36 AM"
     },
     "trank": {
         "torvik_NET": "22",
         "trank": 23,
-        "trank_make_tourney": 99.8,
-        "trank_proj_record": "23-8 (13-7)",
+        "trank_make_tourney": 99.7,
+        "trank_proj_record": "23-8 (12-8)",
         "trank_seed": "5",
         "wab_rank": 8,
         "wab_score": "+3.2"
