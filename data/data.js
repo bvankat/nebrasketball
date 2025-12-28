@@ -77,7 +77,7 @@
                 "date": "11/03/2025",
                 "location": "Home",
                 "opponent": "West Ga.",
-                "opponent_NET": "263",
+                "opponent_NET": "262",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-53"
@@ -104,7 +104,7 @@
                 "date": "11/29/2025",
                 "location": "Home",
                 "opponent": "USC Upstate",
-                "opponent_NET": "208",
+                "opponent_NET": "207",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "72-63"
@@ -135,7 +135,7 @@
         "proj_win_loss_conf": "12.2-7.8",
         "proj_win_loss_overall": "23.2-7.8",
         "projected_tournament_order": "NA",
-        "seven_day_change": "1st",
+        "seven_day_change": "",
         "sor": 5.0,
         "sos": 65.0
     },
@@ -143,9 +143,9 @@
         "seed": "4"
     },
     "evanmiya": {
-        "miya_rating": "NA",
-        "miya_resume_category": "NA",
-        "miya_resume_rank": "NA"
+        "miya_rating": 21,
+        "miya_resume_category": "3-5 Seed",
+        "miya_resume_rank": 9
     },
     "haslametrics": {
         "haslam_rating": "15",
@@ -154,9 +154,9 @@
     "kenpom": {
         "conference_record": "13-7",
         "overall_record": "24-7",
-        "rating": 22,
+        "rating": 24,
         "record": "12-0",
-        "sos": 131
+        "sos": 134
     },
     "kpi_sports": {
         "kpi_ranking": 5
@@ -185,26 +185,26 @@
         "SRS_rank": 26
     },
     "teamrankings": {
-        "make_tournament": "95.6%",
+        "make_tournament": "96.1%",
         "most_likely_seed": "6",
         "proj_conf_record": "12.0-8.0",
-        "projected_bid_pct": "95.6%",
+        "projected_bid_pct": "96.1%",
         "projected_losses": "8.0",
         "projected_wins": "23.0",
         "rank": "29"
     },
     "time": {
-        "iso_time": "2025-12-28T01:25:57.106213",
-        "time": "Dec. 28 at 1:25 AM"
+        "iso_time": "2025-12-28T16:07:46.574555",
+        "time": "Dec. 28 at 4:07 PM"
     },
     "trank": {
         "torvik_NET": "22",
-        "trank": 23,
+        "trank": 24,
         "trank_make_tourney": 99.8,
         "trank_proj_record": "23-8 (12-8)",
         "trank_seed": "5",
-        "wab_rank": 8,
-        "wab_score": "+3.2"
+        "wab_rank": 10,
+        "wab_score": "+3.1"
     },
     "warrennolan": {
         "current_conf_record": "2-0",
@@ -215,6 +215,6 @@
         "quadrant_3": "1-0",
         "quadrant_4": "5-0",
         "record": "12-0",
-        "rpi": "3"
+        "rpi": "5"
     }
 }
