@@ -122,9 +122,9 @@
         "quad4record": "5-0"
     },
     "bracketproject": {
-        "matrix_count": 36,
+        "matrix_count": 45,
         "matrix_seed": 3,
-        "total_brackets": 36
+        "total_brackets": 45
     },
     "espn": {
         "bpi": 25.0,
@@ -144,8 +144,8 @@
     },
     "evanmiya": {
         "miya_rating": 21,
-        "miya_resume_category": "1-2 Seed",
-        "miya_resume_rank": 8
+        "miya_resume_category": "3-5 Seed",
+        "miya_resume_rank": 9
     },
     "haslametrics": {
         "haslam_rating": "15",
@@ -179,28 +179,28 @@
         "coaches_rank": 13
     },
     "shot_quality": {
-        "sq_ranking": 30
+        "sq_ranking": 29
     },
     "sports_reference": {
         "SRS_rank": 26
     },
     "teamrankings": {
-        "make_tournament": "96.0%",
+        "make_tournament": "95.6%",
         "most_likely_seed": "6",
         "proj_conf_record": "12.0-8.0",
-        "projected_bid_pct": "96.0%",
+        "projected_bid_pct": "95.6%",
         "projected_losses": "8.0",
         "projected_wins": "23.0",
         "rank": "29"
     },
     "time": {
-        "iso_time": "2025-12-26T11:55:49.640377",
-        "time": "Dec. 26 at 11:55 AM"
+        "iso_time": "2025-12-28T01:09:31.737371",
+        "time": "Dec. 28 at 1:09 AM"
     },
     "trank": {
         "torvik_NET": "22",
         "trank": 23,
-        "trank_make_tourney": 99.7,
+        "trank_make_tourney": 99.8,
         "trank_proj_record": "23-8 (12-8)",
         "trank_seed": "5",
         "wab_rank": 8,
