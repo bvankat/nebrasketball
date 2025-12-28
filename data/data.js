@@ -143,9 +143,9 @@
         "seed": "4"
     },
     "evanmiya": {
-        "miya_rating": 21,
-        "miya_resume_category": "3-5 Seed",
-        "miya_resume_rank": 9
+        "miya_rating": "NA",
+        "miya_resume_category": "NA",
+        "miya_resume_rank": "NA"
     },
     "haslametrics": {
         "haslam_rating": "15",
@@ -194,8 +194,8 @@
         "rank": "29"
     },
     "time": {
-        "iso_time": "2025-12-28T01:09:31.737371",
-        "time": "Dec. 28 at 1:09 AM"
+        "iso_time": "2025-12-28T01:25:57.106213",
+        "time": "Dec. 28 at 1:25 AM"
     },
     "trank": {
         "torvik_NET": "22",
