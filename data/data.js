@@ -142,21 +142,9 @@
     "espn_bracketology": {
         "seed": "4"
     },
-    "evanmiya": {
-        "miya_rating": 21,
-        "miya_resume_category": "3-5 Seed",
-        "miya_resume_rank": 9
-    },
     "haslametrics": {
-        "haslam_rating": "15",
-        "seed": "2"
-    },
-    "kenpom": {
-        "conference_record": "13-7",
-        "overall_record": "24-7",
-        "rating": 24,
-        "record": "12-0",
-        "sos": 134
+        "haslam_rating": "16",
+        "seed": "3"
     },
     "kpi_sports": {
         "kpi_ranking": 5
@@ -179,10 +167,7 @@
         "coaches_rank": 13
     },
     "shot_quality": {
-        "sq_ranking": 29
-    },
-    "sports_reference": {
-        "SRS_rank": 26
+        "sq_ranking": 30
     },
     "teamrankings": {
         "make_tournament": "96.1%",
@@ -191,20 +176,20 @@
         "projected_bid_pct": "96.1%",
         "projected_losses": "8.0",
         "projected_wins": "23.0",
-        "rank": "29"
+        "rank": "30"
     },
     "time": {
-        "iso_time": "2025-12-28T16:07:46.574555",
-        "time": "Dec. 28 at 4:07 PM"
+        "iso_time": "2025-12-29T00:56:12.009173",
+        "time": "Dec. 29 at 12:56 AM"
     },
     "trank": {
-        "torvik_NET": "22",
+        "torvik_NET": "24",
         "trank": 24,
         "trank_make_tourney": 99.8,
         "trank_proj_record": "23-8 (12-8)",
         "trank_seed": "5",
-        "wab_rank": 10,
-        "wab_score": "+3.1"
+        "wab_rank": 9,
+        "wab_score": "+3.0"
     },
     "warrennolan": {
         "current_conf_record": "2-0",
