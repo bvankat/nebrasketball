@@ -122,9 +122,9 @@
         "quad4record": "5-0"
     },
     "bracketproject": {
-        "matrix_count": 46,
+        "matrix_count": 48,
         "matrix_seed": 3,
-        "total_brackets": 46
+        "total_brackets": 48
     },
     "espn": {
         "bpi": 27.0,
@@ -143,20 +143,20 @@
         "seed": "4"
     },
     "evanmiya": {
-        "miya_rating": 21,
+        "miya_rating": 22,
         "miya_resume_category": "3-5 Seed",
         "miya_resume_rank": 9
     },
     "haslametrics": {
         "haslam_rating": "17",
-        "seed": "2"
+        "seed": "3"
     },
     "kenpom": {
         "conference_record": "13-7",
         "overall_record": "24-7",
-        "rating": 23,
-        "record": "12-0",
-        "sos": 142
+        "rating": 22,
+        "record": "13-0",
+        "sos": 196
     },
     "kpi_sports": {
         "kpi_ranking": 6
@@ -179,39 +179,39 @@
         "coaches_rank": "NA"
     },
     "shot_quality": {
-        "sq_ranking": 30
+        "sq_ranking": 31
     },
     "teamrankings": {
-        "make_tournament": "95.0%",
+        "make_tournament": "95.4%",
         "most_likely_seed": "6",
         "proj_conf_record": "11.9-8.1",
-        "projected_bid_pct": "95.0%",
+        "projected_bid_pct": "95.4%",
         "projected_losses": "8.1",
         "projected_wins": "22.9",
         "rank": "31"
     },
     "time": {
-        "iso_time": "2025-12-30T12:40:13.803135",
-        "time": "Dec. 30 at 12:40 PM"
+        "iso_time": "2025-12-31T00:47:54.859005",
+        "time": "Dec. 31 at 12:47 AM"
     },
     "trank": {
-        "torvik_NET": "26",
+        "torvik_NET": "23",
         "trank": 25,
         "trank_make_tourney": 99.7,
         "trank_proj_record": "23-8 (12-8)",
         "trank_seed": "5",
-        "wab_rank": 10,
+        "wab_rank": 9,
         "wab_score": "+3.0"
     },
     "warrennolan": {
         "current_conf_record": "2-0",
-        "elo": "15",
+        "elo": "16",
         "nolan_net": "11",
         "quadrant_1": "2-0",
         "quadrant_2": "4-0",
         "quadrant_3": "1-0",
-        "quadrant_4": "5-0",
-        "record": "12-0",
-        "rpi": "4"
+        "quadrant_4": "6-0",
+        "record": "13-0",
+        "rpi": "12"
     }
 }
