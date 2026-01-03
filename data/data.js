@@ -147,14 +147,14 @@
         "bpi": 26.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 226.0,
+        "non_con_sos": 224.0,
         "proj_tourney_seed": "NA",
-        "proj_win_loss_conf": "12.1-7.9",
-        "proj_win_loss_overall": "23.1-7.9",
+        "proj_win_loss_conf": "12.6-7.4",
+        "proj_win_loss_overall": "23.6-7.4",
         "projected_tournament_order": "NA",
         "seven_day_change": "Tied-1st",
-        "sor": 6.0,
-        "sos": 104.0
+        "sor": 5.0,
+        "sos": 70.0
     },
     "espn_bracketology": {
         "seed": "4"
@@ -167,6 +167,13 @@
     "haslametrics": {
         "haslam_rating": "19",
         "seed": "2"
+    },
+    "kenpom": {
+        "conference_record": "13-7",
+        "overall_record": "24-7",
+        "rating": 22,
+        "record": "14-0",
+        "sos": 140
     },
     "kpi_sports": {
         "kpi_ranking": 6
@@ -201,8 +208,8 @@
         "rank": "29"
     },
     "time": {
-        "iso_time": "2026-01-03T10:39:01.329422",
-        "time": "Jan. 3 at 10:39 AM"
+        "iso_time": "2026-01-03T10:43:19.402535",
+        "time": "Jan. 3 at 10:43 AM"
     },
     "trank": {
         "torvik_NET": "23",
