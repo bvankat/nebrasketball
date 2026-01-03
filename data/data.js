@@ -130,9 +130,9 @@
         "quad4record": "7-0"
     },
     "bracketproject": {
-        "matrix_count": 48,
+        "matrix_count": 41,
         "matrix_seed": 3,
-        "total_brackets": 48
+        "total_brackets": 41
     },
     "espn": {
         "bpi": 26.0,
@@ -151,7 +151,7 @@
         "seed": "4"
     },
     "evanmiya": {
-        "miya_rating": "NA",
+        "miya_rating": 21,
         "miya_resume_category": "3-5 Seed",
         "miya_resume_rank": 9
     },
@@ -160,11 +160,11 @@
         "seed": "3"
     },
     "kenpom": {
-        "conference_record": "12-8",
-        "overall_record": "23-8",
+        "conference_record": "13-7",
+        "overall_record": "24-7",
         "rating": 22,
-        "record": "13-0",
-        "sos": 206
+        "record": "14-0",
+        "sos": 140
     },
     "kpi_sports": {
         "kpi_ranking": 8
@@ -190,36 +190,36 @@
         "sq_ranking": 27
     },
     "teamrankings": {
-        "make_tournament": "94.6%",
+        "make_tournament": "96.2%",
         "most_likely_seed": "6",
-        "proj_conf_record": "11.9-8.1",
-        "projected_bid_pct": "94.6%",
-        "projected_losses": "8.1",
-        "projected_wins": "22.9",
-        "rank": "30"
+        "proj_conf_record": "12.4-7.6",
+        "projected_bid_pct": "96.2%",
+        "projected_losses": "7.6",
+        "projected_wins": "23.4",
+        "rank": "29"
     },
     "time": {
-        "iso_time": "2026-01-02T11:31:28.879527",
-        "time": "Jan. 2 at 11:31 AM"
+        "iso_time": "2026-01-03T00:33:37.002607",
+        "time": "Jan. 3 at 12:33 AM"
     },
     "trank": {
-        "torvik_NET": "26",
-        "trank": 26,
+        "torvik_NET": "23",
+        "trank": 22,
         "trank_make_tourney": 99.7,
-        "trank_proj_record": "23-8 (12-8)",
+        "trank_proj_record": "24-7 (13-7)",
         "trank_seed": "5",
-        "wab_rank": 9,
-        "wab_score": "+3.0"
+        "wab_rank": 6,
+        "wab_score": "+3.6"
     },
     "warrennolan": {
-        "current_conf_record": "2-0",
-        "elo": "16",
+        "current_conf_record": "3-0",
+        "elo": "10",
         "nolan_net": "15",
-        "quadrant_1": "2-0",
+        "quadrant_1": "3-0",
         "quadrant_2": "4-0",
         "quadrant_3": "0-0",
         "quadrant_4": "7-0",
-        "record": "13-0",
-        "rpi": "12"
+        "record": "14-0",
+        "rpi": "3"
     }
 }
