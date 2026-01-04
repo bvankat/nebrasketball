@@ -161,8 +161,8 @@
     },
     "evanmiya": {
         "miya_rating": 20,
-        "miya_resume_category": "1-2 Seed",
-        "miya_resume_rank": 6
+        "miya_resume_category": "3-5 Seed",
+        "miya_resume_rank": 9
     },
     "haslametrics": {
         "haslam_rating": "20",
@@ -198,23 +198,26 @@
     "shot_quality": {
         "sq_ranking": 24
     },
+    "sports_reference": {
+        "SRS_rank": 26
+    },
     "teamrankings": {
-        "make_tournament": "97.2%",
+        "make_tournament": "97.4%",
         "most_likely_seed": "5",
         "proj_conf_record": "12.5-7.5",
-        "projected_bid_pct": "97.2%",
+        "projected_bid_pct": "97.4%",
         "projected_losses": "7.5",
         "projected_wins": "23.5",
         "rank": "29"
     },
     "time": {
-        "iso_time": "2026-01-04T02:00:27.352612",
-        "time": "Jan. 4 at 2:00 AM"
+        "iso_time": "2026-01-04T11:47:36.722292",
+        "time": "Jan. 4 at 11:47 AM"
     },
     "trank": {
-        "torvik_NET": "22",
+        "torvik_NET": "20",
         "trank": 22,
-        "trank_make_tourney": 99.9,
+        "trank_make_tourney": 100.0,
         "trank_proj_record": "24-7 (13-7)",
         "trank_seed": "5",
         "wab_rank": 9,
@@ -224,10 +227,10 @@
         "current_conf_record": "3-0",
         "elo": "13",
         "nolan_net": "11",
-        "quadrant_1": "2-0",
-        "quadrant_2": "5-0",
-        "quadrant_3": "0-0",
-        "quadrant_4": "7-0",
+        "quadrant_1": "3-0",
+        "quadrant_2": "4-0",
+        "quadrant_3": "1-0",
+        "quadrant_4": "6-0",
         "record": "14-0",
         "rpi": "3"
     }
