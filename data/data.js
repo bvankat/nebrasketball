@@ -165,7 +165,7 @@
         "miya_resume_rank": 6
     },
     "haslametrics": {
-        "haslam_rating": "19",
+        "haslam_rating": "20",
         "seed": "2"
     },
     "kenpom": {
@@ -173,7 +173,7 @@
         "overall_record": "24-7",
         "rating": 22,
         "record": "14-0",
-        "sos": 140
+        "sos": 135
     },
     "kpi_sports": {
         "kpi_ranking": 6
@@ -196,33 +196,33 @@
         "coaches_rank": "NA"
     },
     "shot_quality": {
-        "sq_ranking": 23
+        "sq_ranking": 24
     },
     "teamrankings": {
-        "make_tournament": "97.5%",
-        "most_likely_seed": "6",
-        "proj_conf_record": "12.4-7.6",
-        "projected_bid_pct": "97.5%",
-        "projected_losses": "7.6",
-        "projected_wins": "23.4",
+        "make_tournament": "97.2%",
+        "most_likely_seed": "5",
+        "proj_conf_record": "12.5-7.5",
+        "projected_bid_pct": "97.2%",
+        "projected_losses": "7.5",
+        "projected_wins": "23.5",
         "rank": "29"
     },
     "time": {
-        "iso_time": "2026-01-03T10:43:19.402535",
-        "time": "Jan. 3 at 10:43 AM"
+        "iso_time": "2026-01-04T02:00:27.352612",
+        "time": "Jan. 4 at 2:00 AM"
     },
     "trank": {
-        "torvik_NET": "23",
+        "torvik_NET": "22",
         "trank": 22,
         "trank_make_tourney": 99.9,
         "trank_proj_record": "24-7 (13-7)",
         "trank_seed": "5",
-        "wab_rank": 6,
-        "wab_score": "+3.6"
+        "wab_rank": 9,
+        "wab_score": "+3.7"
     },
     "warrennolan": {
         "current_conf_record": "3-0",
-        "elo": "10",
+        "elo": "13",
         "nolan_net": "11",
         "quadrant_1": "2-0",
         "quadrant_2": "5-0",
