@@ -1,4 +1,7 @@
 {
+    "bauertology": {
+        "BRCT_rank": "8"
+    },
     "bballnet_quadrants": {
         "quad1_games": [
             {
@@ -160,12 +163,12 @@
         "seed": "4"
     },
     "evanmiya": {
-        "miya_rating": 22,
+        "miya_rating": "NA",
         "miya_resume_category": "3-5 Seed",
         "miya_resume_rank": 9
     },
     "haslametrics": {
-        "haslam_rating": "20",
+        "haslam_rating": "19",
         "seed": "2"
     },
     "kenpom": {
@@ -202,21 +205,21 @@
         "SRS_rank": 26
     },
     "teamrankings": {
-        "make_tournament": "97.4%",
+        "make_tournament": "97.5%",
         "most_likely_seed": "5",
         "proj_conf_record": "12.5-7.5",
-        "projected_bid_pct": "97.4%",
+        "projected_bid_pct": "97.5%",
         "projected_losses": "7.5",
         "projected_wins": "23.5",
         "rank": "29"
     },
     "time": {
-        "iso_time": "2026-01-04T22:47:43.716827",
-        "time": "Jan. 4 at 10:47 PM"
+        "iso_time": "2026-01-05T02:33:37.166396",
+        "time": "Jan. 5 at 2:33 AM"
     },
     "trank": {
         "torvik_NET": "20",
-        "trank": 22,
+        "trank": 23,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "24-7 (13-7)",
         "trank_seed": "5",
