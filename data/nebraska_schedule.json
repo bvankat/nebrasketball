@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-04T22:47:31.188460",
+  "lastUpdated": "2026-01-05T02:07:41.049704",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -12,6 +12,7 @@
               "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": {
                 "value": 86.0,
@@ -23,6 +24,7 @@
               "winner": false,
               "team_id": "2698",
               "team_nickname": "West Georgia",
+              "slug": "west-georgia-wolves",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
               "score": {
                 "value": 53.0,
@@ -39,6 +41,7 @@
               "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": {
                 "value": 96.0,
@@ -50,6 +53,7 @@
               "winner": false,
               "team_id": "2229",
               "team_nickname": "FIU",
+              "slug": "florida-international-panthers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
               "score": {
                 "value": 66.0,
@@ -66,6 +70,7 @@
               "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": {
                 "value": 69.0,
@@ -77,6 +82,7 @@
               "winner": false,
               "team_id": "2379",
               "team_nickname": "MD Eastern",
+              "slug": "maryland-eastern-shore-hawks",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2379.png",
               "score": {
                 "value": 50.0,
@@ -93,6 +99,7 @@
               "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": {
                 "value": 105.0,
@@ -104,6 +111,7 @@
               "winner": false,
               "team_id": "201",
               "team_nickname": "Oklahoma",
+              "slug": "oklahoma-sooners",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
               "score": {
                 "value": 99.0,
@@ -120,6 +128,7 @@
               "winner": false,
               "team_id": "167",
               "team_nickname": "New Mexico",
+              "slug": "new-mexico-lobos",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
               "score": {
                 "value": 72.0,
@@ -131,6 +140,7 @@
               "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": {
                 "value": 84.0,
@@ -147,6 +157,7 @@
               "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": {
                 "value": 86.0,
@@ -158,6 +169,7 @@
               "winner": false,
               "team_id": "2306",
               "team_nickname": "Kansas St",
+              "slug": "kansas-state-wildcats",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
               "score": {
                 "value": 85.0,
@@ -174,6 +186,7 @@
               "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": {
                 "value": 80.0,
@@ -185,6 +198,7 @@
               "winner": false,
               "team_id": "2737",
               "team_nickname": "Winthrop",
+              "slug": "winthrop-eagles",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2737.png",
               "score": {
                 "value": 73.0,
@@ -201,6 +215,7 @@
               "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": {
                 "value": 72.0,
@@ -212,6 +227,7 @@
               "winner": false,
               "team_id": "2908",
               "team_nickname": "SC Upstate",
+              "slug": "south-carolina-upstate-spartans",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2908.png",
               "score": {
                 "value": 63.0,
@@ -228,6 +244,7 @@
               "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": {
                 "value": 71.0,
@@ -239,6 +256,7 @@
               "winner": false,
               "team_id": "156",
               "team_nickname": "Creighton",
+              "slug": "creighton-bluejays",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
               "score": {
                 "value": 50.0,
@@ -255,6 +273,7 @@
               "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": {
                 "value": 90.0,
@@ -266,6 +285,7 @@
               "winner": false,
               "team_id": "275",
               "team_nickname": "Wisconsin",
+              "slug": "wisconsin-badgers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
               "score": {
                 "value": 60.0,
@@ -282,6 +302,7 @@
               "winner": false,
               "team_id": "356",
               "team_nickname": "Illinois",
+              "slug": "illinois-fighting-illini",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
               "score": {
                 "value": 80.0,
@@ -293,6 +314,7 @@
               "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": {
                 "value": 83.0,
@@ -309,6 +331,7 @@
               "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": {
                 "value": 78.0,
@@ -320,6 +343,7 @@
               "winner": false,
               "team_id": "155",
               "team_nickname": "North Dakota",
+              "slug": "north-dakota-fighting-hawks",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
               "score": {
                 "value": 55.0,
@@ -336,6 +360,7 @@
               "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": {
                 "value": 86.0,
@@ -347,6 +372,7 @@
               "winner": false,
               "team_id": "160",
               "team_nickname": "New Hampshire",
+              "slug": "new-hampshire-wildcats",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
               "score": {
                 "value": 55.0,
@@ -363,6 +389,7 @@
               "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": {
                 "value": 58.0,
@@ -374,6 +401,7 @@
               "winner": false,
               "team_id": "127",
               "team_nickname": "Michigan St",
+              "slug": "michigan-state-spartans",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
               "score": {
                 "value": 56.0,
@@ -390,6 +418,7 @@
               "winner": false,
               "team_id": "194",
               "team_nickname": "Ohio State",
+              "slug": "ohio-state-buckeyes",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
               "score": null,
               "gameRank": 99
@@ -398,6 +427,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -411,6 +441,7 @@
               "winner": false,
               "team_id": "84",
               "team_nickname": "Indiana",
+              "slug": "indiana-hoosiers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
               "score": null,
               "gameRank": 99
@@ -419,6 +450,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -432,6 +464,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -440,6 +473,7 @@
               "winner": false,
               "team_id": "2483",
               "team_nickname": "Oregon",
+              "slug": "oregon-ducks",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
               "score": null,
               "gameRank": 99
@@ -453,6 +487,7 @@
               "winner": false,
               "team_id": "77",
               "team_nickname": "Northwestern",
+              "slug": "northwestern-wildcats",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
               "score": null,
               "gameRank": 99
@@ -461,6 +496,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -474,6 +510,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -482,6 +519,7 @@
               "winner": false,
               "team_id": "264",
               "team_nickname": "Washington",
+              "slug": "washington-huskies",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
               "score": null,
               "gameRank": 99
@@ -495,6 +533,7 @@
               "winner": false,
               "team_id": "135",
               "team_nickname": "Minnesota",
+              "slug": "minnesota-golden-gophers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
               "score": null,
               "gameRank": 99
@@ -503,6 +542,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -516,6 +556,7 @@
               "winner": false,
               "team_id": "130",
               "team_nickname": "Michigan",
+              "slug": "michigan-wolverines",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
               "score": null,
               "gameRank": 2
@@ -524,6 +565,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -537,6 +579,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -545,6 +588,7 @@
               "winner": false,
               "team_id": "356",
               "team_nickname": "Illinois",
+              "slug": "illinois-fighting-illini",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
               "score": null,
               "gameRank": 20
@@ -558,6 +602,7 @@
               "winner": false,
               "team_id": "164",
               "team_nickname": "Rutgers",
+              "slug": "rutgers-scarlet-knights",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
               "score": null,
               "gameRank": 99
@@ -566,6 +611,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -579,6 +625,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -587,6 +634,7 @@
               "winner": false,
               "team_id": "2509",
               "team_nickname": "Purdue",
+              "slug": "purdue-boilermakers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
               "score": null,
               "gameRank": 5
@@ -600,6 +648,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -608,6 +657,7 @@
               "winner": false,
               "team_id": "77",
               "team_nickname": "Northwestern",
+              "slug": "northwestern-wildcats",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
               "score": null,
               "gameRank": 99
@@ -621,6 +671,7 @@
               "winner": false,
               "team_id": "2294",
               "team_nickname": "Iowa",
+              "slug": "iowa-hawkeyes",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
               "score": null,
               "gameRank": 25
@@ -629,6 +680,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -642,6 +694,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -650,6 +703,7 @@
               "winner": false,
               "team_id": "213",
               "team_nickname": "Penn State",
+              "slug": "penn-state-nittany-lions",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
               "score": null,
               "gameRank": 99
@@ -663,6 +717,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -671,6 +726,7 @@
               "winner": false,
               "team_id": "120",
               "team_nickname": "Maryland",
+              "slug": "maryland-terrapins",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
               "score": null,
               "gameRank": 99
@@ -684,6 +740,7 @@
               "winner": false,
               "team_id": "30",
               "team_nickname": "USC",
+              "slug": "usc-trojans",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
               "score": null,
               "gameRank": 24
@@ -692,6 +749,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -705,6 +763,7 @@
               "winner": false,
               "team_id": "26",
               "team_nickname": "UCLA",
+              "slug": "ucla-bruins",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
               "score": null,
               "gameRank": 99
@@ -713,6 +772,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -726,6 +786,7 @@
               "winner": false,
               "team_id": "158",
               "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 13
@@ -734,6 +795,7 @@
               "winner": false,
               "team_id": "2294",
               "team_nickname": "Iowa",
+              "slug": "iowa-hawkeyes",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
               "score": null,
               "gameRank": 25
