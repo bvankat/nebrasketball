@@ -42,7 +42,11 @@ async function loadSchedule() {
 			// Check if it's an away game (opponent is first in competitors array)
 			const isAway = game.competitors[0].team_id !== '158';
 			const locationPrefix = isAway ? '<span class="font-light text-xs text-gray-500">at</span> ' : '';
-			
+
+			// Check if opponent is ranked in Top 25
+			const isRanked = opponent.gameRank && opponent.gameRank <= 25;
+			const rankDisplay = isRanked ? `<span class="text-xs font-medium text-gray-500 mr-1">#${opponent.gameRank}</span> ` : '';
+
 			// Determine result
 			let result = '—';
 			if (opponent.score && nebraska.score) {
@@ -63,7 +67,7 @@ async function loadSchedule() {
 				<td class="px-6 py-4 text-sm font-medium text-gray-700">
 					<div class="flex items-center gap-3 font-medium">
 						<img src="${opponent.logo}" alt="${opponent.team_nickname}" class="w-6 h-6">
-						<span>${locationPrefix}${opponent.team_nickname}</span>
+						<span>${locationPrefix}${rankDisplay}${opponent.team_nickname}</span>
 					</div>
 				</td>
 				<td class="px-6 py-4 text-sm font-normal text-gray-600 geist">${formattedDate}</td>
