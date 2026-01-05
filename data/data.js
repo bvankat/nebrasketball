@@ -147,20 +147,20 @@
         "bpi": 26.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 224.0,
+        "non_con_sos": 223.0,
         "proj_tourney_seed": "NA",
         "proj_win_loss_conf": "12.6-7.4",
         "proj_win_loss_overall": "23.6-7.4",
         "projected_tournament_order": "NA",
         "seven_day_change": "Tied-1st",
         "sor": 5.0,
-        "sos": 70.0
+        "sos": 75.0
     },
     "espn_bracketology": {
         "seed": "4"
     },
     "evanmiya": {
-        "miya_rating": 20,
+        "miya_rating": 22,
         "miya_resume_category": "3-5 Seed",
         "miya_resume_rank": 9
     },
@@ -173,7 +173,7 @@
         "overall_record": "24-7",
         "rating": 22,
         "record": "14-0",
-        "sos": 135
+        "sos": 132
     },
     "kpi_sports": {
         "kpi_ranking": 6
@@ -196,7 +196,7 @@
         "coaches_rank": "NA"
     },
     "shot_quality": {
-        "sq_ranking": 24
+        "sq_ranking": 26
     },
     "sports_reference": {
         "SRS_rank": 26
@@ -211,8 +211,8 @@
         "rank": "29"
     },
     "time": {
-        "iso_time": "2026-01-04T11:47:36.722292",
-        "time": "Jan. 4 at 11:47 AM"
+        "iso_time": "2026-01-04T22:47:43.716827",
+        "time": "Jan. 4 at 10:47 PM"
     },
     "trank": {
         "torvik_NET": "20",
@@ -232,6 +232,6 @@
         "quadrant_3": "1-0",
         "quadrant_4": "6-0",
         "record": "14-0",
-        "rpi": "3"
+        "rpi": "2"
     }
 }
