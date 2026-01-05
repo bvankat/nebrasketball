@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "8"
+        "BRCT_rank": "59"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -151,12 +151,12 @@
         "bpi": 26.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 223.0,
+        "non_con_sos": 222.0,
         "proj_tourney_seed": "NA",
         "proj_win_loss_conf": "12.6-7.4",
         "proj_win_loss_overall": "23.6-7.4",
         "projected_tournament_order": "NA",
-        "seven_day_change": "Tied-1st",
+        "seven_day_change": "",
         "sor": 5.0,
         "sos": 75.0
     },
@@ -164,7 +164,7 @@
         "seed": "4"
     },
     "evanmiya": {
-        "miya_rating": 21,
+        "miya_rating": 22,
         "miya_resume_category": "3-5 Seed",
         "miya_resume_rank": 9
     },
@@ -196,8 +196,8 @@
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png"
     },
     "polls": {
-        "ap_rank": 13,
-        "coaches_rank": "NA"
+        "ap_rank": 10,
+        "coaches_rank": 11
     },
     "shot_quality": {
         "sq_ranking": 26
@@ -212,8 +212,8 @@
         "rank": "29"
     },
     "time": {
-        "iso_time": "2026-01-05T11:25:26.200811",
-        "time": "Jan. 5 at 11:25 AM"
+        "iso_time": "2026-01-05T16:51:04.733933",
+        "time": "Jan. 5 at 4:51 PM"
     },
     "trank": {
         "torvik_NET": "20",
