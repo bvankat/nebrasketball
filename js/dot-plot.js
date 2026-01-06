@@ -1,6 +1,6 @@
 async function dotPlot() {
 	
-	const response = await fetch('/data/data.js');
+	const response = await fetch('/data/data.json');
 	const ratings_data = await response.json();
 
 // Set up the chart dimensions

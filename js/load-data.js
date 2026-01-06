@@ -1,11 +1,11 @@
 async function loadData() {
 	console.log('=== loadData function started ===');
-	const response = await fetch('/data/data.js');
+	const response = await fetch('/data/data.json');
 	const data = await response.json();
 	console.dir(data);
 	
 	// Load historical updates to calculate deltas
-	const updatesResponse = await fetch('/data/updates-2026.js');
+	const updatesResponse = await fetch('/data/updates-2026.json');
 	const updatesData = await updatesResponse.json();
 	  
   // Get yesterday's date and format it to match the updates file format
