@@ -176,10 +176,20 @@
     },
     "haslametrics": {
         "haslam_rating": "19",
-        "seed": "OUT"
+        "seed": "2"
+    },
+    "kenpom": {
+        "conference_record": "14-6",
+        "overall_record": "25-6",
+        "rating": 19,
+        "record": "15-0",
+        "sos": 84
     },
     "kpi_sports": {
         "kpi_ranking": 4
+    },
+    "massey_ratings": {
+        "massey_rank": 12
     },
     "ncaa": {
         "net_rank": "11"
@@ -187,9 +197,9 @@
     "next_game": {
         "away_team": "Nebraska",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "2026-01-05T23:30Z",
-        "home_team": "Ohio State",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png"
+        "date_time": "2026-01-10T17:00Z",
+        "home_team": "Indiana",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png"
     },
     "polls": {
         "ap_rank": 10,
@@ -208,8 +218,8 @@
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-06T10:03:08.666215",
-        "time": "Jan. 6 at 10:03 AM"
+        "iso_time": "2026-01-06T10:11:17.140891",
+        "time": "Jan. 6 at 10:11 AM"
     },
     "trank": {
         "torvik_NET": "18",
