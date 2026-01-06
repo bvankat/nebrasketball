@@ -60,14 +60,14 @@ async function loadData() {
 
 var dotPlotData = {};
 	
-	// replace this with NCAA when real NET is released. Nolan is approximation, but calculated earlier in season
-	// Using Torvik NET Forecast as of Nov. 2023 - https://barttorvik.com/net4cast.php
-	// Nolan NET matches NCAA NET on Dec. 11, 2023. Torvik NET is off by 7 spots (NCAA, Nolan: 68; Torvik 61)
-	
-	if ( data.ncaa ) {  
-		const delta = yesterdayData && yesterdayData.ncaa ? getDeltaHTML(data.ncaa.net_rank, yesterdayData.ncaa.net_rank) : '';
-	console.log('NCAA NET delta:', delta, 'Current:', data.ncaa.net_rank, 'Yesterday:', yesterdayData?.ncaa?.net_rank);
-	document.getElementById('ncaa-net').innerHTML = delta + data.ncaa.net_rank; 
+// replace this with NCAA when real NET is released. Nolan is approximation, but calculated earlier in season
+// Using Torvik NET Forecast as of Nov. 2023 - https://barttorvik.com/net4cast.php
+// Nolan NET matches NCAA NET on Dec. 11, 2023. Torvik NET is off by 7 spots (NCAA, Nolan: 68; Torvik 61)
+
+if ( data.ncaa ) {  
+	const delta = yesterdayData && yesterdayData.ncaa ? getDeltaHTML(data.ncaa.net_rank, yesterdayData.ncaa.net_rank) : '';
+console.log('NCAA NET delta:', delta, 'Current:', data.ncaa.net_rank, 'Yesterday:', yesterdayData?.ncaa?.net_rank);
+document.getElementById('ncaa-net').innerHTML = delta + data.ncaa.net_rank; 
 } else if (data.trank) {
 	const delta = yesterdayData && yesterdayData.trank ? getDeltaHTML(data.trank.torvik_NET, yesterdayData.trank.torvik_NET) : '';
 	console.log('Torvik NET delta:', delta, 'Current:', data.trank.torvik_NET, 'Yesterday:', yesterdayData?.trank?.torvik_NET);
@@ -94,49 +94,54 @@ if ( data.kpi_sports ) {
 	}
 }
 
-	if ( data.espn ) {
-		const bpiDelta = yesterdayData && yesterdayData.espn ? getDeltaHTML(data.espn.bpi, yesterdayData.espn.bpi) : '';
-	console.log('BPI delta:', bpiDelta, 'Current:', data.espn.bpi, 'Yesterday:', yesterdayData?.espn?.bpi);
-	document.getElementById('espn-rating').innerHTML = bpiDelta + data.espn.bpi;
-	dotPlotData['BPI'] = data.espn.bpi;
-	document.getElementById('espn-proj-tourney-seed').innerHTML = data.espn.proj_tourney_seed;
-	document.getElementById('espn-wl').innerHTML = data.espn.proj_win_loss_overall;
-	document.getElementById('espn-cwl').innerHTML = data.espn.proj_win_loss_conf;
+if ( data.espn ) {
+	const bpiDelta = yesterdayData && yesterdayData.espn ? getDeltaHTML(data.espn.bpi, yesterdayData.espn.bpi) : '';
+console.log('BPI delta:', bpiDelta, 'Current:', data.espn.bpi, 'Yesterday:', yesterdayData?.espn?.bpi);
+document.getElementById('espn-rating').innerHTML = bpiDelta + data.espn.bpi;
+dotPlotData['BPI'] = data.espn.bpi;
+document.getElementById('espn-proj-tourney-seed').innerHTML = data.espn.proj_tourney_seed;
+document.getElementById('espn-wl').innerHTML = data.espn.proj_win_loss_overall;
+document.getElementById('espn-cwl').innerHTML = data.espn.proj_win_loss_conf;
+
+	if (data.espn.sor == null) {
+		document.getElementById('espn-sor').innerHTML = "NA";
+	} else {
+		const sorDelta = yesterdayData && yesterdayData.espn ? getDeltaHTML(data.espn.sor, yesterdayData.espn.sor) : '';
+		console.log('SOR delta:', sorDelta, 'Current:', data.espn.sor, 'Yesterday:', yesterdayData?.espn?.sor);
+	document.getElementById('espn-sor').innerHTML = sorDelta + data.espn.sor;
+}
+// document.getElementById('espn-sweet16').innerHTML = data.espn.chance_sweet_16;
+// document.getElementById('espn-round-32').innerHTML = data.espn.chance_round_32;
+document.getElementById('espn-sor-s-curve').innerHTML = data.espn.projected_tournament_order;
+}
+		
+	if (data.next_game) {
+	document.getElementById('nextGame-teams').innerHTML = "<img src='" + data.next_game.away_team_logo + "' class='team-logo' > <strong>" + data.next_game.away_team + "</strong> at <img src='" + data.next_game.home_team_logo + "' class='team-logo' > <strong>" + data.next_game.home_team + "</strong>";
 	
-		if (data.espn.sor == null) {
-			document.getElementById('espn-sor').innerHTML = "NA";
-		} else {
-			const sorDelta = yesterdayData && yesterdayData.espn ? getDeltaHTML(data.espn.sor, yesterdayData.espn.sor) : '';
-			console.log('SOR delta:', sorDelta, 'Current:', data.espn.sor, 'Yesterday:', yesterdayData?.espn?.sor);
-		document.getElementById('espn-sor').innerHTML = sorDelta + data.espn.sor;
-	}
-	// document.getElementById('espn-sweet16').innerHTML = data.espn.chance_sweet_16;
-	// document.getElementById('espn-round-32').innerHTML = data.espn.chance_round_32;
-	document.getElementById('espn-sor-s-curve').innerHTML = data.espn.projected_tournament_order;
-	}
-		
-		if (data.next_game) {
-		document.getElementById('nextGame-teams').innerHTML = "<img src='" + data.next_game.away_team_logo + "' class='team-logo' > <strong>" + data.next_game.away_team + "</strong> at <img src='" + data.next_game.home_team_logo + "' class='team-logo' > <strong>" + data.next_game.home_team + "</strong>";
-		
-		// Format the date/time to local time: "Wed, Dec 17 6:00 PM"
-		const gameDate = new Date(data.next_game.date_time);
-		const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-		const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-		
-		const dayName = dayNames[gameDate.getDay()];
-		const monthName = monthNames[gameDate.getMonth()];
-		const day = gameDate.getDate();
-		
-		let hours = gameDate.getHours();
-		const minutes = gameDate.getMinutes();
-		const ampm = hours >= 12 ? 'PM' : 'AM';
-		hours = hours % 12;
-		hours = hours ? hours : 12; // the hour '0' should be '12'
-		const minutesStr = minutes < 10 ? '0' + minutes : minutes;
-		
-		const formattedDateTime = `${dayName}, ${monthName} ${day} ${hours}:${minutesStr} ${ampm}`;
-		document.getElementById('nextGame-details').innerHTML = formattedDateTime;
-	}
+	// Format the date/time to local time: "Wed, Dec 17 6:00 PM"
+	const gameDate = new Date(data.next_game.date_time);
+	const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+	const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+	
+	const dayName = dayNames[gameDate.getDay()];
+	const monthName = monthNames[gameDate.getMonth()];
+	const day = gameDate.getDate();
+	
+	let hours = gameDate.getHours();
+	const minutes = gameDate.getMinutes();
+	const ampm = hours >= 12 ? 'PM' : 'AM';
+	hours = hours % 12;
+	hours = hours ? hours : 12; // the hour '0' should be '12'
+	const minutesStr = minutes < 10 ? '0' + minutes : minutes;
+	
+	const formattedDateTime = `${dayName}, ${monthName} ${day} ${hours}:${minutesStr} ${ampm}`;
+	document.getElementById('nextGame-details').innerHTML = formattedDateTime;
+}
+
+if (data.espn_bracketology) {
+	document.getElementById('espn-bracketology-seed').innerHTML = data.espn_bracketology.seed;
+	
+}
 
 	if ( data.warrennolan ) {
 	//	document.getElementById('warrennolan-group1').innerHTML = data.warrennolan.quadrant_1;
