@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "59"
+        "BRCT_rank": "8"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -143,9 +143,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 41,
+        "matrix_count": 49,
         "matrix_seed": 3,
-        "total_brackets": 41
+        "total_brackets": 49
     },
     "espn": {
         "bpi": 26.0,
@@ -164,20 +164,20 @@
         "seed": "4"
     },
     "evanmiya": {
-        "miya_rating": 22,
-        "miya_resume_category": "3-5 Seed",
-        "miya_resume_rank": 9
+        "miya_rating": "NA",
+        "miya_resume_category": "NA",
+        "miya_resume_rank": "NA"
     },
     "haslametrics": {
         "haslam_rating": "19",
         "seed": "2"
     },
     "kenpom": {
-        "conference_record": "13-7",
-        "overall_record": "24-7",
-        "rating": 22,
-        "record": "14-0",
-        "sos": 132
+        "conference_record": "14-6",
+        "overall_record": "25-6",
+        "rating": 19,
+        "record": "15-0",
+        "sos": 84
     },
     "kpi_sports": {
         "kpi_ranking": 6
@@ -203,36 +203,36 @@
         "sq_ranking": 26
     },
     "teamrankings": {
-        "make_tournament": "97.5%",
-        "most_likely_seed": "5",
-        "proj_conf_record": "12.5-7.5",
-        "projected_bid_pct": "97.5%",
-        "projected_losses": "7.5",
-        "projected_wins": "23.5",
-        "rank": "29"
+        "make_tournament": "99.2%",
+        "most_likely_seed": "4",
+        "proj_conf_record": "13.3-6.7",
+        "projected_bid_pct": "99.2%",
+        "projected_losses": "6.7",
+        "projected_wins": "24.3",
+        "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-05T16:51:04.733933",
-        "time": "Jan. 5 at 4:51 PM"
+        "iso_time": "2026-01-06T01:13:42.240515",
+        "time": "Jan. 6 at 1:13 AM"
     },
     "trank": {
         "torvik_NET": "20",
-        "trank": 23,
+        "trank": 21,
         "trank_make_tourney": 99.9,
-        "trank_proj_record": "24-7 (13-7)",
+        "trank_proj_record": "25-6 (14-6)",
         "trank_seed": "5",
-        "wab_rank": 9,
-        "wab_score": "+3.7"
+        "wab_rank": 5,
+        "wab_score": "+4.5"
     },
     "warrennolan": {
-        "current_conf_record": "3-0",
-        "elo": "13",
+        "current_conf_record": "4-0",
+        "elo": "10",
         "nolan_net": "11",
-        "quadrant_1": "3-0",
+        "quadrant_1": "4-0",
         "quadrant_2": "4-0",
         "quadrant_3": "1-0",
         "quadrant_4": "6-0",
-        "record": "14-0",
+        "record": "15-0",
         "rpi": "2"
     }
 }
