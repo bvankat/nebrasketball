@@ -176,20 +176,10 @@
     },
     "haslametrics": {
         "haslam_rating": "19",
-        "seed": "2"
-    },
-    "kenpom": {
-        "conference_record": "14-6",
-        "overall_record": "25-6",
-        "rating": 19,
-        "record": "15-0",
-        "sos": 84
+        "seed": "OUT"
     },
     "kpi_sports": {
         "kpi_ranking": 4
-    },
-    "massey_ratings": {
-        "massey_rank": 12
     },
     "ncaa": {
         "net_rank": "11"
@@ -209,17 +199,17 @@
         "sq_ranking": 26
     },
     "teamrankings": {
-        "make_tournament": "99.2%",
+        "make_tournament": "99.3%",
         "most_likely_seed": "4",
         "proj_conf_record": "13.3-6.7",
-        "projected_bid_pct": "99.2%",
+        "projected_bid_pct": "99.3%",
         "projected_losses": "6.7",
         "projected_wins": "24.3",
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-06T09:15:06.822851",
-        "time": "Jan. 6 at 9:15 AM"
+        "iso_time": "2026-01-06T10:03:08.666215",
+        "time": "Jan. 6 at 10:03 AM"
     },
     "trank": {
         "torvik_NET": "18",
