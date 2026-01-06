@@ -169,6 +169,9 @@
         "sor": 3.0,
         "sos": 55.0
     },
+    "espn_bracketology": {
+        "seed": "3"
+    },
     "evanmiya": {
         "miya_rating": 19,
         "miya_resume_category": "1-2 Seed",
@@ -218,8 +221,8 @@
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-06T10:11:17.140891",
-        "time": "Jan. 6 at 10:11 AM"
+        "iso_time": "2026-01-06T11:05:23.011133",
+        "time": "Jan. 6 at 11:05 AM"
     },
     "trank": {
         "torvik_NET": "18",
