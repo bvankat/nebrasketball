@@ -1,4 +1,7 @@
 {
+    "bauertology": {
+        "BRCT_rank": "59"
+    },
     "bballnet_quadrants": {
         "quad1_games": [
             {
@@ -170,13 +173,13 @@
         "seed": "3"
     },
     "evanmiya": {
-        "miya_rating": "NA",
+        "miya_rating": 17,
         "miya_resume_category": "1-2 Seed",
         "miya_resume_rank": 4
     },
     "haslametrics": {
         "haslam_rating": "18",
-        "seed": "OUT"
+        "seed": "2"
     },
     "kenpom": {
         "conference_record": "14-6",
@@ -221,8 +224,8 @@
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-07T10:21:37.424764",
-        "time": "Jan. 7 at 10:21 AM"
+        "iso_time": "2026-01-07T11:38:51.743124",
+        "time": "Jan. 7 at 11:38 AM"
     },
     "trank": {
         "torvik_NET": "19",
