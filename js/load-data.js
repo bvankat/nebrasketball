@@ -486,8 +486,8 @@ if (data.espn_bracketology) {
 	  }
 	 
 	 // Don't want the needle bounding over 100
-	 if (total_score >= 96) {
-		  total_score = 96;
+	 if (total_score >= 99) {
+		  total_score = 99;
 		  console.log("Note: Maximum total_score applied");
 	  }
 	
