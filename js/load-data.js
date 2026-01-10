@@ -536,22 +536,19 @@ if (data.espn_bracketology) {
 	  let isAnimating = false; // pause bounce while explicit animations run
   
 	  // Bounce configuration
-	  if (total_score == 100) { 
-		let bounceAmplitude = 0;
-	  } else {
-		let bounceAmplitude = 2; // +/- value
-	  }
-	  let bounceIntervalMs = 160;
-	  let bounceIntervalId = null;
-  
-	  // Initialize
-	  updateNeedle(baseValue);
-	  startBounce();
-    
-	  // Functions
-	  // updateNeedle(value, skipSlider=false)
-	  // - value: number 0..100
-	  // - skipSlider: if true, do not modify the slider UI (used by the bounce)
+	let bounceAmplitude;
+	if (total_score == 100) { 
+	  bounceAmplitude = 0;
+	} else {
+	  bounceAmplitude = 2; // +/- value
+	}
+	let bounceIntervalMs = 160;
+	let bounceIntervalId = null;
+
+	// Initialize
+	updateNeedle(baseValue);
+	startBounce();
+
 	  function updateNeedle(value, skipSlider = true) {
 		  // Clamp value between min and max
 		  value = Math.max(config.minValue, Math.min(config.maxValue, value));
