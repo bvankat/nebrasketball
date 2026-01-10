@@ -360,7 +360,7 @@ if (data.espn_bracketology) {
 		var total_score;
 	
 		// MANUAL TOTAL - Uncomment to override formulas below  
-			// total_score = 100;
+		total_score = 100;
 
 		// PURE AVERAGE FORMULA - Debut 2024-25 season
 		// To make life easy early in the season: Just average the available metrics. This is less precise than the WEIGHTED AVERAGE formula below. Comment out one or the other. 
