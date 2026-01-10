@@ -1,152 +1,4 @@
 {
-    "bballnet_quadrants": {
-        "quad1_games": [
-            {
-                "date": "11/20/2025",
-                "location": "Neutral",
-                "opponent": "New Mexico",
-                "opponent_NET": "45",
-                "opponent_rank": null,
-                "result": "W",
-                "score": "84-72"
-            },
-            {
-                "date": "12/13/2025",
-                "location": "Away",
-                "opponent": "Illinois",
-                "opponent_NET": "10",
-                "opponent_rank": "13",
-                "result": "W",
-                "score": "83-80"
-            },
-            {
-                "date": "01/02/2026",
-                "location": "Home",
-                "opponent": "Michigan St.",
-                "opponent_NET": "13",
-                "opponent_rank": "9",
-                "result": "W",
-                "score": "58-56"
-            },
-            {
-                "date": "01/05/2026",
-                "location": "Away",
-                "opponent": "Ohio St.",
-                "opponent_NET": "37",
-                "opponent_rank": null,
-                "result": "W",
-                "score": "72-69"
-            }
-        ],
-        "quad1record": "4-0",
-        "quad2_games": [
-            {
-                "date": "11/15/2025",
-                "location": "Neutral",
-                "opponent": "Oklahoma",
-                "opponent_NET": "59",
-                "opponent_rank": null,
-                "result": "W",
-                "score": "105-99"
-            },
-            {
-                "date": "11/21/2025",
-                "location": "Neutral",
-                "opponent": "Kansas St.",
-                "opponent_NET": "64",
-                "opponent_rank": null,
-                "result": "W",
-                "score": "86-85"
-            },
-            {
-                "date": "12/07/2025",
-                "location": "Home",
-                "opponent": "Creighton",
-                "opponent_NET": "41",
-                "opponent_rank": null,
-                "result": "W",
-                "score": "71-50"
-            },
-            {
-                "date": "12/10/2025",
-                "location": "Home",
-                "opponent": "Wisconsin",
-                "opponent_NET": "53",
-                "opponent_rank": null,
-                "result": "W",
-                "score": "90-60"
-            }
-        ],
-        "quad2record": "4-0",
-        "quad3_games": [],
-        "quad3record": "0-0",
-        "quad4_games": [
-            {
-                "date": "11/03/2025",
-                "location": "Home",
-                "opponent": "West Ga.",
-                "opponent_NET": "252",
-                "opponent_rank": null,
-                "result": "W",
-                "score": "86-53"
-            },
-            {
-                "date": "11/08/2025",
-                "location": "Home",
-                "opponent": "FIU",
-                "opponent_NET": "170",
-                "opponent_rank": null,
-                "result": "W",
-                "score": "96-66"
-            },
-            {
-                "date": "11/11/2025",
-                "location": "Home",
-                "opponent": "UMES",
-                "opponent_NET": "335",
-                "opponent_rank": null,
-                "result": "W",
-                "score": "69-50"
-            },
-            {
-                "date": "11/25/2025",
-                "location": "Home",
-                "opponent": "Winthrop",
-                "opponent_NET": "177",
-                "opponent_rank": null,
-                "result": "W",
-                "score": "80-73"
-            },
-            {
-                "date": "11/29/2025",
-                "location": "Home",
-                "opponent": "USC Upstate",
-                "opponent_NET": "250",
-                "opponent_rank": null,
-                "result": "W",
-                "score": "72-63"
-            },
-            {
-                "date": "12/21/2025",
-                "location": "Home",
-                "opponent": "North Dakota",
-                "opponent_NET": "303",
-                "opponent_rank": null,
-                "result": "W",
-                "score": "78-55"
-            },
-            {
-                "date": "12/30/2025",
-                "location": "Home",
-                "opponent": "New Hampshire",
-                "opponent_NET": "334",
-                "opponent_rank": null,
-                "result": "W",
-                "score": "86-55"
-            }
-        ],
-        "quad4record": "7-0"
-    },
     "bracketproject": {
         "matrix_count": 58,
         "matrix_seed": 3,
@@ -176,13 +28,6 @@
     "haslametrics": {
         "haslam_rating": "18",
         "seed": "2"
-    },
-    "kenpom": {
-        "conference_record": "15-5",
-        "overall_record": "26-5",
-        "rating": 17,
-        "record": "16-0",
-        "sos": 57
     },
     "kpi_sports": {
         "kpi_ranking": 4
@@ -214,8 +59,8 @@
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-10T13:45:14.179677",
-        "time": "Jan. 10 at 1:45 PM"
+        "iso_time": "2026-01-10T16:36:07.929259",
+        "time": "Jan. 10 at 4:36 PM"
     },
     "trank": {
         "torvik_NET": "15",
@@ -223,12 +68,12 @@
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
         "trank_seed": "3",
-        "wab_rank": 1,
-        "wab_score": "+5.3"
+        "wab_rank": 2,
+        "wab_score": "+5.4"
     },
     "warrennolan": {
         "current_conf_record": "5-0",
-        "elo": "10",
+        "elo": "11",
         "nolan_net": "11",
         "quadrant_1": "5-0",
         "quadrant_2": "4-0",
