@@ -8,7 +8,7 @@
                 "date": "11/20/2025",
                 "location": "Neutral",
                 "opponent": "New Mexico",
-                "opponent_NET": "44",
+                "opponent_NET": "45",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "84-72"
@@ -47,7 +47,7 @@
                 "date": "11/15/2025",
                 "location": "Neutral",
                 "opponent": "Oklahoma",
-                "opponent_NET": "58",
+                "opponent_NET": "59",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "105-99"
@@ -74,7 +74,7 @@
                 "date": "12/10/2025",
                 "location": "Home",
                 "opponent": "Wisconsin",
-                "opponent_NET": "51",
+                "opponent_NET": "53",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "90-60"
@@ -88,7 +88,7 @@
                 "date": "11/03/2025",
                 "location": "Home",
                 "opponent": "West Ga.",
-                "opponent_NET": "253",
+                "opponent_NET": "252",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-53"
@@ -115,7 +115,7 @@
                 "date": "11/25/2025",
                 "location": "Home",
                 "opponent": "Winthrop",
-                "opponent_NET": "176",
+                "opponent_NET": "177",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "80-73"
@@ -124,7 +124,7 @@
                 "date": "11/29/2025",
                 "location": "Home",
                 "opponent": "USC Upstate",
-                "opponent_NET": "251",
+                "opponent_NET": "250",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "72-63"
@@ -133,7 +133,7 @@
                 "date": "12/21/2025",
                 "location": "Home",
                 "opponent": "North Dakota",
-                "opponent_NET": "302",
+                "opponent_NET": "303",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "78-55"
@@ -172,23 +172,19 @@
         "seed": "3"
     },
     "evanmiya": {
-        "miya_rating": "NA",
+        "miya_rating": 19,
         "miya_resume_category": "1-2 Seed",
         "miya_resume_rank": 5
     },
     "haslametrics": {
         "haslam_rating": "18",
-        "seed": "OUT"
-    },
-    "kenpom": {
-        "conference_record": "14-6",
-        "overall_record": "25-6",
-        "rating": 21,
-        "record": "15-0",
-        "sos": 88
+        "seed": "2"
     },
     "kpi_sports": {
         "kpi_ranking": 4
+    },
+    "massey_ratings": {
+        "massey_rank": 12
     },
     "ncaa": {
         "net_rank": "11"
@@ -205,23 +201,23 @@
         "coaches_rank": 11
     },
     "shot_quality": {
-        "sq_ranking": 28
+        "sq_ranking": 27
     },
     "sports_reference": {
         "SRS_rank": 25
     },
     "teamrankings": {
-        "make_tournament": "99.4%",
+        "make_tournament": "99.3%",
         "most_likely_seed": "4",
         "proj_conf_record": "13.3-6.7",
-        "projected_bid_pct": "99.4%",
+        "projected_bid_pct": "99.3%",
         "projected_losses": "6.7",
         "projected_wins": "24.3",
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-10T02:41:50.295841",
-        "time": "Jan. 10 at 2:41 AM"
+        "iso_time": "2026-01-10T09:38:16.910748",
+        "time": "Jan. 10 at 9:38 AM"
     },
     "trank": {
         "torvik_NET": "19",
