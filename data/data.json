@@ -180,11 +180,15 @@
         "haslam_rating": "18",
         "seed": "2"
     },
+    "kenpom": {
+        "conference_record": "14-6",
+        "overall_record": "25-6",
+        "rating": 21,
+        "record": "15-0",
+        "sos": 88
+    },
     "kpi_sports": {
         "kpi_ranking": 4
-    },
-    "massey_ratings": {
-        "massey_rank": 12
     },
     "ncaa": {
         "net_rank": "11"
@@ -216,8 +220,8 @@
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-10T09:38:16.910748",
-        "time": "Jan. 10 at 9:38 AM"
+        "iso_time": "2026-01-10T11:48:31.786922",
+        "time": "Jan. 10 at 11:48 AM"
     },
     "trank": {
         "torvik_NET": "19",
