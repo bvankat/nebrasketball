@@ -1,7 +1,4 @@
 {
-    "bauertology": {
-        "BRCT_rank": "8"
-    },
     "bballnet_quadrants": {
         "quad1_games": [
             {
@@ -181,11 +178,11 @@
         "seed": "2"
     },
     "kenpom": {
-        "conference_record": "14-6",
-        "overall_record": "25-6",
-        "rating": 21,
-        "record": "15-0",
-        "sos": 88
+        "conference_record": "15-5",
+        "overall_record": "26-5",
+        "rating": 17,
+        "record": "16-0",
+        "sos": 57
     },
     "kpi_sports": {
         "kpi_ranking": 4
@@ -207,9 +204,6 @@
     "shot_quality": {
         "sq_ranking": 27
     },
-    "sports_reference": {
-        "SRS_rank": 25
-    },
     "teamrankings": {
         "make_tournament": "99.3%",
         "most_likely_seed": "4",
@@ -220,27 +214,27 @@
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-10T11:48:31.786922",
-        "time": "Jan. 10 at 11:48 AM"
+        "iso_time": "2026-01-10T13:45:14.179677",
+        "time": "Jan. 10 at 1:45 PM"
     },
     "trank": {
-        "torvik_NET": "19",
-        "trank": 21,
+        "torvik_NET": "15",
+        "trank": 20,
         "trank_make_tourney": 100.0,
-        "trank_proj_record": "25-6 (14-6)",
-        "trank_seed": "4",
-        "wab_rank": 9,
-        "wab_score": "+4.5"
+        "trank_proj_record": "26-5 (15-5)",
+        "trank_seed": "3",
+        "wab_rank": 1,
+        "wab_score": "+5.3"
     },
     "warrennolan": {
-        "current_conf_record": "4-0",
-        "elo": "11",
+        "current_conf_record": "5-0",
+        "elo": "10",
         "nolan_net": "11",
-        "quadrant_1": "4-0",
+        "quadrant_1": "5-0",
         "quadrant_2": "4-0",
         "quadrant_3": "0-0",
         "quadrant_4": "7-0",
-        "record": "15-0",
+        "record": "16-0",
         "rpi": "2"
     }
 }
