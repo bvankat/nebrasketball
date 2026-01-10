@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "59"
+        "BRCT_rank": "8"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -178,7 +178,7 @@
     },
     "haslametrics": {
         "haslam_rating": "18",
-        "seed": "OUT"
+        "seed": "2"
     },
     "kenpom": {
         "conference_record": "15-5",
@@ -223,8 +223,8 @@
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-10T16:41:11.683905",
-        "time": "Jan. 10 at 4:41 PM"
+        "iso_time": "2026-01-10T16:59:26.070041",
+        "time": "Jan. 10 at 4:59 PM"
     },
     "trank": {
         "torvik_NET": "15",
