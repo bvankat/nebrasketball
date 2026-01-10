@@ -359,9 +359,10 @@ if (data.espn_bracketology) {
 	 
 		var total_score;
 	
-		// MANUAL TOTAL - Uncomment to override formulas below  
-		total_score = 100;
+		// MANUAL TOTAL - Set to 100 if they're in, 0 if they're out  
+		// total_score = 100;
 
+		
 		// PURE AVERAGE FORMULA - Debut 2024-25 season
 		// To make life easy early in the season: Just average the available metrics. This is less precise than the WEIGHTED AVERAGE formula below. Comment out one or the other. 
 		
@@ -493,7 +494,7 @@ if (data.espn_bracketology) {
 	
 	
 	// Here's where you can manually override the total_score. Use this early in the season before all the rankings are released.   
-	// total_score = 29;
+	total_score = 100;
 	
 	// Debuggging
 	console.log("rankings_used: ", rankings_used);
@@ -535,7 +536,11 @@ if (data.espn_bracketology) {
 	  let isAnimating = false; // pause bounce while explicit animations run
   
 	  // Bounce configuration
-	  let bounceAmplitude = 2; // +/- value
+	  if (total_score == 100) { 
+		let bounceAmplitude = 0;
+	  } else {
+		let bounceAmplitude = 2; // +/- value
+	  }
 	  let bounceIntervalMs = 160;
 	  let bounceIntervalId = null;
   
