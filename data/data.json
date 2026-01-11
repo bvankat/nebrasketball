@@ -1,4 +1,7 @@
 {
+    "bauertology": {
+        "BRCT_rank": "6"
+    },
     "bballnet_quadrants": {
         "quad1_games": [
             {
@@ -204,11 +207,11 @@
         "net_rank": "11"
     },
     "next_game": {
-        "away_team": "Nebraska",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "2026-01-10T17:00Z",
-        "home_team": "Indiana",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png"
+        "away_team": "Oregon",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+        "date_time": "2026-01-14T02:00Z",
+        "home_team": "Nebraska",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
         "ap_rank": 10,
@@ -230,12 +233,12 @@
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-11T08:53:58.606358",
-        "time": "Jan. 11 at 8:53 AM"
+        "iso_time": "2026-01-11T14:50:29.102651",
+        "time": "Jan. 11 at 2:50 PM"
     },
     "trank": {
         "torvik_NET": "18",
-        "trank": 20,
+        "trank": 18,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
         "trank_seed": "4",
@@ -244,7 +247,7 @@
     },
     "warrennolan": {
         "current_conf_record": "5-0",
-        "elo": "11",
+        "elo": "8",
         "nolan_net": "11",
         "quadrant_1": "5-0",
         "quadrant_2": "4-0",
