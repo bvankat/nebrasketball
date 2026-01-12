@@ -200,9 +200,6 @@
     "kpi_sports": {
         "kpi_ranking": 4
     },
-    "massey_ratings": {
-        "massey_rank": 11
-    },
     "ncaa": {
         "net_rank": "11"
     },
@@ -214,11 +211,11 @@
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
-        "ap_rank": 10,
-        "coaches_rank": 11
+        "ap_rank": 8,
+        "coaches_rank": 10
     },
     "shot_quality": {
-        "sq_ranking": 28
+        "sq_ranking": 29
     },
     "sports_reference": {
         "SRS_rank": 22
@@ -233,8 +230,8 @@
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-12T11:04:15.292444",
-        "time": "Jan. 12 at 11:04 AM"
+        "iso_time": "2026-01-12T14:05:30.353757",
+        "time": "Jan. 12 at 2:05 PM"
     },
     "trank": {
         "torvik_NET": "19",

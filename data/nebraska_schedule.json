@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-12T11:03:38.063725",
+  "lastUpdated": "2026-01-12T14:01:50.391068",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -479,7 +479,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 10
+              "gameRank": 8
             },
             {
               "winner": false,
@@ -511,7 +511,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 10
+              "gameRank": 8
             }
           ]
         },
@@ -525,7 +525,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 10
+              "gameRank": 8
             },
             {
               "winner": false,
@@ -557,7 +557,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 10
+              "gameRank": 8
             }
           ]
         },
@@ -571,7 +571,7 @@
               "slug": "michigan-wolverines",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
               "score": null,
-              "gameRank": 2
+              "gameRank": 4
             },
             {
               "winner": false,
@@ -580,7 +580,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 10
+              "gameRank": 8
             }
           ]
         },
@@ -594,7 +594,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 10
+              "gameRank": 8
             },
             {
               "winner": false,
@@ -603,7 +603,7 @@
               "slug": "illinois-fighting-illini",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
               "score": null,
-              "gameRank": 16
+              "gameRank": 13
             }
           ]
         },
@@ -626,7 +626,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 10
+              "gameRank": 8
             }
           ]
         },
@@ -640,7 +640,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 10
+              "gameRank": 8
             },
             {
               "winner": false,
@@ -663,7 +663,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 10
+              "gameRank": 8
             },
             {
               "winner": false,
@@ -686,7 +686,7 @@
               "slug": "iowa-hawkeyes",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
               "score": null,
-              "gameRank": 19
+              "gameRank": 99
             },
             {
               "winner": false,
@@ -695,7 +695,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 10
+              "gameRank": 8
             }
           ]
         },
@@ -709,7 +709,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 10
+              "gameRank": 8
             },
             {
               "winner": false,
@@ -732,7 +732,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 10
+              "gameRank": 8
             },
             {
               "winner": false,
@@ -764,7 +764,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 10
+              "gameRank": 8
             }
           ]
         },
@@ -787,7 +787,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 10
+              "gameRank": 8
             }
           ]
         },
@@ -801,7 +801,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 10
+              "gameRank": 8
             },
             {
               "winner": false,
@@ -810,7 +810,7 @@
               "slug": "iowa-hawkeyes",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
               "score": null,
-              "gameRank": 19
+              "gameRank": 99
             }
           ]
         }
