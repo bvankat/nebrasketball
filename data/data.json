@@ -35,7 +35,7 @@
                 "date": "01/05/2026",
                 "location": "Away",
                 "opponent": "Ohio St.",
-                "opponent_NET": "38",
+                "opponent_NET": "39",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "72-69"
@@ -44,7 +44,7 @@
                 "date": "01/10/2026",
                 "location": "Away",
                 "opponent": "Indiana",
-                "opponent_NET": "35",
+                "opponent_NET": "34",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "83-77"
@@ -56,7 +56,7 @@
                 "date": "11/15/2025",
                 "location": "Neutral",
                 "opponent": "Oklahoma",
-                "opponent_NET": "63",
+                "opponent_NET": "64",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "105-99"
@@ -65,7 +65,7 @@
                 "date": "11/21/2025",
                 "location": "Neutral",
                 "opponent": "Kansas St.",
-                "opponent_NET": "73",
+                "opponent_NET": "72",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-85"
@@ -107,7 +107,7 @@
                 "date": "11/03/2025",
                 "location": "Home",
                 "opponent": "West Ga.",
-                "opponent_NET": "295",
+                "opponent_NET": "294",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-53"
@@ -116,7 +116,7 @@
                 "date": "11/08/2025",
                 "location": "Home",
                 "opponent": "FIU",
-                "opponent_NET": "172",
+                "opponent_NET": "175",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "96-66"
@@ -134,7 +134,7 @@
                 "date": "11/29/2025",
                 "location": "Home",
                 "opponent": "USC Upstate",
-                "opponent_NET": "282",
+                "opponent_NET": "280",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "72-63"
@@ -143,7 +143,7 @@
                 "date": "12/21/2025",
                 "location": "Home",
                 "opponent": "North Dakota",
-                "opponent_NET": "302",
+                "opponent_NET": "300",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "78-55"
@@ -169,14 +169,14 @@
         "bpi": 23.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 219.0,
+        "non_con_sos": 220.0,
         "proj_tourney_seed": "NA",
         "proj_win_loss_conf": "14.3-5.7",
         "proj_win_loss_overall": "25.3-5.7",
         "projected_tournament_order": "NA",
         "seven_day_change": "3rd",
         "sor": 2.0,
-        "sos": 49.0
+        "sos": 50.0
     },
     "espn_bracketology": {
         "seed": "3"
@@ -195,13 +195,13 @@
         "overall_record": "26-5",
         "rating": 17,
         "record": "16-0",
-        "sos": 58
+        "sos": 59
     },
     "kpi_sports": {
-        "kpi_ranking": 3
+        "kpi_ranking": 4
     },
     "massey_ratings": {
-        "massey_rank": 12
+        "massey_rank": 11
     },
     "ncaa": {
         "net_rank": "11"
@@ -233,12 +233,12 @@
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-11T14:50:29.102651",
-        "time": "Jan. 11 at 2:50 PM"
+        "iso_time": "2026-01-12T09:10:45.883987",
+        "time": "Jan. 12 at 9:10 AM"
     },
     "trank": {
         "torvik_NET": "18",
-        "trank": 18,
+        "trank": 19,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
         "trank_seed": "4",
@@ -247,7 +247,7 @@
     },
     "warrennolan": {
         "current_conf_record": "5-0",
-        "elo": "8",
+        "elo": "11",
         "nolan_net": "11",
         "quadrant_1": "5-0",
         "quadrant_2": "4-0",
