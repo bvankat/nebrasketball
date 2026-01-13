@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "6"
+        "BRCT_rank": "59"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -161,9 +161,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 58,
+        "matrix_count": 68,
         "matrix_seed": 3,
-        "total_brackets": 58
+        "total_brackets": 68
     },
     "espn": {
         "bpi": 23.0,
@@ -195,10 +195,13 @@
         "overall_record": "26-5",
         "rating": 17,
         "record": "16-0",
-        "sos": 59
+        "sos": 55
     },
     "kpi_sports": {
         "kpi_ranking": 4
+    },
+    "massey_ratings": {
+        "massey_rank": 11
     },
     "ncaa": {
         "net_rank": "11"
@@ -215,7 +218,7 @@
         "coaches_rank": 10
     },
     "shot_quality": {
-        "sq_ranking": 29
+        "sq_ranking": 28
     },
     "sports_reference": {
         "SRS_rank": 22
@@ -230,12 +233,12 @@
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-12T14:05:30.353757",
-        "time": "Jan. 12 at 2:05 PM"
+        "iso_time": "2026-01-13T00:53:24.753836",
+        "time": "Jan. 13 at 12:53 AM"
     },
     "trank": {
-        "torvik_NET": "19",
-        "trank": 19,
+        "torvik_NET": "17",
+        "trank": 20,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
         "trank_seed": "4",
