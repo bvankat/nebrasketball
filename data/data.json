@@ -193,6 +193,13 @@
     "jthom_analytics": {
         "seed": "3"
     },
+    "kenpom": {
+        "conference_record": "15-5",
+        "overall_record": "26-5",
+        "rating": 17,
+        "record": "16-0",
+        "sos": 55
+    },
     "kpi_sports": {
         "kpi_ranking": 4
     },
@@ -229,8 +236,8 @@
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-13T09:43:16.999332",
-        "time": "Jan. 13 at 9:43 AM"
+        "iso_time": "2026-01-13T09:44:18.946515",
+        "time": "Jan. 13 at 9:44 AM"
     },
     "trank": {
         "torvik_NET": "17",
