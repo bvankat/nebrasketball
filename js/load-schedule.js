@@ -78,7 +78,7 @@ async function loadSchedule() {
 				if (matchingGame) {
 					const winProb = (matchingGame.team_win_prob * 100).toFixed(0);
 					const probColor = matchingGame.team_win_prob >= 0.5 ? 'text-green-800/50' : 'text-red-800/50';
-					result = `<span class="text-[10px] font-normal ${probColor}">${winProb}%</span>`;
+					result = `<span class="text-[11px] font-normal ${probColor}">${winProb}%</span>`;
 				}
 			}
 			
