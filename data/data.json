@@ -56,7 +56,7 @@
                 "date": "11/15/2025",
                 "location": "Neutral",
                 "opponent": "Oklahoma",
-                "opponent_NET": "64",
+                "opponent_NET": "65",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "105-99"
@@ -65,7 +65,7 @@
                 "date": "11/21/2025",
                 "location": "Neutral",
                 "opponent": "Kansas St.",
-                "opponent_NET": "72",
+                "opponent_NET": "73",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-85"
@@ -107,7 +107,7 @@
                 "date": "11/03/2025",
                 "location": "Home",
                 "opponent": "West Ga.",
-                "opponent_NET": "294",
+                "opponent_NET": "292",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-53"
@@ -125,7 +125,7 @@
                 "date": "11/11/2025",
                 "location": "Home",
                 "opponent": "UMES",
-                "opponent_NET": "327",
+                "opponent_NET": "324",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "69-50"
@@ -134,7 +134,7 @@
                 "date": "11/29/2025",
                 "location": "Home",
                 "opponent": "USC Upstate",
-                "opponent_NET": "280",
+                "opponent_NET": "276",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "72-63"
@@ -143,7 +143,7 @@
                 "date": "12/21/2025",
                 "location": "Home",
                 "opponent": "North Dakota",
-                "opponent_NET": "300",
+                "opponent_NET": "302",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "78-55"
@@ -190,13 +190,6 @@
         "haslam_rating": "17",
         "seed": "1"
     },
-    "kenpom": {
-        "conference_record": "15-5",
-        "overall_record": "26-5",
-        "rating": 17,
-        "record": "16-0",
-        "sos": 55
-    },
     "kpi_sports": {
         "kpi_ranking": 4
     },
@@ -233,12 +226,12 @@
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-13T00:56:59.804874",
-        "time": "Jan. 13 at 12:56 AM"
+        "iso_time": "2026-01-13T09:21:55.454024",
+        "time": "Jan. 13 at 9:21 AM"
     },
     "trank": {
         "torvik_NET": "17",
-        "trank": 20,
+        "trank": 19,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
         "trank_seed": "4",
