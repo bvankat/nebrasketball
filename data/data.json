@@ -188,7 +188,10 @@
     },
     "haslametrics": {
         "haslam_rating": "17",
-        "seed": "1"
+        "seed": "NA"
+    },
+    "jthom_analytics": {
+        "seed": "3"
     },
     "kpi_sports": {
         "kpi_ranking": 4
@@ -217,17 +220,17 @@
         "SRS_rank": 22
     },
     "teamrankings": {
-        "make_tournament": "99.9%",
+        "make_tournament": "99.8%",
         "most_likely_seed": "3",
-        "proj_conf_record": "14.2-5.8",
-        "projected_bid_pct": "99.9%",
-        "projected_losses": "5.8",
-        "projected_wins": "25.2",
+        "proj_conf_record": "14.3-5.7",
+        "projected_bid_pct": "99.8%",
+        "projected_losses": "5.7",
+        "projected_wins": "25.3",
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-13T09:21:55.454024",
-        "time": "Jan. 13 at 9:21 AM"
+        "iso_time": "2026-01-13T09:43:16.999332",
+        "time": "Jan. 13 at 9:43 AM"
     },
     "trank": {
         "torvik_NET": "17",
