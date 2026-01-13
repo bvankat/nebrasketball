@@ -26,6 +26,11 @@ async function loadSchedule() {
 		const schedule = data.teams['nebraska-cornhuskers'].schedule;
 		const scheduleTableBody = document.getElementById('schedule-table-body');
 		
+		// Fetch win probabilities
+		const dataResponse = await fetch('/data/data.json');
+		const analyticsData = await dataResponse.json();
+		const winProbabilities = analyticsData.jthom_analytics.games;
+		
 		schedule.forEach(game => {
 			const row = document.createElement('tr');
 			row.className = 'transition-colors duration-200 hover:bg-gray-50';
@@ -61,6 +66,20 @@ async function loadSchedule() {
 				const minutes = gameDate.getMinutes();
 				const timeStr = formatGameTime(hours, minutes);
 				formattedDate += `  <span class="text-[10px] text-gray-400 ml-1">${timeStr}</span>`;
+				
+				// Find matching win probability
+				const matchingGame = winProbabilities.find(g => {
+					// Parse jthom_analytics date (format: "MM/DD")
+					const [month, day] = g.date.split('/').map(n => parseInt(n));
+					// Compare with schedule game date
+					return gameDate.getMonth() + 1 === month && gameDate.getDate() === day;
+				});
+				
+				if (matchingGame) {
+					const winProb = (matchingGame.kenpom_win_prob * 100).toFixed(0);
+					const probColor = matchingGame.kenpom_win_prob >= 0.5 ? 'text-green-800/50' : 'text-red-800/50';
+					result = `<span class="text-[10px] font-normal ${probColor}">${winProb}%</span>`;
+				}
 			}
 			
 			row.innerHTML = `
