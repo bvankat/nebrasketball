@@ -227,6 +227,11 @@ if (data.espn_bracketology) {
 	if ( data.massey_ratings ) {
 		document.getElementById('massey-rank').innerHTML = data.massey_ratings.massey_rank;
 	}
+
+	if ( data.jthom_analytics ) {
+		document.getElementById('jthom-seed').innerHTML = data.jthom_analytics.seed;
+		document.getElementById('jthom-record').innerHTML = data.jthom_analytics.proj_record;
+	}
 	
 	if ( data.bballnet_quadrants ) {
 		document.getElementById('NET_quadrants_Q1_record').innerHTML = data.bballnet_quadrants.quad1record;
