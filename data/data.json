@@ -408,11 +408,11 @@
         "net_rank": "11"
     },
     "next_game": {
-        "away_team": "Oregon",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-        "date_time": "2026-01-14T02:00Z",
-        "home_team": "Nebraska",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
+        "away_team": "Nebraska",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+        "date_time": "2026-01-17T21:00Z",
+        "home_team": "Northwestern",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png"
     },
     "polls": {
         "ap_rank": 8,
@@ -434,17 +434,8 @@
         "rank": "22"
     },
     "time": {
-        "iso_time": "2026-01-14T09:49:53.187308",
-        "time": "Jan. 14 at 9:49 AM"
-    },
-    "trank": {
-        "torvik_NET": "13",
-        "trank": 16,
-        "trank_make_tourney": 100.0,
-        "trank_proj_record": "26-5 (15-5)",
-        "trank_seed": "3",
-        "wab_rank": 3,
-        "wab_score": "+5.6"
+        "iso_time": "2026-01-14T10:30:57.575261",
+        "time": "Jan. 14 at 10:30 AM"
     },
     "warrennolan": {
         "current_conf_record": "6-0",
