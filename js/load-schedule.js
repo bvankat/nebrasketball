@@ -50,7 +50,7 @@ async function loadSchedule() {
 
 			// Check if opponent is ranked in Top 25
 			const isRanked = opponent.gameRank && opponent.gameRank <= 25;
-			const rankDisplay = isRanked ? `<span class="text-xs font-medium text-gray-500 mr-1">#${opponent.gameRank}</span> ` : '';
+			const rankDisplay = isRanked ? `<span class="text-xs font-medium text-gray-500">#${opponent.gameRank}</span> ` : '';
 
 			// Determine result
 			let result = '—';
@@ -83,14 +83,14 @@ async function loadSchedule() {
 			}
 			
 			row.innerHTML = `
-				<td class="px-6 py-4 text-sm font-medium text-gray-700">
-					<div class="flex items-center gap-3 font-medium">
-						<img src="${opponent.logo}" alt="${opponent.team_nickname}" class="w-6 h-6">
+				<td class="px-3 py-4 text-sm font-medium text-gray-700">
+					<div class="flex items-center gap-2 font-medium">
+						<img src="${opponent.logo}" alt="${opponent.team_nickname}" class="w-5 h-5">
 						<span>${locationPrefix}${rankDisplay}<a href="https://tourneyodds.info/${opponent.slug}" target="_blank" class="hover:text-red-700 transition-colors">${opponent.team_nickname}</a></span>
 					</div>
 				</td>
-				<td class="px-6 py-4 text-sm font-normal text-gray-600 geist">${formattedDate}</td>
-				<td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">${result}</td>
+				<td class="px-4 py-4 text-xs font-normal text-gray-600 geist">${formattedDate}</td>
+				<td class="px-4 py-4 text-sm font-medium text-gray-700 text-right">${result}</td>
 			`;
 			
 			scheduleTableBody.appendChild(row);
