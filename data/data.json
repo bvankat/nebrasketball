@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "6"
+        "BRCT_rank": "59"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -162,7 +162,7 @@
     },
     "bracketproject": {
         "matrix_count": 68,
-        "matrix_seed": 3,
+        "matrix_seed": 2,
         "total_brackets": 68
     },
     "espn": {
@@ -385,9 +385,9 @@
     "kenpom": {
         "conference_record": "15-5",
         "overall_record": "26-5",
-        "rating": 17,
-        "record": "16-0",
-        "sos": 55
+        "rating": 15,
+        "record": "17-0",
+        "sos": 59
     },
     "kpi_sports": {
         "kpi_ranking": 4
@@ -410,42 +410,42 @@
         "coaches_rank": 10
     },
     "shot_quality": {
-        "sq_ranking": 28
+        "sq_ranking": 29
     },
     "sports_reference": {
         "SRS_rank": 22
     },
     "teamrankings": {
-        "make_tournament": "99.8%",
+        "make_tournament": "99.9%",
         "most_likely_seed": "3",
-        "proj_conf_record": "14.3-5.7",
-        "projected_bid_pct": "99.8%",
-        "projected_losses": "5.7",
-        "projected_wins": "25.3",
+        "proj_conf_record": "14.4-5.6",
+        "projected_bid_pct": "99.9%",
+        "projected_losses": "5.6",
+        "projected_wins": "25.4",
         "rank": "27"
     },
     "time": {
-        "iso_time": "2026-01-13T13:38:10.038846",
-        "time": "Jan. 13 at 1:38 PM"
+        "iso_time": "2026-01-14T00:12:20.664590",
+        "time": "Jan. 14 at 12:12 AM"
     },
     "trank": {
-        "torvik_NET": "17",
-        "trank": 19,
+        "torvik_NET": "16",
+        "trank": 16,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
-        "trank_seed": "4",
+        "trank_seed": "3",
         "wab_rank": 3,
-        "wab_score": "+5.4"
+        "wab_score": "+5.6"
     },
     "warrennolan": {
-        "current_conf_record": "5-0",
-        "elo": "11",
+        "current_conf_record": "6-0",
+        "elo": "9",
         "nolan_net": "11",
         "quadrant_1": "5-0",
         "quadrant_2": "4-0",
-        "quadrant_3": "1-0",
+        "quadrant_3": "2-0",
         "quadrant_4": "6-0",
-        "record": "16-0",
-        "rpi": "2"
+        "record": "17-0",
+        "rpi": "3"
     }
 }
