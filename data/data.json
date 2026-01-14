@@ -410,26 +410,26 @@
         "coaches_rank": 10
     },
     "shot_quality": {
-        "sq_ranking": 29
+        "sq_ranking": 24
     },
     "sports_reference": {
         "SRS_rank": 22
     },
     "teamrankings": {
-        "make_tournament": "99.9%",
+        "make_tournament": "100.0%",
         "most_likely_seed": "3",
-        "proj_conf_record": "14.4-5.6",
-        "projected_bid_pct": "99.9%",
-        "projected_losses": "5.6",
-        "projected_wins": "25.4",
-        "rank": "27"
+        "proj_conf_record": "14.8-5.2",
+        "projected_bid_pct": "100.0%",
+        "projected_losses": "5.2",
+        "projected_wins": "25.8",
+        "rank": "22"
     },
     "time": {
-        "iso_time": "2026-01-14T00:38:59.413569",
-        "time": "Jan. 14 at 12:38 AM"
+        "iso_time": "2026-01-14T02:25:36.827025",
+        "time": "Jan. 14 at 2:25 AM"
     },
     "trank": {
-        "torvik_NET": "16",
+        "torvik_NET": "14",
         "trank": 16,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
