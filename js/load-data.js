@@ -259,8 +259,8 @@ if (data.espn_bracketology) {
 			table += `<tr>
 						<td><span class="opponent-net">${game.opponent_NET}</span> ${game.opponent}</td>
 						<td>${game.location}</td>
-						<td class="text-end" style="padding-left: 10px;">${game.score}</td>
-						<td class="text-end ${resultClass}" style="padding-left: 10px;">${game.result}</td>
+						<td class="text-end" style="padding-left: 5px;">${game.score}</td>
+						<td class="text-end ${resultClass}" style="padding-left: 5px;">${game.result}</td>
 					  </tr>`;
 		});
 	
