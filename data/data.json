@@ -175,17 +175,17 @@
         "total_brackets": 68
     },
     "espn": {
-        "bpi": 23.0,
+        "bpi": 20.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 218.0,
+        "non_con_sos": 217.0,
         "proj_tourney_seed": "NA",
-        "proj_win_loss_conf": "14.3-5.7",
-        "proj_win_loss_overall": "25.3-5.7",
+        "proj_win_loss_conf": "14.9-5.1",
+        "proj_win_loss_overall": "25.9-5.1",
         "projected_tournament_order": "NA",
-        "seven_day_change": "",
+        "seven_day_change": "2nd",
         "sor": 2.0,
-        "sos": 49.0
+        "sos": 45.0
     },
     "espn_bracketology": {
         "seed": "3"
@@ -396,7 +396,7 @@
         "overall_record": "26-5",
         "rating": 15,
         "record": "17-0",
-        "sos": 59
+        "sos": 57
     },
     "kpi_sports": {
         "kpi_ranking": 5
@@ -434,17 +434,17 @@
         "rank": "22"
     },
     "time": {
-        "iso_time": "2026-01-14T10:35:22.993707",
-        "time": "Jan. 14 at 10:35 AM"
+        "iso_time": "2026-01-14T22:49:08.864169",
+        "time": "Jan. 14 at 10:49 PM"
     },
     "trank": {
-        "torvik_NET": "13",
+        "torvik_NET": "14",
         "trank": 16,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
         "trank_seed": "3",
         "wab_rank": 3,
-        "wab_score": "+5.6"
+        "wab_score": "+5.4"
     },
     "warrennolan": {
         "current_conf_record": "6-0",
