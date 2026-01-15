@@ -391,6 +391,13 @@
         "proj_record": "27.3-5.7",
         "seed": "3"
     },
+    "kenpom": {
+        "conference_record": "15-5",
+        "overall_record": "26-5",
+        "rating": 15,
+        "record": "17-0",
+        "sos": 59
+    },
     "kpi_sports": {
         "kpi_ranking": 4
     },
@@ -427,8 +434,8 @@
         "rank": "22"
     },
     "time": {
-        "iso_time": "2026-01-15T12:13:46.497870",
-        "time": "Jan. 15 at 12:13 PM"
+        "iso_time": "2026-01-15T13:09:20.147548",
+        "time": "Jan. 15 at 1:09 PM"
     },
     "trank": {
         "torvik_NET": "13",
