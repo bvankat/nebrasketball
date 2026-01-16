@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "59"
+        "BRCT_rank": "6"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -188,7 +188,7 @@
         "sos": 48.0
     },
     "espn_bracketology": {
-        "seed": "3"
+        "seed": "2"
     },
     "evanmiya": {
         "miya_rating": 15,
@@ -398,6 +398,9 @@
         "record": "17-0",
         "sos": 58
     },
+    "kpi_sports": {
+        "kpi_ranking": 5
+    },
     "massey_ratings": {
         "massey_rank": 11
     },
@@ -416,7 +419,7 @@
         "coaches_rank": 10
     },
     "shot_quality": {
-        "sq_ranking": 25
+        "sq_ranking": 26
     },
     "sports_reference": {
         "SRS_rank": 17
@@ -424,18 +427,18 @@
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "3",
-        "proj_conf_record": "14.9-5.1",
+        "proj_conf_record": "14.8-5.2",
         "projected_bid_pct": "100.0%",
-        "projected_losses": "5.1",
-        "projected_wins": "25.9",
+        "projected_losses": "5.2",
+        "projected_wins": "25.8",
         "rank": "22"
     },
     "time": {
-        "iso_time": "2026-01-16T03:16:42.982307",
-        "time": "Jan. 16 at 3:16 AM"
+        "iso_time": "2026-01-16T10:46:45.331318",
+        "time": "Jan. 16 at 10:46 AM"
     },
     "trank": {
-        "torvik_NET": "13",
+        "torvik_NET": "12",
         "trank": 16,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
