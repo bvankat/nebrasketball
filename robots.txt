@@ -1,0 +1,4 @@
+# https://www.nebrasketball.info robots.txt
+
+User-agent: *
+Allow: /
