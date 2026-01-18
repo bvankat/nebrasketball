@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "59"
+        "BRCT_rank": "5"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -497,9 +497,6 @@
     "shot_quality": {
         "sq_ranking": 20
     },
-    "sports_reference": {
-        "SRS_rank": 17
-    },
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "2",
@@ -510,8 +507,8 @@
         "rank": "18"
     },
     "time": {
-        "iso_time": "2026-01-18T12:36:04.368623",
-        "time": "Jan. 18 at 12:36 PM"
+        "iso_time": "2026-01-18T12:55:47.580761",
+        "time": "Jan. 18 at 12:55 PM"
     },
     "trank": {
         "torvik_NET": "11",
