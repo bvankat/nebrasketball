@@ -81,7 +81,7 @@ async function loadSchedule() {
 				if (matchingGame) {
 					const winProb = parseInt(matchingGame.prob);
 					const probColor = winProb >= 50 ? 'text-green-800/50' : 'text-red-800/50';
-					result = `<span class="text-[11px] font-normal ${probColor}">${winProb}%</span>`;
+					result = `<span class="text-[11px] font-normal ${probColor}" title="Kenpom Win Probability: ${winProb}%">${winProb}%</span>`;
 				}
 			}
 			
