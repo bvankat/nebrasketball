@@ -43133,6 +43133,533 @@
                 "record": "18-0",
                 "rpi": "6"
             }
+        },
+        {
+            "kenpom": {
+                "rating": 14,
+                "record": "18-0",
+                "sos": 49,
+                "overall_record": "27-4",
+                "conference_record": "16-4",
+                "remaining_games": [
+                    {
+                        "date": "Wed Jan 21",
+                        "opponent": "Washington",
+                        "prob": "83%"
+                    },
+                    {
+                        "date": "Sat Jan 24",
+                        "opponent": "Minnesota",
+                        "prob": "76%"
+                    },
+                    {
+                        "date": "Tue Jan 27",
+                        "opponent": "Michigan",
+                        "prob": "19%"
+                    },
+                    {
+                        "date": "Sun Feb 1",
+                        "opponent": "Illinois",
+                        "prob": "54%"
+                    },
+                    {
+                        "date": "Sat Feb 7",
+                        "opponent": "Rutgers",
+                        "prob": "88%"
+                    },
+                    {
+                        "date": "Tue Feb 10",
+                        "opponent": "Purdue",
+                        "prob": "52%"
+                    },
+                    {
+                        "date": "Sat Feb 14",
+                        "opponent": "Northwestern",
+                        "prob": "89%"
+                    },
+                    {
+                        "date": "Tue Feb 17",
+                        "opponent": "Iowa",
+                        "prob": "41%"
+                    },
+                    {
+                        "date": "Sat Feb 21",
+                        "opponent": "Penn St.",
+                        "prob": "94%"
+                    },
+                    {
+                        "date": "Wed Feb 25",
+                        "opponent": "Maryland",
+                        "prob": "96%"
+                    },
+                    {
+                        "date": "Sat Feb 28",
+                        "opponent": "USC",
+                        "prob": "65%"
+                    },
+                    {
+                        "date": "Tue Mar 3",
+                        "opponent": "UCLA",
+                        "prob": "60%"
+                    },
+                    {
+                        "date": "Sun Mar 8",
+                        "opponent": "Iowa",
+                        "prob": "66%"
+                    }
+                ]
+            },
+            "evanmiya": {
+                "miya_rating": 16,
+                "miya_resume_rank": 4,
+                "miya_resume_category": "1-2 Seed"
+            },
+            "polls": {
+                "ap_rank": 8,
+                "coaches_rank": 10
+            },
+            "espn": {
+                "bpi": 20.0,
+                "seven_day_change": "3rd",
+                "proj_tourney_seed": "NA",
+                "proj_win_loss_overall": "25.9-5.1",
+                "proj_win_loss_conf": "14.9-5.1",
+                "sor": 2.0,
+                "sos": 49.0,
+                "non_con_sos": 215.0,
+                "chance_sweet_16": "NA",
+                "chance_round_32": "NA",
+                "projected_tournament_order": "NA"
+            },
+            "next_game": {
+                "home_team": "Northwestern",
+                "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
+                "away_team": "Nebraska",
+                "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+                "date_time": "2026-01-17T21:00Z"
+            },
+            "espn_bracketology": {
+                "seed": "2"
+            },
+            "ncaa": {
+                "net_rank": "11"
+            },
+            "teamrankings": {
+                "make_tournament": "100.0%",
+                "most_likely_seed": "3",
+                "rank": "22",
+                "projected_wins": "25.8",
+                "projected_losses": "5.2",
+                "proj_conf_record": "14.8-5.2",
+                "projected_bid_pct": "100.0%"
+            },
+            "warrennolan": {
+                "record": "18-0",
+                "current_conf_record": "7-0",
+                "rpi": "6",
+                "elo": "9",
+                "quadrant_1": "5-0",
+                "quadrant_2": "5-0",
+                "quadrant_3": "2-0",
+                "quadrant_4": "6-0",
+                "nolan_net": "11"
+            },
+            "trank": {
+                "trank": 14,
+                "trank_proj_record": "27-4 (16-4)",
+                "trank_seed": "3",
+                "trank_make_tourney": 100.0,
+                "wab_score": "+6.0",
+                "wab_rank": 3,
+                "torvik_NET": "14"
+            },
+            "haslametrics": {
+                "haslam_rating": "13",
+                "seed": "1"
+            },
+            "kpi_sports": {
+                "kpi_ranking": 7
+            },
+            "shot_quality": {
+                "sq_ranking": 24
+            },
+            "massey_ratings": {
+                "massey_rank": 11
+            },
+            "bracketproject": {
+                "matrix_count": 77,
+                "total_brackets": 77,
+                "matrix_seed": 2
+            },
+            "sports_reference": {
+                "SRS_rank": 18
+            },
+            "bauertology": {
+                "BRCT_rank": "6"
+            },
+            "bballnet_quadrants": {
+                "quad1record": "5-0",
+                "quad2record": "4-0",
+                "quad3record": "2-0",
+                "quad4record": "6-0",
+                "quad1_games": [
+                    {
+                        "result": "W",
+                        "score": "84-72",
+                        "date": "11/20/2025",
+                        "location": "Neutral",
+                        "opponent_NET": "42",
+                        "opponent": "New Mexico",
+                        "opponent_rank": null
+                    },
+                    {
+                        "result": "W",
+                        "score": "83-80",
+                        "date": "12/13/2025",
+                        "location": "Away",
+                        "opponent_NET": "9",
+                        "opponent": "Illinois",
+                        "opponent_rank": "13"
+                    },
+                    {
+                        "result": "W",
+                        "score": "58-56",
+                        "date": "01/02/2026",
+                        "location": "Home",
+                        "opponent_NET": "13",
+                        "opponent": "Michigan St.",
+                        "opponent_rank": "9"
+                    },
+                    {
+                        "result": "W",
+                        "score": "72-69",
+                        "date": "01/05/2026",
+                        "location": "Away",
+                        "opponent_NET": "40",
+                        "opponent": "Ohio St.",
+                        "opponent_rank": null
+                    },
+                    {
+                        "result": "W",
+                        "score": "83-77",
+                        "date": "01/10/2026",
+                        "location": "Away",
+                        "opponent_NET": "36",
+                        "opponent": "Indiana",
+                        "opponent_rank": null
+                    }
+                ],
+                "quad2_games": [
+                    {
+                        "result": "W",
+                        "score": "105-99",
+                        "date": "11/15/2025",
+                        "location": "Neutral",
+                        "opponent_NET": "69",
+                        "opponent": "Oklahoma",
+                        "opponent_rank": null
+                    },
+                    {
+                        "result": "W",
+                        "score": "86-85",
+                        "date": "11/21/2025",
+                        "location": "Neutral",
+                        "opponent_NET": "78",
+                        "opponent": "Kansas St.",
+                        "opponent_rank": null
+                    },
+                    {
+                        "result": "W",
+                        "score": "71-50",
+                        "date": "12/07/2025",
+                        "location": "Home",
+                        "opponent_NET": "55",
+                        "opponent": "Creighton",
+                        "opponent_rank": null
+                    },
+                    {
+                        "result": "W",
+                        "score": "90-60",
+                        "date": "12/10/2025",
+                        "location": "Home",
+                        "opponent_NET": "38",
+                        "opponent": "Wisconsin",
+                        "opponent_rank": null
+                    }
+                ],
+                "quad3_games": [
+                    {
+                        "result": "W",
+                        "score": "80-73",
+                        "date": "11/25/2025",
+                        "location": "Home",
+                        "opponent_NET": "135",
+                        "opponent": "Winthrop",
+                        "opponent_rank": null
+                    },
+                    {
+                        "result": "W",
+                        "score": "90-55",
+                        "date": "01/13/2026",
+                        "location": "Home",
+                        "opponent_NET": "111",
+                        "opponent": "Oregon",
+                        "opponent_rank": null
+                    }
+                ],
+                "quad4_games": [
+                    {
+                        "result": "W",
+                        "score": "86-53",
+                        "date": "11/03/2025",
+                        "location": "Home",
+                        "opponent_NET": "306",
+                        "opponent": "West Ga.",
+                        "opponent_rank": null
+                    },
+                    {
+                        "result": "W",
+                        "score": "96-66",
+                        "date": "11/08/2025",
+                        "location": "Home",
+                        "opponent_NET": "178",
+                        "opponent": "FIU",
+                        "opponent_rank": null
+                    },
+                    {
+                        "result": "W",
+                        "score": "69-50",
+                        "date": "11/11/2025",
+                        "location": "Home",
+                        "opponent_NET": "320",
+                        "opponent": "UMES",
+                        "opponent_rank": null
+                    },
+                    {
+                        "result": "W",
+                        "score": "72-63",
+                        "date": "11/29/2025",
+                        "location": "Home",
+                        "opponent_NET": "260",
+                        "opponent": "USC Upstate",
+                        "opponent_rank": null
+                    },
+                    {
+                        "result": "W",
+                        "score": "78-55",
+                        "date": "12/21/2025",
+                        "location": "Home",
+                        "opponent_NET": "304",
+                        "opponent": "North Dakota",
+                        "opponent_rank": null
+                    },
+                    {
+                        "result": "W",
+                        "score": "86-55",
+                        "date": "12/30/2025",
+                        "location": "Home",
+                        "opponent_NET": "330",
+                        "opponent": "New Hampshire",
+                        "opponent_rank": null
+                    }
+                ]
+            },
+            "jthom_analytics": {
+                "seed": "2",
+                "proj_record": "27.3-5.7",
+                "games": [
+                    {
+                        "date": "11/03",
+                        "opponent": "West Georgia",
+                        "kenpom_win_prob": 0.99,
+                        "team_win_prob": 0.99
+                    },
+                    {
+                        "date": "11/08",
+                        "opponent": "FIU",
+                        "kenpom_win_prob": 0.99,
+                        "team_win_prob": 0.99
+                    },
+                    {
+                        "date": "11/11",
+                        "opponent": "Maryland Eastern Shore",
+                        "kenpom_win_prob": 0.99,
+                        "team_win_prob": 0.99
+                    },
+                    {
+                        "date": "11/15",
+                        "opponent": "Oklahoma",
+                        "kenpom_win_prob": 0.6347964570318848,
+                        "team_win_prob": 0.7295709169055437
+                    },
+                    {
+                        "date": "11/20",
+                        "opponent": "New Mexico",
+                        "kenpom_win_prob": 0.5672874430876754,
+                        "team_win_prob": 0.6620619029613342
+                    },
+                    {
+                        "date": "11/21",
+                        "opponent": "Kansas State",
+                        "kenpom_win_prob": 0.6868505567968811,
+                        "team_win_prob": 0.78162501667054
+                    },
+                    {
+                        "date": "11/25",
+                        "opponent": "Winthrop",
+                        "kenpom_win_prob": 0.9456515335158744,
+                        "team_win_prob": 0.99
+                    },
+                    {
+                        "date": "11/29",
+                        "opponent": "USC Upstate",
+                        "kenpom_win_prob": 0.99,
+                        "team_win_prob": 0.99
+                    },
+                    {
+                        "date": "12/07",
+                        "opponent": "Creighton",
+                        "kenpom_win_prob": 0.6868641333299996,
+                        "team_win_prob": 0.7816385932036584
+                    },
+                    {
+                        "date": "12/10",
+                        "opponent": "Wisconsin",
+                        "kenpom_win_prob": 0.6296558943886005,
+                        "team_win_prob": 0.7244303542622593
+                    },
+                    {
+                        "date": "12/13",
+                        "opponent": "Illinois",
+                        "kenpom_win_prob": 0.2433473976216824,
+                        "team_win_prob": 0.3381218574953413
+                    },
+                    {
+                        "date": "12/21",
+                        "opponent": "North Dakota",
+                        "kenpom_win_prob": 0.99,
+                        "team_win_prob": 0.99
+                    },
+                    {
+                        "date": "12/30",
+                        "opponent": "New Hampshire",
+                        "kenpom_win_prob": 0.99,
+                        "team_win_prob": 0.99
+                    },
+                    {
+                        "date": "01/02",
+                        "opponent": "Michigan State",
+                        "kenpom_win_prob": 0.47028297873528,
+                        "team_win_prob": 0.5650574386089389
+                    },
+                    {
+                        "date": "01/05",
+                        "opponent": "Ohio State",
+                        "kenpom_win_prob": 0.4209622102894693,
+                        "team_win_prob": 0.5157366701631282
+                    },
+                    {
+                        "date": "01/10",
+                        "opponent": "Indiana",
+                        "kenpom_win_prob": 0.4060160012549993,
+                        "team_win_prob": 0.5007904611286582
+                    },
+                    {
+                        "date": "01/13",
+                        "opponent": "Oregon",
+                        "kenpom_win_prob": 0.7755572060464015,
+                        "team_win_prob": 0.8703316659200604
+                    },
+                    {
+                        "date": "01/17",
+                        "opponent": "Northwestern",
+                        "kenpom_win_prob": 0.5497293272121452,
+                        "team_win_prob": 0.6445037870858039
+                    },
+                    {
+                        "date": "01/21",
+                        "opponent": "Washington",
+                        "kenpom_win_prob": 0.6721434531477699,
+                        "team_win_prob": 0.7669179130214288
+                    },
+                    {
+                        "date": "01/24",
+                        "opponent": "Minnesota",
+                        "kenpom_win_prob": 0.5872544439629639,
+                        "team_win_prob": 0.6820289038366227
+                    },
+                    {
+                        "date": "01/27",
+                        "opponent": "Michigan",
+                        "kenpom_win_prob": 0.1495634726480477,
+                        "team_win_prob": 0.2443379325217066
+                    },
+                    {
+                        "date": "02/01",
+                        "opponent": "Illinois",
+                        "kenpom_win_prob": 0.4313473976216824,
+                        "team_win_prob": 0.5261218574953412
+                    },
+                    {
+                        "date": "02/07",
+                        "opponent": "Rutgers",
+                        "kenpom_win_prob": 0.8087108013255606,
+                        "team_win_prob": 0.9034852611992196
+                    },
+                    {
+                        "date": "02/10",
+                        "opponent": "Purdue",
+                        "kenpom_win_prob": 0.4018573086298131,
+                        "team_win_prob": 0.496631768503472
+                    },
+                    {
+                        "date": "02/14",
+                        "opponent": "Northwestern",
+                        "kenpom_win_prob": 0.7377293272121451,
+                        "team_win_prob": 0.8325037870858039
+                    },
+                    {
+                        "date": "02/17",
+                        "opponent": "Iowa",
+                        "kenpom_win_prob": 0.3531821522191484,
+                        "team_win_prob": 0.4479566120928072
+                    },
+                    {
+                        "date": "02/21",
+                        "opponent": "Penn State",
+                        "kenpom_win_prob": 0.8625880145009173,
+                        "team_win_prob": 0.957362474374576
+                    },
+                    {
+                        "date": "02/25",
+                        "opponent": "Maryland",
+                        "kenpom_win_prob": 0.915635863574646,
+                        "team_win_prob": 0.99
+                    },
+                    {
+                        "date": "02/28",
+                        "opponent": "USC",
+                        "kenpom_win_prob": 0.5041587283810263,
+                        "team_win_prob": 0.5989331882546851
+                    },
+                    {
+                        "date": "03/03",
+                        "opponent": "UCLA",
+                        "kenpom_win_prob": 0.4350708569431386,
+                        "team_win_prob": 0.5298453168167974
+                    },
+                    {
+                        "date": "03/08",
+                        "opponent": "Iowa",
+                        "kenpom_win_prob": 0.5411821522191483,
+                        "team_win_prob": 0.6359566120928072
+                    }
+                ]
+            },
+            "time": {
+                "time": "Jan. 17 at 7:06 PM",
+                "iso_time": "2026-01-17T19:06:28.917149"
+            }
         }
     ]
 }
