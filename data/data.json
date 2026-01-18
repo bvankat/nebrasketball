@@ -196,7 +196,7 @@
         "miya_resume_rank": 4
     },
     "haslametrics": {
-        "haslam_rating": "13",
+        "haslam_rating": "11",
         "seed": "1"
     },
     "jthom_analytics": {
@@ -394,13 +394,13 @@
     "kenpom": {
         "conference_record": "16-4",
         "overall_record": "27-4",
-        "rating": 14,
+        "rating": 13,
         "record": "18-0",
         "remaining_games": [
             {
                 "date": "Wed Jan 21",
                 "opponent": "Washington",
-                "prob": "83%"
+                "prob": "85%"
             },
             {
                 "date": "Sat Jan 24",
@@ -410,7 +410,7 @@
             {
                 "date": "Tue Jan 27",
                 "opponent": "Michigan",
-                "prob": "19%"
+                "prob": "20%"
             },
             {
                 "date": "Sun Feb 1",
@@ -463,7 +463,7 @@
                 "prob": "66%"
             }
         ],
-        "sos": 49
+        "sos": 46
     },
     "kpi_sports": {
         "kpi_ranking": 7
@@ -486,7 +486,7 @@
         "coaches_rank": 10
     },
     "shot_quality": {
-        "sq_ranking": 24
+        "sq_ranking": 19
     },
     "sports_reference": {
         "SRS_rank": 18
@@ -494,34 +494,34 @@
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "3",
-        "proj_conf_record": "14.8-5.2",
+        "proj_conf_record": "15.2-4.8",
         "projected_bid_pct": "100.0%",
-        "projected_losses": "5.2",
-        "projected_wins": "25.8",
-        "rank": "22"
+        "projected_losses": "4.8",
+        "projected_wins": "26.2",
+        "rank": "18"
     },
     "time": {
-        "iso_time": "2026-01-17T19:06:28.917149",
-        "time": "Jan. 17 at 7:06 PM"
+        "iso_time": "2026-01-18T02:11:40.982576",
+        "time": "Jan. 18 at 2:11 AM"
     },
     "trank": {
         "torvik_NET": "14",
-        "trank": 14,
+        "trank": 16,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "27-4 (16-4)",
         "trank_seed": "3",
-        "wab_rank": 3,
-        "wab_score": "+6.0"
+        "wab_rank": 4,
+        "wab_score": "+6.1"
     },
     "warrennolan": {
         "current_conf_record": "7-0",
-        "elo": "9",
+        "elo": "8",
         "nolan_net": "11",
         "quadrant_1": "5-0",
         "quadrant_2": "5-0",
         "quadrant_3": "2-0",
         "quadrant_4": "6-0",
         "record": "18-0",
-        "rpi": "6"
+        "rpi": "7"
     }
 }
