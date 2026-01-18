@@ -29,7 +29,7 @@ async function loadSchedule() {
 		// Fetch win probabilities
 		const dataResponse = await fetch('/data/data.json');
 		const analyticsData = await dataResponse.json();
-		const winProbabilities = analyticsData.jthom_analytics.games;
+		const winProbabilities = analyticsData.kenpom.remaining_games;
 		
 		schedule.forEach(game => {
 			const row = document.createElement('tr');
@@ -69,15 +69,18 @@ async function loadSchedule() {
 				
 				// Find matching win probability
 				const matchingGame = winProbabilities.find(g => {
-					// Parse jthom_analytics date (format: "MM/DD")
-					const [month, day] = g.date.split('/').map(n => parseInt(n));
+					// Parse kenpom date (format: "Sun Mar 8" or "Sat Feb 28")
+					const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+					const parts = g.date.split(' ');
+					const month = monthNames.indexOf(parts[1]);
+					const day = parseInt(parts[2]);
 					// Compare with schedule game date
-					return gameDate.getMonth() + 1 === month && gameDate.getDate() === day;
+					return gameDate.getMonth() === month && gameDate.getDate() === day;
 				});
-				
+
 				if (matchingGame) {
-					const winProb = (matchingGame.team_win_prob * 100).toFixed(0);
-					const probColor = matchingGame.team_win_prob >= 0.5 ? 'text-green-800/50' : 'text-red-800/50';
+					const winProb = parseInt(matchingGame.prob);
+					const probColor = winProb >= 50 ? 'text-green-800/50' : 'text-red-800/50';
 					result = `<span class="text-[11px] font-normal ${probColor}">${winProb}%</span>`;
 				}
 			}
