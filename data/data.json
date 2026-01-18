@@ -396,6 +396,73 @@
         "overall_record": "27-4",
         "rating": 14,
         "record": "18-0",
+        "remaining_games": [
+            {
+                "date": "Wed Jan 21",
+                "opponent": "Washington",
+                "prob": "83%"
+            },
+            {
+                "date": "Sat Jan 24",
+                "opponent": "Minnesota",
+                "prob": "76%"
+            },
+            {
+                "date": "Tue Jan 27",
+                "opponent": "Michigan",
+                "prob": "19%"
+            },
+            {
+                "date": "Sun Feb 1",
+                "opponent": "Illinois",
+                "prob": "54%"
+            },
+            {
+                "date": "Sat Feb 7",
+                "opponent": "Rutgers",
+                "prob": "88%"
+            },
+            {
+                "date": "Tue Feb 10",
+                "opponent": "Purdue",
+                "prob": "52%"
+            },
+            {
+                "date": "Sat Feb 14",
+                "opponent": "Northwestern",
+                "prob": "89%"
+            },
+            {
+                "date": "Tue Feb 17",
+                "opponent": "Iowa",
+                "prob": "41%"
+            },
+            {
+                "date": "Sat Feb 21",
+                "opponent": "Penn St.",
+                "prob": "94%"
+            },
+            {
+                "date": "Wed Feb 25",
+                "opponent": "Maryland",
+                "prob": "96%"
+            },
+            {
+                "date": "Sat Feb 28",
+                "opponent": "USC",
+                "prob": "65%"
+            },
+            {
+                "date": "Tue Mar 3",
+                "opponent": "UCLA",
+                "prob": "60%"
+            },
+            {
+                "date": "Sun Mar 8",
+                "opponent": "Iowa",
+                "prob": "66%"
+            }
+        ],
         "sos": 49
     },
     "kpi_sports": {
@@ -434,8 +501,8 @@
         "rank": "22"
     },
     "time": {
-        "iso_time": "2026-01-17T18:29:04.578286",
-        "time": "Jan. 17 at 6:29 PM"
+        "iso_time": "2026-01-17T18:40:51.977212",
+        "time": "Jan. 17 at 6:40 PM"
     },
     "trank": {
         "torvik_NET": "14",
