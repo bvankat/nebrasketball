@@ -1,4 +1,7 @@
 {
+    "bauertology": {
+        "BRCT_rank": "5"
+    },
     "bballnet_quadrants": {
         "quad1_games": [
             {
@@ -507,8 +510,8 @@
         "rank": "18"
     },
     "time": {
-        "iso_time": "2026-01-19T08:53:14.574908",
-        "time": "Jan. 19 at 8:53 AM"
+        "iso_time": "2026-01-19T09:55:36.671811",
+        "time": "Jan. 19 at 9:55 AM"
     },
     "trank": {
         "torvik_NET": "11",
