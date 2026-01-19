@@ -491,11 +491,11 @@
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
-        "ap_rank": 8,
-        "coaches_rank": 10
+        "ap_rank": 7,
+        "coaches_rank": 7
     },
     "shot_quality": {
-        "sq_ranking": 20
+        "sq_ranking": 19
     },
     "sports_reference": {
         "SRS_rank": 17
@@ -510,8 +510,8 @@
         "rank": "18"
     },
     "time": {
-        "iso_time": "2026-01-19T09:55:36.671811",
-        "time": "Jan. 19 at 9:55 AM"
+        "iso_time": "2026-01-19T13:31:42.722551",
+        "time": "Jan. 19 at 1:31 PM"
     },
     "trank": {
         "torvik_NET": "11",
@@ -520,7 +520,7 @@
         "trank_proj_record": "27-4 (16-4)",
         "trank_seed": "2",
         "wab_rank": 4,
-        "wab_score": "+6.1"
+        "wab_score": "+6.0"
     },
     "warrennolan": {
         "current_conf_record": "7-0",
