@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "5"
+        "BRCT_rank": "59"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -56,7 +56,7 @@
                 "date": "11/15/2025",
                 "location": "Neutral",
                 "opponent": "Oklahoma",
-                "opponent_NET": "68",
+                "opponent_NET": "70",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "105-99"
@@ -92,7 +92,7 @@
                 "date": "01/17/2026",
                 "location": "Away",
                 "opponent": "Northwestern",
-                "opponent_NET": "82",
+                "opponent_NET": "81",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "77-58"
@@ -134,7 +134,7 @@
                 "date": "11/08/2025",
                 "location": "Home",
                 "opponent": "FIU",
-                "opponent_NET": "186",
+                "opponent_NET": "188",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "96-66"
@@ -143,7 +143,7 @@
                 "date": "11/11/2025",
                 "location": "Home",
                 "opponent": "UMES",
-                "opponent_NET": "321",
+                "opponent_NET": "323",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "69-50"
@@ -152,7 +152,7 @@
                 "date": "11/29/2025",
                 "location": "Home",
                 "opponent": "USC Upstate",
-                "opponent_NET": "268",
+                "opponent_NET": "269",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "72-63"
@@ -170,7 +170,7 @@
                 "date": "12/30/2025",
                 "location": "Home",
                 "opponent": "New Hampshire",
-                "opponent_NET": "328",
+                "opponent_NET": "318",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-55"
@@ -510,8 +510,8 @@
         "rank": "18"
     },
     "time": {
-        "iso_time": "2026-01-20T05:58:32.952180",
-        "time": "Jan. 20 at 5:58 AM"
+        "iso_time": "2026-01-20T12:57:52.697096",
+        "time": "Jan. 20 at 12:57 PM"
     },
     "trank": {
         "torvik_NET": "11",
