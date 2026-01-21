@@ -199,6 +199,11 @@
     "espn_bracketology": {
         "seed": "2"
     },
+    "evanmiya": {
+        "miya_rating": 12,
+        "miya_resume_category": "1-2 Seed",
+        "miya_resume_rank": 4
+    },
     "haslametrics": {
         "haslam_rating": "11",
         "seed": "1"
@@ -505,8 +510,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-01-21T09:41:39.799271",
-        "time": "Jan. 21 at 9:41 AM"
+        "iso_time": "2026-01-21T11:44:06.815665",
+        "time": "Jan. 21 at 11:44 AM"
     },
     "trank": {
         "torvik_NET": "14",
