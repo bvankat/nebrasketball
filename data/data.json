@@ -1,7 +1,4 @@
 {
-    "bauertology": {
-        "BRCT_rank": "5"
-    },
     "bballnet_quadrants": {
         "quad1_games": [
             {
@@ -403,7 +400,7 @@
     "kenpom": {
         "conference_record": "16-4",
         "overall_record": "27-4",
-        "rating": 13,
+        "rating": 12,
         "record": "18-0",
         "remaining_games": [
             {
@@ -419,7 +416,7 @@
             {
                 "date": "Tue Jan 27",
                 "opponent": "Michigan",
-                "prob": "20%"
+                "prob": "19%"
             },
             {
                 "date": "Sun Feb 1",
@@ -429,12 +426,12 @@
             {
                 "date": "Sat Feb 7",
                 "opponent": "Rutgers",
-                "prob": "89%"
+                "prob": "87%"
             },
             {
                 "date": "Tue Feb 10",
                 "opponent": "Purdue",
-                "prob": "52%"
+                "prob": "53%"
             },
             {
                 "date": "Sat Feb 14",
@@ -444,7 +441,7 @@
             {
                 "date": "Tue Feb 17",
                 "opponent": "Iowa",
-                "prob": "41%"
+                "prob": "43%"
             },
             {
                 "date": "Sat Feb 21",
@@ -459,20 +456,20 @@
             {
                 "date": "Sat Feb 28",
                 "opponent": "USC",
-                "prob": "65%"
+                "prob": "64%"
             },
             {
                 "date": "Tue Mar 3",
                 "opponent": "UCLA",
-                "prob": "60%"
+                "prob": "59%"
             },
             {
                 "date": "Sun Mar 8",
                 "opponent": "Iowa",
-                "prob": "66%"
+                "prob": "68%"
             }
         ],
-        "sos": 44
+        "sos": 49
     },
     "kpi_sports": {
         "kpi_ranking": 6
@@ -507,24 +504,24 @@
         "projected_bid_pct": "100.0%",
         "projected_losses": "4.6",
         "projected_wins": "26.4",
-        "rank": "18"
+        "rank": "20"
     },
     "time": {
-        "iso_time": "2026-01-20T13:04:44.628687",
-        "time": "Jan. 20 at 1:04 PM"
+        "iso_time": "2026-01-20T23:59:48.146107",
+        "time": "Jan. 20 at 11:59 PM"
     },
     "trank": {
-        "torvik_NET": "11",
-        "trank": 15,
+        "torvik_NET": "12",
+        "trank": 16,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "27-4 (16-4)",
         "trank_seed": "2",
-        "wab_rank": 4,
-        "wab_score": "+6.0"
+        "wab_rank": 5,
+        "wab_score": "+6.1"
     },
     "warrennolan": {
         "current_conf_record": "7-0",
-        "elo": "8",
+        "elo": "9",
         "nolan_net": "6",
         "quadrant_1": "5-0",
         "quadrant_2": "5-0",
