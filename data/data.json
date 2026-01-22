@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "5"
+        "BRCT_rank": "4"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -488,11 +488,11 @@
         "net_rank": "8"
     },
     "next_game": {
-        "away_team": "Washington",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
-        "date_time": "2026-01-22T02:00Z",
-        "home_team": "Nebraska",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
+        "away_team": "Nebraska",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+        "date_time": "2026-01-24T17:00Z",
+        "home_team": "Minnesota",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png"
     },
     "polls": {
         "ap_rank": 7,
@@ -514,8 +514,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-01-22T09:06:18.553848",
-        "time": "Jan. 22 at 9:06 AM"
+        "iso_time": "2026-01-22T12:02:54.739831",
+        "time": "Jan. 22 at 12:02 PM"
     },
     "trank": {
         "torvik_NET": "12",
