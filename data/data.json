@@ -8,7 +8,7 @@
                 "date": "11/20/2025",
                 "location": "Neutral",
                 "opponent": "New Mexico",
-                "opponent_NET": "41",
+                "opponent_NET": "42",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "84-72"
@@ -44,7 +44,7 @@
                 "date": "01/10/2026",
                 "location": "Away",
                 "opponent": "Indiana",
-                "opponent_NET": "37",
+                "opponent_NET": "38",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "83-77"
@@ -83,7 +83,7 @@
                 "date": "12/07/2025",
                 "location": "Home",
                 "opponent": "Creighton",
-                "opponent_NET": "59",
+                "opponent_NET": "58",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "71-50"
@@ -92,7 +92,7 @@
                 "date": "12/10/2025",
                 "location": "Home",
                 "opponent": "Wisconsin",
-                "opponent_NET": "39",
+                "opponent_NET": "36",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "90-60"
@@ -101,7 +101,7 @@
                 "date": "01/21/2026",
                 "location": "Home",
                 "opponent": "Washington",
-                "opponent_NET": "61",
+                "opponent_NET": "62",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "76-66"
@@ -113,7 +113,7 @@
                 "date": "11/25/2025",
                 "location": "Home",
                 "opponent": "Winthrop",
-                "opponent_NET": "131",
+                "opponent_NET": "130",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "80-73"
@@ -122,7 +122,7 @@
                 "date": "01/13/2026",
                 "location": "Home",
                 "opponent": "Oregon",
-                "opponent_NET": "106",
+                "opponent_NET": "104",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "90-55"
@@ -134,7 +134,7 @@
                 "date": "11/03/2025",
                 "location": "Home",
                 "opponent": "West Ga.",
-                "opponent_NET": "312",
+                "opponent_NET": "322",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-53"
@@ -143,7 +143,7 @@
                 "date": "11/08/2025",
                 "location": "Home",
                 "opponent": "FIU",
-                "opponent_NET": "191",
+                "opponent_NET": "198",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "96-66"
@@ -152,7 +152,7 @@
                 "date": "11/11/2025",
                 "location": "Home",
                 "opponent": "UMES",
-                "opponent_NET": "326",
+                "opponent_NET": "325",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "69-50"
@@ -161,7 +161,7 @@
                 "date": "11/29/2025",
                 "location": "Home",
                 "opponent": "USC Upstate",
-                "opponent_NET": "281",
+                "opponent_NET": "285",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "72-63"
@@ -170,7 +170,7 @@
                 "date": "12/21/2025",
                 "location": "Home",
                 "opponent": "North Dakota",
-                "opponent_NET": "291",
+                "opponent_NET": "282",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "78-55"
@@ -179,7 +179,7 @@
                 "date": "12/30/2025",
                 "location": "Home",
                 "opponent": "New Hampshire",
-                "opponent_NET": "321",
+                "opponent_NET": "323",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-55"
@@ -514,8 +514,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-01-23T12:02:59.690545",
-        "time": "Jan. 23 at 12:02 PM"
+        "iso_time": "2026-01-23T18:56:44.535807",
+        "time": "Jan. 23 at 6:56 PM"
     },
     "trank": {
         "torvik_NET": "12",
@@ -535,6 +535,6 @@
         "quadrant_3": "2-0",
         "quadrant_4": "6-0",
         "record": "19-0",
-        "rpi": "5"
+        "rpi": "4"
     }
 }
