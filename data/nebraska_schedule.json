@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-23T18:57:54.743562",
+  "lastUpdated": "2026-01-24T13:13:21.369037",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -565,16 +565,22 @@
               "team_nickname": "Minnesota",
               "slug": "minnesota-golden-gophers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
-              "score": null,
+              "score": {
+                "value": 57.0,
+                "displayValue": "57"
+              },
               "gameRank": 99
             },
             {
-              "winner": false,
+              "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-              "score": null,
+              "score": {
+                "value": 76.0,
+                "displayValue": "76"
+              },
               "gameRank": 7
             }
           ]
