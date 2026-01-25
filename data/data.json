@@ -423,7 +423,7 @@
             {
                 "date": "Sun Feb 1",
                 "opponent": "Illinois",
-                "prob": "58%"
+                "prob": "56%"
             },
             {
                 "date": "Sat Feb 7",
@@ -433,7 +433,7 @@
             {
                 "date": "Tue Feb 10",
                 "opponent": "Purdue",
-                "prob": "57%"
+                "prob": "59%"
             },
             {
                 "date": "Sat Feb 14",
@@ -443,7 +443,7 @@
             {
                 "date": "Tue Feb 17",
                 "opponent": "Iowa",
-                "prob": "46%"
+                "prob": "47%"
             },
             {
                 "date": "Sat Feb 21",
@@ -471,7 +471,7 @@
                 "prob": "71%"
             }
         ],
-        "sos": 45
+        "sos": 41
     },
     "kpi_sports": {
         "kpi_ranking": 6
@@ -494,10 +494,7 @@
         "coaches_rank": 7
     },
     "shot_quality": {
-        "sq_ranking": 23
-    },
-    "sports_reference": {
-        "SRS_rank": 15
+        "sq_ranking": 18
     },
     "teamrankings": {
         "make_tournament": "100.0%",
@@ -509,12 +506,12 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-01-24T13:40:02.916097",
-        "time": "Jan. 24 at 1:40 PM"
+        "iso_time": "2026-01-24T18:31:40.090092",
+        "time": "Jan. 24 at 6:31 PM"
     },
     "trank": {
-        "torvik_NET": "11",
-        "trank": 14,
+        "torvik_NET": "10",
+        "trank": 13,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "28-3 (17-3)",
         "trank_seed": "2",
