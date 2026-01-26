@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "4"
+        "BRCT_rank": "59"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -105,9 +105,18 @@
                 "opponent_rank": null,
                 "result": "W",
                 "score": "76-66"
+            },
+            {
+                "date": "01/24/2026",
+                "location": "Away",
+                "opponent": "Minnesota",
+                "opponent_NET": "87",
+                "opponent_rank": null,
+                "result": "W",
+                "score": "76-57"
             }
         ],
-        "quad2record": "5-0",
+        "quad2record": "6-0",
         "quad3_games": [
             {
                 "date": "11/25/2025",
@@ -188,9 +197,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 81,
+        "matrix_count": 82,
         "matrix_seed": 2,
-        "total_brackets": 81
+        "total_brackets": 82
     },
     "espn": {
         "bpi": 17.0,
@@ -214,7 +223,7 @@
         "miya_resume_rank": 2
     },
     "haslametrics": {
-        "haslam_rating": "NA",
+        "haslam_rating": "10",
         "seed": "1"
     },
     "jthom_analytics": {
@@ -433,7 +442,7 @@
             {
                 "date": "Tue Feb 10",
                 "opponent": "Purdue",
-                "prob": "59%"
+                "prob": "58%"
             },
             {
                 "date": "Sat Feb 14",
@@ -443,7 +452,7 @@
             {
                 "date": "Tue Feb 17",
                 "opponent": "Iowa",
-                "prob": "47%"
+                "prob": "46%"
             },
             {
                 "date": "Sat Feb 21",
@@ -458,7 +467,7 @@
             {
                 "date": "Sat Feb 28",
                 "opponent": "USC",
-                "prob": "70%"
+                "prob": "69%"
             },
             {
                 "date": "Tue Mar 3",
@@ -468,7 +477,7 @@
             {
                 "date": "Sun Mar 8",
                 "opponent": "Iowa",
-                "prob": "71%"
+                "prob": "70%"
             }
         ],
         "sos": 45
@@ -509,8 +518,8 @@
         "rank": "18"
     },
     "time": {
-        "iso_time": "2026-01-25T11:26:07.637321",
-        "time": "Jan. 25 at 11:26 AM"
+        "iso_time": "2026-01-25T22:42:10.494704",
+        "time": "Jan. 25 at 10:42 PM"
     },
     "trank": {
         "torvik_NET": "9",
