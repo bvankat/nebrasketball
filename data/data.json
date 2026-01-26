@@ -212,7 +212,7 @@
         "projected_tournament_order": "NA",
         "seven_day_change": "2nd",
         "sor": 2.0,
-        "sos": 43.0
+        "sos": 44.0
     },
     "espn_bracketology": {
         "seed": "2"
@@ -499,14 +499,11 @@
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
     },
     "polls": {
-        "ap_rank": 7,
-        "coaches_rank": 7
+        "ap_rank": 5,
+        "coaches_rank": 5
     },
     "shot_quality": {
         "sq_ranking": 18
-    },
-    "sports_reference": {
-        "SRS_rank": 15
     },
     "teamrankings": {
         "make_tournament": "100.0%",
@@ -518,8 +515,8 @@
         "rank": "18"
     },
     "time": {
-        "iso_time": "2026-01-26T10:06:06.388422",
-        "time": "Jan. 26 at 10:06 AM"
+        "iso_time": "2026-01-26T16:01:34.105094",
+        "time": "Jan. 26 at 4:01 PM"
     },
     "trank": {
         "torvik_NET": "9",
