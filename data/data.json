@@ -197,9 +197,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 82,
+        "matrix_count": 96,
         "matrix_seed": 2,
-        "total_brackets": 82
+        "total_brackets": 96
     },
     "espn": {
         "bpi": 17.0,
@@ -415,7 +415,7 @@
                 "team_win_prob": 0.6604087974832888
             }
         ],
-        "proj_record": "28.7-4.4",
+        "proj_record": "28.9-4.2",
         "seed": "2"
     },
     "kenpom": {
@@ -457,7 +457,7 @@
             {
                 "date": "Sat Feb 21",
                 "opponent": "Penn St.",
-                "prob": "97%"
+                "prob": "96%"
             },
             {
                 "date": "Wed Feb 25",
@@ -480,7 +480,7 @@
                 "prob": "70%"
             }
         ],
-        "sos": 45
+        "sos": 46
     },
     "kpi_sports": {
         "kpi_ranking": 5
@@ -505,6 +505,9 @@
     "shot_quality": {
         "sq_ranking": 18
     },
+    "sports_reference": {
+        "SRS_rank": 15
+    },
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "2",
@@ -515,16 +518,16 @@
         "rank": "18"
     },
     "time": {
-        "iso_time": "2026-01-26T16:01:34.105094",
-        "time": "Jan. 26 at 4:01 PM"
+        "iso_time": "2026-01-26T23:28:06.760471",
+        "time": "Jan. 26 at 11:28 PM"
     },
     "trank": {
         "torvik_NET": "9",
-        "trank": 13,
+        "trank": 14,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "28-3 (17-3)",
         "trank_seed": "2",
-        "wab_rank": 1,
+        "wab_rank": 3,
         "wab_score": "+7.1"
     },
     "warrennolan": {
