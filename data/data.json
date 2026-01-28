@@ -197,9 +197,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 96,
+        "matrix_count": 100,
         "matrix_seed": 2,
-        "total_brackets": 96
+        "total_brackets": 100
     },
     "espn": {
         "bpi": 17.0,
@@ -419,20 +419,15 @@
         "seed": "2"
     },
     "kenpom": {
-        "conference_record": "17-3",
-        "overall_record": "28-3",
-        "rating": 12,
-        "record": "20-0",
+        "conference_record": "16-4",
+        "overall_record": "27-4",
+        "rating": 10,
+        "record": "20-1",
         "remaining_games": [
-            {
-                "date": "Tue Jan 27",
-                "opponent": "Michigan",
-                "prob": "22%"
-            },
             {
                 "date": "Sun Feb 1",
                 "opponent": "Illinois",
-                "prob": "55%"
+                "prob": "57%"
             },
             {
                 "date": "Sat Feb 7",
@@ -442,7 +437,7 @@
             {
                 "date": "Tue Feb 10",
                 "opponent": "Purdue",
-                "prob": "58%"
+                "prob": "61%"
             },
             {
                 "date": "Sat Feb 14",
@@ -452,35 +447,35 @@
             {
                 "date": "Tue Feb 17",
                 "opponent": "Iowa",
-                "prob": "46%"
+                "prob": "48%"
             },
             {
                 "date": "Sat Feb 21",
                 "opponent": "Penn St.",
-                "prob": "96%"
+                "prob": "97%"
             },
             {
                 "date": "Wed Feb 25",
                 "opponent": "Maryland",
-                "prob": "96%"
+                "prob": "97%"
             },
             {
                 "date": "Sat Feb 28",
                 "opponent": "USC",
-                "prob": "69%"
+                "prob": "70%"
             },
             {
                 "date": "Tue Mar 3",
                 "opponent": "UCLA",
-                "prob": "62%"
+                "prob": "63%"
             },
             {
                 "date": "Sun Mar 8",
                 "opponent": "Iowa",
-                "prob": "70%"
+                "prob": "72%"
             }
         ],
-        "sos": 46
+        "sos": 36
     },
     "kpi_sports": {
         "kpi_ranking": 5
@@ -503,7 +498,7 @@
         "coaches_rank": 5
     },
     "shot_quality": {
-        "sq_ranking": 18
+        "sq_ranking": 19
     },
     "sports_reference": {
         "SRS_rank": 15
@@ -518,27 +513,27 @@
         "rank": "18"
     },
     "time": {
-        "iso_time": "2026-01-27T11:38:12.704647",
-        "time": "Jan. 27 at 11:38 AM"
+        "iso_time": "2026-01-27T22:43:39.808255",
+        "time": "Jan. 27 at 10:43 PM"
     },
     "trank": {
         "torvik_NET": "9",
-        "trank": 13,
+        "trank": 10,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "28-3 (17-3)",
         "trank_seed": "2",
-        "wab_rank": 3,
+        "wab_rank": 5,
         "wab_score": "+7.1"
     },
     "warrennolan": {
-        "current_conf_record": "9-0",
-        "elo": "8",
+        "current_conf_record": "9-1",
+        "elo": "10",
         "nolan_net": "5",
-        "quadrant_1": "6-0",
+        "quadrant_1": "6-1",
         "quadrant_2": "6-0",
         "quadrant_3": "2-0",
         "quadrant_4": "6-0",
-        "record": "20-0",
+        "record": "20-1",
         "rpi": "6"
     }
 }
