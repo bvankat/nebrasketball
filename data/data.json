@@ -427,6 +427,65 @@
         "proj_record": "28.5-4.6",
         "seed": "2"
     },
+    "kenpom": {
+        "rating": 11,
+        "record": "20-1",
+        "sos": 35,
+        "overall_record": "27-4",
+        "conference_record": "16-4",
+        "remaining_games": [
+            {
+                "date": "Sun Feb 1",
+                "opponent": "Illinois",
+                "prob": "57%"
+            },
+            {
+                "date": "Sat Feb 7",
+                "opponent": "Rutgers",
+                "prob": "90%"
+            },
+            {
+                "date": "Tue Feb 10",
+                "opponent": "Purdue",
+                "prob": "61%"
+            },
+            {
+                "date": "Sat Feb 14",
+                "opponent": "Northwestern",
+                "prob": "89%"
+            },
+            {
+                "date": "Tue Feb 17",
+                "opponent": "Iowa",
+                "prob": "48%"
+            },
+            {
+                "date": "Sat Feb 21",
+                "opponent": "Penn St.",
+                "prob": "97%"
+            },
+            {
+                "date": "Wed Feb 25",
+                "opponent": "Maryland",
+                "prob": "97%"
+            },
+            {
+                "date": "Sat Feb 28",
+                "opponent": "USC",
+                "prob": "70%"
+            },
+            {
+                "date": "Tue Mar 3",
+                "opponent": "UCLA",
+                "prob": "63%"
+            },
+            {
+                "date": "Sun Mar 8",
+                "opponent": "Iowa",
+                "prob": "72%"
+            }
+        ]
+    },
     "kpi_sports": {
         "kpi_ranking": 5
     },
