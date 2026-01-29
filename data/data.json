@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "59"
+        "BRCT_rank": "5"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -428,11 +428,10 @@
         "seed": "2"
     },
     "kenpom": {
+        "conference_record": "16-4",
+        "overall_record": "27-4",
         "rating": 11,
         "record": "20-1",
-        "sos": 35,
-        "overall_record": "27-4",
-        "conference_record": "16-4",
         "remaining_games": [
             {
                 "date": "Sun Feb 1",
@@ -457,7 +456,7 @@
             {
                 "date": "Tue Feb 17",
                 "opponent": "Iowa",
-                "prob": "48%"
+                "prob": "49%"
             },
             {
                 "date": "Sat Feb 21",
@@ -472,19 +471,20 @@
             {
                 "date": "Sat Feb 28",
                 "opponent": "USC",
-                "prob": "70%"
+                "prob": "68%"
             },
             {
                 "date": "Tue Mar 3",
                 "opponent": "UCLA",
-                "prob": "63%"
+                "prob": "61%"
             },
             {
                 "date": "Sun Mar 8",
                 "opponent": "Iowa",
-                "prob": "72%"
+                "prob": "73%"
             }
-        ]
+        ],
+        "sos": 37
     },
     "kpi_sports": {
         "kpi_ranking": 5
@@ -509,9 +509,6 @@
     "shot_quality": {
         "sq_ranking": 18
     },
-    "sports_reference": {
-        "SRS_rank": 16
-    },
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "2",
@@ -522,8 +519,8 @@
         "rank": "17"
     },
     "time": {
-        "iso_time": "2026-01-29T12:46:47.118393",
-        "time": "Jan. 29 at 12:46 PM"
+        "iso_time": "2026-01-29T13:33:06.610716",
+        "time": "Jan. 29 at 1:33 PM"
     },
     "trank": {
         "torvik_NET": "11",
