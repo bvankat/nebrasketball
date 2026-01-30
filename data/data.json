@@ -509,9 +509,6 @@
     "shot_quality": {
         "sq_ranking": 18
     },
-    "sports_reference": {
-        "SRS_rank": 15
-    },
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "2",
@@ -522,8 +519,8 @@
         "rank": "17"
     },
     "time": {
-        "iso_time": "2026-01-30T10:03:12.050568",
-        "time": "Jan. 30 at 10:03 AM"
+        "iso_time": "2026-01-30T11:34:50.359531",
+        "time": "Jan. 30 at 11:34 AM"
     },
     "trank": {
         "torvik_NET": "11",
