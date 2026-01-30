@@ -206,9 +206,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 99,
+        "matrix_count": 101,
         "matrix_seed": 2,
-        "total_brackets": 99
+        "total_brackets": 101
     },
     "espn": {
         "bpi": 16.0,
@@ -484,7 +484,7 @@
                 "prob": "73%"
             }
         ],
-        "sos": 37
+        "sos": 36
     },
     "kpi_sports": {
         "kpi_ranking": 5
@@ -509,6 +509,9 @@
     "shot_quality": {
         "sq_ranking": 18
     },
+    "sports_reference": {
+        "SRS_rank": 16
+    },
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "2",
@@ -519,12 +522,12 @@
         "rank": "17"
     },
     "time": {
-        "iso_time": "2026-01-29T13:33:06.610716",
-        "time": "Jan. 29 at 1:33 PM"
+        "iso_time": "2026-01-29T23:32:18.295442",
+        "time": "Jan. 29 at 11:32 PM"
     },
     "trank": {
         "torvik_NET": "11",
-        "trank": 10,
+        "trank": 11,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "28-3 (17-3)",
         "trank_seed": "2",
@@ -540,6 +543,6 @@
         "quadrant_3": "2-0",
         "quadrant_4": "6-0",
         "record": "20-1",
-        "rpi": "6"
+        "rpi": "5"
     }
 }
