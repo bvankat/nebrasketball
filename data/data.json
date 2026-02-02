@@ -1,4 +1,7 @@
 {
+    "bauertology": {
+        "BRCT_rank": "6"
+    },
     "bballnet_quadrants": {
         "quad1_games": [
             {
@@ -430,7 +433,7 @@
                 "team_win_prob": 0.6659829479991897
             }
         ],
-        "proj_record": "27.9-5.1",
+        "proj_record": "27.8-5.2",
         "seed": "2"
     },
     "kenpom": {
@@ -497,11 +500,11 @@
         "net_rank": "10"
     },
     "next_game": {
-        "away_team": "Illinois",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
-        "date_time": "2026-02-01T21:00Z",
-        "home_team": "Nebraska",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
+        "away_team": "Nebraska",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+        "date_time": "2026-02-07T17:00Z",
+        "home_team": "Rutgers",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png"
     },
     "polls": {
         "ap_rank": 5,
@@ -523,8 +526,8 @@
         "rank": "19"
     },
     "time": {
-        "iso_time": "2026-02-02T09:34:39.219109",
-        "time": "Feb. 2 at 9:34 AM"
+        "iso_time": "2026-02-02T10:37:53.855580",
+        "time": "Feb. 2 at 10:37 AM"
     },
     "trank": {
         "torvik_NET": "12",
