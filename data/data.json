@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "6"
+        "BRCT_rank": "59"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -215,9 +215,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 101,
+        "matrix_count": 104,
         "matrix_seed": 2,
-        "total_brackets": 101
+        "total_brackets": 104
     },
     "espn": {
         "bpi": 18.0,
@@ -236,7 +236,7 @@
         "seed": "OUT"
     },
     "evanmiya": {
-        "miya_rating": 14,
+        "miya_rating": 13,
         "miya_resume_category": "1-2 Seed",
         "miya_resume_rank": 5
     },
@@ -266,25 +266,25 @@
             },
             {
                 "date": "11/15",
-                "kenpom_win_prob": 0.6563873725773139,
+                "kenpom_win_prob": 0.6557423522002072,
                 "opponent": "Oklahoma",
-                "team_win_prob": 0.7813363868541625
+                "team_win_prob": 0.765143769894761
             },
             {
                 "date": "11/20",
-                "kenpom_win_prob": 0.5600322751193569,
+                "kenpom_win_prob": 0.5610359831287685,
                 "opponent": "New Mexico",
-                "team_win_prob": 0.6849812893962055
+                "team_win_prob": 0.6704374008233223
             },
             {
                 "date": "11/21",
-                "kenpom_win_prob": 0.7418354336725344,
+                "kenpom_win_prob": 0.7454589766624753,
                 "opponent": "Kansas State",
-                "team_win_prob": 0.8667844479493828
+                "team_win_prob": 0.8548603943570291
             },
             {
                 "date": "11/25",
-                "kenpom_win_prob": 0.959315693039512,
+                "kenpom_win_prob": 0.9574894575960884,
                 "opponent": "Winthrop",
                 "team_win_prob": 0.99
             },
@@ -296,21 +296,21 @@
             },
             {
                 "date": "12/07",
-                "kenpom_win_prob": 0.7713822824570156,
+                "kenpom_win_prob": 0.76959875637921,
                 "opponent": "Creighton",
-                "team_win_prob": 0.896331296733864
+                "team_win_prob": 0.8790001740737639
             },
             {
                 "date": "12/10",
-                "kenpom_win_prob": 0.6398796535897483,
+                "kenpom_win_prob": 0.6310559272109,
                 "opponent": "Wisconsin",
-                "team_win_prob": 0.7648286678665968
+                "team_win_prob": 0.7404573449054538
             },
             {
                 "date": "12/13",
-                "kenpom_win_prob": 0.2417316497172132,
+                "kenpom_win_prob": 0.2312819983420715,
                 "opponent": "Illinois",
-                "team_win_prob": 0.3666806639940617
+                "team_win_prob": 0.3406834160366254
             },
             {
                 "date": "12/21",
@@ -326,114 +326,114 @@
             },
             {
                 "date": "01/02",
-                "kenpom_win_prob": 0.446505438421895,
+                "kenpom_win_prob": 0.4592959630526661,
                 "opponent": "Michigan State",
-                "team_win_prob": 0.5714544526987435
+                "team_win_prob": 0.5686973807472199
             },
             {
                 "date": "01/05",
-                "kenpom_win_prob": 0.437188810555228,
+                "kenpom_win_prob": 0.435721383929089,
                 "opponent": "Ohio State",
-                "team_win_prob": 0.5621378248320766
+                "team_win_prob": 0.5451228016236428
             },
             {
                 "date": "01/10",
-                "kenpom_win_prob": 0.4058570368262894,
+                "kenpom_win_prob": 0.4086108908309716,
                 "opponent": "Indiana",
-                "team_win_prob": 0.5308060511031379
+                "team_win_prob": 0.5180123085255254
             },
             {
                 "date": "01/13",
-                "kenpom_win_prob": 0.832227734388624,
+                "kenpom_win_prob": 0.8653760288953989,
                 "opponent": "Oregon",
-                "team_win_prob": 0.9571767486654724
+                "team_win_prob": 0.9747774465899526
             },
             {
                 "date": "01/17",
-                "kenpom_win_prob": 0.5709452786299984,
+                "kenpom_win_prob": 0.5631443024201486,
                 "opponent": "Northwestern",
-                "team_win_prob": 0.695894292906847
+                "team_win_prob": 0.6725457201147023
             },
             {
                 "date": "01/21",
-                "kenpom_win_prob": 0.6664828396726004,
+                "kenpom_win_prob": 0.6633574518502328,
                 "opponent": "Washington",
-                "team_win_prob": 0.7914318539494488
+                "team_win_prob": 0.7727588695447865
             },
             {
                 "date": "01/24",
-                "kenpom_win_prob": 0.5975022849442668,
+                "kenpom_win_prob": 0.5995698742898803,
                 "opponent": "Minnesota",
-                "team_win_prob": 0.7224512992211154
+                "team_win_prob": 0.7089712919844341
             },
             {
                 "date": "01/27",
-                "kenpom_win_prob": 0.1739506567621218,
+                "kenpom_win_prob": 0.1731179151135082,
                 "opponent": "Michigan",
-                "team_win_prob": 0.2988996710389703
+                "team_win_prob": 0.2825193328080621
             },
             {
                 "date": "02/01",
-                "kenpom_win_prob": 0.4297316497172132,
+                "kenpom_win_prob": 0.4192819983420714,
                 "opponent": "Illinois",
-                "team_win_prob": 0.5546806639940617
+                "team_win_prob": 0.5286834160366253
             },
             {
                 "date": "02/07",
-                "kenpom_win_prob": 0.7926175418864738,
+                "kenpom_win_prob": 0.8025195598767088,
                 "opponent": "Rutgers",
-                "team_win_prob": 0.9175665561633224
+                "team_win_prob": 0.9119209775712624
             },
             {
                 "date": "02/10",
-                "kenpom_win_prob": 0.4433550388025826,
+                "kenpom_win_prob": 0.4455575781831523,
                 "opponent": "Purdue",
-                "team_win_prob": 0.5683040530794312
+                "team_win_prob": 0.5549589958777061
             },
             {
                 "date": "02/14",
-                "kenpom_win_prob": 0.7589452786299984,
+                "kenpom_win_prob": 0.7511443024201485,
                 "opponent": "Northwestern",
-                "team_win_prob": 0.883894292906847
+                "team_win_prob": 0.8605457201147022
             },
             {
                 "date": "02/17",
-                "kenpom_win_prob": 0.3530339337223411,
+                "kenpom_win_prob": 0.3447917327464127,
                 "opponent": "Iowa",
-                "team_win_prob": 0.4779829479991897
+                "team_win_prob": 0.4541931504409666
             },
             {
                 "date": "02/21",
-                "kenpom_win_prob": 0.9526882222712104,
+                "kenpom_win_prob": 0.9497481446180376,
                 "opponent": "Penn State",
                 "team_win_prob": 0.99
             },
             {
                 "date": "02/25",
-                "kenpom_win_prob": 0.9411409047686397,
+                "kenpom_win_prob": 0.9452724710245765,
                 "opponent": "Maryland",
                 "team_win_prob": 0.99
             },
             {
                 "date": "02/28",
-                "kenpom_win_prob": 0.5106213612426709,
+                "kenpom_win_prob": 0.5065855905909238,
                 "opponent": "USC",
-                "team_win_prob": 0.6355703755195194
+                "team_win_prob": 0.6159870082854776
             },
             {
                 "date": "03/03",
-                "kenpom_win_prob": 0.4331976893779701,
+                "kenpom_win_prob": 0.4231514470699723,
                 "opponent": "UCLA",
-                "team_win_prob": 0.5581467036548186
+                "team_win_prob": 0.5325528647645261
             },
             {
                 "date": "03/08",
-                "kenpom_win_prob": 0.5410339337223411,
+                "kenpom_win_prob": 0.5327917327464127,
                 "opponent": "Iowa",
-                "team_win_prob": 0.6659829479991897
+                "team_win_prob": 0.6421931504409666
             }
         ],
-        "proj_record": "27.9-5.2",
+        "proj_record": "27.7-5.3",
         "seed": "2"
     },
     "kenpom": {
@@ -445,7 +445,7 @@
             {
                 "date": "Sat Feb 7",
                 "opponent": "Rutgers",
-                "prob": "89%"
+                "prob": "90%"
             },
             {
                 "date": "Tue Feb 10",
@@ -475,12 +475,12 @@
             {
                 "date": "Sat Feb 28",
                 "opponent": "USC",
-                "prob": "69%"
+                "prob": "68%"
             },
             {
                 "date": "Tue Mar 3",
                 "opponent": "UCLA",
-                "prob": "60%"
+                "prob": "58%"
             },
             {
                 "date": "Sun Mar 8",
@@ -488,10 +488,10 @@
                 "prob": "68%"
             }
         ],
-        "sos": 30
+        "sos": 33
     },
     "kpi_sports": {
-        "kpi_ranking": 9
+        "kpi_ranking": 10
     },
     "massey_ratings": {
         "massey_rank": 6
@@ -511,10 +511,7 @@
         "coaches_rank": 9
     },
     "shot_quality": {
-        "sq_ranking": 20
-    },
-    "sports_reference": {
-        "SRS_rank": 16
+        "sq_ranking": 22
     },
     "teamrankings": {
         "make_tournament": "100.0%",
@@ -526,8 +523,8 @@
         "rank": "19"
     },
     "time": {
-        "iso_time": "2026-02-03T09:46:46.206590",
-        "time": "Feb. 3 at 9:46 AM"
+        "iso_time": "2026-02-04T09:37:40.062306",
+        "time": "Feb. 4 at 9:37 AM"
     },
     "trank": {
         "torvik_NET": "12",
@@ -540,13 +537,13 @@
     },
     "warrennolan": {
         "current_conf_record": "9-2",
-        "elo": "12",
+        "elo": "13",
         "nolan_net": "10",
         "quadrant_1": "6-2",
-        "quadrant_2": "5-0",
-        "quadrant_3": "3-0",
+        "quadrant_2": "6-0",
+        "quadrant_3": "2-0",
         "quadrant_4": "6-0",
         "record": "20-2",
-        "rpi": "7"
+        "rpi": "6"
     }
 }
