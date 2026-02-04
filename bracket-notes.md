@@ -14,6 +14,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - No Power Six conference 24-win team has missed tournament. Only three 23-win teams have missed out: Florida (2009), Mississippi State, Virginia Tech (2010), Arizona (2012)
 - Gotta have two Quad 1 wins - Only four teams have gotten at-large bids with 1 Q1 victory ([#](https://twitter.com/madeformarch/status/1761845837355688317?s=51))
 - A bunch of NET bests/worsts that haven't been analyzed [here](https://x.com/JBRBracketology/status/1765459221171056988?s=20)
+- In 2025, the 24 overall seeds in the NCAA s-curve were in the WAB Top 25. All 40 in the WAB Top 40 were the top 40 overall seeds. [Kerry Miller on X](https://x.com/kerrancejames/status/2019080719948009529)
 
 
 
