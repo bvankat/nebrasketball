@@ -238,10 +238,10 @@
     "evanmiya": {
         "miya_rating": 13,
         "miya_resume_category": "1-2 Seed",
-        "miya_resume_rank": 5
+        "miya_resume_rank": 6
     },
     "haslametrics": {
-        "haslam_rating": "10",
+        "haslam_rating": "9",
         "seed": "2"
     },
     "jthom_analytics": {
@@ -436,60 +436,6 @@
         "proj_record": "27.7-5.3",
         "seed": "2"
     },
-    "kenpom": {
-        "conference_record": "16-4",
-        "overall_record": "27-4",
-        "rating": 13,
-        "record": "20-2",
-        "remaining_games": [
-            {
-                "date": "Sat Feb 7",
-                "opponent": "Rutgers",
-                "prob": "90%"
-            },
-            {
-                "date": "Tue Feb 10",
-                "opponent": "Purdue",
-                "prob": "56%"
-            },
-            {
-                "date": "Sat Feb 14",
-                "opponent": "Northwestern",
-                "prob": "90%"
-            },
-            {
-                "date": "Tue Feb 17",
-                "opponent": "Iowa",
-                "prob": "44%"
-            },
-            {
-                "date": "Sat Feb 21",
-                "opponent": "Penn St.",
-                "prob": "96%"
-            },
-            {
-                "date": "Wed Feb 25",
-                "opponent": "Maryland",
-                "prob": "97%"
-            },
-            {
-                "date": "Sat Feb 28",
-                "opponent": "USC",
-                "prob": "68%"
-            },
-            {
-                "date": "Tue Mar 3",
-                "opponent": "UCLA",
-                "prob": "58%"
-            },
-            {
-                "date": "Sun Mar 8",
-                "opponent": "Iowa",
-                "prob": "68%"
-            }
-        ],
-        "sos": 38
-    },
     "kpi_sports": {
         "kpi_ranking": 10
     },
@@ -516,15 +462,15 @@
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "3",
-        "proj_conf_record": "15.4-4.6",
+        "proj_conf_record": "15.3-4.7",
         "projected_bid_pct": "100.0%",
-        "projected_losses": "4.6",
-        "projected_wins": "26.4",
+        "projected_losses": "4.7",
+        "projected_wins": "26.3",
         "rank": "19"
     },
     "time": {
-        "iso_time": "2026-02-04T23:24:26.050053",
-        "time": "Feb. 4 at 11:24 PM"
+        "iso_time": "2026-02-05T09:28:29.845284",
+        "time": "Feb. 5 at 9:28 AM"
     },
     "trank": {
         "torvik_NET": "11",
@@ -532,18 +478,18 @@
         "trank_make_tourney": 100.0,
         "trank_proj_record": "27-4 (16-4)",
         "trank_seed": "2",
-        "wab_rank": 5,
+        "wab_rank": 6,
         "wab_score": "+6.5"
     },
     "warrennolan": {
         "current_conf_record": "9-2",
-        "elo": "9",
+        "elo": "12",
         "nolan_net": "10",
         "quadrant_1": "6-2",
-        "quadrant_2": "6-0",
-        "quadrant_3": "2-0",
+        "quadrant_2": "5-0",
+        "quadrant_3": "3-0",
         "quadrant_4": "6-0",
         "record": "20-2",
-        "rpi": "7"
+        "rpi": "8"
     }
 }
