@@ -436,6 +436,60 @@
         "proj_record": "27.7-5.3",
         "seed": "2"
     },
+    "kenpom": {
+        "conference_record": "16-4",
+        "overall_record": "27-4",
+        "rating": 12,
+        "record": "20-2",
+        "remaining_games": [
+            {
+                "date": "Sat Feb 7",
+                "opponent": "Rutgers",
+                "prob": "90%"
+            },
+            {
+                "date": "Tue Feb 10",
+                "opponent": "Purdue",
+                "prob": "56%"
+            },
+            {
+                "date": "Sat Feb 14",
+                "opponent": "Northwestern",
+                "prob": "90%"
+            },
+            {
+                "date": "Tue Feb 17",
+                "opponent": "Iowa",
+                "prob": "42%"
+            },
+            {
+                "date": "Sat Feb 21",
+                "opponent": "Penn St.",
+                "prob": "96%"
+            },
+            {
+                "date": "Wed Feb 25",
+                "opponent": "Maryland",
+                "prob": "97%"
+            },
+            {
+                "date": "Sat Feb 28",
+                "opponent": "USC",
+                "prob": "68%"
+            },
+            {
+                "date": "Tue Mar 3",
+                "opponent": "UCLA",
+                "prob": "58%"
+            },
+            {
+                "date": "Sun Mar 8",
+                "opponent": "Iowa",
+                "prob": "66%"
+            }
+        ],
+        "sos": 40
+    },
     "kpi_sports": {
         "kpi_ranking": 10
     },
@@ -459,6 +513,9 @@
     "shot_quality": {
         "sq_ranking": 23
     },
+    "sports_reference": {
+        "SRS_rank": 15
+    },
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "3",
@@ -469,8 +526,8 @@
         "rank": "19"
     },
     "time": {
-        "iso_time": "2026-02-05T09:28:29.845284",
-        "time": "Feb. 5 at 9:28 AM"
+        "iso_time": "2026-02-05T09:45:24.564334",
+        "time": "Feb. 5 at 9:45 AM"
     },
     "trank": {
         "torvik_NET": "11",
