@@ -233,7 +233,7 @@
         "sos": 40.0
     },
     "espn_bracketology": {
-        "seed": "OUT"
+        "seed": "2"
     },
     "evanmiya": {
         "miya_rating": 14,
@@ -521,8 +521,8 @@
         "rank": "19"
     },
     "time": {
-        "iso_time": "2026-02-07T13:49:58.870603",
-        "time": "Feb. 7 at 1:49 PM"
+        "iso_time": "2026-02-07T14:43:49.281225",
+        "time": "Feb. 7 at 2:43 PM"
     },
     "trank": {
         "torvik_NET": "11",
