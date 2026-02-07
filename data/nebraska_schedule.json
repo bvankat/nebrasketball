@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-07T11:31:46.395394",
+  "lastUpdated": "2026-02-07T13:47:52.285011",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -652,16 +652,22 @@
               "team_nickname": "Rutgers",
               "slug": "rutgers-scarlet-knights",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
-              "score": null,
+              "score": {
+                "value": 68.0,
+                "displayValue": "68"
+              },
               "gameRank": 99
             },
             {
-              "winner": false,
+              "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-              "score": null,
+              "score": {
+                "value": 80.0,
+                "displayValue": "80"
+              },
               "gameRank": 9
             }
           ]
