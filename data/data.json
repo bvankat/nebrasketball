@@ -445,7 +445,7 @@
             {
                 "date": "Tue Feb 10",
                 "opponent": "Purdue",
-                "prob": "56%"
+                "prob": "58%"
             },
             {
                 "date": "Sat Feb 14",
@@ -483,7 +483,7 @@
                 "prob": "67%"
             }
         ],
-        "sos": 44
+        "sos": 43
     },
     "kpi_sports": {
         "kpi_ranking": 11
@@ -521,8 +521,8 @@
         "rank": "19"
     },
     "time": {
-        "iso_time": "2026-02-07T14:43:49.281225",
-        "time": "Feb. 7 at 2:43 PM"
+        "iso_time": "2026-02-07T14:53:26.552047",
+        "time": "Feb. 7 at 2:53 PM"
     },
     "trank": {
         "torvik_NET": "11",
