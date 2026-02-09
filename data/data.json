@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "8"
+        "BRCT_rank": "59"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -237,9 +237,9 @@
         "proj_win_loss_conf": "15.6-4.4",
         "proj_win_loss_overall": "26.6-4.4",
         "projected_tournament_order": "NA",
-        "seven_day_change": "",
+        "seven_day_change": "1st",
         "sor": 5.0,
-        "sos": 43.0
+        "sos": 44.0
     },
     "espn_bracketology": {
         "seed": "2"
@@ -247,11 +247,11 @@
     "evanmiya": {
         "miya_rating": 13,
         "miya_resume_category": "1-2 Seed",
-        "miya_resume_rank": 5
+        "miya_resume_rank": 6
     },
     "haslametrics": {
         "haslam_rating": "10",
-        "seed": "1"
+        "seed": "2"
     },
     "jthom_analytics": {
         "games": [
@@ -454,7 +454,7 @@
             {
                 "date": "Tue Feb 10",
                 "opponent": "Purdue",
-                "prob": "59%"
+                "prob": "58%"
             },
             {
                 "date": "Sat Feb 14",
@@ -464,7 +464,7 @@
             {
                 "date": "Tue Feb 17",
                 "opponent": "Iowa",
-                "prob": "43%"
+                "prob": "44%"
             },
             {
                 "date": "Sat Feb 21",
@@ -479,7 +479,7 @@
             {
                 "date": "Sat Feb 28",
                 "opponent": "USC",
-                "prob": "68%"
+                "prob": "69%"
             },
             {
                 "date": "Tue Mar 3",
@@ -492,23 +492,23 @@
                 "prob": "67%"
             }
         ],
-        "sos": 44
+        "sos": 47
     },
     "kpi_sports": {
         "kpi_ranking": 10
     },
     "massey_ratings": {
-        "massey_rank": 10
+        "massey_rank": 8
     },
     "ncaa": {
         "net_rank": "11"
     },
     "next_game": {
-        "away_team": "Nebraska",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "2026-02-07T17:00Z",
-        "home_team": "Rutgers",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png"
+        "away_team": "Purdue",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
+        "date_time": "2026-02-11T00:00Z",
+        "home_team": "Nebraska",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
         "ap_rank": 9,
@@ -527,11 +527,11 @@
         "projected_bid_pct": "100.0%",
         "projected_losses": "4.5",
         "projected_wins": "26.5",
-        "rank": "19"
+        "rank": "20"
     },
     "time": {
-        "iso_time": "2026-02-08T09:57:24.488579",
-        "time": "Feb. 8 at 9:57 AM"
+        "iso_time": "2026-02-09T09:05:05.533714",
+        "time": "Feb. 9 at 9:05 AM"
     },
     "trank": {
         "torvik_NET": "11",
@@ -540,14 +540,14 @@
         "trank_proj_record": "27-4 (16-4)",
         "trank_seed": "2",
         "wab_rank": 5,
-        "wab_score": "+6.9"
+        "wab_score": "+6.8"
     },
     "warrennolan": {
         "current_conf_record": "10-2",
-        "elo": "13",
+        "elo": "14",
         "nolan_net": "11",
-        "quadrant_1": "6-2",
-        "quadrant_2": "5-0",
+        "quadrant_1": "5-2",
+        "quadrant_2": "6-0",
         "quadrant_3": "4-0",
         "quadrant_4": "6-0",
         "record": "21-2",
