@@ -511,8 +511,8 @@
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
-        "ap_rank": 9,
-        "coaches_rank": 9
+        "ap_rank": 7,
+        "coaches_rank": 8
     },
     "shot_quality": {
         "sq_ranking": 23
@@ -530,8 +530,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-02-09T09:11:55.409190",
-        "time": "Feb. 9 at 9:11 AM"
+        "iso_time": "2026-02-09T17:33:56.134930",
+        "time": "Feb. 9 at 5:33 PM"
     },
     "trank": {
         "torvik_NET": "11",
