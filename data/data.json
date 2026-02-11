@@ -254,7 +254,7 @@
         "seed": "2"
     },
     "evanmiya": {
-        "miya_rating": "NA",
+        "miya_rating": 15,
         "miya_resume_category": "1-2 Seed",
         "miya_resume_rank": 6
     },
@@ -531,8 +531,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-02-11T10:10:07.094223",
-        "time": "Feb. 11 at 10:10 AM"
+        "iso_time": "2026-02-11T10:13:21.328826",
+        "time": "Feb. 11 at 10:13 AM"
     },
     "trank": {
         "torvik_NET": "13",
