@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-09T11:31:44.257334",
+  "lastUpdated": "2026-02-10T22:25:48.076657",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -681,17 +681,23 @@
               "team_nickname": "Nebraska",
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-              "score": null,
-              "gameRank": 9
+              "score": {
+                "value": 77.0,
+                "displayValue": "77"
+              },
+              "gameRank": 7
             },
             {
-              "winner": false,
+              "winner": true,
               "team_id": "2509",
               "team_nickname": "Purdue",
               "slug": "purdue-boilermakers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
-              "score": null,
-              "gameRank": 12
+              "score": {
+                "value": 80.0,
+                "displayValue": "80"
+              },
+              "gameRank": 13
             }
           ]
         },
@@ -705,7 +711,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 9
+              "gameRank": 7
             },
             {
               "winner": false,
@@ -737,7 +743,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 9
+              "gameRank": 7
             }
           ]
         },
@@ -751,7 +757,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 9
+              "gameRank": 7
             },
             {
               "winner": false,
@@ -774,7 +780,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 9
+              "gameRank": 7
             },
             {
               "winner": false,
@@ -806,7 +812,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 9
+              "gameRank": 7
             }
           ]
         },
@@ -829,7 +835,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 9
+              "gameRank": 7
             }
           ]
         },
@@ -843,7 +849,7 @@
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
-              "gameRank": 9
+              "gameRank": 7
             },
             {
               "winner": false,
