@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "59"
+        "BRCT_rank": "9"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -233,9 +233,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 111,
+        "matrix_count": 113,
         "matrix_seed": 2,
-        "total_brackets": 111
+        "total_brackets": 113
     },
     "espn": {
         "bpi": 19.0,
@@ -531,8 +531,8 @@
         "rank": "21"
     },
     "time": {
-        "iso_time": "2026-02-12T11:57:59.856071",
-        "time": "Feb. 12 at 11:57 AM"
+        "iso_time": "2026-02-13T01:18:33.109869",
+        "time": "Feb. 13 at 1:18 AM"
     },
     "trank": {
         "torvik_NET": "13",
