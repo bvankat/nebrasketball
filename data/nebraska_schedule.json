@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-14T08:21:28.862429",
+  "lastUpdated": "2026-02-14T16:32:02.937136",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -705,12 +705,15 @@
           "date": "2026-02-14T18:00Z",
           "competitors": [
             {
-              "winner": false,
+              "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-              "score": null,
+              "score": {
+                "value": 68.0,
+                "displayValue": "68"
+              },
               "gameRank": 7
             },
             {
@@ -719,7 +722,10 @@
               "team_nickname": "Northwestern",
               "slug": "northwestern-wildcats",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
-              "score": null,
+              "score": {
+                "value": 49.0,
+                "displayValue": "49"
+              },
               "gameRank": 99
             }
           ]

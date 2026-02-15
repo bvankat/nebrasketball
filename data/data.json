@@ -254,12 +254,12 @@
         "seed": "3"
     },
     "evanmiya": {
-        "miya_rating": 15,
+        "miya_rating": 16,
         "miya_resume_category": "1-2 Seed",
         "miya_resume_rank": 7
     },
     "haslametrics": {
-        "haslam_rating": "10",
+        "haslam_rating": "9",
         "seed": "2"
     },
     "jthom_analytics": {
@@ -457,13 +457,13 @@
     "kenpom": {
         "conference_record": "15-5",
         "overall_record": "26-5",
-        "rating": 12,
+        "rating": 11,
         "record": "22-3",
         "remaining_games": [
             {
                 "date": "Tue Feb 17",
                 "opponent": "Iowa",
-                "prob": "48%"
+                "prob": "52%"
             },
             {
                 "date": "Sat Feb 21",
@@ -488,10 +488,10 @@
             {
                 "date": "Sun Mar 8",
                 "opponent": "Iowa",
-                "prob": "71%"
+                "prob": "74%"
             }
         ],
-        "sos": 47
+        "sos": 45
     },
     "kpi_sports": {
         "kpi_ranking": 14
@@ -511,7 +511,7 @@
         "coaches_rank": 8
     },
     "shot_quality": {
-        "sq_ranking": 28
+        "sq_ranking": 25
     },
     "sports_reference": {
         "SRS_rank": 19
@@ -519,23 +519,23 @@
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "3",
-        "proj_conf_record": "15.0-5.0",
+        "proj_conf_record": "15.1-4.9",
         "projected_bid_pct": "100.0%",
-        "projected_losses": "5.0",
-        "projected_wins": "26.0",
-        "rank": "21"
+        "projected_losses": "4.9",
+        "projected_wins": "26.1",
+        "rank": "20"
     },
     "time": {
-        "iso_time": "2026-02-14T16:14:10.339050",
-        "time": "Feb. 14 at 4:14 PM"
+        "iso_time": "2026-02-15T00:48:14.608810",
+        "time": "Feb. 15 at 12:48 AM"
     },
     "trank": {
         "torvik_NET": "12",
-        "trank": 11,
+        "trank": 12,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
-        "trank_seed": "3",
-        "wab_rank": 6,
+        "trank_seed": "4",
+        "wab_rank": 7,
         "wab_score": "+6.6"
     },
     "warrennolan": {
@@ -547,6 +547,6 @@
         "quadrant_3": "5-0",
         "quadrant_4": "6-0",
         "record": "22-3",
-        "rpi": "16"
+        "rpi": "17"
     }
 }
