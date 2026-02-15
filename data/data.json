@@ -263,7 +263,7 @@
         "seed": "3"
     },
     "evanmiya": {
-        "miya_rating": 13,
+        "miya_rating": "NA",
         "miya_resume_category": "1-2 Seed",
         "miya_resume_rank": 7
     },
@@ -463,45 +463,6 @@
         "proj_record": "27.3-5.6",
         "seed": "2"
     },
-    "kenpom": {
-        "conference_record": "15-5",
-        "overall_record": "26-5",
-        "rating": 11,
-        "record": "22-3",
-        "remaining_games": [
-            {
-                "date": "Tue Feb 17",
-                "opponent": "Iowa",
-                "prob": "52%"
-            },
-            {
-                "date": "Sat Feb 21",
-                "opponent": "Penn St.",
-                "prob": "96%"
-            },
-            {
-                "date": "Wed Feb 25",
-                "opponent": "Maryland",
-                "prob": "96%"
-            },
-            {
-                "date": "Sat Feb 28",
-                "opponent": "USC",
-                "prob": "69%"
-            },
-            {
-                "date": "Tue Mar 3",
-                "opponent": "UCLA",
-                "prob": "60%"
-            },
-            {
-                "date": "Sun Mar 8",
-                "opponent": "Iowa",
-                "prob": "74%"
-            }
-        ],
-        "sos": 45
-    },
     "kpi_sports": {
         "kpi_ranking": 15
     },
@@ -519,9 +480,6 @@
         "ap_rank": 7,
         "coaches_rank": 8
     },
-    "shot_quality": {
-        "sq_ranking": 25
-    },
     "sports_reference": {
         "SRS_rank": 18
     },
@@ -535,8 +493,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-02-15T10:45:44.585662",
-        "time": "Feb. 15 at 10:45 AM"
+        "iso_time": "2026-02-15T15:41:55.944662",
+        "time": "Feb. 15 at 3:41 PM"
     },
     "trank": {
         "torvik_NET": "12",
@@ -545,11 +503,11 @@
         "trank_proj_record": "26-5 (15-5)",
         "trank_seed": "3",
         "wab_rank": 7,
-        "wab_score": "+6.6"
+        "wab_score": "+6.7"
     },
     "warrennolan": {
         "current_conf_record": "11-3",
-        "elo": "16",
+        "elo": "20",
         "nolan_net": "11",
         "quadrant_1": "5-3",
         "quadrant_2": "5-0",
