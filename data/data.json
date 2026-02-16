@@ -463,6 +463,45 @@
         "proj_record": "27.4-5.6",
         "seed": "2"
     },
+    "kenpom": {
+        "conference_record": "15-5",
+        "overall_record": "26-5",
+        "rating": 11,
+        "record": "22-3",
+        "remaining_games": [
+            {
+                "date": "Tue Feb 17",
+                "opponent": "Iowa",
+                "prob": "52%"
+            },
+            {
+                "date": "Sat Feb 21",
+                "opponent": "Penn St.",
+                "prob": "96%"
+            },
+            {
+                "date": "Wed Feb 25",
+                "opponent": "Maryland",
+                "prob": "97%"
+            },
+            {
+                "date": "Sat Feb 28",
+                "opponent": "USC",
+                "prob": "70%"
+            },
+            {
+                "date": "Tue Mar 3",
+                "opponent": "UCLA",
+                "prob": "60%"
+            },
+            {
+                "date": "Sun Mar 8",
+                "opponent": "Iowa",
+                "prob": "74%"
+            }
+        ],
+        "sos": 45
+    },
     "kpi_sports": {
         "kpi_ranking": 15
     },
@@ -496,8 +535,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-02-16T08:33:45.580830",
-        "time": "Feb. 16 at 8:33 AM"
+        "iso_time": "2026-02-16T08:54:06.201391",
+        "time": "Feb. 16 at 8:54 AM"
     },
     "trank": {
         "torvik_NET": "12",
