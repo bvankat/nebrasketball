@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "9"
+        "BRCT_rank": "59"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -463,45 +463,6 @@
         "proj_record": "27.4-5.6",
         "seed": "2"
     },
-    "kenpom": {
-        "conference_record": "15-5",
-        "overall_record": "26-5",
-        "rating": 11,
-        "record": "22-3",
-        "remaining_games": [
-            {
-                "date": "Tue Feb 17",
-                "opponent": "Iowa",
-                "prob": "52%"
-            },
-            {
-                "date": "Sat Feb 21",
-                "opponent": "Penn St.",
-                "prob": "96%"
-            },
-            {
-                "date": "Wed Feb 25",
-                "opponent": "Maryland",
-                "prob": "97%"
-            },
-            {
-                "date": "Sat Feb 28",
-                "opponent": "USC",
-                "prob": "70%"
-            },
-            {
-                "date": "Tue Mar 3",
-                "opponent": "UCLA",
-                "prob": "60%"
-            },
-            {
-                "date": "Sun Mar 8",
-                "opponent": "Iowa",
-                "prob": "74%"
-            }
-        ],
-        "sos": 47
-    },
     "kpi_sports": {
         "kpi_ranking": 15
     },
@@ -535,8 +496,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-02-17T12:32:56.030470",
-        "time": "Feb. 17 at 12:32 PM"
+        "iso_time": "2026-02-17T16:21:31.827873",
+        "time": "Feb. 17 at 4:21 PM"
     },
     "trank": {
         "torvik_NET": "12",
