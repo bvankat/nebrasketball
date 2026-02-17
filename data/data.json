@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "9"
+        "BRCT_rank": "59"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -17,7 +17,7 @@
                 "date": "12/13/2025",
                 "location": "Away",
                 "opponent": "Illinois",
-                "opponent_NET": "5",
+                "opponent_NET": "4",
                 "opponent_rank": "13",
                 "result": "W",
                 "score": "83-80"
@@ -62,7 +62,7 @@
                 "date": "02/01/2026",
                 "location": "Home",
                 "opponent": "Illinois",
-                "opponent_NET": "5",
+                "opponent_NET": "4",
                 "opponent_rank": "9",
                 "result": "L",
                 "score": "69-78"
@@ -71,7 +71,7 @@
                 "date": "02/10/2026",
                 "location": "Home",
                 "opponent": "Purdue",
-                "opponent_NET": "7",
+                "opponent_NET": "8",
                 "opponent_rank": "13",
                 "result": "L",
                 "score": "77-80*"
@@ -110,7 +110,7 @@
                 "date": "01/17/2026",
                 "location": "Away",
                 "opponent": "Northwestern",
-                "opponent_NET": "77",
+                "opponent_NET": "76",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "77-58"
@@ -176,7 +176,7 @@
                 "date": "02/14/2026",
                 "location": "Home",
                 "opponent": "Northwestern",
-                "opponent_NET": "77",
+                "opponent_NET": "76",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "68-49"
@@ -188,7 +188,7 @@
                 "date": "11/03/2025",
                 "location": "Home",
                 "opponent": "West Ga.",
-                "opponent_NET": "308",
+                "opponent_NET": "311",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-53"
@@ -197,7 +197,7 @@
                 "date": "11/08/2025",
                 "location": "Home",
                 "opponent": "FIU",
-                "opponent_NET": "198",
+                "opponent_NET": "197",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "96-66"
@@ -206,7 +206,7 @@
                 "date": "11/11/2025",
                 "location": "Home",
                 "opponent": "UMES",
-                "opponent_NET": "345",
+                "opponent_NET": "347",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "69-50"
@@ -215,7 +215,7 @@
                 "date": "11/29/2025",
                 "location": "Home",
                 "opponent": "USC Upstate",
-                "opponent_NET": "293",
+                "opponent_NET": "295",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "72-63"
@@ -224,7 +224,7 @@
                 "date": "12/21/2025",
                 "location": "Home",
                 "opponent": "North Dakota",
-                "opponent_NET": "274",
+                "opponent_NET": "275",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "78-55"
@@ -233,7 +233,7 @@
                 "date": "12/30/2025",
                 "location": "Home",
                 "opponent": "New Hampshire",
-                "opponent_NET": "334",
+                "opponent_NET": "335",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "86-55"
@@ -260,7 +260,7 @@
         "sos": 45.0
     },
     "espn_bracketology": {
-        "seed": "3"
+        "seed": "4"
     },
     "evanmiya": {
         "miya_rating": 13,
@@ -463,45 +463,6 @@
         "proj_record": "27.4-5.6",
         "seed": "2"
     },
-    "kenpom": {
-        "conference_record": "15-5",
-        "overall_record": "26-5",
-        "rating": 11,
-        "record": "22-3",
-        "remaining_games": [
-            {
-                "date": "Tue Feb 17",
-                "opponent": "Iowa",
-                "prob": "52%"
-            },
-            {
-                "date": "Sat Feb 21",
-                "opponent": "Penn St.",
-                "prob": "96%"
-            },
-            {
-                "date": "Wed Feb 25",
-                "opponent": "Maryland",
-                "prob": "97%"
-            },
-            {
-                "date": "Sat Feb 28",
-                "opponent": "USC",
-                "prob": "70%"
-            },
-            {
-                "date": "Tue Mar 3",
-                "opponent": "UCLA",
-                "prob": "60%"
-            },
-            {
-                "date": "Sun Mar 8",
-                "opponent": "Iowa",
-                "prob": "74%"
-            }
-        ],
-        "sos": 47
-    },
     "kpi_sports": {
         "kpi_ranking": 15
     },
@@ -535,8 +496,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-02-17T03:57:04.275689",
-        "time": "Feb. 17 at 3:57 AM"
+        "iso_time": "2026-02-17T09:56:52.474308",
+        "time": "Feb. 17 at 9:56 AM"
     },
     "trank": {
         "torvik_NET": "12",
