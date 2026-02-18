@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-17T16:32:02.348990",
+  "lastUpdated": "2026-02-17T21:14:09.943379",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -739,7 +739,10 @@
               "team_nickname": "Iowa",
               "slug": "iowa-hawkeyes",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-              "score": null,
+              "score": {
+                "value": 33.0,
+                "displayValue": "33"
+              },
               "gameRank": 99
             },
             {
@@ -748,7 +751,10 @@
               "team_nickname": "Nebraska",
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-              "score": null,
+              "score": {
+                "value": 28.0,
+                "displayValue": "28"
+              },
               "gameRank": 9
             }
           ]
