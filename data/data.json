@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "11"
+        "BRCT_rank": "59"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -513,18 +513,18 @@
         "net_rank": "11"
     },
     "next_game": {
-        "away_team": "Nebraska",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "2026-02-18T02:00Z",
-        "home_team": "Iowa",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
+        "away_team": "Penn State",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
+        "date_time": "2026-02-21T19:00Z",
+        "home_team": "Nebraska",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
         "ap_rank": 9,
         "coaches_rank": 9
     },
     "shot_quality": {
-        "sq_ranking": 28
+        "sq_ranking": 29
     },
     "sports_reference": {
         "SRS_rank": 17
@@ -539,8 +539,8 @@
         "rank": "21"
     },
     "time": {
-        "iso_time": "2026-02-18T09:35:51.044151",
-        "time": "Feb. 18 at 9:35 AM"
+        "iso_time": "2026-02-18T11:58:43.498055",
+        "time": "Feb. 18 at 11:58 AM"
     },
     "trank": {
         "torvik_NET": "13",
