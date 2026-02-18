@@ -259,14 +259,14 @@
         "bpi": 18.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 230.0,
+        "non_con_sos": 229.0,
         "proj_tourney_seed": "NA",
-        "proj_win_loss_conf": "15.3-4.7",
-        "proj_win_loss_overall": "26.3-4.7",
+        "proj_win_loss_conf": "14.8-5.2",
+        "proj_win_loss_overall": "25.8-5.2",
         "projected_tournament_order": "NA",
-        "seven_day_change": "Tied-1st",
-        "sor": 6.0,
-        "sos": 45.0
+        "seven_day_change": "",
+        "sor": 7.0,
+        "sos": 40.0
     },
     "espn_bracketology": {
         "seed": "4"
@@ -539,8 +539,8 @@
         "rank": "21"
     },
     "time": {
-        "iso_time": "2026-02-18T09:33:48.906186",
-        "time": "Feb. 18 at 9:33 AM"
+        "iso_time": "2026-02-18T09:35:51.044151",
+        "time": "Feb. 18 at 9:35 AM"
     },
     "trank": {
         "torvik_NET": "13",
