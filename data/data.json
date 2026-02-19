@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "11"
+        "BRCT_rank": "59"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -526,6 +526,9 @@
     "shot_quality": {
         "sq_ranking": 28
     },
+    "sports_reference": {
+        "SRS_rank": 17
+    },
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "4",
@@ -536,8 +539,8 @@
         "rank": "21"
     },
     "time": {
-        "iso_time": "2026-02-19T10:15:59.832296",
-        "time": "Feb. 19 at 10:15 AM"
+        "iso_time": "2026-02-19T12:53:43.597333",
+        "time": "Feb. 19 at 12:53 PM"
     },
     "trank": {
         "torvik_NET": "11",
@@ -547,5 +550,16 @@
         "trank_seed": "3",
         "wab_rank": 8,
         "wab_score": "+6.5"
+    },
+    "warrennolan": {
+        "current_conf_record": "11-4",
+        "elo": "20",
+        "nolan_net": "11",
+        "quadrant_1": "5-4",
+        "quadrant_2": "7-0",
+        "quadrant_3": "4-0",
+        "quadrant_4": "6-0",
+        "record": "22-4",
+        "rpi": "17"
     }
 }
