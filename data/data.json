@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "59"
+        "BRCT_rank": "11"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -251,9 +251,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 122,
+        "matrix_count": 118,
         "matrix_seed": 3,
-        "total_brackets": 122
+        "total_brackets": 118
     },
     "espn": {
         "bpi": 18.0,
@@ -472,6 +472,40 @@
         "proj_record": "26.8-6.1",
         "seed": "3"
     },
+    "kenpom": {
+        "conference_record": "15-5",
+        "overall_record": "26-5",
+        "rating": 11,
+        "record": "22-4",
+        "remaining_games": [
+            {
+                "date": "Sat Feb 21",
+                "opponent": "Penn St.",
+                "prob": "97%"
+            },
+            {
+                "date": "Wed Feb 25",
+                "opponent": "Maryland",
+                "prob": "96%"
+            },
+            {
+                "date": "Sat Feb 28",
+                "opponent": "USC",
+                "prob": "72%"
+            },
+            {
+                "date": "Tue Mar 3",
+                "opponent": "UCLA",
+                "prob": "62%"
+            },
+            {
+                "date": "Sun Mar 8",
+                "opponent": "Iowa",
+                "prob": "73%"
+            }
+        ],
+        "sos": 34
+    },
     "kpi_sports": {
         "kpi_ranking": 15
     },
@@ -505,8 +539,8 @@
         "rank": "21"
     },
     "time": {
-        "iso_time": "2026-02-19T14:46:01.546520",
-        "time": "Feb. 19 at 2:46 PM"
+        "iso_time": "2026-02-19T23:38:32.939822",
+        "time": "Feb. 19 at 11:38 PM"
     },
     "trank": {
         "torvik_NET": "11",
@@ -526,6 +560,6 @@
         "quadrant_3": "4-0",
         "quadrant_4": "6-0",
         "record": "22-4",
-        "rpi": "17"
+        "rpi": "18"
     }
 }
