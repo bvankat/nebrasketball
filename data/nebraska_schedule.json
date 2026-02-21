@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-21T05:31:41.130192",
+  "lastUpdated": "2026-02-21T16:31:43.093868",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -763,12 +763,15 @@
           "date": "2026-02-21T19:00Z",
           "competitors": [
             {
-              "winner": false,
+              "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-              "score": null,
+              "score": {
+                "value": 87.0,
+                "displayValue": "87"
+              },
               "gameRank": 9
             },
             {
@@ -777,7 +780,10 @@
               "team_nickname": "Penn State",
               "slug": "penn-state-nittany-lions",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
-              "score": null,
+              "score": {
+                "value": 64.0,
+                "displayValue": "64"
+              },
               "gameRank": 99
             }
           ]

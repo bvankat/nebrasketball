@@ -1,4 +1,7 @@
 {
+    "bauertology": {
+        "BRCT_rank": "11"
+    },
     "bballnet_quadrants": {
         "quad1_games": [
             {
@@ -41,7 +44,7 @@
                 "date": "01/10/2026",
                 "location": "Away",
                 "opponent": "Indiana",
-                "opponent_NET": "32",
+                "opponent_NET": "37",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "83-77"
@@ -68,7 +71,7 @@
                 "date": "02/10/2026",
                 "location": "Home",
                 "opponent": "Purdue",
-                "opponent_NET": "8",
+                "opponent_NET": "7",
                 "opponent_rank": "13",
                 "result": "L",
                 "score": "77-80*"
@@ -116,7 +119,7 @@
                 "date": "12/10/2025",
                 "location": "Home",
                 "opponent": "Wisconsin",
-                "opponent_NET": "36",
+                "opponent_NET": "34",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "90-60"
@@ -212,7 +215,7 @@
                 "date": "11/11/2025",
                 "location": "Home",
                 "opponent": "UMES",
-                "opponent_NET": "346",
+                "opponent_NET": "347",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "69-50"
@@ -473,13 +476,8 @@
         "conference_record": "15-5",
         "overall_record": "26-5",
         "rating": 11,
-        "record": "22-4",
+        "record": "23-4",
         "remaining_games": [
-            {
-                "date": "Sat Feb 21",
-                "opponent": "Penn St.",
-                "prob": "97%"
-            },
             {
                 "date": "Wed Feb 25",
                 "opponent": "Maryland",
@@ -488,7 +486,7 @@
             {
                 "date": "Sat Feb 28",
                 "opponent": "USC",
-                "prob": "72%"
+                "prob": "74%"
             },
             {
                 "date": "Tue Mar 3",
@@ -501,7 +499,7 @@
                 "prob": "73%"
             }
         ],
-        "sos": 35
+        "sos": 47
     },
     "kpi_sports": {
         "kpi_ranking": 15
@@ -536,12 +534,12 @@
         "rank": "21"
     },
     "time": {
-        "iso_time": "2026-02-21T08:16:26.577051",
-        "time": "Feb. 21 at 8:16 AM"
+        "iso_time": "2026-02-21T17:35:55.646418",
+        "time": "Feb. 21 at 5:35 PM"
     },
     "trank": {
         "torvik_NET": "11",
-        "trank": 11,
+        "trank": 10,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
         "trank_seed": "3",
@@ -549,14 +547,14 @@
         "wab_score": "+6.5"
     },
     "warrennolan": {
-        "current_conf_record": "11-4",
+        "current_conf_record": "12-4",
         "elo": "20",
         "nolan_net": "11",
         "quadrant_1": "5-4",
         "quadrant_2": "7-0",
-        "quadrant_3": "4-0",
+        "quadrant_3": "5-0",
         "quadrant_4": "6-0",
-        "record": "22-4",
+        "record": "23-4",
         "rpi": "18"
     }
 }
