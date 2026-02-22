@@ -475,7 +475,7 @@
     "kenpom": {
         "conference_record": "15-5",
         "overall_record": "26-5",
-        "rating": 11,
+        "rating": 12,
         "record": "23-4",
         "remaining_games": [
             {
@@ -491,7 +491,7 @@
             {
                 "date": "Tue Mar 3",
                 "opponent": "UCLA",
-                "prob": "62%"
+                "prob": "61%"
             },
             {
                 "date": "Sun Mar 8",
@@ -499,7 +499,7 @@
                 "prob": "73%"
             }
         ],
-        "sos": 47
+        "sos": 49
     },
     "kpi_sports": {
         "kpi_ranking": 15
@@ -519,7 +519,7 @@
         "coaches_rank": 9
     },
     "shot_quality": {
-        "sq_ranking": 28
+        "sq_ranking": 23
     },
     "sports_reference": {
         "SRS_rank": 17
@@ -534,8 +534,8 @@
         "rank": "21"
     },
     "time": {
-        "iso_time": "2026-02-21T17:35:55.646418",
-        "time": "Feb. 21 at 5:35 PM"
+        "iso_time": "2026-02-21T22:08:29.371457",
+        "time": "Feb. 21 at 10:08 PM"
     },
     "trank": {
         "torvik_NET": "11",
@@ -544,17 +544,17 @@
         "trank_proj_record": "26-5 (15-5)",
         "trank_seed": "3",
         "wab_rank": 8,
-        "wab_score": "+6.5"
+        "wab_score": "+6.6"
     },
     "warrennolan": {
         "current_conf_record": "12-4",
-        "elo": "20",
+        "elo": "23",
         "nolan_net": "11",
         "quadrant_1": "5-4",
         "quadrant_2": "7-0",
         "quadrant_3": "5-0",
         "quadrant_4": "6-0",
         "record": "23-4",
-        "rpi": "18"
+        "rpi": "19"
     }
 }
