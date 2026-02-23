@@ -505,7 +505,7 @@
             {
                 "date": "Sun Mar 8",
                 "opponent": "Iowa",
-                "prob": "73%"
+                "prob": "74%"
             }
         ],
         "sos": 50
@@ -528,7 +528,7 @@
         "coaches_rank": 9
     },
     "shot_quality": {
-        "sq_ranking": 23
+        "sq_ranking": 24
     },
     "sports_reference": {
         "SRS_rank": 18
@@ -543,11 +543,11 @@
         "rank": "21"
     },
     "time": {
-        "iso_time": "2026-02-22T11:07:41.828477",
-        "time": "Feb. 22 at 11:07 AM"
+        "iso_time": "2026-02-22T21:54:08.516845",
+        "time": "Feb. 22 at 9:54 PM"
     },
     "trank": {
-        "torvik_NET": "11",
+        "torvik_NET": "12",
         "trank": 11,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
