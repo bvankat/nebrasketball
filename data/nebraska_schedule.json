@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T16:32:07.395359",
+  "lastUpdated": "2026-02-26T11:31:53.109097",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -792,12 +792,15 @@
           "date": "2026-02-26T00:00Z",
           "competitors": [
             {
-              "winner": false,
+              "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-              "score": null,
+              "score": {
+                "value": 74.0,
+                "displayValue": "74"
+              },
               "gameRank": 12
             },
             {
@@ -806,7 +809,10 @@
               "team_nickname": "Maryland",
               "slug": "maryland-terrapins",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
-              "score": null,
+              "score": {
+                "value": 61.0,
+                "displayValue": "61"
+              },
               "gameRank": 99
             }
           ]
