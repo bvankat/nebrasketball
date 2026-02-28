@@ -1,4 +1,7 @@
 {
+    "bauertology": {
+        "BRCT_rank": "59"
+    },
     "bballnet_quadrants": {
         "quad1_games": [
             {
@@ -287,7 +290,7 @@
         "seed": "3"
     },
     "evanmiya": {
-        "miya_rating": 14,
+        "miya_rating": 15,
         "miya_resume_category": "1-2 Seed",
         "miya_resume_rank": 8
     },
@@ -491,25 +494,20 @@
         "conference_record": "15-5",
         "overall_record": "26-5",
         "rating": 12,
-        "record": "24-4",
+        "record": "25-4",
         "remaining_games": [
-            {
-                "date": "Sat Feb 28",
-                "opponent": "USC",
-                "prob": "75%"
-            },
             {
                 "date": "Tue Mar 3",
                 "opponent": "UCLA",
-                "prob": "58%"
+                "prob": "60%"
             },
             {
                 "date": "Sun Mar 8",
                 "opponent": "Iowa",
-                "prob": "72%"
+                "prob": "74%"
             }
         ],
-        "sos": 63
+        "sos": 62
     },
     "kpi_sports": {
         "kpi_ranking": 18
@@ -544,27 +542,27 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-02-28T10:32:55.871136",
-        "time": "Feb. 28 at 10:32 AM"
+        "iso_time": "2026-02-28T17:29:55.326809",
+        "time": "Feb. 28 at 5:29 PM"
     },
     "trank": {
-        "torvik_NET": "12",
-        "trank": 16,
+        "torvik_NET": "11",
+        "trank": 14,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
-        "trank_seed": "4",
+        "trank_seed": "3",
         "wab_rank": 8,
-        "wab_score": "+6.7"
+        "wab_score": "+6.4"
     },
     "warrennolan": {
-        "current_conf_record": "13-4",
-        "elo": "19",
+        "current_conf_record": "14-4",
+        "elo": "22",
         "nolan_net": "12",
-        "quadrant_1": "7-4",
+        "quadrant_1": "8-4",
         "quadrant_2": "5-0",
         "quadrant_3": "6-0",
         "quadrant_4": "6-0",
-        "record": "24-4",
-        "rpi": "22"
+        "record": "25-4",
+        "rpi": "19"
     }
 }
