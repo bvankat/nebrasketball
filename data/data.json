@@ -290,7 +290,7 @@
         "seed": "3"
     },
     "evanmiya": {
-        "miya_rating": 15,
+        "miya_rating": 14,
         "miya_resume_category": "1-2 Seed",
         "miya_resume_rank": 8
     },
@@ -490,6 +490,25 @@
         "proj_record": "27.0-6.0",
         "seed": "2"
     },
+    "kenpom": {
+        "conference_record": "15-5",
+        "overall_record": "26-5",
+        "rating": 12,
+        "record": "25-4",
+        "remaining_games": [
+            {
+                "date": "Tue Mar 3",
+                "opponent": "UCLA",
+                "prob": "60%"
+            },
+            {
+                "date": "Sun Mar 8",
+                "opponent": "Iowa",
+                "prob": "74%"
+            }
+        ],
+        "sos": 63
+    },
     "kpi_sports": {
         "kpi_ranking": 18
     },
@@ -523,17 +542,17 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-02-28T18:52:36.952328",
-        "time": "Feb. 28 at 6:52 PM"
+        "iso_time": "2026-02-28T21:15:38.932466",
+        "time": "Feb. 28 at 9:15 PM"
     },
     "trank": {
-        "torvik_NET": "11",
+        "torvik_NET": "12",
         "trank": 11,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
         "trank_seed": "3",
         "wab_rank": 5,
-        "wab_score": "+6.9"
+        "wab_score": "+7.0"
     },
     "warrennolan": {
         "current_conf_record": "14-4",
