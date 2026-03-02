@@ -295,7 +295,7 @@
         "miya_resume_rank": 7
     },
     "haslametrics": {
-        "haslam_rating": "8",
+        "haslam_rating": "9",
         "seed": "2"
     },
     "jthom_analytics": {
@@ -490,6 +490,25 @@
         "proj_record": "27.4-5.7",
         "seed": "2"
     },
+    "kenpom": {
+        "conference_record": "15-5",
+        "overall_record": "26-5",
+        "rating": 11,
+        "record": "25-4",
+        "remaining_games": [
+            {
+                "date": "Tue Mar 3",
+                "opponent": "UCLA",
+                "prob": "60%"
+            },
+            {
+                "date": "Sun Mar 8",
+                "opponent": "Iowa",
+                "prob": "74%"
+            }
+        ],
+        "sos": 65
+    },
     "kpi_sports": {
         "kpi_ranking": 17
     },
@@ -523,8 +542,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-01T19:57:14.165439",
-        "time": "Mar. 1 at 7:57 PM"
+        "iso_time": "2026-03-01T22:12:17.717238",
+        "time": "Mar. 1 at 10:12 PM"
     },
     "trank": {
         "torvik_NET": "13",
