@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "59"
+        "BRCT_rank": "11"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -490,6 +490,25 @@
         "proj_record": "27.5-5.7",
         "seed": "2"
     },
+    "kenpom": {
+        "conference_record": "15-5",
+        "overall_record": "26-5",
+        "rating": 11,
+        "record": "25-4",
+        "remaining_games": [
+            {
+                "date": "Tue Mar 3",
+                "opponent": "UCLA",
+                "prob": "60%"
+            },
+            {
+                "date": "Sun Mar 8",
+                "opponent": "Iowa",
+                "prob": "74%"
+            }
+        ],
+        "sos": 65
+    },
     "kpi_sports": {
         "kpi_ranking": 16
     },
@@ -514,6 +533,9 @@
     "shot_quality": {
         "sq_ranking": 21
     },
+    "sports_reference": {
+        "SRS_rank": 16
+    },
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "3",
@@ -524,12 +546,21 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-02T10:37:48.169428",
-        "time": "Mar. 2 at 10:37 AM"
+        "iso_time": "2026-03-02T11:45:27.868249",
+        "time": "Mar. 2 at 11:45 AM"
     },
     "tourney_odds": {
         "seed": "3",
         "status": "Tournament Lock"
+    },
+    "trank": {
+        "torvik_NET": "13",
+        "trank": 12,
+        "trank_make_tourney": 100.0,
+        "trank_proj_record": "26-5 (15-5)",
+        "trank_seed": "3",
+        "wab_rank": 6,
+        "wab_score": "+7.1"
     },
     "warrennolan": {
         "current_conf_record": "14-4",
