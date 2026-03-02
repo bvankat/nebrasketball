@@ -168,14 +168,16 @@ if (data.espn_bracketology) {
 		console.log('Torvik delta:', trankDelta, 'Current:', data.trank.trank, 'Yesterday:', yesterdayData?.trank?.trank);
 	document.getElementById('trank-trank').innerHTML = trankDelta + data.trank.trank;
 	
-	document.getElementById('wab-score').innerHTML = data.trank.wab_score;
-	const wabDelta = yesterdayData && yesterdayData.trank ? getDeltaHTML(data.trank.wab_rank, yesterdayData.trank.wab_rank) : '';
-	console.log('WAB delta:', wabDelta, 'Current:', data.trank.wab_rank, 'Yesterday:', yesterdayData?.trank?.wab_rank);
-	document.getElementById('wab-rank').innerHTML = wabDelta + data.trank.wab_rank;
-	
 	var trank_tourney_pct = data.trank.trank_make_tourney + "%";
 	document.getElementById('trank-make-tourney').innerHTML = trank_tourney_pct;
 }
+
+	if ( data.ncaa_wab ) {
+		document.getElementById('wab-score').innerHTML = data.ncaa_wab.ncaa_wab_score;
+		const wabDelta = yesterdayData && yesterdayData.ncaa_wab ? getDeltaHTML(data.ncaa_wab.ncaa_wab_rank, yesterdayData.ncaa_wab.ncaa_wab_rank) : '';
+		console.log('WAB delta:', wabDelta, 'Current:', data.ncaa_wab.ncaa_wab_rank, 'Yesterday:', yesterdayData?.ncaa_wab?.ncaa_wab_rank);
+		document.getElementById('wab-rank').innerHTML = wabDelta + data.ncaa_wab.ncaa_wab_rank;
+	}
 
 	if ( data.haslametrics ) {
 		document.getElementById('haslam-rating').innerHTML = data.haslametrics.haslam_rating;
@@ -331,7 +333,9 @@ if (data.espn_bracketology) {
 	 let wab_score;
 	 if( data.trank ) { 
 	  	  torvik_score = parseInt(data.trank.trank_make_tourney); 
-		  wab_score = FindScore(data.trank.wab_rank); 
+	 }
+	 if( data.ncaa_wab ) {
+		  wab_score = FindScore(data.ncaa_wab.ncaa_wab_rank);
 	 }
 	 
 	 let kpi_score;
@@ -383,7 +387,7 @@ if (data.espn_bracketology) {
 		if (data.warrennolan && typeof data.warrennolan.rpi !== 'undefined') raw_rankings.RPI = parseInt(data.warrennolan.rpi);
 		if (data.kenpom && typeof data.kenpom.rating !== 'undefined') raw_rankings.Kenpom = data.kenpom.rating;
 		if (data.trank && typeof data.trank.trank !== 'undefined') raw_rankings.Torvik = data.trank.trank;
-		if (data.trank && typeof data.trank.wab_rank !== 'undefined') raw_rankings.WAB = data.trank.wab_rank;
+		if (data.ncaa_wab && typeof data.ncaa_wab.ncaa_wab_rank !== 'undefined') raw_rankings.WAB = data.ncaa_wab.ncaa_wab_rank;
 		if (data.bauertology && typeof data.bauertology.BRCT_rank !== 'undefined') raw_rankings.Bauer = parseInt(data.bauertology.BRCT_rank);
 		
 		
