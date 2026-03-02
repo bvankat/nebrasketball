@@ -239,9 +239,9 @@ if (data.espn_bracketology) {
 		const toSeed = data.tourney_odds.seed;
 		const toStatus = data.tourney_odds.status;
 
-		let pillClasses = 'text-xs font-medium px-2 py-0.5 rounded-full ';
+		let pillClasses = 'text-[11px] font-regular px-2 py-0.5 rounded-full ';
 		if (toStatus === 'Tournament Lock') {
-			pillClasses += 'bg-green-100 text-green-700';
+			pillClasses += 'bg-green-50 text-green-800';
 		} else if (toStatus.includes('Bubble') || toStatus.includes('Last Four')) {
 			pillClasses += 'bg-yellow-100 text-yellow-700';
 		} else if (toStatus.includes('Out')) {
@@ -258,9 +258,6 @@ if (data.espn_bracketology) {
 
 		// Projections table
 		document.getElementById('tourney-odds-seed-proj').innerHTML = toSeed;
-		const statusProjEl = document.getElementById('tourney-odds-status-proj');
-		statusProjEl.innerHTML = toStatus;
-		statusProjEl.className = pillClasses;
 	}
 	
 	if ( data.bballnet_quadrants ) {
