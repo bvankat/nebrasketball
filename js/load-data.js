@@ -234,6 +234,34 @@ if (data.espn_bracketology) {
 		document.getElementById('jthom-seed').innerHTML = data.jthom_analytics.seed;
 		document.getElementById('jthom-record').innerHTML = data.jthom_analytics.proj_record;
 	}
+
+	if ( data.tourney_odds ) {
+		const toSeed = data.tourney_odds.seed;
+		const toStatus = data.tourney_odds.status;
+
+		let pillClasses = 'text-xs font-medium px-2 py-0.5 rounded-full ';
+		if (toStatus === 'Tournament Lock') {
+			pillClasses += 'bg-green-100 text-green-700';
+		} else if (toStatus.includes('Bubble') || toStatus.includes('Last Four')) {
+			pillClasses += 'bg-yellow-100 text-yellow-700';
+		} else if (toStatus.includes('Out')) {
+			pillClasses += 'bg-red-100 text-red-700';
+		} else {
+			pillClasses += 'bg-blue-100 text-blue-700';
+		}
+
+		// At A Glance card
+		document.getElementById('tourney-odds-seed').innerHTML = toSeed + ' seed';
+		const statusEl = document.getElementById('tourney-odds-status');
+		statusEl.innerHTML = toStatus;
+		statusEl.className = pillClasses;
+
+		// Projections table
+		document.getElementById('tourney-odds-seed-proj').innerHTML = toSeed;
+		const statusProjEl = document.getElementById('tourney-odds-status-proj');
+		statusProjEl.innerHTML = toStatus;
+		statusProjEl.className = pillClasses;
+	}
 	
 	if ( data.bballnet_quadrants ) {
 		document.getElementById('NET_quadrants_Q1_record').innerHTML = data.bballnet_quadrants.quad1record;

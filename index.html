@@ -253,6 +253,14 @@
                             </div>
                             
                             <div class="col-span-2 border border-gray-200 p-4 rounded-lg">
+                                <p class="geist-mono uppercase text-xs text-gray-500 font-normal">Projected Seed</p>
+                                <div class="flex items-center gap-3 mt-1">
+                                    <p class="text-2xl font-semibold text-gray-800" id="tourney-odds-seed">–</p>
+                                    <span id="tourney-odds-status" class="text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 text-gray-500">–</span>
+                                </div>
+                            </div>
+
+                            <div class="col-span-2 border border-gray-200 p-4 rounded-lg">
                                 <p class="geist-mono uppercase text-xs text-gray-500 font-normal">Next Game</p>
                                 <div class="grid md:grid-cols-2 gap-2 align-middle items-center justify-between mt-2">
                                     <p class="text-md leading-4 items-center flex flex-row gap-2 font-medium text-gray-600 mt-1" id="nextGame-teams">TBD</p>
@@ -567,6 +575,15 @@
                                     <td class="hidden sm:block px-6 py-4 text-xs font-medium text-gray-700 text-right"><span class="text-gray-400 font-light">NA</span></td>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
                                         <span id="miya-resume-category">NA</span></td>
+                                    </td>
+                                </tr>
+                                <tr class="transition-colors duration-200">
+                                    <td class="ratings-table"><a href="https://www.tourneyodds.info/nebraska-cornhuskers" class="hover:text-red-700">TourneyOdds.info</a></td>
+                                    <td class="hidden sm:block px-6 py-4 text-xs font-medium text-gray-700 text-right">
+                                        <span id="tourney-odds-status-proj" class="text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 text-gray-500">NA</span>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm font-medium text-gray-700 text-right">
+                                        <span id="tourney-odds-seed-proj">NA</span>
                                     </td>
                                 </tr>
                             </tbody>
