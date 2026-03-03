@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "11"
+        "BRCT_rank": "59"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -102,9 +102,18 @@
                 "opponent_rank": null,
                 "result": "L",
                 "score": "52-57"
+            },
+            {
+                "date": "02/28/2026",
+                "location": "Away",
+                "opponent": "Southern California",
+                "opponent_NET": "63",
+                "opponent_rank": null,
+                "result": "W",
+                "score": "82-67"
             }
         ],
-        "quad1record": "7-4",
+        "quad1record": "8-4",
         "quad2_games": [
             {
                 "date": "11/15/2025",
@@ -269,9 +278,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 94,
+        "matrix_count": 105,
         "matrix_seed": 3,
-        "total_brackets": 94
+        "total_brackets": 105
     },
     "espn": {
         "bpi": 15.0,
@@ -487,7 +496,7 @@
                 "team_win_prob": 0.688523804815445
             }
         ],
-        "proj_record": "27.5-5.7",
+        "proj_record": "27.5-5.6",
         "seed": "2"
     },
     "kenpom": {
@@ -527,8 +536,8 @@
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png"
     },
     "polls": {
-        "ap_rank": 12,
-        "coaches_rank": 10
+        "ap_rank": 9,
+        "coaches_rank": 9
     },
     "shot_quality": {
         "sq_ranking": 21
@@ -546,8 +555,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-02T11:45:27.868249",
-        "time": "Mar. 2 at 11:45 AM"
+        "iso_time": "2026-03-03T02:21:27.379534",
+        "time": "Mar. 3 at 2:21 AM"
     },
     "tourney_odds": {
         "seed": "3",
@@ -558,13 +567,13 @@
         "trank": 12,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
-        "trank_seed": "3",
+        "trank_seed": "4",
         "wab_rank": 6,
         "wab_score": "+7.1"
     },
     "warrennolan": {
         "current_conf_record": "14-4",
-        "elo": "17",
+        "elo": "16",
         "nolan_net": "12",
         "quadrant_1": "8-4",
         "quadrant_2": "4-0",
