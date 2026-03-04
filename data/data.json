@@ -308,7 +308,7 @@
         "seed": "3"
     },
     "evanmiya": {
-        "miya_rating": 14,
+        "miya_rating": 13,
         "miya_resume_category": "1-2 Seed",
         "miya_resume_rank": 8
     },
@@ -508,20 +508,6 @@
         "proj_record": "26.9-6.2",
         "seed": "2"
     },
-    "kenpom": {
-        "conference_record": "15-5",
-        "overall_record": "26-5",
-        "rating": 12,
-        "record": "25-5",
-        "remaining_games": [
-            {
-                "date": "Sun Mar 8",
-                "opponent": "Iowa",
-                "prob": "71%"
-            }
-        ],
-        "sos": 53
-    },
     "kpi_sports": {
         "kpi_ranking": 17
     },
@@ -530,14 +516,14 @@
     },
     "ncaa_wab": {
         "ncaa_wab_rank": 9,
-        "ncaa_wab_score": "6.91"
+        "ncaa_wab_score": "6.82"
     },
     "next_game": {
-        "away_team": "Nebraska",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "2026-03-04T04:00Z",
-        "home_team": "UCLA",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png"
+        "away_team": "Iowa",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+        "date_time": "2026-03-08T21:00Z",
+        "home_team": "Nebraska",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
         "ap_rank": 9,
@@ -559,8 +545,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-04T09:57:32.399816",
-        "time": "Mar. 4 at 9:57 AM"
+        "iso_time": "2026-03-04T11:43:55.456022",
+        "time": "Mar. 4 at 11:43 AM"
     },
     "tourney_odds": {
         "seed": "3",
