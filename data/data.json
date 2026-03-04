@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "59"
+        "BRCT_rank": "12"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -559,8 +559,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-04T14:15:03.913481",
-        "time": "Mar. 4 at 2:15 PM"
+        "iso_time": "2026-03-04T14:36:10.330988",
+        "time": "Mar. 4 at 2:36 PM"
     },
     "tourney_odds": {
         "seed": "3",
