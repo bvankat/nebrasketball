@@ -1,7 +1,4 @@
 {
-    "bauertology": {
-        "BRCT_rank": "12"
-    },
     "bballnet_quadrants": {
         "quad1_games": [
             {
@@ -287,28 +284,28 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 132,
+        "matrix_count": 117,
         "matrix_seed": 3,
-        "total_brackets": 132
+        "total_brackets": 117
     },
     "espn": {
         "bpi": 16.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 230.0,
+        "non_con_sos": 229.0,
         "proj_tourney_seed": "NA",
         "proj_win_loss_conf": "14.7-5.3",
         "proj_win_loss_overall": "25.7-5.3",
         "projected_tournament_order": "NA",
-        "seven_day_change": "2nd",
-        "sor": 7.0,
-        "sos": 50.0
+        "seven_day_change": "1st",
+        "sor": 8.0,
+        "sos": 52.0
     },
     "espn_bracketology": {
         "seed": "3"
     },
     "evanmiya": {
-        "miya_rating": 13,
+        "miya_rating": 14,
         "miya_resume_category": "1-2 Seed",
         "miya_resume_rank": 8
     },
@@ -505,7 +502,7 @@
                 "team_win_prob": 0.7002483500315069
             }
         ],
-        "proj_record": "26.9-6.2",
+        "proj_record": "27.0-6.2",
         "seed": "2"
     },
     "kenpom": {
@@ -520,7 +517,7 @@
                 "prob": "71%"
             }
         ],
-        "sos": 53
+        "sos": 55
     },
     "kpi_sports": {
         "kpi_ranking": 17
@@ -544,10 +541,7 @@
         "coaches_rank": 9
     },
     "shot_quality": {
-        "sq_ranking": 22
-    },
-    "sports_reference": {
-        "SRS_rank": 18
+        "sq_ranking": 23
     },
     "teamrankings": {
         "make_tournament": "100.0%",
@@ -559,8 +553,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-04T14:36:10.330988",
-        "time": "Mar. 4 at 2:36 PM"
+        "iso_time": "2026-03-05T09:04:28.742555",
+        "time": "Mar. 5 at 9:04 AM"
     },
     "tourney_odds": {
         "seed": "3",
@@ -579,8 +573,8 @@
         "current_conf_record": "14-5",
         "elo": "20",
         "nolan_net": "12",
-        "quadrant_1": "8-5",
-        "quadrant_2": "4-0",
+        "quadrant_1": "7-5",
+        "quadrant_2": "5-0",
         "quadrant_3": "7-0",
         "quadrant_4": "6-0",
         "record": "25-5",
