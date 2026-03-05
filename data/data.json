@@ -1,4 +1,7 @@
 {
+    "bauertology": {
+        "BRCT_rank": "59"
+    },
     "bballnet_quadrants": {
         "quad1_games": [
             {
@@ -306,8 +309,8 @@
     },
     "evanmiya": {
         "miya_rating": 14,
-        "miya_resume_category": "1-2 Seed",
-        "miya_resume_rank": 8
+        "miya_resume_category": "NA",
+        "miya_resume_rank": "NA"
     },
     "haslametrics": {
         "haslam_rating": "13",
@@ -526,8 +529,8 @@
         "net_rank": "12"
     },
     "ncaa_wab": {
-        "ncaa_wab_rank": 9,
-        "ncaa_wab_score": "6.82"
+        "ncaa_wab_rank": 10,
+        "ncaa_wab_score": "7.00"
     },
     "next_game": {
         "away_team": "Iowa",
@@ -543,6 +546,9 @@
     "shot_quality": {
         "sq_ranking": 23
     },
+    "sports_reference": {
+        "SRS_rank": 18
+    },
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "4",
@@ -553,8 +559,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-05T09:04:28.742555",
-        "time": "Mar. 5 at 9:04 AM"
+        "iso_time": "2026-03-05T12:41:48.627644",
+        "time": "Mar. 5 at 12:41 PM"
     },
     "tourney_odds": {
         "seed": "3",
