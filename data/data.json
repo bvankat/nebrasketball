@@ -1,7 +1,4 @@
 {
-    "bauertology": {
-        "BRCT_rank": "59"
-    },
     "bballnet_quadrants": {
         "quad1_games": [
             {
@@ -287,22 +284,22 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 117,
+        "matrix_count": 89,
         "matrix_seed": 3,
-        "total_brackets": 117
+        "total_brackets": 89
     },
     "espn": {
         "bpi": 16.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 229.0,
+        "non_con_sos": 228.0,
         "proj_tourney_seed": "NA",
         "proj_win_loss_conf": "14.7-5.3",
         "proj_win_loss_overall": "25.7-5.3",
         "projected_tournament_order": "NA",
         "seven_day_change": "1st",
         "sor": 8.0,
-        "sos": 52.0
+        "sos": 53.0
     },
     "espn_bracketology": {
         "seed": "3"
@@ -505,7 +502,7 @@
                 "team_win_prob": 0.7002483500315069
             }
         ],
-        "proj_record": "27.0-6.2",
+        "proj_record": "26.9-6.2",
         "seed": "2"
     },
     "kenpom": {
@@ -520,7 +517,7 @@
                 "prob": "71%"
             }
         ],
-        "sos": 55
+        "sos": 54
     },
     "kpi_sports": {
         "kpi_ranking": 17
@@ -530,7 +527,7 @@
     },
     "ncaa_wab": {
         "ncaa_wab_rank": 10,
-        "ncaa_wab_score": "7.00"
+        "ncaa_wab_score": "7.01"
     },
     "next_game": {
         "away_team": "Iowa",
@@ -546,9 +543,6 @@
     "shot_quality": {
         "sq_ranking": 23
     },
-    "sports_reference": {
-        "SRS_rank": 18
-    },
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "4",
@@ -559,8 +553,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-05T15:11:53.817371",
-        "time": "Mar. 5 at 3:11 PM"
+        "iso_time": "2026-03-06T09:02:35.172228",
+        "time": "Mar. 6 at 9:02 AM"
     },
     "tourney_odds": {
         "seed": "3",
@@ -580,8 +574,8 @@
         "elo": "20",
         "nolan_net": "12",
         "quadrant_1": "7-5",
-        "quadrant_2": "5-0",
-        "quadrant_3": "7-0",
+        "quadrant_2": "6-0",
+        "quadrant_3": "6-0",
         "quadrant_4": "6-0",
         "record": "25-5",
         "rpi": "20"
