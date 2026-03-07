@@ -287,20 +287,20 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 87,
+        "matrix_count": 100,
         "matrix_seed": 3,
-        "total_brackets": 87
+        "total_brackets": 100
     },
     "espn": {
-        "bpi": 16.0,
+        "bpi": 17.0,
         "chance_round_32": "NA",
         "chance_sweet_16": "NA",
-        "non_con_sos": 228.0,
+        "non_con_sos": 225.0,
         "proj_tourney_seed": "NA",
         "proj_win_loss_conf": "14.7-5.3",
         "proj_win_loss_overall": "25.7-5.3",
         "projected_tournament_order": "NA",
-        "seven_day_change": "1st",
+        "seven_day_change": "",
         "sor": 8.0,
         "sos": 53.0
     },
@@ -505,8 +505,8 @@
                 "team_win_prob": 0.7002483500315069
             }
         ],
-        "proj_record": "26.9-6.2",
-        "seed": "2"
+        "proj_record": "26.5-6.3",
+        "seed": "3"
     },
     "kenpom": {
         "conference_record": "15-5",
@@ -523,14 +523,14 @@
         "sos": 54
     },
     "kpi_sports": {
-        "kpi_ranking": 17
+        "kpi_ranking": 18
     },
     "ncaa": {
         "net_rank": "12"
     },
     "ncaa_wab": {
         "ncaa_wab_rank": 10,
-        "ncaa_wab_score": "7.01"
+        "ncaa_wab_score": "6.90"
     },
     "next_game": {
         "away_team": "Iowa",
@@ -546,6 +546,9 @@
     "shot_quality": {
         "sq_ranking": 23
     },
+    "sports_reference": {
+        "SRS_rank": 18
+    },
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "4",
@@ -556,8 +559,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-06T14:35:34.627749",
-        "time": "Mar. 6 at 2:35 PM"
+        "iso_time": "2026-03-07T11:25:44.326476",
+        "time": "Mar. 7 at 11:25 AM"
     },
     "tourney_odds": {
         "seed": "3",
@@ -570,7 +573,7 @@
         "trank_proj_record": "26-5 (15-5)",
         "trank_seed": "4",
         "wab_rank": 8,
-        "wab_score": "+7.0"
+        "wab_score": "+7.1"
     },
     "warrennolan": {
         "current_conf_record": "14-5",
@@ -581,6 +584,6 @@
         "quadrant_3": "6-0",
         "quadrant_4": "6-0",
         "record": "25-5",
-        "rpi": "20"
+        "rpi": "21"
     }
 }
