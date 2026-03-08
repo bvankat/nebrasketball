@@ -15,6 +15,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - Gotta have two Quad 1 wins - Only four teams have gotten at-large bids with 1 Q1 victory ([#](https://twitter.com/madeformarch/status/1761845837355688317?s=51))
 - A bunch of NET bests/worsts that haven't been analyzed [here](https://x.com/JBRBracketology/status/1765459221171056988?s=20)
 - In 2025, the 24 overall seeds in the NCAA s-curve were in the WAB Top 25. All 40 in the WAB Top 40 were the top 40 overall seeds. [Kerry Miller on X](https://x.com/kerrancejames/status/2019080719948009529)
+- Dave Ommen's analysis says the 2025 committee used NET, WAB and SOR to make the seed list [BV Rankings](https://bracketville.wordpress.com/bvrankings/)
 
 
 
@@ -97,7 +98,9 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - Example: Team A wins a game at the best team in the country. The expected wins (i.e., win probability) in that matchup for an average bubble team on the road might be 20%. So take that actual 1.0 wins, subtract 0.20 expected wins, and get +0.80 Wins Above Bubble. Add up the number for all games to calculate WAB.
 - Added to team sheets for 2024-25 season
 - KPI, similarly, assigns a value to each game, not sure if the formula is public, though. Miyakawa added a similar metric for 25: Resume Quality.
+- NCAA published WAB for first time in 2026 
 - [LINK](https://barttorvik.com/)
+- [NCAA WAB](https://www.ncaa.com/rankings/basketball-men/d1/wab-ranking)
 
 
 ## Quadrants
