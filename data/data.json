@@ -520,7 +520,7 @@
                 "prob": "71%"
             }
         ],
-        "sos": 56
+        "sos": 60
     },
     "kpi_sports": {
         "kpi_ranking": 18
@@ -544,7 +544,7 @@
         "coaches_rank": 9
     },
     "shot_quality": {
-        "sq_ranking": 23
+        "sq_ranking": 24
     },
     "sports_reference": {
         "SRS_rank": 18
@@ -559,8 +559,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-07T19:35:50.494214",
-        "time": "Mar. 7 at 7:35 PM"
+        "iso_time": "2026-03-08T01:02:56.099703",
+        "time": "Mar. 8 at 1:02 AM"
     },
     "tourney_odds": {
         "seed": "3",
@@ -568,7 +568,7 @@
     },
     "trank": {
         "torvik_NET": "12",
-        "trank": 17,
+        "trank": 18,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "26-5 (15-5)",
         "trank_seed": "4",
