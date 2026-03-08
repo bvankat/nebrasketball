@@ -12,7 +12,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
 - NET rank in the 60s/70s = Not good enough. Only two at large bids above 60 in 2021 or 2022. MSU had NET 70 in 2021. Miami was a 10-seed in 2022, NET 62. ([#](https://twitter.com/JohnGasaway/status/1620824438974418952))
 - "The committee’s approach can be assessed — at least to some extent — using a model that projects NCAA Tournament seeds by averaging each team’s resume and quality metrics and weighting them evenly." ([#](https://heatcheckcbb.com/bracketology-analyzing-impact-of-metrics-in-ncaa-tournament-selection-seeding/))
 - No Power Six conference 24-win team has missed tournament. Only three 23-win teams have missed out: Florida (2009), Mississippi State, Virginia Tech (2010), Arizona (2012)
-- Gotta have two Quad 1 wins - Only four teams have gotten at-large bids with 1 Q1 victory ([#](https://twitter.com/madeformarch/status/1761845837355688317?s=51))
+- Gotta have two Quad 1 wins - Only four-ish? teams have gotten at-large bids with 1 Q1 victory. Tweet came before 2025 North Carolina got in at 1-12 in Quad 1. ([#](https://twitter.com/madeformarch/status/1761845837355688317?s=51))
 - A bunch of NET bests/worsts that haven't been analyzed [here](https://x.com/JBRBracketology/status/1765459221171056988?s=20)
 - In 2025, the 24 overall seeds in the NCAA s-curve were in the WAB Top 25. All 40 in the WAB Top 40 were the top 40 overall seeds. [Kerry Miller on X](https://x.com/kerrancejames/status/2019080719948009529)
 - Dave Ommen's analysis says the 2025 committee used NET, WAB and SOR to make the seed list [BV Rankings](https://bracketville.wordpress.com/bvrankings/)
@@ -39,6 +39,7 @@ A collection of links and notes to demystify the NCAA basketball tournament sele
     - __2021__ - Georgetown (7-9). Maryland and Michigan State (9-11)
     - __2019__ - Ohio State (8-12) had 4 Quad 1 wins and #55 NET; Oklahoma (7-11), St. Johns (8-10). 
     - __2018__ - Oklahoma (7-11), Alabama (8-10)
+- 2025 North Carolina: 1-12 in Quad 1. Notable year because no bid stealers. 
 
 ### Best Teams Left Out
 
