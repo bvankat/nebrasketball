@@ -517,6 +517,14 @@
         "proj_record": "27.0-5.9",
         "seed": "2"
     },
+    "kenpom": {
+        "conference_record": "15-5",
+        "overall_record": "26-5",
+        "rating": 12,
+        "record": "26-5",
+        "remaining_games": [],
+        "sos": 52
+    },
     "kpi_sports": {
         "kpi_ranking": 18
     },
@@ -544,7 +552,7 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-09T12:39:15.969000",
+        "iso_time": "2026-03-09T12:39:47.141042",
         "time": "Mar. 9 at 12:39 PM"
     },
     "tourney_odds": {
