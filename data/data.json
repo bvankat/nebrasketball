@@ -287,9 +287,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 53,
+        "matrix_count": 70,
         "matrix_seed": 3,
-        "total_brackets": 53
+        "total_brackets": 70
     },
     "espn": {
         "bpi": 17.0,
@@ -508,20 +508,6 @@
         "proj_record": "26.0-6.3",
         "seed": "3"
     },
-    "kenpom": {
-        "conference_record": "15-5",
-        "overall_record": "26-5",
-        "rating": 12,
-        "record": "25-5",
-        "remaining_games": [
-            {
-                "date": "Sun Mar 8",
-                "opponent": "Iowa",
-                "prob": "71%"
-            }
-        ],
-        "sos": 60
-    },
     "kpi_sports": {
         "kpi_ranking": 18
     },
@@ -556,31 +542,22 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-08T14:21:27.336098",
-        "time": "Mar. 8 at 2:21 PM"
+        "iso_time": "2026-03-08T20:11:45.509895",
+        "time": "Mar. 8 at 8:11 PM"
     },
     "tourney_odds": {
         "seed": "4",
         "status": "Tournament Lock"
     },
-    "trank": {
-        "torvik_NET": "12",
-        "trank": 18,
-        "trank_make_tourney": 100.0,
-        "trank_proj_record": "26-5 (15-5)",
-        "trank_seed": "3",
-        "wab_rank": 8,
-        "wab_score": "+7.1"
-    },
     "warrennolan": {
-        "current_conf_record": "14-5",
-        "elo": "21",
+        "current_conf_record": "15-5",
+        "elo": "19",
         "nolan_net": "12",
-        "quadrant_1": "8-5",
+        "quadrant_1": "9-5",
         "quadrant_2": "5-0",
         "quadrant_3": "6-0",
         "quadrant_4": "6-0",
-        "record": "25-5",
-        "rpi": "21"
+        "record": "26-5",
+        "rpi": "19"
     }
 }
