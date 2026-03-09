@@ -1,7 +1,4 @@
 {
-    "bauertology": {
-        "BRCT_rank": "12"
-    },
     "bballnet_quadrants": {
         "quad1_games": [
             {
@@ -524,22 +521,12 @@
         "net_rank": "12"
     },
     "ncaa_wab": {
-        "ncaa_wab_rank": 9,
-        "ncaa_wab_score": "6.97"
-    },
-    "next_game": {
-        "away_team": "Iowa",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-        "date_time": "2026-03-08T21:00Z",
-        "home_team": "Nebraska",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
+        "ncaa_wab_rank": 8,
+        "ncaa_wab_score": "7.53"
     },
     "polls": {
         "ap_rank": 9,
         "coaches_rank": 9
-    },
-    "sports_reference": {
-        "SRS_rank": 18
     },
     "teamrankings": {
         "make_tournament": "100.0%",
@@ -551,8 +538,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-09T10:01:30.339591",
-        "time": "Mar. 9 at 10:01 AM"
+        "iso_time": "2026-03-09T10:47:22.205407",
+        "time": "Mar. 9 at 10:47 AM"
     },
     "tourney_odds": {
         "seed": "4",
