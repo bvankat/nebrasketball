@@ -536,8 +536,8 @@
         "ncaa_wab_score": "7.53"
     },
     "polls": {
-        "ap_rank": 9,
-        "coaches_rank": 9
+        "ap_rank": 11,
+        "coaches_rank": 10
     },
     "sports_reference": {
         "SRS_rank": 18
@@ -552,8 +552,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-09T12:39:47.141042",
-        "time": "Mar. 9 at 12:39 PM"
+        "iso_time": "2026-03-09T20:23:34.595054",
+        "time": "Mar. 9 at 8:23 PM"
     },
     "tourney_odds": {
         "seed": "4",
