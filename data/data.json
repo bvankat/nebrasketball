@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "59"
+        "BRCT_rank": "10"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -26,7 +26,7 @@
                 "date": "12/13/2025",
                 "location": "Away",
                 "opponent": "Illinois",
-                "opponent_NET": "6",
+                "opponent_NET": "5",
                 "opponent_rank": "13",
                 "result": "W",
                 "score": "83-80"
@@ -89,7 +89,7 @@
                 "date": "02/01/2026",
                 "location": "Home",
                 "opponent": "Illinois",
-                "opponent_NET": "6",
+                "opponent_NET": "5",
                 "opponent_rank": "9",
                 "result": "L",
                 "score": "69-78"
@@ -173,7 +173,7 @@
                 "date": "02/28/2026",
                 "location": "Away",
                 "opponent": "Southern California",
-                "opponent_NET": "78",
+                "opponent_NET": "77",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "82-67"
@@ -185,7 +185,7 @@
                 "date": "11/25/2025",
                 "location": "Home",
                 "opponent": "Winthrop",
-                "opponent_NET": "130",
+                "opponent_NET": "132",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "80-73"
@@ -212,7 +212,7 @@
                 "date": "02/07/2026",
                 "location": "Away",
                 "opponent": "Rutgers",
-                "opponent_NET": "143",
+                "opponent_NET": "141",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "80-68"
@@ -221,7 +221,7 @@
                 "date": "02/21/2026",
                 "location": "Home",
                 "opponent": "Penn St.",
-                "opponent_NET": "131",
+                "opponent_NET": "133",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "87-64"
@@ -251,7 +251,7 @@
                 "date": "11/08/2025",
                 "location": "Home",
                 "opponent": "FIU",
-                "opponent_NET": "191",
+                "opponent_NET": "194",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "96-66"
@@ -260,7 +260,7 @@
                 "date": "11/11/2025",
                 "location": "Home",
                 "opponent": "UMES",
-                "opponent_NET": "350",
+                "opponent_NET": "351",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "69-50"
@@ -296,9 +296,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 109,
+        "matrix_count": 129,
         "matrix_seed": 3,
-        "total_brackets": 109
+        "total_brackets": 129
     },
     "espn": {
         "bpi": 17.0,
@@ -552,8 +552,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-10T12:33:52.483534",
-        "time": "Mar. 10 at 12:33 PM"
+        "iso_time": "2026-03-10T23:07:12.701920",
+        "time": "Mar. 10 at 11:07 PM"
     },
     "tourney_odds": {
         "seed": "3",
