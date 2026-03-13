@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T23:20:32.344234",
+  "lastUpdated": "2026-03-12T23:53:22.147922",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -918,12 +918,12 @@
             },
             {
               "winner": false,
-              "team_id": "-2",
-              "team_nickname": "TBD",
-              "slug": null,
-              "logo": null,
+              "team_id": "2509",
+              "team_nickname": "Purdue",
+              "slug": "purdue-boilermakers",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
               "score": null,
-              "gameRank": 99
+              "gameRank": 18
             }
           ]
         }
