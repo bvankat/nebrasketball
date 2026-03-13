@@ -1,6 +1,6 @@
 {
     "bauertology": {
-        "BRCT_rank": "10"
+        "BRCT_rank": "59"
     },
     "bballnet_quadrants": {
         "quad1_games": [
@@ -558,9 +558,6 @@
         "ap_rank": 11,
         "coaches_rank": 10
     },
-    "sports_reference": {
-        "SRS_rank": 18
-    },
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "4",
@@ -571,11 +568,11 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-03-13T09:36:57.585856",
-        "time": "Mar. 13 at 9:36 AM"
+        "iso_time": "2026-03-13T11:36:07.830322",
+        "time": "Mar. 13 at 11:36 AM"
     },
     "tourney_odds": {
-        "seed": "3",
+        "seed": "4",
         "status": "Tournament Lock"
     },
     "trank": {
