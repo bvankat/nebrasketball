@@ -305,9 +305,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 111,
+        "matrix_count": 134,
         "matrix_seed": 3,
-        "total_brackets": 111
+        "total_brackets": 134
     },
     "espn": {
         "bpi": 17.0,
@@ -326,9 +326,9 @@
         "seed": "3"
     },
     "evanmiya": {
-        "miya_rating": 18,
-        "miya_resume_category": "NA",
-        "miya_resume_rank": "NA"
+        "miya_rating": 19,
+        "miya_resume_category": "3-5 Seed",
+        "miya_resume_rank": 10
     },
     "haslametrics": {
         "haslam_rating": "16",
@@ -532,14 +532,6 @@
         "proj_record": "26.0-6.0",
         "seed": "3"
     },
-    "kenpom": {
-        "conference_record": "15-5",
-        "overall_record": "26-5",
-        "rating": 14,
-        "record": "26-6",
-        "remaining_games": [],
-        "sos": 40
-    },
     "kpi_sports": {
         "kpi_ranking": 20
     },
@@ -574,8 +566,8 @@
         "rank": "19"
     },
     "time": {
-        "iso_time": "2026-03-14T13:48:32.385831",
-        "time": "Mar. 14 at 1:48 PM"
+        "iso_time": "2026-03-14T21:14:13.128442",
+        "time": "Mar. 14 at 9:14 PM"
     },
     "tourney_odds": {
         "seed": "4",
@@ -583,13 +575,13 @@
     },
     "warrennolan": {
         "current_conf_record": "15-5",
-        "elo": "22",
+        "elo": "24",
         "nolan_net": "13",
         "quadrant_1": "9-6",
         "quadrant_2": "6-0",
         "quadrant_3": "5-0",
         "quadrant_4": "6-0",
         "record": "26-6",
-        "rpi": "23"
+        "rpi": "22"
     }
 }
