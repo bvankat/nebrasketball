@@ -305,9 +305,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 125,
+        "matrix_count": 129,
         "matrix_seed": 3,
-        "total_brackets": 125
+        "total_brackets": 129
     },
     "espn": {
         "bpi": 17.0,
@@ -323,7 +323,7 @@
         "sos": 51.0
     },
     "espn_bracketology": {
-        "seed": "3"
+        "seed": "4"
     },
     "evanmiya": {
         "miya_rating": 19,
@@ -553,6 +553,9 @@
         "ap_rank": 11,
         "coaches_rank": 10
     },
+    "sports_reference": {
+        "SRS_rank": 20
+    },
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "4",
@@ -563,8 +566,8 @@
         "rank": "19"
     },
     "time": {
-        "iso_time": "2026-03-15T12:42:54.339255",
-        "time": "Mar. 15 at 12:42 PM"
+        "iso_time": "2026-03-15T15:37:40.334574",
+        "time": "Mar. 15 at 3:37 PM"
     },
     "tourney_odds": {
         "seed": "4",
