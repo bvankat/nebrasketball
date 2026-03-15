@@ -305,9 +305,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 134,
+        "matrix_count": 135,
         "matrix_seed": 3,
-        "total_brackets": 134
+        "total_brackets": 135
     },
     "espn": {
         "bpi": 17.0,
@@ -553,9 +553,6 @@
         "ap_rank": 11,
         "coaches_rank": 10
     },
-    "sports_reference": {
-        "SRS_rank": 19
-    },
     "teamrankings": {
         "make_tournament": "100.0%",
         "most_likely_seed": "4",
@@ -566,8 +563,8 @@
         "rank": "19"
     },
     "time": {
-        "iso_time": "2026-03-14T21:14:13.128442",
-        "time": "Mar. 14 at 9:14 PM"
+        "iso_time": "2026-03-15T01:26:09.162625",
+        "time": "Mar. 15 at 1:26 AM"
     },
     "tourney_odds": {
         "seed": "4",
