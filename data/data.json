@@ -71,7 +71,7 @@
                 "date": "01/17/2026",
                 "location": "Away",
                 "opponent": "Northwestern",
-                "opponent_NET": "66",
+                "opponent_NET": "65",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "77-58"
@@ -116,7 +116,7 @@
                 "date": "03/03/2026",
                 "location": "Away",
                 "opponent": "UCLA",
-                "opponent_NET": "31",
+                "opponent_NET": "30",
                 "opponent_rank": null,
                 "result": "L",
                 "score": "52-72"
@@ -164,7 +164,7 @@
                 "date": "01/24/2026",
                 "location": "Away",
                 "opponent": "Minnesota",
-                "opponent_NET": "80",
+                "opponent_NET": "81",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "76-57"
@@ -173,7 +173,7 @@
                 "date": "02/07/2026",
                 "location": "Away",
                 "opponent": "Rutgers",
-                "opponent_NET": "135",
+                "opponent_NET": "134",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "80-68"
@@ -182,7 +182,7 @@
                 "date": "02/14/2026",
                 "location": "Home",
                 "opponent": "Northwestern",
-                "opponent_NET": "66",
+                "opponent_NET": "65",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "68-49"
@@ -230,7 +230,7 @@
                 "date": "02/21/2026",
                 "location": "Home",
                 "opponent": "Penn St.",
-                "opponent_NET": "141",
+                "opponent_NET": "142",
                 "opponent_rank": null,
                 "result": "W",
                 "score": "87-64"
@@ -305,9 +305,9 @@
         "quad4record": "6-0"
     },
     "bracketproject": {
-        "matrix_count": 250,
+        "matrix_count": 290,
         "matrix_seed": 4,
-        "total_brackets": 250
+        "total_brackets": 290
     },
     "espn": {
         "bpi": 18.0,
@@ -326,9 +326,9 @@
         "seed": "4"
     },
     "evanmiya": {
-        "miya_rating": 19,
+        "miya_rating": 18,
         "miya_resume_category": "3-5 Seed",
-        "miya_resume_rank": 11
+        "miya_resume_rank": 12
     },
     "haslametrics": {
         "haslam_rating": "18",
@@ -532,6 +532,20 @@
         "proj_record": "26.0-6.0",
         "seed": "3"
     },
+    "kenpom": {
+        "conference_record": "15-5",
+        "overall_record": "26-5",
+        "rating": 14,
+        "record": "26-6",
+        "remaining_games": [
+            {
+                "date": "Thu Mar 19",
+                "opponent": "Troy",
+                "prob": "92%"
+            }
+        ],
+        "sos": 42
+    },
     "kpi_sports": {
         "kpi_ranking": 20
     },
@@ -553,9 +567,12 @@
         "ap_rank": 14,
         "coaches_rank": "NA"
     },
+    "sports_reference": {
+        "SRS_rank": 20
+    },
     "time": {
-        "iso_time": "2026-03-16T03:19:47.874269",
-        "time": "Mar. 16 at 3:19 AM"
+        "iso_time": "2026-03-16T12:06:34.016289",
+        "time": "Mar. 16 at 12:06 PM"
     },
     "tourney_odds": {
         "seed": "4",
