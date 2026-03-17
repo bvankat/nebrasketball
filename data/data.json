@@ -564,8 +564,8 @@
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
-        "ap_rank": 14,
-        "coaches_rank": "NA"
+        "ap_rank": 15,
+        "coaches_rank": 14
     },
     "sports_reference": {
         "SRS_rank": 20
@@ -580,8 +580,8 @@
         "rank": "19"
     },
     "time": {
-        "iso_time": "2026-03-17T02:31:38.777242",
-        "time": "Mar. 17 at 2:31 AM"
+        "iso_time": "2026-03-17T02:32:36.755976",
+        "time": "Mar. 17 at 2:32 AM"
     },
     "tourney_odds": {
         "seed": "4",
