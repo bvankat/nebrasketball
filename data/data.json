@@ -570,9 +570,18 @@
     "sports_reference": {
         "SRS_rank": 20
     },
+    "teamrankings": {
+        "make_tournament": "100.0%",
+        "most_likely_seed": "4",
+        "proj_conf_record": "15.0-5.0",
+        "projected_bid_pct": "100%",
+        "projected_losses": "6",
+        "projected_wins": "26",
+        "rank": "19"
+    },
     "time": {
-        "iso_time": "2026-03-17T02:26:19.637013",
-        "time": "Mar. 17 at 2:26 AM"
+        "iso_time": "2026-03-17T02:31:38.777242",
+        "time": "Mar. 17 at 2:31 AM"
     },
     "tourney_odds": {
         "seed": "4",
