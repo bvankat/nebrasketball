@@ -571,12 +571,21 @@
         "SRS_rank": 20
     },
     "time": {
-        "iso_time": "2026-03-16T12:06:34.016289",
-        "time": "Mar. 16 at 12:06 PM"
+        "iso_time": "2026-03-17T02:26:19.637013",
+        "time": "Mar. 17 at 2:26 AM"
     },
     "tourney_odds": {
         "seed": "4",
         "status": "Tournament Lock"
+    },
+    "trank": {
+        "torvik_NET": "14",
+        "trank": 20,
+        "trank_make_tourney": 100.0,
+        "trank_proj_record": "27-6 (15-5)",
+        "trank_seed": "4",
+        "wab_rank": 10,
+        "wab_score": "+7.5"
     },
     "warrennolan": {
         "current_conf_record": "15-5",
