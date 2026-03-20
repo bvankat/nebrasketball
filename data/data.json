@@ -1,7 +1,4 @@
 {
-    "bauertology": {
-        "BRCT_rank": "14"
-    },
     "bballnet_quadrants": {
         "quad1_games": [
             {
@@ -304,23 +301,18 @@
         ],
         "quad4record": "6-0"
     },
-    "bracketproject": {
-        "matrix_count": 290,
-        "matrix_seed": 4,
-        "total_brackets": 290
-    },
     "espn": {
-        "bpi": 18.0,
+        "bpi": 17.0,
         "chance_round_32": "92.7%",
-        "chance_sweet_16": "58.9%",
-        "non_con_sos": 169.0,
+        "chance_sweet_16": "59.0%",
+        "non_con_sos": 172.0,
         "proj_tourney_seed": 3.0,
         "proj_win_loss_conf": "15.0-5.0",
         "proj_win_loss_overall": "26.9-6.1",
         "projected_tournament_order": "10",
-        "seven_day_change": "Tied-1st",
+        "seven_day_change": "",
         "sor": 10.0,
-        "sos": 51.0
+        "sos": 49.0
     },
     "espn_bracketology": {
         "seed": "4"
@@ -328,10 +320,10 @@
     "evanmiya": {
         "miya_rating": 18,
         "miya_resume_category": "3-5 Seed",
-        "miya_resume_rank": 12
+        "miya_resume_rank": 11
     },
     "haslametrics": {
-        "haslam_rating": "18",
+        "haslam_rating": "13",
         "seed": "3"
     },
     "jthom_analytics": {
@@ -535,16 +527,16 @@
     "kenpom": {
         "conference_record": "15-5",
         "overall_record": "26-5",
-        "rating": 14,
-        "record": "26-6",
+        "rating": 13,
+        "record": "27-6",
         "remaining_games": [
             {
-                "date": "Thu Mar 19",
-                "opponent": "Troy",
-                "prob": "92%"
+                "date": "Sat Mar 21",
+                "opponent": "Vanderbilt",
+                "prob": "48%"
             }
         ],
-        "sos": 42
+        "sos": 51
     },
     "kpi_sports": {
         "kpi_ranking": 20
@@ -580,8 +572,8 @@
         "rank": "19"
     },
     "time": {
-        "iso_time": "2026-03-17T02:32:36.755976",
-        "time": "Mar. 17 at 2:32 AM"
+        "iso_time": "2026-03-20T01:00:39.114680",
+        "time": "Mar. 20 at 1:00 AM"
     },
     "tourney_odds": {
         "seed": "4",
@@ -594,17 +586,17 @@
         "trank_proj_record": "27-6 (15-5)",
         "trank_seed": "4",
         "wab_rank": 10,
-        "wab_score": "+7.5"
+        "wab_score": "+7.4"
     },
     "warrennolan": {
         "current_conf_record": "15-5",
-        "elo": "24",
+        "elo": "23",
         "nolan_net": "14",
         "quadrant_1": "9-6",
         "quadrant_2": "6-0",
-        "quadrant_3": "5-0",
+        "quadrant_3": "6-0",
         "quadrant_4": "6-0",
-        "record": "26-6",
+        "record": "27-6",
         "rpi": "22"
     }
 }
