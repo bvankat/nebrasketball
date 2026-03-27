@@ -138,9 +138,27 @@
                 "opponent_rank": "18",
                 "result": "L",
                 "score": "58-74"
+            },
+            {
+                "date": "03/21/2026",
+                "location": "Neutral",
+                "opponent": "Vanderbilt",
+                "opponent_NET": "13",
+                "opponent_rank": "16",
+                "result": "W",
+                "score": "74-72"
+            },
+            {
+                "date": "03/26/2026",
+                "location": "Neutral",
+                "opponent": "Iowa",
+                "opponent_NET": "27",
+                "opponent_rank": null,
+                "result": "L",
+                "score": "71-77"
             }
         ],
-        "quad1record": "9-6",
+        "quad1record": "10-7",
         "quad2_games": [
             {
                 "date": "11/21/2025",
@@ -316,15 +334,15 @@
     "espn": {
         "bpi": 17.0,
         "chance_round_32": "100.0%",
-        "chance_sweet_16": "46.8%",
-        "non_con_sos": 159.0,
+        "chance_sweet_16": "100.0%",
+        "non_con_sos": 86.0,
         "proj_tourney_seed": 3.0,
         "proj_win_loss_conf": "15.0-5.0",
-        "proj_win_loss_overall": "27.5-6.5",
+        "proj_win_loss_overall": "28.0-7.0",
         "projected_tournament_order": "10",
         "seven_day_change": "",
         "sor": 10.0,
-        "sos": 54.0
+        "sos": 43.0
     },
     "espn_bracketology": {
         "seed": "4"
@@ -335,7 +353,7 @@
         "miya_resume_rank": "NA"
     },
     "haslametrics": {
-        "haslam_rating": "12",
+        "haslam_rating": "15",
         "seed": "3"
     },
     "jthom_analytics": {
@@ -538,11 +556,11 @@
     },
     "kenpom": {
         "conference_record": "15-5",
-        "overall_record": "26-5",
-        "rating": 12,
-        "record": "28-6",
+        "overall_record": "28-7",
+        "rating": 16,
+        "record": "28-7",
         "remaining_games": [],
-        "sos": 41
+        "sos": 33
     },
     "kpi_sports": {
         "kpi_ranking": 20
@@ -555,18 +573,15 @@
         "ncaa_wab_score": "7.14"
     },
     "next_game": {
-        "away_team": "Vanderbilt",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
-        "date_time": "2026-03-22T01:02Z",
+        "away_team": "Iowa",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+        "date_time": "2026-03-26T23:30Z",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
         "ap_rank": 15,
         "coaches_rank": 14
-    },
-    "sports_reference": {
-        "SRS_rank": 19
     },
     "teamrankings": {
         "make_tournament": "100.0%",
@@ -578,8 +593,8 @@
         "rank": "19"
     },
     "time": {
-        "iso_time": "2026-03-22T01:45:57.220243",
-        "time": "Mar. 22 at 1:45 AM"
+        "iso_time": "2026-03-27T10:44:03.443638",
+        "time": "Mar. 27 at 10:44 AM"
     },
     "tourney_odds": {
         "seed": "4",
@@ -587,22 +602,22 @@
     },
     "trank": {
         "torvik_NET": "14",
-        "trank": 15,
+        "trank": 17,
         "trank_make_tourney": 100.0,
         "trank_proj_record": "27-6 (15-5)",
         "trank_seed": "4",
-        "wab_rank": 9,
-        "wab_score": "+7.7"
+        "wab_rank": 8,
+        "wab_score": "+7.8"
     },
     "warrennolan": {
         "current_conf_record": "15-5",
-        "elo": "17",
+        "elo": "23",
         "nolan_net": "14",
-        "quadrant_1": "10-6",
+        "quadrant_1": "10-7",
         "quadrant_2": "6-0",
         "quadrant_3": "6-0",
         "quadrant_4": "6-0",
-        "record": "28-6",
+        "record": "28-7",
         "rpi": "21"
     }
 }
