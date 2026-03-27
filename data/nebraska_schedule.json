@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-25T16:33:42.554692",
+  "lastUpdated": "2026-03-27T09:09:26.663031",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -1035,16 +1035,22 @@
               "team_nickname": "Nebraska",
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-              "score": null,
+              "score": {
+                "value": 71.0,
+                "displayValue": "71"
+              },
               "gameRank": 4
             },
             {
-              "winner": false,
+              "winner": true,
               "team_id": "2294",
               "team_nickname": "Iowa",
               "slug": "iowa-hawkeyes",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-              "score": null,
+              "score": {
+                "value": 77.0,
+                "displayValue": "77"
+              },
               "gameRank": 9
             }
           ]
