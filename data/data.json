@@ -169,7 +169,16 @@
         "sos": 1
     },
     "time": {
-        "iso_time": "2026-10-20T13:54:23.897957",
-        "time": "Oct. 20 at 1:54 PM"
+        "iso_time": "2026-10-20T14:33:34.387550",
+        "time": "Oct. 20 at 2:33 PM"
+    },
+    "trank": {
+        "torvik_NET": "17",
+        "trank": 16,
+        "trank_make_tourney": 92.1,
+        "trank_proj_record": "23-9 (13-7)",
+        "trank_seed": "4",
+        "wab_rank": 1,
+        "wab_score": 0.0
     }
 }
