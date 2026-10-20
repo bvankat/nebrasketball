@@ -383,11 +383,12 @@ if (data.espn_bracketology) {
 	 
 	 
 	 // Penalty for a Nonconference SOS above 250. New for 2025.
-	 if ( data.espn.non_con_sos >= 250 ) {
-		 intangibles = intangibles-5;
-		 intangibles_msg += "Intangibles: Penalty applied for having non-con SOS above 250."
+	 if (data.espn) {
+	 	if ( data.espn.non_con_sos >= 250 ) {
+		 	intangibles = intangibles-5;
+		 	intangibles_msg += "Intangibles: Penalty applied for having non-con SOS above 250."
+	 	}
 	 }
-	 
 	 
 	 // TOTAL SCORE FORMULA
 	 
@@ -528,7 +529,7 @@ if (data.espn_bracketology) {
 	
 	
 	// Here's where you can manually override the total_score. Use this early in the season before all the rankings are released.   
-	total_score = 100;
+	total_score = 60;
 	
 	// Debuggging
 	console.log("rankings_used: ", rankings_used);
