@@ -1,4 +1,11 @@
 {
+    "espn_bracketology": {
+        "seed": "7"
+    },
+    "haslametrics": {
+        "haslam_rating": "16",
+        "seed": "NA"
+    },
     "kenpom": {
         "conference_record": "13-7",
         "overall_record": "23-9",
@@ -168,9 +175,20 @@
         ],
         "sos": 1
     },
+    "next_game": {
+        "away_team": "Le Moyne",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2330.png",
+        "date_time": "2026-11-03T00:30Z",
+        "home_team": "Nebraska",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
+    },
+    "polls": {
+        "ap_rank": 27,
+        "coaches_rank": 26
+    },
     "time": {
-        "iso_time": "2026-10-20T14:33:34.387550",
-        "time": "Oct. 20 at 2:33 PM"
+        "iso_time": "2026-10-21T01:44:24.241348",
+        "time": "Oct. 21 at 1:44 AM"
     },
     "trank": {
         "torvik_NET": "17",
