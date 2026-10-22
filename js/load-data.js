@@ -529,7 +529,7 @@ if (data.espn_bracketology) {
 	
 	
 	// Here's where you can manually override the total_score. Use this early in the season before all the rankings are released.   
-	total_score = 60;
+	total_score = 70;
 	
 	// Debuggging
 	console.log("rankings_used: ", rankings_used);
@@ -575,7 +575,7 @@ if (data.espn_bracketology) {
 	if (total_score == 100) { 
 	  bounceAmplitude = 0;
 	} else {
-	  bounceAmplitude = 2; // +/- value
+	  bounceAmplitude = 6; // +/- value
 	}
 	let bounceIntervalMs = 160;
 	let bounceIntervalId = null;
