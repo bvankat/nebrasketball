@@ -2,6 +2,11 @@
     "espn_bracketology": {
         "seed": "7"
     },
+    "evanmiya": {
+        "miya_rating": 26,
+        "miya_resume_category": "NA",
+        "miya_resume_rank": "NA"
+    },
     "haslametrics": {
         "haslam_rating": "16",
         "seed": "4"
@@ -353,8 +358,8 @@
         "coaches_rank": 26
     },
     "time": {
-        "iso_time": "2026-10-22T11:19:47.711714",
-        "time": "Oct. 22 at 11:19 AM"
+        "iso_time": "2026-10-22T11:57:04.000131",
+        "time": "Oct. 22 at 11:57 AM"
     },
     "trank": {
         "torvik_NET": "17",
