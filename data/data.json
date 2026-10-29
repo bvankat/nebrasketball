@@ -1,4 +1,16 @@
 {
+    "espn": {
+        "bpi": 19.0,
+        "chance_round_32": "NA",
+        "chance_sweet_16": "NA",
+        "non_con_sos": "NR",
+        "proj_tourney_seed": "NA",
+        "proj_win_loss_conf": "12.5-7.5",
+        "proj_win_loss_overall": "22.9-9.1",
+        "projected_tournament_order": "NA",
+        "sor": "",
+        "sos": ""
+    },
     "espn_bracketology": {
         "seed": "7"
     },
@@ -358,8 +370,8 @@
         "coaches_rank": 26
     },
     "time": {
-        "iso_time": "2026-10-22T11:57:04.000131",
-        "time": "Oct. 22 at 11:57 AM"
+        "iso_time": "2026-10-28T20:36:20.389052",
+        "time": "Oct. 28 at 8:36 PM"
     },
     "trank": {
         "torvik_NET": "17",
