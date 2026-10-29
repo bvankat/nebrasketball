@@ -196,11 +196,7 @@ if (data.espn_bracketology) {
 	if ( data.bauertology ) {
 		document.getElementById('bauertology-BRCT').innerHTML = data.bauertology.BRCT_rank;
 	}
-	
-	if ( data.shot_quality ) {
-		document.getElementById('sq-ranking').innerHTML = data.shot_quality.sq_ranking;
-	}
-	
+		
 	if ( data.sports_reference ) {
 		document.getElementById('sports-reference-srs').innerHTML = data.sports_reference.SRS_rank;
 	}
