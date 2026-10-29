@@ -1,4 +1,14 @@
 {
+    "bballnet_quadrants": {
+        "quad1_games": [],
+        "quad1record": "0-0",
+        "quad2_games": [],
+        "quad2record": "0-0",
+        "quad3_games": [],
+        "quad3record": "0-0",
+        "quad4_games": [],
+        "quad4record": "0-0"
+    },
     "espn": {
         "bpi": 19.0,
         "chance_round_32": "NA",
@@ -370,8 +380,8 @@
         "coaches_rank": 26
     },
     "time": {
-        "iso_time": "2026-10-29T09:30:38.845498",
-        "time": "Oct. 29 at 9:30 AM"
+        "iso_time": "2026-10-29T09:33:17.524141",
+        "time": "Oct. 29 at 9:33 AM"
     },
     "trank": {
         "torvik_NET": "17",
