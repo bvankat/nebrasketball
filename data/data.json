@@ -370,8 +370,8 @@
         "coaches_rank": 26
     },
     "time": {
-        "iso_time": "2026-10-28T20:36:20.389052",
-        "time": "Oct. 28 at 8:36 PM"
+        "iso_time": "2026-10-29T09:30:38.845498",
+        "time": "Oct. 29 at 9:30 AM"
     },
     "trank": {
         "torvik_NET": "17",
@@ -381,5 +381,16 @@
         "trank_seed": "4",
         "wab_rank": 1,
         "wab_score": 0.0
+    },
+    "warrennolan": {
+        "current_conf_record": "0-0",
+        "elo": "27",
+        "nolan_net": "14",
+        "quadrant_1": "0-0",
+        "quadrant_2": "0-0",
+        "quadrant_3": "0-0",
+        "quadrant_4": "0-0",
+        "record": "0-0",
+        "rpi": "1"
     }
 }
