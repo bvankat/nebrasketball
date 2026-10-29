@@ -368,6 +368,9 @@
         ],
         "sos": 1
     },
+    "massey_ratings": {
+        "massey_rank": 21
+    },
     "next_game": {
         "away_team": "Le Moyne",
         "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2330.png",
@@ -380,8 +383,8 @@
         "coaches_rank": 26
     },
     "time": {
-        "iso_time": "2026-10-29T09:33:17.524141",
-        "time": "Oct. 29 at 9:33 AM"
+        "iso_time": "2026-10-29T13:26:15.467684",
+        "time": "Oct. 29 at 1:26 PM"
     },
     "trank": {
         "torvik_NET": "17",
