@@ -382,9 +382,18 @@
         "ap_rank": 27,
         "coaches_rank": 26
     },
+    "teamrankings": {
+        "make_tournament": "78.6%",
+        "most_likely_seed": "5",
+        "proj_conf_record": "12.1-7.9",
+        "projected_bid_pct": "100%",
+        "projected_losses": "6",
+        "projected_wins": "26",
+        "rank": "22"
+    },
     "time": {
-        "iso_time": "2026-10-29T13:26:15.467684",
-        "time": "Oct. 29 at 1:26 PM"
+        "iso_time": "2026-10-30T08:59:01.035875",
+        "time": "Oct. 30 at 8:59 AM"
     },
     "trank": {
         "torvik_NET": "17",
