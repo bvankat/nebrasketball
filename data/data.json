@@ -199,6 +199,175 @@
         "proj_record": "24.3-9.7",
         "seed": "5"
     },
+    "kenpom": {
+        "conference_record": "13-7",
+        "overall_record": "23-9",
+        "rating": 15,
+        "record": "0-0",
+        "remaining_games": [
+            {
+                "date": "Mon Nov 2",
+                "opponent": "Le Moyne",
+                "prob": "99.6%"
+            },
+            {
+                "date": "Sat Nov 7",
+                "opponent": "Providence",
+                "prob": "69%"
+            },
+            {
+                "date": "Wed Nov 11",
+                "opponent": "Lindenwood",
+                "prob": "99.6%"
+            },
+            {
+                "date": "Sun Nov 15",
+                "opponent": "Boise St.",
+                "prob": "74%"
+            },
+            {
+                "date": "Wed Nov 18",
+                "opponent": "South Dakota",
+                "prob": "99%"
+            },
+            {
+                "date": "Sun Nov 22",
+                "opponent": "Butler",
+                "prob": "84%"
+            },
+            {
+                "date": "Wed Nov 25",
+                "opponent": "Southern",
+                "prob": "99%"
+            },
+            {
+                "date": "Wed Dec 2",
+                "opponent": "Ohio St.",
+                "prob": "64%"
+            },
+            {
+                "date": "Sat Dec 5",
+                "opponent": "Creighton",
+                "prob": "54%"
+            },
+            {
+                "date": "Tue Dec 8",
+                "opponent": "Penn St.",
+                "prob": "76%"
+            },
+            {
+                "date": "Sat Dec 12",
+                "opponent": "Missouri",
+                "prob": "56%"
+            },
+            {
+                "date": "Thu Dec 17",
+                "opponent": "Mount St. Mary's",
+                "prob": "99%"
+            },
+            {
+                "date": "Sun Dec 20",
+                "opponent": "Fairleigh Dickinson",
+                "prob": "99.7%"
+            },
+            {
+                "date": "Wed Dec 30",
+                "opponent": "New Haven",
+                "prob": "99.9%"
+            },
+            {
+                "date": "Sat Jan 2",
+                "opponent": "Michigan St.",
+                "prob": "54%"
+            },
+            {
+                "date": "Tue Jan 5",
+                "opponent": "Michigan",
+                "prob": "68%"
+            },
+            {
+                "date": "Sun Jan 10",
+                "opponent": "Oregon",
+                "prob": "68%"
+            },
+            {
+                "date": "Wed Jan 13",
+                "opponent": "Washington",
+                "prob": "70%"
+            },
+            {
+                "date": "Sat Jan 16",
+                "opponent": "Iowa",
+                "prob": "75%"
+            },
+            {
+                "date": "Tue Jan 19",
+                "opponent": "Illinois",
+                "prob": "28%"
+            },
+            {
+                "date": "Fri Jan 22",
+                "opponent": "UCLA",
+                "prob": "67%"
+            },
+            {
+                "date": "Tue Jan 26",
+                "opponent": "Purdue",
+                "prob": "43%"
+            },
+            {
+                "date": "Sat Jan 30",
+                "opponent": "Iowa",
+                "prob": "54%"
+            },
+            {
+                "date": "Sat Feb 6",
+                "opponent": "Indiana",
+                "prob": "76%"
+            },
+            {
+                "date": "Tue Feb 9",
+                "opponent": "Maryland",
+                "prob": "58%"
+            },
+            {
+                "date": "Fri Feb 12",
+                "opponent": "Penn St.",
+                "prob": "90%"
+            },
+            {
+                "date": "Tue Feb 16",
+                "opponent": "Rutgers",
+                "prob": "88%"
+            },
+            {
+                "date": "Sat Feb 20",
+                "opponent": "Michigan St.",
+                "prob": "32%"
+            },
+            {
+                "date": "Tue Feb 23",
+                "opponent": "USC",
+                "prob": "73%"
+            },
+            {
+                "date": "Sat Feb 27",
+                "opponent": "Northwestern",
+                "prob": "78%"
+            },
+            {
+                "date": "Wed Mar 3",
+                "opponent": "Wisconsin",
+                "prob": "49%"
+            },
+            {
+                "date": "Sun Mar 7",
+                "opponent": "Minnesota",
+                "prob": "75%"
+            }
+        ],
+        "sos": 11
+    },
     "massey_ratings": {
         "massey_rank": 21
     },
@@ -223,8 +392,8 @@
         "rank": "22"
     },
     "time": {
-        "iso_time": "2026-11-02T10:56:13.776388",
-        "time": "Nov. 2 at 10:56 AM"
+        "iso_time": "2026-11-02T11:19:45.600210",
+        "time": "Nov. 2 at 11:19 AM"
     },
     "trank": {
         "torvik_NET": "16",
