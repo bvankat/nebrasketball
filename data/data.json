@@ -9,6 +9,11 @@
         "quad4_games": [],
         "quad4record": "0-0"
     },
+    "bracketproject": {
+        "matrix_count": 52,
+        "matrix_seed": 6,
+        "total_brackets": 52
+    },
     "cbs": {
         "cbs_rank": "6"
     },
@@ -393,8 +398,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-11-03T09:26:10.519354",
-        "time": "Nov. 3 at 9:26 AM"
+        "iso_time": "2026-11-03T09:30:06.524831",
+        "time": "Nov. 3 at 9:30 AM"
     },
     "trank": {
         "torvik_NET": "14",
