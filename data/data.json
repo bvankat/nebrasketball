@@ -9,6 +9,9 @@
         "quad4_games": [],
         "quad4record": "0-0"
     },
+    "cbs": {
+        "cbs_rank": "6"
+    },
     "espn": {
         "bpi": 17.0,
         "chance_round_32": "NA",
@@ -387,8 +390,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-11-03T08:41:23.915643",
-        "time": "Nov. 3 at 8:41 AM"
+        "iso_time": "2026-11-03T08:54:50.153214",
+        "time": "Nov. 3 at 8:54 AM"
     },
     "trank": {
         "torvik_NET": "14",
