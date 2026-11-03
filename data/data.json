@@ -398,15 +398,15 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-11-03T09:30:06.524831",
-        "time": "Nov. 3 at 9:30 AM"
+        "iso_time": "2026-11-03T09:46:12.719505",
+        "time": "Nov. 3 at 9:46 AM"
     },
     "trank": {
         "torvik_NET": "14",
         "trank": 16,
-        "trank_make_tourney": "NA",
+        "trank_make_tourney": 93.4,
         "trank_proj_record": "23-9 (13-7)",
-        "trank_seed": "NA",
+        "trank_seed": "4",
         "wab_rank": 97,
         "wab_score": "+0.02"
     },
