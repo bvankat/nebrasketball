@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T15:35:57.375108",
+  "lastUpdated": "2026-11-02T21:55:34.461059",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -10,12 +10,15 @@
           "seasontype": 2,
           "competitors": [
             {
-              "winner": false,
+              "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-              "score": null,
+              "score": {
+                "value": 106.0,
+                "displayValue": "106"
+              },
               "gameRank": 99
             },
             {
@@ -24,7 +27,10 @@
               "team_nickname": "Le Moyne",
               "slug": "le-moyne-dolphins",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2330.png",
-              "score": null,
+              "score": {
+                "value": 64.0,
+                "displayValue": "64"
+              },
               "gameRank": 99
             }
           ]
@@ -251,19 +257,19 @@
           "competitors": [
             {
               "winner": false,
-              "team_id": "142",
-              "team_nickname": "Missouri",
-              "slug": "missouri-tigers",
-              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
               "score": null,
               "gameRank": 99
             },
             {
               "winner": false,
-              "team_id": "158",
-              "team_nickname": "Nebraska",
-              "slug": "nebraska-cornhuskers",
-              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "team_id": "142",
+              "team_nickname": "Missouri",
+              "slug": "missouri-tigers",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
               "score": null,
               "gameRank": 99
             }
