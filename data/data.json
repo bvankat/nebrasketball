@@ -201,29 +201,24 @@
     },
     "kenpom": {
         "conference_record": "13-7",
-        "overall_record": "23-9",
+        "overall_record": "24-8",
         "rating": 15,
-        "record": "0-0",
+        "record": "1-0",
         "remaining_games": [
-            {
-                "date": "Mon Nov 2",
-                "opponent": "Le Moyne",
-                "prob": "99.6%"
-            },
             {
                 "date": "Sat Nov 7",
                 "opponent": "Providence",
-                "prob": "69%"
+                "prob": "71%"
             },
             {
                 "date": "Wed Nov 11",
                 "opponent": "Lindenwood",
-                "prob": "99.6%"
+                "prob": "99.7%"
             },
             {
                 "date": "Sun Nov 15",
                 "opponent": "Boise St.",
-                "prob": "74%"
+                "prob": "75%"
             },
             {
                 "date": "Wed Nov 18",
@@ -243,62 +238,62 @@
             {
                 "date": "Wed Dec 2",
                 "opponent": "Ohio St.",
-                "prob": "64%"
+                "prob": "65%"
             },
             {
                 "date": "Sat Dec 5",
                 "opponent": "Creighton",
-                "prob": "54%"
+                "prob": "58%"
             },
             {
                 "date": "Tue Dec 8",
                 "opponent": "Penn St.",
-                "prob": "76%"
+                "prob": "74%"
             },
             {
                 "date": "Sat Dec 12",
                 "opponent": "Missouri",
-                "prob": "56%"
+                "prob": "58%"
             },
             {
                 "date": "Thu Dec 17",
                 "opponent": "Mount St. Mary's",
-                "prob": "99%"
+                "prob": "99.6%"
             },
             {
                 "date": "Sun Dec 20",
                 "opponent": "Fairleigh Dickinson",
-                "prob": "99.7%"
+                "prob": "99.8%"
             },
             {
                 "date": "Wed Dec 30",
                 "opponent": "New Haven",
-                "prob": "99.9%"
+                "prob": "99.8%"
             },
             {
                 "date": "Sat Jan 2",
                 "opponent": "Michigan St.",
-                "prob": "54%"
+                "prob": "55%"
             },
             {
                 "date": "Tue Jan 5",
                 "opponent": "Michigan",
-                "prob": "68%"
+                "prob": "70%"
             },
             {
                 "date": "Sun Jan 10",
                 "opponent": "Oregon",
-                "prob": "68%"
+                "prob": "69%"
             },
             {
                 "date": "Wed Jan 13",
                 "opponent": "Washington",
-                "prob": "70%"
+                "prob": "71%"
             },
             {
                 "date": "Sat Jan 16",
                 "opponent": "Iowa",
-                "prob": "75%"
+                "prob": "76%"
             },
             {
                 "date": "Tue Jan 19",
@@ -308,32 +303,32 @@
             {
                 "date": "Fri Jan 22",
                 "opponent": "UCLA",
-                "prob": "67%"
+                "prob": "68%"
             },
             {
                 "date": "Tue Jan 26",
                 "opponent": "Purdue",
-                "prob": "43%"
+                "prob": "47%"
             },
             {
                 "date": "Sat Jan 30",
                 "opponent": "Iowa",
-                "prob": "54%"
+                "prob": "55%"
             },
             {
                 "date": "Sat Feb 6",
                 "opponent": "Indiana",
-                "prob": "76%"
+                "prob": "77%"
             },
             {
                 "date": "Tue Feb 9",
                 "opponent": "Maryland",
-                "prob": "58%"
+                "prob": "59%"
             },
             {
                 "date": "Fri Feb 12",
                 "opponent": "Penn St.",
-                "prob": "90%"
+                "prob": "89%"
             },
             {
                 "date": "Tue Feb 16",
@@ -348,33 +343,33 @@
             {
                 "date": "Tue Feb 23",
                 "opponent": "USC",
-                "prob": "73%"
+                "prob": "74%"
             },
             {
                 "date": "Sat Feb 27",
                 "opponent": "Northwestern",
-                "prob": "78%"
+                "prob": "77%"
             },
             {
                 "date": "Wed Mar 3",
                 "opponent": "Wisconsin",
-                "prob": "49%"
+                "prob": "56%"
             },
             {
                 "date": "Sun Mar 7",
                 "opponent": "Minnesota",
-                "prob": "75%"
+                "prob": "76%"
             }
         ],
-        "sos": 11
+        "sos": 152
     },
     "massey_ratings": {
         "massey_rank": 21
     },
     "next_game": {
-        "away_team": "Le Moyne",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2330.png",
-        "date_time": "2026-11-03T00:30Z",
+        "away_team": "Providence",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
+        "date_time": "2026-11-08T00:00Z",
         "home_team": "Nebraska",
         "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -392,17 +387,17 @@
         "rank": "22"
     },
     "time": {
-        "iso_time": "2026-11-02T11:32:20.592766",
-        "time": "Nov. 2 at 11:32 AM"
+        "iso_time": "2026-11-02T21:42:42.233334",
+        "time": "Nov. 2 at 9:42 PM"
     },
     "trank": {
-        "torvik_NET": "16",
+        "torvik_NET": "13",
         "trank": 16,
-        "trank_make_tourney": 93.5,
+        "trank_make_tourney": "NA",
         "trank_proj_record": "23-9 (13-7)",
-        "trank_seed": "4",
-        "wab_rank": 1,
-        "wab_score": 0.0
+        "trank_seed": "NA",
+        "wab_rank": 69,
+        "wab_score": "+0.02"
     },
     "warrennolan": {
         "current_conf_record": "0-0",
@@ -411,8 +406,8 @@
         "quadrant_1": "0-0",
         "quadrant_2": "0-0",
         "quadrant_3": "0-0",
-        "quadrant_4": "0-0",
-        "record": "0-0",
-        "rpi": "4"
+        "quadrant_4": "1-0",
+        "record": "1-0",
+        "rpi": "1"
     }
 }
