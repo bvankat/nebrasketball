@@ -60,9 +60,7 @@ async function loadData() {
 
 var dotPlotData = {};
 	
-// replace this with NCAA when real NET is released. Nolan is approximation, but calculated earlier in season
-// Using Torvik NET Forecast as of Nov. 2023 - https://barttorvik.com/net4cast.php
-// Nolan NET matches NCAA NET on Dec. 11, 2023. Torvik NET is off by 7 spots (NCAA, Nolan: 68; Torvik 61)
+// Uses Torvik NET until NCAA release - usually in December.
 
 if ( data.ncaa ) {  
 	const delta = yesterdayData && yesterdayData.ncaa ? getDeltaHTML(data.ncaa.net_rank, yesterdayData.ncaa.net_rank) : '';
@@ -72,7 +70,12 @@ document.getElementById('ncaa-net').innerHTML = delta + data.ncaa.net_rank;
 	const delta = yesterdayData && yesterdayData.trank ? getDeltaHTML(data.trank.torvik_NET, yesterdayData.trank.torvik_NET) : '';
 	console.log('Torvik NET delta:', delta, 'Current:', data.trank.torvik_NET, 'Yesterday:', yesterdayData?.trank?.torvik_NET);
 	document.getElementById('ncaa-net').innerHTML = delta + data.trank.torvik_NET; 
-	// document.getElementById('ncaa-net-note').innerHTML = "projected"; 
+	document.getElementById('ncaa-net-note').innerHTML = "<a href='#footnotes'>[1]</a>"; 
+	document.getElementById('net-footnote').innerHTML = "[1] Projected using Torvik formula until NCAA release."; 
+} else {
+	console.log('No NET found.');
+	const delta = '';
+	document.getElementById('ncaa-net').innerHTML = 'NA';
 }
 
 if ( data.kenpom ) {
@@ -173,11 +176,22 @@ if (data.espn_bracketology) {
 }
 
 	if ( data.ncaa_wab ) {
-		document.getElementById('wab-score').innerHTML = data.ncaa_wab.ncaa_wab_score;
 		const wabDelta = yesterdayData && yesterdayData.ncaa_wab ? getDeltaHTML(data.ncaa_wab.ncaa_wab_rank, yesterdayData.ncaa_wab.ncaa_wab_rank) : '';
 		console.log('WAB delta:', wabDelta, 'Current:', data.ncaa_wab.ncaa_wab_rank, 'Yesterday:', yesterdayData?.ncaa_wab?.ncaa_wab_rank);
 		document.getElementById('wab-rank').innerHTML = wabDelta + data.ncaa_wab.ncaa_wab_rank;
-	}
+		document.getElementById('wab-footnote').innerHTML = " (per NCAA)"; 
+		document.getElementById('wab-score').innerHTML = data.ncaa_wab.ncaa_wab_score;
+	} else if (data.trank.wab_rank ) {
+		const delta = yesterdayData && yesterdayData.trank ? getDeltaHTML(data.trank.wab_rank, yesterdayData.trank.wab_rank) : '';
+		console.log('Torvik WAB delta:', delta, 'Current:', data.trank.wab_rank, 'Yesterday:', yesterdayData?.trank?.wab_rank);
+		document.getElementById('wab-rank').innerHTML = delta + data.trank.wab_rank; 
+		document.getElementById('wab-footnote').innerHTML = " (Torvik formula until NCAA release)"; 
+		document.getElementById('wab-score').innerHTML = data.trank.wab_score;
+	} else {
+		console.log('No WAB found.');
+		const delta = '';
+		document.getElementById('ncaa-net').innerHTML = 'NA';
+}
 
 	if ( data.haslametrics ) {
 		document.getElementById('haslam-rating').innerHTML = data.haslametrics.haslam_rating;
