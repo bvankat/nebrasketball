@@ -380,10 +380,12 @@ if (data.espn_bracketology) {
 	 let kpi_score;
 	 let rpi_score;
 	 let bauertology_score;
+	 let grantley_score;
 	 
 	 if( data.kpi_sports ) { kpi_score = FindScore(data.kpi_sports.kpi_ranking); }
 	 if (data.warrennolan ) { rpi_score = FindScore(data.warrennolan.rpi); }
 	 if (data.bauertology ) { bauertology_score = FindScore(data.bauertology.BRCT_rank); }
+	 if (data.grantley_cbb ) { grantley_score = FindScore(data.grantley_cbb.proj_rank); }
 	 
 	 
 	 // Intangibles: Don't think any of the systems has a way to value injuries and/or hype, so we need to add it. Check out sports-reference Win Shares, perhaps, for injuries data points. 
@@ -429,6 +431,7 @@ if (data.espn_bracketology) {
 		if (data.trank && typeof data.trank.trank !== 'undefined') raw_rankings.Torvik = data.trank.trank;
 		if (data.ncaa_wab && typeof data.ncaa_wab.ncaa_wab_rank !== 'undefined') raw_rankings.WAB = data.ncaa_wab.ncaa_wab_rank;
 		if (data.bauertology && typeof data.bauertology.BRCT_rank !== 'undefined') raw_rankings.Bauer = parseInt(data.bauertology.BRCT_rank);
+		if (data.grantley_cbb && typeof data.grantley_cbb.proj_rank !== 'undefined') raw_rankings.Grantley = parseInt(data.grantley_cbb.proj_rank);
 		
 		
 		// Initialize an array to hold the values that exist
@@ -494,8 +497,13 @@ if (data.espn_bracketology) {
 		}
 		
 		if (bauertology_score) { 
-			const Bauer_pct = { metric: "Bauertology BRCT", type: "combo", pct: bauertology_score };
+			const Bauer_pct = { metric: "Bauertology", type: "combo", pct: bauertology_score };
 			percentages.Bauer = Bauer_pct;
+		}
+		
+		if (grantley_score) { 
+			const Grantley_pct = { metric: "Grantley CBB", type: "predictive", pct: grantley_score };
+			percentages.Grantley = Grantley_pct;
 		}
 		
 		
