@@ -49,8 +49,9 @@
         "miya_resume_rank": "NA"
     },
     "grantley_cbb": {
+        "proj_rank": "12",
         "proj_record": "24-8",
-        "proj_seed": "12"
+        "proj_seed": "3"
     },
     "haslametrics": {
         "haslam_rating": "15",
@@ -413,8 +414,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-11-04T09:27:07.463189",
-        "time": "Nov. 4 at 9:27 AM"
+        "iso_time": "2026-11-04T09:36:45.515507",
+        "time": "Nov. 4 at 9:36 AM"
     },
     "trank": {
         "torvik_NET": "12",
