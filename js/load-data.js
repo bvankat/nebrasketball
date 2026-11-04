@@ -209,13 +209,17 @@ if (data.espn_bracketology) {
 	
 	if ( data.bauertology ) {
 		document.getElementById('bauertology-BRCT').innerHTML = data.bauertology.BRCT_rank;
+		document.getElementById('bauertology-seed-proj').innerHTML = data.bauertology.BRCT_seed;
 	}
 		
 	if ( data.sports_reference ) {
 		document.getElementById('sports-reference-srs').innerHTML = data.sports_reference.SRS_rank;
 	}
 	
-	
+	if ( data.grantley_cbb ) {
+		document.getElementById('grantley-record').innerHTML = data.grantley_cbb.proj_record;
+		document.getElementById('grantley-seed').innerHTML = data.grantley_cbb.proj_seed;
+	}
 
 	if ( data.teamrankings ) {
 		if (data.teamrankings.rank >= 60) {
