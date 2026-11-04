@@ -405,8 +405,8 @@
         "rank": "20"
     },
     "time": {
-        "iso_time": "2026-11-04T08:10:20.834382",
-        "time": "Nov. 4 at 8:10 AM"
+        "iso_time": "2026-11-04T08:36:41.861401",
+        "time": "Nov. 4 at 8:36 AM"
     },
     "trank": {
         "torvik_NET": "12",
@@ -416,5 +416,16 @@
         "trank_seed": "3",
         "wab_rank": 111,
         "wab_score": "+0.02"
+    },
+    "warrennolan": {
+        "current_conf_record": "0-0",
+        "elo": "28",
+        "nolan_net": "14",
+        "quadrant_1": "0-0",
+        "quadrant_2": "0-0",
+        "quadrant_3": "0-0",
+        "quadrant_4": "1-0",
+        "record": "1-0",
+        "rpi": "1"
     }
 }
