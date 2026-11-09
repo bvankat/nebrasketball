@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T09:16:25.968754",
+  "lastUpdated": "2026-11-08T19:58:38.933739",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -40,12 +40,15 @@
           "seasontype": 2,
           "competitors": [
             {
-              "winner": false,
+              "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-              "score": null,
+              "score": {
+                "value": 67.0,
+                "displayValue": "67"
+              },
               "gameRank": 99
             },
             {
@@ -54,7 +57,10 @@
               "team_nickname": "Providence",
               "slug": "providence-friars",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
-              "score": null,
+              "score": {
+                "value": 58.0,
+                "displayValue": "58"
+              },
               "gameRank": 99
             }
           ]
