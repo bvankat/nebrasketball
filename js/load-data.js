@@ -393,7 +393,7 @@ if (data.espn_bracketology) {
 	 // Quad 3 losses: -5 each
 	 // Quad 1 blowouts: -3 each?
 	 
-	 let intangibles = -10;
+	 let intangibles = -5;
 	 let intangibles_msg = "Early season uncertainty tax";
 	 
 	 
