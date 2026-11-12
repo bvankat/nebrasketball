@@ -319,23 +319,23 @@ if (data.espn_bracketology) {
 
 } // end Quadrants conditional
 
-	function FindScore(data) { // Calculate percentage chance based on previous at-large bids
-		 var score;
-		 if (data <= 30){ score = 99; } 
-		 if (data > 30 && data <= 35){ score = 95; } 
-		 if (data > 35 && data <= 40) { score = 90; } 
-		 if (data > 40 && data <= 43) { score = 80; } 
-		 if (data > 43 && data <= 45) { score = 70; }
-		 if (data > 45 && data <= 47) { score = 55; }
-		 if (data > 47 && data <= 51) { score = 30; }
-		 if (data > 51 && data <= 55) { score = 15; }
-		 if (data > 55 && data <= 60) { score = 10; }
-		 if (data > 60 && data <= 70) { score = 5; }
-		 if (data > 70 && data <= 80) { score = 2; } // Highest NET ranking to get bid: 77 in 2022, RPI 74 in 1999 
-		 if (data > 80) { score = 1; }
-		 
-		 return score;
-	 };
+	function FindScore(data) { // Chance of at-large bid, updated for 76-team field (44 at-large bids)
+	var score;
+	if      (data <= 35) { score = 99; } // was <=30. Rank 35 now has about the margin rank ~29 had.
+	else if (data <= 42) { score = 95; } // was 31-35
+	else if (data <= 48) { score = 90; } // was 36-40. Last 68-team cutline (~46) now sits safely inside.
+	else if (data <= 52) { score = 80; } // was 41-43
+	else if (data <= 55) { score = 70; } // was 44-45
+	else if (data <= 58) { score = 55; } // was 46-47. New bubble: 44 at-large + ~11-12 auto bids above the line
+	else if (data <= 62) { score = 30; } // was 48-51
+	else if (data <= 66) { score = 15; } // was 52-55
+	else if (data <= 72) { score = 10; } // was 56-60
+	else if (data <= 82) { score = 5;  } // was 61-70
+	else if (data <= 95) { score = 2;  } // was 71-80. Old worst at-large: NET 77 (2022), RPI 74 (1999), stretched for 8 more spots
+	else                 { score = 1;  }
+
+	return score;
+};
 	 
 
 	 // Calculations notes: 
