@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T11:20:48.718856",
+  "lastUpdated": "2026-11-19T09:14:29.693549",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -130,12 +130,15 @@
           "seasontype": 2,
           "competitors": [
             {
-              "winner": false,
+              "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-              "score": null,
+              "score": {
+                "value": 73.0,
+                "displayValue": "73"
+              },
               "gameRank": 24
             },
             {
@@ -144,24 +147,18 @@
               "team_nickname": "South Dakota",
               "slug": "south-dakota-coyotes",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png",
-              "score": null,
+              "score": {
+                "value": 47.0,
+                "displayValue": "47"
+              },
               "gameRank": 99
             }
           ]
         },
         {
-          "date": "2026-11-22T17:00Z",
+          "date": "2026-11-22T18:00Z",
           "seasontype": 2,
           "competitors": [
-            {
-              "winner": false,
-              "team_id": "158",
-              "team_nickname": "Nebraska",
-              "slug": "nebraska-cornhuskers",
-              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-              "score": null,
-              "gameRank": 24
-            },
             {
               "winner": false,
               "team_id": "2086",
@@ -170,6 +167,15 @@
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png",
               "score": null,
               "gameRank": 99
+            },
+            {
+              "winner": false,
+              "team_id": "158",
+              "team_nickname": "Nebraska",
+              "slug": "nebraska-cornhuskers",
+              "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+              "score": null,
+              "gameRank": 24
             }
           ]
         },
