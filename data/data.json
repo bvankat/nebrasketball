@@ -94,202 +94,197 @@
             {
                 "date": "11/02",
                 "opponent": "Le Moyne",
-                "team_win_prob": 0.9960946191478784
+                "team_win_prob": 0.9957508947520842
             },
             {
                 "date": "11/07",
                 "opponent": "Providence",
-                "team_win_prob": 0.7869303359537672
+                "team_win_prob": 0.7820003331633869
             },
             {
                 "date": "11/11",
                 "opponent": "Lindenwood",
-                "team_win_prob": 0.99540168197372
+                "team_win_prob": 0.9952255022565129
             },
             {
                 "date": "11/15",
                 "opponent": "Boise State",
-                "team_win_prob": 0.8934423498937413
+                "team_win_prob": 0.8996469137764521
             },
             {
                 "date": "11/18",
                 "opponent": "South Dakota",
-                "team_win_prob": 0.9949456290848022
+                "team_win_prob": 0.9947206482330327
             },
             {
                 "date": "11/22",
                 "opponent": "Butler",
-                "team_win_prob": 0.90913253068605
+                "team_win_prob": 0.9065829469242872
             },
             {
                 "date": "11/25",
                 "opponent": "Southern",
-                "team_win_prob": 0.9949392705693773
+                "team_win_prob": 0.9946856314052028
             },
             {
                 "date": "12/02",
                 "opponent": "Ohio State",
-                "team_win_prob": 0.7974616568786509
+                "team_win_prob": 0.7937477816838604
             },
             {
                 "date": "12/05",
                 "opponent": "Creighton",
-                "team_win_prob": 0.6808523460483653
+                "team_win_prob": 0.6724118378394264
             },
             {
                 "date": "12/08",
                 "opponent": "Penn State",
-                "team_win_prob": 0.8588584254791988
+                "team_win_prob": 0.8534253129394791
             },
             {
                 "date": "12/12",
                 "opponent": "Missouri",
-                "team_win_prob": 0.6248599094811205
+                "team_win_prob": 0.6185028903883857
             },
             {
                 "date": "12/17",
                 "opponent": "Mount St. Mary's",
-                "team_win_prob": 0.9964953858446262
+                "team_win_prob": 0.9963092115450308
             },
             {
                 "date": "12/20",
                 "opponent": "Fairleigh Dickinson",
-                "team_win_prob": 0.9962137626706856
+                "team_win_prob": 0.9960489825578344
             },
             {
                 "date": "12/30",
                 "opponent": "New Haven",
-                "team_win_prob": 0.9970665604092488
+                "team_win_prob": 0.9968220030160212
             },
             {
                 "date": "01/02",
                 "opponent": "Michigan State",
-                "team_win_prob": 0.58708458103998
+                "team_win_prob": 0.6030752284977046
             },
             {
                 "date": "01/05",
                 "opponent": "Michigan",
-                "team_win_prob": 0.6902214235836555
+                "team_win_prob": 0.6937798689837178
             },
             {
                 "date": "01/10",
                 "opponent": "Oregon",
-                "team_win_prob": 0.7126654729406114
+                "team_win_prob": 0.7063667292867474
             },
             {
                 "date": "01/13",
                 "opponent": "Washington",
-                "team_win_prob": 0.8283593735943386
+                "team_win_prob": 0.8265614476884637
             },
             {
                 "date": "01/16",
                 "opponent": "Iowa",
-                "team_win_prob": 0.808750173989817
+                "team_win_prob": 0.7864299897459351
             },
             {
                 "date": "01/19",
                 "opponent": "Illinois",
-                "team_win_prob": 0.2149267552031786
+                "team_win_prob": 0.2107424406702679
             },
             {
                 "date": "01/22",
                 "opponent": "UCLA",
-                "team_win_prob": 0.691858833681282
+                "team_win_prob": 0.6803790534270969
             },
             {
                 "date": "01/26",
                 "opponent": "Purdue",
-                "team_win_prob": 0.5568861942307035
+                "team_win_prob": 0.5354887491533821
             },
             {
                 "date": "01/30",
                 "opponent": "Iowa",
-                "team_win_prob": 0.6136686012605794
+                "team_win_prob": 0.5803935129967148
             },
             {
                 "date": "02/06",
                 "opponent": "Indiana",
-                "team_win_prob": 0.7835670387505017
+                "team_win_prob": 0.7660232010153798
             },
             {
                 "date": "02/09",
                 "opponent": "Maryland",
-                "team_win_prob": 0.6860111315734765
+                "team_win_prob": 0.6785658243273709
             },
             {
                 "date": "02/12",
                 "opponent": "Penn State",
-                "team_win_prob": 0.941859336611268
+                "team_win_prob": 0.9393958124521716
             },
             {
                 "date": "02/16",
                 "opponent": "Rutgers",
-                "team_win_prob": 0.8979871853686525
+                "team_win_prob": 0.8934785436384138
             },
             {
                 "date": "02/20",
                 "opponent": "Michigan State",
-                "team_win_prob": 0.3481402817997764
+                "team_win_prob": 0.3633496929491681
             },
             {
                 "date": "02/23",
                 "opponent": "USC",
-                "team_win_prob": 0.719283683106882
+                "team_win_prob": 0.7116371216241236
             },
             {
                 "date": "02/27",
                 "opponent": "Northwestern",
-                "team_win_prob": 0.909037438082814
+                "team_win_prob": 0.9068915385283371
             },
             {
                 "date": "03/03",
                 "opponent": "Wisconsin",
-                "team_win_prob": 0.7432893398603646
+                "team_win_prob": 0.7537095176473827
             },
             {
                 "date": "03/07",
                 "opponent": "Minnesota",
-                "team_win_prob": 0.8132193579664106
+                "team_win_prob": 0.7969960086855699
             }
         ],
-        "proj_record": "26.7-7.5",
+        "proj_record": "26.5-7.6",
         "seed": "3"
     },
     "kenpom": {
-        "conference_record": "14-6",
-        "overall_record": "25-7",
-        "rating": 10,
-        "record": "5-0",
+        "conference_record": "13-7",
+        "overall_record": "24-8",
+        "rating": 13,
+        "record": "6-0",
         "remaining_games": [
-            {
-                "date": "Sun Nov 22",
-                "opponent": "Butler",
-                "prob": "88%"
-            },
             {
                 "date": "Wed Nov 25",
                 "opponent": "Southern",
-                "prob": "99.7%"
+                "prob": "99.5%"
             },
             {
                 "date": "Wed Dec 2",
                 "opponent": "Ohio St.",
-                "prob": "77%"
+                "prob": "75%"
             },
             {
                 "date": "Sat Dec 5",
                 "opponent": "Creighton",
-                "prob": "65%"
+                "prob": "61%"
             },
             {
                 "date": "Tue Dec 8",
                 "opponent": "Penn St.",
-                "prob": "82%"
+                "prob": "80%"
             },
             {
                 "date": "Sat Dec 12",
                 "opponent": "Missouri",
-                "prob": "60%"
+                "prob": "56%"
             },
             {
                 "date": "Thu Dec 17",
@@ -299,7 +294,7 @@
             {
                 "date": "Sun Dec 20",
                 "opponent": "Fairleigh Dickinson",
-                "prob": "99.7%"
+                "prob": "99.6%"
             },
             {
                 "date": "Wed Dec 30",
@@ -309,133 +304,133 @@
             {
                 "date": "Sat Jan 2",
                 "opponent": "Michigan St.",
-                "prob": "64%"
+                "prob": "61%"
             },
             {
                 "date": "Tue Jan 5",
                 "opponent": "Michigan",
-                "prob": "74%"
+                "prob": "70%"
             },
             {
                 "date": "Sun Jan 10",
                 "opponent": "Oregon",
-                "prob": "73%"
+                "prob": "70%"
             },
             {
                 "date": "Wed Jan 13",
                 "opponent": "Washington",
-                "prob": "79%"
+                "prob": "76%"
             },
             {
                 "date": "Sat Jan 16",
                 "opponent": "Iowa",
-                "prob": "74%"
+                "prob": "72%"
             },
             {
                 "date": "Tue Jan 19",
                 "opponent": "Illinois",
-                "prob": "25%"
+                "prob": "23%"
             },
             {
                 "date": "Fri Jan 22",
                 "opponent": "UCLA",
-                "prob": "70%"
+                "prob": "64%"
             },
             {
                 "date": "Tue Jan 26",
                 "opponent": "Purdue",
-                "prob": "55%"
+                "prob": "51%"
             },
             {
                 "date": "Sat Jan 30",
                 "opponent": "Iowa",
-                "prob": "52%"
+                "prob": "50%"
             },
             {
                 "date": "Sat Feb 6",
                 "opponent": "Indiana",
-                "prob": "76%"
+                "prob": "73%"
             },
             {
                 "date": "Tue Feb 9",
                 "opponent": "Maryland",
-                "prob": "67%"
+                "prob": "64%"
             },
             {
                 "date": "Fri Feb 12",
                 "opponent": "Penn St.",
-                "prob": "93%"
+                "prob": "92%"
             },
             {
                 "date": "Tue Feb 16",
                 "opponent": "Rutgers",
-                "prob": "87%"
+                "prob": "84%"
             },
             {
                 "date": "Sat Feb 20",
                 "opponent": "Michigan St.",
-                "prob": "41%"
+                "prob": "38%"
             },
             {
                 "date": "Tue Feb 23",
                 "opponent": "USC",
-                "prob": "71%"
+                "prob": "67%"
             },
             {
                 "date": "Sat Feb 27",
                 "opponent": "Northwestern",
-                "prob": "89%"
+                "prob": "83%"
             },
             {
                 "date": "Wed Mar 3",
                 "opponent": "Wisconsin",
-                "prob": "75%"
+                "prob": "71%"
             },
             {
                 "date": "Sun Mar 7",
                 "opponent": "Minnesota",
-                "prob": "70%"
+                "prob": "66%"
             }
         ],
-        "sos": 268
+        "sos": 202
     },
     "massey_ratings": {
         "massey_rank": 11
     },
     "next_game": {
-        "away_team": "Nebraska",
-        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "date_time": "2026-11-22T17:00Z",
-        "home_team": "Butler",
-        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png"
+        "away_team": "Southern",
+        "away_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png",
+        "date_time": "2026-11-25T22:00Z",
+        "home_team": "Nebraska",
+        "home_team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     "polls": {
         "ap_rank": 24,
         "coaches_rank": 20
     },
     "sports_reference": {
-        "SRS_rank": 15
+        "SRS_rank": 13
     },
     "teamrankings": {
-        "make_tournament": "91.4%",
+        "make_tournament": "91.3%",
         "most_likely_seed": "3",
-        "proj_conf_record": "13.2-6.8",
+        "proj_conf_record": "13.3-6.7",
         "projected_bid_pct": "100%",
         "projected_losses": "6",
         "projected_wins": "26",
         "rank": "16"
     },
     "time": {
-        "iso_time": "2026-11-22T00:19:21.432748",
-        "time": "Nov. 22 at 12:19 AM"
+        "iso_time": "2026-11-22T22:14:04.983929",
+        "time": "Nov. 22 at 10:14 PM"
     },
     "trank": {
-        "torvik_NET": "12",
-        "trank": 12,
+        "torvik_NET": "15",
+        "trank": 13,
         "trank_make_tourney": 98.3,
         "trank_proj_record": "24-8 (13-7)",
         "trank_seed": "3",
-        "wab_rank": 22,
-        "wab_score": "+0.9"
+        "wab_rank": 10,
+        "wab_score": "+1.2"
     }
 }
