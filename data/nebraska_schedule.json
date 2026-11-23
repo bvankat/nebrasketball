@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T10:33:17.722781",
+  "lastUpdated": "2026-11-23T10:20:12.904604",
   "teams": {
     "nebraska-cornhuskers": {
       "espn_id": "158",
@@ -165,16 +165,22 @@
               "team_nickname": "Butler",
               "slug": "butler-bulldogs",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png",
-              "score": null,
+              "score": {
+                "value": 74.0,
+                "displayValue": "74"
+              },
               "gameRank": 99
             },
             {
-              "winner": false,
+              "winner": true,
               "team_id": "158",
               "team_nickname": "Nebraska",
               "slug": "nebraska-cornhuskers",
               "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-              "score": null,
+              "score": {
+                "value": 76.0,
+                "displayValue": "76"
+              },
               "gameRank": 24
             }
           ]
